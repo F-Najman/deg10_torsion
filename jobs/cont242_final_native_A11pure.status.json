@@ -1,0 +1,19 @@
+{
+  "purpose": "cont242_final_native_A11pure",
+  "script": "computations/cont242_final_native_A11pure.m",
+  "script_sha256": "9fe10f8c3eac9f5a00dbbbf9857886e0d55ea79e348c3922bed6a9acc2c39e08",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont242_final_native_A11pure.m"
+  ],
+  "pid": 2436537,
+  "owner_uid": 1001,
+  "start_time_unix": 1793384646.0070093,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/cont242_final_native_A11pure.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 61.909942865371704
+}

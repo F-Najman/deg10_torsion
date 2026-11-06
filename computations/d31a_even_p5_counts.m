@@ -1,0 +1,1 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(5*10^9);tt:=Cputime();for N in[48,54,66]do fp:=FrobeniusPolynomial(JOne(N),5);Write(Sprintf("work/deg10/continuation_20261031a/C%o/frobenius_p5.m",N),Sprint([Integers()!a:a in Coefficients(fp)]):Overwrite:=true);print "D31A_P5_SOURCE_FROBENIUS_COMPLETE",N,Degree(fp),Cputime(tt);end for;quit;

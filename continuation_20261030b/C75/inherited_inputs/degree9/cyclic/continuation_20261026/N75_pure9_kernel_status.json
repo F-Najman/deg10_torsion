@@ -1,0 +1,24 @@
+{
+  "cmd": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/cyclic/continuation_20261026/N75_pure9_kernel.m"
+  ],
+  "pid": 1806568,
+  "start_ticks": 182454008,
+  "started_utc": "2026-10-26T12:25:22.700406+00:00",
+  "cpu_limit": 7200,
+  "wall_limit": 21600,
+  "status": "EXITED",
+  "elapsed_wall_seconds": 1419.5421347478405,
+  "cpu_seconds": 723.32,
+  "last_log_lines": [
+    "N75_D2_AUTOMORPHISM_VERIFIED 38.480",
+    "N75_ORBIT_REPRESENTATIVE_CUSPS 1 1 [ <25, 1>, <75, 1> ]",
+    "699.710",
+    "N75_ORBIT_REPRESENTATIVE_CUSPS 7 4 [ <5, 4>, <15, 4> ]",
+    "700.320"
+  ],
+  "native_exit_code": 0,
+  "log_sha256": "707e23058eff7b8e47192dc79dc2025cf68a0a64bddbbd58323fc00d79898c83"
+}

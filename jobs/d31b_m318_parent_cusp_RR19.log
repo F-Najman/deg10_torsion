@@ -1,0 +1,7 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_parent_cusp_RR19.m", line 2, column 142:
+>> s.m");assert a[1]eq 19 and a[4]eq rep[1] and a[5]eq rep[2];k:=GF(19);PK:=Po
+                                  ^
+Runtime error: Bad argument types
+Argument types given: SeqEnum[SeqEnum[RngIntElt]], List
+

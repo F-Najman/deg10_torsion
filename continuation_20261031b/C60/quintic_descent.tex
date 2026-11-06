@@ -1,0 +1,58 @@
+\begin{lemma}\label{lem:decic60-quintic-descent}
+Let $F$ be a quintic number field, and suppose that $E/F$ has a point
+of order $30$. Put $L=F(E[2])$, and suppose that $[L:F]=2$.
+No curve over $L$ obtained from $E$ by a $2$-isogeny has a point
+of order $60$.
+\end{lemma}
+\begin{proof}
+The classification of quintic points on $X_1(30)$ gives the two
+curves $E_{30},E_{30}'$ over
+$F=\mathbb Q(\alpha)$, where
+$\alpha^5+\alpha^4-3\alpha^3+3\alpha+1=0$.
+We use the printed Tate models in the quintic classification.
+They are $2$-isogenous over $F$.
+For each model, its $2$-division polynomial has one linear and
+one irreducible quadratic factor $h$ over $F$.
+The exact calculations in \path{quintic_2tower.m} give
+\[
+ -\operatorname{disc}(h)\notin F^{\times2}.
+\]
+Since $[F:\mathbb Q]$ is odd, $i\notin F$; hence $i\notin L$.
+The same calculation shows that the polynomial for halving the
+chosen point of order $30$ is irreducible of degree $4$ over $F$,
+for both curves.
+
+Both full $2$-division fields have a degree-one prime above $53$
+at which the curve has good reduction with exactly $60$ points.
+The explicit quintic and quadratic residue roots are recorded in
+the pinned full-$2$ certificates. Thus torsion on every
+$L$-rational $2$-isogenous curve has order dividing $60$.
+In particular, $E(L)_{\mathrm{tors}}=C_2\times C_{30}$.
+The quotient by the $F$-rational point of order $2$ is the other
+quintic model. It has no point of order $4$ over $L$: otherwise its
+$2$-primary torsion is cyclic of order $4$, and halving a generator
+of its $F$-rational subgroup of order $30$ would be possible over
+$L$, contrary to the irreducible quartic.
+
+Complete the square and write the roots of the $2$-division cubic
+as $r_0,r_1,r_2$, with $r_0\in F$ and $r_1,r_2$ exchanged by the
+nontrivial element $\sigma$ of $\operatorname{Gal}(L/F)$.
+A point $(r_0,0)$ is divisible by $2$ precisely when both
+$r_0-r_1$ and $r_0-r_2$ are squares. Since they are conjugate and
+$E(L)$ has no point of order $4$, both are nonsquares.
+The absence of order $4$ on the quotient by $(r_0,0)$ similarly
+shows that $r_1-r_0$ and $r_2-r_0$ are nonsquares.
+Here we use the usual $2$-isogeny formula: on the quotient by
+$(r_j,0)$, the nonzero dual-kernel point is divisible by $2$ if and
+only if at least one of the two differences $r_k-r_j$, $k\ne j$,
+is a square.
+
+Suppose that the quotient by $(r_1,0)$ has a point of order $4$.
+Its $2$-primary torsion has order at most $4$, so that point halves
+the dual-kernel point. The formula just recalled implies that
+$r_2-r_1$ is a square, since $r_0-r_1$ is not.
+Applying $\sigma$ shows that its negative is also a square.
+This gives $i\in L$, a contradiction. The quotient by $(r_2,0)$
+is conjugate and is excluded as well. None of the three quotients
+has a point of order $4$, and hence none has a point of order $60$.
+\end{proof}

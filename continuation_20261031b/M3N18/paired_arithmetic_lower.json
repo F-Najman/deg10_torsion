@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "full_target_quintics_included": false,
+  "source_patterns": 3622,
+  "source_after_split_Hecke": 3622,
+  "split_Hecke_filter_applied": false,
+  "source_Aut_stable_nine_multiple_keys": 1027,
+  "target_patterns": 17430,
+  "matched_target_patterns": 5076,
+  "matched_pattern_types": {
+    "2": 1146,
+    "3": 1704,
+    "4": 1188,
+    "22": 648,
+    "23": 390
+  },
+  "source_genus": 10,
+  "relative_degree": 5,
+  "cuspidal_saturation_assumed": false,
+  "elapsed_seconds": 11.762085335329175
+}

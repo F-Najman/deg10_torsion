@@ -1,0 +1,57 @@
+[
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/M2N42_D9_direct_full4_arithmetic.txt",
+    "copy": "work/deg10/next_cases_20261030/C242/source4.m",
+    "sha256": "7d76f738c7c1d5b408ed65708cc648d2ba733b041e6da29f4ae8d9f435417551"
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/M2N42_D9_direct_full5_arithmetic.txt",
+    "copy": "work/deg10/next_cases_20261030/C242/source5.m",
+    "sha256": "fb0386aef3b28948cf6d549ea4860b4079fe4e933f545ffd8531ff378d790e4d"
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/M2N42_D9_direct_full6_arithmetic.txt",
+    "copy": "work/deg10/next_cases_20261030/C242/source6.m",
+    "sha256": "ecf57fd1451895cd399faf30d69ea9907c3cc4b0a89b2bf088f96749e688581d"
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/M2N42_D9_direct_full7_arithmetic.txt",
+    "copy": "work/deg10/next_cases_20261030/C242/source7.m",
+    "sha256": "a2bffaf12105fcbbdd5428e990187381f2f77f82ea3286015522cc24f6db8d1b"
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/M2N42_D9_direct_full8_arithmetic.txt",
+    "copy": "work/deg10/next_cases_20261030/C242/source8.m",
+    "sha256": "c8bc402fc879eed16454cf649736b070f3b6a3932d20623d12bd9ba53eed2f2e"
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/M2N42_D9_direct_full9_arithmetic.txt",
+    "copy": "work/deg10/next_cases_20261030/C242/source9.m",
+    "sha256": "0242b97d8317eae3f0aad475ce3a9132d225d17c9841e2aa22d4126dfc915ef5"
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/source_frobenius.txt",
+    "copy": "work/deg10/next_cases_20261030/C242/source_frobenius_degree9.m",
+    "sha256": "b4de391d5d81b001298d6ea29825d8a2302df127af636810a13af9058ad3642d"
+  },
+  {
+    "source": "work/deg10/C236_resolution_20261030/enumeration/deps/native_group_generators.m",
+    "copy": "work/deg10/next_cases_20261030/C242/deps/native_group_generators.m",
+    "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1"
+  },
+  {
+    "source": "work/deg10/C236_resolution_20261030/enumeration/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "copy": "work/deg10/next_cases_20261030/C242/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6"
+  },
+  {
+    "source": "work/deg10/C236_resolution_20261030/enumeration/deps/pair_af_place_linear.m",
+    "copy": "work/deg10/next_cases_20261030/C242/deps/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/deg10/C236_resolution_20261030/enumeration/deps/portable_forward.m",
+    "copy": "work/deg10/next_cases_20261030/C242/deps/portable_forward.m",
+    "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49"
+  }
+]

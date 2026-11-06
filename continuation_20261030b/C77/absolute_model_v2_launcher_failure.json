@@ -1,0 +1,7 @@
+{
+  "state": "EXITED initialization failure",
+  "launcher_exit_code": 1,
+  "worker_actual_exit_code": null,
+  "reason": "An earlier identity assertion prevented writing the v2 script; run_job then received a nonexistent path. No v2 worker remains. Its log is preserved; no mathematical certificate is asserted.",
+  "not_a_certificate": true
+}

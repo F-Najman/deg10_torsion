@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_geometric_fast_p13",
+  "script": "computations/d31b_m318_geometric_fast_p13.m",
+  "script_sha256": "ee200a6f1244323d242ad4684243e0b4c5f6a5b6ddaa3613d3ec4135251de66b",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_geometric_fast_p13.m"
+  ],
+  "pid": 3648638,
+  "owner_uid": 1001,
+  "start_time_unix": 1793441458.5480282,
+  "state": "EXITED",
+  "time_limit_seconds": 960,
+  "log": "jobs/d31b_m318_geometric_fast_p13.log",
+  "actual_exit_code": -14,
+  "termination_reason": null,
+  "elapsed_seconds": 900.0738954544067
+}

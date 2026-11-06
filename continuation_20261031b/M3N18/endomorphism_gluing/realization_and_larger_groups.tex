@@ -1,0 +1,48 @@
+\begin{corollary}\label{cor:decic318-realization-and-frontier}
+The group $C_3\times C_{18}$ occurs as full torsion over a decic
+number field. Every elliptic curve over a decic field whose torsion
+contains $C_3\times C_{18}$ has full torsion exactly
+$C_3\times C_{18}$. In particular, neither $C_3\times C_{36}$
+nor $C_6\times C_{18}$ occurs.
+\end{corollary}
+\begin{proof}
+Put $F=\mathbb Q(\zeta)$, where $\zeta^2+\zeta+1=0$, and let
+$K=F(u)$, where
+\[
+ u^5+\frac{5\zeta+1}{3}u^4+(2\zeta-1)u^3
+ -(2\zeta+3)u^2-\frac{5\zeta+4}{3}u+1=0.
+\]
+This polynomial is irreducible over $F$. Put
+\[
+ t=\frac{(4\zeta-25)u^4+(12-65\zeta)u^3+(20+31\zeta)u^2
+              +(69+30\zeta)u+3\zeta-33}{19}.
+\]
+The curve
+\[
+ E:y^2+\bigl((u+2)t-u+1\bigr)xy
+          +\bigl((u+1)t^2-ut\bigr)y=x^3
+\]
+has the independent marked points $P=(0,0)$ and $Q=(-t,t^2)$
+of orders $3$ and $18$. The certificate checks these identities
+exactly, as well as the nontrivial Weil pairing. Thus
+$[K:\mathbb Q]=10$ and $C_3\times C_{18}\subset E(K)$.
+
+The preceding classification gives two orbits under the marking
+group $G$. They are represented by $E$ and its quotient by
+$\langle9Q\rangle$. The marking group changes the points without
+changing the underlying elliptic curve. Both traces at the chosen
+prime above $7$ contain the recorded quadratic noncuspidal place,
+with multiplicity one. Hence the decic field has an unramified
+prime with residue field $\mathbb F_{49}$ at which the curve has
+good reduction. The displayed subgroup survives there. The Hasse
+bound gives
+\[
+                 36\leq\#E(\mathbb F_{49})\leq64,
+\]
+so this order is $54$. Torsion injects over the unramified local
+field at the odd prime $7$. Consequently the full torsion has
+order $54$, and is exactly $C_3\times C_{18}$.
+This applies to both classified curves and every marking.
+The two larger groups in the statement have order $108$, so they
+are impossible.
+\end{proof}

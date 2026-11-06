@@ -1,0 +1,8 @@
+Loading "work/deg10/computations/d31b_C56_parent_basis_common_v2.m"
+
+In file "work/deg10/computations/d31b_C56_parent_basis_common_v2.m", line 16, column 35:
+>>  assert res[3]eq b[1]and res[4..5]eq dims and res[8]eq 0;Append(~out,[id,q,
+                                     ^
+Runtime error: Bad argument types
+Argument types given: List, SeqEnum[RngIntElt]
+

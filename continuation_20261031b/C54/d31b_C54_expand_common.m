@@ -1,0 +1,12 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(5*10^9);Alarm(1400);tt:=Cputime();AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");load "work/deg10/continuation_20261031b/C54/inputs/portable_forward.m";load "work/deg10/continuation_20261031b/C54/inputs/pair_af_place_linear.m";
+root:="work/deg10/continuation_20261031b/C54/";a:=eval Read(root cat "inputs/target27_proven_picard.m");k:=GF(5);PK:=PolynomialRing(k);B<t>:=FunctionField(k);R<Y>:=PolynomialRing(B);
+function Rat(v)return B!(PK!v[1])/B!(PK!v[2]);end function;F<y>:=FunctionField(R![Rat(v):v in a[1]]);assert Genus(F)eq 13;
+function FF(v)return F![Rat(z):z in v];end function;OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);
+function Prime(v)O:=v[2]eq 1 select OF else OI;I:=ideal<O|[FF(z):z in v[3]]>;p:=Place(I);assert Degree(p)eq v[1];return p;end function;
+fb:=[Prime([*a[3][i],a[2][i],a[4][i]*]):i in[1..#a[3]]];A:=Divisor(Prime(a[12]));Z:=FreeAbelianGroup(#a[6][1]);G,q:=quo<Z|[Z!v:v in a[6]]>;H:=sub<G|[q(Z!v):v in a[13]]>;coords:=[FF(v):v in a[7]];ph,wh:=C240PortableDirectRR(F,fb,[q(Z!v):v in a[5]],G,A,root cat TAG cat "_class.log");
+function ER(v)return [[Integers()!a:a in Coefficients(Numerator(v))],[Integers()!a:a in Coefficients(Denominator(v))]];end function;
+function EF(v)return [ER(a):a in Eltseq(F!v)];end function;
+function PD(p)return [*Degree(p),Order(Ideal(p))eq OF select 1 else 0,[EF(v):v in Basis(Ideal(p))]*];end function;
+ps:=Places(F,DEGREE);rows:=[* *];print "D31B_C54_EXPANDED_PRIMES_READY",DEGREE,#ps,Cputime(tt);
+for p in ps do cl:=ph(Divisor(p)-DEGREE*A);Append(~rows,[*PD(p),Eltseq(cl)*]);if #rows mod 50 eq 0 then Write(root cat TAG cat "_progress.m",Sprint(rows):Overwrite:=true);print "D31B_C54_EXPANDED_CLASS_PROGRESS",DEGREE,#rows,#ps,Cputime(tt);end if;end for;
+Write(root cat TAG cat ".m",Sprint(rows):Overwrite:=true);fprintf wh,"]\n";Flush(wh);print "D31B_C54_EXPANDED_CLASS_COMPLETE",DEGREE,#rows,Cputime(tt);quit;

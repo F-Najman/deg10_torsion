@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_image135_a16_no2",
+  "script": "computations/cont_image135_a16_no2.m",
+  "script_sha256": "a9bd96814a3edca6eb430ce7d9b9021695204e7b268699b3ccf2f15f9b87eee4",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_image135_a16_no2.m"
+  ],
+  "pid": 252181,
+  "owner_uid": 1001,
+  "start_time_unix": 1793284972.3774953,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/cont_image135_a16_no2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.3643307685852051
+}

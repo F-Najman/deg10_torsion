@@ -1,0 +1,18 @@
+{
+  "purpose": "cont69_independent_moduli_v4",
+  "script": "computations/cont69_independent_moduli_v4.py",
+  "script_sha256": "dd2d420cf3fd8692dab4b0c3bd68de27e0e7857c5751ce974066eb760e7cc478",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont69_independent_moduli_v4.py"
+  ],
+  "pid": 2424034,
+  "owner_uid": 1001,
+  "start_time_unix": 1793384054.2725585,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/cont69_independent_moduli_v4.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 4.421202659606934
+}

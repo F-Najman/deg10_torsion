@@ -1,0 +1,19 @@
+{
+  "purpose": "contc99_quotient33_RR",
+  "script": "computations/contc99_quotient33_RR.m",
+  "script_sha256": "4b2ec99894c88e3407a02ec16a477b12cd1a834b11c315523ada4e0f31f5223b",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc99_quotient33_RR.m"
+  ],
+  "pid": 2728009,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398477.4234006,
+  "state": "EXITED",
+  "time_limit_seconds": 700,
+  "log": "jobs/contc99_quotient33_RR.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 5.372195243835449
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_geom_x0_42_cusp_audit",
+  "script": "computations/next242_geom_x0_42_cusp_audit.m",
+  "script_sha256": "47708309f635f58ba362c06450e7186f72b2a58c9c501ab25eb507812a17195f",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_x0_42_cusp_audit.m"
+  ],
+  "pid": 2407040,
+  "owner_uid": 1001,
+  "start_time_unix": 1793383263.712003,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next242_geom_x0_42_cusp_audit.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 59.560386657714844
+}

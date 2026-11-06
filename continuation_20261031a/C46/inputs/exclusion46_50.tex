@@ -1,0 +1,64 @@
+\input{cyclic/continuation_20261026/odd_prime_criteria.tex}
+\begin{proposition}\label{prop:nonic-no46-50}
+An elliptic curve over a number field of degree $9$ has no point of
+order $46$ or $50$.
+\end{proposition}
+\begin{proof}
+For $N=46,50$, the rational Jacobian of $X_1(N)$ has rank zero by
+\cite[Theorem~3.1(2)]{DEHMZ}, and its rational gonality is at least $10$
+by \cite[Table~1]{NV}. Lemma~\ref{lem:nonic-cont-odd-cuspidal}, with
+$d=9$ and $p=3$, excludes entirely cuspidal reduction.
+
+The noncuspidal closed-place counts over $\mathbb F_3$, through degree
+$9$, are respectively
+\[
+ (0,0,0,55,44,55,264,781,1958),\qquad
+ (0,0,0,0,0,60,200,1045,2040).
+\]
+Independent counts using Frobenius similarity classes give the same
+numbers. The finite cusp signatures are $1^{22},11^2$ and
+$1^{20},4^4,10^2$. In both cases the displayed finite cusp orbits have
+the same degrees as their global cyclotomic orbits.
+Thus every cuspidal complement of a nonempty support, of degree at most
+$5$ for $N=46$ and at most $3$ for $N=50$, is rationally liftable.
+In the second case all these complements are supported on rational cusps.
+The exact cusp-field calculation verifies that the permitted primes are
+$5,7,11,13,17,19$ for $N=46$ and $7,11,13,17,19$ for $N=50$.
+
+Use the maps $X_1(46)\to X_1(23)$ and $X_1(50)\to X_1(25)$
+which double the level point. The two target rational Jacobians are
+cuspidally generated, of orders $408991$ and $227555$, by
+\cite[Corollary~4.14 and Table~4]{DEHMZ}.
+At $3$ their exact finite degree-zero class groups are cyclic of orders
+$9406793$ and $2503105$. The quotients by the global rational cuspidal
+images are $C_{23}$ and $C_{11}$. Every effective target cuspidal
+complement of degree at most $9$ has zero class in the respective
+quotient. We apply Lemma~\ref{lem:nonic-cont-quotient-cusps}, including
+residue-field multiplicities in every pushforward, then the permitted
+$A_q$ tests on the source when needed.
+
+For $N=46$ the complete support types are
+\[
+ (4),(5),(6),(7),(8),(4,4),(9),(5,4).
+\]
+The test counts, after applying diamonds to the first support, are
+\[
+ 5,4,5,24,71,275,178,220.
+\]
+For the mixed types, the other support ranges through all $55$ quartic
+places; repetitions are included. For $N=50$ the support types are
+$(6),(7),(8),(9)$ and the counts are $6,20,107,204$.
+All $782$ and $337$ tests are negative.
+
+The computations for supports of degree at most $8$ are immutable
+finite-field calculations from the preceding project. Their transfer
+uses no exclusion in another number-field degree: the supports,
+Hecke divisors and principality tests are unchanged, all the old primes
+remain permitted for the larger complements, and the target quotient
+complement classes remain zero. These conditions are checked afresh
+in the degree-$9$ logs. The new degree-$9$ support types are exhausted
+in separate complete native runs, each with exit code $0$.
+The independent coverage audit enumerates all $96$ integer partitions
+of degrees one through nine. Untouched native isogeny calculations
+also reproduce the fast Hecke divisor on a source support for each level. No nonempty support remains, proving the proposition.
+\end{proof}

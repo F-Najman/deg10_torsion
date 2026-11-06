@@ -1,0 +1,22 @@
+{
+  "source_place_degree": 6,
+  "cuspidal_complements": [
+    [
+      18,
+      18
+    ],
+    [
+      18,
+      22
+    ],
+    [
+      22,
+      22
+    ]
+  ],
+  "cusp_degrees": [
+    2,
+    2
+  ],
+  "status": "Necessary reduction patterns after the exact Hecke-5 action"
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_c21_sage_replay.py", line 2, in <module>
+    runpy.run_path('work/deg10/next_cases_20261030/C242/geometry/replay_cyclic21.py',run_name='__main__')
+  File "<frozen runpy>", line 290, in run_path
+  File "<frozen runpy>", line 259, in _get_code_from_file
+  File "work/deg10/next_cases_20261030/C242/geometry/replay_cyclic21.py", line 34
+    assert 21*U==EP(0)and7*U!=EP(0)and3*U!=EP(0);xy=tate(EP,U);assert xy==[R(v)(z)for v in vals];de=min(int(j)for j in divisors(d)if all(v**(5**int(j))==v for v in xy));assert de==e and w==d//e;cache[mapno,d,tuple(key)]=cl
+                      ^^^^
+SyntaxError: invalid syntax

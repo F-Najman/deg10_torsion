@@ -1,0 +1,82 @@
+[
+  {
+    "purpose": "late238_control_s0",
+    "script": "computations/late238_control_s0.m",
+    "script_sha256": "7960bcbb8afbe0313f5b4c14fc833530eb595f9a193b8052ba69defa9c62d32e",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late238_control_s0.m"
+    ],
+    "pid": 935305,
+    "owner_uid": 1001,
+    "start_time_unix": 1793316050.9555445,
+    "state": "EXITED",
+    "time_limit_seconds": 600,
+    "log": "jobs/late238_control_s0.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 47.19310688972473,
+    "host_magma_before_admission": 4
+  },
+  {
+    "purpose": "late238_control_s1",
+    "script": "computations/late238_control_s1.m",
+    "script_sha256": "3323dc5f3cf18961daaca58a568efea770e7008d346fc6d2158667893b6173fd",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late238_control_s1.m"
+    ],
+    "pid": 935313,
+    "owner_uid": 1001,
+    "start_time_unix": 1793316051.2226586,
+    "state": "EXITED",
+    "time_limit_seconds": 600,
+    "log": "jobs/late238_control_s1.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 104.86343502998352,
+    "host_magma_before_admission": 5
+  },
+  {
+    "purpose": "late238_control_s2",
+    "script": "computations/late238_control_s2.m",
+    "script_sha256": "c93e94caeaba5e8856863c18c71841ce10326c56d52741a7e70c9aef7b36ea6a",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late238_control_s2.m"
+    ],
+    "pid": 935321,
+    "owner_uid": 1001,
+    "start_time_unix": 1793316051.4866185,
+    "state": "EXITED",
+    "time_limit_seconds": 600,
+    "log": "jobs/late238_control_s2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 119.89936137199402,
+    "host_magma_before_admission": 6
+  },
+  {
+    "purpose": "late238_control_s3",
+    "script": "computations/late238_control_s3.m",
+    "script_sha256": "5bbc39963d82780f42f67c0284899db9e0250be21fc687c6dade6bb16d61a70c",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late238_control_s3.m"
+    ],
+    "pid": 935328,
+    "owner_uid": 1001,
+    "start_time_unix": 1793316051.7532437,
+    "state": "EXITED",
+    "time_limit_seconds": 600,
+    "log": "jobs/late238_control_s3.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 58.21343493461609,
+    "host_magma_before_admission": 7
+  }
+]

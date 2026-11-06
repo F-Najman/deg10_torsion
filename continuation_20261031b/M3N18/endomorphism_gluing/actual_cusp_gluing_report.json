@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "scope": "Actual unmultiplied class gluing via known global cusp subgroup; injectivity at7 fixes the global torsion class",
+  "tested_pairs": 2,
+  "remaining_pairs": 2,
+  "observations": [
+    {
+      "target_id": 13900,
+      "target_descriptor": [
+        5,
+        106,
+        []
+      ],
+      "source_pattern": 3514,
+      "source_descriptor": [
+        23,
+        1,
+        36
+      ],
+      "source_normalizing_Aut": 11,
+      "source_class": [
+        453,
+        286,
+        192,
+        363,
+        1785,
+        11345,
+        7992,
+        23148
+      ],
+      "target_class": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        3,
+        2,
+        16,
+        8,
+        84
+      ],
+      "cusp_coefficients": [
+        0,
+        -35005803372740,
+        648295809309,
+        -2267155232,
+        -27800417,
+        3966224,
+        98931,
+        -99814,
+        0,
+        -4248,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "predicted_target_class": [
+        -33711478909354,
+        -68719549645450,
+        0,
+        0,
+        0,
+        -34357555038203,
+        1944732511353,
+        -276165780464509,
+        -652834810138817,
+        -2353340973651814,
+        -4659978104826828
+      ],
+      "unmultiplied_cuspidal_gluing": true
+    },
+    {
+      "target_id": 14996,
+      "target_descriptor": [
+        5,
+        1202,
+        []
+      ],
+      "source_pattern": 3561,
+      "source_descriptor": [
+        23,
+        1,
+        83
+      ],
+      "source_normalizing_Aut": 6,
+      "source_class": [
+        508,
+        470,
+        537,
+        969,
+        2100,
+        15333,
+        2819,
+        21996
+      ],
+      "target_class": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7,
+        43,
+        100,
+        264
+      ],
+      "cusp_coefficients": [
+        0,
+        -22384235936112,
+        414548683018,
+        -1449701006,
+        -17776161,
+        2535704,
+        63121,
+        -64377,
+        0,
+        -2382,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "predicted_target_class": [
+        -21556588271082,
+        -43942274041718,
+        0,
+        0,
+        0,
+        -21969717610148,
+        1243546992054,
+        -176592432385748,
+        -417451020565403,
+        -1504828752142994,
+        -2979793015627668
+      ],
+      "unmultiplied_cuspidal_gluing": true
+    }
+  ]
+}

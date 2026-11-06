@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE EXCLUSION",
+  "degree": 10,
+  "group": "C105",
+  "source_genus": 289,
+  "full_source_rank_zero_assumed": false,
+  "finite_image_operator": "diamond22-1",
+  "pure_cusp_comparison_degree": 40,
+  "gonality_bound": [
+    1008,
+    25
+  ],
+  "free_diamond_order": 4,
+  "finite_NC_closed_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    144
+  ],
+  "source_diamond_orbits": 6,
+  "RR_curve": "X1(35)",
+  "RR_curve_genus": 25,
+  "RR_curve_rank": 0,
+  "RR_tests": 6,
+  "all_RR_h0": 0,
+  "all_native_primes_rebuilt": 24,
+  "independent_actual_kernel_orbits": 12,
+  "all_source_and_marked_transport_bindings": "PASS",
+  "remaining_cases": 0,
+  "lifecycle": {
+    "all_new_job_records_exited": true,
+    "successful_jobs": 6,
+    "unsuccessful_diagnostics": {},
+    "active_workers_supervisors_or_launchers": [],
+    "paused_workers": 0,
+    "automatic_launchers": 0
+  }
+}

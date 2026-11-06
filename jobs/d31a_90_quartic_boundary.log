@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_90_quartic_boundary.py", line 3, in <module>
+    H=Path(__file__).resolve().parents[1];O=H/'continuation_20261031a/C90';s=(O/'inputs/C90/cartier_kernels_D9.m').read_text();t0=time.time()
+                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031a/C90/inputs/C90/cartier_kernels_D9.m'

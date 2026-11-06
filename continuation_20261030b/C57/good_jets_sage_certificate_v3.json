@@ -1,0 +1,114 @@
+{
+  "complete": true,
+  "level": 57,
+  "prime": 2,
+  "genus": 85,
+  "canonical_jet_precision": 16,
+  "independent_genuine_R1_R2_arcs": 56,
+  "source_cases": [
+    {
+      "source_degree": 10,
+      "source_index": 1,
+      "Hecke_closed_degrees": [
+        10,
+        50
+      ],
+      "Hecke_norm_weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "source_degree": 10,
+      "source_index": 2,
+      "Hecke_closed_degrees": [
+        10,
+        50
+      ],
+      "Hecke_norm_weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "source_degree": 10,
+      "source_index": 3,
+      "Hecke_closed_degrees": [
+        10,
+        50
+      ],
+      "Hecke_norm_weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "source_degree": 10,
+      "source_index": 4,
+      "Hecke_closed_degrees": [
+        10,
+        50
+      ],
+      "Hecke_norm_weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "source_degree": 10,
+      "source_index": 5,
+      "Hecke_closed_degrees": [
+        10,
+        50
+      ],
+      "Hecke_norm_weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "source_degree": 10,
+      "source_index": 6,
+      "Hecke_closed_degrees": [
+        10,
+        50
+      ],
+      "Hecke_norm_weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "source_degree": 10,
+      "source_index": 7,
+      "Hecke_closed_degrees": [
+        10,
+        50
+      ],
+      "Hecke_norm_weights": [
+        1,
+        1
+      ]
+    },
+    {
+      "source_degree": 10,
+      "source_index": 8,
+      "Hecke_closed_degrees": [
+        10,
+        50
+      ],
+      "Hecke_norm_weights": [
+        1,
+        1
+      ]
+    }
+  ],
+  "independent_kernel_orbits": 16,
+  "geometric_cyclic5_kernels": 48,
+  "all_division_polynomial_norms_exact": true,
+  "all_actual_P_5P_25P_images_verified": true,
+  "supersingular_a1_deformation": false,
+  "ordinary_a6_deformation": true,
+  "all_unit_recovery_ranks84": true,
+  "all_canonical_tangents_nonzero": true
+}

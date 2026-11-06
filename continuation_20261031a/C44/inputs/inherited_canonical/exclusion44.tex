@@ -1,0 +1,106 @@
+\begin{proposition}\label{prop:nonic-no44}
+There is no point of order $44$ on an elliptic curve over a number
+field of degree $9$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(44)$ and $J=J_1(44)$. The curve has genus $36$,
+$J(\mathbb Q)$ is finite by \cite{DEHMZ}, and
+$\operatorname{gon}_{\mathbb Q}(X)\geq10$ by
+\cite[Table~1]{NV}. Let $D$ be the degree-$9$ trace divisor of a
+hypothetical noncuspidal point.
+
+The divisor $D$ cannot have entirely cuspidal reduction at $3$.
+Indeed, such a reduction lifts to a cuspidal divisor $C$ of degree
+$9$ over a finite extension of $\mathbb Q_3$ unramified at $3$.
+With a rational cusp $c_0$, both $[D-9c_0]$ and $[C-9c_0]$ are
+torsion, by rank zero and Manin--Drinfeld, respectively.
+Thus $[D-C]$ is torsion and reduces to zero. Torsion reduction is
+injective at an unramified odd prime, so $D\sim C$ over this local
+field. Since $D\ne C$, base change gives $h^0(X,D)\geq2$, contrary
+to the gonality bound.
+
+At $3$, the noncuspidal closed-place counts in degrees $1$ through
+$9$ are
+\[
+ (0,0,0,0,60,160,240,920,2260).
+\]
+These counts are independently obtained from the exact Frobenius
+polynomial. Hence the noncuspidal part of $\overline D$ is a single
+place $P$ of degree $5$, $6$, $7$, $8$ or $9$.
+The finite cusp signature is $1^{15}2^5 5^3 10$.
+Every cusp of degree at most $4$ is the reduction of a rational
+closed cuspidal divisor of the same degree. In particular every
+cuspidal complement for the first four degrees satisfies
+\[
+ (T_q-1-q\langle q\rangle)C'=0
+\]
+for every good odd prime $q$ used in the finite tests.
+There are $6$, $16$, $24$, and $92$ diamond orbits in these four
+degrees. The retained exact Hecke tests give a nonprincipal divisor
+for each of these $138$ representatives. The new complement audit
+through degree $4$ proves that the same tests exclude them here.
+Thus only pure degree-$9$ noncuspidal reduction remains.
+
+Since $J(\mathbb Q)$ is torsion, Eichler--Shimura and torsion
+injectivity at the good prime $5$ give
+\[
+ A_5J(\mathbb Q)=0,\qquad A_5=T_5-1-5\langle5\rangle.
+\]
+The same operator kills a rational cusp as an actual divisor.
+Consequently $A_5D$ is principal, and its reduction would be
+principal. The $2260$ degree-$9$ places form $226$ diamond orbits.
+For each representative put
+\[
+ B=T-U,\qquad T=T_5P,\qquad U=P+5\langle5\rangle P.
+\]
+Both $T$ and $U$ have degree $54$. We show that $\ell(B)=0$ in
+all $226$ cases.
+
+We construct the canonical model over $\mathbb F_3$ from an exact
+basis of holomorphic differentials on the degree-$19$ function-field
+model of $X$. Its $561$ quadratic relations define a curve of degree
+$70$ and genus $36$ in $\mathbb P^{35}$. Put
+$R_i=H^0(X_{\mathbb F_3},iK)$. Exact reduction in its coordinate
+ring gives the multiplication tensor
+\[
+ R_2\otimes R_2\longrightarrow R_4,
+ \qquad \dim R_2=105,\quad\dim R_4=245.
+\]
+The products of canonical coordinates have rank $105$, so the
+computed basis of $R_2$ is complete. Since $\deg(2K)=140\geq2g+1$,
+the line bundle $2K$ is normally generated. The $245$ standard
+monomials in degree $4$ therefore identify the computed target with
+the full space $R_4$. All $11025$ products are retained; symmetry
+requires only $5565$ normal-form calculations.
+
+The complete $5$-isogeny kernel partition gives $T$, including its
+closed-place degrees and norm multiplicities. The divisor $U$ is
+computed by actual multiplication of the level point by $5$.
+At their supports, the plane equation and the formal implicit-function
+theorem give local parameters to the required multiplicities.
+Evaluation of the canonical coordinates gives matrices
+$E_T,E_U$ of size $105\times54$, both of rank $54$.
+For each case we retain nonzero sections
+\[
+ F,H\in R_2(-T),\qquad \dim R_2(-T)=51.
+\]
+Let $M_F,M_H$ be their multiplication matrices from $R_2$ to $R_4$.
+The matrix $M_F$ has rank $105$. We retain a matrix $Q$ of size
+$245\times140$ with $M_FQ=0$, and verify
+\[
+ \operatorname{rank}[\,E_U\mid M_HQ\,]=105.
+\]
+Lemma~\ref{lem:canonical-multiplication-sieve}, with $L=M=2K$,
+therefore gives $\ell(T-U)=0$.
+
+Independent arithmetic reconstructs every restriction matrix from
+the saved local jets and checks the section identities, product
+annihilators, and all $226$ ranks. The source enumeration retains
+$2260$ distinct degree-$9$ places, so the independently known count
+proves coverage. An untouched native $5$-isogeny calculation checks
+all six isogenies in one control case; an exact native
+Riemann--Roch calculation on its degree-zero Hecke divisor also
+gives dimension zero. Every new native computation used in this proof
+has a recorded successful exit. Thus no pure degree-$9$ case is
+principal, a contradiction.
+\end{proof}

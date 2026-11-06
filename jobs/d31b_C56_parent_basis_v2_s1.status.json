@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C56_parent_basis_v2_s1",
+  "script": "computations/d31b_C56_parent_basis_v2_s1.m",
+  "script_sha256": "7097a03702eb22760c2c38d15f8a73f74fe4fc4f2ea3e3d509a45af43efbab15",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_parent_basis_v2_s1.m"
+  ],
+  "pid": 3682146,
+  "owner_uid": 1001,
+  "start_time_unix": 1793442914.8574302,
+  "state": "EXITED",
+  "time_limit_seconds": 910,
+  "log": "jobs/d31b_C56_parent_basis_v2_s1.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 47.95305275917053
+}

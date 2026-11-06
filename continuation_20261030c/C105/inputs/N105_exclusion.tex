@@ -1,0 +1,63 @@
+\begin{proposition}\label{prop:octic-no105}
+An elliptic curve over a number field of degree $8$ has no point of
+order $105$.
+\end{proposition}
+\begin{proof}
+The exact winding computation at level $105$ has total
+coefficient-field weighted dimension $289=g(X_1(105))$.
+Its unique deficient even-character orbit has order $6$ and
+conductor $21$. Since $22\equiv1\pmod{21}$,
+$(\langle22\rangle-1)J_1(105)(\mathbb Q)$ is finite.
+The trivial-character component has dimension $13$ and full
+winding submodule. Thus $J_0(105)(\mathbb Q)$ has rank zero.
+
+Hasse's bound excludes order $105$ over every $\mathbb F_{2^e}$
+with $1\leq e\leq8$, as also checked by the complete finite-field
+enumeration. Hence an octic trace divisor $D$ has entirely
+cuspidal reduction at $2$.
+Lift it to a cuspidal divisor $C$ of degree $8$ over
+the dyadically unramified field $\mathbb Q(\zeta_{105})$.
+The finite-image assertion and Manin--Drinfeld show that
+$y=(\langle22\rangle-1)[D-C]$ is torsion.
+It reduces to zero, so Parent's lemma gives $2y=0$.
+The resulting principal divisor has positive degree at most $32$,
+whereas
+\[
+ \operatorname{gon}_{\mathbb C}X_1(105)
+ \geq\frac{325\cdot4608}{32768}
+ =\frac{2925}{64}>32.
+\]
+Thus $\langle22\rangle D=D$.
+
+This diamond has order $4$, and the minimum CM degree on
+$X_1(105)$ is $96>8$. Its action on the support is therefore
+free. Quotienting its orbits gives a rational effective divisor
+of degree $2$ on $X_1(105)/\langle22\rangle$.
+Push this divisor to $X_0(105)$ and denote the result by $D_0$.
+It is noncuspidal, effective, rational, and of degree $2$.
+For the forgetful map $\pi_0:X_1(105)\longrightarrow X_0(105)$,
+we have $\pi_{0*}D=4D_0$.
+Proper pushforward commutes with specialization of integral
+zero-cycles. Since $\overline D$ is entirely cuspidal,
+so is $\overline D_0$.
+This uses good reduction of the two modular curves; no assertion
+about good reduction of the intermediate order-$4$ quotient is needed.
+
+The level $105$ is squarefree, so all eight cusps of $X_0(105)$
+are rational and remain distinct at $2$.
+Consequently $\overline D_0$ lifts to a rational cuspidal divisor
+$C_0$ of degree $2$.
+The rank-zero assertion implies that $[D_0-C_0]$ is rational
+torsion, and Parent's lemma gives $2[D_0-C_0]=0$.
+However, Najman--Orli\'c, \emph{Gonality of the modular curve
+$X_0(N)$}, Proposition~5.18, gives
+$\operatorname{gon}_{\mathbb C}X_0(105)\geq6>4$.
+The principal divisor $2(D_0-C_0)$ must therefore be zero,
+contradicting the noncuspidal support of $D_0$.
+\end{proof}
+
+% Primary gonality source: arXiv2207.11650v4, Proposition5.18, PDFp13.
+% Exact rank/character calculation: winding105_octic.log.
+% Fresh finite fields: finite_fields_105_octic.log.
+% Quotient descent is in characteristic0, so no wild-quotient reduction
+% hypothesis is being introduced at the dyadic step.

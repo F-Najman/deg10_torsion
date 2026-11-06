@@ -1,0 +1,19 @@
+{
+  "cmd": [
+    "/usr/local/bin/magma",
+    "-b",
+    "N:=91",
+    "work/degree9/parallel_expansion_20261026/character_probes/probe_winding.m"
+  ],
+  "pid": 2661755,
+  "start_ticks": 185944151,
+  "started_utc": "2026-10-26T22:07:04.129935+00:00",
+  "cpu_limit": 1800,
+  "wall_limit": 7200,
+  "status": "EXITED",
+  "elapsed_wall_seconds": 12.004786804085597,
+  "cpu_seconds": 10.77,
+  "last_log_lines": [],
+  "native_exit_code": 0,
+  "log_sha256": "efaeda6a09554246d7a5b4ff6fe8cc31ef20c98fe87a11998dc744198300fc67"
+}

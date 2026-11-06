@@ -1,0 +1,18 @@
+WINDING_SPACE_READY N=72 order=1 dimension=5 time=0.020
+WINDING N=72 order=1 conductor=1 relative_dimension=5 winding_dimension=5 coefficient_degree=1 time=0.030
+WINDING_SPACE_READY N=72 order=2 dimension=8 time=0.010
+WINDING N=72 order=2 conductor=8 relative_dimension=8 winding_dimension=8 coefficient_degree=1 time=0.010
+WINDING_SPACE_READY N=72 order=6 dimension=8 time=0.010
+WINDING N=72 order=6 conductor=36 relative_dimension=8 winding_dimension=8 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=72 order=6 dimension=10 time=0.010
+WINDING N=72 order=6 conductor=72 relative_dimension=10 winding_dimension=10 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=72 order=3 dimension=8 time=0.010
+WINDING N=72 order=3 conductor=9 relative_dimension=8 winding_dimension=8 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=72 order=6 dimension=10 time=0.010
+WINDING N=72 order=6 conductor=72 relative_dimension=10 winding_dimension=10 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=72 order=2 dimension=4 time=0.010
+WINDING N=72 order=2 conductor=12 relative_dimension=4 winding_dimension=4 coefficient_degree=1 time=0.010
+WINDING_SPACE_READY N=72 order=2 dimension=8 time=0.010
+WINDING N=72 order=2 conductor=24 relative_dimension=8 winding_dimension=8 coefficient_degree=1 time=0.010
+WINDING_FINAL N=72 genus=97 total_dimension=97 bad_orders=[] admissible=[ 5, 7, 11, 13, 17, 19, 23, 25, 29, 31, 35, 37, 41, 43, 47, 49, 53, 55, 59, 61, 65, 67 ]
+WINDING_CHARACTER_PROBE_DONE

@@ -1,0 +1,1 @@
+CASEID:=12;load "work/deg10/computations/contc65_ordinary10_common.m";

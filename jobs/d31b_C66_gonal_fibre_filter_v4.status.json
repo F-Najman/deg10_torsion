@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C66_gonal_fibre_filter_v4",
+  "script": "computations/d31b_C66_gonal_fibre_filter_v4.m",
+  "script_sha256": "3ffcf3264a3d226fd590b2ea216722a0dddecd370037f3465f56ee5c45c45364",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_gonal_fibre_filter_v4.m"
+  ],
+  "pid": 3495400,
+  "owner_uid": 1001,
+  "start_time_unix": 1793434743.4839158,
+  "state": "EXITED",
+  "time_limit_seconds": 660,
+  "log": "jobs/d31b_C66_gonal_fibre_filter_v4.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.1647627353668213
+}

@@ -1,0 +1,8 @@
+Loading "work/deg10/continuation_20261029b/C240/replay_ideal_identities.m"
+Loading "work/deg10/continuation_20261029b/deps/pair_af_place_linear.m"
+Loading "work/deg10/continuation_20261029b/C240/portable/portable_inputs.m"
+
+In file "work/deg10/continuation_20261029b/C240/replay_ideal_identities.m", line 5, column 13:
+>> load Sprintf("work/deg10/continuation_20261029b/C240/portable/replay%o_data
+               ^
+User error: bad syntax

@@ -1,0 +1,19 @@
+Loading "work/deg10/continuation_20261030b/C77/noncuspidal_common.m"
+Loading "work/deg10/continuation_20261030b/C77/geometry_common.m"
+NONIC77_X0_MODEL genus7=true modular_polynomial_verified=true cusp_widths=[ 11, 77, 1, 7 ] time=21.910
+Loading "work/deg10/continuation_20261030b/C77/inputs/AS_component.m"
+NONIC77_DIRECT_CUBIC_VERIFIED degree12=true genus19=true exact_base_embedding=true deck_order3=true time=37.260
+NONIC77_DIRECT_GENUS37_VERIFIED time=79.880
+NONIC77_GLOBAL_CUSPS_VERIFIED signature=[ 2, 1, 1, 2, 1, 1, 6, 3, 3, 1, 1, 2 ] width_degree_pairs=[ <7, 2>, <77, 1>, <77, 1>, <7, 2>, <77, 1>, <77, 1>, <1, 6>, <11, 3>, <11, 3>, <77, 1>, <77, 1>, <7, 2> ] jdegree576=true time=223.640
+NONIC77_DIRECT_GLOBAL_GENUS37_MODEL_DONE
+C77_DIAMONDS_VERIFIED delta2_cubic_exponent 2 delta3=delta2inverse
+C77_NC_INPUT_READY 1 296.310
+
+FF(
+    vals: [ 1, a^896, 0, a^69, a^796, a^475, a^764, a^846, a^875, a^63...
+)
+In file "work/deg10/continuation_20261030b/C77/noncuspidal_common.m", line 59, column 256:
+>> :a in Coefficients(MinimalPolynomial(a,GF(2)))],[[Integers()!a:a in c]:c in
+                                      ^
+Runtime error: Variable 'a' has not been initialized
+

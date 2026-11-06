@@ -1,0 +1,55 @@
+{
+  "time_utc": "2026-10-31T09:20:24.742694+00:00",
+  "termination_signal": "SIGTERM",
+  "replacement_job": "d31b_C56_quadratic_cover_profile",
+  "workers": [
+    {
+      "pid": 3567826,
+      "owner_uid": 1001,
+      "create_time": 1793438054.55,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_source_A11_s0.m"
+      ],
+      "status_path": "work/deg10/jobs/d31b_C56_source_A11_s0.status.json",
+      "reason": "Verified quadratic-cover replacement builds genus61 and binds actual marked source prime in46s; obsolete generic MDX1(56) normalization abandoned before producing model."
+    },
+    {
+      "pid": 3567820,
+      "owner_uid": 1001,
+      "create_time": 1793438054.48,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_source_A5_s0.m"
+      ],
+      "status_path": "work/deg10/jobs/d31b_C56_source_A5_s0.status.json",
+      "reason": "Verified quadratic-cover replacement builds genus61 and binds actual marked source prime in46s; obsolete generic MDX1(56) normalization abandoned before producing model."
+    },
+    {
+      "pid": 3567813,
+      "owner_uid": 1001,
+      "create_time": 1793438053.95,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_source_A5_s1.m"
+      ],
+      "status_path": "work/deg10/jobs/d31b_C56_source_A5_s1.status.json",
+      "reason": "Verified quadratic-cover replacement builds genus61 and binds actual marked source prime in46s; obsolete generic MDX1(56) normalization abandoned before producing model."
+    },
+    {
+      "pid": 3567799,
+      "owner_uid": 1001,
+      "create_time": 1793438053.75,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_source_A5_s2.m"
+      ],
+      "status_path": "work/deg10/jobs/d31b_C56_source_A5_s2.status.json",
+      "reason": "Verified quadratic-cover replacement builds genus61 and binds actual marked source prime in46s; obsolete generic MDX1(56) normalization abandoned before producing model."
+    }
+  ]
+}

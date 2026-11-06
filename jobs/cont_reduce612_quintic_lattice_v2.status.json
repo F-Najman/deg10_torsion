@@ -1,0 +1,18 @@
+{
+  "purpose": "cont_reduce612_quintic_lattice_v2",
+  "script": "computations/cont_reduce612_quintic_lattice_v2.py",
+  "script_sha256": "66a8204ac1e40da065959121a68277d9fcfdec80290c22046ac1accdaf91c309",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_reduce612_quintic_lattice_v2.py"
+  ],
+  "pid": 507356,
+  "owner_uid": 1001,
+  "start_time_unix": 1793296155.4216144,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/cont_reduce612_quintic_lattice_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.8650264739990234
+}

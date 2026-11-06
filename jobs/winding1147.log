@@ -1,0 +1,99 @@
+WINDING_SPACE_READY N=1147 order=1 dimension=99 time=0.030
+WINDING N=1147 order=1 conductor=1 relative_dimension=99 winding_dimension=56 coefficient_degree=1 time=0.310
+WINDING_SPACE_READY N=1147 order=15 dimension=100 time=0.050
+WINDING N=1147 order=15 conductor=31 relative_dimension=100 winding_dimension=100 coefficient_degree=8 time=18.450
+WINDING_SPACE_READY N=1147 order=5 dimension=98 time=0.040
+WINDING N=1147 order=5 conductor=31 relative_dimension=98 winding_dimension=98 coefficient_degree=4 time=6.080
+WINDING_SPACE_READY N=1147 order=3 dimension=100 time=0.040
+WINDING N=1147 order=3 conductor=31 relative_dimension=100 winding_dimension=100 coefficient_degree=2 time=3.060
+WINDING_SPACE_READY N=1147 order=180 dimension=99 time=0.060
+WINDING_T2_READY N=1147 order=180 time=3.060
+WINDING_GOOD_PRIME p=181 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1147 chi_index=5 order=180 path=work/deg10/exclusions/krylov_N1147_chi5_order180.json
+WINDING_KRYLOV N=1147 order=180 span_rank=99 dimension=99 verified=true time=3.310
+WINDING N=1147 order=180 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=48 time=3.310
+WINDING_SPACE_READY N=1147 order=180 dimension=100 time=0.060
+WINDING_T2_READY N=1147 order=180 time=3.200
+WINDING_GOOD_PRIME p=181 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1147 chi_index=6 order=180 path=work/deg10/exclusions/krylov_N1147_chi6_order180.json
+WINDING_KRYLOV N=1147 order=180 span_rank=100 dimension=100 verified=true time=3.420
+WINDING N=1147 order=180 conductor=1147 relative_dimension=100 winding_dimension=100 coefficient_degree=48 time=3.420
+WINDING_SPACE_READY N=1147 order=36 dimension=99 time=0.050
+WINDING N=1147 order=36 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=12 time=27.740
+WINDING_SPACE_READY N=1147 order=180 dimension=99 time=0.060
+WINDING_T2_READY N=1147 order=180 time=3.200
+WINDING_GOOD_PRIME p=181 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1147 chi_index=8 order=180 path=work/deg10/exclusions/krylov_N1147_chi8_order180.json
+WINDING_KRYLOV N=1147 order=180 span_rank=99 dimension=99 verified=true time=3.390
+WINDING N=1147 order=180 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=48 time=3.390
+WINDING_SPACE_READY N=1147 order=36 dimension=100 time=0.050
+WINDING N=1147 order=36 conductor=1147 relative_dimension=100 winding_dimension=100 coefficient_degree=12 time=26.810
+WINDING_SPACE_READY N=1147 order=36 dimension=99 time=0.050
+WINDING N=1147 order=36 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=12 time=27.770
+WINDING_SPACE_READY N=1147 order=18 dimension=100 time=0.040
+WINDING N=1147 order=18 conductor=37 relative_dimension=100 winding_dimension=100 coefficient_degree=6 time=20.540
+WINDING_SPACE_READY N=1147 order=90 dimension=99 time=0.060
+WINDING_T2_READY N=1147 order=90 time=3.490
+WINDING_GOOD_PRIME p=181 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1147 chi_index=12 order=90 path=work/deg10/exclusions/krylov_N1147_chi12_order90.json
+WINDING_KRYLOV N=1147 order=90 span_rank=99 dimension=99 verified=true time=3.580
+WINDING N=1147 order=90 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=24 time=3.580
+WINDING_SPACE_READY N=1147 order=90 dimension=99 time=0.060
+WINDING_T2_READY N=1147 order=90 time=3.370
+WINDING_GOOD_PRIME p=181 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1147 chi_index=13 order=90 path=work/deg10/exclusions/krylov_N1147_chi13_order90.json
+WINDING_KRYLOV N=1147 order=90 span_rank=99 dimension=99 verified=true time=3.500
+WINDING N=1147 order=90 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=24 time=3.500
+WINDING_SPACE_READY N=1147 order=90 dimension=100 time=0.060
+WINDING_T2_READY N=1147 order=90 time=3.320
+WINDING_GOOD_PRIME p=181 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1147 chi_index=14 order=90 path=work/deg10/exclusions/krylov_N1147_chi14_order90.json
+WINDING_KRYLOV N=1147 order=90 span_rank=100 dimension=100 verified=true time=3.410
+WINDING N=1147 order=90 conductor=1147 relative_dimension=100 winding_dimension=100 coefficient_degree=24 time=3.410
+WINDING_SPACE_READY N=1147 order=18 dimension=99 time=0.050
+WINDING N=1147 order=18 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=6 time=20.310
+WINDING_SPACE_READY N=1147 order=18 dimension=99 time=0.040
+WINDING N=1147 order=18 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=6 time=19.600
+WINDING_SPACE_READY N=1147 order=60 dimension=100 time=0.050
+WINDING_T2_READY N=1147 order=60 time=0.600
+WINDING_GOOD_PRIME p=61 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1147 chi_index=17 order=60 path=work/deg10/exclusions/krylov_N1147_chi17_order60.json
+WINDING_KRYLOV N=1147 order=60 span_rank=100 dimension=100 verified=true time=0.860
+WINDING N=1147 order=60 conductor=1147 relative_dimension=100 winding_dimension=100 coefficient_degree=16 time=0.860
+WINDING_SPACE_READY N=1147 order=60 dimension=98 time=0.050
+WINDING_T2_READY N=1147 order=60 time=0.610
+WINDING_GOOD_PRIME p=61 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1147 chi_index=18 order=60 path=work/deg10/exclusions/krylov_N1147_chi18_order60.json
+WINDING_KRYLOV N=1147 order=60 span_rank=98 dimension=98 verified=true time=0.690
+WINDING N=1147 order=60 conductor=1147 relative_dimension=98 winding_dimension=98 coefficient_degree=16 time=0.690
+WINDING_SPACE_READY N=1147 order=12 dimension=100 time=0.050
+WINDING N=1147 order=12 conductor=1147 relative_dimension=100 winding_dimension=100 coefficient_degree=4 time=7.410
+WINDING_SPACE_READY N=1147 order=60 dimension=100 time=0.040
+WINDING_T2_READY N=1147 order=60 time=0.580
+WINDING_GOOD_PRIME p=61 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1147 chi_index=20 order=60 path=work/deg10/exclusions/krylov_N1147_chi20_order60.json
+WINDING_KRYLOV N=1147 order=60 span_rank=100 dimension=100 verified=true time=0.820
+WINDING N=1147 order=60 conductor=1147 relative_dimension=100 winding_dimension=100 coefficient_degree=16 time=0.820
+WINDING_SPACE_READY N=1147 order=12 dimension=98 time=0.040
+WINDING N=1147 order=12 conductor=1147 relative_dimension=98 winding_dimension=98 coefficient_degree=4 time=6.600
+WINDING_SPACE_READY N=1147 order=12 dimension=100 time=0.040
+WINDING N=1147 order=12 conductor=1147 relative_dimension=100 winding_dimension=100 coefficient_degree=4 time=14.010
+WINDING_SPACE_READY N=1147 order=9 dimension=100 time=0.040
+WINDING N=1147 order=9 conductor=37 relative_dimension=100 winding_dimension=100 coefficient_degree=6 time=11.550
+WINDING_SPACE_READY N=1147 order=45 dimension=99 time=0.050
+WINDING N=1147 order=45 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=24 time=89.280
+WINDING_SPACE_READY N=1147 order=45 dimension=99 time=0.060
+WINDING N=1147 order=45 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=24 time=89.050
+WINDING_SPACE_READY N=1147 order=45 dimension=100 time=0.060
+WINDING N=1147 order=45 conductor=1147 relative_dimension=100 winding_dimension=100 coefficient_degree=24 time=90.140
+WINDING_SPACE_READY N=1147 order=9 dimension=99 time=0.050
+WINDING N=1147 order=9 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=6 time=11.800
+WINDING_SPACE_READY N=1147 order=9 dimension=99 time=0.040
+WINDING N=1147 order=9 conductor=1147 relative_dimension=99 winding_dimension=99 coefficient_degree=6 time=11.520
+WINDING_SPACE_READY N=1147 order=6 dimension=98 time=0.040
+WINDING N=1147 order=6 conductor=37 relative_dimension=98 winding_dimension=98 coefficient_degree=2 time=7.460
+WINDING_SPACE_READY N=1147 order=30 dimension=100 time=0.050
+WINDING N=1147 order=30 conductor=1147 relative_dimension=100 winding_dimension=100 coefficient_degree=8 time=38.300
+WINDING_SPACE_READY N=1147 order=30 dimension=100 time=0.040
+WINDING N=1147 order=30 conductor=1147 relative_dimension=100 winding_dimension=100 coefficient_degree=8 time=18.910
+WINDING_SPACE_READY N=1147 order=30 dimension=98 time=0.040

@@ -1,0 +1,5 @@
+Loading "work/deg10/next_cases_20261030/C242/geometry/x0_42_filter_common.m"
+Loading "work/deg10/next_cases_20261030/C242/geometry/deps/portable_forward.m"
+Loading "work/deg10/next_cases_20261030/C242/geometry/quotient5_helpers.m"
+C242_D10_X0_42_STAGE3_PROGRESS tested=10 total=10 remaining=1 imagecount=16 cpu=0.430
+C242_D10_X0_42_STAGE3_COMPLETE tested=10 total=108 remaining=1 images=16 full_input=false cpu=0.430

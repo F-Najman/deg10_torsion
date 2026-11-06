@@ -1,0 +1,17 @@
+{
+  "pid": 2968885,
+  "startticks": 186972805,
+  "cmd": [
+    "nice",
+    "-n",
+    "10",
+    "/opt/sage/envs/sage/bin/sage",
+    "-python",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/cyclic/continuation_20261026/C66_quotient17/source33/F5_rr/replay33.py"
+  ],
+  "CPU_budget_seconds": 1800,
+  "wall_budget_seconds": 7200,
+  "memory_budget_bytes": 6442450944,
+  "native_memory_budget_bytes": 4000000000,
+  "nice": 10
+}

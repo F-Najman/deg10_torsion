@@ -1,0 +1,18 @@
+{
+  "purpose": "contc91_source_rational_preflight",
+  "script": "computations/contc91_source_rational_preflight.py",
+  "script_sha256": "1d021bf3c4c855c81a99fc1e262122ee4ea14460d794e6ea4af4ceae29146262",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc91_source_rational_preflight.py"
+  ],
+  "pid": 2737007,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398899.1274278,
+  "state": "EXITED",
+  "time_limit_seconds": 250,
+  "log": "jobs/contc91_source_rational_preflight.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.716628074645996
+}

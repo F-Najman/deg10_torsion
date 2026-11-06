@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m428_independent_fourmap.py", line 25, in <module>
+    assert isok(ET,QT);v=xy(ET,QT);e=lcm([z.minpoly().degree()for z in v]);ck=[d]+list(ky(v,d));o=obs[j];image=a[4][o[1]-1];assert o[0]==j+1 and image[0]==ck and [mul*z for z in image[1]]==cls[j]and image[2]==o[2]==e and o[3]*e==mul*d;rows.append([j+1,ck,int(e),mul*d//int(e)])
+                                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

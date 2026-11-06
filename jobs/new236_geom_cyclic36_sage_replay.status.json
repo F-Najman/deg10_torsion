@@ -1,0 +1,18 @@
+{
+  "purpose": "new236_geom_cyclic36_sage_replay",
+  "script": "computations/new236_geom_cyclic36_sage_replay.py",
+  "script_sha256": "78804e74571bceeac42084e338bf933db967df84e3cd8af6972536f43fe69e56",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_geom_cyclic36_sage_replay.py"
+  ],
+  "pid": 1923038,
+  "owner_uid": 1001,
+  "start_time_unix": 1793361919.114079,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/new236_geom_cyclic36_sage_replay.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 4.872525453567505
+}

@@ -1,0 +1,18 @@
+{
+  "purpose": "cont75_verify_cusps_v2",
+  "script": "continuation_20261030b/C75/cont75_verify_cusps_v2.py",
+  "script_sha256": "e83996d6909988d61b76553d60e0e2b12c391bd6bff4558d63e2f0654809f99b",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_verify_cusps_v2.py"
+  ],
+  "pid": 2539841,
+  "owner_uid": 1001,
+  "start_time_unix": 1793389490.3374102,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/cont75_verify_cusps_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.9154555797576904
+}

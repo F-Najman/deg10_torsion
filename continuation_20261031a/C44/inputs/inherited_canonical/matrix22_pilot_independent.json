@@ -1,0 +1,12 @@
+{
+  "level": 44,
+  "p": 3,
+  "cases": 1,
+  "all_local_restrictions_reconstructed": true,
+  "all_product_annihilator_identities": true,
+  "all_obstruction_ranks": 105,
+  "tensor_products": 11025,
+  "elapsed_seconds": 5.507,
+  "complete": true,
+  "global_exclusion_requires_separate_source_and_reduction_proof": true
+}

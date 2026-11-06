@@ -1,0 +1,18 @@
+{
+  "purpose": "late_cusp_tate",
+  "script": "computations/late_cusp_tate.py",
+  "script_sha256": "519e03d603bbdc793a3472810792e41712be9a201b238a384a1e29f359e9f8c8",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late_cusp_tate.py"
+  ],
+  "pid": 953089,
+  "owner_uid": 1001,
+  "start_time_unix": 1793316891.3274038,
+  "state": "EXITED",
+  "time_limit_seconds": 60,
+  "log": "jobs/late_cusp_tate.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.06398510932922363
+}

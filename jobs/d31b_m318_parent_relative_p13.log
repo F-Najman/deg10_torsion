@@ -1,0 +1,14 @@
+Loading "work/deg10/computations/d31b_m318_parent_relative_common.m"
+true
+M318_PARENT_RELATIVE_BLOCK 13 15 171 46.440
+true
+M318_PARENT_RELATIVE_BLOCK 13 19 342 92.120
+true
+M318_PARENT_RELATIVE_BLOCK 13 28 513 130.220
+true
+M318_PARENT_RELATIVE_BLOCK 13 29 684 158.200
+
+In file "work/deg10/computations/d31b_m318_parent_relative_common.m", line 10, column 256:
+>> ne F.1 or tau(F!u)ne F!u);gg:=pn[3];assert &and[Valuation(tau(DF(z)),N)gt 0
+                                      ^
+Runtime error in assert: Assertion failed

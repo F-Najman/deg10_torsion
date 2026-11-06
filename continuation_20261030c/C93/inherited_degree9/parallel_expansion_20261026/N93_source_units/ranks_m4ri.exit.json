@@ -1,0 +1,9 @@
+{
+  "actual_exit_code": 0,
+  "CPU_limit": 300,
+  "wall_limit": 1200,
+  "AS_bytes": 8589934592,
+  "nice": 10,
+  "elapsed_seconds": 3.3244203811045736,
+  "log_sha256": "83718807cbeb27e329f93e23f3f3d3cd3dc2a4a35e55044e0d3639ce9977902e"
+}

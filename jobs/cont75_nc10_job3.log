@@ -1,0 +1,15 @@
+N75_GON5_CANONICAL_RESULTANT_START 12 13 0.000
+N75_GON5_CANONICAL_RESULTANT_FACTORS [ <1, 48>, <1, 20>, <5, 1> ]
+0.010
+N75_GON5_CANONICAL_BASE_MODEL_VERIFIED 5 12 0.040
+N75_GON5_CANONICAL_DEGREE20_GENUS_START 0.170
+N75_GON5_CANONICAL_GENUS73_MODEL_VERIFIED 23.280
+
+While attempting to compile /home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/shared/fast_hecke_11.m (Data file non-existent):
+Can't open input file /home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/shared/fast_hecke_11.m (No such file or directory)
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_nc10_job3.m", line 32, column 7:
+>> Attach("work/deg10/shared/fast_hecke_11.m");
+         ^
+Runtime error in 'Attach': Cannot attach intrinsics of "work/deg10/shared/fast_hecke_11.m"
+

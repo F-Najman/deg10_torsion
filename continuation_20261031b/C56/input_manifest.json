@@ -1,0 +1,77 @@
+[
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/native_group_generators.m",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/native_group_generators.m",
+    "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/class_group_direct_RR_checked_v4_fastfb.m",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/class_group_direct_RR_checked_v4_fastfb.m",
+    "sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/portable_forward.m",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/portable_forward.m",
+    "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/pair_af_place_linear.m",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/fast_hecke.sig",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/fast_hecke.sig",
+    "sha256": "7825d52342582741eab41d5e414b493948013f3f212f81144c26a0eddca0dfd0"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/accepted_quintic_paper.tex",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/accepted_quintic_paper.tex",
+    "sha256": "14f89d7b64bd2daa99f42323c0898a4b04fcfd9f429576da3d82b2fa6bb60fe6"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/DEHMZ.tex",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/DEHMZ.tex",
+    "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/fast_hecke.m",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/source56_p3.m",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/source56_p3.m",
+    "sha256": "a201b090a86fe6336f9b788af4988865152410189b45712bb128f0c00659fb2e"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/fourmap_filter.m",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/fourmap_filter.m",
+    "sha256": "1047306f41445cde3897538803176de982d2aeceb6195139a88d16ece45f82d1"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/source_census_verified.json",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/source_census_verified.json",
+    "sha256": "a18ae84b6f33e22a949a90a3a3e4394ca8e215994853737c08ffd614a4c7b001"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/cusp_actions_p3.json",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/cusp_actions_p3.json",
+    "sha256": "e8e648d23ce5f9dcc4bb40b83c6fcb9a61b940c5292dc4373bd7e52ac8a95f48"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/target28_proven_picard.m",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/target28_proven_picard.m",
+    "sha256": "7be8ec4116cf5c5cc1d10c5da649763e6495169e3c4326942d206151fcd33d98"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/boundary.tex",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/boundary.tex",
+    "sha256": "cfe7d92a07c49c4e113b0ef49b0fa3e1360d1791f6d0b71794bb2fb65af011b4"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/independent_fourmap.json",
+    "copy": "work/deg10/continuation_20261031b/C56/inputs/independent_fourmap.json",
+    "sha256": "4c63ada1594dd88f01cb4e7e78effa2ba4039016e5b444dcf89fbdca1c82f8be"
+  }
+]

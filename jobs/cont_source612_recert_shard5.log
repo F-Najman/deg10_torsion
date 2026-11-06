@@ -1,0 +1,6 @@
+Loading "work/deg10/continuation_20261029/deps/class_group_direct_RR_m3_18_root.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_source612_recert_shard5.m", line 34, column 58:
+>> xs:=NoncuspidalPlaces(X,3);oe:=[point[[3,i]]:i in [1,2]];ne:=[m2(Divisor(xs
+                                                            ^
+User error: bad syntax

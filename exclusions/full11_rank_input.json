@@ -1,0 +1,30 @@
+{
+  "curve": [
+    0,
+    -1,
+    1,
+    0,
+    0
+  ],
+  "base_degree": 10,
+  "field": "Q(zeta_11)",
+  "nonCM_proved_rank_zero_forms": [
+    "11.2.a.a",
+    "121.2.a.a",
+    "121.2.a.c",
+    "121.2.a.d",
+    "121.2.c.a",
+    "121.2.c.b",
+    "121.2.c.d",
+    "121.2.c.e",
+    "121.2.e.a",
+    "121.2.g.a"
+  ],
+  "rank_zero_argument": "All twists by characters of Gal(Q(zeta_11)/Q) are non-CM forms of level dividing 121, and all such forms have proved nonzero central L-values. Apply rank-zero Kato to these Dirichlet twists.",
+  "noncuspidal_j_invariants": [
+    -24729001,
+    -32768,
+    -121
+  ],
+  "torsion_order": 25
+}

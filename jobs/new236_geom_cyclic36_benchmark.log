@@ -1,0 +1,5 @@
+Loading "work/deg10/C236_resolution_20261030/geometry/cyclic36_stage3_common.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/portable_forward.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/pair_af_place_linear.m"
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=1 total=1 remaining=0 imagecount=1 cpu=10.110
+C236_D10_CYCLIC36_STAGE3_COMPLETE tested=1 total=1 remaining=0 images=1 full_input=true cpu=10.140

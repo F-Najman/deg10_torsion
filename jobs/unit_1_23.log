@@ -1,0 +1,3 @@
+DECIC_UNIT_START 1 23 genus 12 relative_degree 10
+DECIC_UNIT_SUCCESS 1 23 degree 10 divisor [0, 1, 0, 0, 0, 0, -2, 0, 0, 1, 0, 2, 0, -2, -2, 0, 3, 2, 1, -1, 0, -3]
+DECIC_UNIT_SEARCH_COMPLETE

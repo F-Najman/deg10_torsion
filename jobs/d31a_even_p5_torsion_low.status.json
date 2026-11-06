@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_even_p5_torsion_low",
+  "script": "computations/d31a_even_p5_torsion_low.m",
+  "script_sha256": "0689c18e1f01692d7fc42c552cb6b7a0f5cdfefc33536d7130713a17dbee66e2",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_even_p5_torsion_low.m"
+  ],
+  "pid": 2829889,
+  "owner_uid": 1001,
+  "start_time_unix": 1793403234.6784835,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31a_even_p5_torsion_low.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 5.122225046157837
+}

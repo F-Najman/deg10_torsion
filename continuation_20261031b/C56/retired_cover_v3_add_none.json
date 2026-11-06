@@ -1,0 +1,54 @@
+{
+  "reason": "Parent requested explicit Simplification=None in addition to Reduction=false; v4 is immutable corrected replacement with complete point and operator checkpoints",
+  "records": [
+    {
+      "stem": "d31b_C56_cover_v3_A5_s0",
+      "pid": 3601059,
+      "owner_uid": 1001,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_cover_v3_A5_s0.m"
+      ],
+      "verified_start_time": 1793439501.22,
+      "signal": "SIGTERM"
+    },
+    {
+      "stem": "d31b_C56_cover_v3_A5_s1",
+      "pid": 3601096,
+      "owner_uid": 1001,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_cover_v3_A5_s1.m"
+      ],
+      "verified_start_time": 1793439502.57,
+      "signal": "SIGTERM"
+    },
+    {
+      "stem": "d31b_C56_cover_v3_A5_s2",
+      "pid": 3601102,
+      "owner_uid": 1001,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_cover_v3_A5_s2.m"
+      ],
+      "verified_start_time": 1793439502.94,
+      "signal": "SIGTERM"
+    },
+    {
+      "stem": "d31b_C56_cover_v3_A11_s0",
+      "pid": 3600902,
+      "owner_uid": 1001,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_cover_v3_A11_s0.m"
+      ],
+      "verified_start_time": 1793439495.25,
+      "signal": "SIGTERM"
+    }
+  ],
+  "time": 1793439556.3702202
+}

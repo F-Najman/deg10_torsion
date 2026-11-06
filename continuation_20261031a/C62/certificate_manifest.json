@@ -1,0 +1,473 @@
+{
+  "status": "PASS",
+  "scope": "Complete C62 decic exclusion: genus26 Picard image,5685-point census,253 new classes,4095 pairs45 doubled fibres, nonic31+cusp rigidity; all independent controls and old2190 tests replayed",
+  "files": [
+    {
+      "path": "work/deg10/computations/d31a_62_parent_class_replay.m",
+      "bytes": 1738,
+      "sha256": "a16e852d46f7a08e87f43e800de018eefdab646f53a0532af8d557a6c2d1966a"
+    },
+    {
+      "path": "work/deg10/computations/d31a_C62_class_resume_v2.m",
+      "bytes": 74,
+      "sha256": "aecab2bfca9336d568c910440aa760bf92614980c2ebc186526b3a2a1aa0fb23"
+    },
+    {
+      "path": "work/deg10/computations/d31a_C62_global_nonic31.m",
+      "bytes": 63,
+      "sha256": "182a6ea67beeea99b66351708eb664a45e42fcf56f884a78abe75d9e925fb490"
+    },
+    {
+      "path": "work/deg10/computations/d31a_C62_independent_replay.py",
+      "bytes": 196,
+      "sha256": "62e722dcbae1b56cafe20e9e0e89da6a387234b2de349f37d6c3fd6feb0fabdd"
+    },
+    {
+      "path": "work/deg10/computations/d31a_C62_inherited_replay.py",
+      "bytes": 117,
+      "sha256": "85b37affa5f13599f6a8fb8619a6490555cd27799bcfead253688b3b4924b874"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/class_common_v2.m",
+      "bytes": 71560,
+      "sha256": "5ee70fd558e585b468e9e6202fe916a4d4585b9c44663e1b77306eb8ecef3d4f"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/completion_summary.json",
+      "bytes": 735,
+      "sha256": "cb026270a36c97e029f40c3ed14c06b76c9925e11f1d6d283f90a7e3c989966d"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/degree10_filter_resume_v2.m",
+      "bytes": 3777,
+      "sha256": "e45e399cd97ffc523af16d923444fc7e9497a07d3fb4c8dfa3ba3c7a02b51680"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/degree10_prefix_frozen.m",
+      "bytes": 196935,
+      "sha256": "0e269ad5890153d8a36071e161441ffe4aec0e51267bc832fae1dea978493fa4"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/degree10_resume_v2_census.m",
+      "bytes": 673138,
+      "sha256": "bef2141a2cb70e746d1d217f63bc7688bbe83ac40035713853eaf4a2da0dfde6"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/degree10_resume_v2_classes.m",
+      "bytes": 1136192,
+      "sha256": "f9e3bd7195e5e8a0c781e162aaa92ced8bc71c1e64cab63895bfc84949cbdc29"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/degree10_resume_v2_complete.m",
+      "bytes": 1129522,
+      "sha256": "a1dcafb4f9dac9b2681d64cbe314a1978aa30e415a57587da2120bd4bff926bf"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/independent_decic_replay.json",
+      "bytes": 510,
+      "sha256": "ca83fc01938fef1c01b5aeddf7ad109b38fb06314649841eca74ca4fc457ed01"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/independent_decic_replay.py",
+      "bytes": 6246,
+      "sha256": "bb65f15df25140f7af88a101537994fa1ff82623d83ac2f06f8389fdc0e7a70d"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inherited_provenance.json",
+      "bytes": 10946,
+      "sha256": "073dd5d8f50b97481479ec0d14387fd4c0fcf77af484fd10c957645b2044f9da"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/build_presentation.m",
+      "bytes": 3811,
+      "sha256": "0b252ab14468c24779c23228398f1632f4f2239fef5d18626cbc638776d875d6"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/certify62.py",
+      "bytes": 2848,
+      "sha256": "7bd3e1472091717f1ece5f495b8c154a1c15a762793c3939e0c05f5ba7db1be1"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/characters62.json",
+      "bytes": 68032,
+      "sha256": "b95eb8895e09651ade7a843671335513ebfc05aaa144388511e1c1a0436e8059"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/classification62.json",
+      "bytes": 285287,
+      "sha256": "a53074ecb6e8650e119155b7ae00a47e48bd4ba5d85b91ce33229a55e63ebb8d"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/classify62.m",
+      "bytes": 5508,
+      "sha256": "2c3913357e29551f13c8a9aae1f0dc0b2e3ac044573c4eb520e11eac5f3ca349"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/cusp62.json",
+      "bytes": 430,
+      "sha256": "ab3147b8f42a9cb68270a2a2ec545f8fc82b73dc9d5500f387e7f9c000dc4e4a"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/cusp62.log",
+      "bytes": 346,
+      "sha256": "7ee116553100bc5121780299271f673b8c0ce145d25e5344fd103b2bc1b86e0a"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/cusp62.py",
+      "bytes": 1429,
+      "sha256": "2f8717660cae6a44738af58cee15879f6be0ab5a256722218cff4b5c1d40b15b"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/exclusion62.tex",
+      "bytes": 4490,
+      "sha256": "3d802b58bb9639aed4f01ae5ffd86f2d4c0485c77525a0896e24eb4a4dab2fc2"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/exclusion62_pending.tex",
+      "bytes": 4571,
+      "sha256": "fd9cded0bc8b9388489cd3bb659c1ad5d022763730355121dad02e5667466cd5"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/export_geometry.m",
+      "bytes": 1410,
+      "sha256": "533808264ef2e6adf05e958c49f8c28cf770089ea62388673acd55d56817a057"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/finite_points62.jsonseq",
+      "bytes": 629255,
+      "sha256": "481df3c6e997bba4ba38e79a44e139ea3451da5a564de78c48a06f45312cd903"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/freeze62.py",
+      "bytes": 2003,
+      "sha256": "5814dd7ab2eee6083b0d976c64517a8ad8c0e4dd86ae015ae7f0c5482f14b6e5"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/geometry62.json",
+      "bytes": 7749,
+      "sha256": "a49a002f25507cd025788eed3af2a64a8981a8fe98f01a17644313bd417f416a"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/independent_replay62.json",
+      "bytes": 697,
+      "sha256": "b6c5f22c7545e3e2ad18e05fac1006ac7807fc67b3012b109f4dbb6652778f75"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/input_binding62.json",
+      "bytes": 246,
+      "sha256": "1b76652e0306a74871d1641223cff05e7f7c420910a5af33fff69a37431ea32b"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/inputs.m",
+      "bytes": 57951376,
+      "sha256": "f61a2c8cf72e00b4c307e79fc80f6d5679cc8dc81a341ea0d75f7cfc0d065c37"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/actual_exit31.json",
+      "bytes": 413,
+      "sha256": "ce49c840d6385027c00b796155039dcaf2b99bdcd580ffb46d4c9d5a11c0aa67"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/binding31.json",
+      "bytes": 11121,
+      "sha256": "79e6595c32737cabce866f93a468acf2ca6568f7f6b662ba778206de2adc9255"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/certify_known31.py",
+      "bytes": 997,
+      "sha256": "7b18f62352dfbdc08b4daed30e714a39e78646b566e451e6fd8bae072af3b44b"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/export_geometry_run/guard.py",
+      "bytes": 1241,
+      "sha256": "085e3e41101efcb7f836fa9bb665005a113413708b17f7421cbd81ea84e0276f"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/export_geometry_run/native_status.json",
+      "bytes": 490,
+      "sha256": "a1390c981ccf8790245a52a217bc1d6128b39b214da402d1389c8f0b3f881cf8"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/export_geometry_run/run.log",
+      "bytes": 140,
+      "sha256": "5356a4f1a0120647bae728ff23c558744e6fce69d645708023688c8057d19294"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/inputs/classification62.json",
+      "bytes": 285287,
+      "sha256": "a53074ecb6e8650e119155b7ae00a47e48bd4ba5d85b91ce33229a55e63ebb8d"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/inputs/finite_points62.jsonseq",
+      "bytes": 629255,
+      "sha256": "481df3c6e997bba4ba38e79a44e139ea3451da5a564de78c48a06f45312cd903"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/inputs/geometry62.json",
+      "bytes": 7749,
+      "sha256": "a49a002f25507cd025788eed3af2a64a8981a8fe98f01a17644313bd417f416a"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/inputs/vanhoeij_nonic_input.json",
+      "bytes": 11633,
+      "sha256": "fed7f3544fbea4b88cebdfb9996bec5549de4a499dfefc81960378254a1f8ce5"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/manifest31.json",
+      "bytes": 1581,
+      "sha256": "d612991fd1af5ffd636cbedd737688006efdb3a8e845036a3589bdece87e810e"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/rigidity31.tex",
+      "bytes": 3453,
+      "sha256": "6b51e7ff031259092c41b9665bb531ac094eb97e2b3ed9ca1b1473e716cb3d90"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/verify_known31.log",
+      "bytes": 370,
+      "sha256": "9cef177595a3a453dcbae0b65f2816eb13802bd23febe2dc7c1e19a352ed61ae"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31/verify_known31.py",
+      "bytes": 5903,
+      "sha256": "2fa310b64241b01f637b3c992c11717e54c1ddf88e36364a149c2e386283b8b8"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/known31_reduction_probe.json",
+      "bytes": 495,
+      "sha256": "0fd2123bd03724e28217d39c307a2c43ba687a18a0548ea4e607000cda653cb7"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/manifest62.json",
+      "bytes": 43686,
+      "sha256": "4aa91eb0f1e92b7c72009fe50c1b1239233b4e8c02961541d1fe7eb4d649a724"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/math_review62.json",
+      "bytes": 620,
+      "sha256": "853352dcfed7ca166a970fdd2470e31a5a2d9e61709facbce8b62122a7b19c12"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/presentation/build.log",
+      "bytes": 400,
+      "sha256": "a6930b60d55439eda96ac745421e6528b38a106723949ee9335fa7e8181fcd58"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/presentation/presentation.json",
+      "bytes": 88491282,
+      "sha256": "4fd76f97294f5069301ddcc33ef3715230a073eb031b981832e03b363534f59d"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/replay62.log",
+      "bytes": 1094,
+      "sha256": "28f2ff6db15130e09db299920d01e1b86181f0fcff1f3d8c9f7cfe5c6a28e053"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/inputs/C62_X131/replay62.py",
+      "bytes": 8101,
+      "sha256": "f27d9dce6c89d9be48792f40f0c9ea082c2110dbbce97017962f1e2d6e3faec7"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/known31_global.m",
+      "bytes": 636,
+      "sha256": "41d6527bbb4a325167e91ed5d600ce214d92df51432149e68322827476e6f0b9"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/lifecycle.json",
+      "bytes": 1324,
+      "sha256": "2bd971a846d77ebf3995c6c23ef65d55aaaa01578c1efd18215443134e9e9cda"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/parent_class_replay.m",
+      "bytes": 4586,
+      "sha256": "9a473c22043ad709aabc1a90b1903869e3ffbacafffd6afa97270261fcfa9fa2"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/prepare_completion.py",
+      "bytes": 3062,
+      "sha256": "dc4a46dc8332ad2a08eada26f551c5e593839e410960fb6187724dbb327e3a89"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/resolution.tex",
+      "bytes": 4597,
+      "sha256": "95446bd7d1b71488bfe079f7c6bef49a7fe98ce497662064b8b158f5621a3118"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/small_support_arithmetic.json",
+      "bytes": 365456,
+      "sha256": "e3ffaea07443e03a4e22d77d661d8f9b4fd91e77d4c5956fcb71f8ee14dad3f5"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/small_support_arithmetic.py",
+      "bytes": 1935,
+      "sha256": "a6a2371bf02236bc94371035213425f75befe49d2c267d09e7af16d193d7e60f"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_62_parent_class_replay.log",
+      "bytes": 1614,
+      "sha256": "df1c633b4344c25ff2b1de555fa23565935ae580bb8e17050bdc689b50e60c91"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_62_parent_class_replay.status.json",
+      "bytes": 660,
+      "sha256": "9f3a5e7d9f6330943bed92707e0642cbb9a99f737bfcaecef1266f7c7f7b263e"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_class_resume_v2.log",
+      "bytes": 20950,
+      "sha256": "565c00a4238a5283f763677e755bb9682555ba1c2dd58e11ba84179505c258e9"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_class_resume_v2.status.json",
+      "bytes": 648,
+      "sha256": "92d7308e947bcf679201da78994c2a33ee70ff13da3014f82996ae45090de095"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_global_nonic31.log",
+      "bytes": 166,
+      "sha256": "10040cc408d2dd3fb5fdc822c244970854ee564491eab326a5b7443cb5ad9f58"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_global_nonic31.status.json",
+      "bytes": 644,
+      "sha256": "46e2cefa8917043e40bd144561e5ddc26532e18fa18d3986bcf8f36cb93c3108"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_independent_replay.log",
+      "bytes": 744,
+      "sha256": "568a97f41c9cdf2c943a7bf3325c98fb7cfdb0e9ae9b4c91f0e783d638ece1bb"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_independent_replay.status.json",
+      "bytes": 660,
+      "sha256": "fb7191a2ab84ec505b987cf4a6a578fe525f780386fe79c9ff14aa5a481e7f5d"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_inherited_replay.log",
+      "bytes": 1089,
+      "sha256": "94667ecdc1e054e32ca8a039c8ef277f1bb10e5dfbd8fa83086ee067adfc57cf"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_inherited_replay.status.json",
+      "bytes": 653,
+      "sha256": "57a75e8ff46428a1f1eae4eacbae9a464afcea06e99af483e06ed7ceb9ac4615"
+    }
+  ],
+  "diagnostic_files": [
+    {
+      "path": "work/deg10/computations/d31a_C62_class_filter.m",
+      "bytes": 64,
+      "sha256": "da9a3611f79fd2df2c820764ff0d960b11d285025db3bf9c309fe31b145e1239"
+    },
+    {
+      "path": "work/deg10/computations/d31a_C62_class_resume.m",
+      "bytes": 71,
+      "sha256": "7edcd0172b10cd4384da85ee6eeea56b51e25f6dcea31105779f7ea2e1de8165"
+    },
+    {
+      "path": "work/deg10/computations/d31a_C62_places10.m",
+      "bytes": 63,
+      "sha256": "97aceb0dc1dcf9489562c33ef26f26fb3c10ca4e1e13a8c9dda939f72f1bb6ab"
+    },
+    {
+      "path": "work/deg10/computations/d31a_C62_smoothing_pilot.m",
+      "bytes": 74,
+      "sha256": "d41df85f300953d866da0a224bf3512ad44d41c922cc7475b00a116a8da20ac4"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/class_common.m",
+      "bytes": 71318,
+      "sha256": "9fa7fbff99bab733e9c03325b0abe4d090a5d7f7bc92feefffe39519c0864594"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/cusp_audit.py",
+      "bytes": 1924,
+      "sha256": "35370c713fab42b86d039c1bc657ae4c4c33a0c0a7d6da27115e1fcc1a2bea02"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/degree10_census.m",
+      "bytes": 673138,
+      "sha256": "bef2141a2cb70e746d1d217f63bc7688bbe83ac40035713853eaf4a2da0dfde6"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/degree10_classes.m",
+      "bytes": 196935,
+      "sha256": "0e269ad5890153d8a36071e161441ffe4aec0e51267bc832fae1dea978493fa4"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/degree10_filter.m",
+      "bytes": 2881,
+      "sha256": "b5880a75bb4d93a88ef5cc19c97858673e3c9ed26ee6adb013954ec16c9fdf9a"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/degree10_filter_resume.m",
+      "bytes": 3742,
+      "sha256": "1f0dc514cef58a1c532fe3c22f1a7b8e4efa76aae0e8b81a1b3ba046f26e1274"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/degree10_resume_census.m",
+      "bytes": 673138,
+      "sha256": "bef2141a2cb70e746d1d217f63bc7688bbe83ac40035713853eaf4a2da0dfde6"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/optimized_smoothing_pilot.m",
+      "bytes": 298,
+      "sha256": "aa8ec62da136e56106e3a9439c1424a590506a8ceed7533ca5fccf98f5db231e"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/places10_preflight.m",
+      "bytes": 22755,
+      "sha256": "7e53bc556f1ce88eb72154cf4130df39d3f747539b8be24d4ce1089e19778069"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/places10_probe.m",
+      "bytes": 917,
+      "sha256": "007da072311ad712351eae0444c09bb223a1b6846b68b2c00b731b44df6694c3"
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C62/retired_slow_smoothing.json",
+      "bytes": 441,
+      "sha256": "c925df869e95ceaa28e9841cd79258c5c13bebeafb8a097dbb0bc9dff5e7a480"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_class_filter.log",
+      "bytes": 5507,
+      "sha256": "85f476a4bf0d503c8250e38e8727146fbc1fdd9fecba07f56b1b122ae2916d7b"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_class_filter.status.json",
+      "bytes": 636,
+      "sha256": "355abc45e9c36d2d1f7753923168892a8608cfbcc3d199c3725a4e34c01daa9c"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_class_resume.log",
+      "bytes": 1943,
+      "sha256": "5cbd5e12db1d3f87ef0765a813b2df1d142232f3a6e05f466fe2f158d94e2b19"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_class_resume.status.json",
+      "bytes": 635,
+      "sha256": "3488581a18547f1b9d49c13a32874833d0d1f799c6ddede16c05ddea9a2ae854"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_places10.log",
+      "bytes": 200,
+      "sha256": "2ca237cecb89a45d0671ac5ee126b5f359879824d691ab8e0c2b70006eaf9e44"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_places10.status.json",
+      "bytes": 617,
+      "sha256": "e0a353f3557162c10e838d12b0ee59bef693c0dfe4a831c3c07487c1e82a4d6b"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_smoothing_pilot.log",
+      "bytes": 1227,
+      "sha256": "9d47e770d5d23cb02f3a5172eb44f8ffa6ffa9d192b486b9657e755e4f5760f2"
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_smoothing_pilot.status.json",
+      "bytes": 647,
+      "sha256": "5dc00f1a5f4364d41f08eb6762fa5d69b148c6ff31314098734b161a0621cc82"
+    }
+  ]
+}

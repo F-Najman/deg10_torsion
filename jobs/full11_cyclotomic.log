@@ -1,0 +1,22 @@
+DECIC_FULL11_X111_TORSION_BOUND p=23 residue_degree=1 count=25
+DECIC_FULL11_X111_GENERATOR order=25 coordinates=[
+-z^7 - z^6 - z^5 - z^4 + 1,
+-z^9 - 2*z^8 - 2*z^7 - 3*z^6 - 3*z^5 - 2*z^4 - 2*z^3 - z^2 - 1,
+1
+] time=12.490
+DECIC_FULL11_MODULI_CASE i=1 j=-32768 good_prime=23 cyclotomic_root=2 reduction_order=33 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=3 j=-24729001 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=4 j=-121 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=6 j=-32768 good_prime=23 cyclotomic_root=2 reduction_order=33 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=8 j=-24729001 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=9 j=-121 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=11 j=-32768 good_prime=23 cyclotomic_root=2 reduction_order=33 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=13 j=-24729001 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=14 j=-121 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=16 j=-32768 good_prime=23 cyclotomic_root=2 reduction_order=33 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=18 j=-24729001 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=19 j=-121 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=21 j=-32768 good_prime=23 cyclotomic_root=2 reduction_order=33 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=23 j=-24729001 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=24 j=-121 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_ALL_CASES_COMPLETE total=25 cusps=10 noncusps=15 all_excluded=true time=12.510

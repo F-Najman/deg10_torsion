@@ -1,0 +1,236 @@
+Loading "work/deg10/continuation_20261031a/C62/degree10_filter_resume_v2.m"
+Loading "work/deg10/continuation_20261031a/C62/class_common_v2.m"
+Loading "work/deg10/continuation_20261031a/C62/inputs/C62_X131/inputs.m"
+NONIC62_N31_FB_RESTORE_PROGRESS places=250/3481 time=21.810
+NONIC62_N31_FB_RESTORE_PROGRESS places=500/3481 time=25.690
+NONIC62_N31_FB_RESTORE_PROGRESS places=750/3481 time=29.680
+NONIC62_N31_FB_RESTORE_PROGRESS places=1000/3481 time=33.650
+NONIC62_N31_FB_RESTORE_PROGRESS places=1250/3481 time=37.680
+NONIC62_N31_FB_RESTORE_PROGRESS places=1500/3481 time=41.690
+NONIC62_N31_FB_RESTORE_PROGRESS places=1750/3481 time=46.190
+NONIC62_N31_FB_RESTORE_PROGRESS places=2000/3481 time=50.670
+NONIC62_N31_FB_RESTORE_PROGRESS places=2250/3481 time=55.210
+NONIC62_N31_FB_RESTORE_PROGRESS places=2500/3481 time=59.710
+NONIC62_N31_FB_RESTORE_PROGRESS places=2750/3481 time=64.210
+NONIC62_N31_FB_RESTORE_PROGRESS places=3000/3481 time=68.730
+NONIC62_N31_FB_RESTORE_PROGRESS places=3250/3481 time=73.310
+NONIC62_N31_FB_PRIMES_RESTORED places=3481 all_degrees_le9=true generation_bound_at_most9=true time=77.770
+D31A_NEW_DEG10_POINTS_READY level=31 checked=1000/5685 time=129.710
+D31A_NEW_DEG10_POINTS_READY level=31 checked=2000/5685 time=130.920
+D31A_NEW_DEG10_POINTS_READY level=31 checked=3000/5685 time=132.100
+D31A_NEW_DEG10_POINTS_READY level=31 checked=4000/5685 time=133.420
+D31A_NEW_DEG10_POINTS_READY level=31 checked=5000/5685 time=134.670
+D31A_NEW_DEG10_POINTS_COMPLETE level=31 points=5685 rational2count=3795 time=135.810
+D31A_NEW_DIAMOND_ORBITS level=31 orbits=379 eligible_orbits=253 time=136.680
+Loading "work/deg10/continuation_20261031a/C62/degree10_prefix_frozen.m"
+D31A_C62_PREFIX_REPLAY_COMPLETE cases=44 time=193.980
+D31A_NEW_CLASS level=31 representative=70 orbit=64/379 rational_image=false time=222.590
+D31A_NEW_CLASS level=31 representative=71 orbit=65/379 rational_image=false time=223.580
+D31A_NEW_CLASS level=31 representative=73 orbit=67/379 rational_image=false time=231.270
+D31A_NEW_CLASS level=31 representative=74 orbit=68/379 rational_image=false time=250.150
+D31A_NEW_CLASS level=31 representative=76 orbit=70/379 rational_image=false time=265.180
+D31A_NEW_CLASS level=31 representative=77 orbit=71/379 rational_image=false time=280.800
+D31A_NEW_CLASS level=31 representative=81 orbit=74/379 rational_image=false time=303.270
+D31A_NEW_CLASS level=31 representative=82 orbit=75/379 rational_image=false time=309.260
+D31A_NEW_CLASS level=31 representative=83 orbit=76/379 rational_image=false time=333.900
+D31A_NEW_CLASS level=31 representative=85 orbit=77/379 rational_image=false time=334.880
+D31A_NEW_CLASS level=31 representative=87 orbit=79/379 rational_image=false time=338.590
+D31A_NEW_CLASS level=31 representative=88 orbit=80/379 rational_image=false time=339.550
+D31A_NEW_CLASS level=31 representative=89 orbit=81/379 rational_image=false time=342.190
+D31A_NEW_CLASS level=31 representative=95 orbit=84/379 rational_image=false time=378.050
+D31A_NEW_CLASS level=31 representative=96 orbit=85/379 rational_image=false time=385.930
+D31A_NEW_CLASS level=31 representative=97 orbit=86/379 rational_image=false time=393.210
+D31A_NEW_CLASS level=31 representative=102 orbit=88/379 rational_image=false time=396.870
+D31A_NEW_CLASS level=31 representative=103 orbit=89/379 rational_image=false time=419.950
+D31A_NEW_CLASS level=31 representative=106 orbit=91/379 rational_image=false time=439.370
+D31A_NEW_CLASS level=31 representative=107 orbit=92/379 rational_image=false time=455.340
+D31A_NEW_CLASS level=31 representative=108 orbit=93/379 rational_image=false time=456.340
+D31A_NEW_CLASS level=31 representative=111 orbit=96/379 rational_image=false time=457.350
+D31A_NEW_CLASS level=31 representative=112 orbit=97/379 rational_image=false time=459.900
+D31A_NEW_CLASS level=31 representative=113 orbit=98/379 rational_image=false time=478.990
+D31A_NEW_CLASS level=31 representative=114 orbit=99/379 rational_image=false time=488.420
+D31A_NEW_CLASS level=31 representative=116 orbit=100/379 rational_image=false time=523.550
+D31A_NEW_CLASS level=31 representative=118 orbit=102/379 rational_image=false time=527.930
+D31A_NEW_CLASS level=31 representative=121 orbit=103/379 rational_image=false time=538.210
+D31A_NEW_CLASS level=31 representative=122 orbit=104/379 rational_image=false time=539.250
+D31A_NEW_CLASS level=31 representative=123 orbit=105/379 rational_image=false time=542.800
+D31A_NEW_CLASS level=31 representative=125 orbit=106/379 rational_image=false time=550.190
+D31A_NEW_CLASS level=31 representative=128 orbit=109/379 rational_image=false time=565.970
+D31A_NEW_CLASS level=31 representative=130 orbit=111/379 rational_image=false time=569.720
+D31A_NEW_CLASS level=31 representative=131 orbit=112/379 rational_image=false time=580.960
+D31A_NEW_CLASS level=31 representative=133 orbit=114/379 rational_image=false time=590.180
+D31A_NEW_CLASS level=31 representative=136 orbit=115/379 rational_image=false time=619.160
+D31A_NEW_CLASS level=31 representative=137 orbit=116/379 rational_image=false time=620.190
+D31A_NEW_CLASS level=31 representative=139 orbit=117/379 rational_image=false time=630.960
+D31A_NEW_CLASS level=31 representative=143 orbit=120/379 rational_image=false time=635.250
+D31A_NEW_CLASS level=31 representative=145 orbit=121/379 rational_image=false time=651.980
+D31A_NEW_CLASS level=31 representative=146 orbit=122/379 rational_image=false time=657.690
+D31A_NEW_CLASS level=31 representative=150 orbit=124/379 rational_image=false time=668.330
+D31A_NEW_CLASS level=31 representative=151 orbit=125/379 rational_image=false time=669.210
+D31A_NEW_CLASS level=31 representative=154 orbit=127/379 rational_image=false time=672.800
+D31A_NEW_CLASS level=31 representative=156 orbit=128/379 rational_image=false time=680.000
+D31A_NEW_CLASS level=31 representative=158 orbit=130/379 rational_image=false time=680.940
+D31A_NEW_CLASS level=31 representative=166 orbit=134/379 rational_image=false time=689.320
+D31A_NEW_CLASS level=31 representative=167 orbit=135/379 rational_image=false time=708.030
+D31A_NEW_CLASS level=31 representative=168 orbit=136/379 rational_image=false time=714.780
+D31A_NEW_CLASS level=31 representative=171 orbit=138/379 rational_image=false time=730.580
+D31A_NEW_CLASS level=31 representative=176 orbit=141/379 rational_image=false time=733.060
+D31A_NEW_CLASS level=31 representative=177 orbit=142/379 rational_image=false time=739.600
+D31A_NEW_CLASS level=31 representative=182 orbit=143/379 rational_image=false time=740.540
+D31A_NEW_CLASS level=31 representative=188 orbit=145/379 rational_image=false time=743.900
+D31A_NEW_CLASS level=31 representative=189 orbit=146/379 rational_image=false time=754.210
+D31A_NEW_CLASS level=31 representative=190 orbit=147/379 rational_image=false time=762.010
+D31A_NEW_CLASS level=31 representative=192 orbit=149/379 rational_image=false time=776.820
+D31A_NEW_CLASS level=31 representative=199 orbit=151/379 rational_image=false time=796.230
+D31A_NEW_CLASS level=31 representative=200 orbit=152/379 rational_image=false time=797.080
+D31A_NEW_CLASS level=31 representative=202 orbit=153/379 rational_image=false time=805.130
+D31A_NEW_CLASS level=31 representative=204 orbit=155/379 rational_image=false time=806.130
+D31A_NEW_CLASS level=31 representative=205 orbit=156/379 rational_image=false time=809.440
+D31A_NEW_CLASS level=31 representative=211 orbit=159/379 rational_image=false time=812.970
+D31A_NEW_CLASS level=31 representative=212 orbit=160/379 rational_image=false time=815.610
+D31A_NEW_CLASS level=31 representative=218 orbit=163/379 rational_image=false time=818.270
+D31A_NEW_CLASS level=31 representative=219 orbit=164/379 rational_image=false time=820.980
+D31A_NEW_CLASS level=31 representative=220 orbit=165/379 rational_image=false time=823.760
+D31A_NEW_CLASS level=31 representative=221 orbit=166/379 rational_image=false time=825.640
+D31A_NEW_CLASS level=31 representative=222 orbit=167/379 rational_image=false time=828.150
+D31A_NEW_CLASS level=31 representative=223 orbit=168/379 rational_image=false time=829.080
+D31A_NEW_CLASS level=31 representative=226 orbit=171/379 rational_image=false time=844.410
+D31A_NEW_CLASS level=31 representative=230 orbit=173/379 rational_image=false time=845.370
+D31A_NEW_CLASS level=31 representative=233 orbit=174/379 rational_image=false time=847.810
+D31A_NEW_CLASS level=31 representative=237 orbit=175/379 rational_image=false time=851.530
+D31A_NEW_CLASS level=31 representative=240 orbit=177/379 rational_image=false time=853.960
+D31A_NEW_CLASS level=31 representative=247 orbit=179/379 rational_image=false time=856.010
+D31A_NEW_CLASS level=31 representative=248 orbit=180/379 rational_image=false time=862.840
+D31A_NEW_CLASS level=31 representative=253 orbit=181/379 rational_image=false time=870.550
+D31A_NEW_CLASS level=31 representative=255 orbit=183/379 rational_image=false time=873.140
+D31A_NEW_CLASS level=31 representative=260 orbit=185/379 rational_image=false time=882.650
+D31A_NEW_CLASS level=31 representative=263 orbit=187/379 rational_image=false time=902.000
+D31A_NEW_CLASS level=31 representative=264 orbit=188/379 rational_image=false time=949.070
+D31A_NEW_CLASS level=31 representative=267 orbit=189/379 rational_image=false time=951.630
+D31A_NEW_CLASS level=31 representative=268 orbit=190/379 rational_image=false time=968.370
+D31A_NEW_CLASS level=31 representative=269 orbit=191/379 rational_image=false time=970.860
+D31A_NEW_CLASS level=31 representative=271 orbit=192/379 rational_image=false time=971.730
+D31A_NEW_CLASS level=31 representative=274 orbit=194/379 rational_image=false time=1016.490
+D31A_NEW_CLASS level=31 representative=276 orbit=195/379 rational_image=false time=1019.120
+D31A_NEW_CLASS level=31 representative=277 orbit=196/379 rational_image=false time=1021.650
+D31A_NEW_CLASS level=31 representative=280 orbit=197/379 rational_image=false time=1025.290
+D31A_NEW_CLASS level=31 representative=283 orbit=199/379 rational_image=false time=1039.790
+D31A_NEW_CLASS level=31 representative=286 orbit=200/379 rational_image=false time=1056.670
+D31A_NEW_CLASS level=31 representative=287 orbit=201/379 rational_image=false time=1057.540
+D31A_NEW_CLASS level=31 representative=288 orbit=202/379 rational_image=false time=1060.960
+D31A_NEW_CLASS level=31 representative=293 orbit=204/379 rational_image=false time=1072.070
+D31A_NEW_CLASS level=31 representative=294 orbit=205/379 rational_image=false time=1080.040
+D31A_NEW_CLASS level=31 representative=297 orbit=207/379 rational_image=false time=1080.940
+D31A_NEW_CLASS level=31 representative=302 orbit=211/379 rational_image=false time=1092.580
+D31A_NEW_CLASS level=31 representative=306 orbit=214/379 rational_image=false time=1093.560
+D31A_NEW_CLASS level=31 representative=322 orbit=217/379 rational_image=false time=1101.880
+D31A_NEW_CLASS level=31 representative=323 orbit=218/379 rational_image=false time=1105.250
+D31A_NEW_CLASS level=31 representative=330 orbit=220/379 rational_image=false time=1113.260
+D31A_NEW_CLASS level=31 representative=331 orbit=221/379 rational_image=false time=1129.400
+D31A_NEW_CLASS level=31 representative=335 orbit=224/379 rational_image=false time=1137.190
+D31A_NEW_CLASS level=31 representative=337 orbit=225/379 rational_image=false time=1138.140
+D31A_NEW_CLASS level=31 representative=338 orbit=226/379 rational_image=false time=1157.710
+D31A_NEW_CLASS level=31 representative=342 orbit=227/379 rational_image=false time=1169.640
+D31A_NEW_CLASS level=31 representative=344 orbit=228/379 rational_image=false time=1170.530
+D31A_NEW_CLASS level=31 representative=352 orbit=230/379 rational_image=false time=1171.470
+D31A_NEW_CLASS level=31 representative=358 orbit=232/379 rational_image=false time=1180.260
+D31A_NEW_CLASS level=31 representative=360 orbit=234/379 rational_image=false time=1182.290
+D31A_NEW_CLASS level=31 representative=362 orbit=235/379 rational_image=false time=1198.480
+D31A_NEW_CLASS level=31 representative=369 orbit=238/379 rational_image=false time=1220.130
+D31A_NEW_CLASS level=31 representative=373 orbit=239/379 rational_image=false time=1226.930
+D31A_NEW_CLASS level=31 representative=374 orbit=240/379 rational_image=false time=1228.870
+D31A_NEW_CLASS level=31 representative=387 orbit=243/379 rational_image=false time=1229.860
+D31A_NEW_CLASS level=31 representative=398 orbit=248/379 rational_image=false time=1230.810
+D31A_NEW_CLASS level=31 representative=399 orbit=249/379 rational_image=false time=1232.570
+D31A_NEW_CLASS level=31 representative=401 orbit=250/379 rational_image=false time=1247.790
+D31A_NEW_CLASS level=31 representative=402 orbit=251/379 rational_image=false time=1313.640
+D31A_NEW_CLASS level=31 representative=405 orbit=252/379 rational_image=false time=1325.200
+D31A_NEW_CLASS level=31 representative=416 orbit=253/379 rational_image=false time=1337.780
+D31A_NEW_CLASS level=31 representative=422 orbit=254/379 rational_image=false time=1350.700
+D31A_NEW_CLASS level=31 representative=424 orbit=255/379 rational_image=false time=1353.540
+D31A_NEW_CLASS level=31 representative=425 orbit=256/379 rational_image=false time=1365.120
+D31A_NEW_CLASS level=31 representative=428 orbit=257/379 rational_image=false time=1367.890
+D31A_NEW_CLASS level=31 representative=436 orbit=258/379 rational_image=false time=1373.250
+D31A_NEW_CLASS level=31 representative=440 orbit=259/379 rational_image=false time=1394.510
+D31A_NEW_CLASS level=31 representative=443 orbit=260/379 rational_image=false time=1414.870
+D31A_NEW_CLASS level=31 representative=446 orbit=261/379 rational_image=false time=1426.850
+D31A_NEW_CLASS level=31 representative=448 orbit=262/379 rational_image=false time=1427.900
+D31A_NEW_CLASS level=31 representative=450 orbit=263/379 rational_image=false time=1431.410
+D31A_NEW_CLASS level=31 representative=451 orbit=264/379 rational_image=false time=1437.760
+D31A_NEW_CLASS level=31 representative=452 orbit=265/379 rational_image=false time=1449.070
+D31A_NEW_CLASS level=31 representative=455 orbit=266/379 rational_image=false time=1449.980
+D31A_NEW_CLASS level=31 representative=456 orbit=267/379 rational_image=false time=1453.470
+D31A_NEW_CLASS level=31 representative=460 orbit=268/379 rational_image=false time=1463.070
+D31A_NEW_CLASS level=31 representative=462 orbit=269/379 rational_image=false time=1466.410
+D31A_NEW_CLASS level=31 representative=463 orbit=270/379 rational_image=false time=1472.220
+D31A_NEW_CLASS level=31 representative=468 orbit=271/379 rational_image=false time=1480.160
+D31A_NEW_CLASS level=31 representative=473 orbit=272/379 rational_image=false time=1495.860
+D31A_NEW_CLASS level=31 representative=474 orbit=273/379 rational_image=false time=1515.180
+D31A_NEW_CLASS level=31 representative=476 orbit=275/379 rational_image=false time=1525.800
+D31A_NEW_CLASS level=31 representative=484 orbit=276/379 rational_image=false time=1531.920
+D31A_NEW_CLASS level=31 representative=491 orbit=279/379 rational_image=false time=1538.700
+D31A_NEW_CLASS level=31 representative=493 orbit=280/379 rational_image=false time=1544.910
+D31A_NEW_CLASS level=31 representative=494 orbit=281/379 rational_image=false time=1547.760
+D31A_NEW_CLASS level=31 representative=496 orbit=282/379 rational_image=false time=1548.730
+D31A_NEW_CLASS level=31 representative=497 orbit=283/379 rational_image=false time=1553.160
+D31A_NEW_CLASS level=31 representative=498 orbit=284/379 rational_image=false time=1554.170
+D31A_NEW_CLASS level=31 representative=500 orbit=285/379 rational_image=false time=1561.560
+D31A_NEW_CLASS level=31 representative=529 orbit=289/379 rational_image=false time=1568.820
+D31A_NEW_CLASS level=31 representative=540 orbit=292/379 rational_image=false time=1584.510
+D31A_NEW_CLASS level=31 representative=552 orbit=293/379 rational_image=false time=1588.930
+D31A_NEW_CLASS level=31 representative=556 orbit=294/379 rational_image=false time=1608.750
+D31A_NEW_CLASS level=31 representative=559 orbit=295/379 rational_image=false time=1611.310
+D31A_NEW_CLASS level=31 representative=572 orbit=300/379 rational_image=false time=1622.210
+D31A_NEW_CLASS level=31 representative=577 orbit=301/379 rational_image=false time=1623.140
+D31A_NEW_CLASS level=31 representative=586 orbit=302/379 rational_image=false time=1624.130
+D31A_NEW_CLASS level=31 representative=588 orbit=303/379 rational_image=false time=1624.970
+D31A_NEW_CLASS level=31 representative=602 orbit=304/379 rational_image=false time=1634.940
+D31A_NEW_CLASS level=31 representative=614 orbit=306/379 rational_image=false time=1635.880
+D31A_NEW_CLASS level=31 representative=618 orbit=307/379 rational_image=false time=1636.840
+D31A_NEW_CLASS level=31 representative=627 orbit=308/379 rational_image=false time=1637.810
+D31A_NEW_CLASS level=31 representative=652 orbit=310/379 rational_image=false time=1651.160
+D31A_NEW_CLASS level=31 representative=676 orbit=312/379 rational_image=false time=1657.540
+D31A_NEW_CLASS level=31 representative=678 orbit=313/379 rational_image=false time=1684.760
+D31A_NEW_CLASS level=31 representative=682 orbit=315/379 rational_image=false time=1687.570
+D31A_NEW_CLASS level=31 representative=696 orbit=316/379 rational_image=false time=1690.400
+D31A_NEW_CLASS level=31 representative=710 orbit=320/379 rational_image=false time=1708.840
+D31A_NEW_CLASS level=31 representative=711 orbit=321/379 rational_image=false time=1717.240
+D31A_NEW_CLASS level=31 representative=717 orbit=322/379 rational_image=false time=1720.970
+D31A_NEW_CLASS level=31 representative=720 orbit=323/379 rational_image=false time=1740.780
+D31A_NEW_CLASS level=31 representative=726 orbit=324/379 rational_image=false time=1744.170
+D31A_NEW_CLASS level=31 representative=746 orbit=326/379 rational_image=false time=1754.110
+D31A_NEW_CLASS level=31 representative=748 orbit=327/379 rational_image=false time=1755.000
+D31A_NEW_CLASS level=31 representative=757 orbit=328/379 rational_image=false time=1804.520
+D31A_NEW_CLASS level=31 representative=761 orbit=329/379 rational_image=false time=1812.620
+D31A_NEW_CLASS level=31 representative=764 orbit=331/379 rational_image=false time=1814.910
+D31A_NEW_CLASS level=31 representative=775 orbit=332/379 rational_image=false time=1818.720
+D31A_NEW_CLASS level=31 representative=779 orbit=334/379 rational_image=false time=1821.280
+D31A_NEW_CLASS level=31 representative=800 orbit=336/379 rational_image=false time=1822.230
+D31A_NEW_CLASS level=31 representative=815 orbit=337/379 rational_image=false time=1832.790
+D31A_NEW_CLASS level=31 representative=822 orbit=338/379 rational_image=false time=1853.380
+D31A_NEW_CLASS level=31 representative=839 orbit=341/379 rational_image=false time=1855.280
+D31A_NEW_CLASS level=31 representative=843 orbit=342/379 rational_image=false time=1858.690
+D31A_NEW_CLASS level=31 representative=850 orbit=345/379 rational_image=false time=1859.600
+D31A_NEW_CLASS level=31 representative=851 orbit=346/379 rational_image=false time=1863.330
+D31A_NEW_CLASS level=31 representative=868 orbit=347/379 rational_image=false time=1867.480
+D31A_NEW_CLASS level=31 representative=914 orbit=351/379 rational_image=false time=1877.610
+D31A_NEW_CLASS level=31 representative=928 orbit=353/379 rational_image=false time=1934.660
+D31A_NEW_CLASS level=31 representative=933 orbit=354/379 rational_image=false time=1939.020
+D31A_NEW_CLASS level=31 representative=981 orbit=357/379 rational_image=false time=1953.110
+D31A_NEW_CLASS level=31 representative=988 orbit=358/379 rational_image=false time=1959.520
+D31A_NEW_CLASS level=31 representative=1032 orbit=360/379 rational_image=false time=1967.200
+D31A_NEW_CLASS level=31 representative=1055 orbit=362/379 rational_image=false time=1970.070
+D31A_NEW_CLASS level=31 representative=1062 orbit=363/379 rational_image=false time=1971.920
+D31A_NEW_CLASS level=31 representative=1082 orbit=364/379 rational_image=false time=1974.430
+D31A_NEW_CLASS level=31 representative=1102 orbit=365/379 rational_image=false time=1975.270
+D31A_NEW_CLASS level=31 representative=1168 orbit=367/379 rational_image=false time=1987.090
+D31A_NEW_CLASS level=31 representative=1189 orbit=368/379 rational_image=false time=1989.750
+D31A_NEW_CLASS level=31 representative=1193 orbit=369/379 rational_image=false time=2008.910
+D31A_NEW_CLASS level=31 representative=1208 orbit=370/379 rational_image=false time=2013.120
+D31A_NEW_CLASS level=31 representative=1256 orbit=371/379 rational_image=false time=2020.840
+D31A_NEW_CLASS level=31 representative=1445 orbit=374/379 rational_image=false time=2023.670
+D31A_NEW_CLASS level=31 representative=1454 orbit=375/379 rational_image=false time=2027.140
+D31A_NEW_CLASS level=31 representative=1558 orbit=376/379 rational_image=false time=2028.120
+D31A_NEW_CLASS level=31 representative=1768 orbit=377/379 rational_image=false time=2038.220
+D31A_NEW_CLASS level=31 representative=1799 orbit=378/379 rational_image=false time=2040.940
+D31A_DEGREE10_CLASS_FILTER_COMPLETE level=31 points=5685 tests=253 survivors=0 time=2041.250

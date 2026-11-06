@@ -1,0 +1,107 @@
+\input{realizations/continuation/C77/finite_image_criterion77.tex}
+\begin{proposition}\label{prop:nonic-no77-continuation}
+An elliptic curve over a number field of degree $9$ has no point of order $77$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(77)$ and
+$Y=X/\langle\langle36\rangle\rangle$, where the diamond subgroup
+has order $5$. Its action is free, including at the cusps and in
+characteristic $2$. Thus $Y$ has good reduction at $2$ and
+$g(Y)=1+(181-1)/5=37$.
+
+The fresh complete winding computation at level $77$ accounts for
+all $181$ dimensions. Every nontrivial-character component is full
+winding. The trivial-character component has dimension $7$, winding
+ dimension $6$, and $T_2$ acts as zero on the one-dimensional quotient.
+Hence Kato's theorem gives that $T_2J_1(77)(\mathbb Q)$ is finite.
+Pullback and norm along $X\to Y$ show that $T_2J_Y(\mathbb Q)$ is
+finite as well.
+
+No elliptic curve over $\mathbb F_{2^e}$ has a point of order $77$
+for $1\leq e\leq9$. Hasse's interval has no multiple of $77$ except
+orders $77$, $231$, $539$ at $e=6,8,9$, respectively. Their traces
+are $-12$, $26$, $-26$, all even. The supersingular classification
+in \cite[Theorem~4.6]{DN} excludes them. This is checked independently
+by the exact trace certificate.
+
+Suppose a degree-nine torsion point exists, and let $D$ be its
+rational effective trace divisor of degree $9$ on $X$.
+Its reduction at $2$ is entirely cuspidal. The source cusp signature
+is $1^{30},3^{10},10^3,30$.
+Consequently its reduction contains only rational and cubic cusps.
+Let $D_Y$ be its pushforward to $Y$. This is a noncuspidal rational
+effective divisor of degree $9$.
+The special-fibre cusp signature of $Y$, with widths, is
+\[
+ (77,1)^6,\quad(7,2)^3,\quad(11,3)^2,\quad(1,6).
+\]
+The rational source cusps map to the six rational cusps of width
+$77$, and the cubic source cusps map to the two cubic cusps of
+width $11$. Thus $\overline{D_Y}$ is supported on these eight cusps.
+In particular, we retain the cubic cusp branch in degree $9$.
+
+We recall the degree-independent modular identification of the
+explicit model used in the computation. Over the elliptic curve
+$X_0(11)_{\mathbb F_2}$ with its exact $j$-map, the irreducible equation
+\[
+ v^8+jv^7+v^4+1=0
+\]
+gives $X_0(77)_{\mathbb F_2}$ of genus $7$. The identity for
+$j_7(v)=(v^2+v+1)^4/v^7$ and its dual is checked against $\Phi_7$.
+The quotient $Y\to X_0(77)$ is an etale cyclic cover of degree $6$,
+with cusp Frobenius values $0,2,3,5$ at widths $77,11,7,1$.
+The base Picard group has invariants $30,60,0$.
+Exactly six characters to $C_6$ have the required cusp values.
+Two actual degree-ten places obtained from elliptic curves with
+points of order $77$ must split in the cover and identify exactly
+one of those characters.
+
+Its cubic subcover is constructed as
+$X_1(7)\times_{X(1)}X_0(11)$, using
+\[
+ b=t^3-t^2,\qquad c=t^2-t,\qquad
+ v=\frac{t^2+t}{t^3+t+1}.
+\]
+The quadratic subcover is the fixed Artin--Schreier equation in
+\texttt{AS\_component.m}. Its character is checked on places whose
+Picard classes generate the base Picard group modulo $2$.
+The composite is irreducible of genus $37$, has a rational cusp,
+and has $j$-map degree $576$. Riemann--Hurwitz proves that the
+cover is geometrically connected and unramified.
+These modular-identification certificates are copied unchanged;
+no earlier-degree exclusion is used. The model and both physical
+deck actions are also rebuilt in the present degree-nine directory.
+
+Apply Lemma~\ref{lem:nonic77-finite-image-Cartier} with $a=0$.
+The relevant cotangent image is
+\[
+ U=\mathcal C(\mathcal C-1)H^0(Y_{\mathbb F_2},\Omega^1),
+ \qquad \dim U=32.
+\]
+There are precisely
+\[
+ \binom{14}{5}+2\binom{11}{5}+3\binom85+4=3098
+\]
+effective divisors of degree $9$ on the six rational and two cubic
+cusps. We verify that the restriction of $U$ has rank $9$ for all
+of them.
+
+The degree-independent rational-cusp Riemann--Roch kernels for
+multiplicities up to $8$ are retained. To identify their coordinates
+in the freshly built differential basis, we recompute Cartier,
+the two deck matrices, and one multiplicity-eight kernel.
+The linear intertwiner conditions have a one-dimensional solution
+space, whose nonzero element is invertible. This identifies the
+basis transition uniquely.
+We then compute the multiplicity-nine kernel at one rational cusp
+and the multiplicity-one, two and three kernels at one cubic cusp.
+Verified deck transformations transport these kernels to the other
+cusps. The resulting $60$ restriction blocks cover every allowed
+multiplicity. Their kernels, the basis transition, the Cartier
+projection and all $3098$ rank computations are replayed independently
+over $\mathbb F_2$.
+
+The restriction ranks give formal immersion at every possible
+reduction of $D_Y$. The criterion therefore excludes $D_Y$, a
+contradiction.
+\end{proof}

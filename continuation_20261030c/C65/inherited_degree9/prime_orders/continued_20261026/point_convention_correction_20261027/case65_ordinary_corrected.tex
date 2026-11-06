@@ -1,0 +1,39 @@
+\begin{proposition}\label{prop:nonic65-ordinary-reduction}
+Let $D$ be a noncuspidal effective rational divisor of degree $9$ on $X_1(65)$. Its reduction at $2$ does not contain an ordinary noncuspidal point of degree $7$, $8$ or $9$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(65)$ and $J=J_1(65)$. Complete enumeration of all ordinary curves and both twists gives two eligible closed $j$-orbits in degree $7$, two in degree $8$ and three in degree $9$. Their groups have orders $130,260,520$, respectively. The rational $65$-torsion is cyclic, and each $j$-orbit therefore gives a free projective diamond orbit of length $24$. These comprise $48,48,72$ closed source points in the three degrees. Exact character sums independently exhaust every ordinary curve and twist in degrees $6$ through $9$.
+
+The cusp degrees modulo $2$ are $1^{24},4^6,6^4,12^2$, and the degree-$1$ cusps are globally rational. The Hasse bound excludes additional noncuspidal support in the remaining degree at most $2$. Thus, if $\overline D$ contains such a point $P$ of degree $f$, we have $\overline D=P+\overline C$ for a globally rational cuspidal divisor $C$ of degree $9-f$.
+
+Work on the point-level model and put $\sigma=\langle3\rangle^{-1}$, of order $12$, and $\tau=\langle3\rangle=\sigma^{-1}$. The exact winding calculation shows that every winding-zero constituent has trivial character. Hence $(\sigma-1)J(\mathbb Q)$ is finite. Manin--Drinfeld implies that $[\sigma D-D]$ is rational torsion. The class $[\sigma C-C]$ is also rational cuspidal torsion. The point-level annihilator
+\[
+ A_3=T_3-1-3\tau
+\]
+kills rational torsion by Lemma~\ref{lem:nonic-point-hecke-annihilator}. It follows in Picard classes that $A_3[\sigma D-D-\sigma C+C]=0$; no identity between cusp divisors is asserted. Reducing at $2$ and writing $T=T_3P$, we obtain the necessary principal divisor
+\[
+ B_2=\sigma T-T-\sigma P-2P+3\tau P.
+\]
+
+The canonical genus is $121$. A saturated integral basis, including all oldform degeneracies, gives $121$ independent canonical expansions through $q^{1099}$. Independence holds through the weight-$2$ Sturm bound $336$. The standard modular units $x=f_7/f_8$ and $y=f_8/f_9$ of \cite[Sections~2 and~2.1]{DvH} have pole degrees $53,54$, independently computed from Tate expansions at all $96$ geometric cusps. There are $69$ identities $B_i=xA_i$ and $68$ identities $D_j=yC_j$ between canonical linear forms. Their zero orders are at least $1098$, exceeding the section-degree bounds $240+53=293$ and $240+54=294$. Hence they hold globally.
+
+The canonical matrices $M_2,M_3$ for diamonds $2$ and $3$ have orders $6,12$, satisfy $M_2^2=M_3^8$, and generate the full projective group of order $24$. Using the Tate points $u=q^2,q^3$, the inverse-transformed forms satisfy all unit identities beyond the section-degree bound. Thus $M_2,M_3$ are exactly the inverse point diamonds. In particular the finite-image operator $\sigma-1$ is represented by $M_3-1$.
+
+For each of the seven source representatives, all four cyclic $3$-kernels and the transported point of order $65$ are computed. In degree $7$, the target is a closed point of degree $28$; in degree $8$ there are two degree-$16$ targets; in degree $9$ there is a degree-$36$ target. All norm multiplicities are $1$. Independent Sage isogenies, constructed from each monic linear $3$-kernel polynomial, rebuild all $28$ geometric transports and give the same modular-unit keys. This construction does not require the individual nonzero kernel points to be rational over the kernel field.
+
+After an isomorphism each ordinary source or target has equation $y^2+xy=x^3+a_2x^2+a_6$. Deforming $a_6$ to $a_6+t$, the standard characteristic-$2$ recurrence gives $\psi_{65}$. Its $x$-derivative is nonzero at every retained level point. Hensel lifting and the unit equations recover all canonical jets through order $5$. At each of the $16$ retained source or target families the unit matrix has rank $120$. Independent arithmetic verifies every elliptic, division and unit equation, together with a nonzero canonical tangent. Since $j=1/(a_6+t)$, this gives a local parameter.
+
+We test all $24$ simultaneous target diamond translates and both
+\[
+ B_1=\sigma T-T+2P+\tau P-3\sigma P,\qquad
+ B_2=\sigma T-T-\sigma P-2P+3\tau P.
+\]
+This gives $7\cdot24\cdot2=336$ tests, including every necessary divisor. Coincident closed points are identified and their multiplicities are added before imposing conditions. The positive and negative degrees are $7f$, namely $49,56,63$.
+
+Put $R_i=H^0(X,iK_X)$. All $14641$ ordered products of canonical forms are reconstructed through $q^{1099}$, beyond the weight-$4$ Sturm bound $672$. They span $R_2$, of dimension $360$. For each divisor $B=B^+-B^-$ choose nonzero $F,H\in R_1$ vanishing on $B^+$. If $f\in\mathcal L(B)$, then $G=fF$ vanishes on $B^-$ and $GH\in FR_1$. We therefore check injectivity of
+\[
+ R_1\longrightarrow H^0(B^-,K_X|_{B^-})\oplus R_2/FR_1,
+ \qquad G\longmapsto(G|_{B^-},GH\bmod FR_1).
+\]
+Multiplication by $F$ has rank $121$, so the quotient has dimension $239$. There are $96$ matrices of size $121\times288$, $96$ of size $121\times295$, and $144$ of size $121\times302$. Every matrix has rank $121$. The saved sections and matrices are reconstructed by a read-only replay, and Sage's M4RI implementation independently checks every rank. Thus every necessary divisor is nonprincipal. All selected native producers finish with actual exit code $0$.
+\end{proof}

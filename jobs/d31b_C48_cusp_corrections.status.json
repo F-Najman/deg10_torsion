@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C48_cusp_corrections",
+  "script": "continuation_20261031b/C48/d31b_C48_cusp_corrections.m",
+  "script_sha256": "dff6c1d66dfbc0c9ad523c0e96dbe08dcdc2a2b6d758e0f049cc3ccc66270b41",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_cusp_corrections.m"
+  ],
+  "pid": 3540931,
+  "owner_uid": 1001,
+  "start_time_unix": 1793436802.8386717,
+  "state": "EXITED",
+  "time_limit_seconds": 270,
+  "log": "jobs/d31b_C48_cusp_corrections.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 233.20483303070068
+}

@@ -1,0 +1,47 @@
+\begin{proposition}\label{prop:nonic-no99-continuation}
+An elliptic curve over a number field of degree $9$ has no point of order $99$.
+\end{proposition}
+\begin{proof}
+The complete even-character winding computation at level $99$ has
+weighted dimension $281=g(X_1(99))$. Every nontrivial-character
+component has full winding submodule. Thus Kato's theorem gives
+that $(\langle2\rangle-1)J_1(99)(\mathbb Q)$ is finite.
+
+There is no point of order $99$ on an elliptic curve over
+$\mathbb F_{2^e}$ for $1\leq e\leq9$.
+For $e\leq8$, Hasse's interval contains no multiple of $99$.
+At $e=9$ its only multiple of $99$ is $495$, corresponding to
+trace $18$. An ordinary curve in characteristic $2$ has odd trace.
+The possible supersingular traces over $\mathbb F_{512}$ are
+$0,32,-32$, by \cite[Theorem~4.6]{DN}. Thus trace $18$ cannot occur.
+
+Put $X=X_1(99)$, $J=J_1(99)$ and $t=\langle2\rangle$.
+Suppose a degree-nine torsion point exists, and let $D$ be its
+effective rational trace divisor of degree $9$ on $X$.
+Its reduction at $2$ is entirely cuspidal.
+All cusps are defined over $L=\mathbb Q(\zeta_{99})$, unramified
+at $2$. The cuspidal scheme is etale at $2$, so we may lift the
+reduction of $D$ to a cuspidal divisor $C$ of degree $9$ over $L$.
+Choose a rational cusp $c_0$. The class
+\[
+ y=(t-1)[D-C]
+   =(t-1)[D-9c_0]+(t-1)[9c_0-C]
+\]
+is torsion: the first term lies in the finite image just proved,
+and the second is torsion by Manin--Drinfeld.
+It reduces to zero at $2$. The unramified reduction lemma of Parent,
+as used in \cite[Section~6.2]{DN}, therefore gives $2y=0$.
+
+Consequently $2(t-1)(D-C)$ is principal. Its positive part has
+ degree at most $4\deg D=36$, whereas
+\[
+ \operatorname{gon}_{\mathbb C}X_1(99)
+ \geq\frac{325\cdot4320}{32768}
+ =\frac{43875}{1024}>36.
+\]
+The principal divisor must be zero. Separating cuspidal and
+noncuspidal support gives $tD=D$.
+The least degree of a CM point on $X_1(99)$ is $60>9$.
+Thus $t$ acts freely on the support of $D$. Its projective order
+is $15$, which would force $15\mid9$, a contradiction.
+\end{proof}

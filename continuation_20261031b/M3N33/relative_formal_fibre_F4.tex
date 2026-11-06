@@ -1,0 +1,73 @@
+\begin{lemma}\label{lem:decic-relative-formal-F4}
+Let $R$ be the integers of the unramified quadratic extension of
+$\mathbb Q_2$, with residue field $k=\mathbb F_4$.
+Let $X/R$ be a smooth proper curve, let $A=\operatorname{Jac}(X)$,
+and let $h$ be an involution acting freely on a neighbourhood of
+the cusps. Put $\alpha=h_*-1$ and $\pi:X\to Z=X/\langle h\rangle$.
+Suppose that $Z/R$ is smooth near the images of these cusps.
+Write a cuspidal divisor $\overline C$ of degree $d$ as
+\[
+              \overline C=\overline C_0+\pi^*\overline E,
+              \qquad \deg\overline E=k_0,
+\]
+where the multiplicities of $\overline E$ are maximal on each
+pair interchanged by $h$. Let $C$ be its cuspidal lift.
+Suppose that $\alpha[D-C]$ is torsion for an effective divisor
+$D\in X^{(d)}(R)$ with $\overline D=\overline C$.
+If restriction of
+\[
+ U=(\mathcal C^2-1)\alpha^*H^0(X_k,\Omega^1)
+\]
+to $\overline C$ has rank $d-k_0$, then $D$ contains the fixed
+divisor $C_0$.
+\end{lemma}
+\begin{proof}
+We first record the formal-group calculation needed at $2$.
+For a torsion point $P$ in the first formal filtration of $A(R)$,
+write its coordinates as $t(P)=2u$. The second filtration is
+torsion-free, by the formal logarithm, and $[2]P=0$.
+If $H$ is the matrix of the quadratic terms of $[2]$, reduction
+of $[2](2u)=0$ modulo $8$ gives
+\[
+                   \overline u=H\overline u^{[2]}.
+\]
+Squaring and using $\overline u^{[4]}=\overline u$ gives
+$\overline u=HH^{[2]}\overline u$.
+The linearized Cartier matrix is $H^{[2]}$, so $HH^{[2]}$
+is the matrix of $\mathcal C^2$ on cotangents, with the dual
+coordinate convention. Thus every form in
+$(\mathcal C^2-1)H^0(A_k,\Omega^1)$ annihilates the first
+formal tangent of $P$.
+
+Apply this to $P=\alpha[D-C]$.
+The first tangent of $D-C$ is therefore annihilated by the
+restriction of $U$. Its kernel has dimension $k_0$.
+The formal family
+\[
+                  T=C_0+\pi^*Z^{(k_0)}
+\]
+through $C$ has dimension $k_0$ and lies in the fibre of
+$E\mapsto\alpha[E-C]$.
+It is a closed formal immersion into $X^{(d)}$.
+Indeed, $\pi$ is \'etale at the cusps. On each pair of local
+branches, the two moving monic polynomials are the same, and
+maximality of $\overline E$ leaves no fixed factor on at least
+one branch. The moving coefficients can therefore be recovered
+from that branch. This also proves tangent injectivity.
+Its tangent space is consequently the kernel of the restriction
+of $U$.
+
+Since $T/R$ is formally smooth, we may choose $C'\in T(R)$
+with $C'\equiv D\pmod4$. We have
+$\alpha[D-C']=\alpha[D-C]$, because $\alpha\pi^*=0$.
+This torsion point lies in the second formal filtration, and
+hence is zero.
+Finally, the rank of $\alpha^*$ restricted to $\overline C$
+is at least $d-k_0$. Choose $d-k_0$ independent cotangent
+coordinates of the map $E\mapsto\alpha[E-C]$.
+Their common formal zero locus is smooth of dimension $k_0$.
+It contains $T$, and the tangent map of $T$ to this locus is an
+isomorphism. The formal implicit function theorem therefore
+identifies this zero locus with $T$. Since $D$ lies in the full
+fibre, $D\in T(R)$, and $C_0\leq D$.
+\end{proof}

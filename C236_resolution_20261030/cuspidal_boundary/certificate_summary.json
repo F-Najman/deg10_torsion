@@ -1,0 +1,93 @@
+{
+  "status": "COMPLETE: cuspidal-fibre boundary lemma only; main C236 exclusion still pending finite sieves",
+  "prime": 5,
+  "source_genus": 41,
+  "cusp_signature": [
+    [
+      1,
+      24
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      6,
+      4
+    ]
+  ],
+  "geometric_cusps": 64,
+  "Frobenius_orbits": 36,
+  "full_fixed_unit_lattice_rank": 35,
+  "two_fibre_squared_norm_bound": 104,
+  "short_vector_pairs": 24552,
+  "positive_degree_10_vectors": 0,
+  "independent_period_kernel_reconstruction": true,
+  "primary_jobs": {
+    "new236_cusp_lattice": "C236_CUSP_LATTICE_COMPLETE",
+    "new236_cusp_short": "C236_CUSP_SHORT_COMPLETE 24552 0 0",
+    "new236_cusp_lattice_replay_v2": "C236_CUSP_INDEPENDENT_REPLAY_COMPLETE"
+  },
+  "evidence": [
+    {
+      "path": "C236_resolution_20261030/cuspidal_boundary/README.txt",
+      "sha256": "774a53d5a9dbd34a40132040177e0e57375604dafc3e5ac6b83ba0dae30858b6"
+    },
+    {
+      "path": "C236_resolution_20261030/cuspidal_boundary/independent_replay.json",
+      "sha256": "34e3a179b3d719295b0d5260454e28f3289a4b7fdff2cf7719019a8770bda204"
+    },
+    {
+      "path": "C236_resolution_20261030/cuspidal_boundary/lattice.json",
+      "sha256": "40a09ff8a91ac470e7fd8537c884bc3ac6fa4f2c5e22b41269ed0284a6a39b2a"
+    },
+    {
+      "path": "C236_resolution_20261030/cuspidal_boundary/lattice.m",
+      "sha256": "13e3969664938587515304f70ded90b4eb237b7317e82de71e8bf5a270ea065f"
+    },
+    {
+      "path": "C236_resolution_20261030/cuspidal_boundary/proof.tex",
+      "sha256": "be663463f2c4dc7639166af492363dbb56c266725c9888b7426845edfa44f83f"
+    },
+    {
+      "path": "C236_resolution_20261030/cuspidal_boundary/short_vectors.m",
+      "sha256": "82e82aa70035e4b76554b7e3fc7c0bae499d15fdcf7e4d4b2346ce844cd48643"
+    },
+    {
+      "path": "computations/new236_cusp_lattice.py",
+      "sha256": "96b3b1490c339b3caa262cd46665ba983a97c57652a69736ca28895aa081654e"
+    },
+    {
+      "path": "computations/new236_cusp_lattice_replay_v2.py",
+      "sha256": "41adec50b7214aa545f7aeb8da104f52f942be997197e561d76bf25bc37f73c9"
+    },
+    {
+      "path": "computations/new236_cusp_short.m",
+      "sha256": "900d79eb52a1b556f80e88279405946ea3c718bc9966ef584f8c40092cc2802c"
+    },
+    {
+      "path": "jobs/new236_cusp_lattice.log",
+      "sha256": "28a62e9013d7dc91e5a97318a91b9109b041cd5e661a3d5365ba04057fb37fe1"
+    },
+    {
+      "path": "jobs/new236_cusp_lattice.status.json",
+      "sha256": "4b9af17b3507ac74dda535768d2d72a30ed8e25218733834c89cd4a57e8604d9"
+    },
+    {
+      "path": "jobs/new236_cusp_lattice_replay_v2.log",
+      "sha256": "2fbdeb706ca24947f805313419fa8eb3e69aff29d3cf5ff1caceb51a674575ce"
+    },
+    {
+      "path": "jobs/new236_cusp_lattice_replay_v2.status.json",
+      "sha256": "2c9f371441530cbeba6734772840a7a641f6b045f28504499bcfad08fc1c6173"
+    },
+    {
+      "path": "jobs/new236_cusp_short.log",
+      "sha256": "612378166c1df8bc2f7ccd12ee909e1f579dd60dd22b2bfd111f36574928ca3f"
+    },
+    {
+      "path": "jobs/new236_cusp_short.status.json",
+      "sha256": "6e32a0c985aa7bece2ad0dd1b9b409a4e76ae902b4e4ad3330b58eb429ed21cf"
+    }
+  ]
+}

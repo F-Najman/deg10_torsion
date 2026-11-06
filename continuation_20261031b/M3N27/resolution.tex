@@ -1,0 +1,90 @@
+\begin{proposition}\label{prop:decic-no327}
+An elliptic curve over a number field of degree $10$ has no subgroup
+isomorphic to $C_3\times C_{27}$.
+\end{proposition}
+\begin{proof}
+Put $F=\mathbb Q(\zeta_3)$ and $X=X_1(3,27)_F$.
+The Weil pairing gives $F\subset K$, so a proposed level structure
+gives an effective noncuspidal $F$-rational divisor $D$ of degree $5$.
+We have $g(X)=46$ and $J_X(F)$ is finite by
+\cite[Theorem~4.1]{DS}. The geometric gonality bound
+\cite[(2.1)]{NV} gives
+\[
+ \operatorname{gon}_{\mathbb C}X\geq
+ \frac{325\cdot972}{32768}=\frac{78975}{8192}>9.
+\]
+
+We first exclude entirely cuspidal reduction at the prime of $F$
+above $2$. Its residue field is $\mathbb F_4$.
+The global cusps and their reductions have signature
+\[
+                         1^{27},\quad 3^6,\quad 9^3.
+\]
+Indeed, the cusps split over $\mathbb Q(\zeta_{27})$ and Frobenius
+acts as $4$, which generates the relative Galois group of order $9$.
+Every closed residue cusp therefore lifts to an $F$-rational
+cuspidal divisor, with the same degree.
+
+The split prime $37$ gives an odd order for $J_X(\mathbb F_{37})$.
+This is computed from the Frobenius polynomial of
+$J_H(81)$, $H=\langle28\rangle$, and independently from the
+Hecke and diamond matrices on the $46$-dimensional plus modular-symbol
+space. Since torsion specialization at $37$ is injective,
+$J_X(F)$ has odd order.
+If $\overline D$ were cuspidal, let $C$ be its effective
+$F$-rational cuspidal lift. Then $[D-C]\in J_X(F)$ is torsion
+and lies in the dyadic formal group. Over an unramified extension
+of $\mathbb Q_2$, this torsion kernel is killed by $2$:
+multiplication by $2$ maps the first formal filtration into the
+second, on which the formal logarithm is injective.
+Thus $[D-C]=0$. Since $D\ne C$, this gives a function of degree
+at most $5$, contrary to the gonality bound.
+
+The complete noncuspidal closed-place counts on
+$X_{\mathbb F_4}$ in degrees one through five are
+\[
+                              0,\quad0,\quad0,\quad0,\quad162.
+\]
+They are checked both by the Frobenius polynomial and by exhaustive
+elliptic-curve enumeration. Hence $\overline D$ is one of the
+$162$ noncuspidal quintic places.
+We use the forgetful map
+\[
+ \pi:X\longrightarrow Y=X_1(27)_F,\qquad
+                    (E,P_3,Q_{27})\longmapsto(E,Q_{27}).
+\]
+The target has genus $13$, and $J_Y(F)$ is finite since it is a
+quotient of $J_X(F)$. The images of the $162$ places are exactly
+$54$ quintic places on $Y_{\mathbb F_4}$, forming six diamond orbits.
+The enumeration includes every generator of every cyclic subgroup;
+no freeness assumption is used in counting these orbits.
+
+Write $\delta_7$ for the point diamond and put
+$A_7=T_7-1-7\delta_7$. Eichler--Shimura and torsion injectivity
+at the split prime $7$ show that $A_7J_Y(F)=0$.
+For a rational Tate cusp $c_0$ we have the divisor identity
+$T_7c_0=c_0+7\delta_7c_0$.
+It follows that, for $N=\pi_*\overline D$, the divisor
+\[
+                         B=T_7N-N-7\delta_7N
+\]
+is principal. These operators commute with diamonds, so it suffices
+to test the six image representatives.
+Their exact Riemann--Roch computations give
+\[
+                  \bigl(h^0(B_i)\bigr)_{i=1}^6=(0,0,0,0,0,0).
+\]
+
+For each representative, the eight geometric $7$-kernels have
+Frobenius orbit lengths $1,1,3,3$. Their target places have degrees
+$5,5,15,15$, and every residue norm multiplicity is $1$.
+Thus $\deg T_7N=40$ in every test.
+An independent enumeration constructs all $48$ geometric kernels,
+checks the marked images by the six-term V\'elu sums, and binds every
+target using the triple $(\zeta_3,x,y)$. This retains the constant-field
+embedding over $\mathbb F_4$.
+A second native computation reconstructs all $36$ prime references
+from exact two-generator ideals and repeats the six zero-dimensional
+Riemann--Roch computations. Hence none of the possible reductions
+can occur.
+\end{proof}

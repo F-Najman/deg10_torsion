@@ -1,0 +1,48 @@
+{
+  "reason": "Verified norm-polynomial parity test replaces full divisor factorization and target orbit enumeration. Preserve all partial logs; do not promote terminated runs as complete proofs.",
+  "actions": [
+    {
+      "kind": "retired coordinator",
+      "pid": 457988,
+      "owner_uid": 1001,
+      "command": [
+        "python3",
+        "work/deg10/continuation_20261029/run612_RR13_shards.py"
+      ],
+      "start_time_unix": 1793293995.7,
+      "signal": "SIGTERM"
+    },
+    {
+      "kind": "retired obsolete worker",
+      "purpose": "cont_RR612_source_p13_shard8",
+      "pid": 471282,
+      "owner_uid": 1001,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_source_p13_shard8.m"
+      ],
+      "start_time_unix": 1793294523.75,
+      "signal": "SIGTERM",
+      "recorded_state": "EXITED",
+      "actual_exit_code": -15
+    },
+    {
+      "kind": "retired obsolete worker",
+      "purpose": "cont_RR612_source_p13_shard9",
+      "pid": 471528,
+      "owner_uid": 1001,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_source_p13_shard9.m"
+      ],
+      "start_time_unix": 1793294536.75,
+      "signal": "SIGTERM",
+      "recorded_state": "EXITED",
+      "actual_exit_code": -15
+    }
+  ],
+  "coordinator_shell_exit_code": 143,
+  "coordinator_exit_evidence": "Unified exec session 78920 reported exit 143 (SIGTERM) after retirement."
+}

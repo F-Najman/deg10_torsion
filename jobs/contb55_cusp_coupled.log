@@ -1,0 +1,227 @@
+NONIC55_X0_JACOBIAN order=100 factorization=[ <2, 2>, <5, 2> ]
+Loading "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_builtin_model.m"
+NONIC55_X0_MODEL genus5=true rational_base_degree4=true modular_polynomials5and11_verified=true cusp_widths=[ 11, 5, 1, 55 ] time=0.150
+NONIC55_PICARD invariants=[ 5, 20, 0 ] time=0.210
+NONIC55_CUSP_CLASS index=1 class=[ 0, 0, 1 ] time=0.210
+NONIC55_CUSP_CLASS index=2 class=[ 0, 9, 1 ] time=0.210
+NONIC55_CUSP_CLASS index=3 class=[ 4, 2, 1 ] time=0.220
+NONIC55_CUSP_CLASS index=4 class=[ 4, 3, 1 ] time=0.220
+NONIC55_C4_CUSP_CHARACTERS count=1 images=[
+[ 0, 1, 1 ]
+] time=0.220
+NONIC55_C4_CONSTRUCTED degree4=true cyclic4_verified=true time=0.360
+NONIC55_SIMPLE_WITT_MODEL exact_inverse_maps=true cyclic4=true time=0.370
+NONIC55_WITT_FROBENIUS degree=1 class=[ 0, 0, 1 ] actual=3 expected=1 generated_order=4 quotient_order=16 time=0.370
+NONIC55_WITT_FROBENIUS degree=1 class=[ 0, 9, 1 ] actual=2 expected=2 generated_order=16 quotient_order=16 time=0.380
+NONIC55_WITT_CHARACTER_VERIFIED samples=2 orientation_units={ 3 } all_Picard_mod4=true time=0.380
+NONIC55_CUSP_FIBRE width=11 expected_frobenius_order=4 degrees=[ 4 ] time=1.050
+NONIC55_CUSP_FIBRE width=5 expected_frobenius_order=2 degrees=[ 2, 2 ] time=1.090
+NONIC55_CUSP_FIBRE width=1 expected_frobenius_order=4 degrees=[ 4 ] time=11.180
+NONIC55_CUSP_FIBRE width=55 expected_frobenius_order=1 degrees=[ 1, 1, 1, 1 ] time=11.250
+NONIC55_COVER_GEOMETRY genus17=true split_rational_cusp=true unramified_by_RH=true time=11.280
+NONIC55_VERIFIED_GENUS17_MODEL_DONE
+RANK0_CARTIER_FORMS N=55 image_dimension=15 time=0.230
+RANK0_CARTIER_COUNT N=55 total=382 time=0.230
+C55_RR_KERNEL_START cusp=1/7 multiplicity=1 time=0.230
+C55_RR_KERNEL_DONE cusp=1/7 multiplicity=1 kernel_dim=13 rank_on_U=4 time=0.780
+C55_RR_KERNEL_START cusp=1/7 multiplicity=2 time=0.780
+C55_RR_KERNEL_DONE cusp=1/7 multiplicity=2 kernel_dim=9 rank_on_U=8 time=1.120
+C55_RR_KERNEL_START cusp=2/7 multiplicity=1 time=1.120
+C55_RR_KERNEL_DONE cusp=2/7 multiplicity=1 kernel_dim=15 rank_on_U=2 time=1.350
+C55_RR_KERNEL_START cusp=2/7 multiplicity=2 time=1.350
+C55_RR_KERNEL_DONE cusp=2/7 multiplicity=2 kernel_dim=13 rank_on_U=4 time=1.680
+C55_RR_KERNEL_START cusp=2/7 multiplicity=3 time=1.680
+C55_RR_KERNEL_DONE cusp=2/7 multiplicity=3 kernel_dim=11 rank_on_U=6 time=2.030
+C55_RR_KERNEL_START cusp=2/7 multiplicity=4 time=2.030
+C55_RR_KERNEL_DONE cusp=2/7 multiplicity=4 kernel_dim=9 rank_on_U=8 time=2.460
+C55_RR_KERNEL_START cusp=2/7 multiplicity=5 time=2.460
+C55_RR_KERNEL_DONE cusp=2/7 multiplicity=5 kernel_dim=7 rank_on_U=10 time=2.900
+C55_RR_KERNEL_START cusp=3/7 multiplicity=1 time=2.900
+C55_RR_KERNEL_DONE cusp=3/7 multiplicity=1 kernel_dim=15 rank_on_U=2 time=3.120
+C55_RR_KERNEL_START cusp=3/7 multiplicity=2 time=3.120
+C55_RR_KERNEL_DONE cusp=3/7 multiplicity=2 kernel_dim=13 rank_on_U=4 time=3.450
+C55_RR_KERNEL_START cusp=3/7 multiplicity=3 time=3.450
+C55_RR_KERNEL_DONE cusp=3/7 multiplicity=3 kernel_dim=11 rank_on_U=6 time=3.800
+C55_RR_KERNEL_START cusp=3/7 multiplicity=4 time=3.800
+C55_RR_KERNEL_DONE cusp=3/7 multiplicity=4 kernel_dim=9 rank_on_U=8 time=4.240
+C55_RR_KERNEL_START cusp=3/7 multiplicity=5 time=4.240
+C55_RR_KERNEL_DONE cusp=3/7 multiplicity=5 kernel_dim=7 rank_on_U=10 time=4.680
+C55_RR_KERNEL_START cusp=4/7 multiplicity=1 time=4.680
+C55_RR_KERNEL_DONE cusp=4/7 multiplicity=1 kernel_dim=16 rank_on_U=1 time=4.940
+C55_RR_KERNEL_START cusp=4/7 multiplicity=2 time=4.940
+C55_RR_KERNEL_DONE cusp=4/7 multiplicity=2 kernel_dim=15 rank_on_U=2 time=5.320
+C55_RR_KERNEL_START cusp=4/7 multiplicity=3 time=5.320
+C55_RR_KERNEL_DONE cusp=4/7 multiplicity=3 kernel_dim=14 rank_on_U=3 time=5.710
+C55_RR_KERNEL_START cusp=4/7 multiplicity=4 time=5.710
+C55_RR_KERNEL_DONE cusp=4/7 multiplicity=4 kernel_dim=13 rank_on_U=4 time=6.210
+C55_RR_KERNEL_START cusp=4/7 multiplicity=5 time=6.210
+C55_RR_KERNEL_DONE cusp=4/7 multiplicity=5 kernel_dim=12 rank_on_U=5 time=6.720
+C55_RR_KERNEL_START cusp=4/7 multiplicity=6 time=6.720
+C55_RR_KERNEL_DONE cusp=4/7 multiplicity=6 kernel_dim=11 rank_on_U=6 time=7.230
+C55_RR_KERNEL_START cusp=4/7 multiplicity=7 time=7.230
+C55_RR_KERNEL_DONE cusp=4/7 multiplicity=7 kernel_dim=10 rank_on_U=7 time=7.780
+C55_RR_KERNEL_START cusp=4/7 multiplicity=8 time=7.780
+C55_RR_KERNEL_DONE cusp=4/7 multiplicity=8 kernel_dim=9 rank_on_U=8 time=8.400
+C55_RR_KERNEL_START cusp=4/7 multiplicity=9 time=8.400
+C55_RR_KERNEL_DONE cusp=4/7 multiplicity=9 kernel_dim=8 rank_on_U=9 time=9.040
+C55_RR_KERNEL_START cusp=4/7 multiplicity=10 time=9.040
+C55_RR_KERNEL_DONE cusp=4/7 multiplicity=10 kernel_dim=7 rank_on_U=10 time=9.690
+C55_RR_KERNEL_START cusp=5/7 multiplicity=1 time=9.690
+C55_RR_KERNEL_DONE cusp=5/7 multiplicity=1 kernel_dim=16 rank_on_U=1 time=9.930
+C55_RR_KERNEL_START cusp=5/7 multiplicity=2 time=9.930
+C55_RR_KERNEL_DONE cusp=5/7 multiplicity=2 kernel_dim=15 rank_on_U=2 time=10.290
+C55_RR_KERNEL_START cusp=5/7 multiplicity=3 time=10.290
+C55_RR_KERNEL_DONE cusp=5/7 multiplicity=3 kernel_dim=14 rank_on_U=3 time=10.660
+C55_RR_KERNEL_START cusp=5/7 multiplicity=4 time=10.660
+C55_RR_KERNEL_DONE cusp=5/7 multiplicity=4 kernel_dim=13 rank_on_U=4 time=11.130
+C55_RR_KERNEL_START cusp=5/7 multiplicity=5 time=11.130
+C55_RR_KERNEL_DONE cusp=5/7 multiplicity=5 kernel_dim=12 rank_on_U=5 time=11.610
+C55_RR_KERNEL_START cusp=5/7 multiplicity=6 time=11.610
+C55_RR_KERNEL_DONE cusp=5/7 multiplicity=6 kernel_dim=11 rank_on_U=6 time=12.100
+C55_RR_KERNEL_START cusp=5/7 multiplicity=7 time=12.100
+C55_RR_KERNEL_DONE cusp=5/7 multiplicity=7 kernel_dim=10 rank_on_U=7 time=12.620
+C55_RR_KERNEL_START cusp=5/7 multiplicity=8 time=12.620
+C55_RR_KERNEL_DONE cusp=5/7 multiplicity=8 kernel_dim=9 rank_on_U=8 time=13.230
+C55_RR_KERNEL_START cusp=5/7 multiplicity=9 time=13.230
+C55_RR_KERNEL_DONE cusp=5/7 multiplicity=9 kernel_dim=8 rank_on_U=9 time=13.830
+C55_RR_KERNEL_START cusp=5/7 multiplicity=10 time=13.830
+C55_RR_KERNEL_DONE cusp=5/7 multiplicity=10 kernel_dim=7 rank_on_U=10 time=14.440
+C55_RR_KERNEL_START cusp=6/7 multiplicity=1 time=14.440
+C55_RR_KERNEL_DONE cusp=6/7 multiplicity=1 kernel_dim=16 rank_on_U=1 time=14.690
+C55_RR_KERNEL_START cusp=6/7 multiplicity=2 time=14.690
+C55_RR_KERNEL_DONE cusp=6/7 multiplicity=2 kernel_dim=15 rank_on_U=2 time=15.060
+C55_RR_KERNEL_START cusp=6/7 multiplicity=3 time=15.060
+C55_RR_KERNEL_DONE cusp=6/7 multiplicity=3 kernel_dim=14 rank_on_U=3 time=15.440
+C55_RR_KERNEL_START cusp=6/7 multiplicity=4 time=15.440
+C55_RR_KERNEL_DONE cusp=6/7 multiplicity=4 kernel_dim=13 rank_on_U=4 time=15.930
+C55_RR_KERNEL_START cusp=6/7 multiplicity=5 time=15.930
+C55_RR_KERNEL_DONE cusp=6/7 multiplicity=5 kernel_dim=12 rank_on_U=5 time=16.430
+C55_RR_KERNEL_START cusp=6/7 multiplicity=6 time=16.430
+C55_RR_KERNEL_DONE cusp=6/7 multiplicity=6 kernel_dim=11 rank_on_U=6 time=16.930
+C55_RR_KERNEL_START cusp=6/7 multiplicity=7 time=16.930
+C55_RR_KERNEL_DONE cusp=6/7 multiplicity=7 kernel_dim=10 rank_on_U=7 time=17.460
+C55_RR_KERNEL_START cusp=6/7 multiplicity=8 time=17.460
+C55_RR_KERNEL_DONE cusp=6/7 multiplicity=8 kernel_dim=9 rank_on_U=8 time=18.050
+C55_RR_KERNEL_START cusp=6/7 multiplicity=9 time=18.050
+C55_RR_KERNEL_DONE cusp=6/7 multiplicity=9 kernel_dim=8 rank_on_U=9 time=18.650
+C55_RR_KERNEL_START cusp=6/7 multiplicity=10 time=18.650
+C55_RR_KERNEL_DONE cusp=6/7 multiplicity=10 kernel_dim=7 rank_on_U=10 time=19.260
+C55_RR_KERNEL_START cusp=7/7 multiplicity=1 time=19.260
+C55_RR_KERNEL_DONE cusp=7/7 multiplicity=1 kernel_dim=16 rank_on_U=1 time=19.510
+C55_RR_KERNEL_START cusp=7/7 multiplicity=2 time=19.510
+C55_RR_KERNEL_DONE cusp=7/7 multiplicity=2 kernel_dim=15 rank_on_U=2 time=19.890
+C55_RR_KERNEL_START cusp=7/7 multiplicity=3 time=19.890
+C55_RR_KERNEL_DONE cusp=7/7 multiplicity=3 kernel_dim=14 rank_on_U=3 time=20.280
+C55_RR_KERNEL_START cusp=7/7 multiplicity=4 time=20.280
+C55_RR_KERNEL_DONE cusp=7/7 multiplicity=4 kernel_dim=13 rank_on_U=4 time=20.770
+C55_RR_KERNEL_START cusp=7/7 multiplicity=5 time=20.770
+C55_RR_KERNEL_DONE cusp=7/7 multiplicity=5 kernel_dim=12 rank_on_U=5 time=21.280
+C55_RR_KERNEL_START cusp=7/7 multiplicity=6 time=21.280
+C55_RR_KERNEL_DONE cusp=7/7 multiplicity=6 kernel_dim=11 rank_on_U=6 time=21.810
+C55_RR_KERNEL_START cusp=7/7 multiplicity=7 time=21.810
+C55_RR_KERNEL_DONE cusp=7/7 multiplicity=7 kernel_dim=10 rank_on_U=7 time=22.330
+C55_RR_KERNEL_START cusp=7/7 multiplicity=8 time=22.330
+C55_RR_KERNEL_DONE cusp=7/7 multiplicity=8 kernel_dim=9 rank_on_U=8 time=22.940
+C55_RR_KERNEL_START cusp=7/7 multiplicity=9 time=22.940
+C55_RR_KERNEL_DONE cusp=7/7 multiplicity=9 kernel_dim=8 rank_on_U=9 time=23.580
+C55_RR_KERNEL_START cusp=7/7 multiplicity=10 time=23.580
+C55_RR_KERNEL_DONE cusp=7/7 multiplicity=10 kernel_dim=7 rank_on_U=10 time=24.220
+RANK0_CARTIER_DIRECT N=55 index=1 jet_rank=10 direct_rank=10 time=24.880
+RANK0_CARTIER_DIRECT N=55 index=20 jet_rank=9 direct_rank=9 time=25.530
+RANK0_CARTIER_EXCEPTION N=55 index=20 rank=9 vector=[ 0, 0, 0, 0, 1, 8, 1 ] time=25.530
+RANK0_CARTIER_DIRECT N=55 index=21 jet_rank=9 direct_rank=9 time=26.190
+RANK0_CARTIER_EXCEPTION N=55 index=21 rank=9 vector=[ 0, 0, 0, 0, 1, 9, 0 ] time=26.190
+RANK0_CARTIER_DIRECT N=55 index=23 jet_rank=9 direct_rank=9 time=26.760
+RANK0_CARTIER_EXCEPTION N=55 index=23 rank=9 vector=[ 0, 0, 0, 0, 2, 1, 7 ] time=26.760
+RANK0_CARTIER_DIRECT N=55 index=24 jet_rank=9 direct_rank=9 time=27.330
+RANK0_CARTIER_EXCEPTION N=55 index=24 rank=9 vector=[ 0, 0, 0, 0, 2, 2, 6 ] time=27.330
+RANK0_CARTIER_DIRECT N=55 index=30 jet_rank=9 direct_rank=9 time=27.960
+RANK0_CARTIER_EXCEPTION N=55 index=30 rank=9 vector=[ 0, 0, 0, 0, 2, 8, 0 ] time=27.960
+RANK0_CARTIER_DIRECT N=55 index=32 jet_rank=9 direct_rank=9 time=28.540
+RANK0_CARTIER_EXCEPTION N=55 index=32 rank=9 vector=[ 0, 0, 0, 0, 3, 1, 6 ] time=28.540
+RANK0_CARTIER_DIRECT N=55 index=62 jet_rank=9 direct_rank=9 time=29.170
+RANK0_CARTIER_EXCEPTION N=55 index=62 rank=9 vector=[ 0, 0, 0, 0, 8, 1, 1 ] time=29.170
+RANK0_CARTIER_DIRECT N=55 index=63 jet_rank=9 direct_rank=9 time=29.790
+RANK0_CARTIER_EXCEPTION N=55 index=63 rank=9 vector=[ 0, 0, 0, 0, 8, 2, 0 ] time=29.790
+RANK0_CARTIER_DIRECT N=55 index=65 jet_rank=9 direct_rank=9 time=30.440
+RANK0_CARTIER_EXCEPTION N=55 index=65 rank=9 vector=[ 0, 0, 0, 0, 9, 1, 0 ] time=30.440
+RANK0_CARTIER_DIRECT N=55 index=67 jet_rank=9 direct_rank=9 time=31.110
+RANK0_CARTIER_EXCEPTION N=55 index=67 rank=9 vector=[ 0, 0, 0, 1, 0, 0, 9 ] time=31.110
+RANK0_CARTIER_DIRECT N=55 index=68 jet_rank=9 direct_rank=9 time=31.770
+RANK0_CARTIER_EXCEPTION N=55 index=68 rank=9 vector=[ 0, 0, 0, 1, 0, 1, 8 ] time=31.770
+RANK0_CARTIER_DIRECT N=55 index=73 jet_rank=9 direct_rank=9 time=32.350
+RANK0_CARTIER_EXCEPTION N=55 index=73 rank=9 vector=[ 0, 0, 0, 1, 0, 6, 3 ] time=32.350
+RANK0_CARTIER_DIRECT N=55 index=74 jet_rank=9 direct_rank=9 time=32.930
+RANK0_CARTIER_EXCEPTION N=55 index=74 rank=9 vector=[ 0, 0, 0, 1, 0, 7, 2 ] time=32.930
+RANK0_CARTIER_DIRECT N=55 index=77 jet_rank=9 direct_rank=9 time=33.600
+RANK0_CARTIER_EXCEPTION N=55 index=77 rank=9 vector=[ 0, 0, 0, 1, 1, 0, 8 ] time=33.600
+RANK0_CARTIER_DIRECT N=55 index=83 jet_rank=9 direct_rank=9 time=34.150
+RANK0_CARTIER_EXCEPTION N=55 index=83 rank=9 vector=[ 0, 0, 0, 1, 1, 6, 2 ] time=34.150
+RANK0_CARTIER_DIRECT N=55 index=85 jet_rank=9 direct_rank=9 time=34.820
+RANK0_CARTIER_EXCEPTION N=55 index=85 rank=9 vector=[ 0, 0, 0, 1, 1, 8, 0 ] time=34.820
+RANK0_CARTIER_DIRECT N=55 index=87 jet_rank=9 direct_rank=9 time=35.380
+RANK0_CARTIER_EXCEPTION N=55 index=87 rank=9 vector=[ 0, 0, 0, 1, 2, 1, 6 ] time=35.380
+RANK0_CARTIER_DIRECT N=55 index=120 jet_rank=9 direct_rank=9 time=36.020
+RANK0_CARTIER_EXCEPTION N=55 index=120 rank=9 vector=[ 0, 0, 0, 1, 8, 1, 0 ] time=36.020
+RANK0_CARTIER_DIRECT N=55 index=122 jet_rank=9 direct_rank=9 time=36.680
+RANK0_CARTIER_EXCEPTION N=55 index=122 rank=9 vector=[ 0, 0, 0, 2, 0, 0, 8 ] time=36.680
+RANK0_CARTIER_DIRECT N=55 index=128 jet_rank=9 direct_rank=9 time=37.220
+RANK0_CARTIER_EXCEPTION N=55 index=128 rank=9 vector=[ 0, 0, 0, 2, 0, 6, 2 ] time=37.220
+RANK0_CARTIER_DIRECT N=55 index=161 jet_rank=9 direct_rank=9 time=37.760
+RANK0_CARTIER_EXCEPTION N=55 index=161 rank=9 vector=[ 0, 0, 0, 2, 6, 0, 2 ] time=37.760
+RANK0_CARTIER_DIRECT N=55 index=162 jet_rank=9 direct_rank=9 time=38.320
+RANK0_CARTIER_EXCEPTION N=55 index=162 rank=9 vector=[ 0, 0, 0, 2, 6, 1, 1 ] time=38.320
+RANK0_CARTIER_DIRECT N=55 index=164 jet_rank=9 direct_rank=9 time=38.890
+RANK0_CARTIER_EXCEPTION N=55 index=164 rank=9 vector=[ 0, 0, 0, 2, 7, 0, 1 ] time=38.890
+RANK0_CARTIER_DIRECT N=55 index=200 jet_rank=9 direct_rank=9 time=39.460
+RANK0_CARTIER_EXCEPTION N=55 index=200 rank=9 vector=[ 0, 0, 0, 3, 6, 0, 1 ] time=39.460
+RANK0_CARTIER_DIRECT N=55 index=259 jet_rank=9 direct_rank=9 time=40.020
+RANK0_CARTIER_EXCEPTION N=55 index=259 rank=9 vector=[ 0, 0, 0, 6, 1, 2, 1 ] time=40.020
+RANK0_CARTIER_DIRECT N=55 index=260 jet_rank=9 direct_rank=9 time=40.610
+RANK0_CARTIER_EXCEPTION N=55 index=260 rank=9 vector=[ 0, 0, 0, 6, 1, 3, 0 ] time=40.610
+RANK0_CARTIER_DIRECT N=55 index=263 jet_rank=9 direct_rank=9 time=41.160
+RANK0_CARTIER_EXCEPTION N=55 index=263 rank=9 vector=[ 0, 0, 0, 6, 2, 2, 0 ] time=41.160
+RANK0_CARTIER_DIRECT N=55 index=273 jet_rank=9 direct_rank=9 time=41.760
+RANK0_CARTIER_EXCEPTION N=55 index=273 rank=9 vector=[ 0, 0, 0, 7, 1, 2, 0 ] time=41.760
+RANK0_CARTIER_DIRECT N=55 index=277 jet_rank=9 direct_rank=9 time=42.400
+RANK0_CARTIER_EXCEPTION N=55 index=277 rank=9 vector=[ 0, 0, 0, 8, 0, 0, 2 ] time=42.400
+RANK0_CARTIER_DIRECT N=55 index=278 jet_rank=9 direct_rank=9 time=43.050
+RANK0_CARTIER_EXCEPTION N=55 index=278 rank=9 vector=[ 0, 0, 0, 8, 0, 1, 1 ] time=43.050
+RANK0_CARTIER_DIRECT N=55 index=280 jet_rank=9 direct_rank=9 time=43.720
+RANK0_CARTIER_EXCEPTION N=55 index=280 rank=9 vector=[ 0, 0, 0, 8, 1, 0, 1 ] time=43.720
+RANK0_CARTIER_DIRECT N=55 index=283 jet_rank=9 direct_rank=9 time=44.390
+RANK0_CARTIER_EXCEPTION N=55 index=283 rank=9 vector=[ 0, 0, 0, 9, 0, 0, 1 ] time=44.390
+RANK0_CARTIER_DONE N=55 D=10 tested=382 total=382 exceptions=32 complete=true time=44.400
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 0, 1, 8, 1 ] h0=1 cpu=44.850
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 0, 1, 9, 0 ] h0=1 cpu=45.280
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 0, 2, 1, 7 ] h0=1 cpu=45.660
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 0, 2, 2, 6 ] h0=1 cpu=46.010
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 0, 2, 8, 0 ] h0=1 cpu=46.440
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 0, 3, 1, 6 ] h0=1 cpu=46.820
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 0, 8, 1, 1 ] h0=1 cpu=47.240
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 0, 8, 2, 0 ] h0=1 cpu=47.650
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 0, 9, 1, 0 ] h0=1 cpu=48.070
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 1, 0, 0, 9 ] h0=1 cpu=48.510
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 1, 0, 1, 8 ] h0=1 cpu=48.970
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 1, 0, 6, 3 ] h0=1 cpu=49.340
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 1, 0, 7, 2 ] h0=1 cpu=49.700
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 1, 1, 0, 8 ] h0=1 cpu=50.150
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 1, 1, 6, 2 ] h0=1 cpu=50.520
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 1, 1, 8, 0 ] h0=1 cpu=50.950
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 1, 2, 1, 6 ] h0=1 cpu=51.330
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 1, 8, 1, 0 ] h0=1 cpu=51.760
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 2, 0, 0, 8 ] h0=1 cpu=52.210
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 2, 0, 6, 2 ] h0=1 cpu=52.550
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 2, 6, 0, 2 ] h0=1 cpu=52.890
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 2, 6, 1, 1 ] h0=1 cpu=53.230
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 2, 7, 0, 1 ] h0=1 cpu=53.580
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 3, 6, 0, 1 ] h0=1 cpu=53.930
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 6, 1, 2, 1 ] h0=1 cpu=54.300
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 6, 1, 3, 0 ] h0=1 cpu=54.660
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 6, 2, 2, 0 ] h0=1 cpu=55.000
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 7, 1, 2, 0 ] h0=1 cpu=55.350
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 8, 0, 0, 2 ] h0=1 cpu=55.780
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 8, 0, 1, 1 ] h0=1 cpu=56.220
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 8, 1, 0, 1 ] h0=1 cpu=56.660
+C55_D10_COUPLED_EXCEPTION_RR vector=[ 0, 0, 0, 9, 0, 0, 1 ] h0=1 cpu=57.110
+C55_D10_COUPLED_COMPLETE patterns=382 FIexceptions=32 RRone=32 remaining=0 cpu=57.340

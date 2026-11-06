@@ -1,0 +1,4 @@
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_63_independent_bind_boundary.py", line 26
+    while y notin o:o.append(y);left.remove(y);y=g2[y]
+            ^^^^^
+SyntaxError: invalid syntax

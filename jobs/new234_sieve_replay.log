@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new234_sieve_replay.py", line 20, in <module>
+    fp,cd,nc=read('frobenius.m');tr=[];closed=[]
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new234_sieve_replay.py", line 8, in read
+    def read(n):return ast.literal_eval((SAVED/n).read_text().replace('[*','[').replace('*]',']').replace('true','True').replace('false','False'))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/ast.py", line 64, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 6
+    [
+    ^
+SyntaxError: invalid syntax

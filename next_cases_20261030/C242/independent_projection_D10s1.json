@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "tag": "D10s1",
+      "rows": 3422,
+      "maps": 4291,
+      "unique_images": 4283,
+      "status": "PASS"
+    }
+  ],
+  "seconds": 7.495301782153547,
+  "sha256": {
+    "filter14_images_D10s1.m": "24d9f89870f96dae39884c686e41bf47120744ad17639f3d3dfc9adf59ac9fd8",
+    "filter14_D10_D10s1.m": "a02f20e3cabaf8e3c5dd95122f381fb7161078608d01af4a4d6e9a69f09d5013",
+    "source10.m": "5871d0c0da9507ba75dc36e0162a7f8177c297540593474bea98d74c19224a8a"
+  }
+}

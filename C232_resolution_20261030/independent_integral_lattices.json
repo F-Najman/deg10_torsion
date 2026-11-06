@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "integral_homology_rank": 26,
+  "Hecke_bound_order": 32768000,
+  "Hecke_bound_mod_geometric_cuspidals_order": 2,
+  "Galois_fixed_geometric_cuspidal_order": 512000,
+  "Galois_fixed_classes_equal_rational_cuspidal_divisors": true,
+  "rational_Jacobian_index_over_rational_cuspidals_divides": 2
+}

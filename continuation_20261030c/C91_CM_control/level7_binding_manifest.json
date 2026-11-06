@@ -1,0 +1,46 @@
+{
+  "status": "PASS: accepted CM point7/cyclic13 binding controls only",
+  "source_original": "work/degree9/parallel_expansion_20261026/N91_f8/records.m",
+  "source_original_sha256": "cf02d6cefe46af45f57d2cca5ea0cddb4e100675f7aacd2e722706844aef66bd",
+  "files": [
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/inputs/records91_8.m",
+      "sha256": "cf02d6cefe46af45f57d2cca5ea0cddb4e100675f7aacd2e722706844aef66bd"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/CM_level7_binding.m",
+      "sha256": "c0104454a220274cba73f1beb02a71d6d54234599edcddc849508ed05134041e"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/independent_CM_level7_binding.json",
+      "sha256": "0c2fb874c2848990e3b3e60461238746eb72d493646e127b4a9c18990bc08bf4"
+    },
+    {
+      "path": "work/deg10/computations/contc91_independent_CM_level7_binding.m",
+      "sha256": "72318b227a3114283efd0d5d57887c074d00d3d67d2682fd1297c44928eba910"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_level7_binding.log",
+      "sha256": "d9ca8e8234e06e0474c028d4ed6a2451523e102b4cb10a5c47b2bacbf7fa96d0"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_level7_binding.status.json",
+      "sha256": "2ec7b4496c5ac416510e3bcaf4ed73438ef431df9a2fba0f8ed6b83d430d2df9"
+    },
+    {
+      "path": "work/deg10/computations/contc91_independent_CM_level7_sage.py",
+      "sha256": "0c15f89d56849c115f81a748fd8e723daf0a219bc21270ef0da3a7a193d1a7ad"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_level7_sage.log",
+      "sha256": "73db84286c5f983a1cdc29625e8951dc481ff29c309dca3f57d9f1aa30b5fe4a"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_level7_sage.status.json",
+      "sha256": "ef4f4322eecba7f5d73485725604ab80b83ca609a9b9317dd708576fd4dd4354"
+    }
+  ],
+  "actual_new_jobs_exited": 2,
+  "all_native_and_independent_Sage_scalar_and_kernel_checks_pass": true,
+  "exploratory_Hecke_tests_not_proof_dependencies": true
+}

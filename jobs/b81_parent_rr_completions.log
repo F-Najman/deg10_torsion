@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_parent_rr_completions.m", line 19, column 47:
+>>  den:=LCM([Denominator(v):g in bs,v in Eltseq(g)]);cs:=[[KP!(B!den*v):v in 
+                                                 ^
+User error: Identifier 'g' has not been declared or assigned

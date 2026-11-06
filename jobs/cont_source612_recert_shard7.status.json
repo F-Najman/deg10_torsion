@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_source612_recert_shard7",
+  "script": "computations/cont_source612_recert_shard7.m",
+  "script_sha256": "caf413036ec64fe5b1217565ae6846b7cde88966857e760a037d0bab4607fc0b",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_source612_recert_shard7.m"
+  ],
+  "pid": 477714,
+  "owner_uid": 1001,
+  "start_time_unix": 1793294811.7888725,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/cont_source612_recert_shard7.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 9.480690956115723
+}

@@ -1,0 +1,31 @@
+{
+  "started_utc": "2026-10-26T11:23:51.141965+00:00",
+  "worker_pid": 1715686,
+  "worker_start_ticks": 182084853,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "N:=37",
+    "Ds:=6,7,9",
+    "Qs:=3,5,7,11,13",
+    "RecordFile:=work/degree9/prime_orders/continued_20261026/P37/input_records.m",
+    "work/degree9/prime_orders/continued_20261026/prime_good_branches_64GB.m"
+  ],
+  "actual_cmdline": [
+    "/opt/magma-2.30-1/magma.exe",
+    "-b",
+    "N:=37",
+    "Ds:=6,7,9",
+    "Qs:=3,5,7,11,13",
+    "RecordFile:=work/degree9/prime_orders/continued_20261026/P37/input_records.m",
+    "work/degree9/prime_orders/continued_20261026/prime_good_branches_64GB.m"
+  ],
+  "wall_seconds": 430.02745754504576,
+  "cpu_seconds": 419.51,
+  "state": "R",
+  "wall_cap_seconds": 10800,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T11:31:01.169425+00:00",
+  "termination_reason": null
+}

@@ -1,0 +1,18 @@
+{
+  "purpose": "b81_parent_source_filter",
+  "script": "continuation_20261030b/C81/b81_parent_source_filter.py",
+  "script_sha256": "e23c0fdf5cd2641012c37a6e41765441bdca024084561b6aebba0262a1881ea1",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C81/b81_parent_source_filter.py"
+  ],
+  "pid": 2552665,
+  "owner_uid": 1001,
+  "start_time_unix": 1793390100.7641795,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/b81_parent_source_filter.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 5.873725414276123
+}

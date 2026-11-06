@@ -1,0 +1,18 @@
+{
+  "purpose": "sporadic_check_unit_2_30",
+  "script": "computations/sporadic_check_unit_2_30.py",
+  "script_sha256": "8c7c5d3489c89cc1f5591d2889923b3ad1258163f2d3468e3703b63249fbf9c8",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/sporadic_check_unit_2_30.py"
+  ],
+  "pid": 191950,
+  "owner_uid": 1001,
+  "start_time_unix": 1793282585.9049623,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/sporadic_check_unit_2_30.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 120.03219556808472
+}

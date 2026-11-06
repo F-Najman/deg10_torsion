@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_source_merge",
+  "script": "computations/next242_source_merge.m",
+  "script_sha256": "488f43a6bcb08f405e62b7e26bb9b4b5435f6ca35713502b2b64772530bdb180",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_source_merge.m"
+  ],
+  "pid": 2372001,
+  "owner_uid": 1001,
+  "start_time_unix": 1793381674.8154836,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/next242_source_merge.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.1641535758972168
+}

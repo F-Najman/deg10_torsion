@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "level": 48,
+  "genus": 37,
+  "noncuspidal_closed_counts": [
+    0,
+    0,
+    16,
+    64,
+    656,
+    2712,
+    10784,
+    48992,
+    217520,
+    977528
+  ],
+  "source_diamond_orbits_by_degree": [
+    0,
+    0,
+    2,
+    8,
+    82,
+    342,
+    1348,
+    6172,
+    27190,
+    122318
+  ],
+  "source_diamond_orbits_total": 157462,
+  "fresh_Frobenius_Newton_counts_agree": true,
+  "census_algorithm": "Every finite j modulo Frobenius, all twists; exact halving/triplication or division-polynomial roots, no elliptic point counts",
+  "inputs": [
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d1_s0.m",
+      "sha256": "14beb60a4d40b56fb3a7ecce805744a29a1b4c6e570823847702143944f4501c",
+      "closed_full_degree": 0,
+      "diamond_orbits_full_degree": 0
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d2_s0.m",
+      "sha256": "0702365fe69ca8254d548fbe0d175a04a368aed0ccbb5b72541d013c0fdfaeef",
+      "closed_full_degree": 0,
+      "diamond_orbits_full_degree": 0
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d3_s0.m",
+      "sha256": "d49d08625e522abc43440eec7baca1a87ba622676b5f8cfd72d9e8711b9b7d61",
+      "closed_full_degree": 16,
+      "diamond_orbits_full_degree": 2
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d4_s0.m",
+      "sha256": "b6e09801f5df0379d153678f5dfa0af1ffa2c434aa4052da98ff42886b01af95",
+      "closed_full_degree": 64,
+      "diamond_orbits_full_degree": 8
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d5_s0.m",
+      "sha256": "f73438aaf6552967112d76843e48b8dc5d87aba8878bd8b1dae894e0e7fd1224",
+      "closed_full_degree": 656,
+      "diamond_orbits_full_degree": 82
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d6_s0.m",
+      "sha256": "b473c448a193aea5b80e058e6ff5804495ab6f3571ce63a1b2a0539acbe1715d",
+      "closed_full_degree": 2712,
+      "diamond_orbits_full_degree": 342
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d7_s0.m",
+      "sha256": "3cf1e057ad2115f0260345ada1114e5a29161c28d8745468729c38433e178e0c",
+      "closed_full_degree": 10784,
+      "diamond_orbits_full_degree": 1348
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d8_s0.m",
+      "sha256": "e3625907dce8e3d7ba694c68865169fd0586e74e1a29bddd3dc1f656c71a9a84",
+      "closed_full_degree": 9172,
+      "diamond_orbits_full_degree": 1161
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d8_s1.m",
+      "sha256": "40d913c4b883ec658a57ad2d518ad3349817466db94861b406adc4ef7aca256e",
+      "closed_full_degree": 8480,
+      "diamond_orbits_full_degree": 1069
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d8_s2.m",
+      "sha256": "a72e69e067468f93e4b54840a6a773f4a997848e0fa2e5a66c284005965b91a5",
+      "closed_full_degree": 7608,
+      "diamond_orbits_full_degree": 952
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d8_s3.m",
+      "sha256": "e0efaf620bafdf3b5c3633171851260734bd19f1032f69e26340cd02e63fe2e6",
+      "closed_full_degree": 7384,
+      "diamond_orbits_full_degree": 928
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d8_s4.m",
+      "sha256": "c9faccc2d2778dcfc9a2ff88e03a301bc8d9c74188d61eadf81a13b13cb941af",
+      "closed_full_degree": 8500,
+      "diamond_orbits_full_degree": 1072
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d8_s5.m",
+      "sha256": "68e02fdee04254a1dab964c115febc698032c974b0d5b3eeb0d86e20b17cf09b",
+      "closed_full_degree": 7848,
+      "diamond_orbits_full_degree": 990
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d9_s0.m",
+      "sha256": "db77e013141c23689b8c7068e1b4a3a59cbf03e5b9e482b7436e9c0317f2e002",
+      "closed_full_degree": 35992,
+      "diamond_orbits_full_degree": 4499
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d9_s1.m",
+      "sha256": "423eef199af9372c307a50ade377fd78aebe099f5f0f7ffdbf3a092c6f9702b0",
+      "closed_full_degree": 36864,
+      "diamond_orbits_full_degree": 4608
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d9_s2.m",
+      "sha256": "2ffdcd2bda43e8dd2ee2533ef7062971de058fa763d797a9c2042072d9e503b9",
+      "closed_full_degree": 35408,
+      "diamond_orbits_full_degree": 4426
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d9_s3.m",
+      "sha256": "72cf6dbb50cd1057db798cce5f38fea4f17964b53a2c3ae1030600200ccb02d5",
+      "closed_full_degree": 35496,
+      "diamond_orbits_full_degree": 4437
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d9_s4.m",
+      "sha256": "f389f7e5bd4b0e4224580c8c590b5d717ff4c1f2a26f0b2d7c2ed6303a695ed5",
+      "closed_full_degree": 37904,
+      "diamond_orbits_full_degree": 4738
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d9_s5.m",
+      "sha256": "1c5c7a8ebd14e8f459ba7941dd3c6155b597ab8b95986ec366574495e5332e3a",
+      "closed_full_degree": 35856,
+      "diamond_orbits_full_degree": 4482
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d10_s0.m",
+      "sha256": "cb13337b4655acea29e5036bcd9c56ed97d70ba09d2c5bbd7046091bfbeba0c4",
+      "closed_full_degree": 161876,
+      "diamond_orbits_full_degree": 20250
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d10_s1.m",
+      "sha256": "fcbcb93f4910c7d009f9b49da48ba95e788a533b28b11c2ac6f05f10d9f60b97",
+      "closed_full_degree": 164156,
+      "diamond_orbits_full_degree": 20544
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d10_s2.m",
+      "sha256": "d328a15f64e37ffc581b956d0ac6f80f682beefdd5201d83d97c090fe4031273",
+      "closed_full_degree": 163860,
+      "diamond_orbits_full_degree": 20512
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d10_s3.m",
+      "sha256": "fdaaa3d8e05ecba8b7018498a5c51ebf46abd01d3a7ba6991fdd17b8006d98f0",
+      "closed_full_degree": 161108,
+      "diamond_orbits_full_degree": 20156
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d10_s4.m",
+      "sha256": "bba80e0cedd380ecd38f810bd53e2888bff3e8cc37d551546b40f837426bb827",
+      "closed_full_degree": 161532,
+      "diamond_orbits_full_degree": 20210
+    },
+    {
+      "path": "work/deg10/continuation_20261031a/C48/source_torsion_p5_d10_s5.m",
+      "sha256": "c62cfcadb5c0dc268790e2c420d9307d914c269776b14d3b65beaf10e98befae",
+      "closed_full_degree": 164996,
+      "diamond_orbits_full_degree": 20646
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_second_prime_v2.m", line 5, column 193:
+>> nd Seqset(labels) eq Seqset(a[1]);
+                              ^
+Runtime error in 'Seqset': Bad argument types
+Argument types given: List
+

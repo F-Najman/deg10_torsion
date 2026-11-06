@@ -1,0 +1,11 @@
+Loading "work/deg10/continuation_20261031b/C66/inputs/F5_rr/input33.m"
+Loading "work/deg10/continuation_20261031b/C66/gonal_cusp_input.m"
+
+DPole(
+    f: 1
+)
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_classical_gonal_filter.m", line 15, column 25:
+>> function DPole(f)return &+[-Valuation(f,p)*Divisor(p):p in Poles(f)];end fu
+                           ^
+Runtime error in '&+': Illegal null sequence
+

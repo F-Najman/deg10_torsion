@@ -1,0 +1,162 @@
+\begin{proposition}\label{prop:nonic65-exclusion}
+An elliptic curve over a number field of degree $9$ has no point of order $65$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(65)$. Its genus is $121$, and it has good reduction at $2$.
+The cubic classification excludes order $65$ in degrees dividing $3$.
+A hypothetical point therefore gives a noncuspidal closed trace divisor $D$ of degree $9$ on $X$.
+The Hasse bound excludes noncuspidal residue places of degree at most $5$.
+Thus either the reduction of $D$ is entirely cuspidal, or it contains a single noncuspidal place of degree $6,7,8$ or $9$, with multiplicity $1$.
+Independent complete censuses show that the only eligible degree-$6$ curves are supersingular, and every eligible curve in degrees $7,8,9$ is ordinary.
+
+The exact winding calculation shows that the only constituent not accounted for by the rank-zero winding quotient is the trivial-character elliptic factor $65\mathrm a$.
+Its eigenvalues at $2,3,7,11,17$ are
+\[
+ -1,-2,-4,2,2.
+\]
+In particular, every diamond difference has finite image on $J_X(\mathbb Q)$.
+We do not assume that $J_X(\mathbb Q)$ has rank zero.
+The ordinary noncuspidal possibilities in degrees $7,8,9$ are excluded by Proposition~\ref{prop:nonic65-ordinary-reduction}.
+Its proof uses the point-level annihilator $T_3-1-3\langle3\rangle$ and checks all $336$ retained matrices.
+We treat the entirely cuspidal and supersingular degree-$6$ reductions below.
+
+The global and finite cusp signatures are respectively
+\[
+ 1^{24}4^6 12^2 24,\qquad 1^{24}4^6 6^4 12^2.
+\]
+These are obtained independently from the primitive-column cusp action.
+Thus every cusp of degree at most $3$ is globally rational.
+The only non-global cusp places of degree at most $9$ are four sextic places splitting the global orbit of degree $24$.
+Every entirely cuspidal divisor of degree $9$ either contains one such place with multiplicity $1$ and a rational cuspidal complement of degree $3$, or is globally intact.
+
+We first exclude the four non-global sextic cusps.
+Let $H$ be the kernel of the quadratic character
+$u\mapsto\bigl(\frac{65}{u}\bigr)$ in the projective diamond group, and let $Y=X/H$, in the rational $q$-expansion, or dual, convention.
+The degree of $X\to Y$ is $12$, and $Y$ has genus $9$.
+A saturated canonical model has degree $16$ and arithmetic genus $9$; its normalized plane model has genus $9$, and all $21$ canonical quadrics and the inverse projection are checked exactly.
+The recovered $j$-map has degree $168$.
+Its cusps have dual widths and global degrees
+\[
+ (1,1),(1,1),(65,2),(5,2),(13,2).
+\]
+The width-$65$ quadratic cusp splits at $2$.
+Each of the four non-global source sextic places has norm $6$ to one of its two rational residue cusps.
+
+Put $\alpha=\langle3\rangle-1$ on $J_Y$.
+Its rational image is finite, since this is a quotient of the corresponding source diamond image.
+The proven finite Jacobian and finite cuspidal subgroup are
+\[
+ J_Y(\mathbb F_2)=[4,16,336],\qquad J_{Y,\mathrm{cusp}}(\mathbb F_2)=[2,8,336].
+\]
+Normalize classes at a globally rational dual width-$1$ cusp $c_0$.
+The $\alpha$-images of all finite cusp classes generate a group $U=[4,8]$ of order $32$.
+In the dual convention the geometric boundary formula and rational-torsion annihilator are
+\[
+ T_3=\langle3\rangle\operatorname{Fr}_3+3\operatorname{Fr}_3^{-1},
+ \qquad A_3=T_3-\langle3\rangle-3.
+\]
+In the retained finite cusp order the widths, diamond permutation and Galois permutation are
+\[
+ (1,65,65,13,5,1),\qquad (6,3,2,4,5,1),\qquad(1,3,2,4,5,6).
+\]
+Base-cusp corrections are included in every normalized class.
+The resulting operator respects every relation in $U$, and its kernel is $K=[8]$, of order $8$.
+For each of the two width-$65$ residue cusps $c$, the class
+\[
+ 6\alpha[c-c_0]
+\]
+lies outside $K$.
+All of these finite group operations, including both norm-$6$ tests, are independently replayed.
+
+To see that this suffices, push the trace divisor to $Y$.
+Its normalized $\alpha$-class is rational torsion, so its reduction is annihilated by $A_3$.
+For the rational cuspidal complement $C$ of degree $3$, the class $\alpha[C-3c_0]$ is also rational cuspidal torsion and is annihilated by $A_3$.
+Subtracting these classes forces $6\alpha[c-c_0]\in K$, contrary to the computation.
+This argument uses the operator only on the cusp-generated subgroup $U$ and does not identify $U$ with the whole finite Prym.
+
+It remains to exclude globally intact entirely cuspidal reduction.
+On the dual canonical model put
+\[
+ \Phi_{n,\ell}=(T_n-a_n)(T_\ell-\langle\ell\rangle-\ell),
+ \quad n\in\{2,3,7,11,17\},\quad \ell\in\{3,7,11,17\}.
+\]
+The first factor has finite image on rational points of the Jacobian, and the second kills rational torsion by Eichler--Shimura and injectivity at the odd good prime $\ell$.
+Thus each $\Phi_{n,\ell}$ annihilates $J_X(\mathbb Q)$.
+Their pullbacks of differentials span a $106$-dimensional space over $\mathbb F_2$.
+The retained matrices use the full saturated integral canonical lattice, including oldform degeneracies.
+
+The $24$ rational cusps have their usual $q$-expansions.
+For a quartic cusp we use the genuine Tate family
+\[
+ E(q^{13}),\qquad P=\zeta_5q,
+\]
+where $\zeta_5\in\mathbb F_{16}$ has order $5$.
+The standard modular units $x,y$ have pole degrees $53,54$.
+The $69$ and $68$ canonical unit relations are global: their section-degree bounds are $293,294$, whereas their checked orders are at least $1098$.
+An independent valuation-pivot calculation reconstructs all $121$ normalized canonical coordinates through order $20$.
+The selected integral $120\times120$ minor has valuation $98$, and the recovered canonical tangent is nonzero.
+The full projective diamond group has order $24$ and generates all $24$ rational cusps and all $6$ closed quartic cusps.
+The four conjugates of every quartic arc are checked coefficientwise.
+
+Every rational cuspidal divisor of degree $9$ has a rational support point.
+Translate one of maximal rational multiplicity to the first cusp and denote its multiplicity by $n_0$.
+Every other rational multiplicity is at most $\min(n_0,4)$, and every quartic multiplicity is at most $2$.
+We test the corresponding differential prefixes, using all four trace components at each quartic cusp.
+The numbers of normalized configurations for $n_0=1,\ldots,9$ are
+\[
+ 543465,1236411,372048,80845,14956,2300,276,23,1.
+\]
+All $2250325$ matrices have rank $9$.
+An independent enumeration reproduces every rank and the generating-function counts.
+Thus the product of the maps $\Phi_{n,\ell}$ is a formal immersion at every proposed cuspidal reduction in $X^{(9)}$.
+If $C$ is its rational cuspidal lift, then $D$ and $C$ have the same image and the same reduction.
+Formal immersion gives $D=C$, a contradiction.
+
+Finally, the independent supersingular census covers every $j=0$ equation by cube classes of $a_3$ and additive cosets in $a_4,a_6$.
+It uses containing sets of $12,4,12,4$ equations in degrees $6,7,8,9$.
+All eligible equations are in degree $6$ and are isomorphic to the retained model, of order $65$.
+Its group is cyclic, so all its level structures are covered by diamond translates of one retained point $P$.
+The two closed degree-$6$ source points are covered by this orbit.
+Their cuspidal complements have degree $3$ and are globally rational.
+Work now in the point-level convention, put $h=\langle3\rangle$, and let $T=T_3P$ be the actual covariant isogeny transport.
+The class $[hD-D]$ is rational torsion by the winding calculation and Manin--Drinfeld.
+The class $[hC-C]$ of the cuspidal complement is rational cuspidal torsion.
+The point-level annihilator is $T_3-1-3h$.
+Hence the degree-zero divisor
+\[
+ B=hT-T+P+2hP-3h^2P
+\]
+must be principal.
+Only Picard classes are cancelled here; no equality of cusp divisors is asserted.
+
+All four cyclic $3$-kernels and the actual level images are retained.
+They form two kernel orbits, giving two closed degree-$12$ targets, each with norm multiplicity $1$.
+Independent isogenies verify every kernel polynomial and point image.
+The product of the kernel norms is exactly the $3$-division polynomial.
+The points $P,3P,9P$ and the target levels and their triples are computed directly.
+Equal closed places are identified before signed multiplicities are added.
+For $B$, the positive and negative degrees are both $36$.
+
+We deform the supersingular equation by $a_1=t$, with $a_3$ a unit.
+The general $65$-division recurrence and the elliptic equation uniquely lift the level point.
+Their relevant $x$- and $y$-derivatives are nonzero.
+All elliptic, division and unit equations are verified through order $16$, and every unit-recovery matrix has rank $120$.
+Independent reconstruction verifies the same canonical arc and a nonzero tangent, so these are genuine local parameters.
+
+Put $R_i=H^0(X,iK_X)$.
+The $14641$ ordered products of the canonical basis span $R_2$, of dimension $360$.
+Every identity is checked through $q^{1099}$, beyond the weight-$4$ Sturm bound $672$.
+For $B=B^+-B^-$ choose nonzero $F,H\in R_1$ vanishing on $B^+$.
+If $f\in\mathcal L(B)$, then $G=fF$ vanishes on $B^-$ and $GH\in FR_1$.
+It therefore suffices to check injectivity of
+\[
+ R_1\longrightarrow H^0(B^-,K_X|_{B^-})\oplus R_2/FR_1,
+ \qquad G\longmapsto(G|_{B^-},GH\bmod FR_1).
+\]
+Multiplication by $F$ has rank $121$, the positive and negative vanishing-condition ranks are both $36$, and the final matrix has rank $121$.
+One section $H$ suffices.
+An independent replay reconstructs the entire multiplication table and the final matrix.
+Thus $\mathcal L(B)=0$, contradicting principality.
+The same checks also exclude the alternative coefficient arrangement, retained only as an additional audit.
+This completes the exclusion of order $65$.
+\end{proof}

@@ -1,0 +1,14 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(4*10^9);tt:=Cputime();AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");
+load "work/deg10/C232_resolution_20261030/deps/native_group_generators.m";
+load "work/deg10/C232_resolution_20261030/deps/class_group_direct_RR_checked_v4_fastfb.m";
+B:=MDX11(2,16,GF(3));CB:=Curve(B);assert Genus(CB) eq 5;F0,mp:=AlgorithmicFunctionField(FunctionField(CB));F5:=RationalExtensionRepresentation(F0);b,c:=Explode([F5!mp(v):v in B`_coordinates]);E:=EllipticCurve([F5|0,c,0,b*(1-b-c),0]);Q:=E![b,b];T:=8*Q;rad:=Q[1]-T[1];RF<s>:=PolynomialRing(F5);L<w>:=FunctionField(s^2-rad);F:=RationalExtensionRepresentation(L);assert Genus(F) eq 13;coords:=[F!(L!b),F!(L!c),F!(L.1)];OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);
+function ER(v) return [[Integers()!x:x in Coefficients(Numerator(v))],[Integers()!x:x in Coefficients(Denominator(v))]];end function;
+function EF(v) return [ER(x):x in Eltseq(F!v)];end function;
+function EP(pl) I:=Ideal(pl);return [*Order(I) eq OF select 1 else 0,Degree(pl),[EF(v):v in Basis(I)]*];end function;
+EY:=EllipticCurve([F|0,coords[2],0,coords[1]*(1-coords[1]-coords[2]),0]);cs:=Poles(jInvariant(EY));assert {*Degree(p):p in cs*} eq {*1^^8,2^^8,4^^4*};A:=Divisor([p:p in cs|Degree(p) eq 1][1]);
+fp:=FrobeniusPolynomial(JH(64,[15]),3);assert Degree(fp) eq 26;Write("work/deg10/C232_resolution_20261030/quotient13_geometry.m",Sprint([*[ER(v):v in Coefficients(DefiningPolynomial(F))],[EF(v):v in coords],EP(Support(A)[1]),[EP(p):p in cs],Coefficients(fp)*]):Overwrite:=true);print "C232_QUOTIENT13_GEOMETRY_READY",Cputime(tt);
+ivs:=ClassGroupAbelianInvariants(F:ReductionDivisor:=A,Proof:=true);assert F`cld`proven;MDProvenClassGroupGenerators(F);G:=F`cld`Cl;ff:=F`cld`ZnToCl;Z:=Domain(ff);fb:=Reverse([x`place:x in F`cld`fb]);fc:=[ff(Z.i):i in [1..#fb]];assert &*[v:v in Invariants(G)|v ne 0] eq Evaluate(fp,1);
+GG,_,phi,witness:=MDClassGroupDirectRRCheckedV4FastFB(F,"work/deg10/C232_resolution_20261030/quotient13_cusp_RR.log");cc:=[phi(Divisor(p)-Degree(p)*A):p in cs];H:=sub<G|[cc[i]:i in [1..#cs]|Degree(cs[i]) eq 1]>;K:=sub<G|cc>;
+print "C232_QUOTIENT13_PROVEN_GROUP",Invariants(G),Invariants(H),Invariants(K),Cputime(tt);
+A0:=F`cld`A1;pp,ee:=Support(A0);assert #pp eq 1 and ee[1] eq 1;ai:=Index(fb,pp[1]);assert ai gt 0;
+out:=[*[ER(v):v in Coefficients(DefiningPolynomial(F))],[Order(Ideal(p)) eq OF select 1 else 0:p in fb],[Degree(p):p in fb],[*[EF(v):v in Basis(Ideal(p))]:p in fb*],[Eltseq(v):v in fc],[Eltseq(v):v in Rows(RelationMatrix(G))],[EF(v):v in coords],ai,[Degree(p):p in cs],[Eltseq(v):v in cc],[EP(p):p in cs],EP(Support(A)[1])*];Write("work/deg10/C232_resolution_20261030/quotient13_proven_picard.m",Sprint(out):Overwrite:=true);fprintf witness,"]\n";Flush(witness);print "C232_QUOTIENT13_PROVEN_COMPLETE",#fb,Cputime(tt);quit;

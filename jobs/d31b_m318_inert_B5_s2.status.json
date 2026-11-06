@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_inert_B5_s2",
+  "script": "computations/d31b_m318_inert_B5_s2.m",
+  "script_sha256": "f34de503723406f8182be5d1d0192236c761e1e09aa344d29f85d5bee21ae0cf",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_inert_B5_s2.m"
+  ],
+  "pid": 3664533,
+  "owner_uid": 1001,
+  "start_time_unix": 1793442147.56311,
+  "state": "EXITED",
+  "time_limit_seconds": 1560,
+  "log": "jobs/d31b_m318_inert_B5_s2.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.8703057765960693
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "new236_geom_quotient9_setup",
+  "script": "computations/new236_geom_quotient9_setup.m",
+  "script_sha256": "76fb2ac6894ef4ad2ee13a77a67881b195f1285b462ac1f91e9c613ca2e948af",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_geom_quotient9_setup.m"
+  ],
+  "pid": 1894504,
+  "owner_uid": 1001,
+  "start_time_unix": 1793360769.447799,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/new236_geom_quotient9_setup.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 13.888473272323608
+}

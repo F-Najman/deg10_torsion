@@ -1,0 +1,462 @@
+{
+  "status": "PASS",
+  "finished_utc": "2026-10-30T18:44:04.495059+00:00",
+  "scope": "Owned C242 geometry workers, supervisors and launchers",
+  "jobs": [
+    {
+      "purpose": "next242_geom_c21_benchmark_v2",
+      "pid": 2386861,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382329.4050584,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_c21_benchmark_v2.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "superseded or benchmark; not used as a certificate",
+      "script": "computations/next242_geom_c21_benchmark_v2.m",
+      "status": "work/deg10/jobs/next242_geom_c21_benchmark_v2.status.json",
+      "log": "work/deg10/jobs/next242_geom_c21_benchmark_v2.log"
+    },
+    {
+      "purpose": "next242_geom_c21_full",
+      "pid": 2388216,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382388.066065,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_c21_full.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_c21_full.m",
+      "status": "work/deg10/jobs/next242_geom_c21_full.status.json",
+      "log": "work/deg10/jobs/next242_geom_c21_full.log"
+    },
+    {
+      "purpose": "next242_geom_c21_sage_replay",
+      "pid": 2392575,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382592.4341826,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_c21_sage_replay.py"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "termination_reason": null,
+      "disposition": "superseded or benchmark; not used as a certificate",
+      "script": "computations/next242_geom_c21_sage_replay.py",
+      "status": "work/deg10/jobs/next242_geom_c21_sage_replay.status.json",
+      "log": "work/deg10/jobs/next242_geom_c21_sage_replay.log"
+    },
+    {
+      "purpose": "next242_geom_c21_sage_replay_v2",
+      "pid": 2393212,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382621.8983266,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_c21_sage_replay_v2.py"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_c21_sage_replay_v2.py",
+      "status": "work/deg10/jobs/next242_geom_c21_sage_replay_v2.status.json",
+      "log": "work/deg10/jobs/next242_geom_c21_sage_replay_v2.log"
+    },
+    {
+      "purpose": "next242_geom_c21_setup",
+      "pid": 2364836,
+      "owner_uid": 1001,
+      "start_time_unix": 1793381338.3233068,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_c21_setup.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_c21_setup.m",
+      "status": "work/deg10/jobs/next242_geom_c21_setup.status.json",
+      "log": "work/deg10/jobs/next242_geom_c21_setup.log"
+    },
+    {
+      "purpose": "next242_geom_case26_sage_replay",
+      "pid": 2443554,
+      "owner_uid": 1001,
+      "start_time_unix": 1793384961.915071,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_case26_sage_replay.py"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_case26_sage_replay.py",
+      "status": "work/deg10/jobs/next242_geom_case26_sage_replay.status.json",
+      "log": "work/deg10/jobs/next242_geom_case26_sage_replay.log"
+    },
+    {
+      "purpose": "next242_geom_case26_sections",
+      "pid": 2435311,
+      "owner_uid": 1001,
+      "start_time_unix": 1793384586.660037,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_case26_sections.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_case26_sections.m",
+      "status": "work/deg10/jobs/next242_geom_case26_sections.status.json",
+      "log": "work/deg10/jobs/next242_geom_case26_sections.log"
+    },
+    {
+      "purpose": "next242_geom_g5_benchmark",
+      "pid": 2376495,
+      "owner_uid": 1001,
+      "start_time_unix": 1793381864.3311608,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_benchmark.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "termination_reason": null,
+      "disposition": "superseded or benchmark; not used as a certificate",
+      "script": "computations/next242_geom_g5_benchmark.m",
+      "status": "work/deg10/jobs/next242_geom_g5_benchmark.status.json",
+      "log": "work/deg10/jobs/next242_geom_g5_benchmark.log"
+    },
+    {
+      "purpose": "next242_geom_g5_benchmark_v2",
+      "pid": 2379693,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382009.2645288,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_benchmark_v2.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "superseded or benchmark; not used as a certificate",
+      "script": "computations/next242_geom_g5_benchmark_v2.m",
+      "status": "work/deg10/jobs/next242_geom_g5_benchmark_v2.status.json",
+      "log": "work/deg10/jobs/next242_geom_g5_benchmark_v2.log"
+    },
+    {
+      "purpose": "next242_geom_g5_merge",
+      "pid": 2388068,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382380.896941,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_merge.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_g5_merge.m",
+      "status": "work/deg10/jobs/next242_geom_g5_merge.status.json",
+      "log": "work/deg10/jobs/next242_geom_g5_merge.log"
+    },
+    {
+      "purpose": "next242_geom_g5_s0",
+      "pid": 2380055,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382024.1122391,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_s0.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_g5_s0.m",
+      "status": "work/deg10/jobs/next242_geom_g5_s0.status.json",
+      "log": "work/deg10/jobs/next242_geom_g5_s0.log"
+    },
+    {
+      "purpose": "next242_geom_g5_s1",
+      "pid": 2379997,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382021.963035,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_s1.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_g5_s1.m",
+      "status": "work/deg10/jobs/next242_geom_g5_s1.status.json",
+      "log": "work/deg10/jobs/next242_geom_g5_s1.log"
+    },
+    {
+      "purpose": "next242_geom_g5_s2",
+      "pid": 2380012,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382022.6070611,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_s2.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_g5_s2.m",
+      "status": "work/deg10/jobs/next242_geom_g5_s2.status.json",
+      "log": "work/deg10/jobs/next242_geom_g5_s2.log"
+    },
+    {
+      "purpose": "next242_geom_g5_sage_replay",
+      "pid": 2392565,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382591.587039,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_sage_replay.py"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "termination_reason": null,
+      "disposition": "superseded or benchmark; not used as a certificate",
+      "script": "computations/next242_geom_g5_sage_replay.py",
+      "status": "work/deg10/jobs/next242_geom_g5_sage_replay.status.json",
+      "log": "work/deg10/jobs/next242_geom_g5_sage_replay.log"
+    },
+    {
+      "purpose": "next242_geom_g5_sage_replay_v2",
+      "pid": 2393204,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382620.5981572,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_sage_replay_v2.py"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_g5_sage_replay_v2.py",
+      "status": "work/deg10/jobs/next242_geom_g5_sage_replay_v2.status.json",
+      "log": "work/deg10/jobs/next242_geom_g5_sage_replay_v2.log"
+    },
+    {
+      "purpose": "next242_geom_g5_setup",
+      "pid": 2364813,
+      "owner_uid": 1001,
+      "start_time_unix": 1793381337.852,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_setup.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "superseded or benchmark; not used as a certificate",
+      "script": "computations/next242_geom_g5_setup.m",
+      "status": "work/deg10/jobs/next242_geom_g5_setup.status.json",
+      "log": "work/deg10/jobs/next242_geom_g5_setup.log"
+    },
+    {
+      "purpose": "next242_geom_g5_setup_v2",
+      "pid": 2377769,
+      "owner_uid": 1001,
+      "start_time_unix": 1793381923.2462795,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_setup_v2.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_g5_setup_v2.m",
+      "status": "work/deg10/jobs/next242_geom_g5_setup_v2.status.json",
+      "log": "work/deg10/jobs/next242_geom_g5_setup_v2.log"
+    },
+    {
+      "purpose": "next242_geom_v9_setup",
+      "pid": 2379791,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382013.2708085,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_v9_setup.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "termination_reason": "time limit; computation is not a completed certificate",
+      "disposition": "abandoned bounded experiment; not a completed certificate",
+      "script": "computations/next242_geom_v9_setup.m",
+      "status": "work/deg10/jobs/next242_geom_v9_setup.status.json",
+      "log": "work/deg10/jobs/next242_geom_v9_setup.log"
+    },
+    {
+      "purpose": "next242_geom_v9_setup_v2",
+      "pid": 2386875,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382330.0191667,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_v9_setup_v2.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "termination_reason": "time limit; computation is not a completed certificate",
+      "disposition": "abandoned bounded experiment; not a completed certificate",
+      "script": "computations/next242_geom_v9_setup_v2.m",
+      "status": "work/deg10/jobs/next242_geom_v9_setup_v2.status.json",
+      "log": "work/deg10/jobs/next242_geom_v9_setup_v2.log"
+    },
+    {
+      "purpose": "next242_geom_x0_42_benchmark",
+      "pid": 2411161,
+      "owner_uid": 1001,
+      "start_time_unix": 1793383449.045888,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_x0_42_benchmark.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "superseded or benchmark; not used as a certificate",
+      "script": "computations/next242_geom_x0_42_benchmark.m",
+      "status": "work/deg10/jobs/next242_geom_x0_42_benchmark.status.json",
+      "log": "work/deg10/jobs/next242_geom_x0_42_benchmark.log"
+    },
+    {
+      "purpose": "next242_geom_x0_42_coordinates",
+      "pid": 2410729,
+      "owner_uid": 1001,
+      "start_time_unix": 1793383427.6360397,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_x0_42_coordinates.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_x0_42_coordinates.m",
+      "status": "work/deg10/jobs/next242_geom_x0_42_coordinates.status.json",
+      "log": "work/deg10/jobs/next242_geom_x0_42_coordinates.log"
+    },
+    {
+      "purpose": "next242_geom_x0_42_cusp_audit",
+      "pid": 2407040,
+      "owner_uid": 1001,
+      "start_time_unix": 1793383263.712003,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_x0_42_cusp_audit.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_x0_42_cusp_audit.m",
+      "status": "work/deg10/jobs/next242_geom_x0_42_cusp_audit.status.json",
+      "log": "work/deg10/jobs/next242_geom_x0_42_cusp_audit.log"
+    },
+    {
+      "purpose": "next242_geom_x0_42_full",
+      "pid": 2411550,
+      "owner_uid": 1001,
+      "start_time_unix": 1793383468.4922104,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_x0_42_full.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_x0_42_full.m",
+      "status": "work/deg10/jobs/next242_geom_x0_42_full.status.json",
+      "log": "work/deg10/jobs/next242_geom_x0_42_full.log"
+    },
+    {
+      "purpose": "next242_geom_x0_42_sage_replay_v2",
+      "pid": 2417728,
+      "owner_uid": 1001,
+      "start_time_unix": 1793383753.9176834,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_x0_42_sage_replay_v2.py"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_x0_42_sage_replay_v2.py",
+      "status": "work/deg10/jobs/next242_geom_x0_42_sage_replay_v2.status.json",
+      "log": "work/deg10/jobs/next242_geom_x0_42_sage_replay_v2.log"
+    },
+    {
+      "purpose": "next242_geom_x0_42_setup",
+      "pid": 2398341,
+      "owner_uid": 1001,
+      "start_time_unix": 1793382855.5240588,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_x0_42_setup.m"
+      ],
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "disposition": "accepted",
+      "script": "computations/next242_geom_x0_42_setup.m",
+      "status": "work/deg10/jobs/next242_geom_x0_42_setup.status.json",
+      "log": "work/deg10/jobs/next242_geom_x0_42_setup.log"
+    }
+  ],
+  "owned_worker_count": 25,
+  "accepted_job_count": 16,
+  "all_owned_jobs_exited": true,
+  "active_owned_processes": [],
+  "paused_owned_workers": 0,
+  "automatic_launchers": 0,
+  "notes": [
+    "The two V9 model-normalization trials exited -15 at their 300-second limits. They are not proof certificates.",
+    "The successful X0(42) route superseded the V9 trials; no fallback is left paused or pending.",
+    "Earlier failed parsing/metadata trials and successful benchmarks are preserved, but are not used as accepted certificates."
+  ]
+}

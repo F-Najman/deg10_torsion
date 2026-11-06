@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "target_degree10_places": 5685,
+  "source_degree10_places": 5910,
+  "diamond_orbits": 379,
+  "eligible_class_tests": 253,
+  "survivors": [],
+  "known_nonic31_binding_points": 5,
+  "new_degree5_pair_tests": 4095,
+  "new_quadratic_fibre_tests": 45,
+  "seconds": 50.44511628616601,
+  "complete_marked_point_and_2division_census": true,
+  "all_diamond_orbits_reconstructed": true,
+  "all_primary_sums_and_memberships_verified": true,
+  "native_ideal_identities_separately_replayed": true
+}

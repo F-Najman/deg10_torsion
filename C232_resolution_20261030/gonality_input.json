@@ -1,0 +1,27 @@
+{
+  "source": "https://arxiv.org/pdf/2407.14512",
+  "source_local": "Orlic_2407.14512.pdf",
+  "result": "Proposition 3.7 and Table 2 (row N=64)",
+  "quotient_delta": [
+    1,
+    15,
+    17,
+    31,
+    33,
+    47,
+    49,
+    63
+  ],
+  "quotient_genus": 13,
+  "quotient_Q_gonality_at_least": 6,
+  "source_delta": [
+    1,
+    31,
+    33,
+    63
+  ],
+  "source_genus": 37,
+  "quotient_degree": 2,
+  "Castelnuovo_Severi_upper_bound_for_independent_degree11_map": 36,
+  "source_Q_gonality_at_least": 12
+}

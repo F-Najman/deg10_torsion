@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/parallel_expansion_20261026/N93_source_units/verify_stage1_readonly.py", line 45, in <module>
+    xu,yu=units([LS(1),LS(0),LS(0),s1,a6],xp,yp);assert xu.valuation()==yu.valuation()==-1 and xu.prec()>=2300 and yu.prec()>=2300
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

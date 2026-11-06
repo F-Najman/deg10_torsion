@@ -1,0 +1,115 @@
+\begin{lemma}\label{lem:octic-doubled-cuspidal-RR}
+Let $X/F$ be a modular curve with a rational cusp $c_0$,
+and suppose that $\operatorname{Jac}(X)(F)$ has rank zero.
+Let $v\mid2$ be unramified, with good reduction for $X$, and
+suppose that all cusps split over an extension unramified at $v$.
+If
+\[
+ l(2C)=1
+\]
+for every effective cuspidal divisor $C$ of degree $d$ on
+the residue curve, then no $F$-rational noncuspidal effective
+divisor of degree $d$ has entirely cuspidal reduction at $v$.
+\end{lemma}
+\begin{proof}
+Suppose $D$ has such reduction $\overline C$, and lift it
+\emph{\'etale}-locally to a cuspidal divisor $C$ over an
+extension unramified at $v$. Both $[D-dc_0]$ and $[C-dc_0]$
+are torsion, the former by rank zero and the latter by
+Manin--Drinfeld. Hence $[D-C]$ is torsion in the reduction
+kernel. Over an unramified dyadic field this kernel is killed
+by $2$: multiplication by $2$ sends the first formal-group
+filtration into the second, on which the formal logarithm
+is injective. Thus $2D\sim2C$.
+The distinct effective divisors $2D$ and $2C$ give
+$l(2C)\geq2$. Specialization and base change then give
+$l(2\overline C)\geq2$ over the residue field, a contradiction.
+No rank assertion over the cusp-splitting extension is used.
+\end{proof}
+
+\begin{proposition}\label{prop:octic-no321}
+There is no elliptic curve over a number field of degree $8$
+with a subgroup isomorphic to $C_3\times C_{21}$.
+\end{proposition}
+\begin{proof}
+The Weil pairing gives $F=\mathbb Q(\zeta_3)\subseteq K$,
+so a proposed modular point gives an $F$-rational
+noncuspidal effective divisor $D$ of degree $4$ on
+$X=X_1(3,21)$. This curve has genus $25$, has good reduction
+at the prime above $2$, and has a rational cusp over $F$.
+Its cusps split over $\mathbb Q(\zeta_{21})$, unramified at $2$.
+By \cite[Theorem~4.1]{DS}, its Jacobian has rank zero over $F$.
+
+The cusp signature over $\mathbb F_4$ is $1^{24},3^8$.
+The exact noncuspidal closed-place counts in degrees one
+through four are
+\[
+ (0,0,0,144).
+\]
+They agree with the independent Frobenius computation on
+$\operatorname{Jac}(X_1(63)/\langle22\rangle)$ after quadratic
+constant-field extension. Thus $\overline D$ is either
+entirely cuspidal or one noncuspidal quartic place.
+
+For the first case there are exactly
+\[
+ \binom{27}{4}+24\cdot8=17742
+\]
+effective cuspidal degree-$4$ divisors.
+The fresh computation \texttt{double\_cusp\_3\_21\_D4.m}
+checks $l(2C)=1$ for all of them. It computes the common
+$25$-dimensional space of holomorphic differentials and
+the $104$ local vanishing-constraint matrices for
+$2m c$, with $m\deg c\leq4$.
+For each $C$, their combined matrix has rank $8$;
+Riemann--Roch gives $l(2C)=9-8=1$.
+The matrices are exported for an independent exhaustive
+$\mathbb F_4$ replay, and ordinary Riemann--Roch independently
+checks the initial cases and every exceptional case.
+A separate native function-field execution,
+\texttt{double\_cusp\_3\_21\_D4\_dt.m}, reproduces all the
+matrices by direct residue lifting: for a local uniformizer $u$
+and a fixed $\mathbb F_4$-linear residue-field lift, repeatedly
+subtract the lift of the residue of $f$ and divide by $u$,
+starting with $f=\omega/\omega_0$.
+This gives the same vanishing spaces without Hensel expansion.
+It checks every one of the $104$ individual local dimensions
+with ordinary Riemann--Roch and again obtains $l(2C)=1$
+for all $17742$ divisors. Both independently exported matrix
+sets pass the exhaustive $\mathbb F_4$ replay.
+Lemma~\ref{lem:octic-doubled-cuspidal-RR} excludes this branch.
+
+For the second case put $Q_3=7Q$, $Q_7=3Q$, so
+$Q=Q_3+5Q_7$. The $F$-defined automorphisms
+\[
+ (P,Q)\longmapsto
+ (aP+bQ_3,\ cP+dQ_3+5uQ_7),
+ \qquad
+ \begin{pmatrix}a&b\\c&d\end{pmatrix}\in\operatorname{SL}_2(\mathbb F_3),
+ \quad u\in(\mathbb Z/7\mathbb Z)^\times,
+\]
+give a group of order $72$, after identifying simultaneous
+negation. They partition the $144$ quartic places into
+two orbits. The complete key partition is checked on every
+place, and one full orbit is independently compared with
+the original moduli inverse, fixing the $\mathbb F_4$ base
+embedding in every residue-field map.
+
+The prime $13$ splits in $F$. The rational Hecke operator
+\[
+ A_{13}=T_{13}-1-13\langle13\rangle
+\]
+annihilates $J(F)$, and the rational base cusp satisfies
+$T_{13}c_0=c_0+13\langle13\rangle c_0$.
+Thus $A_{13}D$ is principal. It commutes with the displayed group:
+$13\equiv1\pmod3$ and the generator action on the
+$7$-part is central. It therefore suffices to test the two
+representatives. The fresh exact computation
+\texttt{sieve\_3\_21\_D4\_p2.m} finds $A_{13}(x)$
+nonprincipal for both. At the first representative,
+the fast $T_{13}$ divisor agrees exactly with the
+independent generic-isogeny construction and has degree $56$.
+This contradicts the necessary principality of
+$A_{13}(\overline D)$, and proves the proposition.
+\end{proof}
+

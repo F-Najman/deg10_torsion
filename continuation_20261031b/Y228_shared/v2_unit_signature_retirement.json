@@ -1,0 +1,84 @@
+{
+  "verified_replacement": "d31b_Y228_AF_cusp_signature_probe:24cusps,jdegree576,3units give[0,1,0]twice/[1,1,0]twice",
+  "retired_workers": [
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_v2_s0.status.json",
+      "pid": 3463670,
+      "owner_uid": 1001,
+      "start_time": 1793433342.4,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_v2_s0.m"
+      ],
+      "reason": "Verified three-unit cusp signatures already distinguish exactly the two global cubic cusp pairs. Expensive14 symbolic point-multiple functions are unnecessary; no RR output obtained.",
+      "signal": "SIGTERM"
+    },
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_v2_s1.status.json",
+      "pid": 3463712,
+      "owner_uid": 1001,
+      "start_time": 1793433343.77,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_v2_s1.m"
+      ],
+      "reason": "Verified three-unit cusp signatures already distinguish exactly the two global cubic cusp pairs. Expensive14 symbolic point-multiple functions are unnecessary; no RR output obtained.",
+      "signal": "SIGTERM"
+    },
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_v2_s2.status.json",
+      "pid": 3463688,
+      "owner_uid": 1001,
+      "start_time": 1793433343.58,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_v2_s2.m"
+      ],
+      "reason": "Verified three-unit cusp signatures already distinguish exactly the two global cubic cusp pairs. Expensive14 symbolic point-multiple functions are unnecessary; no RR output obtained.",
+      "signal": "SIGTERM"
+    },
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_v2_s3.status.json",
+      "pid": 3463753,
+      "owner_uid": 1001,
+      "start_time": 1793433345.13,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_v2_s3.m"
+      ],
+      "reason": "Verified three-unit cusp signatures already distinguish exactly the two global cubic cusp pairs. Expensive14 symbolic point-multiple functions are unnecessary; no RR output obtained.",
+      "signal": "SIGTERM"
+    },
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_v2_s4.status.json",
+      "pid": 3463706,
+      "owner_uid": 1001,
+      "start_time": 1793433343.69,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_v2_s4.m"
+      ],
+      "reason": "Verified three-unit cusp signatures already distinguish exactly the two global cubic cusp pairs. Expensive14 symbolic point-multiple functions are unnecessary; no RR output obtained.",
+      "signal": "SIGTERM"
+    },
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_v2_s5.status.json",
+      "pid": 3463693,
+      "owner_uid": 1001,
+      "start_time": 1793433343.6,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_v2_s5.m"
+      ],
+      "reason": "Verified three-unit cusp signatures already distinguish exactly the two global cubic cusp pairs. Expensive14 symbolic point-multiple functions are unnecessary; no RR output obtained.",
+      "signal": "SIGTERM"
+    }
+  ],
+  "terminated_jobs_not_certificates": true
+}

@@ -1,0 +1,344 @@
+{
+  "status": "PASS",
+  "scope": "Independent Hecke exclusion for the37 source supports not rejected by the separate quotient-class sieve; this is not by itself the full C46 proof",
+  "source_supports": 37,
+  "support_type_counts": {
+    "[10]": 20,
+    "[6, 4]": 11,
+    "[5, 5]": 6
+  },
+  "source_components": 54,
+  "native_two_generator_prime_references": 292,
+  "genuine_geometric5_kernels": 324,
+  "manual_Velu_checks": 324,
+  "all_h0_zero": true,
+  "all_source_diamond_and_target_keys_and_norms_verified": true,
+  "original_source_projective_coordinate_bindings_verified": true,
+  "all9jobs_exited0": true,
+  "jobs": [
+    "jobs/d31a_46_parent_exceptional_hecke_s0.status.json",
+    "jobs/d31a_46_parent_exceptional_native_s0.status.json",
+    "jobs/d31a_46_parent_exceptional_genuine_s0.status.json",
+    "jobs/d31a_46_parent_exceptional_hecke_s1.status.json",
+    "jobs/d31a_46_parent_exceptional_native_s1.status.json",
+    "jobs/d31a_46_parent_exceptional_genuine_s1.status.json",
+    "jobs/d31a_46_parent_exceptional_hecke_s2.status.json",
+    "jobs/d31a_46_parent_exceptional_native_s2.status.json",
+    "jobs/d31a_46_parent_exceptional_genuine_s2.status.json"
+  ],
+  "cases": [
+    {
+      "type": [
+        5,
+        5
+      ],
+      "index": 2,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        5,
+        5
+      ],
+      "index": 4,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        5,
+        5
+      ],
+      "index": 12,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        5,
+        5
+      ],
+      "index": 55,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        5,
+        5
+      ],
+      "index": 110,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        5,
+        5
+      ],
+      "index": 143,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 2,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 28,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 63,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 87,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 131,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 133,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 168,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 170,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 234,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 246,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 270,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 54,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 103,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 144,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 210,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 261,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 267,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 418,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 419,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 420,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 490,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 495,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 496,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 497,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 507,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 520,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 521,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 522,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 546,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 555,
+      "q": 5,
+      "h0": 0
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 565,
+      "q": 5,
+      "h0": 0
+    }
+  ]
+}

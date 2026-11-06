@@ -1,0 +1,11 @@
+{
+  "reason": "An exploratory cusp-set construction bug was identified before accepting any result; immutable v2 replacement completed",
+  "owner_uid": 1001,
+  "pid": 3591675,
+  "proc_start_ticks": "224610984",
+  "command": "/opt/magma-2.30-1/magma.exe -b /home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C54/d31b_C54_member_profile_classes.m",
+  "identity_verified_before_signal": true,
+  "signal": "SIGTERM",
+  "actual_exit_code": -15,
+  "complete_certificate": false
+}

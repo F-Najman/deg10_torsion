@@ -1,0 +1,50 @@
+\begin{lemma}\label{lem:nonic39-independent-F512-census}
+There are $52$ noncuspidal closed points of degree $9$ on
+$X_1(39)_{\mathbb F_2}$. They form five projective diamond orbits
+of sizes $4,12,12,12,12$. The orbit of size $4$ lies above three
+conjugate $j$-invariants in $\mathbb F_8$ and its curves have
+$468$ points over $\mathbb F_{512}$. The other four orbits lie above
+$j$-invariants of degree $9$, and their curves have $546$ points.
+\end{lemma}
+\begin{proof}
+Put $k=\mathbb F_{512}$ and $\operatorname{tr}=\operatorname{Tr}_{k/\mathbb F_2}$.
+For each nonzero $j$, the two ordinary $k$-isomorphism classes have equations
+\[
+ E_{b,a}:y^2+xy=x^3+ax^2+b,\qquad b=j^{-1},\quad a\in\{0,1\}.
+\]
+Since $\operatorname{tr}(1)=1$, both twists are included. Directly counting
+solutions of $z^2+z=c$ gives
+\[
+ \#E_{b,a}(k)=513+(-1)^a K(\sqrt b),\qquad
+ K(c)=\sum_{x\in k^\times}(-1)^{\operatorname{tr}(x+c/x)}.
+\]
+The independent certificate constructs $k$ using $z^9+z^8+1$ and
+checks inverses of every nonzero element. It evaluates all $511$
+Kloosterman sums by an exact integer Walsh transform. For every eligible
+curve it independently repeats the direct character sum
+$513+\sum_{x\ne0}(-1)^{\operatorname{tr}(x+b/x^2+a)}$.
+Exactly $39$ ordinary curves have order divisible by $39$:
+three have order $468$, and $36$ have order $546$.
+Squaring their explicit $j$-coordinates partitions the first three into
+one orbit of length $3$ and the remaining $36$ into four orbits of length $9$.
+
+For completeness every supersingular equation is also covered directly.
+The cube map on $k^\times$ is bijective, so scaling makes $a_3=1$.
+Translations first remove $a_2$, then reduce $a_4$ modulo
+$s^4+s$ and $a_6$ modulo $s^2+s$. Both images are the trace-zero
+hyperplane, as verified by complete enumeration.
+Thus the four equations $y^2+y=x^3+a_4x+a_6$, with
+$a_4,a_6\in\{0,1\}$, suffice. Their directly counted orders are
+$513,513,481,545$, none divisible by $39$.
+
+Since $\gcd(39,511)=1$, the $39$-torsion in each eligible ordinary
+curve is cyclic. Each therefore gives $\varphi(39)/2=12$ marked
+isomorphism classes on $X_1(39)(k)$, and the projective diamond group
+is transitive on these twelve classes over each $j$-invariant.
+There are no noncuspidal points over $\mathbb F_2$ or $\mathbb F_8$,
+by Hasse's bound. All $39\cdot12=468$ marked classes consequently
+have Frobenius orbit length $9$.
+Above the cubic $j$-orbit there are $36/9=4$ closed points; above
+each nonic $j$-orbit there are $108/9=12$.
+These sets are transitive diamond orbits, proving the assertions.
+\end{proof}

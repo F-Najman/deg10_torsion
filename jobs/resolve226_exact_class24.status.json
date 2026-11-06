@@ -1,0 +1,19 @@
+{
+  "purpose": "resolve226_exact_class24",
+  "script": "computations/resolve226_exact_class24.m",
+  "script_sha256": "7c095e49360231e845ff1ae4059ebb8fc9f13790512da562380c43a27b2fcbbc",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_exact_class24.m"
+  ],
+  "pid": 1582925,
+  "owner_uid": 1001,
+  "start_time_unix": 1793347792.1161554,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/resolve226_exact_class24.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 574.1513984203339
+}

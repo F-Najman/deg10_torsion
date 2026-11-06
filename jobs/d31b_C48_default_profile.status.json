@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C48_default_profile",
+  "script": "continuation_20261031b/C48/d31b_C48_default_profile.m",
+  "script_sha256": "f52408357e33310925fb405064abf371719166660f895eef9cad5f2f7ce947f5",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_default_profile.m"
+  ],
+  "pid": 3512062,
+  "owner_uid": 1001,
+  "start_time_unix": 1793435516.1097145,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/d31b_C48_default_profile.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 49.19017171859741
+}

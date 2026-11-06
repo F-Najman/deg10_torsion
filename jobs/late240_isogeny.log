@@ -1,0 +1,8 @@
+Loading "work/deg10/continuation_20261029b/C240/filter_quotient20_isogeny.m"
+Loading "work/deg10/continuation_20261029b/deps/class_group_direct_RR_checked_v4_fastfb.m"
+Loading "work/deg10/continuation_20261029b/deps/pair_af_place_linear.m"
+C240_QUOTIENT20_GENUS 9
+C240_D10_QUOTIENT20_GROUP [ 8, 120, 120, 0 ]
+[ 4, 60, 120 ]
+2.800
+C240_D10_QUOTIENT20_ISOGENY_DONE 288 118 complete=true 56.220

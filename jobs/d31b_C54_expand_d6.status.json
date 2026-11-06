@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C54_expand_d6",
+  "script": "continuation_20261031b/C54/d31b_C54_expand_d6.m",
+  "script_sha256": "4b0b0c94e42bbd6dc7c136b9086719f1b8706cd8c1e30bb085356b2d58f2562c",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C54/d31b_C54_expand_d6.m"
+  ],
+  "pid": 3452096,
+  "owner_uid": 1001,
+  "start_time_unix": 1793432814.5495338,
+  "state": "EXITED",
+  "time_limit_seconds": 1450,
+  "log": "jobs/d31b_C54_expand_d6.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 618.6104016304016
+}

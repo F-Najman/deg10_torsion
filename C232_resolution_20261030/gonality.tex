@@ -1,0 +1,38 @@
+\subsection{A gonality bound for $X_1(2,32)$}
+\begin{lemma}\label{lem:decic232-gonality}
+The $\Q$-gonality of $X_1(2,32)$ is at least $12$.
+\end{lemma}
+\begin{proof}
+Put
+\[
+ \Delta_0=\{\pm1,\pm31\},\qquad
+ \Delta_1=\{\pm1,\pm15,\pm17,\pm31\}
+ \subseteq(\mathbb Z/64\mathbb Z)^*.
+\]
+The usual $2$-isogeny construction identifies $X=X_1(2,32)$
+with $X_{\Delta_0}(64)$ over $\Q$.
+Indeed, from $(E,P,Q)$ take $\phi:E\to E'=E/\langle P\rangle$
+and a point $R$ with $\widehat\phi(R)=Q$. Then
+$2R=\phi(Q)$ has order $32$, so $R$ has order $64$.
+The two choices of $R$ differ by $32R$ and therefore give the
+same $\Delta_0$-orbit. Conversely the dual isogeny recovers the
+original level structure. This also follows by conjugating
+$\Gamma_1(32)\cap\Gamma^0(2)$ by $\operatorname{diag}(1,2)$.
+
+The inclusion $\Delta_0\subset\Delta_1$ gives a degree-two map
+\[
+ \pi:X\longrightarrow Y=X_{\Delta_1}(64).
+\]
+Here $g(X)=37$ and $g(Y)=13$. By
+\cite[Proposition~3.7 and Table~2]{Orlic},
+$\operatorname{gon}_{\Q}Y\geq6$.
+Suppose that $f:X\to\mathbb P^1$ has degree $d\leq11$.
+If $f$ factors through $\pi$, its induced map on $Y$ has degree
+$d/2\leq5$, a contradiction. Otherwise the two maps generate
+$\Q(X)$, since $[\Q(X):\Q(Y)]=2$.
+Castelnuovo--Severi gives
+\[
+ 37=g(X)\leq2g(Y)+(2-1)(d-1)=25+d\leq36,
+\]
+again a contradiction.
+\end{proof}

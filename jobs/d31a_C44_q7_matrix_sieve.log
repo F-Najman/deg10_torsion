@@ -1,0 +1,6 @@
+Loading "work/deg10/continuation_20261031a/C44/q7_matrix_sieve.m"
+Loading "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/multiplication_22_data.m"
+Loading "work/deg10/continuation_20261031a/C44/q7_sieve_inputs.m"
+D31A_C44_Q7_CANONICAL22_CASE index=1 rank=105 attempts=1 time=0.330
+D31A_C44_Q7_CANONICAL22_CASE index=2 rank=105 attempts=1 time=0.340
+D31A_C44_Q7_CANONICAL22_COMPLETE cases=2 survivors=[] all_rank105=true time=0.340

@@ -1,0 +1,18 @@
+{
+  "purpose": "d31a_46_parent_exceptional_genuine_s1",
+  "script": "computations/d31a_46_parent_exceptional_genuine_s1.py",
+  "script_sha256": "5e6b1e940cc4bc6a3fcfeaf1db02f713d514c4e1ace56842a9bc04afe092f627",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_46_parent_exceptional_genuine_s1.py"
+  ],
+  "pid": 2859938,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404620.7251074,
+  "state": "EXITED",
+  "time_limit_seconds": 2920,
+  "log": "jobs/d31a_46_parent_exceptional_genuine_s1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 15.689299583435059
+}

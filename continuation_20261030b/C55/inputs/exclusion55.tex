@@ -1,0 +1,129 @@
+\begin{proposition}\label{prop:nonic-C55}
+There is no point of order $55$ on an elliptic curve over a number field
+of degree $9$.
+\end{proposition}
+\begin{proof}
+Let $X=X_1(55)$ and let $D$ be the rational effective divisor of degree
+$9$ arising from such a point. Its support is noncuspidal. The complete
+newform decomposition has dimension $81$, and every constituent has
+proved analytic rank zero. Consequently $J_X(\mathbb Q)$ is finite.
+The input and the dimension check are recorded in
+\texttt{C55\_rank\_certificate.json}.
+
+At $2$ the noncuspidal closed-place counts through degree $9$ are
+\[
+ (0,0,0,0,0,0,20,0,40).
+\]
+Independent Frobenius similarity-class counts agree. The degree-$7$
+places form one diamond orbit, and the degree-$9$ places form two.
+The cusp signature is $1^{20},4^5,10^2,20$.
+All twenty rational cusps lift to rational cusps over $\mathbb Q$.
+A nonempty noncuspidal reduction is therefore one degree-$7$ place
+plus two rational cusps, or one degree-$9$ place.
+The immutable degree-independent calculation on the septic orbit
+has nonprincipal $A_3$ image; every possible new complement is killed
+by $A_3$. Fresh full-source Riemann--Roch calculations give
+nonprincipal $A_3$ images on both degree-$9$ representatives.
+An untouched native calculation reproduces the degree-$36$ Hecke
+divisor on one of them. All fresh source tests finish with exit code $0$.
+Since $A_3=T_3-1-3\langle3\rangle$ kills rational torsion and a rational
+base cusp, these tests exclude the noncuspidal branch.
+
+Now suppose that $\overline D$ is entirely cuspidal. Let
+\[
+ H=\langle\langle16\rangle\rangle,\qquad Y=X/H.
+\]
+The group $H$ has order $5$ and acts freely. This remains true in
+characteristic $2$: no nontrivial elliptic-curve automorphism has order
+$5$, and the primitive-column calculation checks freeness at every
+cusp. Hence $Y$ has good reduction at $2$ and genus $17$.
+Its Jacobian has rank zero, since pullback embeds it, up to isogeny,
+in $J_X$.
+
+The map $Y\longrightarrow X_0(55)$ is an etale cyclic cover of degree
+$4$, with generator induced by $\langle2\rangle$. There are no
+elliptic stabilizers: an automorphism of order $4$ would require a
+square root of $-1$ modulo $11$, and an automorphism of order $3$
+would require a nontrivial cube root of unity modulo $5$. The
+primitive-column calculation checks the cusps, including the special
+fibre at $2$. In the order of cusp widths $55,11,5,1$, the Frobenius
+elements in this cyclic group are
+\[
+ 0,\quad1,\quad2,\quad3.
+\]
+The resulting cusp signature on $Y_{\mathbb F_2}$ is
+$1^4,2^2,4^2$.
+
+For completeness, the special-fibre model is identified independently
+of the class-field constructor. The exact plane model and its
+$j$-function are retained in \texttt{C55\_builtin\_model.m}; its
+normalization has genus $5$, and its degree-$72$ $j$-map has the four
+rational poles of widths $1,5,11,55$. The two modular-polynomial
+identities for $5$ and $11$ are checked exactly. Since the normalization
+of $X_0(5)\times_{X(1)}X_0(11)$ is the connected degree-$72$ cover
+$X_0(55)$, these identities and the degree check also identify the
+base function field. Its Picard group is
+$\mathbb Z/5\mathbb Z\times\mathbb Z/20\mathbb Z\times\mathbb Z$.
+There is exactly one character to $\mathbb Z/4\mathbb Z$ with the
+specified cusp Frobenius elements. The corresponding length-two Witt
+equation is converted to an explicit quartic, with exact inverse
+maps and an automorphism whose square sends the quartic generator
+to itself plus $1$. Actual Witt Frobenius traces on two places
+generate the Picard group modulo $4$ and identify the character,
+up to inversion. The quartic has genus $17$ and a split rational
+cusp. Riemann--Hurwitz therefore proves that the cover is everywhere
+unramified and geometrically connected. These degree-independent checks identify it
+with $Y_{\mathbb F_2}$ by global class field theory; the inputs and
+exact identities are copied into the degree-nine directory and rebuilt there.
+
+Let $\pi:X\longrightarrow Y$. The divisor $\pi_*\overline D$ is
+supported on the four rational cusps of width $55$ and the one
+quartic cusp of width $11$. Indeed, the other cusps on $Y$ are images
+of source cusps of degrees $10$ or $20$, which cannot occur in a
+divisor of degree $9$. This restriction, including all residue-degree
+multiplicities, is checked using primitive-column cusp labels in
+\texttt{cusps\_order5\_quotients.py}. There are precisely
+\[
+ [z^9](1-z)^{-4}(1-z^4)^{-1}=280
+\]
+possible image divisors. On a freshly rebuilt model put
+$U=(\mathcal C-1)H^0(Y_{\mathbb F_2},\Omega^1)$, of dimension $15$.
+Native differential-space calculations give all $38$ restriction
+kernels needed for degree $9$, in one global basis.
+Independent binary algebra checks every kernel, Cartier projection,
+and weighted divisor. Exactly eight of the $280$ restrictions have
+rank $8$; every other restriction has rank $9$ and is excluded by
+Lemma~\ref{lem:nonic51-quotient-Cartier}.
+Each exception is supported on rational cusps.
+Separate ordinary Riemann--Roch calculations give $h^0(\overline C)=1$
+for every exceptional divisor.
+
+We show that reduction is injective on $J_Y(\mathbb Q)_{\rm tors}$.
+By \cite[Theorem~4.13 and Table~2]{DEHMZ},
+\[
+ J_X(\mathbb Q)[2^\infty]=C_2\times C_{16}.
+\]
+Since $\pi_*\pi^*=[5]$, pullback is injective on the rational
+$2$-primary torsion of $J_Y$. Hence its order is at most $32$.
+The independent Tate cusp calculation shows that every finite
+closed cusp on $Y_{\mathbb F_2}$ lifts to a rational effective
+cuspidal divisor with unchanged degree. The global and finite cusp
+signatures are both $1^4,2^2,4^2$.
+The exact finite Jacobian and the subgroup generated by these
+rational cuspidal divisor classes have invariants
+\[
+ J_Y(\mathbb F_2)=[5,5,10,1200],\qquad H=[5,10,1200].
+\]
+An independent integer lattice replay verifies the subgroup order
+$60000$ and its $2$-primary order $32$. Manin--Drinfeld gives global
+torsion lifts of all its generators. This attains the upper bound,
+so reduction is injective on $J_Y(\mathbb Q)[2^\infty]$.
+It is always injective on odd torsion, proving the assertion.
+
+Each exceptional reduction lifts to a rational cuspidal divisor $C$.
+If the proposed noncuspidal divisor $D_Y=\pi_*D$ had this reduction,
+then $[D_Y-C]$ would be rational torsion and reduce to zero.
+Injectivity gives $D_Y\sim C$. Semicontinuity and
+$h^0(\overline C)=1$ force $D_Y=C$, a contradiction.
+Thus all eight exceptions are excluded, completing the proof.
+\end{proof}

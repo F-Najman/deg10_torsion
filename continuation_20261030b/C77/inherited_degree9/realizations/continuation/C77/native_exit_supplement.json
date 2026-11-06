@@ -1,0 +1,34 @@
+{
+  "degree": 9,
+  "group": [
+    1,
+    77
+  ],
+  "source": "actual functions.write_stdin completion results, followed by a fresh subprocess return-code capture for winding",
+  "native_completions": [
+    {
+      "stage": "model_deck plus rr9_continue",
+      "session_id": 39796,
+      "exit_code": 0,
+      "log": "model_deck.log"
+    },
+    {
+      "stage": "validate_modular_cover",
+      "session_id": 34481,
+      "exit_code": 0,
+      "log": "validate_modular_cover.log"
+    },
+    {
+      "stage": "fresh winding77 return-code recheck",
+      "exit_code": 0,
+      "log": "winding77_exit_recheck.log"
+    }
+  ],
+  "evidence_sha256": {
+    "model_deck.log": "ab3a7ac939b6c1d8c6e41507970c0f37a1cce50d3a5fd56f5e5c306b2392f365",
+    "validate_modular_cover.log": "b3d441b3671a5adeb2adfe24fbd8bfc63d6e98cc9a4beaad3106bbad3864ddf3",
+    "winding77.m": "22a3db3e8bcfd7919ff9575a0c0d83745e80dfe18eb2ded23702d0615e1c1701",
+    "winding77_exit_recheck.log": "3ea98e8095efd5d472bb110700216f7bb1d9116ada0a4a67d32fa726f9084007"
+  },
+  "note": "Supplement to frozen manifest77.json; no frozen evidence was modified."
+}

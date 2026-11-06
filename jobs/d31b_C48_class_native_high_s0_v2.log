@@ -1,0 +1,8 @@
+Loading "work/deg10/continuation_20261031b/C48/d31b_C48_independent_class_nativ\
+e_common_v2.m"
+Loading "work/deg10/continuation_20261031b/C48/inputs/portable_inputs.m"
+
+In file "work/deg10/continuation_20261031b/C48/d31b_C48_independent_class_native_common_v2.m", line 12, column 91:
+>> d v[2]eq 0;E:=SD(v[4]);R:=SD(v[5]);assert SD(v[6])eq A and v[1]eq e and Deg
+                                      ^
+Runtime error in assert: Assertion failed

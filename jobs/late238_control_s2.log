@@ -1,0 +1,21 @@
+Loading "work/deg10/continuation_20261029b/C238/native_control.m"
+Loading "work/deg10/continuation_20261029b/deps/pair_af_place_linear.m"
+C238_NATIVE_CONTROL_TEST 3 [ 1, 9, 17 ]
+1 5 false 40.520
+C238_NATIVE_CONTROL_TEST 7 [ 1, 10, 32 ]
+1 5 false 58.190
+C238_NATIVE_CONTROL_TEST 11 [ 1, 10, 57 ]
+1 5 false 74.810
+C238_NATIVE_CONTROL_TEST 15 [ 1, 10, 98 ]
+1 5 false 98.550
+C238_NATIVE_CONTROL_TEST 19 [ 2, 5, 1, 5, 2 ]
+1 5 false 103.240
+C238_NATIVE_CONTROL_TEST 23 [ 2, 5, 1, 5, 13 ]
+1 5 false 105.680
+C238_NATIVE_CONTROL_TEST 27 [ 2, 5, 1, 5, 39 ]
+1 5 false 110.510
+C238_NATIVE_CONTROL_TEST 31 [ 2, 5, 1, 5, 45 ]
+1 5 false 115.050
+C238_NATIVE_CONTROL_TEST 35 [ 2, 5, 1, 5, 54 ]
+1 5 false 119.790
+C238_NATIVE_CONTROL_SHARD_COMPLETE 2 9 0 119.800

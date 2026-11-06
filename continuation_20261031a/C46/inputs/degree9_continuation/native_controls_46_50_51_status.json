@@ -1,0 +1,22 @@
+{
+  "cmd": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/cyclic/continuation_20261026/native_controls_46_50_51.m"
+  ],
+  "pid": 1689877,
+  "start_ticks": 181979765,
+  "started_utc": "2026-10-26T11:06:20.263620+00:00",
+  "cpu_limit": 7200,
+  "wall_limit": 21600,
+  "status": "EXITED",
+  "elapsed_wall_seconds": 3480.2244312569965,
+  "cpu_seconds": 2806.82,
+  "last_log_lines": [
+    "NONIC_NATIVE_CONTROL_INPUT N=46 p=3 degree=9 totalNC9=1958 time=84.920",
+    "NONIC_NATIVE_HECKE_EQUAL N=46 q=5 degree=54 principal=false time=150.000",
+    "NONIC_NATIVE_CONTROL_INPUT N=50 p=3 degree=9 totalNC9=2040 time=352.070"
+  ],
+  "native_exit_code": -15,
+  "log_sha256": "51d43d675c3eb96064de62db2debb8ad0ca7ba4c3c3380e87354a7f801943b4b"
+}

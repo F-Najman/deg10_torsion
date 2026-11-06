@@ -1,0 +1,12 @@
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont69_q67_parent_native.m", line 2, column 59:
+>> root:="work/deg10/next_cases_20261030/C69/quotient67/";p:=eval Read(root ca
+                                                             ^
+
+In eval expression, line 1, column 4:
+>> [* Q67_PACKET_V2,
+      ^
+    Located in file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont69_q67_parent_native.m", at line 2, column 59:
+    >> root:="work/deg10/next_cases_20261030/C69/quotient67/";p:=eval Read(root ca
+                                                                 ^
+User error: Identifier 'Q67_PACKET_V2' has not been declared or assigned
+

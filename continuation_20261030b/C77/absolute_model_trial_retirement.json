@@ -1,0 +1,14 @@
+{
+  "pid": 2580923,
+  "owner_uid": 1001,
+  "command": [
+    "/opt/magma-2.30-1/magma.exe",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_absolute_model.m"
+  ],
+  "start_ticks": 219845551,
+  "signal": "SIGTERM",
+  "reason": "Missing required mdmagma AttachSpec; this trial cannot complete and is superseded by a fresh corrected script.",
+  "recorded_unix": 1793391534.8189058,
+  "not_a_certificate": true
+}

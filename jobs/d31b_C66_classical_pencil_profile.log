@@ -1,0 +1,8 @@
+Loading "work/deg10/continuation_20261031b/C66/inputs/F5_rr/input33.m"
+Loading "work/deg10/continuation_20261031b/C66/gonal_cusp_input.m"
+D31B_C66_CLASSICAL_FIBRE a=0 degrees=[ 2, 2 ] multiplicities=[ 1, 4 ] time=5.190
+D31B_C66_CLASSICAL_FIBRE a=1 degrees=[ 1, 1, 1, 1, 1 ] multiplicities=[ 3, 1, 1, 3, 2 ] time=5.600
+D31B_C66_CLASSICAL_FIBRE a=2 degrees=[ 4, 6 ] multiplicities=[ 1, 1 ] time=5.840
+D31B_C66_CLASSICAL_FIBRE a=3 degrees=[ 10 ] multiplicities=[ 1 ] time=6.070
+D31B_C66_CLASSICAL_FIBRE a=4 degrees=[ 10 ] multiplicities=[ 1 ] time=6.300
+D31B_C66_CLASSICAL_PENCIL_PROFILE_COMPLETE time=6.310

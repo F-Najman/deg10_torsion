@@ -1,0 +1,18 @@
+{
+  "purpose": "contc93_cusp_FI",
+  "script": "continuation_20261030c/C93/contc93_cusp_FI.py",
+  "script_sha256": "bd5b45f3bbcb47ffbcbdfa6916b47f6ef0b91056a0204085cf5a8ae30004ecf4",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C93/contc93_cusp_FI.py"
+  ],
+  "pid": 2723054,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398250.073453,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/contc93_cusp_FI.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.9153296947479248
+}

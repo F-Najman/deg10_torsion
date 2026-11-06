@@ -1,0 +1,92 @@
+\subsection{Excluding a point of order $87$}
+\begin{proposition}\label{prop:decic-no87}
+No elliptic curve over a number field of degree $10$ has a point of order $87$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(87)$ and $B=X_0(87)$, of genera $225$ and $9$.
+Both rational Jacobians have rank zero by
+\cite[Theorem~3.1]{DEHMZ}. The projective index of $X$ is $3360$, so
+\cite[(2.1)]{NV} gives
+\[
+ \operatorname{gon}_{\overline{\mathbb Q}}X
+ \geq \frac{325\cdot3360}{32768}>20.
+\]
+A proposed point gives a rational effective divisor $D$ of degree $10$
+with noncuspidal support.
+
+The global cusp signature and the cusp signature at $2$ are both
+$1^{28},2^{14},28^2$. An exact enumeration of primitive Tate labels
+verifies that every global cusp orbit remains intact at $2$.
+If the reduction of $D$ is entirely cuspidal, it therefore lifts to
+a rational cuspidal divisor $C$ of degree $10$.
+The class $[D-C]$ is torsion by rank zero and specializes to zero.
+The formal torsion kernel over $\mathbb Q_2$ has exponent two:
+multiplication by two sends its first formal subgroup into the
+torsion-free second subgroup. Hence $2D\sim2C$.
+These distinct effective divisors have degree $20$, below geometric
+gonality, a contradiction.
+
+The noncuspidal closed-point counts through degree ten at $2$ are
+\[
+ (0,0,0,0,0,0,0,0,112,224).
+\]
+We verify them by a complete elliptic-curve census and an independent
+finite-field recount. In degree nine there are $36$ qualifying curves,
+all with group $C_{522}$. In degree ten there are $40$ with group
+$C_{1044}$ and $10$ with group $C_3\times C_{348}$.
+Their subgroups of order $29$ are unique. We retain every cyclic
+subgroup of order $3$, including all four for full rational $3$-torsion.
+The numbers of cyclic order-$87$ subgroups over the two finite fields
+are consequently $36$ and $80$.
+Modulo Frobenius their images on $B$ give respectively four closed
+places of degree nine and eight of degree ten. Their residue degrees
+are checked explicitly; no source norm factor is omitted.
+Thus a mixed reduction is a degree-nine noncuspidal place plus a
+rational cusp, or a degree-ten noncuspidal place.
+
+We construct the reduced model of $B$ over the genus-two field of
+$X_0(29)$. For its exact $j$-map, adjoining
+\[
+ v^4+v^3+1/j=0
+\]
+gives an irreducible degree-four extension of genus nine.
+Indeed the order-three Tate family
+$y^2+xy+vy=x^3$ has $j=1/(v^3(v+1))$, so this is the normalized
+fibre product of $X_0(29)$ and $X_0(3)$.
+Its $j$-map has degree $120$, and its four rational cusps have widths
+$1,3,29,87$.
+For each finite elliptic curve, the $29$-isogeny kernel determines its
+point on $X_0(29)$; the rational point of order three determines $v$.
+The marked curve and both isogenous $j$-invariants identify the
+normalized place exactly.
+
+Put $A_5=T_5-6$ on $B$. Eichler--Shimura at $5$ and injectivity of
+rational torsion reduction at this odd good prime imply
+$A_5J_B(\mathbb Q)=0$.
+For a rational cusp $c_0$ the boundary formula gives
+$T_5c_0=6c_0$ as a divisor. Consequently $A_5$ of any rational
+divisor on $B$ is principal.
+The possible degree-one cusp complement also contributes zero.
+For every one of the twelve noncuspidal image representatives $P$,
+we therefore require $T_5P-6P$ to be principal.
+
+We compute this divisor by enumerating every cyclic kernel of order
+five and carrying the marked level structure through its isogeny.
+The degree-nine cases have one closed Hecke image of degree $54$,
+with six geometric observations and norm weight one.
+Each degree-ten case has images of degrees $10$ and $50$, with
+one and five observations and norm weights one and one.
+The positive Hecke divisor has degree $6\deg P$ in every case.
+All twelve exact calculations give
+\[
+ h^0_B(T_5P-6P)=0.
+\]
+A fresh native calculation reconstructs every prime from two exact
+ideal generators, verifies the source and positive divisors, compares
+the complete kernel norms using field-independent coordinate keys,
+and reproduces all twelve zero dimensions.
+Independent explicit V\'elu calculations verify all $72$ cyclic
+five-kernels, their quotient curves and marked images, all $29$-isogeny
+coordinates, and the $20$ positive norm summands.
+This contradicts principality and excludes every remaining reduction.
+\end{proof}

@@ -1,0 +1,53 @@
+[
+  {
+    "source": "winding63.m",
+    "source_sha256": "b5c99c9e61cbac940dc10a6b64ea78f03abe257f715897f299208847a3829700",
+    "log": "winding63.log",
+    "log_sha256": "26e1c1e461fe5e0e38d4dee934c5769ff0b67c472c0f29479aae41b5ef3a164b",
+    "actual_exit_code": 0,
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "work/degree9/realizations/continuation/C63/winding63.m"
+    ]
+  },
+  {
+    "source": "source_counts.m",
+    "source_sha256": "20f685317f37009e04d1ea470c0d83c9e9d5f7c029fdebb8ca3f1ec13aa2dbeb",
+    "log": "source_counts.log",
+    "log_sha256": "7121b90e6dba80adb1bd1747a088fde9fbfb167989dabfea5d085c0f44cdcaec",
+    "actual_exit_code": 0,
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "work/degree9/realizations/continuation/C63/source_counts.m"
+    ]
+  },
+  {
+    "source": "cusp63.py",
+    "source_sha256": "6f4bd90d488af85fedf58c49d5f9a62c956e1fde844a7fe6980f466b09c9ffae",
+    "log": "cusp63.log",
+    "log_sha256": "1f2dc72aab7cfe390787ceda38f3018012ff20c559041568a33fd1335133a300",
+    "actual_exit_code": 0,
+    "command": [
+      "python3",
+      "work/degree9/realizations/continuation/C63/cusp63.py"
+    ]
+  },
+  {
+    "source": "cartier_rr_D9.m",
+    "source_sha256": "f33be8cdde43ba7572a5c9b8629f49239e8a99a8a925968f9cdbd5727acfd5d6",
+    "log": "cartier_rr_D9.log",
+    "log_sha256": "1546b4a9c2d90781f688a7796d63ca57f359f60909b74e35fbba545997694532",
+    "actual_exit_code": 0,
+    "exec_session": 64020
+  },
+  {
+    "source": "good9_T5.m",
+    "source_sha256": "196871e2310cd95c76ad673b2e4ee59d4e1b5d614ccb4495790b6a7a1b259f51",
+    "log": "good9_T5.log",
+    "log_sha256": "205084a1bbb4feb3c12f61d3f97e61ae037e7c2a4f4f7ec46fb113778af353a5",
+    "actual_exit_code": 0,
+    "exec_session": 46347
+  }
+]

@@ -1,0 +1,2 @@
+DIRECT_RR_CLASS_IDENTITY trials=7 degree=0 class=[ 0, 0, 0, 0, 0, 24, 0 ] Edegree=9 Rdegree=9 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=6 degree=0 class=[ 0, 0, 0, 0, 24, 24, 0 ] Edegree=9 Rdegree=9 both_orders_exact=true

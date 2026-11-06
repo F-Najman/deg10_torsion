@@ -1,0 +1,18 @@
+{
+  "cmd": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/cyclic/continuation_20261026/N45_quotient_injectivity_control.m"
+  ],
+  "pid": 1703093,
+  "start_ticks": 182033225,
+  "started_utc": "2026-10-26T11:15:14.864243+00:00",
+  "cpu_limit": 7200,
+  "wall_limit": 21600,
+  "status": "EXITED",
+  "elapsed_wall_seconds": 18.011728457873687,
+  "cpu_seconds": 16.76,
+  "last_log_lines": [],
+  "native_exit_code": 0,
+  "log_sha256": "f1705b175c26d0b736fa9dc0f3ff147b22ddb6db3f15bfb11f5d6573546f1ca6"
+}

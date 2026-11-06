@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_Y228_A5_v4_s4",
+  "script": "computations/d31b_Y228_A5_v4_s4.m",
+  "script_sha256": "6d0058b87f4ec82defb394d261b08bd2f64eeeafa97089eaf188ef84dedb3d70",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_v4_s4.m"
+  ],
+  "pid": 3504506,
+  "owner_uid": 1001,
+  "start_time_unix": 1793435175.9704058,
+  "state": "EXITED",
+  "time_limit_seconds": 920,
+  "log": "jobs/d31b_Y228_A5_v4_s4.log",
+  "actual_exit_code": -14,
+  "termination_reason": null,
+  "elapsed_seconds": 850.0548510551453
+}

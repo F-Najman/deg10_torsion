@@ -1,0 +1,189 @@
+{
+  "status": "PASS",
+  "all_case_jobs_exited": true,
+  "all_case_statuses": [
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard1.status.json",
+      "actual_exit_code": 1
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard3.status.json",
+      "actual_exit_code": 1
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_merge.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard2.status.json",
+      "actual_exit_code": 1
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard4_v2.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_matrices.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_q7_residual_jets.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_jet_geometry.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard5_v2.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_new_matrix_sieve.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard2_v2.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard4.status.json",
+      "actual_exit_code": 1
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_q7_matrix_sieve.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard0.status.json",
+      "actual_exit_code": 1
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard3_v2.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard5.status.json",
+      "actual_exit_code": 1
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_cusp_jets.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_new_finite_jets.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard0_v2.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies.status.json",
+      "actual_exit_code": -15
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C44_independent_isogenies_shard1_v2.status.json",
+      "actual_exit_code": 0
+    }
+  ],
+  "required_primary_producers": [
+    "d31a_C44_new_finite_jets",
+    "d31a_C44_new_matrix_sieve",
+    "d31a_C44_q7_residual_jets",
+    "d31a_C44_q7_matrix_sieve"
+  ],
+  "independent_accepted_jobs": [
+    {
+      "stem": "d31a_C44_independent_matrices",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_MATRICES_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_jet_geometry",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_JET_GEOMETRY_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_merge",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_FINAL_VERIFICATION_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard0_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard1_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard2_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard3_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard4_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard5_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies",
+      "role": "retired serial backup, not a certificate",
+      "actual_exit_code": -15
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard0",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard1",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard2",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard3",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard4",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard5",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    }
+  ],
+  "retired_or_failed_jobs_are_not_certificates": true,
+  "unlaunched_prefix_search_helpers_are_diagnostics": true
+}

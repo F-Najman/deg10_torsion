@@ -1,0 +1,1 @@
+DEGREES:=[9];load "work/deg10/computations/d31a_even_p3_census_common.m";

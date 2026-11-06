@@ -1,0 +1,20 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(4*10^9);tt:=Cputime();SetUseMontes(FldFun,true);
+k:=GF(PRIME);PP:=PolynomialRing(k);B<t>:=FunctionField(k);R<Y>:=PolynomialRing(B);
+model:=eval Read("work/deg10/C226_resolution_20261030/Q_model_fast.m");
+function EQ(v) return k!v[1]/k!v[2];end function;
+function ER(v) return B!(PP![EQ(a):a in v[1]])/B!(PP![EQ(a):a in v[2]]);end function;
+g:=R![ER(v):v in model[1]];F<z>:=FunctionField(g);
+function EF(v) return F![ER(a):a in v];end function;
+OF:=MaximalOrderFinite(F:Al:="Montes");OI:=MaximalOrderInfinite(F);b:=EF(model[2]);
+ci:=eval Read("work/deg10/C226_resolution_20261030/Q_cusp_ideals_portable.m");cs:=[];labels:=[];
+for row in ci do OO:=row[2] eq 1 select OF else OI;J:=ideal<OO|[EF(v):v in row[3]]>;p:=Place(J);assert Degree(p) eq 1 and Valuation(b,p) eq row[1];Append(~cs,p);Append(~labels,row[1]);end for;
+a:=eval Read("work/deg10/C226_resolution_20261030/pencil_inputs.m");assert Seqset(labels) eq Seqset(a[1]);out:=[* *];
+for row in a[2] do
+ co:=row[2];AA:=&+[Maximum(0,co[i])*Divisor(cs[Index(labels,a[1][i])]):i in [1..18]];ba:=Basis(AA:Reduction:=false,Simplification:="None");assert #ba eq 2;
+ j:=Index([x gt 0:x in row[3]],true);Pc:=cs[Index(labels,a[1][j])];assert Valuation(AA,Pc) eq 0;
+ v1:=Evaluate(ba[1],Pc);v2:=Evaluate(ba[2],Pc);ff:=v2*ba[1]-v1*ba[2];assert ff ne 0 and Evaluate(ff,Pc) eq 0;
+ rr:=Eltseq(ff);den:=LCM([Denominator(v):v in rr]);den/:=LeadingCoefficient(den);nums:=[PP!(den*v):v in rr];ii:=Max([i:i in [1..#nums]|nums[i] ne 0]);sc:=LeadingCoefficient(nums[ii]);nums:=[v/sc:v in nums];
+ Append(~out,[*row[1],[Integers()!v:v in Coefficients(den)],[[Integers()!v:v in Coefficients(q)]:q in nums],ii,[Degree(q):q in nums]*]);
+ print "Q226_FINITE_UNIT",PRIME,row[1],Degree(den),[Degree(q):q in nums],Cputime(tt);
+end for;
+Write(Sprintf("work/deg10/C226_resolution_20261030/finite_units_%o.m",PRIME),Sprint([*PRIME,out*]));print "Q226_FINITE_UNITS_COMPLETE",PRIME,Cputime(tt);quit;

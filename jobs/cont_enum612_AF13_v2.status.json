@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_enum612_AF13_v2",
+  "script": "computations/cont_enum612_AF13_v2.m",
+  "script_sha256": "816ae653e81d6e33231ab1fa031d9bceaf2ae1cbf0941bf0847ef44fd6c87254",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_enum612_AF13_v2.m"
+  ],
+  "pid": 435667,
+  "owner_uid": 1001,
+  "start_time_unix": 1793292936.9911056,
+  "state": "EXITED",
+  "time_limit_seconds": 360,
+  "log": "jobs/cont_enum612_AF13_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 97.76661539077759
+}

@@ -1,0 +1,18 @@
+{
+  "purpose": "unit_1_23",
+  "script": "computations/unit_1_23.py",
+  "script_sha256": "3d42c4fb89bd0775ce257005ea676f7a6ab73b9832eca375c099a34ac371fd5e",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/unit_1_23.py"
+  ],
+  "pid": 1440,
+  "owner_uid": 1001,
+  "start_time_unix": 1793274282.9784722,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/unit_1_23.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.7656004428863525
+}

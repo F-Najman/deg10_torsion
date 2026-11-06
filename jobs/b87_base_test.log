@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b87_base_test.m", line 6, column 26:
+>> CC:=ChangeRing(CQ,GF(2));assert IsNonsingular(CC) and Genus(CC) eq (ell eq 
+                            ^
+Runtime error in assert: Assertion failed

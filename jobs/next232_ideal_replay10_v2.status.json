@@ -1,0 +1,19 @@
+{
+  "purpose": "next232_ideal_replay10_v2",
+  "script": "computations/next232_ideal_replay10_v2.m",
+  "script_sha256": "d7732e74b946779844fd363255109a69652e5cf479e8c4ad1ae9a3fae7006c0b",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_ideal_replay10_v2.m"
+  ],
+  "pid": 1742300,
+  "owner_uid": 1001,
+  "start_time_unix": 1793354178.3132267,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next232_ideal_replay10_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 18.49506688117981
+}

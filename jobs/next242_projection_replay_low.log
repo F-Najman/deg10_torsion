@@ -1,0 +1,4 @@
+C242_SAGE_PROJECTION_TAG_COMPLETE {'tag': 'small', 'rows': 2941, 'maps': 5882, 'unique_images': 1196, 'status': 'PASS'} 3.142414159141481
+C242_SAGE_PROJECTION_TAG_COMPLETE {'tag': 'D7', 'rows': 316, 'maps': 389, 'unique_images': 385, 'status': 'PASS'} 3.50772838992998
+C242_SAGE_PROJECTION_TAG_COMPLETE {'tag': 'D8', 'rows': 1372, 'maps': 1775, 'unique_images': 1678, 'status': 'PASS'} 5.307897416874766
+C242_SAGE_ALL_PROJECTIONS_COMPLETE low

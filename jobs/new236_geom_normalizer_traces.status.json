@@ -1,0 +1,18 @@
+{
+  "purpose": "new236_geom_normalizer_traces",
+  "script": "computations/new236_geom_normalizer_traces.py",
+  "script_sha256": "01195f8c875c3a6c9582fc73a7744173b1c8574450fb626d604e16f4cfca6396",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_geom_normalizer_traces.py"
+  ],
+  "pid": 1881622,
+  "owner_uid": 1001,
+  "start_time_unix": 1793360223.1894739,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/new236_geom_normalizer_traces.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 4.021625280380249
+}

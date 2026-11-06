@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "sources": [
+    {
+      "source": 1,
+      "source_degree": 10,
+      "kernel_polynomials": 4,
+      "target_degrees": [
+        20,
+        20
+      ]
+    },
+    {
+      "source": 2,
+      "source_degree": 10,
+      "kernel_polynomials": 4,
+      "target_degrees": [
+        20,
+        20
+      ]
+    },
+    {
+      "source": 3,
+      "source_degree": 10,
+      "kernel_polynomials": 4,
+      "target_degrees": [
+        20,
+        20
+      ]
+    },
+    {
+      "source": 4,
+      "source_degree": 10,
+      "kernel_polynomials": 4,
+      "target_degrees": [
+        20,
+        20
+      ]
+    },
+    {
+      "source": 5,
+      "source_degree": 10,
+      "kernel_polynomials": 4,
+      "target_degrees": [
+        20,
+        20
+      ]
+    }
+  ],
+  "independent_actual3_isogenies": 20,
+  "all65_level_transports_exact": true
+}

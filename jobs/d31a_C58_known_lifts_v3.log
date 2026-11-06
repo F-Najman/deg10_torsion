@@ -1,0 +1,5 @@
+Loading "work/deg10/continuation_20261031a/C58/known_lift_binding_job_v3.m"
+Loading "work/deg10/continuation_20261031a/C58/degree10_census.m"
+D31A_C58_KNOWN_LIFT model=1 representative=1748 orbit_size=7 odd_reduction=[* 29, 11, 29 *] time=0.050
+D31A_C58_KNOWN_LIFT model=2 representative=462 orbit_size=14 odd_reduction=[* 29, 5, 29 *] time=0.050
+D31A_C58_KNOWN_LIFT_BINDING_COMPLETE two_orbits=true exact29torsion=true no2torsion=true

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "groups": [
+    [
+      1,
+      54
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Complete exact degree-ten exclusion with independent arithmetic and parent mathematical review",
+  "frozen_summary_sha256": "364aeaf622e845789a5ebde15148452d0d0ccd358274d33871f6b50cc620a951",
+  "classification_complete": false
+}

@@ -1,0 +1,43 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_sage_local_arcs_v2.py", line 132, in <module>
+    locals_=[LocalArc(v) for v in meta[5]]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_sage_local_arcs_v2.py", line 132, in <listcomp>
+    locals_=[LocalArc(v) for v in meta[5]]
+             ^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_sage_local_arcs_v2.py", line 54, in __init__
+    assert eq(self.S(t0),self.S(y0))==0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_sage_local_arcs_v2.py", line 45, in eq
+    def eq(t,y):return sum((rat(c,t)*y**i for i,c in enumerate(MODEL[0])),self.S(0))
+                                                                          ^^^^^^^^^
+  File "sage/structure/parent.pyx", line 900, in sage.structure.parent.Parent.__call__ (build/cythonized/sage/structure/parent.c:13639)
+  File "sage/structure/coerce_maps.pyx", line 164, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7339)
+  File "sage/structure/coerce_maps.pyx", line 159, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7231)
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/rings/laurent_series_ring.py", line 592, in _element_constructor_
+    return self.element_class(self, x, n).add_bigoh(prec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sage/rings/laurent_series_ring_element.pyx", line 150, in sage.rings.laurent_series_ring_element.LaurentSeries.__init__ (build/cythonized/sage/rings/laurent_series_ring_element.c:8125)
+  File "sage/structure/parent.pyx", line 900, in sage.structure.parent.Parent.__call__ (build/cythonized/sage/structure/parent.c:13639)
+  File "sage/structure/coerce_maps.pyx", line 164, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7339)
+  File "sage/structure/coerce_maps.pyx", line 159, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7231)
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/rings/power_series_ring.py", line 890, in _element_constructor_
+    return self.element_class(self, f, prec, check=check)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sage/rings/power_series_poly.pyx", line 72, in sage.rings.power_series_poly.PowerSeries_poly.__init__ (build/cythonized/sage/rings/power_series_poly.c:7562)
+  File "sage/structure/parent.pyx", line 900, in sage.structure.parent.Parent.__call__ (build/cythonized/sage/structure/parent.c:13639)
+  File "sage/structure/coerce_maps.pyx", line 164, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7339)
+  File "sage/structure/coerce_maps.pyx", line 159, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7231)
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polynomial_ring.py", line 497, in _element_constructor_
+    return C(self, x, check, is_gen, construct=construct, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sage/rings/polynomial/polynomial_zz_pex.pyx", line 155, in sage.rings.polynomial.polynomial_zz_pex.Polynomial_ZZ_pEX.__init__ (build/cythonized/sage/rings/polynomial/polynomial_zz_pex.cpp:21036)
+  File "sage/rings/polynomial/polynomial_template.pxi", line 176, in sage.rings.polynomial.polynomial_zz_pex.Polynomial_template.__init__ (build/cythonized/sage/rings/polynomial/polynomial_zz_pex.cpp:12892)
+  File "sage/structure/parent.pyx", line 900, in sage.structure.parent.Parent.__call__ (build/cythonized/sage/structure/parent.c:13639)
+  File "sage/structure/coerce_maps.pyx", line 164, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7339)
+  File "sage/structure/coerce_maps.pyx", line 159, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7231)
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/finite_field_ntl_gf2e.py", line 209, in _element_constructor_
+    return self._cache.import_data(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sage/rings/finite_rings/element_ntl_gf2e.pyx", line 348, in sage.rings.finite_rings.element_ntl_gf2e.Cache_ntl_gf2e.import_data (build/cythonized/sage/rings/finite_rings/element_ntl_gf2e.cpp:13358)
+TypeError: unable to coerce <class 'NoneType'>

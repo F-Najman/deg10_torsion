@@ -1,0 +1,18 @@
+179,1
+S,AnalyticConductor,The analytic conductor of newforms of level N and weight k,0,2,0,0,0,0,0,0,0,RngIntElt,,0,0,RngIntElt,,FldReElt,Null,Null,Null,Null,Null
+S,NewformLabel,"The label of the nth newform (orbit) of level N, weight k, character orbit index o",0,4,0,0,0,0,0,0,0,RngIntElt,,0,0,RngIntElt,,0,0,RngIntElt,,0,0,RngIntElt,,MonStgElt,Null,Null,Null,Null,Null
+S,NewformLabel,The label of the nth newform (orbit) of character chi and weight k,0,3,0,0,0,0,0,0,0,RngIntElt,,0,0,RngIntElt,,0,0,MonStgElt,,MonStgElt,Null,Null,Null,Null,Null
+S,SplitNewformLabel,"Given the label N.k.a.x of a newform, return the sequence [N,k,o,n] giving the level N, weight k, char orbit index o, Hecke orbit index n (as integers)",0,1,0,0,0,0,0,0,0,MonStgElt,,SeqEnum,Null,Null,Null,Null,Null
+S,SplitEmbeddedNewformLabel,"Given the label N.k.a.x.n.i of a newform, return the sequence [N,k,o,x,n,i] giving the level N, weight k, char orbit (as an integer), Hecke orbit (as an integer), Conrey index n, relative embedding index i",0,1,0,0,0,0,0,0,0,MonStgElt,,SeqEnum,Null,Null,Null,Null,Null
+S,CompareNewformLabels,"Compares newform label strings of the form N.k.a.x lexicographically by level N, weight k, char orbit a, Hecke orbit x, returns -1,0,1",0,2,0,0,0,0,0,0,0,MonStgElt,,0,0,MonStgElt,,RngIntElt,Null,Null,Null,Null,Null
+S,CompareEmbeddedNewformLabels,"Compares embedded newform label strings of the form N.k.a.x.n.i lexicographically by level N, weight k, char orbit a, Hecke orbit x, Conrey index n, embedding index i, returns -1,0,1",0,2,0,0,0,0,0,0,0,MonStgElt,,0,0,MonStgElt,,RngIntElt,Null,Null,Null,Null,Null
+S,NewspaceLabel,"Given positive integers N,k,a specifying the level, weight, char orbit of a newspace, return the label of the newspace",0,3,0,0,0,0,0,0,0,RngIntElt,,0,0,RngIntElt,,0,0,RngIntElt,,MonStgElt,Null,Null,Null,Null,Null
+S,NewspaceLabel,The label of the newspace of weight k and character chi,0,2,0,0,0,0,0,0,0,RngIntElt,,0,0,GrpDrchElt,,MonStgElt,Null,Null,Null,Null,Null
+S,NewspaceLabel,The label of the newspace of weight k and character chi,0,2,0,0,0,0,0,0,0,RngIntElt,,0,0,MonStgElt,,MonStgElt,Null,Null,Null,Null,Null
+S,SplitNewspaceLabel,"Given the label N.k.a of a newspace, return the level N, weight k, char orbit a",0,1,0,0,0,0,0,0,0,MonStgElt,,RngIntElt,RngIntElt,RngIntElt,Null,Null,Null
+S,CompareNewspaceLabels,"Compares newspace label strings of the form N.k.o lexicographically by level N, weight k, char orbit o, returns -1,0,1",0,2,0,0,0,0,0,0,0,MonStgElt,,0,0,MonStgElt,,RngIntElt,Null,Null,Null,Null,Null
+S,Gamma1Label,"Given positive integers N,k specifying the level, weight of a space of newforms for Gamma1(N), return the label of the space",0,2,0,0,0,0,0,0,0,RngIntElt,,0,0,RngIntElt,,MonStgElt,Null,Null,Null,Null,Null
+S,SplitGamma1Label,"Given the label N.k of S_k^new(Gamma1(N)), return the level N, weight k",0,1,0,0,0,0,0,0,0,MonStgElt,,RngIntElt,RngIntElt,Null,Null,Null,Null
+S,HeckeOrbitCode,"Given positive integers N,k,o,n specifying the level, weight, char orbit, Hecke orbit of newform, return the 64-bit Hecke orbit code of the newform",0,4,0,0,0,0,0,0,0,RngIntElt,,0,0,RngIntElt,,0,0,RngIntElt,,0,0,RngIntElt,,RngIntElt,Null,Null,Null,Null,Null
+S,SplitHeckeOrbitCode,"Given the 64-bit Hecke orbit code of a newform, return the level, weight, char orbit, Hecke orbit of the newform",0,1,0,0,0,0,0,0,0,RngIntElt,,RngIntElt,RngIntElt,RngIntElt,RngIntElt,Null,Null
+S,anlist_from_aplist,"Given level N, weight k, character chi (as a map from Z to the universe of ap), sequence of ap's, returns corresponding sequences of an's for n up to specified bound m",0,5,0,0,0,0,0,0,0,RngIntElt,,0,0,SeqEnum,,0,0,Map,,0,0,RngIntElt,,0,0,RngIntElt,,SeqEnum,Null,Null,Null,Null,Null

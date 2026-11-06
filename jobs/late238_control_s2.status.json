@@ -1,0 +1,19 @@
+{
+  "purpose": "late238_control_s2",
+  "script": "computations/late238_control_s2.m",
+  "script_sha256": "c93e94caeaba5e8856863c18c71841ce10326c56d52741a7e70c9aef7b36ea6a",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late238_control_s2.m"
+  ],
+  "pid": 935321,
+  "owner_uid": 1001,
+  "start_time_unix": 1793316051.4866185,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/late238_control_s2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 119.89936137199402
+}

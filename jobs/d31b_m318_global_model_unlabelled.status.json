@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_global_model_unlabelled",
+  "script": "computations/d31b_m318_global_model_unlabelled.m",
+  "script_sha256": "6ddbc2727245c9afac7c86e862d8cacbc95849782b20f2ddb540660c6661f77d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_global_model_unlabelled.m"
+  ],
+  "pid": 3721477,
+  "owner_uid": 1001,
+  "start_time_unix": 1793444624.4135096,
+  "state": "EXITED",
+  "time_limit_seconds": 850,
+  "log": "jobs/d31b_m318_global_model_unlabelled.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 376.16777420043945
+}

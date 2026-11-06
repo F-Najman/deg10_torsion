@@ -1,0 +1,19 @@
+{
+  "purpose": "cont69_generator_probe",
+  "script": "computations/cont69_generator_probe.m",
+  "script_sha256": "c6c6ba581cb49ed3543c8c066e319df3b90acfa740ca5fcce60505f13b8cfb0c",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont69_generator_probe.m"
+  ],
+  "pid": 2411721,
+  "owner_uid": 1001,
+  "start_time_unix": 1793383475.3794112,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/cont69_generator_probe.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.514678955078125
+}

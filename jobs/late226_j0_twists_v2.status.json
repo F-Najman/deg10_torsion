@@ -1,0 +1,19 @@
+{
+  "purpose": "late226_j0_twists_v2",
+  "script": "computations/late226_j0_twists_v2.m",
+  "script_sha256": "f59e03c4dc31360711cb1576959ad4aee25e3dfaddb6bb229f91c6e5ea86d5dc",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_j0_twists_v2.m"
+  ],
+  "pid": 969006,
+  "owner_uid": 1001,
+  "start_time_unix": 1793317652.7759063,
+  "state": "EXITED",
+  "time_limit_seconds": 60,
+  "log": "jobs/late226_j0_twists_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.06377291679382324
+}

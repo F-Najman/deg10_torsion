@@ -1,0 +1,10 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(3*10^9);
+N:=341;a:=32;bad:={1,5};
+chars:=[c:c in GaloisConjugacyRepresentatives(FullDirichletGroup(N))|IsEven(c) and Order(c) in bad];
+assert &and[Evaluate(c,a) eq 1:c in chars];assert a mod N notin {1,N-1} and a^2 mod N eq 1 and a mod 31 in {1,30};
+printf "DECIC_DESCENT31_PASS N=%o a=%o order=2 prime31_order=1 forced_field_degree=5 exact=true\n",N,a;
+N:=403;a:=92;bad:={1,3,5,15};
+chars:=[c:c in GaloisConjugacyRepresentatives(FullDirichletGroup(N))|IsEven(c) and Order(c) in bad];
+assert &and[Evaluate(c,a) eq 1:c in chars];assert a mod N notin {1,N-1} and a^2 mod N eq 1 and a mod 31 in {1,30};
+printf "DECIC_DESCENT31_PASS N=%o a=%o order=2 prime31_order=1 forced_field_degree=5 exact=true\n",N,a;
+print "DECIC_DESCENT31_COMPLETE";quit;

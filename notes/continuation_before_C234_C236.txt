@@ -1,0 +1,70 @@
+30 October 2026 — Phi(10) after resolving C2 x C32 and C64
+
+CURRENT COUNTS: 68 exact full groups occur; 66 minimal subgroup obstructions
+are excluded; 43 remain unresolved (35 cyclic, 8 noncyclic). The minimal
+frontier still has 109 groups. Phi(10) is INCOMPLETE.
+Use candidates.json/txt and paper/remaining.tex for the exact current lists.
+
+C2 x C32 AND C64 ARE NOW EXCLUDED. DO NOT RESTART THEIR DISCOVERY JOBS.
+The full proof and data are in C232_resolution_20261030/. The source curve
+has gon_Q>=12, via its genus-13 quotient X_Delta(64), Delta=<15,-1>.
+Of 305 full level orbits covering 9504 noncuspidal closed points through
+degree ten at 3, four maps to X1(32) eliminate 304. The one degree-six
+remainder needs a degree-four cusp complement with no rational cusp.
+The involution h:(P,Q)->(P,15Q) fixes that reduction, so rank-zero torsion
+injectivity and gonality force hD=D. D descends to degree five on the
+quotient, with reduction a cubic noncuspidal point plus a quadratic cusp.
+
+The quotient finite Jacobian is [2,2,2,2,8,40,40,80], with rational cusp
+image [2,2,4,20,40,40], order 512000 and quotient [2,2,8]. Integral
+homology, Hecke at 3 and 5, complex conjugation and Galois descent of
+geometric cuspidal classes prove [J(Q):H_Q] divides 2. The two possible
+coset sets for identity and diamond 3 are {(1,1,0),(1,0,4)} and
+{(1,1,4),(1,0,0)}. They are disjoint. This completes the exclusion, and
+the existing isogeny-transfer lemma excludes C64.
+
+PRIMARY REPLAYS, ALL COMPLETED:
+- next232_replay_sieve_v2: independent full source orbit coverage and maps.
+- next232_ideal_replay{probe6,789,10}_v2: exact target ideal identities.
+- next232_quotient13_native_replay: proves the quotient class group afresh,
+  identifies the exact factor-base relation kernel, and binds all 20 cusp
+  and 32 orbit classes to the actual places. About three CPU seconds.
+- next232_final_replay_v3: independent Tate cusp actions, all 32 quotient
+  moduli images and integer-HNF disjoint-coset arithmetic.
+- next232_integral_lattice_replay: exact period, Hecke and Galois lattices,
+  proving the index-two bound with its full 2-primary information.
+Only completed primary evidence is pinned in accepted_manifest.json and
+certified_results.json. The proof is included in paper/main.tex.
+
+QUOTIENT MODEL: over X1(2,16), E short normalized, Q16=(b,b), T=8Q16,
+adjoin sqrt(x(Q16)-x(T)). This genus-13 model has degree eight over F3(t).
+Its full native Picard proof took 2.63 CPU seconds. The source's degree-
+nineteen model made the full genus-37 class group unnecessarily slow.
+That job was abandoned and terminated, along with a slow generic moduli
+inversion. Actual exits and reasons are saved. The T11, cusp-aware T5/T7,
+and scalar-exponent explorations are not needed in the final argument.
+The exponent job timed out and is not a completed certificate.
+
+PRESERVE THE C226 RESULT. Both residual classes occur as unique irreducible
+degree-ten points with full torsion C2 x C26 and distinct quintic j-fields.
+The dual-kernel nonsquare certificates exclude C52. Its primary verifier
+is resolve226_complete_native; no old QQ RR fallback needs to be restarted.
+The two curves are live at the sporadic website as 2.26.10.a and 2.26.10.b.
+The full preceding handoff is archived as continuation_before_C232.txt.
+
+NEXT PAIRED CASES: C2 x C34 -> C68, C2 x C36 -> C72, C2 x C42 -> C84.
+The remaining C3 x C18 case still requires its rational-image argument;
+do not assume cuspidal saturation there. Relative quintic analysis is
+needed for C3 x C27,33,39 and C4 x C28. The other cyclic obstructions
+remain as listed in candidates.txt. A failed degree-five modular-unit
+search does not exclude isolated degree-five points.
+
+LIFECYCLE: no workers or launchers are needed for the completed C232 case.
+Never leave obsolete Magma jobs paused and holding memory. Preserve useful
+unrelated work and leave two host cores idle. Earlier degree-six through
+nine proof files remain protected by their original manifest. Run
+candidates.py and verify_project.py after any accepted evidence change.
+
+FINAL AUDIT: validation.json passes with 1313 accepted
+evidence files, 513 recorded jobs all exited, and 25 protected earlier
+files unchanged. The PDF has 26 pages with no errors or overfull boxes.

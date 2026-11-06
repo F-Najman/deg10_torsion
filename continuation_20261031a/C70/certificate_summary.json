@@ -1,0 +1,52 @@
+{
+  "status": "COMPLETE EXCLUSION",
+  "degree": 10,
+  "group": "C70",
+  "source_genus": 97,
+  "source_rank": 0,
+  "gonality_bound": [
+    378,
+    25
+  ],
+  "finite_NC_closed_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    48,
+    408,
+    735,
+    2144,
+    5880
+  ],
+  "source_diamond_orbits": 773,
+  "source_orbits_by_degree": [
+    4,
+    34,
+    65,
+    180,
+    490
+  ],
+  "first_projection_excludes": 770,
+  "second_projection_case_ids": [
+    53,
+    78,
+    84
+  ],
+  "RR_target": "X1(35)",
+  "RR_target_genus": 25,
+  "operator": "T2-1-2diamond2",
+  "global_annihilator_justification": "DEHMZ rational cuspidal generation and literal point-level cusp boundary; no dyadic torsion-injectivity claim",
+  "tested_projection_maps": 776,
+  "independent_native_prime_references": 3489,
+  "independent_actual_cyclic2_kernels": 2328,
+  "all_source_diamond_and_target_keys_match": true,
+  "remaining_cases": 0,
+  "lifecycle": {
+    "all_recorded_C70_jobs_exited": true,
+    "active_workers": [],
+    "paused_workers": 0,
+    "automatic_launchers": 0
+  }
+}

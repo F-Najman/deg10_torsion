@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_parent_native_shortclass13.m", line 6, column 133:
+>> v in dat[5][idx]];cp:=MDPlaceCommonZeros(X`_coordinates,qt);D:=Divisor(cp);
+                         ^
+User error: Identifier 'MDPlaceCommonZeros' has not been declared or assigned

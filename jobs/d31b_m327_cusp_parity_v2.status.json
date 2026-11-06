@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m327_cusp_parity_v2",
+  "script": "computations/d31b_m327_cusp_parity_v2.py",
+  "script_sha256": "1d82cf294e99c9392e52bc1bfac270e4916054002b9d319f142e6f57487f3cbd",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m327_cusp_parity_v2.py"
+  ],
+  "pid": 3462042,
+  "owner_uid": 1001,
+  "start_time_unix": 1793433266.3978903,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/d31b_m327_cusp_parity_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.7648394107818604
+}

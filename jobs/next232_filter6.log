@@ -1,0 +1,14 @@
+Loading "work/deg10/computations/next232_filter_common.m"
+Loading "work/deg10/C232_resolution_20261030/deps/pair_af_place_linear.m"
+Loading "work/deg10/C232_resolution_20261030/deps/portable_forward.m"
+C232_FILTER_READY probe6 [ 2, 2, 2, 4, 4, 120, 197880, 0 ]
+1.370
+C232_FILTER_CASE probe6 6 1 false 1.420
+C232_FILTER_CASE probe6 6 2 false 1.460
+C232_FILTER_CASE probe6 6 3 false 1.490
+C232_FILTER_CASE probe6 6 4 false 1.520
+C232_FILTER_CASE probe6 6 5 false 1.580
+C232_FILTER_CASE probe6 6 6 false 1.610
+C232_FILTER_CASE probe6 6 7 false 1.640
+C232_FILTER_CASE probe6 6 8 true 1.770
+C232_FILTER_COMPLETE probe6 8 12 1 1.770

@@ -1,0 +1,8 @@
+D31A_C63_HIGH_SETUP part=1 genus49=true U45=true cusp_signature=true time=33.990
+D31A_C63_HIGH_KERNEL_START part=1 cusp=2 degree=1 multiplicity=10 time=33.990
+D31A_C63_HIGH_KERNEL_DONE part=1 cusp=2 rank=10 time=38.630
+D31A_C63_HIGH_KERNEL_START part=1 cusp=3 degree=1 multiplicity=10 time=38.630
+D31A_C63_HIGH_KERNEL_DONE part=1 cusp=3 rank=10 time=42.820
+D31A_C63_HIGH_KERNEL_START part=1 cusp=4 degree=1 multiplicity=10 time=42.820
+D31A_C63_HIGH_KERNEL_DONE part=1 cusp=4 rank=10 time=46.800
+D31A_C63_HIGH_COMPLETE part=1 tests=3 all_rank10=true time=46.900

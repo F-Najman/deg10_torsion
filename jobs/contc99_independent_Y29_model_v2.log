@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc99_independent_Y29_model_v2.m", line 6, column 55:
+>> aa:=RatSub(co[1]);bb:=RatSub(co[2]);yy:=(FR!j9-aa)/bb;eq:=&+[RatSub(Coeffic
+                                                         ^
+User error: bad syntax

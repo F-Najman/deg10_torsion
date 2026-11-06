@@ -1,0 +1,15 @@
+Loading "work/deg10/C236_resolution_20261030/geometry/cyclic36_stage3_common.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/portable_forward.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/pair_af_place_linear.m"
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=10 total=110 remaining=0 imagecount=12 cpu=70.650
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=20 total=110 remaining=0 imagecount=22 cpu=97.310
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=30 total=110 remaining=0 imagecount=34 cpu=98.200
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=40 total=110 remaining=0 imagecount=47 cpu=111.660
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=50 total=110 remaining=0 imagecount=60 cpu=112.890
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=60 total=110 remaining=0 imagecount=73 cpu=114.490
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=70 total=110 remaining=0 imagecount=85 cpu=115.950
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=80 total=110 remaining=0 imagecount=96 cpu=117.320
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=90 total=110 remaining=0 imagecount=108 cpu=118.410
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=100 total=110 remaining=0 imagecount=120 cpu=119.320
+C236_D10_CYCLIC36_STAGE3_PROGRESS tested=110 total=110 remaining=0 imagecount=134 cpu=120.380
+C236_D10_CYCLIC36_STAGE3_COMPLETE tested=110 total=110 remaining=0 images=134 full_input=true cpu=120.410

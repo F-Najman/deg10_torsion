@@ -1,0 +1,7 @@
+Q67_BASE_X123_READY genus=12 jdegree=264 time=0.210
+Q67_PREFLIGHT_SIMPLE_CUSP_ROOT_PASS time=0.250
+Q67_PREFLIGHT_UNIQUE_LINEAR_FACTOR label=input degree=10 factors=1,3 integral_multiplier_unit=true time=0.260
+Q67_PREFLIGHT_UNIQUE_LINEAR_FACTOR label=hecke1 degree=10 factors=1,3 integral_multiplier_unit=true time=0.270
+Q67_PREFLIGHT_UNIQUE_LINEAR_FACTOR label=hecke2 degree=50 factors=1,3 integral_multiplier_unit=true time=0.290
+Q67_PREFLIGHT_UNIQUE_LINEAR_FACTOR label=diamond5 degree=10 factors=1,3 integral_multiplier_unit=true time=0.290
+Q67_LOCAL_PREFLIGHT_COMPLETE

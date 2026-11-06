@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "all_jobs_exited": true,
+  "active_workers": [],
+  "no_paused_or_obsolete_workers": true,
+  "jobs": [
+    {
+      "purpose": "contc93_arc_q5",
+      "script": "continuation_20261030c/C93/contc93_arc_q5.m",
+      "script_sha256": "89bebcba8ac7ebffcc937eee8f6dc35f5b85f2ece5cc0fcd3d8e9a51c0b0be42",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C93/contc93_arc_q5.m"
+      ],
+      "pid": 2714526,
+      "owner_uid": 1001,
+      "start_time_unix": 1793397848.1682403,
+      "state": "EXITED",
+      "time_limit_seconds": 600,
+      "log": "jobs/contc93_arc_q5.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 37.97311282157898,
+      "status_path": "work/deg10/jobs/contc93_arc_q5.status.json"
+    },
+    {
+      "purpose": "contc93_arc_q5_control",
+      "script": "continuation_20261030c/C93/contc93_arc_q5_control.m",
+      "script_sha256": "5cbfcd302df359948aece8b1032fe728f58317343ed6943e2ee98d9f6046170c",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C93/contc93_arc_q5_control.m"
+      ],
+      "pid": 2720621,
+      "owner_uid": 1001,
+      "start_time_unix": 1793398136.0676754,
+      "state": "EXITED",
+      "time_limit_seconds": 600,
+      "log": "jobs/contc93_arc_q5_control.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 24.202332019805908,
+      "status_path": "work/deg10/jobs/contc93_arc_q5_control.status.json"
+    },
+    {
+      "purpose": "contc93_cusp_FI",
+      "script": "continuation_20261030c/C93/contc93_cusp_FI.py",
+      "script_sha256": "bd5b45f3bbcb47ffbcbdfa6916b47f6ef0b91056a0204085cf5a8ae30004ecf4",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C93/contc93_cusp_FI.py"
+      ],
+      "pid": 2723054,
+      "owner_uid": 1001,
+      "start_time_unix": 1793398250.073453,
+      "state": "EXITED",
+      "time_limit_seconds": 300,
+      "log": "jobs/contc93_cusp_FI.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 0.9153296947479248,
+      "status_path": "work/deg10/jobs/contc93_cusp_FI.status.json"
+    },
+    {
+      "purpose": "contc93_cusp_blocks",
+      "script": "continuation_20261030c/C93/contc93_cusp_blocks.py",
+      "script_sha256": "0a67ddba40f093c86a71d647db0968300571ab32f57d422a522e2a4118a3b3dc",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C93/contc93_cusp_blocks.py"
+      ],
+      "pid": 2719736,
+      "owner_uid": 1001,
+      "start_time_unix": 1793398094.000167,
+      "state": "EXITED",
+      "time_limit_seconds": 180,
+      "log": "jobs/contc93_cusp_blocks.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 2.4178357124328613,
+      "status_path": "work/deg10/jobs/contc93_cusp_blocks.status.json"
+    },
+    {
+      "purpose": "contc93_cusp_descent",
+      "script": "continuation_20261030c/C93/contc93_cusp_descent.py",
+      "script_sha256": "e4e3ac1344473bb4854b5b30343dc94039d3c5494e7c7b4ef4edb57136c2550b",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C93/contc93_cusp_descent.py"
+      ],
+      "pid": 2733503,
+      "owner_uid": 1001,
+      "start_time_unix": 1793398731.0536857,
+      "state": "EXITED",
+      "time_limit_seconds": 60,
+      "log": "jobs/contc93_cusp_descent.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 0.01586318016052246,
+      "status_path": "work/deg10/jobs/contc93_cusp_descent.status.json"
+    },
+    {
+      "purpose": "contc93_operator_control",
+      "script": "continuation_20261030c/C93/contc93_operator_control.py",
+      "script_sha256": "f16328d62ee6cc0fa5b166573a4688cb88b7ae43580f66221248531be5dbd750",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C93/contc93_operator_control.py"
+      ],
+      "pid": 2733447,
+      "owner_uid": 1001,
+      "start_time_unix": 1793398729.2682593,
+      "state": "EXITED",
+      "time_limit_seconds": 120,
+      "log": "jobs/contc93_operator_control.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 2.8684439659118652,
+      "status_path": "work/deg10/jobs/contc93_operator_control.status.json"
+    },
+    {
+      "purpose": "contc_parent_85_93_cusp_replay",
+      "script": "computations/contc_parent_85_93_cusp_replay.py",
+      "script_sha256": "352b89496b9ff3c388eb057a10df869f022e83042b13c28ff06798b7ebc0e0e8",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc_parent_85_93_cusp_replay.py"
+      ],
+      "pid": 2725023,
+      "owner_uid": 1001,
+      "start_time_unix": 1793398339.8194687,
+      "state": "EXITED",
+      "time_limit_seconds": 500,
+      "log": "jobs/contc_parent_85_93_cusp_replay.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 0.7648844718933105,
+      "status_path": "work/deg10/jobs/contc_parent_85_93_cusp_replay.status.json"
+    },
+    {
+      "purpose": "contc_parent_source_census",
+      "script": "computations/contc_parent_source_census.py",
+      "script_sha256": "f1c8563c0ef0c36ed5b7e5398d0cc539bb48dcbef38de2e203ec40b5a4e89a86",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc_parent_source_census.py"
+      ],
+      "pid": 2702888,
+      "owner_uid": 1001,
+      "start_time_unix": 1793397303.0460987,
+      "state": "EXITED",
+      "time_limit_seconds": 800,
+      "log": "jobs/contc_parent_source_census.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 1.8667173385620117,
+      "status_path": "work/deg10/jobs/contc_parent_source_census.status.json"
+    }
+  ],
+  "recorded_utc": "2026-10-30T22:28:29.036375+00:00"
+}

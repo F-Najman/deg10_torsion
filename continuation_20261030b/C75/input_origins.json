@@ -1,0 +1,32 @@
+[
+  {
+    "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_packet75.json",
+    "source": "work/degree9/cyclic/continuation_20261026/packet75.json",
+    "sha256": "54cb3221f12dd834f87b0a48cd8751f1cbab98440ca87c5113005c1ebb5ce161"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_degree9_proof.tex",
+    "source": "work/degree9/cyclic/continuation_20261026/exclusion75.tex",
+    "sha256": "d729b30240276a9997850bc1cabe0a33490a6db018d5ac188aa15c25824b4b28"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_rank0.log",
+    "source": "work/degree9/cyclic/continuation_20261026/N75_geometry/cyclic_sieves/C75_rank_zero_root.log",
+    "sha256": "7ac180a860eb700b488402d1913b0b71d9f95636bf2a2247b89526843dcdccc1"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_good7_certificate.json",
+    "source": "work/degree9/cyclic/continuation_20261026/N75_geometry/cyclic_sieves/C75_good7_independent_root.json",
+    "sha256": "cb2fd60298ccfab268e830d3c7ded75cb6933ee4944c6213ce1f515a52fc2fb4"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_good7_native.log",
+    "source": "work/degree9/cyclic/continuation_20261026/N75_geometry/cyclic_sieves/C75_good7_certificate_root_v2.log",
+    "sha256": "50d56588b46aa4dc1b232acb7b4b4d95c26929e1e7b28579137a84c4c58deb44"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_cusp_kernels_certificate.json",
+    "source": "work/degree9/cyclic/continuation_20261026/N75_geometry/cyclic_sieves/C75_allbad_independent_root.json",
+    "sha256": "b5a03fbe6ba0969a9e2f7d997be160773df1c8bae083f506525a30c35b37ff6d"
+  }
+]

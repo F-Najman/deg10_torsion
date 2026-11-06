@@ -1,0 +1,136 @@
+\subsection{Excluding order $83$}
+\begin{proposition}\label{prop:nonic83-exclusion}
+An elliptic curve over a number field of degree $9$ has no point of
+order $83$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(83)$. Since $83\notin S(1)\cup S(3)$, a hypothetical
+point gives a noncuspidal closed point of exact degree $9$ on $X$.
+Let $D$ be its trace divisor. The cusp degrees modulo $2$ are
+$1^{41},41$. Entirely cuspidal reduction is excluded by the formal
+immersion criterion of
+\cite[Corollaries~4.4 and~5.2, Proposition~5.3]{DKSS}, with subgroup
+index $41$, $t_0=T_2$ and $q=3$.
+The binary operator matrix has $169$ independent rows. Its complete
+relation kernel is zero, which verifies rank $9$ for every one of
+the $134858144$ normalized cusp multiplicity configurations of total
+degree $9$.
+
+Complete enumeration over $\mathbb F_{2^f}$, $1\leq f\leq9$,
+including every twist and level structure, leaves only
+noncuspidal degree $9$. There are $205$ such closed points, forming
+five diamond orbits of length $41$; their $j$-invariants all have
+degree $9$. The eligible elliptic curves have $498$ points over
+$\mathbb F_{512}$ and trace $15$.
+Consequently the reduction of $D$ is one of these degree-$9$ points.
+
+We work on the point-level model. Let
+$\sigma=\langle2\rangle^{-1}$ and $\tau=\langle3\rangle$.
+The diamond group has order $41$, and $\tau=\sigma^{10}$ since
+$2^{31}=\pm3\pmod {83}$.
+The prime $83$ is not strange by
+\cite[Proposition~5.2 and Table~2]{DSPrime}, so
+$(\sigma-1)J_X(\mathbb Q)$ is finite.
+In particular $[\sigma D-D]$ is torsion: choose a rational cusp $c$
+and write it as $(\sigma-1)[D-9c]+9[\sigma c-c]$.
+The latter class is cuspidal torsion.
+For the point-level Hecke correspondence put
+$A_3=T_3-1-3\tau$.
+Lemma~\ref{lem:nonic-point-hecke-annihilator} shows that $A_3$ kills rational torsion.
+Thus, if $P$ is the reduction of $D$ and $T=T_3P$, the divisor
+\[
+ B=\sigma T-T-\sigma P+P-3\sigma^{11}P+3\sigma^{10}P
+\]
+must be principal.
+It suffices to use one source representative in each diamond orbit.
+
+We recover the canonical points using modular units.
+Here $g(X)=247$, and a saturated integral basis gives $247$
+canonical expansions through $q^{1299}$.
+The binary rank is $247$ already through the weight-$2$ Sturm bound
+$574$. In the standard plane modular-unit model the defining
+equation has bidegrees $(95,90)$, so the pole degrees of the two
+units $x,y$ are at most $90,95$, respectively.
+There are $158$ independent identities $B_i=xA_i$ and $153$
+independent identities $D_j=yC_j$, where $A_i,B_i,C_j,D_j$ are
+canonical linear forms.
+To obtain the unit expansions, use the universal Tate curve
+$E(q^{83})$ and the point with Tate parameter $u=q$.
+Its quotient by this point is $E(q)$, identifying these units with
+the canonical expansions on the dual level model.
+Each identity is a meromorphic canonical section of degree at most
+$582$ or $587$. Its order at the expansion cusp is at least
+$1298$, so the identities hold globally.
+
+At each retained finite source or target, these $311$ linear
+relations have rank $246$. Their one-dimensional kernel therefore
+recovers the actual canonical point.
+The canonical diamond matrix has order $41$.
+Its identification with point diamond $2^{-1}$ is certified globally:
+substitute its inverse on the canonical forms and use the Tate point
+$u=q^2$. The same unit identities then vanish to order $1297>587$.
+Generic rank $246$ identifies the resulting point with diamond $2$.
+Thus diamond transport of canonical coordinates and parameters is
+exact, including the level convention.
+
+For each of the five source representatives, all cyclic subgroups
+of order $3$ are enumerated by their kernel polynomials.
+The resulting isogenies transport the actual point of order $83$.
+Their Frobenius orbits give two closed targets of degree $9$ and
+one of degree $18$, each with norm multiplicity $1$.
+The four untouched native isogenies have distinct $j$-invariants.
+Thus every actual Hecke target divisor is retained.
+The certificate also tests every simultaneous diamond translate of
+these target divisors and both formulas
+\[
+ \begin{split}
+ B_1&=\sigma T-T-\sigma^{11}P+\sigma^{10}P-3\sigma P+3P,\\
+ B_2&=\sigma T-T-\sigma P+P-3\sigma^{11}P+3\sigma^{10}P.
+ \end{split}
+\]
+There are $5\cdot41\cdot2=410$ tests; they include the five
+necessary divisors $B$ above.
+Coincident closed points are identified and their signed
+multiplicities are added before imposing conditions.
+Every resulting positive and negative part has degree $72$, and
+the largest multiplicity is $3$.
+
+The formal parameters come from genuine ordinary elliptic families.
+After an isomorphism write
+$E:y^2+xy=x^3+a_2x^2+a_6$ and deform $a_6$ to $a_6+t$.
+The $83$-division recurrence lifts the level point uniquely: its
+$x$-derivative is nonzero, and the $y$-derivative is the nonzero
+$x$-coordinate of the level point.
+The base division polynomials in characteristic $2$ are
+\[
+ \psi_2=x,\qquad \psi_3=x^4+x^3+a_6,\qquad
+ \psi_4=x^6+a_6x^2.
+\]
+The standard odd and even recurrences give $\psi_{83}$.
+The unit relations recover canonical parameters through order $5$;
+all $311$ equations, the elliptic equations and the division
+recurrences are independently replayed. Each canonical tangent is
+nonzero. Since $j=1/(a_6+t)$, the deformation is a local parameter.
+Diamond transport supplies all required source and target parameters.
+
+Put $R_i=H^0(X,iK_X)$. The products of the $247$ canonical forms
+span $R_2$, of dimension $738$.
+All $61009$ ordered product identities use $1300$ terms, beyond the
+weight-$4$ Sturm bound $1148$.
+For each divisor $B=T_+-T_-$ choose nonzero $F,H\in R_1$
+vanishing on $T_+$. If $f\in\mathcal L(B)$, then $G=fF$ vanishes
+on $T_-$ and $GH=F(fH)\in F R_1$.
+It therefore suffices to check injectivity of
+\[
+ R_1\longrightarrow H^0(T_-,K_X|_{T_-})\oplus R_2/F R_1,
+ \qquad G\longmapsto(G|_{T_-},GH\bmod F R_1).
+\]
+Multiplication by $F$ has rank $247$, so the quotient has dimension
+$491$. All $410$ resulting $247\times563$ binary matrices have rank
+$247$. The explicit sections and matrices are retained,
+reconstructed by a read-only replay, and checked independently using
+Sage's M4RI implementation.
+All native computations used in the packet finish with actual exit
+code $0$. Thus none of the necessary divisors is principal, proving
+the proposition.
+\end{proof}

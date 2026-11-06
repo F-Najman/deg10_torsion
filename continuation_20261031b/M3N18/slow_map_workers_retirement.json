@@ -1,0 +1,173 @@
+{
+  "records": [
+    {
+      "stem": "d31b_m318_p13_uniform_s0",
+      "before": {
+        "purpose": "d31b_m318_p13_uniform_s0",
+        "script": "computations/d31b_m318_p13_uniform_s0.m",
+        "script_sha256": "8a335c8f19e6c35c6627dd5df743eb7037b78c6c3cc328c72c8c283f9ffd1fe7",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_uniform_s0.m"
+        ],
+        "pid": 3490176,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434507.3463922,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_uniform_s0.log",
+        "actual_exit_code": -14,
+        "termination_reason": null,
+        "elapsed_seconds": 1700.062682390213
+      },
+      "reason": "Retire the slow one-function-per-RR smoothing map after exact replacement matches thirty stored classes; retain all completed partial witnesses",
+      "after": {
+        "purpose": "d31b_m318_p13_uniform_s0",
+        "script": "computations/d31b_m318_p13_uniform_s0.m",
+        "script_sha256": "8a335c8f19e6c35c6627dd5df743eb7037b78c6c3cc328c72c8c283f9ffd1fe7",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_uniform_s0.m"
+        ],
+        "pid": 3490176,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434507.3463922,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_uniform_s0.log",
+        "actual_exit_code": -14,
+        "termination_reason": null,
+        "elapsed_seconds": 1700.062682390213
+      }
+    },
+    {
+      "stem": "d31b_m318_p13_uniform_s1",
+      "before": {
+        "purpose": "d31b_m318_p13_uniform_s1",
+        "script": "computations/d31b_m318_p13_uniform_s1.m",
+        "script_sha256": "a196e1df41c3702ad2d8638aa9e141d8c9c28c81f6f9b499c5e4b43a05cf8bc4",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_uniform_s1.m"
+        ],
+        "pid": 3490095,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434504.2989078,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_uniform_s1.log",
+        "actual_exit_code": -14,
+        "termination_reason": null,
+        "elapsed_seconds": 1700.0470037460327
+      },
+      "reason": "Retire the slow one-function-per-RR smoothing map after exact replacement matches thirty stored classes; retain all completed partial witnesses",
+      "after": {
+        "purpose": "d31b_m318_p13_uniform_s1",
+        "script": "computations/d31b_m318_p13_uniform_s1.m",
+        "script_sha256": "a196e1df41c3702ad2d8638aa9e141d8c9c28c81f6f9b499c5e4b43a05cf8bc4",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_uniform_s1.m"
+        ],
+        "pid": 3490095,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434504.2989078,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_uniform_s1.log",
+        "actual_exit_code": -14,
+        "termination_reason": null,
+        "elapsed_seconds": 1700.0470037460327
+      }
+    },
+    {
+      "stem": "d31b_m318_p13_uniform_s2",
+      "before": {
+        "purpose": "d31b_m318_p13_uniform_s2",
+        "script": "computations/d31b_m318_p13_uniform_s2.m",
+        "script_sha256": "e0d6b920f0f3c38b24ed1be6d25f129b73cfa45c9df3afd91a6cb73d64cd2075",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_uniform_s2.m"
+        ],
+        "pid": 3490140,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434506.3640482,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_uniform_s2.log",
+        "actual_exit_code": -14,
+        "termination_reason": null,
+        "elapsed_seconds": 1700.0916266441345
+      },
+      "reason": "Retire the slow one-function-per-RR smoothing map after exact replacement matches thirty stored classes; retain all completed partial witnesses",
+      "after": {
+        "purpose": "d31b_m318_p13_uniform_s2",
+        "script": "computations/d31b_m318_p13_uniform_s2.m",
+        "script_sha256": "e0d6b920f0f3c38b24ed1be6d25f129b73cfa45c9df3afd91a6cb73d64cd2075",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_uniform_s2.m"
+        ],
+        "pid": 3490140,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434506.3640482,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_uniform_s2.log",
+        "actual_exit_code": -14,
+        "termination_reason": null,
+        "elapsed_seconds": 1700.0916266441345
+      }
+    },
+    {
+      "stem": "d31b_m318_p13_uniform_s3",
+      "before": {
+        "purpose": "d31b_m318_p13_uniform_s3",
+        "script": "computations/d31b_m318_p13_uniform_s3.m",
+        "script_sha256": "11dbce812eb8675058b85ed255ea16a8049010fd96be98a26fb06a03bfd930a2",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_uniform_s3.m"
+        ],
+        "pid": 3490146,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434506.3881881,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_uniform_s3.log",
+        "actual_exit_code": -14,
+        "termination_reason": null,
+        "elapsed_seconds": 1700.0817785263062
+      },
+      "reason": "Retire the slow one-function-per-RR smoothing map after exact replacement matches thirty stored classes; retain all completed partial witnesses",
+      "after": {
+        "purpose": "d31b_m318_p13_uniform_s3",
+        "script": "computations/d31b_m318_p13_uniform_s3.m",
+        "script_sha256": "11dbce812eb8675058b85ed255ea16a8049010fd96be98a26fb06a03bfd930a2",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_uniform_s3.m"
+        ],
+        "pid": 3490146,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434506.3881881,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_uniform_s3.log",
+        "actual_exit_code": -14,
+        "termination_reason": null,
+        "elapsed_seconds": 1700.0817785263062
+      }
+    }
+  ],
+  "verified_replacement_marker": "D31B_M318_FAST_MAP_BENCHMARK_COMPLETE 30"
+}

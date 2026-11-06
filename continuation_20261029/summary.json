@@ -1,0 +1,61 @@
+{
+  "classification_complete": false,
+  "initial": {
+    "known_full_groups": 66,
+    "excluded_minimal_subgroups": 50,
+    "remaining_minimal_obstructions": 61
+  },
+  "final": {
+    "known_full_groups": 67,
+    "excluded_minimal_subgroups": 57,
+    "remaining_minimal_obstructions": 53,
+    "remaining_cyclic": 40,
+    "remaining_noncyclic": 13
+  },
+  "new_exclusions": [
+    [
+      1,
+      135
+    ],
+    [
+      1,
+      155
+    ],
+    [
+      3,
+      21
+    ],
+    [
+      3,
+      24
+    ],
+    [
+      4,
+      16
+    ],
+    [
+      4,
+      20
+    ],
+    [
+      4,
+      24
+    ]
+  ],
+  "new_occurrence": {
+    "group": [
+      6,
+      12
+    ],
+    "full_torsion_order": 72,
+    "sporadic": true,
+    "complete_case": "one full-level orbit of closed quintic points over Q(zeta6)",
+    "absolute_field_polynomial": "a^10+6*a^9+5*a^8-8*a^7+14*a^6-11*a^5+20*a^4+2*a^3+13*a^2+3*a+3"
+  },
+  "paper": "paper/main.pdf",
+  "paper_pages": 17,
+  "candidate_list": "candidates.txt",
+  "integrity_audit": "validation.json",
+  "lifecycle_audit": "continuation_20261029/lifecycle_final.json",
+  "active_task_magma_jobs": 0
+}

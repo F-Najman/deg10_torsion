@@ -1,0 +1,18 @@
+{
+  "purpose": "d31a_C44_independent_merge",
+  "script": "computations/d31a_C44_independent_merge.py",
+  "script_sha256": "5796bf3308b6a22e88d03525ee332188fc3dfc6b975f6888578e16859b9a281d",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C44_independent_merge.py"
+  ],
+  "pid": 2871948,
+  "owner_uid": 1001,
+  "start_time_unix": 1793405188.209666,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31a_C44_independent_merge.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.11383199691772461
+}

@@ -1,0 +1,17 @@
+{
+  "pid": 2784925,
+  "startticks": 186266660,
+  "cmd": [
+    "nice",
+    "-n",
+    "10",
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/parallel_expansion_20261026/N93_source_units/elliptic_hecke5_v2.m"
+  ],
+  "CPU_budget_seconds": 1800,
+  "wall_budget_seconds": 7200,
+  "memory_budget_bytes": 6000000000,
+  "native_memory_budget_bytes": 4000000000,
+  "nice": 10
+}

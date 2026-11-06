@@ -1,0 +1,19 @@
+{
+  "purpose": "function_3_18",
+  "script": "computations/function_3_18.m",
+  "script_sha256": "14ecd967c843d4fdc3e5263eb49dcd04ffad01d76de1dd6b2b78b1571be4d58d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/function_3_18.m"
+  ],
+  "pid": 5459,
+  "owner_uid": 1001,
+  "start_time_unix": 1793274464.7946403,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/function_3_18.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 180.01597833633423
+}

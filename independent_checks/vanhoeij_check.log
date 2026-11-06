@@ -1,0 +1,10 @@
+CHECK vanHoeij id=1.29.10.b N=29 order_of_00=29 torsion=[ 29 ] iso_to_polredabs=true time=86.520
+CHECK vanHoeij id=1.31.10.a N=31 order_of_00=31 torsion=[ 31 ] iso_to_polredabs=true time=115.410
+CHECK vanHoeij id=1.35.10.b N=35 order_of_00=35 torsion=[ 35 ] iso_to_polredabs=true time=0.290
+CHECK vanHoeij id=1.37.10.a N=37 order_of_00=37 torsion=[ 37 ] iso_to_polredabs=true time=352.880
+CHECK vanHoeij id=1.38.10.a N=38 order_of_00=38 torsion=[ 38 ] iso_to_polredabs=true time=8.940
+CHECK vanHoeij id=1.39.10.a N=39 order_of_00=39 torsion=[ 39 ] iso_to_polredabs=true time=2.150
+CHECK vanHoeij id=1.40.10.a N=40 order_of_00=40 torsion=[ 40 ] iso_to_polredabs=true time=0.370
+CHECK vanHoeij id=1.42.10.b N=42 order_of_00=42 torsion=[ 42 ] iso_to_polredabs=true time=0.270
+CHECK vanHoeij id=1.45.10.a N=45 order_of_00=45 torsion=[ 45 ] iso_to_polredabs=true time=0.460
+CHECK vanHoeij id=1.50.10.a N=50 order_of_00=50 torsion=[ 50 ] iso_to_polredabs=true time=45.940

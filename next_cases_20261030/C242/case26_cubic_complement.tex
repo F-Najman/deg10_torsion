@@ -1,0 +1,35 @@
+\begin{lemma}\label{lem:decic242-case26-cubic}
+In case $26$, the degree-$4$ cusp complement contains one closed
+cubic cusp and one rational cusp.
+\end{lemma}
+\begin{proof}
+Use the first map to $X_0(42)$ in the exact quotient sieve.
+Its normalized noncuspidal class is
+\[
+ v=(1,3,6,12,0)\in
+ G=[2,4,48,48,0].
+\]
+The rational-image subgroup $H=[2,48]$ has generators whose
+first coordinates are all even. The first coordinate modulo $2$
+therefore vanishes on $H$, whereas it takes the value $1$ on $v$.
+The residue cusp complement cannot be the reduction of a rational
+cuspidal divisor: its pushforward would contribute a class in $H$
+and could not correct $v$.
+
+The global source cusp signature is $1^{18}2^9 6^6$, and the
+signature at $5$ is $1^{18}2^9 3^6 6^3$.
+Every rational or quadratic residue cusp is globally intact.
+Hence every degree-$4$ cusp complement without a cubic cusp lifts
+to a rational cuspidal divisor. This is impossible by the preceding
+class test. The only remaining pattern is one cubic cusp and one
+rational cusp.
+\end{proof}
+
+The exact subgroup vectors and noncuspidal class are in
+\path{geometry/x0_42_proven_picard_v2.m} and
+\path{geometry/x0_42_full_arithmetic.m}.
+The global cusp pushforwards are certified in
+\path{geometry/x0_42_direct_cusp_pushforward.m}.
+An independent integer enumeration verifies both source cusp
+signatures and the intact rational and quadratic cusps; see
+\path{case26_cubic_complement.json}.

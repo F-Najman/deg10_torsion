@@ -1,0 +1,18 @@
+{
+  "purpose": "contc65_cusp_FI_n4plus",
+  "script": "computations/contc65_cusp_FI_n4plus.py",
+  "script_sha256": "4ee4efcb7924ce02f2d6336419c24e0f28575eb4520f42de51989182f6b0bf1b",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc65_cusp_FI_n4plus.py"
+  ],
+  "pid": 2710961,
+  "owner_uid": 1001,
+  "start_time_unix": 1793397683.6886442,
+  "state": "EXITED",
+  "time_limit_seconds": 1800,
+  "log": "jobs/contc65_cusp_FI_n4plus.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 6.524629354476929
+}

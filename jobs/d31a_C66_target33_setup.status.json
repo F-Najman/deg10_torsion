@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C66_target33_setup",
+  "script": "computations/d31a_C66_target33_setup.m",
+  "script_sha256": "39232ae4c92b794811a5bda7e270e6f02ac8983774e433976585d278379c85b2",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C66_target33_setup.m"
+  ],
+  "pid": 2852175,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404257.196959,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/d31a_C66_target33_setup.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.0318903923034668
+}

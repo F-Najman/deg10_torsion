@@ -1,0 +1,19 @@
+{
+  "purpose": "next232_diamond7_exact",
+  "script": "computations/next232_diamond7_exact.m",
+  "script_sha256": "99bee61389b43a5eb4a487f1c12f889a9b40d0aa8fde9c504d67458fb47bdd55",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_diamond7_exact.m"
+  ],
+  "pid": 1783641,
+  "owner_uid": 1001,
+  "start_time_unix": 1793356035.439136,
+  "state": "EXITED",
+  "time_limit_seconds": 150,
+  "log": "jobs/next232_diamond7_exact.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 62.15003943443298
+}

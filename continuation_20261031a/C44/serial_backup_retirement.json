@@ -1,0 +1,16 @@
+{
+  "replacement": "Six complete disjoint independently checked genuine-isogeny shards",
+  "replacement_summary": "independent_final_verification.json",
+  "old_status_path": "jobs/d31a_C44_independent_isogenies.status.json",
+  "verified_pid": 2850860,
+  "verified_owner_uid": 1001,
+  "verified_start_time_unix": 1793404192.97,
+  "verified_start_ticks": 221121097,
+  "verified_command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C44_independent_isogenies.py"
+  ],
+  "verified_no_child_workers": true,
+  "action": "SIGTERM via verified pidfd after complete replacement verification",
+  "actual_exit_code": -15
+}

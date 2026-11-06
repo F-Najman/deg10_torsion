@@ -1,0 +1,19 @@
+{
+  "purpose": "cont69_cover_all_decic_v2",
+  "script": "computations/cont69_cover_all_decic_v2.m",
+  "script_sha256": "7827dd1804e4456c7097b9d1e831cdf60e923ce16aea4f98a8e98275a272d27a",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont69_cover_all_decic_v2.m"
+  ],
+  "pid": 2412909,
+  "owner_uid": 1001,
+  "start_time_unix": 1793383531.9412804,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/cont69_cover_all_decic_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 219.9984655380249
+}

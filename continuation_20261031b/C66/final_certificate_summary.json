@@ -1,0 +1,551 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "excluded_groups": [
+    [
+      1,
+      66
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "proof": "continuation_20261031b/C66/resolution.tex",
+  "source": "X1(66)",
+  "target": "X1(33)",
+  "target_genus": 21,
+  "target_rational_rank": 0,
+  "rational_specialization_injective_at2": true,
+  "finite_effective_divisors_in_rational_image": 321230,
+  "finite_rational_image_classes": 321210,
+  "isolated_classes": 321200,
+  "global_gonal_classes": 10,
+  "diamond_orbits_of_pencils": 2,
+  "new_signed_degree10_RR_tests": 100,
+  "common_basis_dimension": 38,
+  "independent_local_prefix_kernels": 72,
+  "independent_F2_marked_points": 250,
+  "independent_actual_2kernel_orbits": 23,
+  "paired_fibre_degree_bound": 4,
+  "source_gonality_bound": "7*1440/800>10",
+  "CM_exclusion": "CCRS Section4.10",
+  "jobs": [
+    {
+      "stem": "d31b_C66_F2_degree10_classes",
+      "status_path": "jobs/d31b_C66_F2_degree10_classes.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C66_F2_DEGREE10_CLASSES_COMPLETE"
+    },
+    {
+      "stem": "d31b_C66_F2_frame",
+      "status_path": "jobs/d31b_C66_F2_frame.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_F2_frame_v2",
+      "status_path": "jobs/d31b_C66_F2_frame_v2.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C66_F2_FRAME_COMPLETE"
+    },
+    {
+      "stem": "d31b_C66_F2_independent",
+      "status_path": "jobs/d31b_C66_F2_independent.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_F2_independent_v2",
+      "status_path": "jobs/d31b_C66_F2_independent_v2.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_F2_independent_v3",
+      "status_path": "jobs/d31b_C66_F2_independent_v3.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C66_F2_INDEPENDENT_COMPLETE"
+    },
+    {
+      "stem": "d31b_C66_F5_common_basis58",
+      "status_path": "jobs/d31b_C66_F5_common_basis58.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C66_COMMON_BASIS58_COMPLETE"
+    },
+    {
+      "stem": "d31b_C66_F5_extra_RR",
+      "status_path": "jobs/d31b_C66_F5_extra_RR.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C66_F5_SIGNED_RR_COMPLETE"
+    },
+    {
+      "stem": "d31b_C66_actual_gonal_filter",
+      "status_path": "jobs/d31b_C66_actual_gonal_filter.status.json",
+      "actual_exit_code": -15,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_actual_gonal_filter_v2",
+      "status_path": "jobs/d31b_C66_actual_gonal_filter_v2.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_classical_gonal_filter",
+      "status_path": "jobs/d31b_C66_classical_gonal_filter.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_classical_gonal_filter_v2",
+      "status_path": "jobs/d31b_C66_classical_gonal_filter_v2.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_classical_gonal_filter_v3",
+      "status_path": "jobs/d31b_C66_classical_gonal_filter_v3.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_classical_pencil_profile",
+      "status_path": "jobs/d31b_C66_classical_pencil_profile.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_common_basis58_native",
+      "status_path": "jobs/d31b_C66_common_basis58_native.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C66_COMMON_BASIS58_FRESH_NATIVE_COMPLETE"
+    },
+    {
+      "stem": "d31b_C66_common_basis58_replay",
+      "status_path": "jobs/d31b_C66_common_basis58_replay.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C66_COMMON_BASIS58_INDEPENDENT_COMPLETE"
+    },
+    {
+      "stem": "d31b_C66_gonal_fibre_filter",
+      "status_path": "jobs/d31b_C66_gonal_fibre_filter.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_gonal_fibre_filter_v2",
+      "status_path": "jobs/d31b_C66_gonal_fibre_filter_v2.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_gonal_fibre_filter_v3",
+      "status_path": "jobs/d31b_C66_gonal_fibre_filter_v3.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_gonal_fibre_filter_v4",
+      "status_path": "jobs/d31b_C66_gonal_fibre_filter_v4.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_gonal_fibre_filter_v5",
+      "status_path": "jobs/d31b_C66_gonal_fibre_filter_v5.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_gonal_genuine_replay",
+      "status_path": "jobs/d31b_C66_gonal_genuine_replay.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_gonal_genuine_replay_v2",
+      "status_path": "jobs/d31b_C66_gonal_genuine_replay_v2.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_gonal_genuine_replay_v3",
+      "status_path": "jobs/d31b_C66_gonal_genuine_replay_v3.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C66_GONAL_GENUINE_INDEPENDENT_COMPLETE"
+    },
+    {
+      "stem": "d31b_C66_monic_profile",
+      "status_path": "jobs/d31b_C66_monic_profile.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_pencil_classes",
+      "status_path": "jobs/d31b_C66_pencil_classes.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_pencil_classes_v3",
+      "status_path": "jobs/d31b_C66_pencil_classes_v3.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_pencil_classes_v5",
+      "status_path": "jobs/d31b_C66_pencil_classes_v5.status.json",
+      "actual_exit_code": 1,
+      "accepted_completion_marker": null
+    },
+    {
+      "stem": "d31b_C66_two_gonal_orbits_filter",
+      "status_path": "jobs/d31b_C66_two_gonal_orbits_filter.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C66_TWO_GONAL_ORBITS_FILTER_COMPLETE"
+    }
+  ],
+  "diagnostics_not_certificates": [
+    {
+      "stem": "d31b_C66_F2_frame",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_F2_independent",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_F2_independent_v2",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_actual_gonal_filter",
+      "actual_exit_code": -15,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_actual_gonal_filter_v2",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_classical_gonal_filter",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_classical_gonal_filter_v2",
+      "actual_exit_code": 0,
+      "classification": "historical completed intermediate"
+    },
+    {
+      "stem": "d31b_C66_classical_gonal_filter_v3",
+      "actual_exit_code": 0,
+      "classification": "historical completed intermediate"
+    },
+    {
+      "stem": "d31b_C66_classical_pencil_profile",
+      "actual_exit_code": 0,
+      "classification": "historical completed intermediate"
+    },
+    {
+      "stem": "d31b_C66_gonal_fibre_filter",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_gonal_fibre_filter_v2",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_gonal_fibre_filter_v3",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_gonal_fibre_filter_v4",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_gonal_fibre_filter_v5",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_gonal_genuine_replay",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_gonal_genuine_replay_v2",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_monic_profile",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_pencil_classes",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_pencil_classes_v3",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    },
+    {
+      "stem": "d31b_C66_pencil_classes_v5",
+      "actual_exit_code": 1,
+      "classification": "failed or retired diagnostic; not proof evidence"
+    }
+  ],
+  "files_sha256": {
+    "computations/d31b_C66_F2_degree10_classes.py": "7a00d11381df7a83c181379d1301d7f76d3c40c85373da637cc1cfa0ffcd376e",
+    "computations/d31b_C66_F2_frame.m": "b6b6e3c9948272f6c741b4dfe6e43fcbd7dc8cccd047e83ec8591b5d0e04a99c",
+    "computations/d31b_C66_F2_frame_v2.m": "9e724e3acc1b801bfcae2b3ebc723f6ab4b619db18d839ffc3c8594701583059",
+    "computations/d31b_C66_F2_independent.py": "93884e3bde6084af6374556cb668df492b674dc2a30bc7742154e3bc254ec48e",
+    "computations/d31b_C66_F2_independent_v2.py": "351b00618ef85dbf9f351e3a9620341f88b15df9bc9284969f9140e648ab471d",
+    "computations/d31b_C66_F2_independent_v3.py": "83b200fc4c1e6d0edc5c22c9a6a59ac0cdeb1dbad9035abee89cc7a9e915ca0c",
+    "computations/d31b_C66_F5_common_basis58.m": "624d028699023b0a85d67b166a7b31a310d57e3574229f23aba524f1c7f423fa",
+    "computations/d31b_C66_F5_extra_RR.m": "db6865769440b8b4a1e5e9a9970994c302b7c4bb3db1520e9ca91b5948ed67a6",
+    "computations/d31b_C66_actual_gonal_filter.m": "2340768aad1feb4b96674dac7976d2514e1bed397cfab6082438b965c056b1d7",
+    "computations/d31b_C66_actual_gonal_filter_v2.m": "f03582a54da033a03475e64e9f95e630f9c3de912ad5a53c640501352884197a",
+    "computations/d31b_C66_classical_gonal_filter.m": "36a79c7507031bf00f577ad164bbe08c9dab355caa49333778dbc12d56d5c1e2",
+    "computations/d31b_C66_classical_gonal_filter_v2.m": "3d267f8d178e1fbe61897cb57e05aa1f264b7b2e2d38253cd31f791df28a0041",
+    "computations/d31b_C66_classical_gonal_filter_v3.m": "e7cdc8ce6b1decea61d2de128a467bf9edfa669a19e2bd07fe0957d036f33ef4",
+    "computations/d31b_C66_classical_pencil_profile.m": "0ca6968e7328642231f12d7fe3db328bc064ddc9675022bfcaf7e26215204257",
+    "computations/d31b_C66_common_basis58_native.m": "b28375ec8262ed2d0dc6c5ba75791913afc2dd63159c3d8346f46bf59d86d3e8",
+    "computations/d31b_C66_common_basis58_replay.py": "82cfa7f89534dadce19a11735b3a6d80f92e11a956d8db21b9e885e07bd92e1e",
+    "computations/d31b_C66_gonal_fibre_filter.m": "8601c8abba536b298b75db7d7ebaa339d483a83a74a3f37d4b14093f1a4331f8",
+    "computations/d31b_C66_gonal_fibre_filter_v2.m": "32884bfd435d816f4c10e615ecbc1936835585e0a53134daeffc695300822fc8",
+    "computations/d31b_C66_gonal_fibre_filter_v3.m": "92ff78098fa1f3cc43eaa2c7c863bfbf88af17e29d30ffabcd0285e17c5f6dc5",
+    "computations/d31b_C66_gonal_fibre_filter_v4.m": "3ffcf3264a3d226fd590b2ea216722a0dddecd370037f3465f56ee5c45c45364",
+    "computations/d31b_C66_gonal_fibre_filter_v5.m": "1e7764896bbbe758d69d67d204e1ede5350f617e03a6054cb73d400ddcf09316",
+    "computations/d31b_C66_gonal_genuine_replay.py": "73e6e09ced10781035c35ef26370829e7b60d173e5269c8cd41e9e7f9123e1bd",
+    "computations/d31b_C66_gonal_genuine_replay_v2.py": "6124bb9b9fea54e152c0ed8b0262c4ab85693ebe08224bca2a981a61bfa33408",
+    "computations/d31b_C66_gonal_genuine_replay_v3.py": "258cc27d958aab5dd71fdbbb542147ec53f9fe2fd4463f37937ec0014f513677",
+    "computations/d31b_C66_monic_profile.m": "0b016bfcaca9b4dc574c278e8f143c21db8a5f9c530dc6ca8d51fd03c4ffc72e",
+    "computations/d31b_C66_pencil_classes.m": "da084dd2405676cd6385a3a39e98c276f1b300a629fdca2c34595491093c3f5a",
+    "computations/d31b_C66_pencil_classes_v3.m": "f5aadd6a5cd5f79656dea148dd0b9b8c7b63a46a34df9eb41567b878a3c763e5",
+    "computations/d31b_C66_pencil_classes_v5.m": "8f14151ed6d647e610637fc200b4805be588d38d22e239abd182e9ef933a1459",
+    "computations/d31b_C66_prepare_gonal_cusps.py": "2a795c5766635712d0af99756025af48c7832bd1de7dd30f66dfe25a92c5e8e9",
+    "computations/d31b_C66_two_gonal_orbits_filter.m": "70cd4f6ef617c12ac29bdc8f9fb710ac950ed3e2b04d29b32db53b088a42c3b0",
+    "continuation_20261031b/C66/F2_NC_classes.m": "83db845feee002d65c6e039e161fa1f7a90ffb53c46dc0f51e0cc92a87affe88",
+    "continuation_20261031b/C66/F2_NC_classes_progress.m": "83db845feee002d65c6e039e161fa1f7a90ffb53c46dc0f51e0cc92a87affe88",
+    "continuation_20261031b/C66/F2_degree10_classification.json": "f1d038f8810f0a4dc4746f72948f44d18f046fc97b98199c1adfba49686348e3",
+    "continuation_20261031b/C66/F2_independent_verified.json": "7a546c91e93390f19a7285875c903b541a0e83709b2b5925afaa17d9ebc411ee",
+    "continuation_20261031b/C66/F2_proven_frame.m": "cccb568d6d09333be9cdc69c7885f4d060e8569efb6e7ad5606004e3a5fd5a03",
+    "continuation_20261031b/C66/F5_common_basis58.m": "21abbba3c6732241bd5ccfc867a62a5bfb466c3de2ef5ee7f91e7d2adb2c8d57",
+    "continuation_20261031b/C66/F5_common_basis58_coefficient_native.json": "528922f3050816741028128eae905ddd3410f9312274f2c87dc7b466a6a29f1b",
+    "continuation_20261031b/C66/F5_common_basis58_independent.json": "d7d39f82f44aff05ed0f1d8cc11060b190a4b2ed13fa7a81df51eff6206df1de",
+    "continuation_20261031b/C66/F5_common_basis58_jet_tables.m": "7646f9a2cb0eea2e152689069f3264e38b1a5783754ababc5f25716a941823b9",
+    "continuation_20261031b/C66/F5_common_basis58_jets.jsonl": "ceea4ce5fbfb0d77a3ae9cb21d36c05bb4d7b71e2d8972ae06e177b56bdb7f2f",
+    "continuation_20261031b/C66/F5_common_basis58_native.json": "ae2ed00fd14d9828b397c9ef7d915373588dffddc299803f938a7bfe5df00850",
+    "continuation_20261031b/C66/F5_degree10_signed_RR.m": "f555c11b8d8998543afcd17c7e0bb0c2fb75b69addeac15853b3fae89c505a62",
+    "continuation_20261031b/C66/actual_gonal_filter_retirement.json": "3239d3f4d71c28f3a736c46e4e60ca0a7d52e569b3035db8b5d67e9e8dff2e77",
+    "continuation_20261031b/C66/certify.py": "3e4619dff60a32a7d226ff6b124f780b552c27fa18a5c56ca1fb2f2ca9561cb2",
+    "continuation_20261031b/C66/gonal_cusp_input.m": "6aceb863086496e2e0d7e52a0f54e9231e86eb1346d86f0fed3acb0f3f43abdd",
+    "continuation_20261031b/C66/gonal_fibre_filter.m": "b00ce85099194cf5ac78cefe1b6f1fb5151096e4e163d122a3f424fcea247e1a",
+    "continuation_20261031b/C66/gonal_fibre_filter_progress.m": "b00ce85099194cf5ac78cefe1b6f1fb5151096e4e163d122a3f424fcea247e1a",
+    "continuation_20261031b/C66/gonal_first_function_oldfield.m": "6804f8cabd84468a3c2b417e68258b8084619398d2fbbcde14a0a5cd87f95688",
+    "continuation_20261031b/C66/gonal_functions_F5.m": "c7c637256dbcaa7526a8fb14863b287107841a524ec2b43fa751adb9e990f123",
+    "continuation_20261031b/C66/gonal_genuine_independent.json": "f419b2d2c219a2151cb8c416df34cc0609ddaf2b870acde28f4af1461a5e2788",
+    "continuation_20261031b/C66/gonal_model_F5.m": "28f5436b0efa6297e29f5fe25e4b2730ca51b97fe91d451b29ad8c884a0fc5d8",
+    "continuation_20261031b/C66/inputs/DEHMZ.tex": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d",
+    "continuation_20261031b/C66/inputs/F5_rr/basis33.m": "fde9a71fa521ae47eccb978aa7fcbefa38f7d9667b0cca8b2e72cd9c9c63ad39",
+    "continuation_20261031b/C66/inputs/F5_rr/basis_jets33.m": "40f92740aeda72a2df745097fc443fff6fe14546cad8575f3388231545bdeddd",
+    "continuation_20261031b/C66/inputs/F5_rr/input33.m": "af3a907988071cb87ec78ac63b668738ef34b662866ece7c1b7fe6bc6c6d5c9f",
+    "continuation_20261031b/C66/inputs/F5_rr/jet_tables33.m": "af3dae5f71f1fdd39917b6e5c021fe1e136a7aaa754dd561fdd6f1a224bd6129",
+    "continuation_20261031b/C66/inputs/F5_rr/jets_data33.json": "a1b12133a8412bdade891f6995f00c572f07d6e2e930e9bc6240f4ed312eba0f",
+    "continuation_20261031b/C66/inputs/F5_rr/native_basis_certificate33.json": "51c87c92d874c39627c2eade62268eac364514bcfa917e73e790e4729aad898a",
+    "continuation_20261031b/C66/inputs/class_arithmetic33.py": "ad44427c0fcbbd47c751e66488e8b9859989a51694f45f00939055fa7dd8790a",
+    "continuation_20261031b/C66/inputs/class_with_AF66.m": "5a899d373c2ca8e1caafc05d9eae3638b6aa5b2367beadc4ca589ca95230cd55",
+    "continuation_20261031b/C66/inputs/classify_degree9_33.m": "d5f9ada3da181845820948e501943a6e44f1df73a6a7b4a582e6017dcc43e4d0",
+    "continuation_20261031b/C66/inputs/exclusion66.tex": "9f31baba0db5b9bb33adf9fb08d3124fd2596421447b77e7459e17dbd45ff045",
+    "continuation_20261031b/C66/inputs/finite33.tex": "133a22118972af64ca59ecf1070e216b8477016bd798562c733a90a349dbd125",
+    "continuation_20261031b/C66/inputs/frobenius2_input33.m": "a39dcb8d5a5f1bf721f7ec09d3ebbca5cecd418a319789fce84313e082bbb712",
+    "continuation_20261031b/C66/inputs/frobenius2_verify33.exit.json": "48657cf61d92a594882453bb3c052a8c7a223497c53fca2134694b23665b5058",
+    "continuation_20261031b/C66/inputs/frobenius2_verify33.log": "2846f6ebd25cc17ba7a283b69702347c0adb39d60e40e142e5a064b9375ca30b",
+    "continuation_20261031b/C66/inputs/frobenius2_verify33.m": "37b035cae5920238478691bf85afbcdf696824e103bc8fdc20f1f7bd95e85986",
+    "continuation_20261031b/C66/inputs/frobenius2_verify33.status.json": "14bedbfb3c636ce6aeac7ca967d074d91ffa308c934f31cece9619aeefa7d644",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_root/build33.log": "bc8904ea92c486f70f3cd711045ab3c23855c46268322756c364be15b0a8e0a3",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_root/build33.m": "9cde49b4fa706edc9e6ee2ea3fd4e8c309f1cd895836cfc1c7b283415578e718",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_root/build33.status.json": "804ac24909ee9da09d855334f11eac5e9495918ba4762a94c32f3fb55398c50c",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_root/build33_pool_complete.json": "1fa34a8e02f37eb18f721cf286baf5b1212d0f83f94e085f48a80ecaebd4143b",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_root/guard_build33.py": "7ec9d1cc010f754a93ac059caaa13ffa76f3dbba8c35220cef6f6c12813753eb",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_root/model_cusps33.json": "3d3c34dcffcbcded99467a32ef6d4738e611c8d1c46a5f0f1b2c72294d413edd",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/basis33.m": "fde9a71fa521ae47eccb978aa7fcbefa38f7d9667b0cca8b2e72cd9c9c63ad39",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/basis_jets33.exit.json": "7ba3125cb33d8c4a3296ba3366da79eeedd862c036692bc7623e5bc8a97381ae",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/basis_jets33.log": "8e118e95b4f756bc633fabe8550172788689b00507395e8c0f48cdc770bec039",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/basis_jets33.m": "40f92740aeda72a2df745097fc443fff6fe14546cad8575f3388231545bdeddd",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/basis_jets33.status.json": "a16716427c940763dc4fb2e97b4cebf1a519139f3ee5e1a3751a3f0a350fbc09",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/coefficient_independence33.json": "fad0bd0be27ffdab9ec0de93d11e410fbbd895be30da55837f10e05fd5d4e1a3",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/dimensions33.jsonseq": "22bf9843c5cf10d9d9eaa79f041758de26f2e1a2f2fc7af01856f89e4889060b",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/guard_basis33.py": "5753bfcbbde2f04681d0c73bb8a142fa88cb99c461f95c3a986b4ae3d2fbad28",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/guard_replay33.py": "20351dd04eac9ac09bf00873280b1074fbfb9c12aeb1ab768b94c50badd1a0b9",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/guard_test33.py": "370263474bcc310a28d7c2edf10c17bfbf8d0ea4555c02b75b4147e42e8e73df",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/guard_verify33.py": "c4454f14cce6cb99e220875b84676d75811f520b4af7c1d9c2adc56369c254c0",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/independent_certificate33.json": "fbcefd980d84c03119b3231392b05d866e9d5967d9a78224a3fc1bc69d728a83",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/input33.m": "af3a907988071cb87ec78ac63b668738ef34b662866ece7c1b7fe6bc6c6d5c9f",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/jet_tables33.m": "af3dae5f71f1fdd39917b6e5c021fe1e136a7aaa754dd561fdd6f1a224bd6129",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/jets33.jsonseq": "280035ddfb8f2679eba3a151b9c5f6ef634af066883b23fd672e5090a9862893",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/jets_data33.json": "a1b12133a8412bdade891f6995f00c572f07d6e2e930e9bc6240f4ed312eba0f",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/native_basis_certificate33.json": "51c87c92d874c39627c2eade62268eac364514bcfa917e73e790e4729aad898a",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/replay33.exit.json": "6c5e69aa579631b080d7dd1c92e42560bd0e00f6395b3ca0e2860b36293303ed",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/replay33.log": "b66f0e8609569496292416b8327a666184555738419f39d34aab8fa9dc04a73d",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/replay33.py": "dd8d8b2ba8de2115cbc3f18d1d825b17b1039428caae00f79d21e6090273c723",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/replay33.status.json": "3a23727fbf97b569188529ba2903c06488dff3fbca522643fb52ca8cdc38447f",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/test33.exit.json": "ab123a8215aee9404621e6e4bd95b95626c4c5656b5bd374641cf0693f3e8816",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/test33.log": "61bcbdcb3dc2116119e07349aa21e4cb849f646bb89d3d9adae4dabffae29db0",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/test33.m": "d61d840e5e06b3a37932e81dbbd711b5e4f395ecc1674d0550ab450342e86ceb",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/test33.status.json": "e8fd21ab5ac522712e0105ee06fc35c145c065483ba437532dbe79b50c8db2d8",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/verify33.exit.json": "6b4eb7bec5bc6aa4d74712c27332bf5f31db4522033b0fa16b47a17c88f3593e",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/verify33.log": "f551f28caae0280b78b0233b96a92d7a37f9e0f9b86e92cdadf3e9f97ab806cb",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/verify33.m": "7283bbcf8dbd4bd28506d84ad8fdcc98a73a0b6a5202816623e8a1aca221ddee",
+    "continuation_20261031b/C66/inputs/inherited_source33/F5_rr/verify33.status.json": "d303cf894555e3eab5781ed0ca12c3e8243e28426f0e5ec5456e91def0519c28",
+    "continuation_20261031b/C66/inputs/inherited_source33/README.txt": "710e33c6711f71440027db0b954eaf79745c156ddd78026df1dc937f511e7c7a",
+    "continuation_20261031b/C66/inputs/inherited_source33/certify66.py": "bdd3635cd49c4a32440c332db9e8abaae1657215f6e19c7af541bb1fb536c94d",
+    "continuation_20261031b/C66/inputs/inherited_source33/class_arithmetic33.py": "ad44427c0fcbbd47c751e66488e8b9859989a51694f45f00939055fa7dd8790a",
+    "continuation_20261031b/C66/inputs/inherited_source33/class_with_AF66.m": "5a899d373c2ca8e1caafc05d9eae3638b6aa5b2367beadc4ca589ca95230cd55",
+    "continuation_20261031b/C66/inputs/inherited_source33/classification33.exit.json": "f26a01d95dcf4c620d95ec8fe0f3b7dd214ba8fd5ccbb8fcc0f0678b1b6b194f",
+    "continuation_20261031b/C66/inputs/inherited_source33/classification33.log": "2364e8b3e106a44a3e3964eb15af761944e1a42ea354cb489fa856b3912dc789",
+    "continuation_20261031b/C66/inputs/inherited_source33/classification33.status.json": "58ca5322168576799c3e8909c15458783ebc1b5b373e04ea3e9b7f5e4084b5ed",
+    "continuation_20261031b/C66/inputs/inherited_source33/classification33.stdout": "0c17c9ebaef513b63b7e825627873e783517da21869a684667efea72592c95b5",
+    "continuation_20261031b/C66/inputs/inherited_source33/classify_degree9_33.m": "d5f9ada3da181845820948e501943a6e44f1df73a6a7b4a582e6017dcc43e4d0",
+    "continuation_20261031b/C66/inputs/inherited_source33/exclusion66.tex": "9f31baba0db5b9bb33adf9fb08d3124fd2596421447b77e7459e17dbd45ff045",
+    "continuation_20261031b/C66/inputs/inherited_source33/finite33.tex": "133a22118972af64ca59ecf1070e216b8477016bd798562c733a90a349dbd125",
+    "continuation_20261031b/C66/inputs/inherited_source33/frobenius2_input33.m": "a39dcb8d5a5f1bf721f7ec09d3ebbca5cecd418a319789fce84313e082bbb712",
+    "continuation_20261031b/C66/inputs/inherited_source33/frobenius2_verify33.exit.json": "48657cf61d92a594882453bb3c052a8c7a223497c53fca2134694b23665b5058",
+    "continuation_20261031b/C66/inputs/inherited_source33/frobenius2_verify33.log": "2846f6ebd25cc17ba7a283b69702347c0adb39d60e40e142e5a064b9375ca30b",
+    "continuation_20261031b/C66/inputs/inherited_source33/frobenius2_verify33.m": "37b035cae5920238478691bf85afbcdf696824e103bc8fdc20f1f7bd95e85986",
+    "continuation_20261031b/C66/inputs/inherited_source33/frobenius2_verify33.status.json": "14bedbfb3c636ce6aeac7ca967d074d91ffa308c934f31cece9619aeefa7d644",
+    "continuation_20261031b/C66/inputs/inherited_source33/full_torsion33.exit.json": "23de960a8553ee122a65b41efcdcc75484f167fa1719cc8568d35250bf6a420e",
+    "continuation_20261031b/C66/inputs/inherited_source33/full_torsion33.json": "20cfa01f5ebef7f75b551a3c74cc631d62448760395d9297602b31030c041aaf",
+    "continuation_20261031b/C66/inputs/inherited_source33/full_torsion33.log": "099c8b72711dcde92e2f5eecc49dadf0f52f20384a9970fcf46c535fe85f4841",
+    "continuation_20261031b/C66/inputs/inherited_source33/full_torsion33.py": "f57f39d854bf801d6a0780726e93cd77866c848f9dc71041c54c8c23c13fdd57",
+    "continuation_20261031b/C66/inputs/inherited_source33/full_torsion33.status.json": "844496fc5e82068e65c0c5e6ebc0455bfee8485cccea74c99a6d59715d9aadbd",
+    "continuation_20261031b/C66/inputs/inherited_source33/guard33.py": "2394014097077500ad9937cae22550337cc4c19b094c096e72d35dda0719a202",
+    "continuation_20261031b/C66/inputs/inherited_source33/guard_frobenius2_33.py": "1d46c951c646c7535fec6ea48e461bf7b8677275bbe2f7e0a0f309b4b84b8d04",
+    "continuation_20261031b/C66/inputs/inherited_source33/guard_full_torsion33.py": "6bd9ff65f26a35f40b95e133a757cc73d36a702ffde4d8aec09f945eeea5d6e2",
+    "continuation_20261031b/C66/inputs/inherited_source33/guard_odd_bound33.py": "2f43764c1624562997603d1cdfcdc9768e7fefd57d031cda2291422257b934b1",
+    "continuation_20261031b/C66/inputs/inherited_source33/guard_replay33.py": "d02f6a82511848c2cf6be1f36ca3eed751c558d938b198307e0f9213fc21c663",
+    "continuation_20261031b/C66/inputs/inherited_source33/guard_short33.py": "3821eb5351e6c9c44170ebd1cb4a7ccd1a06c48483fdd542177e0d06d9b407eb",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports/DEHMZ.tex": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports/class_rational_reduction.m": "43e8ae730876321ba2a2a4fd57860f0826f2480d241e9a158a8d8601d7d1979c",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports/classify_octic_33.m": "74b99015c14e29766a0c58b79aa2197dca26363f08bbdbdc42ecc522c6585ccf",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports/frobenius_coefficients33.txt": "3995ab0bee20362548b3f9bac4a50b09310447755b2277e097ff424de17c6ab4",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports/gonality": "71a842ec5f97807baf9e75e3e4766df484c61157ad7dead2e5187ff00fc4d1d9",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports/octic_completeness_33.tex": "3ac9f1b23696c94656d2fabb6190f7525cfb2e6ec0f68aa95b00552a303cc73e",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports/pair_af_place_linear.m": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports/vanhoeij_nonic_input.json": "fed7f3544fbea4b88cebdfb9996bec5549de4a499dfefc81960378254a1f8ce5",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports/vanhoeij_nonic_input.m": "99f800545acc7579238f851d6a307a6ea80f13035a2e97e5a2bf9e9efb3b0989",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports/vanhoeij_octic_input.m": "4917e6b29275d1eb6b78080f9439a776bea68073c5da0ef99a43807ababd0009",
+    "continuation_20261031b/C66/inputs/inherited_source33/imports_manifest.json": "b72ee26583aae59f0d89a6ed8787f39ff1d71ffec62e5185ffcf6d5f321faa33",
+    "continuation_20261031b/C66/inputs/inherited_source33/independent_replay33.json": "79f9dd64417f28f2ba3079fb16a38669025fcf6d72f23db20b6b5d9c535a8547",
+    "continuation_20261031b/C66/inputs/inherited_source33/manifest66.json": "771cafa610ec33a77f150abc3a21ee2830c5fbb13d51451ef2642041fa15d4e3",
+    "continuation_20261031b/C66/inputs/inherited_source33/model_retained/build33.log": "bc8904ea92c486f70f3cd711045ab3c23855c46268322756c364be15b0a8e0a3",
+    "continuation_20261031b/C66/inputs/inherited_source33/model_retained/build33.m": "9cde49b4fa706edc9e6ee2ea3fd4e8c309f1cd895836cfc1c7b283415578e718",
+    "continuation_20261031b/C66/inputs/inherited_source33/model_retained/build33.status.json": "804ac24909ee9da09d855334f11eac5e9495918ba4762a94c32f3fb55398c50c",
+    "continuation_20261031b/C66/inputs/inherited_source33/model_retained/build33_pool_complete.json": "1fa34a8e02f37eb18f721cf286baf5b1212d0f83f94e085f48a80ecaebd4143b",
+    "continuation_20261031b/C66/inputs/inherited_source33/model_retained/guard_build33.py": "7ec9d1cc010f754a93ac059caaa13ffa76f3dbba8c35220cef6f6c12813753eb",
+    "continuation_20261031b/C66/inputs/inherited_source33/model_retained/model_cusps33.json": "3d3c34dcffcbcded99467a32ef6d4738e611c8d1c46a5f0f1b2c72294d413edd",
+    "continuation_20261031b/C66/inputs/inherited_source33/model_retained/reproduce_model33.m": "6affed649f72c578e1bbaef96b9931a1a0197fb5b23a3fa7e2747f605cadde04",
+    "continuation_20261031b/C66/inputs/inherited_source33/model_retained/source_package_identity33.json": "4d5cb71de938319ac41feac81c6a022c81911991561861de2411315126508acb",
+    "continuation_20261031b/C66/inputs/inherited_source33/odd_order_bound33.exit.json": "6ac43904daf851fd134e087d7ceaf95b132c51e1ba9776d8b692919d80b5bf3f",
+    "continuation_20261031b/C66/inputs/inherited_source33/odd_order_bound33.jsonseq": "c69bcbad54e0ca71cf8b15916a6c53b0d3bbc0732cee3ceafd837b512c9f0cef",
+    "continuation_20261031b/C66/inputs/inherited_source33/odd_order_bound33.log": "0df967a606289a41e92fbabac261cad60c262788edd7d4629bd220fe2b96edb8",
+    "continuation_20261031b/C66/inputs/inherited_source33/odd_order_bound33.m": "21122c053e2640cc2abb79e3be6cf3eeec13e1edeee919ce4013bd72bcb93499",
+    "continuation_20261031b/C66/inputs/inherited_source33/odd_order_bound33.status.json": "d791acc559ada25bf1a9cc2e799ee7e41ab48dad4346a875d00725bfd8be3929",
+    "continuation_20261031b/C66/inputs/inherited_source33/rebound/class_arithmetic33.py": "ad44427c0fcbbd47c751e66488e8b9859989a51694f45f00939055fa7dd8790a",
+    "continuation_20261031b/C66/inputs/inherited_source33/rebound/classification33.exit.json": "f51cea77f856a0b635f9dd769120b9fbb80f0508964c61c5e46bcd1acca5d8d2",
+    "continuation_20261031b/C66/inputs/inherited_source33/rebound/classification33.log": "e6faab76a1f708a789f8d67f8d8ea0bbe850b6290e012e5e0260b6c163466ded",
+    "continuation_20261031b/C66/inputs/inherited_source33/rebound/classification33.status.json": "e1db6eb9e46e43e6ba91bdfcfe47f45d5f2efe070f44d0b61647638933f4f402",
+    "continuation_20261031b/C66/inputs/inherited_source33/rebound/classification33.stdout": "f0169a54e7140018fd739e5adf19b8d356a321b6954fae185adac7c5d251547d",
+    "continuation_20261031b/C66/inputs/inherited_source33/rebound/classify_degree9_33.m": "583d9e7613c55d1a4be5f6984a09b0b075a63ae63290e4344d4920c32ecacc1c",
+    "continuation_20261031b/C66/inputs/inherited_source33/rebound/cusp_binding33.json": "c01292a1bac0e9bc687052000118b2047a9a9592b7b70f210a637c00ce7f44af",
+    "continuation_20261031b/C66/inputs/inherited_source33/rebound/guard33.py": "2394014097077500ad9937cae22550337cc4c19b094c096e72d35dda0719a202",
+    "continuation_20261031b/C66/inputs/inherited_source33/rebound/noncuspidal_places33.jsonseq": "447d0bf6b6213b0ccaf31ea2db609d5537e273b97dbca85c3141e1378d33d002",
+    "continuation_20261031b/C66/inputs/inherited_source33/replay33.exit.json": "19427f3652408e6fc3a78cc9bd05bff4dc00065957db8a172750c9c9fed5aaf5",
+    "continuation_20261031b/C66/inputs/inherited_source33/replay33.log": "7fd9c06e31153698894e0c498fa3b7b73a14889e22c61eb326ec4f4a08175e4a",
+    "continuation_20261031b/C66/inputs/inherited_source33/replay33.py": "acfe0406a3fe33b57ae2fb6e5f467c04951c4e71d27708ce0cf3ec591ac36210",
+    "continuation_20261031b/C66/inputs/inherited_source33/replay33.status.json": "a2b12682d407bc3f1daab0e61a5ae49a018eea48d2e51058a52b3daf4b1c5c85",
+    "continuation_20261031b/C66/inputs/inherited_source33/short_classes33.exit.json": "90a9013a356205b050e49667f8f6bfed47712e14faf00e09319079da4445ff58",
+    "continuation_20261031b/C66/inputs/inherited_source33/short_classes33.log": "c9c91c4af238e2944da7f191e07aa1df383cbb9ccf0e7debfe1678cdde4987fa",
+    "continuation_20261031b/C66/inputs/inherited_source33/short_classes33.py": "1301b444e895300ccef28bfdb3143c036a939bbea3cc9ca8b88c95bc344a6b4f",
+    "continuation_20261031b/C66/inputs/inherited_source33/short_classes33.status.json": "da98e3c07e5b08f5ec56b2a862b35cd650edd33f98ab26376c1aac386cedf67b",
+    "continuation_20261031b/C66/inputs/inherited_source33/short_cusp_classes33.json": "434cd0970262d65e3a027fca14c2fb0863438379d4e56de066734604955e8b36",
+    "continuation_20261031b/C66/inputs/manifest66.json": "771cafa610ec33a77f150abc3a21ee2830c5fbb13d51451ef2642041fa15d4e3",
+    "continuation_20261031b/C66/inputs/pair_af_place_linear.m": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802",
+    "continuation_20261031b/C66/inputs/short_cusp_classes33.json": "434cd0970262d65e3a027fca14c2fb0863438379d4e56de066734604955e8b36",
+    "continuation_20261031b/C66/inputs/source66_boundary.tex": "e0aaabe59820b35092f1da4b87dce9a82537f718dec2f157fefce7d0ccb92753",
+    "continuation_20261031b/C66/pencil_cusp_vectors_F5.m": "5209f67eb1572993c146b4f4538b8cbc8573f32f7866c6b2cb5650f6b6e2e487",
+    "continuation_20261031b/C66/resolution.tex": "83f8868fcc816c1a0696ecba0fbe98b4a99c4772b31379e43d164a35d1cb0dfc",
+    "jobs/d31b_C66_F2_degree10_classes.log": "0281d088d48899e433c7df91f31f94a76d4bdf07d5ada0ff9b9c9e65c93ee8d4",
+    "jobs/d31b_C66_F2_degree10_classes.status.json": "1319d6af8d3a9015439028453c0eb0d56c2d08b9e334d6ff6e5a816f40a32cdb",
+    "jobs/d31b_C66_F2_frame.log": "4673112593f9bb499008e71d00f490ebda178b87e68fa6af2c11d66320c820bf",
+    "jobs/d31b_C66_F2_frame.status.json": "86dce99e03f5328b087a4ad0cf4f80fbd2fc4301ec8dd36fa30f2bed881eabd3",
+    "jobs/d31b_C66_F2_frame_v2.log": "7b49a11317b8f848e9c7e60292e2806f9cfe05a8287de9fa706c29bd309d7c39",
+    "jobs/d31b_C66_F2_frame_v2.status.json": "091b7a0d9d9e57141aec0f82e1511b63e04c52126c092c28d2132136610b5ee9",
+    "jobs/d31b_C66_F2_independent.log": "a563273a6081000fd0177a1018dac057b6ba6a0a171ecba462205ca1ce3c37e9",
+    "jobs/d31b_C66_F2_independent.status.json": "66d4b1571b29db00704043bd0cfd1a12b8f447ce49dc3af76f4657aabe9ddc0f",
+    "jobs/d31b_C66_F2_independent_v2.log": "b0c764059d28c1c4efdcfda792001e6b6d1f31903190aa78ad7502cd4edb8feb",
+    "jobs/d31b_C66_F2_independent_v2.status.json": "10aa12df3b2d78b0b08fb953667312ca44699c18d10fb61b13f6c354b4d6c01e",
+    "jobs/d31b_C66_F2_independent_v3.log": "1fc5241a63cb0f0cbf003457e6aff5b9811aa3ac83941a1c022cc4066bfb222a",
+    "jobs/d31b_C66_F2_independent_v3.status.json": "43a7112834138cdc2d2f8edf4f404a189cb7d4a1655af2975205f77da6aa0b1a",
+    "jobs/d31b_C66_F5_common_basis58.log": "72386a59b38ac35a88be35c6e8ebc134b12024dbce47493621aa9323008bd1d1",
+    "jobs/d31b_C66_F5_common_basis58.status.json": "4db4cd06814cc6f8d12eb6e8bb371ae845b285ef3327fcdfed06190a1cba4237",
+    "jobs/d31b_C66_F5_extra_RR.log": "54c8add314e3f08bf263340fef14de5ab8f32a6c66bf0568a3c885d23f7f1c22",
+    "jobs/d31b_C66_F5_extra_RR.status.json": "9ffe90de14db0821f1c7704290d4168dc4d159e131b8c287c16cd7895ba6da99",
+    "jobs/d31b_C66_actual_gonal_filter.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "jobs/d31b_C66_actual_gonal_filter.status.json": "14dffcb7704c68d14862147077c0fcaeb0eddb846e78fe60564e58f6cb5c37e2",
+    "jobs/d31b_C66_actual_gonal_filter_v2.log": "cb77d99dd94cecc85b699e6b8ac94aa0654dd066afa0c87566eaef67fcc819c1",
+    "jobs/d31b_C66_actual_gonal_filter_v2.status.json": "bc79e6e40b3c85c92800492ff1872b21367f456302d53b1cb4a93e5df854e06f",
+    "jobs/d31b_C66_classical_gonal_filter.log": "bfa947cf36f35782dc03e6f38990472725fdfda07d3c6d825a345e5319efc8e4",
+    "jobs/d31b_C66_classical_gonal_filter.status.json": "63751868cccd30293b2e51ae17055df43c87f57d57c95f54840482acec5c1c61",
+    "jobs/d31b_C66_classical_gonal_filter_v2.log": "70619c5ada8df7edcb9a9f53876190818caca9b55e5df284455e36bb4626a4ee",
+    "jobs/d31b_C66_classical_gonal_filter_v2.status.json": "bae7f1890d7fd250761282ed3541f71450d8ec73c159b0e66ef7e378bd163857",
+    "jobs/d31b_C66_classical_gonal_filter_v3.log": "80be230e73820b8c82655f0f3ac96787c26412aabd9c987a7e12aa7cdfb79357",
+    "jobs/d31b_C66_classical_gonal_filter_v3.status.json": "9d4fb04c6b6afdb872e51258ccfbfc276f180e6bfb2beff11578fee63a2ce4ed",
+    "jobs/d31b_C66_classical_pencil_profile.log": "fa1a2dcb879f4ae3ac9de7d4e77b8985606cd916bb6508e8a43f724cb2dbc65a",
+    "jobs/d31b_C66_classical_pencil_profile.status.json": "1a3b4dca3906b38a8bd8595a4de150d270c4821846a91bafdbdfa89eed9286e6",
+    "jobs/d31b_C66_common_basis58_native.log": "67402525a50b2784bfad30031ee61be7b88023ec7a99ce178b0b3c5a11fdf7b5",
+    "jobs/d31b_C66_common_basis58_native.status.json": "c49f99898503fb46eb7afe5bb4962b40666bbc2fedbe4451003dc4061f7f3f16",
+    "jobs/d31b_C66_common_basis58_replay.log": "3c66b382d3e2c8251008800735ade2fbaf852861b513c7b697b7f59418ff5657",
+    "jobs/d31b_C66_common_basis58_replay.status.json": "301753126cf50830f06b86cbc3768300d957c81635d8b9956a81f8dcb8938fed",
+    "jobs/d31b_C66_gonal_fibre_filter.log": "a581b503aaff9f58ddb263ef81b50f316e900347968c4d085b4f1071ef317d3a",
+    "jobs/d31b_C66_gonal_fibre_filter.status.json": "43e2ae46dc19bfa033c08d2f7e3ca598bf1363488502409ff5ce2f9039d5134a",
+    "jobs/d31b_C66_gonal_fibre_filter_v2.log": "b0420f38cf61098a1a93d5dc579d685f95e15085cb575c1b6e972a92266cd23f",
+    "jobs/d31b_C66_gonal_fibre_filter_v2.status.json": "4cb948dfef6703f40506f112155dcf2ea77d5e9a5053a46096dbfff3318d4ea5",
+    "jobs/d31b_C66_gonal_fibre_filter_v3.log": "9c1e825a54544649bc4a74f4541a3a3639cc06ab2bc561a17532c9c266316e5d",
+    "jobs/d31b_C66_gonal_fibre_filter_v3.status.json": "0b26f3e81dd4e657ce62b32c382e99ce3f81d1f8e1f432b507eb1bfed1e9782c",
+    "jobs/d31b_C66_gonal_fibre_filter_v4.log": "17dd1cc2fa26c5badf5331c4a54d6fee8b7591ce013e229d60ec80068a3506b8",
+    "jobs/d31b_C66_gonal_fibre_filter_v4.status.json": "0dd2e8e3ab1a209e35941f70e70ed7c53698e8bd240e5d4073ba7c08df610700",
+    "jobs/d31b_C66_gonal_fibre_filter_v5.log": "60c10b6ba48e5ebadbbb488d7376534eb561f2eb03b7b231f0460f9b10bdf219",
+    "jobs/d31b_C66_gonal_fibre_filter_v5.status.json": "f3add335e97e542acba9bf7c53f279b879103f28571542c8e063dc8440194394",
+    "jobs/d31b_C66_gonal_genuine_replay.log": "e907104d0356fa76fcd02195636ac2807c7dbb0fbbf446efce427c84caafe47a",
+    "jobs/d31b_C66_gonal_genuine_replay.status.json": "f03e532f9152dafdf2625eeeecf5a6cec7626b0a9d08be0c2bb38717293faaf5",
+    "jobs/d31b_C66_gonal_genuine_replay_v2.log": "7a165ec5091ae0dc3418f9e84ca9784a8da8b2a485e6508a6a780667512d6dbf",
+    "jobs/d31b_C66_gonal_genuine_replay_v2.status.json": "46288fe91ad788a48dc00eef230cd4509fbb6d2946c420d56b38f0976ccb243b",
+    "jobs/d31b_C66_gonal_genuine_replay_v3.log": "deb81b5be2f55f4f36d345600635393da087afb49bc0399ae4dacae0a4c6ae5c",
+    "jobs/d31b_C66_gonal_genuine_replay_v3.status.json": "5aa27ede3a148e85ed7ac0d3a75d1be393689c64ffc6442f6b66c3a87f123c5d",
+    "jobs/d31b_C66_monic_profile.log": "020b45c4c59ad0db1d9380b2673c6c857d783d803861472a434f9741facf12f9",
+    "jobs/d31b_C66_monic_profile.status.json": "d49551d78501d7068eb20339638a6e0c0012e2da863272228cc2d6a3ad6de5de",
+    "jobs/d31b_C66_pencil_classes.log": "44160e07434f9831eb24c6d772c8effe27d98d68fcbc01be4f75a6f388b806e0",
+    "jobs/d31b_C66_pencil_classes.status.json": "2ead69cb817eb1155111213fedc0eb8f42753ead2986e07bc65b9aee753a23a3",
+    "jobs/d31b_C66_pencil_classes_v3.log": "027ee93b43948aa5306f061e66e34f6c911fd63249f276d481852174c7eaa668",
+    "jobs/d31b_C66_pencil_classes_v3.status.json": "be7b0fed1b557aabd95c038d0d84e1fc48665e56988cf5e828953ca9072ef283",
+    "jobs/d31b_C66_pencil_classes_v5.log": "00487368c7b4fc1b080207b13e6e864e23c3074a0080aa6b67d7dcd9da76416a",
+    "jobs/d31b_C66_pencil_classes_v5.status.json": "96b552e8558ed249f0f36f8f4592631f4235b2a7048a551ed7dc865b12879b0b",
+    "jobs/d31b_C66_two_gonal_orbits_filter.log": "89086fd409fbfdafe1556e06b379e9b11d254021e9e687f0c89ea9d187e2d62c",
+    "jobs/d31b_C66_two_gonal_orbits_filter.status.json": "cf248155ce94cfe36beeead511c00d6b9c8f342c9a03d9464d770ab9378550c9",
+    "run_job.py": "92c5f1910c551f00bced7c3d4e3731634d8bdb6ee2a07b5a87178c1ea9aed8bc",
+    "shared/mdmagma/models_X1_n/FFFc33.txt": "1471012002d2ef25a7e223b928aa1852bbca232b6d8f71678251786a3df06e5a",
+    "shared/mdmagma/v2/modular_curves/X1.m": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f"
+  }
+}

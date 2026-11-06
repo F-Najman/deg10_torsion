@@ -1,0 +1,9 @@
+Loading "work/deg10/continuation_20261031b/C60/d31b_C60_three_maps_common.m"
+Loading "work/deg10/continuation_20261031b/C60/inputs/portable_forward.m"
+Loading "work/deg10/continuation_20261031b/C60/inputs/pair_af_place_linear.m"
+Loading "work/deg10/continuation_20261031b/C60/exceptional_fibres_data.m"
+
+In file "work/deg10/continuation_20261031b/C60/d31b_C60_three_maps_common.m", line 10, column 394:
+>> (Solution(M,Vector(k,Eltseq(v,k)))):v in values];return [e]cat bits cat[Int
+                                                                  ^
+User error: Identifier 'bits' has not been declared or assigned

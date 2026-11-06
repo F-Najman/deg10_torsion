@@ -1,0 +1,14 @@
+Loading "work/deg10/computations/d31b_Y228_A11_common.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/fast_primitive_inverse.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/union_cases.m"
+Y228_SHARED_AF_READY 0 15 25 8.130
+Y228_AF_CUBIC_CUSPS_READY 0 23.460
+D31B_Y228_A11_CASE 0 41 0 [ 1 ]
+39.460
+D31B_Y228_A11_CASE 0 45 0 [ 1 ]
+49.910
+D31B_Y228_A11_COMPLETE 0 2 [
+    [ 41, 0 ],
+    [ 45, 0 ]
+]
+49.920

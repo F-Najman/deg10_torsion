@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "degree": 10,
+  "genus": 5,
+  "target": "X0(42)",
+  "finite_picard_order": 18432,
+  "source_rational_image_order": 96,
+  "source_rational_image_index": 192,
+  "global_cusp_orbit_norms_independently_checked": true,
+  "finite_cusp_orbits_checked": 24,
+  "global_cusp_orbits_checked": 22,
+  "input_supports": 108,
+  "remaining": 10,
+  "projection_images": 211,
+  "independent_velu2_images": 45,
+  "cusp_complement_counts": [
+    1,
+    6,
+    12,
+    16,
+    20,
+    24,
+    24
+  ]
+}

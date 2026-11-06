@@ -1,0 +1,26 @@
+DATABASE_ELL_MODEL N=87 ell=29 genus=2 good_reduction=true j_degree=30 time=0.040
+X0_3ELL_MODEL N=87 genus=9 degree_over_X0ell=4 integral_coordinates_ready=true time=0.760
+B87_BASE_CENSUS 9 36 36 4 [* [*
+    [ 522 ],
+    36
+*] *] 1.120
+B87_BASE_RR 9 1 0 1.240
+B87_BASE_RR 9 2 0 1.340
+B87_BASE_RR 9 3 0 1.450
+B87_BASE_RR 9 4 0 1.570
+B87_BASE_CENSUS 10 50 80 8 [* [*
+    [ 3, 348 ],
+    10
+*], [*
+    [ 1044 ],
+    40
+*] *] 2.820
+B87_BASE_RR 10 1 0 2.930
+B87_BASE_RR 10 2 0 3.050
+B87_BASE_RR 10 3 0 3.150
+B87_BASE_RR 10 4 0 3.250
+B87_BASE_RR 10 5 0 3.390
+B87_BASE_RR 10 6 0 3.480
+B87_BASE_RR 10 7 0 3.580
+B87_BASE_RR 10 8 0 3.670
+B87_BASE_COMPLETE 12 0 3.680

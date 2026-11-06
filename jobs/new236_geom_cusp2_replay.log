@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_geom_cusp2_replay.py", line 2, in <module>
+    runpy.run_path('work/deg10/C236_resolution_20261030/geometry/replay_cusp2.py',run_name='__main__')
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "work/deg10/C236_resolution_20261030/geometry/replay_cusp2.py", line 41, in <module>
+    assert len(pairtests)==21 and set((r[0],r[1]) for r in pairtests)==set((i,j) for i in split for j in split if i<=j)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

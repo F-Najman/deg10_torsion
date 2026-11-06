@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "independent_complete_finite_census": true,
+  "ordinary_twists_by_degree": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    0,
+    18,
+    50
+  ],
+  "noncuspidal_closed_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    20,
+    0,
+    40,
+    100
+  ],
+  "stored_source_generators_checked": 8,
+  "new_degree10_diamond_representatives": 5,
+  "independent_marked_Velu3_kernels": 20,
+  "complete_three_division_polynomials_recovered": 5,
+  "all_norm_weights_and_marked_Tate_coordinates_checked": true,
+  "cases": [
+    {
+      "case": 1,
+      "geometric_kernels": 4,
+      "orbits": [
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          3,
+          30,
+          1
+        ]
+      ]
+    },
+    {
+      "case": 2,
+      "geometric_kernels": 4,
+      "orbits": [
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          3,
+          30,
+          1
+        ]
+      ]
+    },
+    {
+      "case": 3,
+      "geometric_kernels": 4,
+      "orbits": [
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          3,
+          30,
+          1
+        ]
+      ]
+    },
+    {
+      "case": 4,
+      "geometric_kernels": 4,
+      "orbits": [
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          1,
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "case": 5,
+      "geometric_kernels": 4,
+      "orbits": [
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          3,
+          30,
+          1
+        ]
+      ]
+    }
+  ],
+  "seconds": 1.7404043450951576,
+  "evidence": [
+    {
+      "path": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C55/census.m",
+      "sha256": "4d782f6c5122980b8898b3bcd70efbdeeeb3b3302202019af8580f34dc2fda44"
+    },
+    {
+      "path": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C55/source_case1_packet.m",
+      "sha256": "1d152c69be932790c3b0f5026271d45104f92c4c03e8f26ca19e8652d15b29bd"
+    },
+    {
+      "path": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C55/source_case2_packet.m",
+      "sha256": "7abfd72247e2fc175735d0cc88c07795b81dd19b16a9acf694acb5c275cc87ea"
+    },
+    {
+      "path": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C55/source_case3_packet.m",
+      "sha256": "f1e8d7d8928f583e206a691576aeb6c3f3b20b925e92085cd1ba4ef7b4ac4ba0"
+    },
+    {
+      "path": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C55/source_case4_packet.m",
+      "sha256": "488f59b8d45cb57d810adc10c455863d0d32b1536b21fcc49a3a73417c554496"
+    },
+    {
+      "path": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C55/source_case5_packet.m",
+      "sha256": "f9f55644860a955d5b442e7eb012001069b879374cd475dac6ac83b6a1e2caec"
+    }
+  ]
+}

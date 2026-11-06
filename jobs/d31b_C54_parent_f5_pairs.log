@@ -1,0 +1,17 @@
+Loading "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_setup.m"
+Loading "work/deg10/continuation_20261031b/C54/inputs/pair_af_place_linear.m"
+D31B_C54_PARENT_F5_PROVEN_SETUP [ 3, 3, 342175446, 0 ]
+472473 36.080
+D31B_C54_PARENT_F5_TARGET_PROGRESS 50 59.800
+D31B_C54_PARENT_F5_TARGET_PROGRESS 100 87.250
+D31B_C54_PARENT_F5_TARGET_PROGRESS 150 114.380
+D31B_C54_PARENT_F5_TARGET_PROGRESS 200 140.060
+D31B_C54_PARENT_F5_TARGET_PROGRESS 250 163.030
+D31B_C54_PARENT_F5_TARGET_PROGRESS 300 185.050
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_pairs.m", line 15, column 256:
+>> ]:={phi(FunctionFieldDivisor(Divisor(p))-A):p in cs|Degree(p)eq 1};assert #
+                                      ^
+Runtime error in '&cat': Bad argument types
+Argument types given: List
+

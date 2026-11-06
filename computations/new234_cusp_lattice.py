@@ -1,0 +1,7 @@
+from pathlib import Path
+import sys,time,json
+from sage.all import GammaH,ZZ,Matrix
+sys.path.insert(0,str(Path('work/deg10/shared/mdsage').resolve()))
+from mdsage.maartens_sage_functions import modular_unit_lattice,galois_orbits
+P=Path('work/deg10/C234_resolution_20261030');tt=time.monotonic();G=GammaH(68,[35,-1]);cusps=G.cusps();orbs=list(galois_orbits(G));print('C234_CUSP_GLOBAL_DEGREES',sorted(map(len,orbs)),time.monotonic()-tt,flush=True);rat=[cusps.index(o[0]) for o in orbs if len(o)==1];assert len(rat)==24 and sorted(map(len,orbs))==[1]*24+[8]*3
+L,D=modular_unit_lattice(G);A=ZZ**len(cusps);DR=A.submodule([A.gen(i)-A.gen(rat[0]) for i in rat[1:]]);LR=L.intersection(DR);B=Matrix(ZZ,[[row[i] for i in rat] for row in LR.basis_matrix().rows()]);assert B.nrows()==23 and B.ncols()==24;B=B.LLL();assert all(sum(row)==0 for row in B.rows());(P/'rational_cusp_unit_lattice.m').write_text(repr([[int(x) for x in row] for row in B.rows()])+'\n');(P/'rational_cusp_unit_lattice.json').write_text(json.dumps({'status':'PASS','genus':49,'integral_homology_rank':98,'rational_cusps':24,'other_global_cusp_degrees':[8,8,8],'rank':23,'full_modular_unit_lattice':[[int(x) for x in row] for row in L.basis_matrix().rows()],'rational_cusp_indices':rat,'restricted_modular_unit_lattice':[[int(x) for x in row] for row in B.rows()]},indent=2)+'\n');print('C234_RATIONAL_CUSP_UNIT_LATTICE_COMPLETE',B.nrows(),min(sum(x*x for x in row) for row in B.rows()),time.monotonic()-tt,flush=True)

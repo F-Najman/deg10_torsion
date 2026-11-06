@@ -1,0 +1,18 @@
+{
+  "purpose": "resolve226_find_cusp_fibers",
+  "script": "computations/resolve226_find_cusp_fibers.py",
+  "script_sha256": "ef2f17b6268899bfcc6ab84c7b0950de403c98d0599a14d17fb24c479b97a86f",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_find_cusp_fibers.py"
+  ],
+  "pid": 1567095,
+  "owner_uid": 1001,
+  "start_time_unix": 1793347033.4276621,
+  "state": "EXITED",
+  "time_limit_seconds": 90,
+  "log": "jobs/resolve226_find_cusp_fibers.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.6146621704101562
+}

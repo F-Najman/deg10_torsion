@@ -1,0 +1,26 @@
+{
+  "status": "PASS; PHI(10) COMPLETE",
+  "known_full_groups": 69,
+  "excluded_minimal_obstructions": 110,
+  "remaining": 0,
+  "original_cases_resolved": 10,
+  "original_new_exclusions": 9,
+  "original_new_occurrence": [
+    3,
+    18
+  ],
+  "new_larger_exclusions": [
+    [
+      3,
+      36
+    ],
+    [
+      6,
+      18
+    ]
+  ],
+  "paper_pages": 110,
+  "evidence_files_checked": 10687,
+  "jobs_exited": 1498,
+  "protected_earlier_files_unchanged": 25
+}

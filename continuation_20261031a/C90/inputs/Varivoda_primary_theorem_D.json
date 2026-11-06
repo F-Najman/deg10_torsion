@@ -1,0 +1,10 @@
+{
+  "title": "Gonality and quintic points on intermediate modular curves",
+  "author": "Marin Varivoda",
+  "version": "2610.00219v1",
+  "date": "2026-10-13",
+  "url": "https://hexagonmath.org/pdf/2610.00219v1",
+  "location": "Theorem D, printed page2",
+  "verified_primary_claim": "The Q-gonality of X1(45) is18",
+  "verification": "PrimaryPDF opened and theorem table inspected using web tool; direct local download returnedHTTP403, so no localPDF is claimed."
+}

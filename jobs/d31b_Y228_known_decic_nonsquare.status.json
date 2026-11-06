@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_Y228_known_decic_nonsquare",
+  "script": "computations/d31b_Y228_known_decic_nonsquare.py",
+  "script_sha256": "79043e35c6fe75857abf8275a5f6fd4a0c2699d3fe578430a8415f486eac503b",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_known_decic_nonsquare.py"
+  ],
+  "pid": 3569702,
+  "owner_uid": 1001,
+  "start_time_unix": 1793438137.983975,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/d31b_Y228_known_decic_nonsquare.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.7172939777374268
+}

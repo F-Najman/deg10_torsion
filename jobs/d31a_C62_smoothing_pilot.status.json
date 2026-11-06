@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C62_smoothing_pilot",
+  "script": "computations/d31a_C62_smoothing_pilot.m",
+  "script_sha256": "d41df85f300953d866da0a224bf3512ad44d41c922cc7475b00a116a8da20ac4",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C62_smoothing_pilot.m"
+  ],
+  "pid": 2800653,
+  "owner_uid": 1001,
+  "start_time_unix": 1793401874.9958503,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/d31a_C62_smoothing_pilot.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 137.28421807289124
+}

@@ -1,0 +1,16 @@
+{
+  "degree": 9,
+  "group": [
+    1,
+    93
+  ],
+  "mathematical_review": "PASS",
+  "reviewers": [
+    "root",
+    "degree9_primes",
+    "degree9_noncyclic (allbad lemma)"
+  ],
+  "allbad": "UnramifiedQ2 cusp lift need not be rational; finite diamond image plusMD gives torsion overU2; kernel killed2, geometricgon>36 forcesh4D=D; h4free order5 contradicts9.",
+  "good": "All10 sourceP9 formone\u03c3orbit; actual six5-isogenies/threeP18 are independently rebuilt; validFricke point annihilator isT5\u2212\u03c45\u22125, includedesign\u22121/conv1;120matrixchecksfullrank261.",
+  "source_and_jets": "Independentcorrectedv3source/v2jetreplays pass withactual162/157 unitrelations; all68121 products and M4RIranksverified."
+}

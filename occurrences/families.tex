@@ -1,0 +1,48 @@
+\begin{lemma}\label{lem:hilbert}
+Let $F$ be a number field and let $X_1(m,n)$ denote a fixed Weil-pairing
+component over $F$. Suppose that its universal elliptic curve has full
+torsion $C_m\times C_n$ over $F(X_1(m,n))$. If $X_1(m,n)$ has an
+$F$-rational function of degree $r$, then $C_m\times C_n$ occurs as
+full torsion over a field of degree $r[F:\mathbb Q]$.
+\end{lemma}
+\begin{proof}
+Hilbert irreducibility gives irreducible fibres of degree $r$.
+By uniform boundedness, only finitely many additional torsion orders
+can occur in fields of degree $r[F:\mathbb Q]$. For each order, use
+the finite covers which specify a torsion point outside the indicated
+subgroup. Their generic degrees exceed one. Apply Hilbert irreducibility
+simultaneously to their compositions with the function. No such fibre
+acquires an additional rational torsion point. Removing the cusps and
+the finitely many degenerate fibres proves the assertion.
+\end{proof}
+
+We apply this lemma over $F=\mathbb Q$ for $m\leq2$ and over
+$F=\mathbb Q(\zeta_m)$ for $m=3,4,6$. The standard universal family
+has exactly the specified generic torsion. The following functions
+are certified by principal cuspidal divisors:
+\[
+\begin{array}{c|l|c}
+m&n&\deg f\\\hline
+1&23,26,27,32,33,34,36&10\\
+2&20,22,24&10\\
+3&9,12&5\\
+4&8,12&5\\
+6&6&5
+\end{array}
+\]
+The computation uses the integral modular-symbol period lattice in
+\texttt{mdsage}. A degree-zero cuspidal divisor belongs to the
+principal lattice precisely when its Abel--Jacobi image vanishes.
+For each row, the certificate records a Galois-invariant vector in
+this lattice whose positive part has the indicated degree. A rational
+principal divisor descends to a rational function by Hilbert's theorem~90.
+For $m>2$ we use the standard isomorphism, over $\mathbb Q(\zeta_m)$,
+with the $\Gamma_H(mn)$ model, where
+$H=\langle-1,1+n,\ldots,1+(m-1)n\rangle$.
+Here $n$ denotes the second invariant factor; the level is $mn$.
+
+The vectors, ordered cusps, lattice bases, and the exact software revision
+are in the unit certificates in the occurrence directory.
+The software revision is pinned in \path{shared/mdsage_manifest.json}. The independent replay recomputes
+lattice membership and degrees for all fifteen vectors. Initial probes
+which merely compared genus and degree are not used in this proof.

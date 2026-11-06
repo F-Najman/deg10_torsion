@@ -1,0 +1,40 @@
+Complete octic C75 exclusion, accepted after separate theory and arithmetic audits.
+
+The source J1(75)/Q has rank zero: all six even-character winding components,
+weighted dimension145, are full. This is a modular analytic-rank-zero argument.
+The free diamond involution26 fixes the25-component and negates the3-component;
+its quotient is genus73, point25 plus a cyclic3-subgroup, with good reduction2.
+The universal canonical3-kernel polynomial and rebase25 degree5 model are checked
+exactly. No high-memory or timed-out native X1(75) computation is relied upon.
+
+The degree290 Frobenius polynomial and independent full Tate cusp labels give
+NC1..8=[0,0,0,0,0,0,20,0]. The source rational cusps are all globallyQ-rational.
+All20degree7NCpoints form one diamond orbit. Independent binary elliptic arithmetic
+checks both twists of EVERY ordinaryj overF128, all14 actual source/isogeny moduli
+records, order25/order3, native normalization and proper residue fields. The native
+normed7-Hecke divisor is nonprincipal after subtracting P+7diamond7P; independent
+RR dimension is0, and the untouched full division-field implementation gives
+twice the normed divisor, exactly accounting for repeated geometric images.
+The final clean native good branch completed38.64CPU, with no missing cases.
+
+Entirely cuspidal source reduction has131790 admissible degree8 images on Y73.
+Independent primitive Tate labels prove both the pushforward restrictions and
+all closed-cusp diamond cycles. The source16 RR kernels at4actual orbit
+representatives, transported by the explicit diamond2 of order10, give128local
+blocks in one fixed holomorphic basis. Cartier hasrank69 and C−1 hasrank71.
+Every one of131790restriction matrices hasrank8 on this image. Independent
+binary linear algebra verifies all kernels, transports, projections and ranks.
+The complete native orbit-transport run completed302.63CPU. The formal argument
+uses the dyadic finite-flat lemma on the quotient Jacobian, its rankzero overQ,
+and Manin−Drinfeld for a cuspidal lift over a decomposition field; it does NOT
+assume rankzero over that larger field.
+
+A separate collaborator audited the full theory, including étaleness inchar2,
+the actual modular quotient, the degree1 cusp correction and formalimmersion.
+Its audit is bound. Root's isolated SHA/replay checker writes only a temporary
+copy. Accepted dependencies are explicit, including271pinnedshared files.
+
+Omitted unused diagnostics include the native genus145 memory failures, the
+superseded full13-cusp slow run, and the genus17 C5-quotient experiment (which
+has228 formalimmersion exceptions and is NOT an exclusion). None supports this
+accepted proof. Earlier degree artifacts and earlier accepted evidence unchanged.

@@ -1,0 +1,19 @@
+{
+  "purpose": "contc85_jets10",
+  "script": "continuation_20261030c/C85/contc85_jets10.m",
+  "script_sha256": "ce0f10a127221a87cf2ecca8559764b9dbb452bb15a9193ef7dcac7692c2e895",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C85/contc85_jets10.m"
+  ],
+  "pid": 2714514,
+  "owner_uid": 1001,
+  "start_time_unix": 1793397848.1382096,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/contc85_jets10.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 5.824557304382324
+}

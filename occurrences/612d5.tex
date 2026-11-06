@@ -1,0 +1,53 @@
+\subsection{A sporadic occurrence of \texorpdfstring{$C_6\times C_{12}$}{C6 x C12}}
+\begin{proposition}\label{prop:decic612}
+The group $C_6\times C_{12}$ occurs as the full torsion group
+of an elliptic curve over a decic number field.
+\end{proposition}
+\begin{proof}
+Let $F=\Q(z)$, where $z^2-z+1=0$, and let $w$ be a root of
+\[
+ 3w^5+(4-5z)w^4+(7-8z)w^3-7(z+1)w^2
+       +6(z-1)w+2z-1=0.
+\]
+This polynomial is irreducible over $F$. Put $K=F(w)$, so
+$[K:\Q]=10$, and define
+\[
+ r=\frac{w^2+1}{w^2-w},\qquad
+ s=\frac{w^2+w+1}{w^2}.
+\]
+Consider
+\[
+ E:\quad y^2+(1+s-rs)xy+rs(1-r)y
+       =x^3+rs(1-r)x^2.
+\]
+The point $Q=(0,0)$ has order $12$.
+An independent point $P$ of order $6$ is given by
+\[
+\begin{aligned}
+2x(P)={}&(25z+10)w^4+(45-20z)w^3+(79-17z)w^2\\
+ &+(22-109z)w+39z-46,\\
+2y(P)={}&(222z+237)w^4+(651-537z)w^3+(1012-601z)w^2\\
+ &-(1518z+223)w+808z-861.
+\end{aligned}
+\]
+Exact arithmetic verifies $e_6(P,2Q)=z$. Hence
+$C_6\times C_{12}\subseteq E(K)_{\rm tors}$.
+
+The prime specified by $z\mapsto14$, $w\mapsto8$ has residue
+field $\mathbb F_{61}$ and is unramified; both defining
+polynomials have simple roots. The curve has good reduction
+\[
+ \overline E:\quad y^2-4xy+4y=x^3+4x^2,
+ \qquad \#\overline E(\mathbb F_{61})=72.
+\]
+Torsion injectivity gives $\#E(K)_{\rm tors}\le72$, proving equality.
+Sage independently verifies the irreducible field, both point
+orders, the Weil pairing and the reduction count, including a
+separate count of all $61$ Weierstrass fibers.
+
+The associated point on $X_1(6,12)$ has degree five over $F$.
+The Jacobian has rank zero by \cite[Theorem~4.1]{DS}, and its
+$F$-gonality is at least six by \cite[Table~1]{NV}.
+Thus there are only finitely many such degree-five points,
+and this occurrence is sporadic.
+\end{proof}

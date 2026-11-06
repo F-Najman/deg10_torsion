@@ -1,0 +1,19 @@
+{
+  "purpose": "late250_source",
+  "script": "computations/late250_source.m",
+  "script_sha256": "2aa2e03f90f9882a9a11a634408e757701f45e2faafb4743eff2c418b1fa1d51",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late250_source.m"
+  ],
+  "pid": 916645,
+  "owner_uid": 1001,
+  "start_time_unix": 1793315253.5864663,
+  "state": "EXITED",
+  "time_limit_seconds": 420,
+  "log": "jobs/late250_source.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 15.088602304458618
+}

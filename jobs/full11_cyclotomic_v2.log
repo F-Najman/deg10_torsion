@@ -1,0 +1,22 @@
+DECIC_FULL11_X111_TORSION_BOUND p=23 residue_degree=1 count=25
+DECIC_FULL11_X111_GENERATOR order=25 coordinates=[
+z^9 + 4*z^8 - z^7 + 3*z^6 + 3*z^5 - z^4 + 4*z^3 + z^2 + 5,
+-6*z^9 - 17*z^8 + 3*z^7 - 12*z^6 - 12*z^5 + 3*z^4 - 17*z^3 - 6*z^2 - 19,
+1
+] time=0.080
+DECIC_FULL11_MODULI_CASE i=2 j=-121 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=3 j=-32768 good_prime=23 cyclotomic_root=2 reduction_order=33 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=4 j=-24729001 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=7 j=-121 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=8 j=-32768 good_prime=23 cyclotomic_root=2 reduction_order=33 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=9 j=-24729001 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=12 j=-121 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=13 j=-32768 good_prime=23 cyclotomic_root=2 reduction_order=33 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=14 j=-24729001 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=17 j=-121 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=18 j=-32768 good_prime=23 cyclotomic_root=2 reduction_order=33 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=19 j=-24729001 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=22 j=-121 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=23 j=-32768 good_prime=23 cyclotomic_root=2 reduction_order=33 excludes_full11=true
+DECIC_FULL11_MODULI_CASE i=24 j=-24729001 good_prime=23 cyclotomic_root=2 reduction_order=22 excludes_full11=true
+DECIC_FULL11_ALL_CASES_COMPLETE total=25 cusps=10 noncusps=15 all_excluded=true time=0.090

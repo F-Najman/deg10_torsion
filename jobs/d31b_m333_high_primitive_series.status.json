@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m333_high_primitive_series",
+  "script": "computations/d31b_m333_high_primitive_series.m",
+  "script_sha256": "7b4a7cb63ca5c23f00005b39605b2c1a71cfa54446dd0f2c3333e6ffac34b040",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_high_primitive_series.m"
+  ],
+  "pid": 3631059,
+  "owner_uid": 1001,
+  "start_time_unix": 1793440695.6160054,
+  "state": "EXITED",
+  "time_limit_seconds": 860,
+  "log": "jobs/d31b_m333_high_primitive_series.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 326.26134157180786
+}

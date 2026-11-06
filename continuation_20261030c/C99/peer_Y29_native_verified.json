@@ -1,0 +1,43 @@
+{
+  "case": "C99 final residual genus29 independent native replay",
+  "status": "PASS",
+  "proof": "resolution.tex",
+  "absolute_field_degree": 12,
+  "genus": 29,
+  "exact_constant_field": "F2",
+  "operator": "(delta2-1)(T5-1-5delta5)",
+  "source_orbit": 3,
+  "h0": 0,
+  "positive_degree": 110,
+  "negative_degree": 110,
+  "prime_reference_checks": 23,
+  "unique_signed_support": 11,
+  "checks": [
+    "irreducible model and exact original modular equations",
+    "exact Kubert9 marked-point identities",
+    "all finite prime ideals reconstructed; two-generator encode/decode round trips",
+    "source phases 1,2,5,10 and delta10=P",
+    "all four Hecke kernel orbits [1,1,2,2] and norm weights 1",
+    "same signed operator divisor and degree110",
+    "fresh native Riemann-Roch h0=0",
+    "independent genuine Sage five- and eleven-isogenies bind every key"
+  ],
+  "native_actual_exit_code": 0,
+  "independent_binding_actual_exit_code": 0,
+  "earlier_failed_diagnostics": "Preserved by producer; not used as completion certificates.",
+  "files_sha256": {
+    "computations/contc99_peer_Y29_native.m": "45a989be77669e9bb4d1f303bf5e05b1f0894113427330caf883f6634670851e",
+    "jobs/contc99_peer_Y29_native.log": "1b57821e12f968590152d148e74dcf4cba43212d29bbf4586c1385932443bfd6",
+    "jobs/contc99_peer_Y29_native.status.json": "317fa8141749f61aec27b7693cf87d428976cddda761d30a391c1bc796ffb822",
+    "continuation_20261030c/C99/Y29_model.m": "cda8c8ab1544d69d5aa0e6501f880bf6408872aa0d6b21e82dd0b7bc3d41b063",
+    "continuation_20261030c/C99/Y29_RR.m": "1751a44bc46078bd42f8f8bd4264ee89404b8b99f280b3cba687223e9c43aa76",
+    "continuation_20261030c/C99/peer_native_Y29_RR.m": "f5db044af1830689af5a7bc82e88aafc32a3e05d096d6f97ed1649edf2c5a981",
+    "continuation_20261030c/C99/peer_Y29_two_generators.m": "83986738f01f1614d400709de6b51cb4c6ed08554b49a1b0ba2c81dc47b96c57",
+    "continuation_20261030c/C99/independent_Y29_moduli_keys.json": "948ecf7b990730e8278c4456a5d2a9906e3c90ac970b540e44c435a31bd4de59",
+    "continuation_20261030c/C99/independent_Y29_native_binding.json": "c457a21f1497d7daed782d6992176bcea0b21109b08ee61f59ea9d15483e754b",
+    "computations/contc99_independent_Y29_binding.py": "98434cb931fdf22f7703f16716d2287ef6122d26c4ee6f0c29538df38a4163dc",
+    "jobs/contc99_independent_Y29_binding.log": "71974a8d72d2dd136b48f6d14776a14017352ff63c61d6415d8cdd5c30a831b7",
+    "jobs/contc99_independent_Y29_binding.status.json": "4e1eaab2339e884c5460a851f812c84bc6417578ad83b9de547e0c4ab94c8423",
+    "continuation_20261030c/C99/resolution.tex": "9fd21e7b628b29bb22fd9c011e0b6e520e7e6592dc08457536b37587b11dd2d1"
+  }
+}

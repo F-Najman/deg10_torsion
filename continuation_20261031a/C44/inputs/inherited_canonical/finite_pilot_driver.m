@@ -1,0 +1,1 @@
+MaxCases:=1;OutputPath:="work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_jets_pilot.jsonl";load "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/export_finite_jets.m";

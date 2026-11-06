@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_double_cusp_3_21_D5",
+  "script": "computations/cont_double_cusp_3_21_D5.m",
+  "script_sha256": "c2b65cee4a6e6b322d1b6a333e32b3f1cc8f26290917ac5a7f94427f22df8f7f",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_double_cusp_3_21_D5.m"
+  ],
+  "pid": 252180,
+  "owner_uid": 1001,
+  "start_time_unix": 1793284972.3773773,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/cont_double_cusp_3_21_D5.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 40.11819839477539
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "group": [
+    1,
+    70
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "frozen_summary_sha256": "eadb712f7b96415986835801baefecbaea589cebd80ab9f1229917cb768a9e59",
+  "replaces": "registration_review.json",
+  "replacement_reason": "The original registration occurred during manifest finalization. Only the manifest hash changed; the mathematical proof and all previously accepted arithmetic files are unchanged. This review binds the explicitly confirmed final freeze, including its additional record.",
+  "classification_complete": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "group": [
+    1,
+    85
+  ],
+  "degree": 10,
+  "parent_mathematical_review": "PASS",
+  "frozen_manifest_sha256": "3d408730cafed5275a487a5fcbec94b233d1a4cc87653afc5fb9651a58b7df5f",
+  "method": "Finite-image integral Hecke polynomials with the full-Jacobian local multiplicative-level operator T2-1; exact rational and nonrational cusp restrictions; all new and inherited necessary canonical-multiplication tests independently verified",
+  "independent_arithmetic_checks": "PASS",
+  "classification_complete": false
+}

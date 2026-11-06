@@ -1,0 +1,10 @@
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/pair_af_place_linear.m"
+C236_D10_QUARTIC_BASE_POINT_READY 0.720
+C236_D10_QUARTIC_SOURCE_CURVE_READY 1.410
+C236_D10_KUMMER_UNRAMIFIED_C4_ORDER4_PASS 2.440
+C236_D10_KUMMER_EXACT_INERT_DEGREE8_SUPPORT_PASS 2.450
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_geom_nonsplit_fibres.m", line 30, column 95:
+>> at [2:j in [1..8]] cat [6:j in [1..4]];assert totalquad eq 8 and #orbits eq
+                                          ^
+Runtime error in assert: Assertion failed

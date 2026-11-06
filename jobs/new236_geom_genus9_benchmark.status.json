@@ -1,0 +1,19 @@
+{
+  "purpose": "new236_geom_genus9_benchmark",
+  "script": "computations/new236_geom_genus9_benchmark.m",
+  "script_sha256": "5c774a55732ab961abd112b8980735617b09d106fb513ce2bf30173e2a070a8d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_geom_genus9_benchmark.m"
+  ],
+  "pid": 1905016,
+  "owner_uid": 1001,
+  "start_time_unix": 1793361189.54828,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/new236_geom_genus9_benchmark.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 1.3661813735961914
+}

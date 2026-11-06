@@ -1,0 +1,30 @@
+\begin{proposition}\label{prop:nonic-no841}
+An elliptic curve over a number field of degree $9$ has no point of order $841$.
+\end{proposition}
+\begin{proof}
+The complete winding computation for $J_1(841)$ has total dimension
+$28834=g(X_1(841))$. Every character component has full winding
+submodule except the trivial character and a character of order $7$.
+The diamond $\langle12\rangle$ has order $58$, coprime to $7$, so
+both exceptional characters are trivial at $12$.
+It follows from Kato's theorem that
+$(\langle12\rangle-1)J_1(841)(\mathbb Q)$ is finite.
+The two largest character components, of orders $406$ and $203$,
+are certified by full-rank $T_2$ Krylov matrices over finite fields.
+Their ranks are $72$ and $71$ respectively. All coefficient denominators
+are invertible at the chosen splitting primes, so these ranks hold
+in characteristic zero. The serialized matrices are replayed independently.
+
+Apply \cite[Proposition~4.4]{DN} with $q=3$ and $k_3=8$.
+The exact modular index is $I_{841}=353220$, and
+\[
+ 9k_3=72<\frac{325\cdot353220}{32768}
+       \leq\operatorname{gon}_{\mathbb C}X_1(841).
+\]
+The least CM degree is greater than $9$, as verified in the
+accompanying least-degree table. Thus the trace divisor of a
+hypothetical nonic torsion point has non-CM support and is stable
+under the order-$58$ diamond $\langle12\rangle$.
+The diamond action is free on this support, which would imply
+$58\mid9$, a contradiction.
+\end{proof}

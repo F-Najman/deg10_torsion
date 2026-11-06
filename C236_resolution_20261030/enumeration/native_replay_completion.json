@@ -1,0 +1,221 @@
+[
+  {
+    "purpose": "new236_filter18_native_replay_ownsmall_v2",
+    "script": "computations/new236_filter18_native_replay_ownsmall_v2.m",
+    "script_sha256": "38444c65d5b7874c884154b3dd68b07485eca3f974bf52ade47b745939541e31",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_ownsmall_v2.m"
+    ],
+    "pid": 1917425,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361684.0200248,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_ownsmall_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 8.677686214447021,
+    "host_magma_before_admission": 11
+  },
+  {
+    "purpose": "new236_filter18_native_replay_D8_v2",
+    "script": "computations/new236_filter18_native_replay_D8_v2.m",
+    "script_sha256": "0cfb44a5960ab317c5389ff5dc079545b035506b4b4ffcd56f14114a7cb355f6",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_D8_v2.m"
+    ],
+    "pid": 1917443,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361684.1437597,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_D8_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 26.863457202911377,
+    "host_magma_before_admission": 12
+  },
+  {
+    "purpose": "new236_filter18_native_replay_D10s1_v2",
+    "script": "computations/new236_filter18_native_replay_D10s1_v2.m",
+    "script_sha256": "c2f2310c4f3c23782402ea588f7383df9612cd8bf433ac3880c0d91c946f34fb",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_D10s1_v2.m"
+    ],
+    "pid": 1917651,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361692.7375433,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_D10s1_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 58.87493848800659,
+    "host_magma_before_admission": 12
+  },
+  {
+    "purpose": "new236_filter18_native_replay_D10s2_v2",
+    "script": "computations/new236_filter18_native_replay_D10s2_v2.m",
+    "script_sha256": "97d7c8869309afb9997aa210ee610a461a0c831d211e05a5928a391ec853a852",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_D10s2_v2.m"
+    ],
+    "pid": 1918073,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361711.0619931,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_D10s2_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 57.36542367935181,
+    "host_magma_before_admission": 11
+  },
+  {
+    "purpose": "new236_filter18_native_replay_D9_v2",
+    "script": "computations/new236_filter18_native_replay_D9_v2.m",
+    "script_sha256": "457a7e4988df330ade67ffb71ad8cdd33bc87e57422fbb755cbf45be5c8008b8",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_D9_v2.m"
+    ],
+    "pid": 1917454,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361684.255312,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_D9_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 100.79387950897217,
+    "host_magma_before_admission": 13
+  },
+  {
+    "purpose": "new236_filter18_native_replay_D10s3_v2",
+    "script": "computations/new236_filter18_native_replay_D10s3_v2.m",
+    "script_sha256": "bdc0ed6fb7c07ac851c215443e2a36c4e798df571f3da1d7e5b5381f0191f43f",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_D10s3_v2.m"
+    ],
+    "pid": 1919019,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361751.655244,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_D10s3_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 62.68803930282593,
+    "host_magma_before_admission": 12
+  },
+  {
+    "purpose": "new236_filter18_native_replay_D10s4_v2",
+    "script": "computations/new236_filter18_native_replay_D10s4_v2.m",
+    "script_sha256": "e43ccae601513e0cc462cdb8a163e979e38842901cf95209b4bcf70da57cd512",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_D10s4_v2.m"
+    ],
+    "pid": 1919443,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361768.4778132,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_D10s4_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 54.021923542022705,
+    "host_magma_before_admission": 13
+  },
+  {
+    "purpose": "new236_filter18_native_replay_D10s5_v2",
+    "script": "computations/new236_filter18_native_replay_D10s5_v2.m",
+    "script_sha256": "a546b9b698cad9a1c5076d10f888dd2e4c53584680d188df3ab3168d89dd0777",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_D10s5_v2.m"
+    ],
+    "pid": 1919885,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361785.0953698,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_D10s5_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 53.912548542022705,
+    "host_magma_before_admission": 13
+  },
+  {
+    "purpose": "new236_filter18_native_replay_D10s6_v2",
+    "script": "computations/new236_filter18_native_replay_D10s6_v2.m",
+    "script_sha256": "67332ddc989a778b4d37c60ab03510f65b9cc135fed5e54a23ffc6bef4889b13",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_D10s6_v2.m"
+    ],
+    "pid": 1920578,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361814.3968947,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_D10s6_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 55.008235692977905,
+    "host_magma_before_admission": 13
+  },
+  {
+    "purpose": "new236_filter18_native_replay_D10s7_v2",
+    "script": "computations/new236_filter18_native_replay_D10s7_v2.m",
+    "script_sha256": "4f219643b50bfd8540c4b6488b521675acc048ae56dc6e6d022f960737962521",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_D10s7_v2.m"
+    ],
+    "pid": 1920728,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361822.5414548,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_D10s7_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 57.97319507598877,
+    "host_magma_before_admission": 12
+  },
+  {
+    "purpose": "new236_filter18_native_replay_D10s0_v2",
+    "script": "computations/new236_filter18_native_replay_D10s0_v2.m",
+    "script_sha256": "6c9b372af914cf5a76a7484bc8ef9ba12d4e1a7a9e276a5ae3cc5a38ad2cda44",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_D10s0_v2.m"
+    ],
+    "pid": 1916496,
+    "owner_uid": 1001,
+    "start_time_unix": 1793361647.6424937,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/new236_filter18_native_replay_D10s0_v2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 53.656856536865234
+  }
+]

@@ -1,0 +1,10 @@
+Loading "work/deg10/continuation_20261029/deps/class_group_direct_RR_m3_18_root.m"
+
+MDClassGroupDirectRRCheckedV3(
+    F0: F0,
+    certpath: work/deg10/continuation_20261029/diagonal612_D5_RR7_identiti...
+)
+In file "work/deg10/continuation_20261029/deps/class_group_direct_RR_m3_18_root.m", line 8, column 2:
+>>  assert assigned F`cld and F`cld`proven and assigned F`cld`Cl;
+    ^
+Runtime error in assert: Assertion failed

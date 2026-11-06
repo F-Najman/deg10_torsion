@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_replay416.py", line 65, in <module>
+    _,_,lifts=read(D/'M4N16_D5_cusp_lifts.m');rr,left=read(D/'M4N16_D5_RR13_arithmetic.txt');assert not left and len(lifts)==len(rr)==158
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_replay416.py", line 6, in read
+    def read(p):return ast.literal_eval(p.read_text().replace('[*','[').replace('*]',']'))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/ast.py", line 90, in _convert
+    return list(map(_convert, node.elts))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/ast.py", line 90, in _convert
+    return list(map(_convert, node.elts))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/ast.py", line 90, in _convert
+    return list(map(_convert, node.elts))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/opt/sage/envs/sage/lib/python3.11/ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "/opt/sage/envs/sage/lib/python3.11/ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 8: <ast.Name object at 0x777dd8397640>

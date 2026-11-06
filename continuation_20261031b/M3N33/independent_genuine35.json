@@ -1,0 +1,483 @@
+{
+  "status": "PASS",
+  "source_NC_closed_counts_F4": [
+    0,
+    0,
+    0,
+    0,
+    264
+  ],
+  "source_places": 264,
+  "cyclic33_projection_places": 88,
+  "cyclic33_diamond_orbits": 12,
+  "source_elliptic_models_checked": 51,
+  "selected_tests": [
+    {
+      "case": 1,
+      "used3isogeny": true,
+      "extra_row": 1
+    },
+    {
+      "case": 2,
+      "used3isogeny": false,
+      "extra_row": null
+    },
+    {
+      "case": 3,
+      "used3isogeny": false,
+      "extra_row": null
+    },
+    {
+      "case": 4,
+      "used3isogeny": false,
+      "extra_row": null
+    },
+    {
+      "case": 5,
+      "used3isogeny": false,
+      "extra_row": null
+    },
+    {
+      "case": 6,
+      "used3isogeny": true,
+      "extra_row": 5
+    },
+    {
+      "case": 7,
+      "used3isogeny": false,
+      "extra_row": null
+    },
+    {
+      "case": 8,
+      "used3isogeny": false,
+      "extra_row": null
+    },
+    {
+      "case": 9,
+      "used3isogeny": false,
+      "extra_row": null
+    },
+    {
+      "case": 10,
+      "used3isogeny": true,
+      "extra_row": 8
+    },
+    {
+      "case": 11,
+      "used3isogeny": false,
+      "extra_row": null
+    },
+    {
+      "case": 12,
+      "used3isogeny": false,
+      "extra_row": null
+    }
+  ],
+  "actual5kernels": 72,
+  "actual3kernels_for_selected_lifts": 3,
+  "all_marked_Velu_maps": 75,
+  "all_QQtrace_norms_and_keys_bound": true,
+  "cases": [
+    {
+      "case": 1,
+      "rational3isogeny_used": true,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ]
+      ],
+      "manual_Velu_maps": 7
+    },
+    {
+      "case": 2,
+      "rational3isogeny_used": false,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ]
+      ],
+      "manual_Velu_maps": 6
+    },
+    {
+      "case": 3,
+      "rational3isogeny_used": false,
+      "source_point_F2_degree": 5,
+      "source_norm": 2,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ]
+      ],
+      "manual_Velu_maps": 6
+    },
+    {
+      "case": 4,
+      "rational3isogeny_used": false,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ]
+      ],
+      "manual_Velu_maps": 6
+    },
+    {
+      "case": 5,
+      "rational3isogeny_used": false,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          2,
+          1,
+          20
+        ],
+        [
+          2,
+          1,
+          20
+        ]
+      ],
+      "manual_Velu_maps": 6
+    },
+    {
+      "case": 6,
+      "rational3isogeny_used": true,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          2,
+          1,
+          20
+        ],
+        [
+          2,
+          1,
+          20
+        ]
+      ],
+      "manual_Velu_maps": 7
+    },
+    {
+      "case": 7,
+      "rational3isogeny_used": false,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          2,
+          1,
+          20
+        ],
+        [
+          2,
+          1,
+          20
+        ]
+      ],
+      "manual_Velu_maps": 6
+    },
+    {
+      "case": 8,
+      "rational3isogeny_used": false,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          2,
+          1,
+          20
+        ],
+        [
+          2,
+          1,
+          20
+        ]
+      ],
+      "manual_Velu_maps": 6
+    },
+    {
+      "case": 9,
+      "rational3isogeny_used": false,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          2,
+          1,
+          20
+        ],
+        [
+          2,
+          1,
+          20
+        ]
+      ],
+      "manual_Velu_maps": 6
+    },
+    {
+      "case": 10,
+      "rational3isogeny_used": true,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          2,
+          1,
+          20
+        ],
+        [
+          2,
+          1,
+          20
+        ]
+      ],
+      "manual_Velu_maps": 7
+    },
+    {
+      "case": 11,
+      "rational3isogeny_used": false,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          2,
+          1,
+          20
+        ],
+        [
+          2,
+          1,
+          20
+        ]
+      ],
+      "manual_Velu_maps": 6
+    },
+    {
+      "case": 12,
+      "rational3isogeny_used": false,
+      "source_point_F2_degree": 10,
+      "source_norm": 1,
+      "actual5kernels": 6,
+      "kernel_orbits_and_norms": [
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          1,
+          1,
+          10
+        ],
+        [
+          2,
+          1,
+          20
+        ],
+        [
+          2,
+          1,
+          20
+        ]
+      ],
+      "manual_Velu_maps": 6
+    }
+  ],
+  "elapsed_seconds": 31.493803149089217
+}

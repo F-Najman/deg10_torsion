@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "group": [
+    1,
+    93
+  ],
+  "degree": 10,
+  "parent_mathematical_review": "PASS",
+  "frozen_manifest_sha256": "0dfa3b44ce952565619e37235d95f9bc08db594d851e65d468b9b66f84446818",
+  "method": "Finite diamond images; full-Jacobian dyadic formal immersion for rational and quintic cusp supports, with order2 descent to quintic31 excluding the other boundary; independently verified marked noncuspidal Hecke obstructions",
+  "independent_arithmetic_checks": "PASS",
+  "classification_complete": false
+}

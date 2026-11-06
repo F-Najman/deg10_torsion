@@ -1,0 +1,683 @@
+{
+  "status": "PASS",
+  "all_owned_and_case_control_jobs_exited": true,
+  "no_paused_workers_or_automatic_launchers": true,
+  "jobs": [
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_actual_cusp_gluing.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_aut_order.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_class_frame_audit.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_cusp_RR_p31.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_cusp_automorphisms.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_cusp_basevalues19.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_cusp_model_p37.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_direct_cusp_membership.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_effective_cusp_p19.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_effective_cusp_p19_v2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_effective_cusp_p19_v3.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_effective_cusp_p19_v4.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_effective_cusp_p19_v5.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_effective_cusp_p31.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_effective_cusp_p37.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_fast_map_benchmark.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_final_Hecke19_s0.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_final_Hecke19_s1.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_final_Hecke19_s2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_final_Hecke7_s0.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_final_Hecke7_s1.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_final_Hecke7_s2.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_final_Hecke7_v2_s0.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_final_Hecke7_v2_s1.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_final_Hecke7_v2_s2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_geometric_cusp_group_p13.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_geometric_cusp_group_p7.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_geometric_cusp_group_v2_p13.status.json",
+      "actual_exit_code": -14,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_geometric_cusp_group_v2_p7.status.json",
+      "actual_exit_code": -14,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_geometric_fast_p13.status.json",
+      "actual_exit_code": -14,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_geometric_fast_p7.status.json",
+      "actual_exit_code": -14,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_global_RR_reductionfalse.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_global_cusp_model_char0.status.json",
+      "actual_exit_code": -14,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_global_cusp_model_p19.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_global_cusp_widths.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_global_model_unlabelled.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_global_point13900.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_global_point13900_v2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_global_rational_cusps_char0.status.json",
+      "actual_exit_code": -14,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_hecke_endomorphisms_v2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_hecke_framed.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_inert5_combined_kernel.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_inert5_framed.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_inert_B5_s0.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_inert_B5_s1.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_inert_B5_s2.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_inert_B5_v2_s0.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_inert_B5_v2_s1.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_inert_B5_v2_s2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_kernel_structure.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_kernel_structure_v2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_local_decomp_probe.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_modsym_cuspidal_probe.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_orbit_gluing.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_orbit_gluing_tau.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_fast_s0.status.json",
+      "actual_exit_code": -15,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_fast_s1.status.json",
+      "actual_exit_code": -15,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_fast_s2.status.json",
+      "actual_exit_code": -15,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_fast_s3.status.json",
+      "actual_exit_code": -15,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_lean_s0.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_lean_s1.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_lean_s2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_lean_s3.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_stream.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_stream_s0.status.json",
+      "actual_exit_code": -15,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_stream_s1.status.json",
+      "actual_exit_code": -15,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_stream_s2.status.json",
+      "actual_exit_code": -15,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_stream_s3.status.json",
+      "actual_exit_code": -15,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_stream_v2.status.json",
+      "actual_exit_code": -15,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_uniform_s0.status.json",
+      "actual_exit_code": -14,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_uniform_s1.status.json",
+      "actual_exit_code": -14,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_uniform_s2.status.json",
+      "actual_exit_code": -14,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_p13_uniform_s3.status.json",
+      "actual_exit_code": -14,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_paired_arithmetic.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_paired_arithmetic_v2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_paired_arithmetic_v3.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_paired_p13.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_paired_p13_v2.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_paired_p13_v3.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_paired_p7.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_paired_three_multiples.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_paired_three_relative.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_paired_three_relative_v2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_cusp_RR19.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_cusp_RR19_v2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_cusp_RR31.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_cusp_support19.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_global_RR.status.json",
+      "actual_exit_code": -15,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_global_basis_13900.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_native_shortclass13.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_native_shortclass13_v2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_nf_reductions.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_quartic_12.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_quartic_17.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13_block1.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13_block10.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13_block2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13_block3.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13_block4.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13_block5.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13_block6.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13_block7.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13_block8.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p13_block9.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_parent_relative_p7.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_pointcheck_exact.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_pointcheck_exact_v2.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_pointcheck_exact_v3.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_quartic_phase_binding.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_relative_cubic_rank.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_relative_cubic_rank_p13.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_relative_quartic_12.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_relative_quartic_17.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_sage_geocusp_probe.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_sage_geocusp_probe_v2.status.json",
+      "actual_exit_code": 1,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_sage_geocusp_probe_v3.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_short_cusp_divisors.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_sieve_genuine_A7.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_sieve_native_s0.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_sieve_native_s1.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_stabilizer_diagnostic.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_stabilizer_diagnostic_v2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_stabilizer_diagnostic_v3.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_tau_cosets.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_tau_cosets_p19.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_tau_cosets_v2.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_tau_cross13.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_tau_cusp_class_relation.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_tau_cusps_p13.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_tau_cusps_p7.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_tau_frame_p7.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_tau_setwise_p19.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m318_torsion_assertions.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n18_frob_preflight.status.json",
+      "actual_exit_code": 0,
+      "proof_completion_required": true
+    }
+  ],
+  "failed_retired_and_timed_out_attempts_not_completed_certificates": true
+}

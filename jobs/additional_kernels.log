@@ -1,0 +1,12 @@
+DECIC_ADDITIONAL_KERNEL N=175 a=18 diamond_order=12 potentially_bad_orbits=2 native_replay=true checked=2
+DECIC_ADDITIONAL_KERNEL N=185 a=2 diamond_order=18 potentially_bad_orbits=2 native_replay=true checked=3
+DECIC_ADDITIONAL_KERNEL N=259 a=3 diamond_order=9 potentially_bad_orbits=1 native_replay=true checked=1
+DECIC_ADDITIONAL_KERNEL N=407 a=10 diamond_order=6 potentially_bad_orbits=2 native_replay=true checked=2
+DECIC_ADDITIONAL_KERNEL N=481 a=3 diamond_order=18 potentially_bad_orbits=1 native_replay=true checked=1
+DECIC_ADDITIONAL_KERNEL N=629 a=6 diamond_order=16 potentially_bad_orbits=2 native_replay=true checked=2
+DECIC_ADDITIONAL_KERNEL N=703 a=3 diamond_order=9 potentially_bad_orbits=1 native_replay=true checked=1
+DECIC_ADDITIONAL_KERNEL N=851 a=3 diamond_order=198 potentially_bad_orbits=1 native_replay=true checked=1
+DECIC_ADDITIONAL_KERNEL N=1073 a=3 diamond_order=252 potentially_bad_orbits=1 native_replay=true checked=1
+DECIC_ADDITIONAL_KERNEL N=1147 a=3 diamond_order=45 potentially_bad_orbits=1 native_replay=true checked=1
+DECIC_ADDITIONAL_KERNEL N=1369 a=6 diamond_order=74 potentially_bad_orbits=3 native_replay=true checked=3
+DECIC_ADDITIONAL_KERNELS_COMPLETE

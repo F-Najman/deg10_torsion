@@ -1,0 +1,18 @@
+{
+  "purpose": "cont_replay612_absolute",
+  "script": "computations/cont_replay612_absolute.py",
+  "script_sha256": "96db5787e5fb6bac3878048459135e67d11debb2b28e0b47ca6231957b3de2e4",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_replay612_absolute.py"
+  ],
+  "pid": 557547,
+  "owner_uid": 1001,
+  "start_time_unix": 1793298635.8620262,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/cont_replay612_absolute.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5145964622497559
+}

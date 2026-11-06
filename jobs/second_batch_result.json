@@ -1,0 +1,138 @@
+[
+  {
+    "script": "computations/unit_1_23.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_1_26.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_1_27.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_1_32.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_1_33.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_1_34.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_1_36.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_2_20.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_2_22.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_2_24.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_3_12.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_3_15.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_3_18.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_3_9.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_4_12.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_4_8.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/unit_6_12.py",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/unit_6_6.py",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/function_1_23.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/function_1_26.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/function_1_27.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/function_1_32.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/function_1_33.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/function_1_34.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/function_1_36.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/function_2_20.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/function_2_22.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/function_2_24.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/function_3_12.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/function_3_15.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/function_3_18.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/function_3_9.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/function_4_12.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/function_4_8.m",
+    "supervisor_exit": 0
+  }
+]

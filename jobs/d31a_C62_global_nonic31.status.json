@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C62_global_nonic31",
+  "script": "computations/d31a_C62_global_nonic31.m",
+  "script_sha256": "182a6ea67beeea99b66351708eb664a45e42fcf56f884a78abe75d9e925fb490",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C62_global_nonic31.m"
+  ],
+  "pid": 2864532,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404833.3610272,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/d31a_C62_global_nonic31.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.03169107437133789
+}

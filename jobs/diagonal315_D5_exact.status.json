@@ -1,0 +1,19 @@
+{
+  "purpose": "diagonal315_D5_exact",
+  "script": "computations/diagonal315_D5_exact.m",
+  "script_sha256": "691fc84aae037257318c87857085963011b953d03735b9ee07f479f47a211b21",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/diagonal315_D5_exact.m"
+  ],
+  "pid": 120625,
+  "owner_uid": 1001,
+  "start_time_unix": 1793279750.17032,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/diagonal315_D5_exact.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.2159481048583984
+}

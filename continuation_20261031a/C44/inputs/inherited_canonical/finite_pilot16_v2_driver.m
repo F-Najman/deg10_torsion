@@ -1,0 +1,1 @@
+MaxCases:=16;OutputPath:="work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_jets_pilot16_v2.raw.jsonseq";load "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/export_finite_jets_v2.m";

@@ -1,0 +1,24 @@
+DECIC51_MODEL N=51 genus=65 alpha_diamond=1 time=83.180
+DECIC51_ENUM N=51 degree=9 all_places=80 diamond_reps=5 time=93.680
+DECIC51_TEST_START N=51 degree=9 index=1 q=5 time=94.020
+DECIC51_TEST_RESULT N=51 degree=9 index=1 q=5 principal=false time=182.840
+DECIC51_TEST_START N=51 degree=9 index=2 q=5 time=183.180
+DECIC51_TEST_RESULT N=51 degree=9 index=2 q=5 principal=false time=240.510
+DECIC51_TEST_START N=51 degree=9 index=3 q=5 time=240.850
+DECIC51_TEST_RESULT N=51 degree=9 index=3 q=5 principal=false time=278.000
+DECIC51_TEST_START N=51 degree=9 index=4 q=5 time=278.330
+DECIC51_TEST_RESULT N=51 degree=9 index=4 q=5 principal=false time=333.820
+DECIC51_TEST_START N=51 degree=9 index=5 q=5 time=334.160
+DECIC51_TEST_RESULT N=51 degree=9 index=5 q=5 principal=false time=379.450
+DECIC51_DEGREE_SUMMARY N=51 degree=9 all_places=80 diamond_reps=5 surviving_indices=[] time=379.450
+DECIC51_ENUM N=51 degree=10 all_places=64 diamond_reps=4 time=391.310
+DECIC51_TEST_START N=51 degree=10 index=1 q=5 time=391.740
+DECIC51_TEST_RESULT N=51 degree=10 index=1 q=5 principal=false time=467.520
+DECIC51_TEST_START N=51 degree=10 index=2 q=5 time=467.940
+DECIC51_TEST_RESULT N=51 degree=10 index=2 q=5 principal=false time=518.340
+DECIC51_TEST_START N=51 degree=10 index=3 q=5 time=518.750
+DECIC51_TEST_RESULT N=51 degree=10 index=3 q=5 principal=false time=588.760
+DECIC51_TEST_START N=51 degree=10 index=4 q=5 time=589.200
+DECIC51_TEST_RESULT N=51 degree=10 index=4 q=5 principal=false time=642.490
+DECIC51_DEGREE_SUMMARY N=51 degree=10 all_places=64 diamond_reps=4 surviving_indices=[] time=642.490
+DECIC51_GOOD_BRANCHES_COMPLETED N=51 summary=[ <9, 80, 5, 0>, <10, 64, 4, 0> ] time=642.650

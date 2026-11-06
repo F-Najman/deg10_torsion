@@ -1,0 +1,38 @@
+[
+  {
+    "origin": "work/degree8/noncyclic/M6N12_global_L8_cusp_classes_root.m",
+    "snapshot": "continuation_20261029/degree_independent_612_L8/M6N12_global_L8_cusp_classes_root.m",
+    "sha256": "8f0a8f024437d19fbe8c455bed105edb542c59b72c16fac30450940bb5327312",
+    "reused_claim": "Degree-independent genus-nine pencil dimensions and global cusp-divisor identities only; no degree-eight exclusion is transferred."
+  },
+  {
+    "origin": "work/degree8/noncyclic/M6N12_reduced_L8_cusp_coefficients_magma_root.m",
+    "snapshot": "continuation_20261029/degree_independent_612_L8/M6N12_reduced_L8_cusp_coefficients_magma_root.m",
+    "sha256": "0e3c984e80160a6067bdd35a2c5385766bac7507ee9cea519cdfdfe719c53679",
+    "reused_claim": "Degree-independent genus-nine pencil dimensions and global cusp-divisor identities only; no degree-eight exclusion is transferred."
+  },
+  {
+    "origin": "work/degree8/noncyclic/M6N12_L8_char0_six_pencils_arithmetic_root.txt",
+    "snapshot": "continuation_20261029/degree_independent_612_L8/M6N12_L8_char0_six_pencils_arithmetic_root.txt",
+    "sha256": "aaff0cbcbfacf046032408fb58e4827733f2bfeed8e5b57a033d5b3c86daa387",
+    "reused_claim": "Degree-independent genus-nine pencil dimensions and global cusp-divisor identities only; no degree-eight exclusion is transferred."
+  },
+  {
+    "origin": "work/degree8/noncyclic/RR_6_12_L8_char0_six_pencils_root.m",
+    "snapshot": "continuation_20261029/degree_independent_612_L8/RR_6_12_L8_char0_six_pencils_root.m",
+    "sha256": "640f49e8d54e13d5fec31163b415f43368a84e9c2728790dd68222f8bedac6ec",
+    "reused_claim": "Degree-independent genus-nine pencil dimensions and global cusp-divisor identities only; no degree-eight exclusion is transferred."
+  },
+  {
+    "origin": "work/degree8/noncyclic/RR_6_12_L8_char0_six_pencils_root.log",
+    "snapshot": "continuation_20261029/degree_independent_612_L8/RR_6_12_L8_char0_six_pencils_root.log",
+    "sha256": "45ae33b0f75fb4202b78c0bc1ac5834c2d2f7659eab9f1ff23d27dbf4411674b",
+    "reused_claim": "Degree-independent genus-nine pencil dimensions and global cusp-divisor identities only; no degree-eight exclusion is transferred."
+  },
+  {
+    "origin": "work/degree8/noncyclic/replay_M6N12_diagonal_lattice_root.py",
+    "snapshot": "continuation_20261029/degree_independent_612_L8/replay_M6N12_diagonal_lattice_root.py",
+    "sha256": "bcfa9a890440805f91e565f4790746b69682e8fcbd4468f91103b22053f5ce11",
+    "reused_claim": "Degree-independent genus-nine pencil dimensions and global cusp-divisor identities only; no degree-eight exclusion is transferred."
+  }
+]

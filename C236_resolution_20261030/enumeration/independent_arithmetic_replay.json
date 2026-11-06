@@ -1,0 +1,233 @@
+{
+  "status": "PASS",
+  "scope": "independent integer quotient and support arithmetic; Picard geometry supplied by Magma exact identities",
+  "frobenius_non_cuspidal_counts": [
+    0,
+    0,
+    48,
+    120,
+    720,
+    2904,
+    10416,
+    50334,
+    218080,
+    979512
+  ],
+  "source_copies_verified": 11,
+  "degree10_records": 40904,
+  "quotient_invariants": [
+    2,
+    6
+  ],
+  "lattice_index": 12,
+  "automorphism_place_tests": 48,
+  "source_own_counts": {
+    "3": 2,
+    "4": 5,
+    "5": 30,
+    "6": 126,
+    "7": 434,
+    "8": 2115,
+    "9": 9088,
+    "10": 40874
+  },
+  "small_counts": {
+    "3": 48,
+    "4": 120,
+    "5": 720,
+    "6": 2904,
+    "7": 10416
+  },
+  "support_cases": 135282,
+  "survivors": 1251,
+  "pattern_statistics": [
+    [
+      [
+        3
+      ],
+      2,
+      0
+    ],
+    [
+      [
+        4
+      ],
+      5,
+      0
+    ],
+    [
+      [
+        5
+      ],
+      30,
+      0
+    ],
+    [
+      [
+        6
+      ],
+      126,
+      6
+    ],
+    [
+      [
+        7
+      ],
+      434,
+      2
+    ],
+    [
+      [
+        8
+      ],
+      2115,
+      25
+    ],
+    [
+      [
+        9
+      ],
+      9088,
+      76
+    ],
+    [
+      [
+        10
+      ],
+      40874,
+      302
+    ],
+    [
+      [
+        3,
+        3
+      ],
+      96,
+      8
+    ],
+    [
+      [
+        3,
+        4
+      ],
+      240,
+      0
+    ],
+    [
+      [
+        3,
+        5
+      ],
+      1440,
+      8
+    ],
+    [
+      [
+        3,
+        6
+      ],
+      5808,
+      48
+    ],
+    [
+      [
+        3,
+        7
+      ],
+      20832,
+      192
+    ],
+    [
+      [
+        4,
+        4
+      ],
+      600,
+      40
+    ],
+    [
+      [
+        4,
+        5
+      ],
+      3600,
+      24
+    ],
+    [
+      [
+        4,
+        6
+      ],
+      14520,
+      100
+    ],
+    [
+      [
+        5,
+        5
+      ],
+      21600,
+      324
+    ],
+    [
+      [
+        3,
+        3,
+        3
+      ],
+      2352,
+      32
+    ],
+    [
+      [
+        3,
+        3,
+        4
+      ],
+      11520,
+      64
+    ]
+  ],
+  "sha256": {
+    "frobenius.m": "7f1e998d897b1cea096cf5aeb0daa3a9cd520150fde5b0747877edd74a976946",
+    "source10.m": "90c080636de4d995634edd5d426ebf7ba426e87a693dc815d20f01449df46d77",
+    "source10_s0.m": "27b30341e5624540f572d9fdf064f82ef5cf9ed8720c368fd948de30de8b9af4",
+    "source10_s1.m": "23bfd97a511c6d56a66d9615727515bce2e4a6b4b1b024d993efde897b682b24",
+    "source10_s2.m": "0dfe00fcb2f2a3452765527adc32e3f2d5afd0254b737f324065aa291c4260e2",
+    "target18_aut_actions.m": "7429a8d627f1db8d470e3a8a0cf21928ccf013eb08449b005633c0378cc1de73",
+    "target18_proven_picard.m": "8363f522987524b6fb5e7f7a0eb560a2d1d31c4c289782022e783428b203fb6e",
+    "small_qclasses3.m": "3c405a186ac784c3a61b54c756182b0c557d2195c16142d300aa79fe094379b7",
+    "filter18_D3_ownsmall.m": "b87e22ed5e9cc7e0bf2e7ffc35fbf1a7cee5823ce1248f8af3dc1b61c33fc57e",
+    "filter18_D3.m": "93faefa9d949393445aa03ae422357d405b72ff093955b09159c1269ac075162",
+    "small_qclasses4.m": "bc3c899dc3926b03b3f0c5a388ac67f3cf24e54f2c2f5cfdaa836cefc1e5e1a5",
+    "filter18_D4_ownsmall.m": "384430650ec8b72593a4c6999619e89556ba6d3178ba4f971c749e35e7a8140f",
+    "filter18_D4.m": "84ac74c74e96354276f36f8e85a36641941d323b0e148fc120a55b474b645084",
+    "small_qclasses5.m": "6198ffaf7453658ab918d115cf69b078f998809c5edf2b4ace8eb6ff5eaf7674",
+    "filter18_D5_ownsmall.m": "255b092bfb094e1c36d246e466f839b939d541aaf878e67beb3d7e94ec88e95c",
+    "filter18_D5.m": "a1cc6efc7f13e123dc6943f367b6e8ad2dd632cc1a8e6fb5f2067d3e5dd2e9da",
+    "small_qclasses6.m": "f9432a054d9f3a5c27cb5c151be42f4e803fd0cab836b206ffa95e864c138580",
+    "filter18_D6_ownsmall.m": "a644e90b943f89456da45e2fb041d8ea99366894d31815d771d01aeb0ac99781",
+    "filter18_D6.m": "24ba4274c00a10bdb145a95f034df87cdf39e8aec306bf95b6d2c576a3a5df6f",
+    "small_qclasses7.m": "1ab033ea46fb4f935c0f6884c1931fad48189ab0648a201b61f0144dc97fc921",
+    "filter18_D7_ownsmall.m": "efd2740995fbb96c78fd78f8c5daf548eda17960c04457e4c83434444b812734",
+    "filter18_D8_D8.m": "7dea01c414c7c6991840ad0d63e59ed22f570708dd4e6bef6cf74e73b94906fb",
+    "filter18_D9_D9.m": "11c97efe0960ac501bd5ff3f45ef65efaed5aba8e41579c96b14e3297e74037d",
+    "filter18_D10_D10s0.m": "21f192e056d0616deca8e2d61150fc9f791a8dd3eab8a8e7210c39fa8500d774",
+    "filter18_D10_D10s1.m": "37d4f537632523d9cd5d2648cd507d6bd61ff39e476c66b8f4e58f91e119087a",
+    "filter18_D10_D10s2.m": "6ead0bcd674fdddc0641e66a98e08fc218800105055e490fcf35afd48ddf15d0",
+    "filter18_D10_D10s3.m": "5fc5f6c6dcd320e374a5d8cbebafb1b6f21b4605552e8c6942c24eb52d13d262",
+    "filter18_D10_D10s4.m": "d2fccd10f1bbce74924251a6eea5f22dc06e2cfcd90e23524532bb3ab53c2615",
+    "filter18_D10_D10s5.m": "88327da2afe759bdb9c5f8659fea81c6cf09eb6ff0d5f468f6b0b47a84da1347",
+    "filter18_D10_D10s6.m": "8fcf23ba558a1ab039f299967bcf33cb73236209ff2ca8cc366c6d9dd1ba6c4b",
+    "filter18_D10_D10s7.m": "64b7f4b05d009d74dd41776af42f293b0b03bfb37408a91fec7072d7fd83e59e",
+    "source3.m": "22df7eedc98d9850a29fc4f3683d2020eb9108b1b983514c25b3e4d93dc2f2ce",
+    "source4.m": "1e72022db3a585896bc97738935ade04f1981c31f0669a65e01ce9571e174850",
+    "source5.m": "7b5766f9324ed2d2bc3a07e7e395c1f42b3eb6211bd7ed5778e4ed8161884744",
+    "source6.m": "8678f4b41ca84c014e00b81cd2f077cffd560d3da1e7bbec8fb1161c4a0ffd50",
+    "source7.m": "75c374c4be5f75d457220fbc89a52dc07cd0b236577fc85179f9d0ba35de153c",
+    "source8.m": "a52099e51049536fb60501cd5c2a22b88d993b2ac20437e37957aa75ab7c2be9",
+    "source9.m": "d95cd66b6b8c37800675af9e137115ff13faf931a558bd015eb7d952d56911f1",
+    "first_survivors_unified.m": "02afc191d2fe0cde87c0eddd831bdc7c7c5df8ccaff828bbb8a2c9ee560a10a4",
+    "first_survivors_details.m": "22b938aa83b4a7cc973b34535aa281182152027e8ea8af5faea6bc17859c9607"
+  }
+}

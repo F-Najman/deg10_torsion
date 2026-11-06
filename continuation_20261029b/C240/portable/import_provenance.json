@@ -1,0 +1,32 @@
+{
+  "degree": 9,
+  "reused_arithmetic_only": true,
+  "earlier_degree_classification_not_used": true,
+  "finite_curve": "X1(40)/F3",
+  "finite_order": 31579088486400,
+  "factorbase": 616,
+  "raw_relations": 766,
+  "old_manifest_sha256": "c337f6229296ec152a97b44d77bd03425ec371541bd901e4c83484847b0088d0",
+  "copied_files": [
+    {
+      "original": "work/degree8/small_cyclic/C40/factorbase_geometry.py",
+      "local": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/imported/factorbase_geometry.py",
+      "sha256": "d026b0aad0ebada07f1738362bdf2a6e0d8317d9ba49aefd64029e95ac5d4f5d"
+    },
+    {
+      "original": "work/degree8/small_cyclic/C40/function_field_bindings.py",
+      "local": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/imported/function_field_bindings.py",
+      "sha256": "204ef61231d17eaef17fa091a242c9161cb55e85b01d86b394f3d5d3cd48a208"
+    },
+    {
+      "original": "work/degree8/small_cyclic/C40/class_arithmetic_direct_RR.py",
+      "local": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/imported/class_arithmetic_direct_RR.py",
+      "sha256": "cc573813580a939fb45f877062406e1ccdf74b979705cab970204a2930fb6084"
+    },
+    {
+      "original": "work/degree8/small_cyclic/C40/diagnostics/proven_relation_state.py",
+      "local": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/imported/diagnostics/proven_relation_state.py",
+      "sha256": "689fa8ab2a69dea54897b002cc9e59c1a597f6bfae60a941c6363dd5f29dcc0e"
+    }
+  ]
+}

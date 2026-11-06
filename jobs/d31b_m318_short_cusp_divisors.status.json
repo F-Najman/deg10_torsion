@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m318_short_cusp_divisors",
+  "script": "computations/d31b_m318_short_cusp_divisors.py",
+  "script_sha256": "9327003b7bb0a49bd7b599b016e4bac5097cc686d4a98377a39c8592a8d063c3",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_short_cusp_divisors.py"
+  ],
+  "pid": 3711468,
+  "owner_uid": 1001,
+  "start_time_unix": 1793444196.1193407,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/d31b_m318_short_cusp_divisors.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.6830849647521973
+}

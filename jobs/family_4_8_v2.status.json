@@ -1,0 +1,18 @@
+{
+  "purpose": "family_4_8_v2",
+  "script": "computations/family_4_8_v2.m",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/family_4_8_v2.m"
+  ],
+  "pid": 4185988,
+  "owner_uid": 1001,
+  "start_time_unix": 1793273838.192789,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/family_4_8_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.11426472663879395
+}

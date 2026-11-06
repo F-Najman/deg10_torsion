@@ -1,0 +1,19 @@
+{
+  "purpose": "contc65_ordinary10_11",
+  "script": "computations/contc65_ordinary10_11.m",
+  "script_sha256": "8b8b027d2211fef9890120591811e6593e076c362d868a1d4bac21b4275720e4",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc65_ordinary10_11.m"
+  ],
+  "pid": 2711715,
+  "owner_uid": 1001,
+  "start_time_unix": 1793397719.2434123,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/contc65_ordinary10_11.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.46466636657714844
+}

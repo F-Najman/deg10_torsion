@@ -1,0 +1,3 @@
+DECIC_WITNESS_REDUCTION N=38 p=29 root=22 residue_degree=1 count=38 gcd=38 unramified_simple_root=true
+DECIC_WITNESS_RESULT N=38 field_degree=10 point_order=38 torsion_order_bound=38 reductions=1 exact=true time=0.000
+DECIC_WITNESS_COMPLETE

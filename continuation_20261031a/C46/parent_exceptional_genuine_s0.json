@@ -1,0 +1,1740 @@
+{
+  "status": "PASS",
+  "case_count": 13,
+  "source_components": 19,
+  "geometric_kernels": 114,
+  "manual_Velu_coordinates_verified": true,
+  "all_native_prime_keys_and_norms_match": true,
+  "coincident_targets_aggregated": true,
+  "cases": [
+    {
+      "type": [
+        10
+      ],
+      "index": 54,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 10,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 20,
+              "geometric_kernels": 6,
+              "source_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  1,
+                  0,
+                  1,
+                  2,
+                  1,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    2,
+                    1,
+                    2,
+                    2,
+                    0
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    2,
+                    2,
+                    0,
+                    1,
+                    2,
+                    0,
+                    0,
+                    2,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 210,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 10,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 12,
+              "geometric_kernels": 6,
+              "source_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  1,
+                  2,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    2,
+                    2,
+                    0,
+                    2,
+                    2,
+                    2,
+                    0
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    2,
+                    2,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 418,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 10,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 20,
+              "geometric_kernels": 6,
+              "source_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  2,
+                  1,
+                  1,
+                  2,
+                  1,
+                  2,
+                  2,
+                  0,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    2,
+                    2,
+                    1,
+                    2,
+                    1,
+                    0,
+                    1,
+                    2
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  2,
+                  2,
+                  2,
+                  2,
+                  1,
+                  2,
+                  2,
+                  0,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    2,
+                    1,
+                    0,
+                    2,
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 490,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 10,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 12,
+              "geometric_kernels": 6,
+              "source_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1,
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    0,
+                    0,
+                    2,
+                    0,
+                    1,
+                    2,
+                    1,
+                    2,
+                    1
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  1,
+                  1,
+                  2,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    2,
+                    2,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    2,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 497,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 10,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 2,
+              "geometric_kernels": 6,
+              "source_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  2,
+                  2,
+                  2,
+                  0,
+                  2,
+                  0,
+                  2,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    2,
+                    2,
+                    2,
+                    0,
+                    0,
+                    2,
+                    2,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  1,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  2,
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    2,
+                    1,
+                    2,
+                    0,
+                    0,
+                    2,
+                    1,
+                    2,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 521,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 10,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 20,
+              "geometric_kernels": 6,
+              "source_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    2,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  2,
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    0,
+                    1,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        10
+      ],
+      "index": 555,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 10,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 2,
+              "geometric_kernels": 6,
+              "source_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0,
+                  0,
+                  2,
+                  1,
+                  1,
+                  1,
+                  0,
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                10,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  2,
+                  2,
+                  2,
+                  1,
+                  0,
+                  2,
+                  2,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 28,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 6,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 12,
+              "geometric_kernels": 6,
+              "source_key": [
+                6,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  2,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    2,
+                    2,
+                    1,
+                    2,
+                    0
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                6,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  0,
+                  1,
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    0,
+                    2,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            },
+            {
+              "degree": 4,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 4,
+              "geometric_kernels": 6,
+              "source_key": [
+                4,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    2,
+                    1
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                4,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    2,
+                    2,
+                    2
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 131,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 6,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 2,
+              "geometric_kernels": 6,
+              "source_key": [
+                6,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0,
+                  2,
+                  2,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    0,
+                    0,
+                    2,
+                    0,
+                    1
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                6,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  1,
+                  1,
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    1
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            },
+            {
+              "degree": 4,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 4,
+              "geometric_kernels": 6,
+              "source_key": [
+                4,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    2,
+                    2,
+                    2
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                4,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 170,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 6,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 2,
+              "geometric_kernels": 6,
+              "source_key": [
+                6,
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2,
+                  0,
+                  2,
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    2
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                6,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0,
+                  2,
+                  0,
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            },
+            {
+              "degree": 4,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 4,
+              "geometric_kernels": 6,
+              "source_key": [
+                4,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    2,
+                    1,
+                    2
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                4,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    2,
+                    2
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        6,
+        4
+      ],
+      "index": 270,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 6,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 2,
+              "geometric_kernels": 6,
+              "source_key": [
+                6,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  1,
+                  2,
+                  1,
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    2,
+                    1,
+                    1,
+                    2,
+                    2
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                6,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  1,
+                  0,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0,
+                    2,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            },
+            {
+              "degree": 4,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 4,
+              "geometric_kernels": 6,
+              "source_key": [
+                4,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    0,
+                    2,
+                    2
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                4,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0,
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    2,
+                    2,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        5,
+        5
+      ],
+      "index": 12,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 5,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 4,
+              "geometric_kernels": 6,
+              "source_key": [
+                5,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    2,
+                    2,
+                    1
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                5,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  0,
+                  2,
+                  2,
+                  1,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    1,
+                    2
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            },
+            {
+              "degree": 5,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 4,
+              "geometric_kernels": 6,
+              "source_key": [
+                5,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                5,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  2,
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    2,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": [
+        5,
+        5
+      ],
+      "index": 143,
+      "attempts": [
+        {
+          "q": 5,
+          "native_h0": 0,
+          "components": [
+            {
+              "degree": 5,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 4,
+              "geometric_kernels": 6,
+              "source_key": [
+                5,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    2,
+                    2,
+                    2,
+                    2
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                5,
+                [
+                  1,
+                  0
+                ],
+                [
+                  2,
+                  2,
+                  1,
+                  2,
+                  0,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    0,
+                    0,
+                    1,
+                    0
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            },
+            {
+              "degree": 5,
+              "multiplicity": 1,
+              "q": 5,
+              "torsion_splitting_degree": 4,
+              "geometric_kernels": 6,
+              "source_key": [
+                5,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  1,
+                  2,
+                  2,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    0,
+                    2
+                  ]
+                ]
+              ],
+              "diamond_key": [
+                5,
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  2,
+                  1,
+                  0,
+                  1
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    1,
+                    2,
+                    2,
+                    1
+                  ]
+                ]
+              ],
+              "all_target_keys_and_norms_match": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 14.482329099904746
+}

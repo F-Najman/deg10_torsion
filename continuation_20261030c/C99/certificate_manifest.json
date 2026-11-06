@@ -1,0 +1,619 @@
+{
+  "status": "PASS",
+  "scope": "Complete C99 degree10 exclusion, independent native and genuine marked-isogeny checks; only exact winding input transferred from degree9",
+  "files": [
+    {
+      "path": "work/deg10/computations/contc99_independent_Y29_RR.m",
+      "bytes": 3448,
+      "sha256": "b8951e8fad3cc7e5fabf1b867a9f4ab51af26af125f578deaf47b3fdfc6c8e3f"
+    },
+    {
+      "path": "work/deg10/computations/contc99_independent_Y29_binding.py",
+      "bytes": 1495,
+      "sha256": "98434cb931fdf22f7703f16716d2287ef6122d26c4ee6f0c29538df38a4163dc"
+    },
+    {
+      "path": "work/deg10/computations/contc99_independent_Y29_genuine.py",
+      "bytes": 3262,
+      "sha256": "a8b4ed5b994102eb9f1b1a1cf25160b631ca6b0621e9970c257743c208c81e48"
+    },
+    {
+      "path": "work/deg10/computations/contc99_independent_Y29_model_v5.m",
+      "bytes": 2475,
+      "sha256": "352ae54c8e766aee9c68fdb44c47c7ea871e4310fbfb6fb9b2cc879d7e563931"
+    },
+    {
+      "path": "work/deg10/computations/contc99_independent_genuine.py",
+      "bytes": 6030,
+      "sha256": "dfb42b6f40be191e2eec02cf2ed82475907faf39b65f1c1e2fcdc1e91c2836f2"
+    },
+    {
+      "path": "work/deg10/computations/contc99_independent_native_binding.py",
+      "bytes": 1418,
+      "sha256": "6a4c0254bace3979b84e8f1a58be700f5198a7827226af65573b54b5fb8c4950"
+    },
+    {
+      "path": "work/deg10/computations/contc99_parent_native_A5.m",
+      "bytes": 2608,
+      "sha256": "47b0e48baa062528829ce4c9a6bb5c481d331ae92cf6eb206389b0406de36b10"
+    },
+    {
+      "path": "work/deg10/computations/contc99_peer_Y29_native.m",
+      "bytes": 4523,
+      "sha256": "45a989be77669e9bb4d1f303bf5e05b1f0894113427330caf883f6634670851e"
+    },
+    {
+      "path": "work/deg10/computations/contc99_quotient33_RR.m",
+      "bytes": 2515,
+      "sha256": "4b2ec99894c88e3407a02ec16a477b12cd1a834b11c315523ada4e0f31f5223b"
+    },
+    {
+      "path": "work/deg10/computations/contc99_source_census.m",
+      "bytes": 2122,
+      "sha256": "46a33f45715631d93a59e4435dd482b55ff711ab27c34a876cfd5379b365564d"
+    },
+    {
+      "path": "work/deg10/computations/contc_parent_source_census.py",
+      "bytes": 4312,
+      "sha256": "f1c8563c0ef0c36ed5b7e5398d0cc539bb48dcbef38de2e203ec40b5a4e89a86"
+    },
+    {
+      "path": "work/deg10/computations/freeze_C99_20261030c.py",
+      "bytes": 3847,
+      "sha256": "fb496f84c79d0af030a2eff847c6521611203633137263d1c7de712832a379c3"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/Y29_RR.m",
+      "bytes": 972945,
+      "sha256": "1751a44bc46078bd42f8f8bd4264ee89404b8b99f280b3cba687223e9c43aa76"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/Y29_model.m",
+      "bytes": 30924,
+      "sha256": "cda8c8ab1544d69d5aa0e6501f880bf6408872aa0d6b21e82dd0b7bc3d41b063"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/certificate_summary.json",
+      "bytes": 1148,
+      "sha256": "157d0f3031cd3fd869001584eff87e43985c675326d80ad4557e49589cc86106"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/independent_Y29_moduli_keys.json",
+      "bytes": 9150,
+      "sha256": "948ecf7b990730e8278c4456a5d2a9906e3c90ac970b540e44c435a31bd4de59"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/independent_Y29_native_binding.json",
+      "bytes": 599,
+      "sha256": "c457a21f1497d7daed782d6992176bcea0b21109b08ee61f59ea9d15483e754b"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/independent_genuine_isogenies.json",
+      "bytes": 25572,
+      "sha256": "7b8d9dd8ba40d3ad12f24c59a9e6dc3ae06a98d739ca2af396463f4573653eef"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/independent_input_provenance.json",
+      "bytes": 535,
+      "sha256": "07e23cc60e0943e34465a0c3a08b6cf39f0fa4af107b37a2cd83905326b9f8e9"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/independent_inputs/all_curves.m",
+      "bytes": 829172,
+      "sha256": "80eb6b47b34451b886fefec11c6f246e2536c3ecc6b8faa3e69fa50f1ac210a3"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/independent_inputs/independent_point_counts.json",
+      "bytes": 5147,
+      "sha256": "0f719c333c4185f0092045d2f92af48594eff681fff5ab297b7b406454c2f44c"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/independent_lifecycle.json",
+      "bytes": 3573,
+      "sha256": "78e324db470539ad0179d3c560ac2f9d69aff4c798a92db7e4600718381ccace"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/independent_native_binding.json",
+      "bytes": 664,
+      "sha256": "ba74fcce68b90eb682d083aca451d429cabb057f7921581f9e7911b56a59aedc"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/cyclic/continuation_20261026/odd_levels_at2.log",
+      "bytes": 1551,
+      "sha256": "f584aa966474b8f30aa0e2b71bfe980a7cb491ab946c30ce6349795c35862e7f"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/cyclic/continuation_20261026/odd_levels_at2_status.json",
+      "bytes": 583,
+      "sha256": "8e74f43c7a3b9669183efaffb9d853f47a574f78926565f8a093bae6d2c52d30"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/prime_orders/finite_field_prime_orders.m",
+      "bytes": 2248,
+      "sha256": "df0a9411561d50323615422535c2526b48f4bf0af90b041912fea922e47ab2d6"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/certify99.py",
+      "bytes": 1913,
+      "sha256": "fcc5fc7ed895dd122abf0a16e68e7b3087d14681826b4c8f11af75548adc51ba"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/check_diamond99.log",
+      "bytes": 61,
+      "sha256": "15760709e0e433819666cf8c87154f01f9250f2660bfd3dd129568fc48318e41"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/check_diamond99.m",
+      "bytes": 192,
+      "sha256": "0ec5981979382f3373a95b81ec41b95d60d7ce32d99a9c53edaef12de69174d9"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/dcm_list_all_min_orders_X1_10k.m",
+      "bytes": 782198,
+      "sha256": "020ba11c347b70aafd59099994d5df55d969ffeaff468ced1a06ae97868b64cc"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/exclusion99.tex",
+      "bytes": 2063,
+      "sha256": "05c0860f7851a4291a6b34617eb56f8e491885f886dc2bd58d0fea6913f2dd0a"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/finite_trace_certificate.json",
+      "bytes": 2554,
+      "sha256": "f0bd349dcf84ea755eedffad3bae6e4c809d52a543c9da0a5c17d29ed22a7ebc"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/finite_trace_check.log",
+      "bytes": 90,
+      "sha256": "aaa42a38a6d033f9674e3e8371020a91b3872bf2dd84b7fed66a336a9aad6165"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/finite_trace_check.py",
+      "bytes": 1136,
+      "sha256": "f14a875c4925f832183f72e77b7fb763e370663f83ce3594e8359caa79d40e40"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/manifest99.json",
+      "bytes": 1401,
+      "sha256": "69d7b82f24fe24f3f96e2f26d6b8dbcc261acbdd9cc6ba7e4a65e134d6aa4abf"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/winding99.log",
+      "bytes": 1201,
+      "sha256": "8751df1995334d2627dc7e66dc1b59b97b3c79720b5ad739a07cb96583b65163"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/winding_probe.m",
+      "bytes": 1138,
+      "sha256": "46f61f69c8ddbdda0bb734d43d4ff9a1e9490381364da1cd9d19875ad6f8cd01"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inherited_snapshots.json",
+      "bytes": 4512,
+      "sha256": "552a6f180870f6fd1f7f349645cfa026cc2fbe76d9f48bcd1cb94ebab091174a"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inputs/fast_hecke.m",
+      "bytes": 8266,
+      "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inputs/fast_hecke.sig",
+      "bytes": 1196,
+      "sha256": "7825d52342582741eab41d5e414b493948013f3f212f81144c26a0eddca0dfd0"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/inputs/pair_af_place_linear.m",
+      "bytes": 1441,
+      "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/parent_native_RR.m",
+      "bytes": 4149,
+      "sha256": "37abadda6ef472d9f790d2ec1b3c88e618e00aea6307b42f6802c77de49a75a3"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/peer_Y29_native_verified.json",
+      "bytes": 2630,
+      "sha256": "a23314ad9a6002c8181594b678b5bd96c6a2753b95c104b8cb5ae284f9612241"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/peer_Y29_two_generators.m",
+      "bytes": 18622,
+      "sha256": "83986738f01f1614d400709de6b51cb4c6ed08554b49a1b0ba2c81dc47b96c57"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/peer_native_Y29_RR.m",
+      "bytes": 1997,
+      "sha256": "f5db044af1830689af5a7bc82e88aafc32a3e05d096d6f97ed1649edf2c5a981"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/quotient33_RR.m",
+      "bytes": 108172,
+      "sha256": "58a2b5c1448f16982d1332604b9cc90a82abe6859c5133a8983ce75a6c94de64"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/quotient33_progress1.m",
+      "bytes": 26859,
+      "sha256": "3fe0884eef5e6e1ea8c610e98753baf4e133d449cc84fac632b8b3de0d1b3791"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/quotient33_progress2.m",
+      "bytes": 53587,
+      "sha256": "dfebfb65143268e63b829e24ffbcb066ff69cb9e0a60431d25696bec374133ff"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/quotient33_progress3.m",
+      "bytes": 80351,
+      "sha256": "daf15aecbb5f0da6d95adb2570ee0d24940f4790ac268891c16bd16fbb157016"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/quotient33_progress4.m",
+      "bytes": 107178,
+      "sha256": "5d4917a6dd8baeb7e0b7ddce20bb2063e0bce2aa53973a8f9b472917ec599eb8"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/resolution.tex",
+      "bytes": 5850,
+      "sha256": "9fd21e7b628b29bb22fd9c011e0b6e520e7e6592dc08457536b37587b11dd2d1"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/source99.m",
+      "bytes": 1467,
+      "sha256": "6d8edbd937d868659325c4f7bef5dac9e20d1e6fe52a2ce62e560f2e00c551c8"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/parent_source_census.json",
+      "bytes": 861304,
+      "sha256": "e42231931411ae23daacbb8addd516536d0e1649ca7fdb0dc1966f77836357e5"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_RR.log",
+      "bytes": 348,
+      "sha256": "50a3d2666e94766505f071ab98709b1a70e67527e0cd9d7e9c311def83661609"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_RR.status.json",
+      "bytes": 654,
+      "sha256": "e1780eb561ea355a9b83593d431af926e47d72fa9e71f6561e950f322b4f3679"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_binding.log",
+      "bytes": 65,
+      "sha256": "71974a8d72d2dd136b48f6d14776a14017352ff63c61d6415d8cdd5c30a831b7"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_binding.status.json",
+      "bytes": 678,
+      "sha256": "4e1eaab2339e884c5460a851f812c84bc6417578ad83b9de547e0c4ab94c8423"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_genuine.log",
+      "bytes": 85,
+      "sha256": "1c2c95782ce06c6c2af33ccbb016bad68dce14e1782a4640a1858e2bb6ff975a"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_genuine.status.json",
+      "bytes": 678,
+      "sha256": "72a346fea8243c2c5252d93af810603c45999f6107c213cd01a702ec9b8f0cc6"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_model_v5.log",
+      "bytes": 353,
+      "sha256": "172532045c58543730869bdd7a7a9047159ff3445fc58708b94df7259201ffce"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_model_v5.status.json",
+      "bytes": 678,
+      "sha256": "df87f99bd10eaceae5605036fe9c37ada55dc16fd06a2919d87492c4285d6616"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_genuine.log",
+      "bytes": 375,
+      "sha256": "b6867ac0fcfd3e292182e484119ee7016338fe75a89bbe50b4eb7703793a2ff8"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_genuine.status.json",
+      "bytes": 660,
+      "sha256": "ad27385a54bc974f492d8641e17572d73f10a867869cfebc30aa0d5db65e166b"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_native_binding.log",
+      "bytes": 68,
+      "sha256": "a9b288905ae56e68b5583bfe98f9f9215d0dc2296dfa5ae9150ff295ad59cfac"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_native_binding.status.json",
+      "bytes": 690,
+      "sha256": "5777240d39f583acadd2a3ce7fffa5f7ea403e831117df33b25795d9c27a841c"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_parent_native_A5.log",
+      "bytes": 170,
+      "sha256": "e0ddf12af3eeaf822923fdb10adf10407868c6b6f36f75f424ae7036021ba680"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_parent_native_A5.status.json",
+      "bytes": 647,
+      "sha256": "18a70b8b90cc12e84810686146f0ffc66244fecee1eecd2b0e85fac14cb69976"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_peer_Y29_native.log",
+      "bytes": 381,
+      "sha256": "1b57821e12f968590152d148e74dcf4cba43212d29bbf4586c1385932443bfd6"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_peer_Y29_native.status.json",
+      "bytes": 643,
+      "sha256": "317fa8141749f61aec27b7693cf87d428976cddda761d30a391c1bc796ffb822"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_quotient33_RR.log",
+      "bytes": 333,
+      "sha256": "153550e89c4bb887addf975f14fbd10eac4f56baa83c051d2bbe15d1930e77cc"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_quotient33_RR.status.json",
+      "bytes": 634,
+      "sha256": "599aa5fb5eb707c811aa07e5359734643332c3662cc6d6df21f0714b0afc8210"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_source_census.log",
+      "bytes": 1317,
+      "sha256": "de7e40da0f800f25d52247e92bb25ce36404d81db98d92ccfdf6dbeedcc2215a"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_source_census.status.json",
+      "bytes": 636,
+      "sha256": "b2e726883495a788344ac2177e787263c3d724c0195f10324c307cb2966f799d"
+    },
+    {
+      "path": "work/deg10/jobs/contc_parent_source_census.log",
+      "bytes": 1142,
+      "sha256": "310b4e0cdd86c35b7ca0f55f7f0d163fdb313b88b6b28eb7037f95ab57d6b4b7"
+    },
+    {
+      "path": "work/deg10/jobs/contc_parent_source_census.status.json",
+      "bytes": 658,
+      "sha256": "1451783a404091710ed252a144983d5ff2af91f51e765dec69e06e8b26d07a35"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.m",
+      "bytes": 287,
+      "sha256": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.sig",
+      "bytes": 218,
+      "sha256": "52cf55c738cbd8b7783be68f5128f2e95f62b55b9aa8d284562473fec53b527a"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/classgroups.m",
+      "bytes": 484,
+      "sha256": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/classgroups.sig",
+      "bytes": 151,
+      "sha256": "ba7204632ae38e30f96bded60753927e2ce3b07ae6db9df2952c0405d9cde169"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/divisors.m",
+      "bytes": 1491,
+      "sha256": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/divisors.sig",
+      "bytes": 512,
+      "sha256": "61eb59cce8da8aa6c326ab3340121c9094328b1c325a4dfd48b06e3393839480"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.m",
+      "bytes": 1091,
+      "sha256": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.sig",
+      "bytes": 217,
+      "sha256": "937d65a93d8b0559b4f951e8e78cfcd0959e4c9a63b2a2ee43e244ab06b9c033"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/mdmagma.spec",
+      "bytes": 81,
+      "sha256": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/mdmagma_internal.spec",
+      "bytes": 282,
+      "sha256": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X0.m",
+      "bytes": 883,
+      "sha256": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X0.sig",
+      "bytes": 518,
+      "sha256": "ad7a0ac093106595596ab594b1502a9cd9ad9c11c37802f22be02e986e7afd6e"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X1.m",
+      "bytes": 8226,
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X1.sig",
+      "bytes": 4142,
+      "sha256": "a59ba44cf0beb2eb184866ff2d51be2b70b52beaacbf0ebe627567e79c6209e7"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X11.m",
+      "bytes": 7602,
+      "sha256": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X11.sig",
+      "bytes": 2540,
+      "sha256": "1d42502ec4cd75897c53d7c6e7bc2c8ee20d3fbe74ab89b37c30481ba1fbc8f5"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.m",
+      "bytes": 7298,
+      "sha256": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.sig",
+      "bytes": 3835,
+      "sha256": "ad3a9969c9bb6d2aec183a03facd64779e2e21c712111872067b99c1a3e317ba"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.m",
+      "bytes": 904,
+      "sha256": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.sig",
+      "bytes": 431,
+      "sha256": "bad67095a7ac630eae102c094c32d3e06d70018492b3ccbb6c20bbb7d4396978"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.m",
+      "bytes": 2167,
+      "sha256": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.sig",
+      "bytes": 608,
+      "sha256": "146c4ddbd78b095c65f33f2b3488b6133bc791872db9baa0d87756b128e9aba5"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/utils.m",
+      "bytes": 1321,
+      "sha256": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/utils.sig",
+      "bytes": 538,
+      "sha256": "3d059d073c8cee670e57109861b9e66d276a3432029d38fe294af14d91bbba4a"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma_manifest.json",
+      "bytes": 34724,
+      "sha256": "0e93dd2633f3ec4cdf4bb15e92bfb9b115a7875e84d301b1fafa6d2c31721518"
+    }
+  ],
+  "diagnostic_scope": "Preserved unsuccessful models and genuinely surviving smaller-quotient tests; these are not exclusions",
+  "diagnostic_files": [
+    {
+      "path": "work/deg10/computations/contc99_independent_Y29_model.m",
+      "bytes": 1958,
+      "sha256": "75e12a6c330a07bfdd9a0c6feba9e4aafaef208e5bf049ef132430af8988177e"
+    },
+    {
+      "path": "work/deg10/computations/contc99_independent_Y29_model_v2.m",
+      "bytes": 2224,
+      "sha256": "dfc7648a08faeca4341ba83ab52754bd0413831081b897c708f490d676c648fa"
+    },
+    {
+      "path": "work/deg10/computations/contc99_independent_Y29_model_v3.m",
+      "bytes": 2226,
+      "sha256": "93877bb18a4c1fc609cd13c29eb5396d37a861ec06158f44753d562c906e86c4"
+    },
+    {
+      "path": "work/deg10/computations/contc99_independent_Y29_model_v4.m",
+      "bytes": 2338,
+      "sha256": "c3ebcf8b320f1763a43c7ca2e8daf26bd411d0149571bebbe49de5f2413d559f"
+    },
+    {
+      "path": "work/deg10/computations/contc99_quotient33_3isog.m",
+      "bytes": 2611,
+      "sha256": "efc87f8985d7ceb72d43acff819ebc0556388407b9e7fc71482292399936876d"
+    },
+    {
+      "path": "work/deg10/computations/contc99_quotient33_A7.m",
+      "bytes": 2511,
+      "sha256": "d67efbf8c0cb9e987f981a31d965d08bab080ca1e1313caf6ea10a94c8a656b2"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/quotient33_3isog_RR.m",
+      "bytes": 27745,
+      "sha256": "9bfc56d330c74dd6f33cc404e5090505d8585d9df46aefd62a65f2eeca0b7095"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/quotient33_3isog_progress3.m",
+      "bytes": 26751,
+      "sha256": "213feb88ffb3c1513654994864af3efa4b82e07bf2fc04c459f72b9bbcb519e5"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/quotient33_A7_RR.m",
+      "bytes": 28714,
+      "sha256": "2483c5c2ec93cc20785b3c4f8dba9ee06912953265e91d4f4ae29f3733bcb94c"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C99/quotient33_A7_progress3.m",
+      "bytes": 27720,
+      "sha256": "415cb0208890b897294aafd106e8616ea36022c0e7f134a00156fbdf5047cb25"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_model.log",
+      "bytes": 327,
+      "sha256": "624dc19c664667abe66596b60211c9cf43db21eec437c11de69c25c29b112fc0"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_model.status.json",
+      "bytes": 669,
+      "sha256": "e7bb81fb94d98431739dbe49fc721c58a2b0645b20ec3321a0dc3bda01866d12"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_model_v2.log",
+      "bytes": 325,
+      "sha256": "8c9bfc35d2ab723c45e269e30d351f04ed1feffc7b39f140710174652e887f46"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_model_v2.status.json",
+      "bytes": 679,
+      "sha256": "33050a937a7e9df1357b2589ed2945a5831f132dedd3b9658c9293fabdce2706"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_model_v3.log",
+      "bytes": 362,
+      "sha256": "9139259dd3f57fac903d0f28d898dfe59dae3cfc88ff43af1f8bdcf95ac22780"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_model_v3.status.json",
+      "bytes": 680,
+      "sha256": "21cf66648e917950ef6c3af6c38e64483159daab1cd103b689e37241406c61f7"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_model_v4.log",
+      "bytes": 643,
+      "sha256": "9a92e4b1c946debee4237a98e4551222b238dafd0b04808d52035bfc97384079"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_independent_Y29_model_v4.status.json",
+      "bytes": 677,
+      "sha256": "c198557154714ee729c9a999312ea97f7a2a73f72af84dc57d875e102cae7b3a"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_quotient33_3isog.log",
+      "bytes": 216,
+      "sha256": "ebc10543937d3ef244400b9449abb92e9ba4c3babbc131f3333ba336a7fb6a68"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_quotient33_3isog.status.json",
+      "bytes": 647,
+      "sha256": "65ceff31b5f0c857022684338487a907d48efa3e0c8131f1fe25a378626ca8ac"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_quotient33_A7.log",
+      "bytes": 204,
+      "sha256": "67c59f2022bc3088bf158baf7ca3353970adb770a9a0b8965a8ede234e0e0e4f"
+    },
+    {
+      "path": "work/deg10/jobs/contc99_quotient33_A7.status.json",
+      "bytes": 633,
+      "sha256": "810da110993840c573cbd2306e3bd18bd58a05ad6372a970689c40a5d4b117a2"
+    }
+  ]
+}

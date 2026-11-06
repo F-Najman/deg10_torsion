@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "twists": 2,
+  "geometric_tau2_fix_of_all_point7_cyclic13_images": true,
+  "records": [
+    {
+      "source_twist": 1,
+      "omega_scalar_on_P91": 16,
+      "omega_scalar_on_P7": 2,
+      "omega_scalar_on_S13": 3,
+      "cyclic13_kernel_invariant": true
+    },
+    {
+      "source_twist": 2,
+      "omega_scalar_on_P91": 16,
+      "omega_scalar_on_P7": 2,
+      "omega_scalar_on_S13": 3,
+      "cyclic13_kernel_invariant": true
+    }
+  ],
+  "input_sha256": "cf02d6cefe46af45f57d2cca5ea0cddb4e100675f7aacd2e722706844aef66bd"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "groups": [
+    [
+      1,
+      58
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Complete C58 decic exclusion via proven genus22 Picard image, exact new5971-point census,293 primary tests, both global decic rigidity lifts, independent Sage and native ideal controls; old2324 tests replayed with new complement argument",
+  "frozen_summary_sha256": "9d13d8529b8920fc6b884ba9128a6944b80a9d5dcf09c0c52736a2560ed3622a",
+  "classification_complete": false
+}

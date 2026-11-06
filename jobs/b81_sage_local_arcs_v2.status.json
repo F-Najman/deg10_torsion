@@ -1,0 +1,18 @@
+{
+  "purpose": "b81_sage_local_arcs_v2",
+  "script": "computations/b81_sage_local_arcs_v2.py",
+  "script_sha256": "1263da66b7172e82f8c2dca64191c22718f179f4b89ddc8f441f958e58ede756",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_sage_local_arcs_v2.py"
+  ],
+  "pid": 2567571,
+  "owner_uid": 1001,
+  "start_time_unix": 1793390813.5378566,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/b81_sage_local_arcs_v2.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5647573471069336
+}

@@ -1,0 +1,53 @@
+{
+  "state": "ACTIVE",
+  "steps": [
+    {
+      "step": "late240_isogeny",
+      "host_active_magma_before_start": 19,
+      "wrapper_exit": 0,
+      "job_status": {
+        "purpose": "late240_isogeny",
+        "script": "computations/late240_isogeny.m",
+        "script_sha256": "2c84f165393c48dae7c8bf121ec15d024eb6d2a23fb597dd2e9b49f05e3a895b",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late240_isogeny.m"
+        ],
+        "pid": 889492,
+        "owner_uid": 1001,
+        "start_time_unix": 1793314134.705267,
+        "state": "EXITED",
+        "time_limit_seconds": 420,
+        "log": "jobs/late240_isogeny.log",
+        "actual_exit_code": 0,
+        "termination_reason": null,
+        "elapsed_seconds": 56.404147148132324
+      }
+    },
+    {
+      "step": "late240_cyclic",
+      "host_active_magma_before_start": 19,
+      "wrapper_exit": 1,
+      "job_status": {
+        "purpose": "late240_cyclic",
+        "script": "computations/late240_cyclic.m",
+        "script_sha256": "36a2d6c7580c0728095304a85737f6ef17b47a374c70e72d07957cfdce56bd93",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late240_cyclic.m"
+        ],
+        "pid": 890847,
+        "owner_uid": 1001,
+        "start_time_unix": 1793314191.1695118,
+        "state": "EXITED",
+        "time_limit_seconds": 900,
+        "log": "jobs/late240_cyclic.log",
+        "actual_exit_code": -15,
+        "termination_reason": null,
+        "elapsed_seconds": 444.9661548137665
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "all_new_C49_jobs_exited": true,
+  "new_job_count": 7,
+  "successful_jobs": [
+    "pp49_finite_sieve",
+    "pp49_finite_controls",
+    "pp49_replay_old_jets_degree10",
+    "pp49_native_matrix_replay"
+  ],
+  "terminated_jobs": [
+    "pp49_fast_cartier_export",
+    "pp49_completion_control",
+    "pp49_cusp_permutation"
+  ],
+  "active_workers_supervisors_launchers": [],
+  "paused_workers": [],
+  "automatic_launchers_created": false,
+  "no_new_C49_job_is_to_be_restarted_without_a_new_purpose": true
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "winding1147_resume",
+  "script": "computations/winding1147_resume.m",
+  "script_sha256": "1495f79c79ce5163ebd14fb88dfc07b47c062e0be6c2f1d103a4144ca2f0bea6",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/winding1147_resume.m"
+  ],
+  "pid": 26710,
+  "owner_uid": 1001,
+  "start_time_unix": 1793275474.281062,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/winding1147_resume.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 114.08731746673584
+}

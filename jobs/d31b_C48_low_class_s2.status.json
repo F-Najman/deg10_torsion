@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C48_low_class_s2",
+  "script": "continuation_20261031b/C48/d31b_C48_low_class_s2.m",
+  "script_sha256": "d2357afa8ebbd7bb9cbe340117aed9f51b83982f3ed173707fd880ae5afdcc28",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_low_class_s2.m"
+  ],
+  "pid": 3498969,
+  "owner_uid": 1001,
+  "start_time_unix": 1793434912.9538271,
+  "state": "EXITED",
+  "time_limit_seconds": 1750,
+  "log": "jobs/d31b_C48_low_class_s2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 738.9567837715149
+}

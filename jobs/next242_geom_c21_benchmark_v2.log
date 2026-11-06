@@ -1,0 +1,5 @@
+Loading "work/deg10/next_cases_20261030/C242/geometry/cyclic21_filter_common.m"
+Loading "work/deg10/next_cases_20261030/C242/geometry/deps/portable_forward.m"
+Loading "work/deg10/next_cases_20261030/C242/geometry/deps/pair_af_place_linear.m"
+C242_D10_CYCLIC21_STAGE3_PROGRESS tested=5 total=5 remaining=3 imagecount=14 cpu=0.460
+C242_D10_CYCLIC21_STAGE3_COMPLETE tested=5 total=5 remaining=3 images=14 full_input=true cpu=0.460

@@ -1,0 +1,4 @@
+DATABASE_ELL_MODEL N=87 ell=29 genus=2 good_reduction=true j_degree=30 time=0.040
+X0_3ELL_MODEL N=87 genus=9 degree_over_X0ell=4 integral_coordinates_ready=true time=0.730
+B87_MODULAR_CUSP_GEOMETRY_COMPLETE [ <1, 1>, <1, 3>, <1, 29>, <1, 87> ]
+1.570

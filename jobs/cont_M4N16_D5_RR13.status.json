@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_M4N16_D5_RR13",
+  "script": "computations/cont_M4N16_D5_RR13.m",
+  "script_sha256": "c0577b1ae41c091ffe29c1e9782d3fd9edd458da2d4d5743913296b3948f3549",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_M4N16_D5_RR13.m"
+  ],
+  "pid": 337518,
+  "owner_uid": 1001,
+  "start_time_unix": 1793288585.6515558,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/cont_M4N16_D5_RR13.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 28.857977867126465
+}

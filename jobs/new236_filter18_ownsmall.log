@@ -1,0 +1,9 @@
+Loading "work/deg10/computations/new236_filter18_ownsmall_common.m"
+Loading "work/deg10/C236_resolution_20261030/enumeration/deps/pair_af_place_linear.m"
+Loading "work/deg10/C236_resolution_20261030/enumeration/deps/portable_forward.m"
+C236_FILTER18_DEGREE_COMPLETE 3 2 0 4 0.170
+C236_FILTER18_DEGREE_COMPLETE 4 5 0 14 0.420
+C236_FILTER18_DEGREE_COMPLETE 5 30 0 71 1.990
+C236_FILTER18_DEGREE_COMPLETE 6 126 0 313 8.540
+C236_FILTER18_DEGREE_COMPLETE 7 434 0 1152 40.110
+C236_FILTER18_BATCH_COMPLETE ownsmall 1152 40.230

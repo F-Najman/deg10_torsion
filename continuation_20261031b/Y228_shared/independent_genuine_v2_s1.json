@@ -1,0 +1,223 @@
+{
+  "status": "PASS",
+  "shard": 1,
+  "component_tests": 26,
+  "checks": [
+    {
+      "case": 2,
+      "multiplicity": 1,
+      "source_field_degree": 7,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 112
+    },
+    {
+      "case": 8,
+      "multiplicity": 1,
+      "source_field_degree": 8,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 160
+    },
+    {
+      "case": 14,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 80
+    },
+    {
+      "case": 20,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 120
+    },
+    {
+      "case": 26,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 200
+    },
+    {
+      "case": 32,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 120
+    },
+    {
+      "case": 38,
+      "multiplicity": 1,
+      "source_field_degree": 5,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 40
+    },
+    {
+      "case": 38,
+      "multiplicity": 1,
+      "source_field_degree": 5,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 40
+    },
+    {
+      "case": 44,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 200
+    },
+    {
+      "case": 4,
+      "multiplicity": 1,
+      "source_field_degree": 7,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 168
+    },
+    {
+      "case": 10,
+      "multiplicity": 1,
+      "source_field_degree": 9,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 144
+    },
+    {
+      "case": 16,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 40
+    },
+    {
+      "case": 22,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 200
+    },
+    {
+      "case": 28,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 80
+    },
+    {
+      "case": 34,
+      "multiplicity": 1,
+      "source_field_degree": 5,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 40
+    },
+    {
+      "case": 34,
+      "multiplicity": 1,
+      "source_field_degree": 5,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 40
+    },
+    {
+      "case": 40,
+      "multiplicity": 1,
+      "source_field_degree": 5,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 40
+    },
+    {
+      "case": 40,
+      "multiplicity": 1,
+      "source_field_degree": 5,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 40
+    },
+    {
+      "case": 6,
+      "multiplicity": 1,
+      "source_field_degree": 8,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 160
+    },
+    {
+      "case": 12,
+      "multiplicity": 1,
+      "source_field_degree": 9,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 72
+    },
+    {
+      "case": 18,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 200
+    },
+    {
+      "case": 24,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 80
+    },
+    {
+      "case": 30,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 200
+    },
+    {
+      "case": 36,
+      "multiplicity": 1,
+      "source_field_degree": 5,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 40
+    },
+    {
+      "case": 36,
+      "multiplicity": 1,
+      "source_field_degree": 5,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 40
+    },
+    {
+      "case": 42,
+      "multiplicity": 1,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 120
+    },
+    {
+      "neighbor_case": 42,
+      "source_field_degree": 10,
+      "genuine5kernels": 6,
+      "manual_marked_Velu_maps": 12,
+      "splitting_field_degree": 120
+    }
+  ],
+  "seconds": 40.054571100044996
+}

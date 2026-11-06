@@ -1,0 +1,1 @@
+C111_C95_DYADIC_TATE_WATERHOUSE_WINDING_KRYLOV_REPLAY_PASS {"111": {"cusps": {"1": 36, "36": 2, "2": 18}, "diamond_order": 3, "genus": 385, "finite_image_dimension": 264, "bound": [55575, 1024]}, "95": {"cusps": {"1": 36, "36": 1, "4": 9, "18": 2}, "diamond_order": 3, "genus": 289, "finite_image_dimension": 192, "bound": [43875, 1024]}}

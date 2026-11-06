@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "source_non_cuspidal_counts": [
+    0,
+    0,
+    0,
+    126,
+    648,
+    2080,
+    11376,
+    48816,
+    211776,
+    983196
+  ],
+  "source10_record_count": 27392,
+  "own_counts": {
+    "4": 5,
+    "5": 18,
+    "6": 64,
+    "7": 316,
+    "8": 1372,
+    "9": 5888,
+    "10": 27374
+  },
+  "target_quotient_index": 4,
+  "support_cases": 60971,
+  "survivors": 4647,
+  "pattern_statistics": [
+    [
+      [
+        4
+      ],
+      5,
+      3
+    ],
+    [
+      [
+        5
+      ],
+      18,
+      1
+    ],
+    [
+      [
+        6
+      ],
+      64,
+      14
+    ],
+    [
+      [
+        7
+      ],
+      316,
+      17
+    ],
+    [
+      [
+        8
+      ],
+      1372,
+      144
+    ],
+    [
+      [
+        9
+      ],
+      5888,
+      350
+    ],
+    [
+      [
+        10
+      ],
+      27374,
+      1832
+    ],
+    [
+      [
+        4,
+        4
+      ],
+      630,
+      210
+    ],
+    [
+      [
+        4,
+        5
+      ],
+      3240,
+      180
+    ],
+    [
+      [
+        4,
+        6
+      ],
+      10400,
+      1128
+    ],
+    [
+      [
+        5,
+        5
+      ],
+      11664,
+      768
+    ]
+  ],
+  "sha256": {
+    "frobenius.m": "c010cd1eba293af5fff36afbd3d2aaec135bc023d6c77b5f32b1e1d4057ceca5",
+    "source10.m": "5871d0c0da9507ba75dc36e0162a7f8177c297540593474bea98d74c19224a8a",
+    "source10_s0.m": "95b99c4bdc2aaad5c741dedab2d47b1485532cb0ddec7edcf7e6d1a9456b2d65",
+    "source10_s1.m": "9bee5f3e049165b5d3d6752172bf91f011d30bf08d180c7ef0eee34d5bfcf485",
+    "source10_s2.m": "4fcb8b5d8fe3507dd98e037c9a1f3b05abf3c382b527cf1b0ded2489494ac7b0",
+    "source10_s3.m": "efc088bff99526977eb23dc0f1b1db074b137845e3c95b6c8b3bd395d37f6fe2",
+    "target14_proven_picard.m": "b375f31a33579eb09824959e5aa06dc5ac6dddec87ee7bb80bc97eafdcaefe7d",
+    "filter14_D4_small.m": "b19964dd2d6a4baf2d202323c6da832cb79c40852fdce3979fd79836c962ad26",
+    "filter14_D5_small.m": "47b04c4cfd4a66d09e9494229f9d67d66ed2ab5188333eb7ab266bd43e3df3e4",
+    "filter14_D6_small.m": "69c250cda1677b1b0162a4b503b630ba1d4198e7f2f367357f0bc45f64e856fc",
+    "filter14_D7_D7.m": "c47fac5a1d064a0fbf68e9b833d7efa4330143b6971fb19d9c3a807c3c3adcef",
+    "filter14_D8_D8.m": "cb33fc4b4ec7cf243e1439641ea6a1931171452e3b0181bf599c0d08305774b9",
+    "filter14_D9_D9.m": "fdeec316ec64443bedab55f6bb8cea1c9911d3405b70981b7305b083953f4eb8",
+    "filter14_D10_D10s0.m": "e2c202032fe677276f7f1479da15097bd40398eab046d17aa7c8fc20fc7c2dee",
+    "filter14_D10_D10s1.m": "a02f20e3cabaf8e3c5dd95122f381fb7161078608d01af4a4d6e9a69f09d5013",
+    "filter14_D10_D10s2.m": "eb172e9e6058e6cf447d88108108accf20dc5b35e06dfbe855c02f38a207328b",
+    "filter14_D10_D10s3.m": "45739c947529c146b3c302a5ec4a6244d26beb148db422b0412048154aa404d9",
+    "filter14_D10_D10s4.m": "5f14219771180436e516ff7f84914a94f408c620aa17cbe22330a355a40132d7",
+    "filter14_D10_D10s5.m": "fbfe37c74d51a321de408d12e06b4f9b666c254e902d30a7e7ffde8f17ebde74",
+    "filter14_D10_D10s6.m": "4277f188e5cd67727bbed4adb8c60e84d25b82abecbb1664cfdcdbd6a81b03fb",
+    "filter14_D10_D10s7.m": "ba59f0dbf30e5c823bd8871b73f830b5efb7b19b7b2b0213df0988564409f461",
+    "source4.m": "7d76f738c7c1d5b408ed65708cc648d2ba733b041e6da29f4ae8d9f435417551",
+    "source5.m": "fb0386aef3b28948cf6d549ea4860b4079fe4e933f545ffd8531ff378d790e4d",
+    "source6.m": "ecf57fd1451895cd399faf30d69ea9907c3cc4b0a89b2bf088f96749e688581d",
+    "source7.m": "a2bffaf12105fcbbdd5428e990187381f2f77f82ea3286015522cc24f6db8d1b",
+    "source8.m": "c8bc402fc879eed16454cf649736b070f3b6a3932d20623d12bd9ba53eed2f2e",
+    "source9.m": "0242b97d8317eae3f0aad475ce3a9132d225d17c9841e2aa22d4126dfc915ef5",
+    "first_survivors_unified.m": "6268bbee8b3a61d1f364416612fe60e0f8b2aabd13c9b8a6b827d370270e35da",
+    "first_survivors_details.m": "57b72afb3ae4b7319ca85dd69958118dac0cd8980d2287eed9c380129a30a439"
+  }
+}

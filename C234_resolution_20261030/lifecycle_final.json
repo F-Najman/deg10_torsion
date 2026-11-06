@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "all_case_jobs_exited": true,
+  "workers_remaining": [],
+  "case_jobs": [
+    {
+      "job": "new234_ideal_replay2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_fricke",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false
+    },
+    {
+      "job": "new234_ideal_replay0",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_lattice_replay",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_source_small",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_short_cusp_units",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_sieve_replay",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "used_in_final_proof": false
+    },
+    {
+      "job": "new234_target_setup_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_filter2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_ideal_replay1",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_sieve_replay_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_filter0",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_filter1",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_cusp_lattice",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_source_ten",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true
+    },
+    {
+      "job": "new234_fricke_twists",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false
+    },
+    {
+      "job": "new234_target_setup",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "used_in_final_proof": false
+    }
+  ],
+  "automatic_launchers_created": 0,
+  "obsolete_workers": []
+}

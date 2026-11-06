@@ -1,0 +1,114 @@
+{
+  "purpose": "Exact decic occurrences and family probes",
+  "workers": 12,
+  "results": [
+    {
+      "script": "computations/witness_C29.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/witness_C31.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/witness_C35.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/witness_C38.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/witness_C39.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/witness_C40.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/witness_C42.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/witness_C45.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/witness_C50.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/family_1_23_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_1_26_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_1_27_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_1_32_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_1_33_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_1_34_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_1_36_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_2_20_v2.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/family_2_22_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_2_24_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_3_12_v2.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/family_3_15_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_3_18_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_3_9_v2.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/family_4_12_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_4_8_v2.m",
+      "supervisor_exit": 0
+    },
+    {
+      "script": "computations/family_6_12_v2.m",
+      "supervisor_exit": 1
+    },
+    {
+      "script": "computations/family_6_6_v2.m",
+      "supervisor_exit": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "groups": [
+    {
+      "hecke": 7,
+      "source_points": 73,
+      "source_cases": 50,
+      "prime_references": 329,
+      "all_h0_zero": true
+    }
+  ]
+}

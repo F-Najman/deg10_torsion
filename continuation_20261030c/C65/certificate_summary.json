@@ -1,0 +1,50 @@
+{
+  "status": "COMPLETE EXCLUSION",
+  "degree": 10,
+  "group": "C65",
+  "source_genus": 121,
+  "full_source_rank_zero_assumed": false,
+  "finite_NC_closed_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    48,
+    48,
+    72,
+    108
+  ],
+  "new_degree10_orbit_sizes": [
+    24,
+    24,
+    24,
+    12,
+    24
+  ],
+  "new_RR_tests": 240,
+  "RR_domain_dimension": 121,
+  "RR_product_dimension": 360,
+  "all_final_ranks": 121,
+  "all_new_positive_negative_degrees": 70,
+  "new_genuine_jet_families": 15,
+  "independent_actual3_isogenies": 20,
+  "new_global_cusp_prefix_tests": 7170048,
+  "all_global_cusp_FI_ranks": 10,
+  "parent_independent_full_prefix_replay": "PASS",
+  "old417_pinned_files_and_full_deep_replay": "PASS",
+  "non_global_sextic_cusp_obstruction": "same norm6 class obstruction, globally intact degree4 complement",
+  "remaining_cases": 0,
+  "lifecycle": {
+    "all_new_job_records_exited": true,
+    "successful_jobs": 18,
+    "unsuccessful_diagnostics": {
+      "contc65_source_census": "Initial wrong new-directory path; exit1, replaced by source_census_v2",
+      "contc65_verify_jets": "Inherited degree whitelist excluded10/20; exit1, replaced by verify_jets_v2; all arithmetic checks unchanged"
+    },
+    "active_workers_supervisors_or_launchers": [],
+    "paused_workers": 0,
+    "automatic_launchers": 0
+  }
+}

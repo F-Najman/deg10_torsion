@@ -1,0 +1,19 @@
+{
+  "pid": 2538528,
+  "startticks": 185461521,
+  "cmd": [
+    "nice",
+    "-n",
+    "10",
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/cyclic/continuation_20261026/C62_X131/export_geometry.m"
+  ],
+  "CPU_budget_seconds": 120,
+  "wall_budget_seconds": 600,
+  "memory_budget_bytes": 3221225472,
+  "nice": 10,
+  "actual_exit_code": 0,
+  "elapsed_wall_seconds": 8.377873182296753,
+  "completed_marker": true
+}

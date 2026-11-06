@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_78_source",
+  "script": "computations/d31a_78_source.m",
+  "script_sha256": "b3a0df344fc540b64e22b08cc2334f6d784410e9c19bef38c10bbcca7ed6a4f2",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_78_source.m"
+  ],
+  "pid": 2800438,
+  "owner_uid": 1001,
+  "start_time_unix": 1793401864.2329257,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31a_78_source.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.21423673629760742
+}

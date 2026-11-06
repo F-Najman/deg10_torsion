@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C56_project_to_Y28",
+  "script": "continuation_20261031b/C56/d31b_C56_project_to_Y28.m",
+  "script_sha256": "275017efc2bdc1b65a6f1abb907efc422251c7cf389383b4198a644201c28b7d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C56/d31b_C56_project_to_Y28.m"
+  ],
+  "pid": 3436488,
+  "owner_uid": 1001,
+  "start_time_unix": 1793432101.325401,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/d31b_C56_project_to_Y28.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.2142658233642578
+}

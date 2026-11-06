@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m333_analytic_jets",
+  "script": "computations/d31b_m333_analytic_jets.m",
+  "script_sha256": "8c0edd8a3e63e229666cc772a541c8125953540ede9b37300407c362cfb0c8b2",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_analytic_jets.m"
+  ],
+  "pid": 3584054,
+  "owner_uid": 1001,
+  "start_time_unix": 1793438763.8025072,
+  "state": "EXITED",
+  "time_limit_seconds": 860,
+  "log": "jobs/d31b_m333_analytic_jets.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 2.521862745285034
+}

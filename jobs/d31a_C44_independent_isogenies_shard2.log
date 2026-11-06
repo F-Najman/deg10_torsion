@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C44_independent_isogenies_shard2.py", line 6, in <module>
+    exec(compile(s,str(p),"exec"))
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C44_independent_isogenies_sharded_common.py", line 81, in <module>
+    report=run_shard('newA5',5,'new_finite_jets.normalized.jsonl');reports=[report]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C44_independent_isogenies_sharded_common.py", line 68, in run_shard
+    E,P,ky=source(r);source_keys.append(ky);t,u=audit(E,P,ell,ky);actualT.update(t);actualU.update(u)
+                                                ^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C44_independent_isogenies_sharded_common.py", line 49, in audit
+    cache[ck]=(target,u);audits.append(result);checkpoint.write(json.dumps(dict(type="unique_source_check",**result),separators=(",",":"))+"\n");checkpoint.flush()
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Integer is not JSON serializable

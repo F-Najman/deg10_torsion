@@ -1,0 +1,42 @@
+Loading "work/deg10/continuation_20261031a/C44/new_finite_jets.m"
+Loading "work/deg10/continuation_20261031a/C44/inputs/canonical_data.m"
+D31A_C44_NEW_JET_SETUP places10=5854 orbits10=590 places5=60 pair_patterns=360 totalcases=956 time=248.140
+D31A_C44_NEW_JET_CASE index=25/956 T_supports=2 U_supports=2 time=250.380
+D31A_C44_NEW_JET_CASE index=50/956 T_supports=2 U_supports=2 time=252.610
+D31A_C44_NEW_JET_CASE index=75/956 T_supports=2 U_supports=2 time=254.460
+D31A_C44_NEW_JET_CASE index=100/956 T_supports=2 U_supports=2 time=256.490
+D31A_C44_NEW_JET_CASE index=125/956 T_supports=2 U_supports=2 time=258.980
+D31A_C44_NEW_JET_CASE index=150/956 T_supports=2 U_supports=2 time=260.840
+D31A_C44_NEW_JET_CASE index=175/956 T_supports=2 U_supports=2 time=263.530
+D31A_C44_NEW_JET_CASE index=200/956 T_supports=2 U_supports=2 time=265.560
+D31A_C44_NEW_JET_CASE index=225/956 T_supports=4 U_supports=2 time=267.580
+D31A_C44_NEW_JET_CASE index=250/956 T_supports=4 U_supports=2 time=275.570
+D31A_C44_NEW_JET_CASE index=275/956 T_supports=2 U_supports=2 time=277.410
+D31A_C44_NEW_JET_CASE index=300/956 T_supports=6 U_supports=2 time=280.270
+D31A_C44_NEW_JET_CASE index=325/956 T_supports=4 U_supports=2 time=281.880
+D31A_C44_NEW_JET_CASE index=350/956 T_supports=2 U_supports=2 time=284.000
+D31A_C44_NEW_JET_CASE index=375/956 T_supports=2 U_supports=2 time=285.580
+D31A_C44_NEW_JET_CASE index=400/956 T_supports=2 U_supports=2 time=289.610
+D31A_C44_NEW_JET_CASE index=425/956 T_supports=2 U_supports=2 time=294.990
+D31A_C44_NEW_JET_CASE index=450/956 T_supports=2 U_supports=2 time=297.690
+D31A_C44_NEW_JET_CASE index=475/956 T_supports=2 U_supports=2 time=301.940
+D31A_C44_NEW_JET_CASE index=500/956 T_supports=2 U_supports=2 time=307.990
+D31A_C44_NEW_JET_CASE index=525/956 T_supports=2 U_supports=2 time=309.740
+D31A_C44_NEW_JET_CASE index=550/956 T_supports=2 U_supports=2 time=312.020
+D31A_C44_NEW_JET_CASE index=575/956 T_supports=6 U_supports=2 time=320.230
+D31A_C44_NEW_JET_CASE index=600/956 T_supports=6 U_supports=4 time=322.000
+D31A_C44_NEW_JET_CASE index=625/956 T_supports=6 U_supports=4 time=324.810
+D31A_C44_NEW_JET_CASE index=650/956 T_supports=6 U_supports=4 time=327.590
+D31A_C44_NEW_JET_CASE index=675/956 T_supports=6 U_supports=4 time=330.360
+D31A_C44_NEW_JET_CASE index=700/956 T_supports=6 U_supports=4 time=333.210
+D31A_C44_NEW_JET_CASE index=725/956 T_supports=6 U_supports=4 time=336.010
+D31A_C44_NEW_JET_CASE index=750/956 T_supports=6 U_supports=4 time=338.820
+D31A_C44_NEW_JET_CASE index=775/956 T_supports=6 U_supports=4 time=341.610
+D31A_C44_NEW_JET_CASE index=800/956 T_supports=6 U_supports=4 time=344.450
+D31A_C44_NEW_JET_CASE index=825/956 T_supports=6 U_supports=4 time=347.140
+D31A_C44_NEW_JET_CASE index=850/956 T_supports=6 U_supports=4 time=350.050
+D31A_C44_NEW_JET_CASE index=875/956 T_supports=6 U_supports=4 time=352.830
+D31A_C44_NEW_JET_CASE index=900/956 T_supports=6 U_supports=4 time=355.580
+D31A_C44_NEW_JET_CASE index=925/956 T_supports=6 U_supports=3 time=358.460
+D31A_C44_NEW_JET_CASE index=950/956 T_supports=6 U_supports=4 time=361.340
+D31A_C44_NEW_FINITE_JETS_COMPLETE cases=956 distinct10=5854 distinct5=60 time=362.170

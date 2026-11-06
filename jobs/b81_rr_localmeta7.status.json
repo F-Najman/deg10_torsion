@@ -1,0 +1,19 @@
+{
+  "purpose": "b81_rr_localmeta7",
+  "script": "computations/b81_rr_localmeta7.m",
+  "script_sha256": "236d6dbee432c1bab5175fdc5467bdbfac0b005628ed3389c73918d1bbbb665c",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_rr_localmeta7.m"
+  ],
+  "pid": 2562653,
+  "owner_uid": 1001,
+  "start_time_unix": 1793390578.9272397,
+  "state": "EXITED",
+  "time_limit_seconds": 90,
+  "log": "jobs/b81_rr_localmeta7.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.7669470310211182
+}

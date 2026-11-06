@@ -1,0 +1,17 @@
+[
+  {
+    "source": "work/degree9/parallel_expansion_20261026/N91_f8/records.m",
+    "copy": "work/deg10/continuation_20261030c/C91_CM_control/inputs/records91_8.m",
+    "sha256": "cf02d6cefe46af45f57d2cca5ea0cddb4e100675f7aacd2e722706844aef66bd"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/composite91/CM8_action_verified.json",
+    "copy": "work/deg10/continuation_20261030c/C91_CM_control/inputs/CM8_action_verified.json",
+    "sha256": "61fa02500dcd3268ca9106372f2c55b6dbe105dc1ceacef86b7e374542c3b179"
+  },
+  {
+    "source": "work/degree9/shared/fast_hecke.m",
+    "copy": "work/deg10/continuation_20261030c/C91_CM_control/inputs/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  }
+]

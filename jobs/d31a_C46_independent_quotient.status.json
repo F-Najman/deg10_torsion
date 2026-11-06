@@ -1,0 +1,18 @@
+{
+  "purpose": "d31a_C46_independent_quotient",
+  "script": "computations/d31a_C46_independent_quotient.py",
+  "script_sha256": "e9bb1a974aa2ff6c759c44e912dc3b297ef966f808b57fadf5f01f3840362857",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C46_independent_quotient.py"
+  ],
+  "pid": 2862866,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404754.0770555,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/d31a_C46_independent_quotient.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 8.327589750289917
+}

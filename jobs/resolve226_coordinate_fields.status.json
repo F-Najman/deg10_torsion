@@ -1,0 +1,18 @@
+{
+  "purpose": "resolve226_coordinate_fields",
+  "script": "computations/resolve226_coordinate_fields.py",
+  "script_sha256": "3bbefb6672df109dc349d6a790226dcdd6f42f1d780c5a763c4b301d728bd048",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_coordinate_fields.py"
+  ],
+  "pid": 1614130,
+  "owner_uid": 1001,
+  "start_time_unix": 1793349119.9936283,
+  "state": "EXITED",
+  "time_limit_seconds": 60,
+  "log": "jobs/resolve226_coordinate_fields.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.7649815082550049
+}

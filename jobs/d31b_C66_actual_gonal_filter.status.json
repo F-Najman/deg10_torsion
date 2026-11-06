@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C66_actual_gonal_filter",
+  "script": "computations/d31b_C66_actual_gonal_filter.m",
+  "script_sha256": "2340768aad1feb4b96674dac7976d2514e1bed397cfab6082438b965c056b1d7",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_actual_gonal_filter.m"
+  ],
+  "pid": 3499524,
+  "owner_uid": 1001,
+  "start_time_unix": 1793434939.3148162,
+  "state": "EXITED",
+  "time_limit_seconds": 660,
+  "log": "jobs/d31b_C66_actual_gonal_filter.log",
+  "actual_exit_code": -15,
+  "termination_reason": null,
+  "elapsed_seconds": 66.93465375900269
+}

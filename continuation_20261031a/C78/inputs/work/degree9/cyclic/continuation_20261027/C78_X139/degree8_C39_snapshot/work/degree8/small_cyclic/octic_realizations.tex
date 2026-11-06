@@ -1,0 +1,88 @@
+\begin{proposition}\label{prop:octic-cyclic-realizations}
+The groups
+\[
+ C_{33},\quad C_{34},\quad C_{35},\quad C_{39},\quad C_{40},\quad C_{42}
+\]
+belong to $\Phi(8)$.
+\end{proposition}
+\begin{proof}
+We verify all ten degree-eight entries in van Hoeij's
+\texttt{LowDegreePlaces} data. Their levels, in source order, are
+\[
+ 33,34,34,34,35,39,40,42,42,42.
+\]
+The exact polynomials and coordinates are preserved in
+\texttt{inputs/vanhoeij\_octic\_input.json} and in the corresponding
+Magma input file, with the original source lines and their hash.
+For each entry let $(x,y)$ be its listed coordinate pair and put
+\[
+ r=\frac{x^2y-xy+y-1}{x^2y-x},\qquad
+ s=\frac{xy-y+1}{xy},\qquad b=rs(r-1),\qquad c=s(r-1).
+\]
+Over its octic field $K$, define
+\[
+ E:\quad Y^2+(1-c)XY-bY=X^3-bX^2,\qquad P=(0,0).
+\]
+Every field polynomial is checked irreducible of degree $8$.
+For the level-$33$ entry, originally given by a quartic equation
+in $x$ and a quadratic equation in $y$, the primitive generator
+$a=x+y$ has polynomial
+\[
+ a^8-15a^7+95a^6-331a^5+741a^4-1100a^3+1009a^2-688a+359.
+\]
+Exact elimination recovers both coordinates as polynomials in $a$,
+and the two original equations are checked again over $K$.
+
+For the entry at level $N$, exact arithmetic verifies
+$NP=0$ and $(N/q)P\ne0$ for every prime divisor $q$ of $N$.
+The following good reductions certify the full torsion. A triple
+$(p,f,h)$ records the rational residue characteristic, residue
+degree and finite elliptic-curve order.
+\[
+\begin{array}{c|r|l|r}
+\text{entry}&N& (p,f,h)&\gcd h\\\hline
+1&33&(7,8,5760579),(13,8,815675619)&33\\
+2&34&(5,2,34)&34\\
+3&34&(7,4,2448),(11,2,102),(13,4,28900)&34\\
+4&34&(7,4,2482),(13,4,28424)&34\\
+5&35&(7,8,5763520),(11,2,105)&35\\
+6&39&(7,2,39)&39\\
+7&40&(3,4,80),(31,3,29560)&40\\
+8&42&(41,1,42)&42\\
+9&42&(7,8,5765886),(13,2,168)&42\\
+10&42&(7,8,5765886),(13,2,168)&42
+\end{array}
+\]
+All displayed primes are odd. The field polynomial is monic and
+integral at the given prime, with unit discriminant; hence the
+prime is unramified in $K$. All coordinate denominators are units
+there, and the reduced Tate equation has nonzero discriminant.
+Reduction is therefore injective on the entire torsion subgroup.
+Its order divides the displayed gcd, which the point $P$ attains.
+Thus every entry has full torsion $C_N$.
+The complete source and log are
+\texttt{verify\_octic\_examples.m} and
+\texttt{verify\_octic\_examples.log}.
+\end{proof}
+
+\begin{corollary}\label{cor:octic-known-isogeny-bounds}
+For each of these ten curves, every elliptic curve isogenous over
+the same octic field has torsion order dividing the same $N$.
+In particular, these isogeny classes cannot produce an additional
+torsion group outside the six groups above and the published
+$\Phi^\infty(8)$ list.
+\end{corollary}
+\begin{proof}
+Good reduction is invariant under isogeny. Isogenous curves over
+a finite field have the same number of points, so the same gcd
+bounds apply. The numbers $33,34,35,39,42$ are squarefree, so a
+subgroup of $E(\overline K)_{\mathrm{tors}}$ with order dividing
+one of these numbers is cyclic. For $N=40$, the only noncyclic
+possibilities have the form $C_2\times C_{2d}$ with $d\mid10$;
+all belong to $\Phi^\infty(8)$. Every remaining cyclic divisor
+is either already in the published infinite list or is one of
+the six groups in the proposition.
+\end{proof}
+
+% These are realization certificates. The probabilistic source search is
+% not used as evidence of completeness of the octic classification.

@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "sources": 4,
+  "geometric_kernels": 16,
+  "physical_isogenies_independently_rebuilt": true,
+  "checks": [
+    {
+      "source": 1,
+      "all_four_geometric_kernels": true,
+      "target_closed_degrees": [
+        10,
+        30
+      ],
+      "actual_point_images_verified": true,
+      "norms_verified": true
+    },
+    {
+      "source": 2,
+      "all_four_geometric_kernels": true,
+      "target_closed_degrees": [
+        10,
+        30
+      ],
+      "actual_point_images_verified": true,
+      "norms_verified": true
+    },
+    {
+      "source": 3,
+      "all_four_geometric_kernels": true,
+      "target_closed_degrees": [
+        10,
+        30
+      ],
+      "actual_point_images_verified": true,
+      "norms_verified": true
+    },
+    {
+      "source": 4,
+      "all_four_geometric_kernels": true,
+      "target_closed_degrees": [
+        10,
+        30
+      ],
+      "actual_point_images_verified": true,
+      "norms_verified": true
+    }
+  ],
+  "seconds": 0.6856285571120679
+}

@@ -1,0 +1,1 @@
+DEGREES:=[8,9,10];SHARD:=3;NSHARDS:=6;LIMIT:=0;SKIPPROPER:=false;load "work/deg10/computations/d31a_even_p5_torsion_common.m";

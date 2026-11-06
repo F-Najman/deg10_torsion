@@ -1,0 +1,5 @@
+{
+  "reason": "Two independent source shards wrote the same immutable Frobenius packet; preserve the raw pair and use one identical packet.",
+  "identical_packets": 2,
+  "canonical_sha256": "62bc475720f05c2cabf01badb2ee3d80a4044288d45c8cb8aa869904c2bd356c"
+}

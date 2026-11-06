@@ -1,0 +1,6 @@
+Loading "work/deg10/continuation_20261030c/C91/source_backup/inputs/canonical_unit_stage1_data.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc91_source_cubic_arc.m", line 10, column 37:
+>> SF:=ext<GF(2)|PolynomialRing(GF(2))!SampleFieldPolynomial>;ev:=func<co|Eval
+                                       ^
+User error: Identifier 'SampleFieldPolynomial' has not been declared or assigned

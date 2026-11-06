@@ -1,0 +1,8 @@
+Loading "work/deg10/continuation_20261030c/C85/inputs/canonical_unit_stage1_data.m"
+NONIC85_CANONICAL_UNIT_STAGE1_DATA_READY
+Loading "work/deg10/continuation_20261030c/C85/census10.m"
+DEG10_C85_GENUINE_JETS_SOURCE case=1 targetdegrees=[ 10, 30 ] normweights=[ 1, 1 ] time=1.500
+DEG10_C85_GENUINE_JETS_SOURCE case=2 targetdegrees=[ 10, 30 ] normweights=[ 1, 1 ] time=2.920
+DEG10_C85_GENUINE_JETS_SOURCE case=3 targetdegrees=[ 10, 30 ] normweights=[ 1, 1 ] time=4.350
+DEG10_C85_GENUINE_JETS_SOURCE case=4 targetdegrees=[ 10, 30 ] normweights=[ 1, 1 ] time=5.780
+DEG10_C85_GENUINE_JETS_COMPLETE

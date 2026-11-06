@@ -1,0 +1,444 @@
+{
+  "status": "PASS",
+  "stage": "complete source census and two genus4 quotient sieves",
+  "support_cases": 60971,
+  "survivors": 4647,
+  "projected_images": 44819,
+  "exact_RR_ideal_identities": 44801,
+  "smooth_factorbase_images": 18,
+  "native_batches": [
+    [
+      "small",
+      1196,
+      1178,
+      18,
+      1.74
+    ],
+    [
+      "D7",
+      385,
+      385,
+      0,
+      0.98
+    ],
+    [
+      "D8",
+      1678,
+      1678,
+      0,
+      4.12
+    ],
+    [
+      "D9",
+      7257,
+      7257,
+      0,
+      14.26
+    ],
+    [
+      "D10s0",
+      4284,
+      4284,
+      0,
+      8.34
+    ],
+    [
+      "D10s1",
+      4283,
+      4283,
+      0,
+      8.37
+    ],
+    [
+      "D10s2",
+      4255,
+      4255,
+      0,
+      8.31
+    ],
+    [
+      "D10s3",
+      4272,
+      4272,
+      0,
+      8.35
+    ],
+    [
+      "D10s4",
+      4273,
+      4273,
+      0,
+      8.33
+    ],
+    [
+      "D10s5",
+      4365,
+      4365,
+      0,
+      8.49
+    ],
+    [
+      "D10s6",
+      4300,
+      4300,
+      0,
+      8.43
+    ],
+    [
+      "D10s7",
+      4271,
+      4271,
+      0,
+      8.38
+    ]
+  ],
+  "independent_sage_projection_batches": [
+    {
+      "tag": "D10s0",
+      "rows": 3422,
+      "maps": 4292,
+      "unique_images": 4284,
+      "status": "PASS"
+    },
+    {
+      "tag": "D10s1",
+      "rows": 3422,
+      "maps": 4291,
+      "unique_images": 4283,
+      "status": "PASS"
+    },
+    {
+      "tag": "D10s2",
+      "rows": 3422,
+      "maps": 4271,
+      "unique_images": 4255,
+      "status": "PASS"
+    },
+    {
+      "tag": "D10s3",
+      "rows": 3422,
+      "maps": 4283,
+      "unique_images": 4272,
+      "status": "PASS"
+    },
+    {
+      "tag": "D10s4",
+      "rows": 3422,
+      "maps": 4286,
+      "unique_images": 4273,
+      "status": "PASS"
+    },
+    {
+      "tag": "D10s5",
+      "rows": 3422,
+      "maps": 4374,
+      "unique_images": 4365,
+      "status": "PASS"
+    },
+    {
+      "tag": "D10s6",
+      "rows": 3421,
+      "maps": 4305,
+      "unique_images": 4300,
+      "status": "PASS"
+    },
+    {
+      "tag": "D10s7",
+      "rows": 3421,
+      "maps": 4287,
+      "unique_images": 4271,
+      "status": "PASS"
+    },
+    {
+      "tag": "D9",
+      "rows": 5888,
+      "maps": 7350,
+      "unique_images": 7257,
+      "status": "PASS"
+    },
+    {
+      "tag": "small",
+      "rows": 2941,
+      "maps": 5882,
+      "unique_images": 1196,
+      "status": "PASS"
+    },
+    {
+      "tag": "D7",
+      "rows": 316,
+      "maps": 389,
+      "unique_images": 385,
+      "status": "PASS"
+    },
+    {
+      "tag": "D8",
+      "rows": 1372,
+      "maps": 1775,
+      "unique_images": 1678,
+      "status": "PASS"
+    }
+  ],
+  "owned_workers_all_exited": [
+    {
+      "name": "next242_filter14_D10s0_eight.status",
+      "pid": 2372861,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s1_eight.status",
+      "pid": 2372794,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s2_eight.status",
+      "pid": 2372820,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s3_eight.status",
+      "pid": 2372824,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s4_eight.status",
+      "pid": 2372837,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s5_eight.status",
+      "pid": 2372867,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s6_eight.status",
+      "pid": 2372815,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s7_eight.status",
+      "pid": 2372831,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D7.status",
+      "pid": 2355677,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D8.status",
+      "pid": 2355636,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D9.status",
+      "pid": 2355642,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_merge_eight.status",
+      "pid": 2378148,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_small.status",
+      "pid": 2355630,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_frobenius.status",
+      "pid": 2355075,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s0.status",
+      "pid": 2381204,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s1.status",
+      "pid": 2381224,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s2.status",
+      "pid": 2381183,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s3.status",
+      "pid": 2381214,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s4.status",
+      "pid": 2381209,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s5.status",
+      "pid": 2381195,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s6.status",
+      "pid": 2381237,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s7.status",
+      "pid": 2381229,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D7.status",
+      "pid": 2363303,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D8.status",
+      "pid": 2363293,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D9.status",
+      "pid": 2363494,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_small.status",
+      "pid": 2363287,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s0.status",
+      "pid": 2379028,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s1.status",
+      "pid": 2379191,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s2.status",
+      "pid": 2379058,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s3.status",
+      "pid": 2379207,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s4.status",
+      "pid": 2379063,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s5.status",
+      "pid": 2379062,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s6.status",
+      "pid": 2379070,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s7.status",
+      "pid": 2379192,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D9.status",
+      "pid": 2363262,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_low.status",
+      "pid": 2362240,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source10_profile.status",
+      "pid": 2355650,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source10_s0.status",
+      "pid": 2356093,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source10_s1.status",
+      "pid": 2356066,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source10_s2.status",
+      "pid": 2356080,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source10_s3.status",
+      "pid": 2356089,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source_merge.status",
+      "pid": 2372001,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_target14_setup.status",
+      "pid": 2355053,
+      "actual_exit_code": 0,
+      "process_absent": true
+    }
+  ],
+  "paused_workers": 0,
+  "automatic_launchers": 0,
+  "finished_utc": "2026-10-30T17:43:16.165934+00:00"
+}

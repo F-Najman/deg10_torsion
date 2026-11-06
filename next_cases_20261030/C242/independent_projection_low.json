@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "tag": "small",
+      "rows": 2941,
+      "maps": 5882,
+      "unique_images": 1196,
+      "status": "PASS"
+    },
+    {
+      "tag": "D7",
+      "rows": 316,
+      "maps": 389,
+      "unique_images": 385,
+      "status": "PASS"
+    },
+    {
+      "tag": "D8",
+      "rows": 1372,
+      "maps": 1775,
+      "unique_images": 1678,
+      "status": "PASS"
+    }
+  ],
+  "seconds": 5.3079391391947865,
+  "sha256": {
+    "filter14_images_small.m": "8b46e29b20e42e6e77cd579921212fb0f954f13ada662dbb7f4e596a9dc59f4f",
+    "filter14_D4_small.m": "b19964dd2d6a4baf2d202323c6da832cb79c40852fdce3979fd79836c962ad26",
+    "source4.m": "7d76f738c7c1d5b408ed65708cc648d2ba733b041e6da29f4ae8d9f435417551",
+    "filter14_D5_small.m": "47b04c4cfd4a66d09e9494229f9d67d66ed2ab5188333eb7ab266bd43e3df3e4",
+    "source5.m": "fb0386aef3b28948cf6d549ea4860b4079fe4e933f545ffd8531ff378d790e4d",
+    "filter14_D6_small.m": "69c250cda1677b1b0162a4b503b630ba1d4198e7f2f367357f0bc45f64e856fc",
+    "source6.m": "ecf57fd1451895cd399faf30d69ea9907c3cc4b0a89b2bf088f96749e688581d",
+    "filter14_images_D7.m": "fbbd5fffb36de952004e791df3896949fb87e5515fa504694959164b25112bd9",
+    "filter14_D7_D7.m": "c47fac5a1d064a0fbf68e9b833d7efa4330143b6971fb19d9c3a807c3c3adcef",
+    "source7.m": "a2bffaf12105fcbbdd5428e990187381f2f77f82ea3286015522cc24f6db8d1b",
+    "filter14_images_D8.m": "b6b0b1573b14c0286117bc05f7a6f1ab194e74c278f036f1a5d8d057f574a64b",
+    "filter14_D8_D8.m": "cb33fc4b4ec7cf243e1439641ea6a1931171452e3b0181bf599c0d08305774b9",
+    "source8.m": "c8bc402fc879eed16454cf649736b070f3b6a3932d20623d12bd9ba53eed2f2e"
+  }
+}

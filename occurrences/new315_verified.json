@@ -1,0 +1,90 @@
+{
+  "status": "VERIFIED EXACT FULL TORSION",
+  "base_polynomial": [
+    1,
+    1,
+    1
+  ],
+  "relative_polynomial": [
+    [
+      "1",
+      "1"
+    ],
+    [
+      "4",
+      "1"
+    ],
+    [
+      "4",
+      "4"
+    ],
+    [
+      "-22",
+      "-24"
+    ],
+    [
+      "13",
+      "13"
+    ],
+    [
+      "1",
+      "0"
+    ]
+  ],
+  "q_coefficients": [
+    [
+      "1969716/1316941",
+      "211356/1316941"
+    ],
+    [
+      "1098413/1316941",
+      "-3691023/1316941"
+    ],
+    [
+      "-8879232/1316941",
+      "65987/1316941"
+    ],
+    [
+      "5175218/1316941",
+      "994317/1316941"
+    ],
+    [
+      "64606/1316941",
+      "-320275/1316941"
+    ]
+  ],
+  "reconstruction_primes": [
+    7,
+    13,
+    19,
+    43,
+    61,
+    67,
+    73,
+    79,
+    97
+  ],
+  "reconstruction_modulus": "169976848270411",
+  "contains": [
+    3,
+    15
+  ],
+  "degree": 10,
+  "full_torsion": [
+    3,
+    15
+  ],
+  "j_degree_over_Q": 5,
+  "nonCM": true,
+  "good_reduction": {
+    "p": 43,
+    "zeta_root": 6,
+    "t_root": 28,
+    "order": 45,
+    "invariants": [
+      3,
+      15
+    ]
+  },
+  "all_decic_curves_containing_this_group_classified": true
+}

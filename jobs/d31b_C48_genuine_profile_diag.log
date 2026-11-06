@@ -1,0 +1,8 @@
+D31B_C48_GENUINE_PROFILE_FIELD 7 38274 10 4 40 0.1787015781737864
+D31B_C48_GENUINE_PROFILE_KERNELS 7 8 0.4977606749162078
+DBG 4 False False False False False
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_genuine_profile_diag.py", line 24, in <module>
+    QQ=ph(Q);zz=manual(E,Q,ph);print("DBG",ph.scaling_factor(),ph.codomain().a_invariants()==E.a_invariants(),ph.codomain().a2()==E.a2(),QQ[0]==zz[0],QQ[1]==zz[1],ph.codomain().is_on_curve(*zz),flush=True);assert list(QQ.xy())==zz;targets[json.dumps(key(xy(ph.codomain(),QQ)))]+=1
+                                                                                                                                                                                                                     ^^^^^^^^^^^^^^^^^
+AssertionError

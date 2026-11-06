@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_RR612_norm13_shard1",
+  "script": "computations/cont_RR612_norm13_shard1.m",
+  "script_sha256": "ab8f0a4d79c0be2e0001e306afc3c6b6db22a54c82c37a67538fb7e37f6b0274",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_norm13_shard1.m"
+  ],
+  "pid": 476352,
+  "owner_uid": 1001,
+  "start_time_unix": 1793294752.29968,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/cont_RR612_norm13_shard1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 58.956326484680176
+}

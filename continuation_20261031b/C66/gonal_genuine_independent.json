@@ -1,0 +1,438 @@
+{
+  "status": "PASS",
+  "global_gonal_classes": 10,
+  "diamond_orbits": 2,
+  "transported_pencil_classes": [
+    [
+      6,
+      5717420,
+      0
+    ],
+    [
+      6,
+      10390520,
+      0
+    ],
+    [
+      6,
+      7548770,
+      0
+    ],
+    [
+      6,
+      31293170,
+      0
+    ],
+    [
+      6,
+      7548770,
+      0
+    ],
+    [
+      6,
+      31608920,
+      0
+    ],
+    [
+      6,
+      5717420,
+      0
+    ],
+    [
+      6,
+      10390520,
+      0
+    ],
+    [
+      6,
+      31608920,
+      0
+    ],
+    [
+      6,
+      31293170,
+      0
+    ],
+    [
+      6,
+      8464445,
+      0
+    ],
+    [
+      6,
+      21031295,
+      0
+    ],
+    [
+      6,
+      21978545,
+      0
+    ],
+    [
+      6,
+      42312845,
+      0
+    ],
+    [
+      6,
+      21978545,
+      0
+    ],
+    [
+      6,
+      13958495,
+      0
+    ],
+    [
+      6,
+      8464445,
+      0
+    ],
+    [
+      6,
+      21031295,
+      0
+    ],
+    [
+      6,
+      13958495,
+      0
+    ],
+    [
+      6,
+      42312845,
+      0
+    ]
+  ],
+  "fibres": [
+    {
+      "base": 1,
+      "value": 0,
+      "cuspidal_mass_on_X133": 10,
+      "marked_source_mass": 0,
+      "maximum_paired_fibre_degree": 0,
+      "kernel_records": 0
+    },
+    {
+      "base": 1,
+      "value": 1,
+      "cuspidal_mass_on_X133": 10,
+      "marked_source_mass": 0,
+      "maximum_paired_fibre_degree": 0,
+      "kernel_records": 0
+    },
+    {
+      "base": 1,
+      "value": 2,
+      "cuspidal_mass_on_X133": 0,
+      "marked_source_mass": 30,
+      "maximum_paired_fibre_degree": 4,
+      "kernel_records": 6
+    },
+    {
+      "base": 1,
+      "value": 3,
+      "cuspidal_mass_on_X133": 0,
+      "marked_source_mass": 30,
+      "maximum_paired_fibre_degree": 0,
+      "kernel_records": 3
+    },
+    {
+      "base": 1,
+      "value": 4,
+      "cuspidal_mass_on_X133": 0,
+      "marked_source_mass": 30,
+      "maximum_paired_fibre_degree": 0,
+      "kernel_records": 3
+    },
+    {
+      "base": 1,
+      "value": 5,
+      "cuspidal_mass_on_X133": 10,
+      "marked_source_mass": 0,
+      "maximum_paired_fibre_degree": 0,
+      "kernel_records": 0
+    },
+    {
+      "base": 2,
+      "value": 0,
+      "cuspidal_mass_on_X133": 10,
+      "marked_source_mass": 0,
+      "maximum_paired_fibre_degree": 0,
+      "kernel_records": 0
+    },
+    {
+      "base": 2,
+      "value": 1,
+      "cuspidal_mass_on_X133": 0,
+      "marked_source_mass": 30,
+      "maximum_paired_fibre_degree": 0,
+      "kernel_records": 2
+    },
+    {
+      "base": 2,
+      "value": 2,
+      "cuspidal_mass_on_X133": 0,
+      "marked_source_mass": 30,
+      "maximum_paired_fibre_degree": 4,
+      "kernel_records": 7
+    },
+    {
+      "base": 2,
+      "value": 3,
+      "cuspidal_mass_on_X133": 0,
+      "marked_source_mass": 30,
+      "maximum_paired_fibre_degree": 0,
+      "kernel_records": 2
+    },
+    {
+      "base": 2,
+      "value": 4,
+      "cuspidal_mass_on_X133": 10,
+      "marked_source_mass": 0,
+      "maximum_paired_fibre_degree": 0,
+      "kernel_records": 0
+    },
+    {
+      "base": 2,
+      "value": 5,
+      "cuspidal_mass_on_X133": 10,
+      "marked_source_mass": 0,
+      "maximum_paired_fibre_degree": 0,
+      "kernel_records": 0
+    }
+  ],
+  "genuine_marked_2kernels": 23,
+  "distinct_source33_places": 11,
+  "source66_degrees_verified": true,
+  "all_TwoGenerators_bound_to_actual_moduli": true,
+  "all_paired_fibre_degrees_at_most": 4,
+  "details": [
+    {
+      "base": 1,
+      "value": 2,
+      "source_degree": 4,
+      "kernel_orbit": 1,
+      "source66_degree": 4,
+      "target_moduli_degree": 4,
+      "rational_targets": [
+        [
+          12,
+          2
+        ],
+        [
+          18,
+          2
+        ]
+      ]
+    },
+    {
+      "base": 1,
+      "value": 2,
+      "source_degree": 4,
+      "kernel_orbit": 1,
+      "source66_degree": 4,
+      "target_moduli_degree": 4,
+      "rational_targets": []
+    },
+    {
+      "base": 1,
+      "value": 2,
+      "source_degree": 4,
+      "kernel_orbit": 1,
+      "source66_degree": 4,
+      "target_moduli_degree": 4,
+      "rational_targets": []
+    },
+    {
+      "base": 1,
+      "value": 2,
+      "source_degree": 6,
+      "kernel_orbit": 1,
+      "source66_degree": 6,
+      "target_moduli_degree": 6,
+      "rational_targets": []
+    },
+    {
+      "base": 1,
+      "value": 2,
+      "source_degree": 6,
+      "kernel_orbit": 1,
+      "source66_degree": 6,
+      "target_moduli_degree": 6,
+      "rational_targets": []
+    },
+    {
+      "base": 1,
+      "value": 2,
+      "source_degree": 6,
+      "kernel_orbit": 1,
+      "source66_degree": 6,
+      "target_moduli_degree": 6,
+      "rational_targets": []
+    },
+    {
+      "base": 1,
+      "value": 3,
+      "source_degree": 10,
+      "kernel_orbit": 1,
+      "source66_degree": 10,
+      "target_moduli_degree": 10,
+      "rational_targets": []
+    },
+    {
+      "base": 1,
+      "value": 3,
+      "source_degree": 10,
+      "kernel_orbit": 1,
+      "source66_degree": 10,
+      "target_moduli_degree": 10,
+      "rational_targets": []
+    },
+    {
+      "base": 1,
+      "value": 3,
+      "source_degree": 10,
+      "kernel_orbit": 1,
+      "source66_degree": 10,
+      "target_moduli_degree": 10,
+      "rational_targets": []
+    },
+    {
+      "base": 1,
+      "value": 4,
+      "source_degree": 10,
+      "kernel_orbit": 1,
+      "source66_degree": 10,
+      "target_moduli_degree": 10,
+      "rational_targets": []
+    },
+    {
+      "base": 1,
+      "value": 4,
+      "source_degree": 10,
+      "kernel_orbit": 1,
+      "source66_degree": 10,
+      "target_moduli_degree": 10,
+      "rational_targets": []
+    },
+    {
+      "base": 1,
+      "value": 4,
+      "source_degree": 10,
+      "kernel_orbit": 1,
+      "source66_degree": 10,
+      "target_moduli_degree": 10,
+      "rational_targets": []
+    },
+    {
+      "base": 2,
+      "value": 1,
+      "source_degree": 2,
+      "kernel_orbit": 3,
+      "source66_degree": 6,
+      "target_moduli_degree": 6,
+      "rational_targets": []
+    },
+    {
+      "base": 2,
+      "value": 1,
+      "source_degree": 8,
+      "kernel_orbit": 3,
+      "source66_degree": 24,
+      "target_moduli_degree": 24,
+      "rational_targets": []
+    },
+    {
+      "base": 2,
+      "value": 2,
+      "source_degree": 3,
+      "kernel_orbit": 1,
+      "source66_degree": 3,
+      "target_moduli_degree": 3,
+      "rational_targets": []
+    },
+    {
+      "base": 2,
+      "value": 2,
+      "source_degree": 3,
+      "kernel_orbit": 2,
+      "source66_degree": 6,
+      "target_moduli_degree": 6,
+      "rational_targets": []
+    },
+    {
+      "base": 2,
+      "value": 2,
+      "source_degree": 3,
+      "kernel_orbit": 1,
+      "source66_degree": 3,
+      "target_moduli_degree": 3,
+      "rational_targets": []
+    },
+    {
+      "base": 2,
+      "value": 2,
+      "source_degree": 3,
+      "kernel_orbit": 2,
+      "source66_degree": 6,
+      "target_moduli_degree": 6,
+      "rational_targets": []
+    },
+    {
+      "base": 2,
+      "value": 2,
+      "source_degree": 4,
+      "kernel_orbit": 1,
+      "source66_degree": 4,
+      "target_moduli_degree": 4,
+      "rational_targets": [
+        [
+          6,
+          2
+        ],
+        [
+          9,
+          2
+        ]
+      ]
+    },
+    {
+      "base": 2,
+      "value": 2,
+      "source_degree": 4,
+      "kernel_orbit": 1,
+      "source66_degree": 4,
+      "target_moduli_degree": 4,
+      "rational_targets": []
+    },
+    {
+      "base": 2,
+      "value": 2,
+      "source_degree": 4,
+      "kernel_orbit": 1,
+      "source66_degree": 4,
+      "target_moduli_degree": 4,
+      "rational_targets": []
+    },
+    {
+      "base": 2,
+      "value": 3,
+      "source_degree": 2,
+      "kernel_orbit": 3,
+      "source66_degree": 6,
+      "target_moduli_degree": 6,
+      "rational_targets": []
+    },
+    {
+      "base": 2,
+      "value": 3,
+      "source_degree": 8,
+      "kernel_orbit": 3,
+      "source66_degree": 24,
+      "target_moduli_degree": 24,
+      "rational_targets": []
+    }
+  ],
+  "elapsed_seconds": 0.9520634319633245
+}

@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_Y228_independent_genuine_v2_s1",
+  "script": "computations/d31b_Y228_independent_genuine_v2_s1.py",
+  "script_sha256": "c5562b080c66c6aae8eeaa82a9829e32278794bd6ba1a14d316fa925acd516d2",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_independent_genuine_v2_s1.py"
+  ],
+  "pid": 3576132,
+  "owner_uid": 1001,
+  "start_time_unix": 1793438441.77041,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/d31b_Y228_independent_genuine_v2_s1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 40.617449045181274
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "late250_control_s2",
+  "script": "computations/late250_control_s2.m",
+  "script_sha256": "bbb17565d285ed8d9722f403d0d74ce5135f6ecbca2310d33ecd7124381ce4f4",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late250_control_s2.m"
+  ],
+  "pid": 947509,
+  "owner_uid": 1001,
+  "start_time_unix": 1793316624.2020543,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/late250_control_s2.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 600.0640888214111
+}

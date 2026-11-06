@@ -1,0 +1,18 @@
+{
+  "purpose": "contc85_verify_jets10",
+  "script": "continuation_20261030c/C85/contc85_verify_jets10.py",
+  "script_sha256": "f2357c8da75d256f9fa7e0b0d41b351259101aa5c2ff1697061e69c867cb60f9",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C85/contc85_verify_jets10.py"
+  ],
+  "pid": 2726034,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398386.8631973,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/contc85_verify_jets10.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 7.927960157394409
+}

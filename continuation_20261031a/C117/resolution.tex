@@ -1,0 +1,89 @@
+\begin{proposition}\label{prop:decic-no117}
+An elliptic curve over a number field of degree $10$ has no point
+of order $117$.
+\end{proposition}
+\begin{proof}
+Suppose that $E/K$ has a point $Q$ of order $117$, with
+$[K:\mathbb Q]=10$. Let $D$ be the rational trace divisor of
+$(E,3Q)$ on $X=X_1(39)$, including multiplicities if its moduli
+field is smaller than $K$.
+We use the degree-independent $X_1(39)$ certificate. The curve has
+genus $33$, rational gonality $14$, and
+\[
+ J_X(\mathbb Q)=[7,31122,3236688],\qquad
+ J_X(\mathbb Q)[2^\infty]=[2,16].
+\]
+The Jacobian statement follows from
+\cite[Theorem~3.1(2), Theorem~4.13 and Table~2]{DEHMZ};
+the gonality is given in \cite[Table~1]{DvH}.
+Specialization at $2$ is injective on $J_X(\mathbb Q)$.
+We recall its independent certification: the order-$3$ diamond
+quotient has genus $9$ and rational cuspidal $2$-primary reduction
+image of order $32$. Pullback bounds its rational $2$-primary
+torsion by the source group $[2,16]$, also of order $32$.
+The order-$3$ diamond acts trivially on this source group, since
+its automorphism group has order $32$.
+On the source rational $2$-primary group the norm identity
+$\pi^*\pi_*=1+h+h^2=[3]$, where $h$ is the order-$3$ diamond,
+then proves injectivity; odd torsion is automatically
+injective. The quotient model, actual cuspidal relation lattice,
+and the order-$32$ reduction image are all checked in the retained
+certificate.
+
+The global and finite cusp signatures both equal
+\[
+                         1^{12}2^6 12^2.
+\]
+Hence every cuspidal divisor of degree at most $10$ in the special
+fibre lifts to a rational cuspidal divisor of the same degree.
+If $\overline D$ is entirely cuspidal, let $C$ be this lift.
+Injectivity gives $D\sim C$, and gonality $14>10$ gives $D=C$,
+contrary to the noncuspidal support of $D$.
+
+At every noncuspidal reduction of $(E,3Q)$ the fine level-$39$
+model gives good reduction of $E$. The prime-to-$2$ point $Q$
+retains order $117$. The independent complete census over
+$\mathbb F_{2^f}$, $1\leq f\leq10$, shows that the only possible
+residue degrees are $8$ and $9$, with group orders $234$ and
+$468$, respectively. In particular no new degree-$10$ reduction
+occurs. This last assertion can also be seen from the Hasse
+interval $[961,1089]$: its only multiple of $117$ is $1053$,
+whose trace $-28$ is neither ordinary nor supersingular in
+characteristic $2$.
+If the actual residue field of $E$ has degree $f=8$ or $9$,
+the degree $g$ of its marked $39$-level place divides $f$.
+Every proper divisor is at most $4$, where the Hasse bound
+excludes order $39$. Thus $g=f$.
+It follows that $\overline D=P+C$, where $P$ is one noncuspidal
+place of degree $8$ or $9$, and $C$ is a cuspidal divisor of degree $2$ or
+$1$. Both complements lift globally.
+
+Put $A_5=T_5-1-5\langle5\rangle$, using the point-level Hecke
+correspondence. Eichler--Shimura and torsion injectivity at $5$
+give $A_5J_X(\mathbb Q)=0$. The cusp boundary formula
+\[
+ T_5=\operatorname{Fr}_5+
+                5\langle5\rangle\operatorname{Fr}_5^{-1}
+\]
+shows that $A_5$ annihilates every rational cuspidal divisor
+literally. Hence $A_5P$ must be principal.
+There are five octic diamond orbits. The retained exact
+nonprincipality tests exclude four of them; the fifth is the
+reduction of the known closed octic divisor $D_8$.
+In this case injectivity and gonality give
+$D=hD_8+C$ for a rational diamond $h$ and the rational lift of
+$C$, contradicting noncuspidal support.
+
+It remains to consider degree $9$.
+The complete census has exactly three curves of order $468$,
+whose $j$-invariants form a degree-$3$ orbit.
+Their rational $39$-torsion is cyclic since $\gcd(39,511)=1$.
+Thus they give exactly $3\varphi(39)/2=36$ geometric marked
+points. The known closed nonic divisor $D_9$ has four distinct
+closed diamond translates, giving all $36$ points.
+Independent exact finite-field arithmetic binds those four
+reductions to the complete census.
+Consequently $\overline D=\overline{hD_9}+C$ for some rational
+diamond $h$. Injectivity and gonality again give $D=hD_9+C$,
+contradicting noncuspidal support.
+\end{proof}

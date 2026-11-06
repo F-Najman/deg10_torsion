@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C56_branch_norm_probe",
+  "script": "computations/d31b_C56_branch_norm_probe.m",
+  "script_sha256": "1dad382bae0b13c22fb91ae372f98e2860edf5a58dc45d944fba50cc7683f8cd",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_branch_norm_probe.m"
+  ],
+  "pid": 3622284,
+  "owner_uid": 1001,
+  "start_time_unix": 1793440381.719895,
+  "state": "EXITED",
+  "time_limit_seconds": 500,
+  "log": "jobs/d31b_C56_branch_norm_probe.log",
+  "actual_exit_code": -14,
+  "termination_reason": null,
+  "elapsed_seconds": 240.03446865081787
+}

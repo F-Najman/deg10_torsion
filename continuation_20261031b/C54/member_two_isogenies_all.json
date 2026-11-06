@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "target_points": 192,
+  "actual_kernel_orbits": 361,
+  "distinct_target_images": 334,
+  "RR_members": 1067,
+  "possible_full_source_NC_lifts": 147,
+  "cusp_degrees": {
+    "0": 59,
+    "1": 88
+  },
+  "elapsed_seconds": 3.8419033009558916
+}

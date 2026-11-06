@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_hecke_framed",
+  "script": "computations/d31b_m318_hecke_framed.m",
+  "script_sha256": "c64f797236383be6dc6265142a54d4eb73c1fe0351583d348f8fdfcd54264d5e",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_hecke_framed.m"
+  ],
+  "pid": 3530307,
+  "owner_uid": 1001,
+  "start_time_unix": 1793436297.9406023,
+  "state": "EXITED",
+  "time_limit_seconds": 500,
+  "log": "jobs/d31b_m318_hecke_framed.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 42.47219800949097
+}

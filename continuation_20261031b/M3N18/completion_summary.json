@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "parent_mathematical_review": "PASS",
+  "complete_low_degree_classification": true,
+  "classified_effective_relative_degree": 5,
+  "relative_field": "Q(zeta3)",
+  "absolute_degree": 10,
+  "realized_groups": [
+    [
+      3,
+      18
+    ]
+  ],
+  "excluded_groups": [
+    [
+      3,
+      36
+    ],
+    [
+      6,
+      18
+    ]
+  ],
+  "new_occurrence": true,
+  "new_exclusion_of_C3xC18": false,
+  "marking_automorphism_group_order": 27,
+  "closed_quintic_marking_orbits": 2,
+  "orbit_size": 27,
+  "exact_torsion_orders": [
+    54,
+    54
+  ],
+  "both_curves_2_isogenous_over_same_decic_field": true,
+  "global_cuspidal_generation_assumed": false,
+  "Jacobian_rank_zero_input": "Derickx-Sutherland Theorem4.1 m3 n6",
+  "source_genus": 10,
+  "gonality_F7_lower_bound": 6,
+  "cusp_group_order": 20253807,
+  "split_Hecke_kernel_over_cusps": [
+    3,
+    3,
+    3
+  ],
+  "NC_closed_counts7": [
+    0,
+    27,
+    144,
+    513,
+    3672
+  ],
+  "NC_closed_counts13": [
+    0,
+    54,
+    846,
+    7506,
+    75384
+  ],
+  "source_patterns": 3622,
+  "target_patterns": 20222,
+  "paired_survivors": 78,
+  "distinct_Hecke_supports": 53,
+  "exact_negative_Hecke_supports": 43,
+  "independent_marked_sources": 45,
+  "independent_geometric7kernels": 360,
+  "independent_native_prime_refs": 292,
+  "independent_cubic_restrictions": 2394,
+  "independent_quartic_restrictions": 36,
+  "global_RR_dimensions": [
+    1,
+    1
+  ],
+  "actual_relative_quintic_and_absolute_decic_models_verified": true,
+  "both_global_RR_sections_independently_evaluate_to_zero": true,
+  "both_unramified_F49_good_reductions_have_order54": true,
+  "positive_native_and_Sage_F13_marked_binding": true,
+  "final_proposition_label": "prop:decic318-classification",
+  "frontier_corollary_label": "cor:decic318-no-larger",
+  "workers_remaining": 0
+}

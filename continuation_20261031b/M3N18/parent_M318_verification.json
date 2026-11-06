@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "global_section_first_class": "Nonzero exact characteristic-zero section; both finite and infinite ideal pole bounds independently verified",
+  "global_dimension_first_class": 1,
+  "dimension_upper_bound": "Exact native13 Riemann-Roch h0(A)=1; h0(A-D_actual)=1 forbothremainingclasses",
+  "relative_cubic_restrictions_independently_checked": 2394,
+  "relative_quartic_restrictions_independently_checked": 36,
+  "marked_tau_crossing_at13": "Exact physicalisogeny +independent3/18markings; g=[1,0,2,7],Frobeniusphase1",
+  "absolute_number_field_degree": 10,
+  "absolute_polynomial_irreducible": true,
+  "marked_orders": [
+    3,
+    18
+  ],
+  "independence_and_Weil_pairing_verified": true,
+  "unramified_prime": 7,
+  "factor_degrees_at7": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "both_quadratic_reductions_E_and_tauE_order": [
+    54,
+    54
+  ],
+  "exact_full_torsion_both_curves": [
+    3,
+    18
+  ],
+  "method": "Independent fresh native function fields, global ideal inequalities, actual level-structure maps, and exact absolute number-field reductions",
+  "jobs": [
+    "d31b_m318_parent_global_basis_13900",
+    "d31b_m318_parent_native_shortclass13_v2",
+    "d31b_m318_parent_nf_reductions",
+    "d31b_m318_tau_cross13"
+  ],
+  "files_sha256": {
+    "computations/d31b_m318_parent_global_basis_13900.m": "111afafd656436374ed8ca8bdacb38d0d8906a1e97abaab3d37fc0b4dd53e4b8",
+    "computations/d31b_m318_parent_global_basis_common.m": "b37c1e57cc820df79e2d5d17136b9e541870fccf246fbd3bba1d49495681383a",
+    "computations/d31b_m318_parent_native_shortclass13_v2.m": "da43b3c2bd63c48694f6804fa715f8c86bae35cfc059b616e29970d49e34f9fe",
+    "computations/d31b_m318_parent_nf_reductions.m": "a718ad795af09fcb2720c15de9bb11211b83eaef8423da4402f642423a5aa44d",
+    "computations/d31b_m318_tau_cross13.m": "bc67a015b1405b770f52c2303de7766bb8a2f47b8e87470ce966a53de95792a0",
+    "continuation_20261031b/M3N18/endomorphism_gluing/global_point13900_absolute.m": "8e8695eebea6508ee0b32996f260017f94dcd9a254c7b38a518c4e5aeef5e43e",
+    "continuation_20261031b/M3N18/endomorphism_gluing/tau_cusp_class_relation.json": "0333fbdc90ed194bd57d25680c48ad29e47a61927a514223daeb99bc5247dd39",
+    "continuation_20261031b/M3N18/global_cusp_model_char0_rational.m": "2ada4eadc26e44adedec2719e18a8d547cd6e0ec31882adbf553de888a175389",
+    "continuation_20261031b/M3N18/parent_global_basis_13900.m": "0812ce5f3e6d77d09d6696677e708d45d6d8e2e4e0a4498fd5d7199acae1d120",
+    "continuation_20261031b/M3N18/parent_global_basis_first.snapshot.m": "4f961743b01a14314d7bfe106d24f22e30ba1eff1898db28bf85b28a0cd21297",
+    "continuation_20261031b/M3N18/parent_native_shortclass13.m": "32ef1345a87fb5500a1f9127059622905a25b8e7c7985b1b9305e4e8cbd0b4cc",
+    "continuation_20261031b/M3N18/parent_nf_reductions.m": "f0bc89c1c83683283128d5f41f277b3ee88925a464082b9005395b6602ca292f",
+    "continuation_20261031b/M3N18/parent_relative_cubic_verified.json": "cad2b4d472de92731fc1588e7a9bb2543ff0b5931dfc54f3d9b1ee48f8123794",
+    "continuation_20261031b/M3N18/parent_relative_quartic_verified.json": "4d1e53ffcc81d6d84045c8efcb5c898ee2ea9c3ca21cba6924d3320c78b58aad",
+    "continuation_20261031b/M3N18/tau_cross13.m": "e3ffdb2f1bb919aa5eeb57b4671477281f5f5740d31afe3ad5ecc12129c15f8a",
+    "jobs/d31b_m318_parent_global_basis_13900.log": "3b5648024f2f5af0149f31634c10e06886de141d4f2a4b00357428bfd8918b63",
+    "jobs/d31b_m318_parent_global_basis_13900.status.json": "8886a0a94b14bf5d897318e8bc87de85ae5719e3a1fd502dd770fc34d7dbf5dc",
+    "jobs/d31b_m318_parent_native_shortclass13_v2.log": "4e32d0d06d650f3d0b139af3ecc7e08af015dc99698a3c5c2edd42ef2e3bb651",
+    "jobs/d31b_m318_parent_native_shortclass13_v2.status.json": "f78e9a0647f76cbe0b4ffd7c157486cf170db445ef1badabcd48198631cd9e87",
+    "jobs/d31b_m318_parent_nf_reductions.log": "5c060168a6ea5f1ebb30f8de3ffe1aabc7c2f77239bf4f0eccc47e36efc8550e",
+    "jobs/d31b_m318_parent_nf_reductions.status.json": "7b072ca1382970bb5737d62c9834c04899aa4c23e349dd55186f4dfc88216bcc",
+    "jobs/d31b_m318_tau_cross13.log": "2b787169b90af15e3ef743ff3f69db80e19e6a7bd3a6a64041005292185c121a",
+    "jobs/d31b_m318_tau_cross13.status.json": "f15bb5ecef080893b363278e39b7e02a8e9b19b476c55eab51878464ef390040"
+  }
+}

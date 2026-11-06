@@ -1,0 +1,7 @@
+C99_Y29_FIBRE_POLYNOMIAL 0 []
+0.040
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc99_independent_Y29_model_v3.m", line 6, column 256:
+>> ",Degree(pol),[Degree(v[1]):v in fac],Cputime(tt);assert #fac eq 1 and Degr
+                                      ^
+Runtime error in assert: Assertion failed

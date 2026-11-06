@@ -1,0 +1,58 @@
+Independent theory audit of cyclic_sieves/C75_exclusion_root.tex
+Result: PASS. No substantive mathematical gap found.
+
+1. The quotient is X1(75)/<26>, not a degree-four cover with an
+   unverified orientation. The diamond26 fixes the25-component and
+   reverses the3-component. Any nonidentity elliptic automorphism has
+   deg(u-1)<=4, in every characteristic, so cannot fix a point of
+   order25. This also covers the characteristic-two automorphisms of
+   order4. The independent Tate audit verifies freeness at all112cusps.
+   Consequently the quotient is etale and smooth at2, including the
+   otherwise potentially wild order-two action. Its genus is73.
+
+2. The canonical characteristic-two3-division polynomial parametrizes
+   the cyclic3-subgroup, whereas the25-point is retained. Thus the
+   quartic over native X1(25), with the verified inverse rebase, gives
+   precisely this quotient. No relative3-generator sign is required.
+
+3. The source degree<=8 point counts leave only NC7+cusp1 and the
+   entirely-cuspidal branch. The independent Tate enumeration proves
+   that all20source F2-rationalcusps are the width75 Q-rationalcusps.
+   Thus the complement in the NC7 branch never maps from a quadratic
+   width25sourcecusp. The exact rational-cusp boundary relation kills
+   its A7-image. Pushforward has multiplicity1 at the NC7 point since
+   its j-invariant already has degree7. The full source diamond orbit
+   covers every candidate, and A7 commutes with the quotient map.
+
+4. Rank zero passes from JX(Q) to JY(Q) by pullback and pushforward.
+   At the odd goodprime7, torsion reduction is injective, so the
+   Eichler-Shimura relation kills A7 on JY(Q). The recorded nonprincipal
+   A7-image is therefore a valid obstruction. Its four degree14terms
+   have multiplicity1: all eight geometric kernels occur in pairs in
+   each closed-point orbit, so the untouched all-kernel routine lists
+   twice the norm divisor. This point is explicitly covered by the
+   separate full-moduli and norm certificates, rather than assumed.
+
+5. In the cuspidal branch, the multiplicity restrictions apply to the
+   pushed-forward source divisor. Exactly ten rational targetcusps
+   (width25) require evenmultiplicity; the ten width75cusps and all
+   four quarticcusps have step1. The independent label audit obtains
+   131790admissible degree8divisors, and delta2cycles10,10,2,2.
+   Thus16sourceRRspaces transport to128needed localblocks, with no
+   hidden omitted low-degree cusp or unrestricted oddwidth25term.
+
+6. The quotient Cartier criterion applies to DY=pi_*D. Its global
+   rational class is torsion by rankzero, and the difference with the
+   canonical cuspidal lift is torsion by Manin-Drinfeld after passing
+   to the cyclotomic decompositionfield with dyadiccompletionQ2.
+   The finite-flat dyadiclemma kills this formal torsion by
+   beta=T2-delta2. Its cotangent image is delta2(C-1)Omega,
+   the same subspace as (C-1)Omega. Hence the certified rank8 at every
+   admissible divisor supplies the needed formalimmersion. Equality
+   with the cuspidal lift forces DY to have cuspidalsupport, which is
+   impossible because finite diamondquotient maps preserve the
+   noncuspidal locus and positive cyclepushforward has no cancellation.
+
+This audit reads the stated completed arithmetic certificates; it does
+not replace the parent's fresh executions or independent binary replay.
+Independent combinatorial files: audit75_tate_parities.py/.json/.log.

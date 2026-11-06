@@ -1,0 +1,61 @@
+% Finite-flat refinement. Root audit requested; no C65 exclusion follows yet.
+\begin{lemma}\label{lem:dyadic-Hecke}
+Let $A/\Z_2$ be an abelian scheme and let $T,\delta$ be
+endomorphisms whose reductions satisfy
+\[
+ T_{\F_2}=F+\delta_{\F_2}V,
+\]
+where $F,V$ are Frobenius and Verschiebung on $A_{\F_2}$.
+Then $T-\delta$ kills every element of $A(\Q_2)[2]$ whose
+reduction is zero.
+In particular, at odd level $N$, the operator
+$T_2-\langle2\rangle$ kills the torsion kernel of reduction
+$J_1(N)(\Q_2)_{\rm tors}\to J_1(N)(\F_2)$.
+\end{lemma}
+\begin{proof}
+Let $z$ be a nonzero point as in the statement. Its schematic
+closure in the finite-flat group $A[2]$ is finite flat of rank
+$2$: the coordinate ring of the closure is torsion free over
+the discrete valuation ring. Its special fibre is connected,
+because its two generic points, zero and $z$, have the same
+reduction. The classification of rank-two finite-flat group
+schemes over $\Z_2$ therefore identifies this closure with
+$\mu_2$. This special case is elementary: in the Tate--Oort
+description the augmentation coordinate has relation $x^2=ax$
+and coproduct $x\otimes1+1\otimes x-cx\otimes x$, with
+$ac=2$. Connected special fibre means $a\in2\Z_2$, so $c$
+is a unit; replacing $x$ by $cx$ identifies the group with
+$\mu_2$. See Tate--Oort \cite{TO}.
+
+Write $\iota:\mu_2\hookrightarrow A[2]$ for this inclusion.
+On the special fibre, naturality of Frobenius and Verschiebung
+and $F_{\mu_2}=0$, $V_{\mu_2}=1$ give
+$(T-\delta)\iota=0$.
+The restriction map
+\[
+ \operatorname{Hom}_{\Z_2}(\mu_2,A[2])\longrightarrow
+ \operatorname{Hom}_{\F_2}(\mu_2,A[2]_{\F_2})
+\]
+is injective. Indeed, Cartier duality turns this into the
+corresponding assertion for morphisms from $A^\vee[2]$ to
+the constant etale group $\Z/2\Z$. The preimage of either
+component is open and closed in a finite-flat scheme over
+$\Z_2$, so it is determined by its special fibre. A morphism
+which is zero on the special fibre is therefore zero.
+It follows that $(T-\delta)\iota=0$ over $\Z_2$, and hence
+$(T-\delta)z=0$.
+The final assertion uses Parent's exponent-two reduction-kernel
+lemma and Eichler--Shimura at $2$.
+\end{proof}
+
+The same conclusion applies to a globally defined $2$-torsion
+point over a number field $L$ at any prime with $L_v=\Q_2$.
+For an unramified extension of higher residue degree the
+Verschiebung need not fix the individual $\mu_2$ inclusion;
+one must account for its Frobenius permutation. The statement
+above deliberately only uses residue field $\F_2$.
+
+% Primary source:
+% https://numdam.org/item/ASENS_1970_4_3_1_1_0.pdf
+% ES convention source: local refs/2412.16016/main.tex, line341,
+% citing Diamond--Im (10.2.3).

@@ -1,0 +1,21 @@
+{
+  "group": [
+    4,
+    16
+  ],
+  "absolute_degree": 10,
+  "relative_degree": 5,
+  "source_divisors": 12032,
+  "target_divisor_representatives": 2518,
+  "diagonal_matches": 158,
+  "global_cusp_order": 327680000,
+  "source_J_over_cusp_exponent": 2,
+  "independent_actual_relation_graph_and_complete_match_replay": "PASS",
+  "RR_dimensions": {
+    "2": 8,
+    "1": 150
+  },
+  "rational_members_tested_at_13": 262,
+  "even_effective_divisors": 0,
+  "independent_lift_and_parity_replay": "PASS"
+}

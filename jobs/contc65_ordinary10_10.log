@@ -1,0 +1,7 @@
+Loading "work/deg10/computations/contc65_ordinary10_common.m"
+Loading "work/deg10/continuation_20261030c/C65/inputs/canonical_unit_data.m"
+C65_DECIC_HECKE_TARGET 10 20 1 0.310
+C65_DECIC_HECKE_TARGET 10 20 1 0.440
+C65_DECIC_ELLIPTIC_JETS_COMPLETE 10 10 [ 20, 20 ]
+[ 1, 1 ]
+0.440

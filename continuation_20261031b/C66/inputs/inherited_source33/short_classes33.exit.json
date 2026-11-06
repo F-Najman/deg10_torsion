@@ -1,0 +1,20 @@
+{
+  "pid": 2935275,
+  "startticks": 186837261,
+  "cmd": [
+    "nice",
+    "-n",
+    "10",
+    "/opt/sage/envs/sage/bin/sage",
+    "-python",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/cyclic/continuation_20261026/C66_quotient17/source33/short_classes33.py"
+  ],
+  "CPU_budget_seconds": 1800,
+  "wall_budget_seconds": 7200,
+  "memory_budget_bytes": 6442450944,
+  "native_memory_budget_bytes": 4000000000,
+  "nice": 10,
+  "actual_exit_code": 0,
+  "elapsed_wall_seconds": 1.3165311813354492,
+  "completed_marker": true
+}

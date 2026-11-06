@@ -1,0 +1,284 @@
+{
+  "complete": true,
+  "all_tracked_jobs_exited": true,
+  "active_case_workers": [],
+  "no_paused_or_obsolete_workers": true,
+  "jobs": [
+    {
+      "purpose": "cont75_census10",
+      "script": "continuation_20261030b/C75/cont75_census10.m",
+      "script_sha256": "12eaa394ec0b4ece61b0c9a078c031fe98b141b6472e4d54bf3eb73807e85a6b",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_census10.m"
+      ],
+      "pid": 2529275,
+      "owner_uid": 1001,
+      "start_time_unix": 1793388990.2779086,
+      "state": "EXITED",
+      "time_limit_seconds": 120,
+      "log": "jobs/cont75_census10.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 1.0655744075775146,
+      "status_path": "work/deg10/jobs/cont75_census10.status.json"
+    },
+    {
+      "purpose": "cont75_high_cusps",
+      "script": "continuation_20261030b/C75/cont75_high_cusps.m",
+      "script_sha256": "8378961389c19a367f67d9ecea2f75cb81b3088bef157ca82084fcbe562731c1",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_high_cusps.m"
+      ],
+      "pid": 2531374,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389090.8175683,
+      "state": "EXITED",
+      "time_limit_seconds": 360,
+      "log": "jobs/cont75_high_cusps.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 217.83107161521912,
+      "status_path": "work/deg10/jobs/cont75_high_cusps.status.json"
+    },
+    {
+      "purpose": "cont75_nc10_job1",
+      "script": "continuation_20261030b/C75/cont75_nc10_job1.m",
+      "script_sha256": "76cecf15fff6e661b479b91507f678bd7160cd9ff6cbf5e3d600f94ddf36c36a",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_nc10_job1.m"
+      ],
+      "pid": 2535767,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389300.476226,
+      "state": "EXITED",
+      "time_limit_seconds": 360,
+      "log": "jobs/cont75_nc10_job1.log",
+      "actual_exit_code": 1,
+      "termination_reason": null,
+      "elapsed_seconds": 24.494998931884766,
+      "status_path": "work/deg10/jobs/cont75_nc10_job1.status.json"
+    },
+    {
+      "purpose": "cont75_nc10_job1_v2",
+      "script": "continuation_20261030b/C75/cont75_nc10_job1_v2.m",
+      "script_sha256": "6167575523803541c97c0c6c34e3b818c07e5d776ae935a1c7df937f62e0241e",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_nc10_job1_v2.m"
+      ],
+      "pid": 2537638,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389389.7451177,
+      "state": "EXITED",
+      "time_limit_seconds": 360,
+      "log": "jobs/cont75_nc10_job1_v2.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 36.572805404663086,
+      "status_path": "work/deg10/jobs/cont75_nc10_job1_v2.status.json"
+    },
+    {
+      "purpose": "cont75_nc10_job2",
+      "script": "continuation_20261030b/C75/cont75_nc10_job2.m",
+      "script_sha256": "9df5f556db5797d27f1bb8af639d317c35add3da189812e5f920139bcdc27023",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_nc10_job2.m"
+      ],
+      "pid": 2535786,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389301.0524344,
+      "state": "EXITED",
+      "time_limit_seconds": 360,
+      "log": "jobs/cont75_nc10_job2.log",
+      "actual_exit_code": 1,
+      "termination_reason": null,
+      "elapsed_seconds": 23.24763035774231,
+      "status_path": "work/deg10/jobs/cont75_nc10_job2.status.json"
+    },
+    {
+      "purpose": "cont75_nc10_job2_v2",
+      "script": "continuation_20261030b/C75/cont75_nc10_job2_v2.m",
+      "script_sha256": "de20066b63d8dda7d15a9987eea6a58bffefa37275d446dc530917bcb623a1bd",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_nc10_job2_v2.m"
+      ],
+      "pid": 2537651,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389390.1154304,
+      "state": "EXITED",
+      "time_limit_seconds": 360,
+      "log": "jobs/cont75_nc10_job2_v2.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 38.37042546272278,
+      "status_path": "work/deg10/jobs/cont75_nc10_job2_v2.status.json"
+    },
+    {
+      "purpose": "cont75_nc10_job3",
+      "script": "continuation_20261030b/C75/cont75_nc10_job3.m",
+      "script_sha256": "52297a665cc54baee67baba24c81082af58ae32ac2068f0c2f31f2a9b4c018e3",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_nc10_job3.m"
+      ],
+      "pid": 2535794,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389301.3019981,
+      "state": "EXITED",
+      "time_limit_seconds": 360,
+      "log": "jobs/cont75_nc10_job3.log",
+      "actual_exit_code": 1,
+      "termination_reason": null,
+      "elapsed_seconds": 23.35090947151184,
+      "status_path": "work/deg10/jobs/cont75_nc10_job3.status.json"
+    },
+    {
+      "purpose": "cont75_nc10_job3_v2",
+      "script": "continuation_20261030b/C75/cont75_nc10_job3_v2.m",
+      "script_sha256": "9301e0c0c1b95277e14885a19d02d21c5aea83624ab83495518af5bded551193",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_nc10_job3_v2.m"
+      ],
+      "pid": 2537625,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389388.5996614,
+      "state": "EXITED",
+      "time_limit_seconds": 360,
+      "log": "jobs/cont75_nc10_job3_v2.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 38.47473669052124,
+      "status_path": "work/deg10/jobs/cont75_nc10_job3_v2.status.json"
+    },
+    {
+      "purpose": "cont75_parent_native",
+      "script": "computations/cont75_parent_native.m",
+      "script_sha256": "6a1877246de42fb86868e9956b8ade7b365c34598514422031b262155daeb785",
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont75_parent_native.m"
+      ],
+      "pid": 2544054,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389681.8614993,
+      "state": "EXITED",
+      "time_limit_seconds": 1000,
+      "log": "jobs/cont75_parent_native.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 56.8958580493927,
+      "status_path": "work/deg10/jobs/cont75_parent_native.status.json"
+    },
+    {
+      "purpose": "cont75_retained_FI",
+      "script": "continuation_20261030b/C75/cont75_retained_FI.py",
+      "script_sha256": "479a77b7cfc9dfbd3c7529119be10d1158494b4cedeb22a150d997409ff36dec",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_retained_FI.py"
+      ],
+      "pid": 2529237,
+      "owner_uid": 1001,
+      "start_time_unix": 1793388988.8892214,
+      "state": "EXITED",
+      "time_limit_seconds": 180,
+      "log": "jobs/cont75_retained_FI.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 3.219149351119995,
+      "status_path": "work/deg10/jobs/cont75_retained_FI.status.json"
+    },
+    {
+      "purpose": "cont75_verify_cusps",
+      "script": "continuation_20261030b/C75/cont75_verify_cusps.py",
+      "script_sha256": "6f0f26c3ec6da0c53ca68e72f796c4126956a06287d77ff21f3d353922ae4b46",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_verify_cusps.py"
+      ],
+      "pid": 2539441,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389473.8517232,
+      "state": "EXITED",
+      "time_limit_seconds": 120,
+      "log": "jobs/cont75_verify_cusps.log",
+      "actual_exit_code": 1,
+      "termination_reason": null,
+      "elapsed_seconds": 0.9651763439178467,
+      "status_path": "work/deg10/jobs/cont75_verify_cusps.status.json"
+    },
+    {
+      "purpose": "cont75_verify_cusps_v2",
+      "script": "continuation_20261030b/C75/cont75_verify_cusps_v2.py",
+      "script_sha256": "e83996d6909988d61b76553d60e0e2b12c391bd6bff4558d63e2f0654809f99b",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_verify_cusps_v2.py"
+      ],
+      "pid": 2539841,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389490.3374102,
+      "state": "EXITED",
+      "time_limit_seconds": 120,
+      "log": "jobs/cont75_verify_cusps_v2.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 0.9154555797576904,
+      "status_path": "work/deg10/jobs/cont75_verify_cusps_v2.status.json"
+    },
+    {
+      "purpose": "cont75_verify_finite",
+      "script": "continuation_20261030b/C75/cont75_verify_finite.py",
+      "script_sha256": "d44385943171de7c5b44f2dfd182e7353ee416611955bc45072474b9acb927e0",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_verify_finite.py"
+      ],
+      "pid": 2543822,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389670.8666298,
+      "state": "EXITED",
+      "time_limit_seconds": 180,
+      "log": "jobs/cont75_verify_finite.log",
+      "actual_exit_code": 1,
+      "termination_reason": null,
+      "elapsed_seconds": 0.6146714687347412,
+      "status_path": "work/deg10/jobs/cont75_verify_finite.status.json"
+    },
+    {
+      "purpose": "cont75_verify_finite_v2",
+      "script": "continuation_20261030b/C75/cont75_verify_finite_v2.py",
+      "script_sha256": "4fcc844912228a1c57b7f43f2f59cc44fcb6fef9c6e66b08b769c2569692a1f6",
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_verify_finite_v2.py"
+      ],
+      "pid": 2544222,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389690.2391315,
+      "state": "EXITED",
+      "time_limit_seconds": 180,
+      "log": "jobs/cont75_verify_finite_v2.log",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "elapsed_seconds": 1.4663608074188232,
+      "status_path": "work/deg10/jobs/cont75_verify_finite_v2.status.json"
+    }
+  ],
+  "recorded_utc": "2026-10-30T19:52:29.527700+00:00"
+}

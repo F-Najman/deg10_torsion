@@ -1,0 +1,10 @@
+Loading "work/deg10/continuation_20261030b/C77/geometry_common.m"
+NONIC77_X0_MODEL genus7=true modular_polynomial_verified=true cusp_widths=[ 11, 77, 1, 7 ] time=21.640
+Loading "work/deg10/continuation_20261030b/C77/inputs/AS_component.m"
+NONIC77_DIRECT_CUBIC_VERIFIED degree12=true genus19=true exact_base_embedding=true deck_order3=true time=37.700
+NONIC77_DIRECT_GENUS37_VERIFIED time=79.410
+NONIC77_GLOBAL_CUSPS_VERIFIED signature=[ 2, 1, 1, 2, 1, 1, 6, 3, 3, 1, 1, 2 ] width_degree_pairs=[ <7, 2>, <77, 1>, <77, 1>, <7, 2>, <77, 1>, <77, 1>, <1, 6>, <11, 3>, <11, 3>, <77, 1>, <77, 1>, <7, 2> ] jdegree576=true time=253.100
+NONIC77_DIRECT_GLOBAL_GENUS37_MODEL_DONE
+C77_FI_NATIVE_CONTROL 1 10 43.980
+C77_FI_NATIVE_CONTROL 2 10 151.980
+C77_FI_NATIVE_CONTROLS_COMPLETE 2 152.060

@@ -1,0 +1,75 @@
+{
+  "scope": "Exact degree-independent winding and finite-image evidence reused. Old degree9 inequalities, exclusion and CM tables are historical provenance only, not degree10 premises. All earlier-degree originals are unchanged.",
+  "files": [
+    {
+      "source": "work/degree9/realizations/continuation/C99/certify99.py",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/certify99.py",
+      "sha256": "fcc5fc7ed895dd122abf0a16e68e7b3087d14681826b4c8f11af75548adc51ba"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C99/check_diamond99.log",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/check_diamond99.log",
+      "sha256": "15760709e0e433819666cf8c87154f01f9250f2660bfd3dd129568fc48318e41"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C99/check_diamond99.m",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/check_diamond99.m",
+      "sha256": "0ec5981979382f3373a95b81ec41b95d60d7ce32d99a9c53edaef12de69174d9"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C99/dcm_list_all_min_orders_X1_10k.m",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/dcm_list_all_min_orders_X1_10k.m",
+      "sha256": "020ba11c347b70aafd59099994d5df55d969ffeaff468ced1a06ae97868b64cc"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C99/exclusion99.tex",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/exclusion99.tex",
+      "sha256": "05c0860f7851a4291a6b34617eb56f8e491885f886dc2bd58d0fea6913f2dd0a"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C99/finite_trace_certificate.json",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/finite_trace_certificate.json",
+      "sha256": "f0bd349dcf84ea755eedffad3bae6e4c809d52a543c9da0a5c17d29ed22a7ebc"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C99/finite_trace_check.log",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/finite_trace_check.log",
+      "sha256": "aaa42a38a6d033f9674e3e8371020a91b3872bf2dd84b7fed66a336a9aad6165"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C99/finite_trace_check.py",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/finite_trace_check.py",
+      "sha256": "f14a875c4925f832183f72e77b7fb763e370663f83ce3594e8359caa79d40e40"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C99/winding99.log",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/winding99.log",
+      "sha256": "8751df1995334d2627dc7e66dc1b59b97b3c79720b5ad739a07cb96583b65163"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C99/winding_probe.m",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/winding_probe.m",
+      "sha256": "46f61f69c8ddbdda0bb734d43d4ff9a1e9490381364da1cd9d19875ad6f8cd01"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C99/manifest99.json",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/realizations/continuation/C99/manifest99.json",
+      "sha256": "69d7b82f24fe24f3f96e2f26d6b8dbcc261acbdd9cc6ba7e4a65e134d6aa4abf"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/odd_levels_at2.log",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/cyclic/continuation_20261026/odd_levels_at2.log",
+      "sha256": "f584aa966474b8f30aa0e2b71bfe980a7cb491ab946c30ce6349795c35862e7f"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/odd_levels_at2_status.json",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/cyclic/continuation_20261026/odd_levels_at2_status.json",
+      "sha256": "8e74f43c7a3b9669183efaffb9d853f47a574f78926565f8a093bae6d2c52d30"
+    },
+    {
+      "source": "work/degree9/prime_orders/finite_field_prime_orders.m",
+      "snapshot": "work/deg10/continuation_20261030c/C99/inherited_degree9/prime_orders/finite_field_prime_orders.m",
+      "sha256": "df0a9411561d50323615422535c2526b48f4bf0af90b041912fea922e47ab2d6"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "additional_kernels",
+  "script": "computations/additional_kernels.m",
+  "script_sha256": "f1a4f5271c1f2ee0b41312dac1fcc5fc1e08a157a1ed7cf3602c11c46c2624bc",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/additional_kernels.m"
+  ],
+  "pid": 36000,
+  "owner_uid": 1001,
+  "start_time_unix": 1793275938.8596618,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/additional_kernels.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 21.448983192443848
+}

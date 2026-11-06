@@ -1,0 +1,26 @@
+[
+  {
+    "script": "computations/quintic_full2_28.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/quintic_full2_30a.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/quintic_full2_30b.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/quintic_halves_28.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/quintic_halves_30a.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/quintic_halves_30b.m",
+    "supervisor_exit": 0
+  }
+]

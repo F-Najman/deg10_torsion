@@ -1,0 +1,100 @@
+\subsection{Excluding order $62$}\label{sec:d31a62}
+\begin{proposition}\label{prop:decic62-exclusion}
+An elliptic curve over a number field of degree $10$ has no point of order $62$.
+\end{proposition}
+\begin{proof}
+Put $Y=X_1(31)$ and let $\pi:X_1(62)\longrightarrow Y$ forget the point of order $2$.
+The curve $Y$ has genus $26$ and rational gonality $12$ \cite{DvH}.
+By \cite[Theorems~3.1 and~4.13, Table~2]{DEHMZ},
+\[
+ J_Y(\mathbb Q)\simeq C_{10}\times C_{1772833370},
+\]
+and this group is cuspidally generated.
+Suppose $D$ is a noncuspidal effective rational divisor of degree $10$ on $X_1(62)$,
+and put $D_Y=\pi_*D$.
+The global and Frobenius-$3$ cusp signatures on $Y$ both equal $1^{15}15$.
+Entirely cuspidal reduction would lift to a rational cuspidal divisor $C$ of degree $10$.
+The class $[D_Y-C]$ is rational torsion with zero reduction, hence zero.
+Since $10<\operatorname{gon}_{\mathbb Q}(Y)$, this would give $D_Y=C$, a contradiction.
+
+The noncuspidal source counts through degree $10$ at $3$ are
+\[
+ (0,0,0,0,180,150,330,930,1600,5910).
+\]
+Thus the noncuspidal part is one place of degree $5$ through $10$,
+or a pair of quintic places, with repetitions allowed.
+The forgetful fibre is $E[2]\setminus\{0\}$.
+In degrees at most $9$, the image has the same closed degree:
+quadratic fibres over degrees $3$ and $4$ are excluded by the
+irreducible $2$-division cubics, and there are no cubic fibres over degree $3$
+because $Y$ has no noncuspidal place of degree $3$.
+A decic source place can additionally map with multiplicity $2$ to a quintic place.
+Every possible cuspidal complement on $Y$ has degree at most $5$ and is rationally cuspidal.
+
+Fix a rational cusp $c_0$ and put $G=J_Y(\mathbb F_3)$ and
+$H=\operatorname{red}_3J_Y(\mathbb Q)$.
+The proven class presentation gives
+\[
+ G\simeq C_2^2\times C_{10}\times C_{3352427902670},
+ \qquad [G:H]=7564=4\cdot31\cdot61.
+\]
+It uses all $3481$ places of degree at most $9$, attaining the
+unconditional generation bound, and $4391$ principal relations.
+Complete primary characters have image orders $16$, $31$ and $61$;
+the rational cusp images have orders $4$, $1$ and $1$.
+They give exact membership tests for $H$.
+The necessary condition is that the normalized class of the
+pushed-forward noncuspidal part belongs to $H$.
+
+The unchanged $2190$ singleton tests in degrees at most $9$ leave exactly
+five degree-$9$ places. All other such classes are excluded with the new,
+still rational, cuspidal complements.
+There are $90$ eligible quintic places on $Y$.
+We check all $4095$ unordered sums of two such places, including doubles;
+none lies in $H$ after normalization.
+This also excludes every quadratic forgetful fibre over a quintic place.
+The $45$ quintic places with an irreducible quadratic factor in their
+$2$-division polynomial are checked separately with multiplicity $2$.
+
+The complete new degree-$10$ enumeration on $Y$ has $5685$ places in
+$379$ diamond orbits.
+Exactly $3795$ places, in $253$ orbits, have rational nonzero $2$-torsion.
+For each representative $P$, a retained function gives an exact identity
+\[
+ \operatorname{div}(f)+(36+s)c_0-P=R,
+ \qquad \deg R=26+s,
+\]
+where $R$ is supported on the proven factor basis.
+Every resulting normalized class lies outside $H$.
+Independent finite-field arithmetic reconstructs all marked points,
+all diamond orbits, all $2$-division fibres and the complete primary sums.
+Counting these fibres, including the $45$ quadratic lifts from degree $5$,
+gives exactly $5910$ source places of degree $10$, in agreement with Frobenius.
+A second native replay verifies all $253$ prime ideals and principal identities.
+
+It remains to treat one of the five surviving degree-$9$ reductions,
+with its degree-$1$ cusp complement.
+Let $a$ satisfy
+\[
+ a^9-2a^8+a^6-a^5+14a^4-28a^3+19a^2-2a-1=0,
+\]
+and take the standard modular-unit coordinates
+\[
+ x=a,\qquad
+ 119y=9a^8-28a^7+16a^6+46a^5-11a^4
+       +125a^3-440a^2+386a+150.
+\]
+These give the known nonic point of order $31$.
+The field polynomial is irreducible modulo $3$.
+The exact global point order is checked, and its fifteen diamond translates
+reduce to precisely the five surviving places.
+This reduction binding is independently reconstructed using Tate coordinates.
+
+For a surviving place choose the corresponding global trace $B$ of degree $9$,
+and lift the remaining rational cusp to $c$.
+Then $\overline D_Y=\overline{B+c}$.
+The rational torsion class $[D_Y-B-c]$ has zero reduction at $3$, so
+$D_Y\sim B+c$.
+Rational gonality $12>10$ gives $D_Y=B+c$ as divisors.
+The right-hand side contains a cusp, a contradiction.
+\end{proof}

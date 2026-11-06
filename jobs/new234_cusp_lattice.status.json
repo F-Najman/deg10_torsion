@@ -1,0 +1,18 @@
+{
+  "purpose": "new234_cusp_lattice",
+  "script": "computations/new234_cusp_lattice.py",
+  "script_sha256": "33d833c155aebdc0c010ca7117308faee8ad13be6afc0b78aecab3a6e94d7cc1",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new234_cusp_lattice.py"
+  ],
+  "pid": 1885091,
+  "owner_uid": 1001,
+  "start_time_unix": 1793360375.5028212,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/new234_cusp_lattice.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.0177032947540283
+}

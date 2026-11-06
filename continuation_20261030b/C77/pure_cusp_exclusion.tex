@@ -1,0 +1,43 @@
+\begin{lemma}\label{lem:decic77-pure-cusps}
+A rational effective divisor of degree $10$ on $X_1(77)$ with
+entirely noncuspidal support cannot have entirely cuspidal
+reduction at $2$.
+\end{lemma}
+\begin{proof}
+Suppose that $D$ is such a divisor with entirely cuspidal reduction.
+Use $\pi:X\to Y$ from Lemma~\ref{lem:decic77-geometry}.
+The source cusp signature is $1^{30},3^{10},10^3,30$.
+On $Y$, the width-degree pairs are
+\[
+ (77,1)^6,\qquad(11,3)^2,\qquad(7,2)^3,\qquad(1,6).
+\]
+A degree-$10$ source cusp divisor therefore pushes forward
+either to a divisor on the six rational and two cubic cusps,
+or to $5Q$ for one of the three quadratic cusps.
+The latter weight is the residue degree ratio $10/2$.
+Exact primitive-column orbits verify this complete coverage.
+The first kind gives
+\[
+ \sum_{r=0}^3(r+1)\binom{15-3r}{5}=4989
+\]
+patterns; the three additional images give $4992$ in total.
+
+For $U=\mathcal C(\mathcal C-1)H^0(Y_{\mathbb F_2},\Omega^1)$,
+we have $\dim U=32$.
+In one exact differential basis the $69$ restriction blocks
+cover rational multiplicities through $10$, cubic multiplicities
+through $3$, and multiplicity $5$ at each quadratic cusp.
+All $4992$ restrictions have rank $10$.
+The rational multiplicity-$10$ and quadratic multiplicity-$5$
+blocks are freshly computed; verified deck transformations
+transport them to their six and three cusp orbits.
+An independent binary replay identifies all $60$ retained
+lower-multiplicity kernels across the exact basis transition,
+and verifies every restriction rank.
+A further native calculation in a fresh model independently
+gives rank $10$ at $10P$, for one rational cusp $P$, and at
+$5Q$, for one quadratic cusp $Q$.
+Deck symmetry covers the six and three corresponding patterns.
+Applying Lemma~\ref{lem:decic77-finite-image-Cartier} to
+$\pi_*D$ gives the contradiction.
+\end{proof}

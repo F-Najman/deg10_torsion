@@ -1,0 +1,12 @@
+WINDING_SPACE_READY N=68 order=1 dimension=7 time=0.010
+WINDING N=68 order=1 conductor=1 relative_dimension=7 winding_dimension=7 coefficient_degree=1 time=0.020
+WINDING_SPACE_READY N=68 order=16 dimension=7 time=0.010
+WINDING N=68 order=16 conductor=68 relative_dimension=7 winding_dimension=7 coefficient_degree=8 time=0.020
+WINDING_SPACE_READY N=68 order=8 dimension=6 time=0.000
+WINDING N=68 order=8 conductor=17 relative_dimension=6 winding_dimension=6 coefficient_degree=4 time=0.010
+WINDING_SPACE_READY N=68 order=4 dimension=6 time=0.010
+WINDING N=68 order=4 conductor=17 relative_dimension=6 winding_dimension=6 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=68 order=2 dimension=6 time=0.010
+WINDING N=68 order=2 conductor=17 relative_dimension=6 winding_dimension=6 coefficient_degree=1 time=0.010
+WINDING_FINAL N=68 genus=105 total_dimension=105 bad_orders=[] admissible=[ 3, 5, 7, 9, 11, 13, 15, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 53, 55, 57, 59, 61, 63, 65 ]
+WINDING_CHARACTER_PROBE_DONE

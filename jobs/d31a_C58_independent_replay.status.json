@@ -1,0 +1,18 @@
+{
+  "purpose": "d31a_C58_independent_replay",
+  "script": "computations/d31a_C58_independent_replay.py",
+  "script_sha256": "887cda9953183bb6db5a24ee316747480ef0669c51730f6a853bdcd556681c2f",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C58_independent_replay.py"
+  ],
+  "pid": 2823059,
+  "owner_uid": 1001,
+  "start_time_unix": 1793402914.1571343,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/d31a_C58_independent_replay.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 54.398184061050415
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "reviewer": "deg10_c234",
+  "scope": "Complete exclusion over arbitrary degree10 fields, including moduli-field trace multiplicities and entirely cuspidal reduction",
+  "checks": [
+    "Q(i) inert3 forces even residue degrees and precisely 6/8/10 once or5 twice",
+    "Full4-torsion criterion and rational automorphism normalization preserve proposed subgroup",
+    "All norm weights and complete finite cusp corrections retained",
+    "For quotient phi by P2, dual(phi(U))=P2 nonzero while dual(14phi(Q))=0; this proves independence",
+    "All four global halves reduce bijectively to the four finite halves, so computed half can be selected",
+    "Parent native and independent Sage controls complete"
+  ]
+}

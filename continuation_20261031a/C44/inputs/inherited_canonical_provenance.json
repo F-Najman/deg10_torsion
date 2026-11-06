@@ -1,0 +1,249 @@
+{
+  "files": [
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/frobenius_audit44.json",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/frobenius_audit44.json",
+      "sha256": "a3b471e34860c0a0b4a63a327db0752f7a80e32c1d4d9c92b3c1abdd59b7ef68"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/build_tensor22.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/build_tensor22.m",
+      "sha256": "8851d80d747c63f8a9bd7197e911b0fea7871c85ecc103579c5c7d74400e0762"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_all.raw.jsonseq",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_all.raw.jsonseq",
+      "sha256": "d08787a5575c04cefa998d8b1ef23a283c281a0ff35d315e2a16d3e92953aa1c"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/sieve_pilot_inputs.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/sieve_pilot_inputs.m",
+      "sha256": "f8db8cb70461d9b28cf0f5255f58cffe9eb82bab2e1241204ac670862c1d53f2"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_pilot_v2.raw.jsonseq",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_pilot_v2.raw.jsonseq",
+      "sha256": "b14a9f4b0dbdcf50660687e04563e5a3bd19a7b2a0928b184707dfdfb42583a8"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_sieve_template_v1_failed.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_sieve_template_v1_failed.m",
+      "sha256": "1e83c76cd404050f6cce2a48a288d8122d5633e83728d7e5348e90f2560fa7d2"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/export_finite_jets_v2.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/export_finite_jets_v2.m",
+      "sha256": "7139aefa239cbeb8c0e74c62572d65426db1a922829aa90b64e607b9a656bb78"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_all_independent.log",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_all_independent.log",
+      "sha256": "ebed60b1771ff7d8802ece3904eb253542c71b9a6f2937bf56715a148249eddf"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/prepare_sieve_inputs.py",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/prepare_sieve_inputs.py",
+      "sha256": "d569c1f3a0097356eda09c08724e7a7705a3eb4631a4d297f8168b3374c677b8"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix_sieve_template.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix_sieve_template.m",
+      "sha256": "642ed92ce46a6e16657f4c8a2222661df3944ec59abb09de4a4ba877b0c56253"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_jets_all.raw.jsonseq",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/finite_jets_all.raw.jsonseq",
+      "sha256": "1171a891a942f0169274c963672cd6902605290852a3c6ce681da9180eec094a"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_pilot_independent.json",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_pilot_independent.json",
+      "sha256": "421399236de6452a86f6230e76f8a20cdb97193216253070e6740661a7d04657"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/build_tensor.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/build_tensor.m",
+      "sha256": "0dedf28aee9b926024d13badbc22174989e25ef70258971f0381fddc198a398f"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_pilot_v2.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_pilot_v2.m",
+      "sha256": "9ccf01cc61af7475c0ff4c001f0d236db28352db6184e6907e7e8e186bac860d"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/build_canonical_v2.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/build_canonical_v2.m",
+      "sha256": "812cb5e64c2cdc8c4c74a0f144c90b7135e845d51135cbf5511ea3b6e379a945"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_pilot.raw.jsonseq",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_pilot.raw.jsonseq",
+      "sha256": "c3f7501b0c6c0b246d5d325e36dce395e1cade987939ab7d1fea2bda466976da"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/native_control_inputs.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/native_control_inputs.m",
+      "sha256": "a73af835777dae61a469772417e00933197e7a78f6f6621e413ef3707ea5f07e"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/replay_matrices_sage.py",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/replay_matrices_sage.py",
+      "sha256": "265e757efe4375e918bd77d4246d0e6740f2c912bc9c79334d4dd6b7aa179367"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/multiplication_data.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/multiplication_data.m",
+      "sha256": "d42fe5a83c9cfb554d6c6e35cd5265a48796d9eac945a4fa7781c7b8cdc828f7"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/exclusion44.tex",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/exclusion44.tex",
+      "sha256": "36f973c5c4d963d4d5ad56f0edf51dec4e788e49bde6e124bc857ebdb707e376"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/certify44.py",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/certify44.py",
+      "sha256": "3c005c0c102e6f382f8417ade8eb571b8e6c0ccd059c8ac88a8576bbc0113b98"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/replay_matrices22_sage.py",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/replay_matrices22_sage.py",
+      "sha256": "8d41a35de965257085e0f83d2e4e403d01296ebc1d832ff6db1f32b4af5da8ba"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_all_driver.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/finite_all_driver.m",
+      "sha256": "d1f9e6d056108f8310e6973c116007f5fd31c86ceef1baa0b1e70a03b08d0fe3"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/audit_frobenius44.py",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/audit_frobenius44.py",
+      "sha256": "e4a1200f3de0f37d198d722ab32f357de0d353948511e36163821e7c3294a427"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_jets_pilot16_v2.raw.jsonseq",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/finite_jets_pilot16_v2.raw.jsonseq",
+      "sha256": "be0975e1ee6837c24a6dca69b84d29888bb2bfba3398f93483c21d7497c65053"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix_sieve_pilot.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix_sieve_pilot.m",
+      "sha256": "0ae4d94a9426d6c2722d88efcd9b3f5d225ab3b54c5446273aa26126e28198ce"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_sieve_template.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_sieve_template.m",
+      "sha256": "68f0e0c98b7016b8f1034caec14946ed85d3e1a785ad368bd6c6724bf1d622d6"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_all_independent.json",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_all_independent.json",
+      "sha256": "4dc387e6c191939b9ce4586a2be34bd65c88432544472eb9504b0e3e14928996"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/canonical_data.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/canonical_data.m",
+      "sha256": "2b9167707c5ab5c73f256c1e01c16355bc24bee61bd117d2d7b7d5879474af0b"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_pilot_driver.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/finite_pilot_driver.m",
+      "sha256": "e6e80e1317773143fc9c387dba050c4eea3e84fcef76f6bced57a1909d48585c"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_all_v2_driver.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/finite_all_v2_driver.m",
+      "sha256": "82ecf12be8412fa9a46ee81861f7209769dc1c7c7f6518a49964126d0d018588"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/sieve_all_inputs.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/sieve_all_inputs.m",
+      "sha256": "cbfc654b6c96c26e0f0e0822c52727535dddffa471ac119842977f9aa924829b"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_jets_pilot.normalized.jsonl",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/finite_jets_pilot.normalized.jsonl",
+      "sha256": "e9a06574dedfceff5e22f758330c0441fb7459d03e426e8c7801bb15bdea8e57"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_pilot.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_pilot.m",
+      "sha256": "608ef17436d214a7a99317ce4e0aaa896af4d06ce5c906b63d170dcd66228bb0"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/multiplication_22_data.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/multiplication_22_data.m",
+      "sha256": "9c2b12bed305b2e8d197c3f91c2efba2354df1ba012ad09382d7e4c6f8f9d4fb"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_functions_v2.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/finite_functions_v2.m",
+      "sha256": "07f9e1b7db7571907e2f8723efec19379c2ecf323b9fe5344612155d54ed16b1"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/sieve_pilot_inputs.normalized.jsonl",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/sieve_pilot_inputs.normalized.jsonl",
+      "sha256": "e9a06574dedfceff5e22f758330c0441fb7459d03e426e8c7801bb15bdea8e57"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/native_control.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/native_control.m",
+      "sha256": "f0d68d7b80af15a8e5f99481010d62f36c1f3ca5e65d641d474df93a80fbee9e"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/sieve_all_inputs.normalized.jsonl",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/sieve_all_inputs.normalized.jsonl",
+      "sha256": "8516e8d456dd87051af044e68e79dafda86f43a0d4360967ec64680c04ab46ec"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_jets_all_v2.raw.jsonseq",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/finite_jets_all_v2.raw.jsonseq",
+      "sha256": "2cbecda6da6586e8c95e57f362087d53d1e33b3bbb059752b8088f100e391e59"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/freeze44.py",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/freeze44.py",
+      "sha256": "0978c23f005f793e74e2341bbfe188ec11dd936988763ded07b5b6d8e78e3f7e"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/build_canonical.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/build_canonical.m",
+      "sha256": "361eda27aa52639c91d4d7346c30f825c564c4a675b053a1dea642a47cb5798b"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/export_finite_jets.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/export_finite_jets.m",
+      "sha256": "42d1892c8e78ffcbba2bd8cd43a2fb7160f20153364e48ec8653823733e2a4b0"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/audit_cusps44.py",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/audit_cusps44.py",
+      "sha256": "5d0b2d8587606df72b2f86c5d4e6ede2d54c2269c222d091967dfe03cfbd41aa"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_pilot16_v2_driver.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/finite_pilot16_v2_driver.m",
+      "sha256": "8a97e58a838ff9c56a0169f814b4bb134e4b2e048114c13a6953113ff96b38cd"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/matrix22_all.m",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/matrix22_all.m",
+      "sha256": "d3be0f30c0f98602c2dddfdd5998d7f6e1192ea65b4600ebc91ce55c7b529582"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/cusp_audit44.json",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/cusp_audit44.json",
+      "sha256": "fcf98f861488d852869025ec0bd41ed701e579d7bc5f147e1bc33a6f6f81efd0"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/manifest44.json",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/manifest44.json",
+      "sha256": "994838e75ebcf5449243dd180c96f34ea17b3491c2448fc88581a017c174a51c"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/C44_canonical_ring/finite_jets_pilot.jsonl",
+      "snapshot": "work/deg10/continuation_20261031a/C44/inputs/inherited_canonical/finite_jets_pilot.jsonl",
+      "sha256": "3b703cfcbfcab9a4d213a0885cab9da5d25774294f5c159e379cb86d26fdd5a7"
+    }
+  ]
+}

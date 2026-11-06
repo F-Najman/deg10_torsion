@@ -1,0 +1,32 @@
+\begin{proposition}\label{prop:octic44}
+No elliptic curve over an octic number field has a point of order $44$.
+\end{proposition}
+\begin{proof}
+The rational Jacobian of $X_1(44)$ has rank zero by
+\cite[Theorem~3.1(2)]{DEHMZ}. Its rational gonality is at least $10$,
+as follows from the bound over $\mathbb F_3$ in \cite[Table~1]{NV}.
+Lemma~\ref{lem:octic-odd-cuspidal} therefore excludes entirely
+cuspidal reduction at $3$.
+
+The complete noncuspidal closed-place counts over $\mathbb F_3$
+through degree $8$ are
+\[
+ (0,0,0,0,60,160,240,920).
+\]
+An independent Frobenius similarity-class computation gives the same
+counts. Hence the noncuspidal part of a degree-eight reduction is a
+single place of degree $5$, $6$, $7$ or $8$.
+The cusp degrees at $3$ are $1^{15},2^5,5^3,10$.
+For every possible cusp complement the complete cusp-orbit test
+permits $q\in\{5,7,13,17,19\}$.
+
+The fresh degree-eight Hecke sieve tests respectively $6$, $16$,
+$24$ and $92$ diamond representatives in those four degrees.
+Every one of these $138$ cases has a nonprincipal $A_q$ image for
+some permitted $q$. The completed calculation covers all $66$
+partitions through degree $8$, with zero survivors; the other
+partitions have empty noncuspidal support sets.
+Lemma~\ref{lem:octic-hecke} excludes noncuspidal reduction as well.
+The exact log and independent coverage audit are
+\texttt{N44\_p3\_smart.log} and \texttt{N44\_audit.json}.
+\end{proof}

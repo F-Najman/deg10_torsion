@@ -1,0 +1,133 @@
+\begin{proposition}\label{prop:decic-no93}
+An elliptic curve over a number field of degree $10$ has no point
+of order $93$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(93)$ and $J=J_1(93)$, of genus $261$.
+The exact winding decomposition has one winding-zero constituent,
+of dimension $2$ and trivial character. Every other constituent has
+nonzero winding. By the winding rank-zero criterion of \cite[Section~3]{DEHMZ},
+$(g-1)J(\mathbb Q)$ is finite for
+every diamond $g$. No rank-zero assertion for $J$ is needed.
+Let $D$ be the trace divisor of a hypothetical level structure over
+a field of degree $10$. Its source point has exact degree $10$:
+the proper divisors $1,2,5$ of $10$ are excluded by the absence of
+order $31$ in those degrees. Thus $D$ is reduced.
+
+The independent complete finite-field census gives no noncuspidal
+places in degrees at most $8$, ten in degree $9$, and none in degree
+$10$. The degree-$9$ places form one diamond orbit. Their curves have
+$558$ points, cyclic group, and one closed $j$-orbit of degree $3$.
+Hence noncuspidal reduction is a degree-$9$ place together with a
+rational cusp. Put $\sigma=\langle2\rangle^{-1}$ and
+$\tau=\langle5\rangle$, using point levels.
+The finite diamond image and Manin--Drinfeld give rational torsion
+$[\sigma D-D]$, and the rational cuspidal complement also gives
+rational torsion. The operator $A_5=T_5-1-5\tau$ annihilates it.
+Thus, for $P$ the noncuspidal residual place and $T=T_5P$,
+\[
+ B=\sigma T-T-\sigma P+P-5\sigma\tau P+5\tau P
+\]
+must be principal. The accepted exact canonical multiplication
+certificate proves it nonprincipal for the orbit representative and
+all necessary diamond translates. It uses the actual six geometric
+$5$-kernels, with three degree-$18$ target places and norm
+multiplicity $1$. The signed parts have degree $108$, and every
+necessary canonical multiplication matrix has rank $261$.
+This obstruction depends only on $P$, and remains
+valid with the present rational cuspidal complement. Hence we are
+left with entirely cuspidal reduction.
+
+The finite cusp signature is $1^{30}2^{15}5^6 10^3$.
+We first dispose of the quadratic and decic cusps. Put
+$h=\langle32\rangle$, an involution. Exact Tate-label arithmetic
+shows that $h$ fixes every quadratic and every decic closed cusp.
+It interchanges pairs of quintic cusps.
+Lift $\overline D$ to a cuspidal divisor $C$ over $\mathbb Q_2$.
+The cusps are unramified at $2$; the lift need not be rational over
+$\mathbb Q$. The class $(h-1)[D-C]$ is torsion, by finite rational
+image and Manin--Drinfeld, and reduces to zero. The torsion reduction
+kernel over $\mathbb Q_2$ is killed by $2$, so
+\[
+ 2hD+2C\sim2D+2hC.
+\]
+If $C$ contains a quadratic or decic closed cusp, then
+$\deg\gcd(C,hC)\geq2$. After cancellation, the displayed divisors
+have degree at most $36$. However, the projective index is $3840$,
+and \cite[(2.1)]{NV} gives
+\[
+ \operatorname{gon}_{\mathbb C}X>
+ \frac{325\cdot3840}{32768}=\frac{4875}{128}>36.
+\]
+The two divisors are equal. Their noncuspidal parts imply $hD=D$.
+
+The involution $h$ is free on geometric noncuspidal points in
+characteristic zero. For generic $j$ the projective stabilizer is
+trivial. At $j=0$ it has order $3$, so cannot contain the projective
+class of $h$, which has order $2$. At $j=1728$ a nontrivial projective
+stabilizer would be induced by an automorphism whose square is $-1$.
+This is incompatible with $32^2\equiv1\pmod{93}$ on a point of odd
+order $93$.
+Since $D$ is a single degree-$10$ closed trace, $h$ therefore induces
+an involution on its residue field. The fixed field has degree $5$.
+The forgetful map $(E,P)\mapsto(E,3P)$ to $X_1(31)$ is $h$-invariant,
+since $32\equiv1\pmod{31}$. Thus a point of order $31$ descends to
+a field of degree $1$ or $5$, contrary to the quintic torsion
+classification. This excludes every reduction containing a
+quadratic or decic cusp.
+
+It remains to treat rational and quintic cusps. We use the
+multiplicative-level canonical model. Its diamonds for $2,5$ have
+finite rational difference image. Let
+\[
+ \Psi_2=(T_2^\mu-1)(\delta_2-1),\qquad
+ \Psi_5=(T_2^\mu-1)(\delta_5-1).
+\]
+For a cuspidal lift $C$ as above, each $(\delta_i-1)[D-C]$ is torsion
+over $\mathbb Q_2$ and has zero reduction. The multiplicative-level
+version of the full-Jacobian dyadic kernel lemma gives
+$\Psi_i[D-C]=0$. The factor is $T_2^\mu-1$, obtained from the
+point-level factor $T_2-\langle2\rangle$ by Fricke and an invertible
+diamond. All cotangent calculations take place on the full Jacobian.
+
+The pullback image of these two operators is a diamond-stable space
+$U$ of dimension $248$ over $\mathbb F_2$. Translate a rational cusp
+of greatest multiplicity to the first cusp and retain ten jets there
+and five at the other $29$ rational cusps. The $155$ rows have rank
+$150$, and their full relation space has dimension $5$. Independent
+enumeration of all $31$ nonzero relations gives minimum normalized
+prefix cost $30$. Thus every rational-cuspidal divisor of degree
+$10$ gives restriction rank $10$.
+
+The six quintic cusps form one diamond orbit. A genuine Tate family
+for one of them is
+\[
+                 E(q^3),\qquad P=\zeta_{31}q,
+\]
+over $\mathbb F_{32}$. The accepted global modular-unit identities
+recover its canonical arc through the first two coefficients.
+Two different full-rank minors give the same arc; the tangent is
+nonzero. The diamond action is identified globally with inverse
+point multiplication. Coefficientwise Frobenius on this arc is
+checked against point multiplication by $64$, which is $1$ modulo
+$3$ and $2$ modulo $31$. This verifies the six closed-cusp restriction
+blocks, including their residue-field descent.
+
+If a quintic cusp occurs, move one to the first quintic place.
+The remaining possibilities are one quintic plus rational degree
+$5$, or two quintics, including a double cusp. We test
+\[
+                    \binom{34}{5}+6=278262
+\]
+normalized configurations. Every matrix has rank $10$.
+A separate complete-matrix implementation verifies these ranks and
+the rational relation space. The canonical unit identities used for
+these arcs are global: their verified orders exceed the section
+degree bounds coming from unit pole degrees $100,105$.
+
+Thus the product of $\Psi_2,\Psi_5$ is a formal immersion on
+$X^{(10)}$ at every remaining cuspidal reduction. Since $D$ and $C$
+have the same reduction and the same image, we obtain $D=C$.
+This contradicts the noncuspidal support of $D$ and completes the
+proof.
+\end{proof}

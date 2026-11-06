@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_Y228_AF_cusp_signature_probe",
+  "script": "computations/d31b_Y228_AF_cusp_signature_probe.m",
+  "script_sha256": "94258ef03a7459d8e6f037ad5a83f100aed517bc04c4cb08d9c11508cabcd848",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_AF_cusp_signature_probe.m"
+  ],
+  "pid": 3468303,
+  "owner_uid": 1001,
+  "start_time_unix": 1793433554.7786257,
+  "state": "EXITED",
+  "time_limit_seconds": 320,
+  "log": "jobs/d31b_Y228_AF_cusp_signature_probe.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 23.65174698829651
+}

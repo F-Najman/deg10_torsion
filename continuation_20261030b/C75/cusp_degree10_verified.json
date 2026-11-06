@@ -1,0 +1,43 @@
+{
+  "complete": true,
+  "level": 75,
+  "source_global_cusp_signature": {
+    "4": 4,
+    "1": 20,
+    "2": 10,
+    "20": 2,
+    "8": 2
+  },
+  "source_F2_cusp_signature": {
+    "1": 20,
+    "2": 10,
+    "4": 8,
+    "20": 2
+  },
+  "quotient_all_cusps_globally_intact": true,
+  "quotient_cusp_signature": {
+    "1": 20,
+    "4": 4,
+    "10": 2
+  },
+  "source_low_degree3_cusps_globally_intact_and_Gal7_fixed": true,
+  "admissible_degree10_cusp_images": 871630,
+  "retained_common_basis_tests": 871520,
+  "new_high_cases": 110,
+  "new_own_basis_U_dimension": 71,
+  "rank_at_12_width75_cusp": 12,
+  "rank_at_10_width25_cusp": 10,
+  "all_nine_rank_at_12_plus_3_width75_cusps": [
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15
+  ],
+  "all_degree10_cusp_images_rank10": true,
+  "no_cross_export_basis_alignment_used": true
+}

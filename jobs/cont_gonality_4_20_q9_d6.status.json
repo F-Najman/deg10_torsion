@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_gonality_4_20_q9_d6",
+  "script": "computations/cont_gonality_4_20_q9_d6.m",
+  "script_sha256": "c1b7b0acabf9a6385edd1851ca4d75b55965dc00a5986808ac73e9ca0fa7f41c",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_gonality_4_20_q9_d6.m"
+  ],
+  "pid": 428985,
+  "owner_uid": 1001,
+  "start_time_unix": 1793292623.9564672,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/cont_gonality_4_20_q9_d6.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 186.5834243297577
+}

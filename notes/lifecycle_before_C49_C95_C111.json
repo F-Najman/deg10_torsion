@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "case": "C2 x C34, C68, C2 x C36 and C72 exclusions completed",
+  "time_unix": 1793362032.027377,
+  "degree_ten_magma_workers": [],
+  "degree_ten_supervisors_or_launchers": [],
+  "all_degree_ten_recorded_jobs_exited": true,
+  "recorded_job_count": 591,
+  "case_job_count": 78,
+  "unrelated_magma_workers_preserved": [
+    {
+      "status": "running",
+      "create_time": 1792133148.21,
+      "username": "fnajman",
+      "pid": 339824,
+      "cmdline": [
+        "/opt/magma-2.29-4/magma.exe",
+        "-b",
+        "code/03_groups.m"
+      ]
+    },
+    {
+      "status": "running",
+      "create_time": 1793362008.71,
+      "username": "fnajman",
+      "pid": 1925118,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=525313",
+        "OrderToTest:=4864",
+        "SparseOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p525313_n4864_sparse.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/export_large_sparse.m"
+      ]
+    },
+    {
+      "status": "running",
+      "create_time": 1793362009.58,
+      "username": "fnajman",
+      "pid": 1925141,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=525313",
+        "OrderToTest:=2432",
+        "SparseOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p525313_n2432_sparse.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/export_large_sparse.m"
+      ]
+    },
+    {
+      "status": "running",
+      "create_time": 1793362013.84,
+      "username": "fnajman",
+      "pid": 1925220,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=525313",
+        "OrderToTest:=2304",
+        "SparseOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p525313_n2304_sparse.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/export_large_sparse.m"
+      ]
+    },
+    {
+      "status": "running",
+      "create_time": 1793362017.34,
+      "username": "fnajman",
+      "pid": 1925294,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "Start:=1441",
+        "End:=1448",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/full127/stage2_chunk.m"
+      ]
+    },
+    {
+      "status": "running",
+      "create_time": 1793362018.21,
+      "username": "fnajman",
+      "pid": 1925306,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "Start:=1441",
+        "End:=1448",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/full139/stage2_chunk.m"
+      ]
+    },
+    {
+      "status": "running",
+      "create_time": 1793362019.06,
+      "username": "fnajman",
+      "pid": 1925315,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=525313",
+        "OrderToTest:=1152",
+        "SparseOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p525313_n1152_sparse.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/export_large_sparse.m"
+      ]
+    },
+    {
+      "status": "running",
+      "create_time": 1793362024.71,
+      "username": "fnajman",
+      "pid": 1925478,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "Start:=1443",
+        "End:=1450",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/full131/stage2_chunk.m"
+      ]
+    },
+    {
+      "status": "running",
+      "create_time": 1793362029.99,
+      "username": "fnajman",
+      "pid": 1925571,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "Start:=1444",
+        "End:=1451",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/full83/stage2_chunk.m"
+      ]
+    },
+    {
+      "status": "running",
+      "create_time": 1793227423.6,
+      "username": "nadzaga",
+      "pid": 3067704,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-s",
+        "for_mordell.m"
+      ]
+    }
+  ],
+  "host_logical_cores": 32,
+  "new_case_workers_remaining": 0,
+  "prior_lifecycle_audits_preserved": [
+    "C234_resolution_20261030/lifecycle_final.json",
+    "C236_resolution_20261030/enumeration/lifecycle_and_ideal_completion.json"
+  ],
+  "failed_or_terminated_probes_are_not_certificates": true,
+  "prior_shared_lifecycle_archive": "notes/lifecycle_before_C234_C236.json"
+}

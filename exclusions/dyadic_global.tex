@@ -1,0 +1,42 @@
+\begin{proposition}\label{prop:dyadic-global}
+Neither $115$ nor $121$ is an order of a torsion point over a decic field.
+\end{proposition}
+\begin{proof}
+Put $B=(\langle a\rangle-1)J_1(N)$, with $(N,a)=(115,16)$ or $(121,2)$.
+The complete winding or newform records show that $B(\mathbb Q)$ is finite.
+The character components contributing to $B$ have the following dimensions:
+\[
+\begin{array}{c|c|c|c|c}
+N&a&\operatorname{ord}(\chi)&\dim S_\chi&\dim B\\\hline
+115&16&44,11,22&10,10,10&400\\
+121&2&55,11,5&10,10,5&520
+\end{array}
+\]
+For every component we compute
+\[
+ \operatorname{Norm}_{L/\mathbb Q}
+ \det((1+3\chi(3))I-T_3).
+\]
+Each norm is an odd integer. It is the corresponding finite reduction
+order raised to $[L:\mathbb Q(\chi)]$. Finite reduction orders are invariant
+under isogeny, so $\#B(\mathbb F_3)$ is odd. Hence
+$B(\mathbb Q)[2^\infty]=0$.
+
+The dyadic hypothesis in the global Hecke criterion is therefore
+satisfied. Its constants and the exact lower bounds are
+\[
+\begin{array}{c|c|c|c|c}
+N&k_2&10k_2&325I_N/32768&\operatorname{ord}\langle a\rangle\\\hline
+115&6&60&32175/512&11\\
+121&5&50&589875/8192&55
+\end{array}
+\]
+The minimum CM degrees are $88$ and $110$. The resulting diamond
+invariance would force $11\mid10$ or $55\mid10$, respectively.
+\end{proof}
+
+At level $115$ the immutable determinant packet is replayed as exact
+polynomial resultants. At level $121$ the complete rational matrices
+are exported and their determinants and norms are recomputed in Sage.
+This verifies the required hypothesis at $2$ directly; no general
+injectivity claim for $2$-primary torsion is made.

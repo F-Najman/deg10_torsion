@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late_replay_filters.py", line 61, in <module>
+    iv,rel,hg,ds,cc,native=group;G40=Quot(rel);H40,A40=allowed(rel,hg,ds,cc);assert G40.index==31579088486400 and H40.index==4592 and list(map(len,A40))==list(map(len,native))
+                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

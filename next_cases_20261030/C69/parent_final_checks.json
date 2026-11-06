@@ -1,0 +1,86 @@
+{
+  "status": "PASS: C69 exclusion, parent mathematical audit",
+  "source_genus": 133,
+  "source_projective_index": 2112,
+  "geometric_gonality_lower_bound": "10725/512 > 20",
+  "noncuspidal_closed_points_through_degree10": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    66,
+    44,
+    44,
+    44
+  ],
+  "small_cover_base_tests": 9,
+  "small_cover_lift_tests": 18,
+  "last_quotient_genus": 67,
+  "base_X123_genus": 12,
+  "actual_same_degree_lifts_verified": 4,
+  "all_quartic_residue_factor_degrees": [
+    1,
+    3
+  ],
+  "hecke_image_degrees": [
+    10,
+    50
+  ],
+  "hecke_orbit_sizes": [
+    1,
+    5
+  ],
+  "hecke_norm_weights": [
+    1,
+    1
+  ],
+  "positive_Hecke_divisor_degree": 60,
+  "correct_operator": "T5-1-5<5>",
+  "native_RR_dimension": 0,
+  "prime_checks": "Fresh native maximal orders, TwoGenerators ideals prime of correct degrees, both base-prime generators and uniformizer restriction, unique same-degree lifts, exact full operator reconstruction, and fresh Basis(A5) dimension zero. Packet tag is declared as a known string before eval because Sprint writes metadata labels without quotes.",
+  "global_glue": "All cuspidal residues of degree at most10 are intact global1/2orbits; entirely cuspidal reduction is impossible by the exponent-two Q2 torsion kernel and degree20 below geometricgonality. A5 kills rational torsion by Eichler--Shimura at5 and odd-prime torsion injectivity. The small quotient excludes every other branch; above the remaining ordinary j orbit the cyclic69 subgroup is unique and all full levels are diamond-conjugate. Equivariance carries the final nonprincipality to the whole orbit.",
+  "evidence": [
+    {
+      "path": "next_cases_20261030/C69/small_cover_verified_partial.json",
+      "sha256": "4314c40824424a008495f68abde8352c08ac9f3211b729f526e7b3d34f2a6526"
+    },
+    {
+      "path": "next_cases_20261030/C69/quotient67/proof_packet_v2.m",
+      "sha256": "769bbe82ffd302a9f832c5e1ee0e0003adda56328c9c58c3f069cdcb7cce69bf"
+    },
+    {
+      "path": "next_cases_20261030/C69/quotient67/rr_result_v2.json",
+      "sha256": "5fba04bad93033308b7fa1b52899144e29db56c60d5df67660a402a9dac4c552"
+    },
+    {
+      "path": "next_cases_20261030/C69/quotient67/parent_native_replay.m",
+      "sha256": "0c09942e1f58cb7404c92db5b35d59c2cd00db2fa34ac2fb8fa56f1b87785a84"
+    },
+    {
+      "path": "next_cases_20261030/C69/quotient67/q67_profile_rr_v2.m",
+      "sha256": "a97ba3aee6b87830f30f5f14cf7649ad46f7d5bc7e905040579dd2835e95a6d9"
+    },
+    {
+      "path": "jobs/q67_profile_rr_v2.status.json",
+      "sha256": "545956b06eddabad22c1081131b98747966232727951eadfbf3780e7ca10a15d"
+    },
+    {
+      "path": "jobs/q67_profile_rr_v2.log",
+      "sha256": "20bd8fc41be1baec78d85063610b05b13f61ecc734e3d346177b138cf8255e06"
+    },
+    {
+      "path": "computations/cont69_q67_parent_native_v2.m",
+      "sha256": "564a0aa71a6d4c4a47393a20671dfbab2185f858c4d30ec9a718309ab0aaaf5a"
+    },
+    {
+      "path": "jobs/cont69_q67_parent_native_v2.status.json",
+      "sha256": "e941b1a6e3160aaef54f33c1992f811a04b184505e8e106e24c85a2921f83741"
+    },
+    {
+      "path": "jobs/cont69_q67_parent_native_v2.log",
+      "sha256": "b05291297212becf5879a7d912bef0ffbb069ccd73a774483a066e52761d917b"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "CANDIDATE; EXACT Q VALIDATION REQUIRED",
+  "primes": [
+    1000000007,
+    1000000009,
+    1000000021,
+    1000000033
+  ],
+  "classes": [
+    30,
+    24
+  ]
+}

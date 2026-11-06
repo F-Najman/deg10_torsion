@@ -1,0 +1,109 @@
+{
+  "status": "VERIFIED PARTIAL; C69 remains open",
+  "noncuspidal_closed_points_through_degree10": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    66,
+    44,
+    44,
+    44
+  ],
+  "base_genus": 7,
+  "cover_genus": 13,
+  "base_divisor_tests": 9,
+  "cover_divisor_tests": 18,
+  "independent_explicit_5_isogenies": 54,
+  "independent_norm_summands": 19,
+  "residual": "degree10 basecase2: two of four over-approximate A5 lift choices are principal",
+  "serialization_control": "TwoGenerators of each prime, with exact generated-ideal and function serialization round-trip assertions. All27 divisor RR dimensions independently replayed in fresh native maximal orders. Original Basis(Ideal(P)) export was insufficient for relative coefficient ideals and is not accepted.",
+  "evidence": [
+    {
+      "path": "computations/cont69_cover_all_decic_v2.m",
+      "sha256": "7827dd1804e4456c7097b9d1e831cdf60e923ce16aea4f98a8e98275a272d27a"
+    },
+    {
+      "path": "jobs/cont69_cover_all_decic_v2.status.json",
+      "sha256": "1c729b0196b075ec6551a968c8013de510e82823234c25d84600433371c5ed7f"
+    },
+    {
+      "path": "jobs/cont69_cover_all_decic_v2.log",
+      "sha256": "065827b18a1ce3ff222bc83117b1d6ad165f86298cf93f342b38c6b109d92b0e"
+    },
+    {
+      "path": "computations/cont69_native_RR_replay_v2.m",
+      "sha256": "191424cca5dccaef87b1c7c9acb3177de262ad83150726672988d961f7667946"
+    },
+    {
+      "path": "jobs/cont69_native_RR_replay_v2.status.json",
+      "sha256": "caf7b89c58d43c162e9d79a22257dde946184b84c8ec7a0de72154466744d803"
+    },
+    {
+      "path": "jobs/cont69_native_RR_replay_v2.log",
+      "sha256": "faf370752d2f2cddec9cfcfefe103cf8bc4841dd5262a4986fe17417e7ee45f6"
+    },
+    {
+      "path": "computations/cont69_independent_moduli_v4.py",
+      "sha256": "dd2d420cf3fd8692dab4b0c3bd68de27e0e7857c5751ce974066eb760e7cc478"
+    },
+    {
+      "path": "jobs/cont69_independent_moduli_v4.status.json",
+      "sha256": "3274bac715fc3fda3cb0780fe14da86e8cd338dd8104d61b63e1a0322106c1c3"
+    },
+    {
+      "path": "jobs/cont69_independent_moduli_v4.log",
+      "sha256": "26441a1e873d2c11af8a2d2e62ecf53a8030c274b09147410f9ad040f4a16751"
+    },
+    {
+      "path": "computations/cont69_geometry_export.m",
+      "sha256": "712c061df8468e9cc77dfe95ce6f2bae29025cf606763b75c80ec13d96a598a5"
+    },
+    {
+      "path": "jobs/cont69_geometry_export.status.json",
+      "sha256": "9c4b9aeab300c073da42026c2007ba231c968f9a4bdf19651db665d2cf5e92f2"
+    },
+    {
+      "path": "jobs/cont69_geometry_export.log",
+      "sha256": "598915cdbb435e188b157073bae61cc802792f625b8bc2a6c4b260728b386de0"
+    },
+    {
+      "path": "next_cases_20261030/C69/independent_source_cusps.py",
+      "sha256": "122a02f4f4840cb375eca91b8c927cf459dc57842504c0d924a5d49914a9a3f5"
+    },
+    {
+      "path": "jobs/independent_source_cusps.status.json",
+      "sha256": "6692ab8f734a2c74d8d393fe26cd7c50db8e8f867c353b89d205167fcad45ebd"
+    },
+    {
+      "path": "jobs/independent_source_cusps.log",
+      "sha256": "fe3a7a715f9e40b126564a5ca0a4207e1287c900219b15a15721fcc993c311f0"
+    },
+    {
+      "path": "next_cases_20261030/C69/cover_model_v2.m",
+      "sha256": "71d55560f6a82205b91213aed30fd1f5c0098c0f6f1db7e0872e61466ca3de64"
+    },
+    {
+      "path": "next_cases_20261030/C69/cover_results_v2.m",
+      "sha256": "59d19f28e281262bc9b1e95870dcafb885eb644cfaf30cec8e786988c275ed82"
+    },
+    {
+      "path": "next_cases_20261030/C69/native_RR_replay_v2.m",
+      "sha256": "04eb525eefd5e55979ca21005da5a9e05c48bc8ecaac058304e2edc5616cb926"
+    },
+    {
+      "path": "next_cases_20261030/C69/independent_moduli_isogenies_v4.json",
+      "sha256": "e35bd51fb7478dcec3796f259a87c85d755569a490f38d7fbec75a4c2d31edf1"
+    },
+    {
+      "path": "next_cases_20261030/C69/independent_source_cusps.json",
+      "sha256": "a924cd6b5ab74a39d9f39f0f74a542787c17da58b1ee2e0f374c0e7e93de62a1"
+    },
+    {
+      "path": "next_cases_20261030/C69/base_j_functions.m",
+      "sha256": "ed2ea83387198c1bd323f4e8a417def08d5aa323965bfeedcea166398005d3e8"
+    }
+  ]
+}

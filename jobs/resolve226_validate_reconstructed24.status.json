@@ -1,0 +1,19 @@
+{
+  "purpose": "resolve226_validate_reconstructed24",
+  "script": "computations/resolve226_validate_reconstructed24.m",
+  "script_sha256": "f6dd8b42ced39195cffa02e6a09b97f09f1cd35f643cfce83fbb570df629983c",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_validate_reconstructed24.m"
+  ],
+  "pid": 1586194,
+  "owner_uid": 1001,
+  "start_time_unix": 1793347938.9438577,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/resolve226_validate_reconstructed24.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 580.1558315753937
+}

@@ -1,0 +1,41 @@
+{
+  "degree": 9,
+  "group": [
+    1,
+    85
+  ],
+  "status": "GEOMETRIC MU FORMAL-IMMERSION PROSE CORRECTION",
+  "point_correction_manifest_sha256": "6b363238fbbcb0df7017678ae9b11345fe670c062c829ea3da1f35b69b0a875a",
+  "proof": "prime_orders/continued_20261026/mu_FI_correction_20261027/reviewed85.tex",
+  "independent_checker": "prime_orders/continued_20261026/mu_FI_correction_20261027/certify_mu_FI_readonly.py",
+  "files": [
+    {
+      "path": "prime_orders/continued_20261026/mu_FI_correction_20261027/case85_final.tex",
+      "sha256": "e9984f024237731563f50765f9707aca3594c9022c02eead618b5796f134f4c8"
+    },
+    {
+      "path": "prime_orders/continued_20261026/mu_FI_correction_20261027/reviewed85.tex",
+      "sha256": "2bb834c4b23d0ebb38c9b9a0d96fcec48983d9ef80e639726398806d0fc9c4db"
+    },
+    {
+      "path": "prime_orders/continued_20261026/mu_FI_correction_20261027/certify_mu_FI_readonly.py",
+      "sha256": "ba996b240eb037eeb8a37caa4d239459729218c0a3833589187f1566fbb08cc4"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/case85_corrected.tex",
+      "sha256": "7cfb0cbad2beb0ff09f31fea26c22a4d8ffd7c7ac280af23042301a1c790890c"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/point_hecke_lemma.tex",
+      "sha256": "3f9d4ef954528dc69a2d61283cc3365676b36c50d2eb66e8c8de83ee53d981bc"
+    },
+    {
+      "path": "prime_orders/continued_20261026/composite85/FI_positive_independent_verified.json",
+      "sha256": "bc3ecdb61dd5106a5e6f0e1c882424a1cf42926aacff1393da48bb091afdac26"
+    },
+    {
+      "path": "prime_orders/continued_20261026/composite85/provenance.tex",
+      "sha256": "d0aa0672d3733e50afda75dffeb785943fd1359086ee5c15ad963516c3b33b62"
+    }
+  ]
+}

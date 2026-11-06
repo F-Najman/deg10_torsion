@@ -1,0 +1,7 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/family_3_12.m", line 3, column 8:
+>> X:=MDX1(3,4);C:=Curve(X);F:=BaseRing(C);d:=5;
+          ^
+Runtime error in 'MDX1': Bad argument types
+Argument types given: RngIntElt, RngIntElt
+

@@ -1,0 +1,19 @@
+{
+  "purpose": "b81_rr_case3",
+  "script": "computations/b81_rr_case3.m",
+  "script_sha256": "55c2012fe0b76aa944bba2ab7b1124678094cf97ec66fdbc96308aa3bdd8477d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_rr_case3.m"
+  ],
+  "pid": 2552329,
+  "owner_uid": 1001,
+  "start_time_unix": 1793390084.3605015,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/b81_rr_case3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.617652654647827
+}

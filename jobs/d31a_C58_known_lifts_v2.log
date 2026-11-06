@@ -1,0 +1,8 @@
+Loading "work/deg10/continuation_20261031a/C58/known_lift_binding_job_v2.m"
+Loading "work/deg10/continuation_20261031a/C58/degree10_census.m"
+
+In file "work/deg10/continuation_20261031a/C58/known_lift_binding_job_v2.m", line 18, column 88:
+>> NormalForm_xy(EE,a*PP));i:=Index(PointKeys,ky);assert i gt 0;Include(~ids,i
+                                   ^
+Runtime error in 'Index': Cannot coerce element into the universe
+

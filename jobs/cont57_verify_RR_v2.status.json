@@ -1,0 +1,18 @@
+{
+  "purpose": "cont57_verify_RR_v2",
+  "script": "continuation_20261030b/C57/cont57_verify_RR_v2.py",
+  "script_sha256": "82049048cd1821ae1c533fb20dca1222d78cd338e2d2f71c72396052958c1e3a",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C57/cont57_verify_RR_v2.py"
+  ],
+  "pid": 2513687,
+  "owner_uid": 1001,
+  "start_time_unix": 1793388272.600877,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/cont57_verify_RR_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 37.92531490325928
+}

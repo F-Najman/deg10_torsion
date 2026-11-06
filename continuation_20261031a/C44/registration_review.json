@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "groups": [
+    [
+      1,
+      44
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Complete decic C44 exclusion: Varivoda gonality boundary and exact cusp Gal5=Gal3^8; all956 new support tests combined with inherited lower tests; full canonical/jet/genuine-kernel controls",
+  "frozen_summary_sha256": "405a953e6c3a0431d51d5e60f3e4edbcbdc23582ded4a3fb33448abc5dbf8200",
+  "classification_complete": false
+}

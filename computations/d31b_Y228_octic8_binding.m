@@ -1,0 +1,6 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);Alarm(120);tt:=Cputime();AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");load "work/deg10/continuation_20261031b/Y228_shared/fast_primitive_inverse.m";load "work/deg10/continuation_20261031b/Y228_shared/union_cases.m";old:=eval Read("work/degree8/noncyclic/N28_D8_fullaut_Hecke_input.txt");k:=GF(3);R:=PolynomialRing(k);part:=UnionCases[8][3][1];d,m,ky:=Explode(part);pol:=[row[2]:row in UnionFields|row[1] eq d][1];K<a>:=ext<k|R!pol>;bb:=Evaluate(R!ky[1..d],a);cc:=Evaluate(R!ky[d+1..2*d],a);E:=EllipticCurve([K|0,cc,0,bb*(1-bb-cc),0]);P:=E![0,0];Q:=E![bb,bb];assert Order(Q) eq 28 and P ne 14*Q;res:=[* *];
+for oi in[35,46] do
+ dd,ii,poly,vals:=Explode(old[1][oi]);assert dd eq 8;L<z>:=ext<k|R!poly>;vv:=[Evaluate(R!c,z):c in vals];key:=Y228PrimitiveJointKey(vv);matched:=[];
+ for b in[0,1] do for c in[0,1] do for u in[1,3,5,9,11,13] do PP:=P+14*b*Q;QQ:=c*P+u*Q;zz:=DerickxNormalForm_bc(E,PP,QQ);if Y228PrimitiveJointKey(zz) eq key then Append(~matched,[b,c,u]);end if;end for;end for;end for;
+ Append(~res,[*oi,ii,matched*]);print "Y228_OCTIC_OLD_ORBIT_BINDING",oi,ii,matched,Cputime(tt);
+end for;Write("work/deg10/continuation_20261031b/Y228_shared/octic8/old_orbit_binding.m",Sprint(res):Overwrite:=true);print "D31B_Y228_OCTIC8_BINDING_COMPLETE";quit;

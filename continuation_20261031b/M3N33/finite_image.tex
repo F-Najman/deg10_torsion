@@ -1,0 +1,41 @@
+\begin{lemma}\label{lem:decic333-finite-image}
+Put $F=\mathbb Q(\zeta_3)$ and $X=X_1(3,33)$, and let
+$h(E,P_3,Q_{33})=(E,P_3,10Q_{33})$.
+Then $(h_*-1)\operatorname{Jac}(X)(F)$ is finite.
+\end{lemma}
+\begin{proof}
+Over $F$, the curve $X$ is isomorphic to the base change of
+$X_H(99)$, where $H=\langle34\rangle$; see \cite[Section~2]{DS}.
+The involution $h$ is induced by the diamond operator
+$\langle10\rangle$. The source has genus $81$ and its quotient
+by $h$ has genus $41$, so its anti-invariant Jacobian factor
+has dimension $40$.
+
+The even nebentypes $\varepsilon$ modulo $99$ satisfying
+$\varepsilon(34)=1$ and $\varepsilon(10)=-1$ have conductor
+dividing $33$. They have precisely two Galois orbits, of orders
+$2$ and $10$. In each case the corresponding cuspidal modular
+symbol space with sign $+$ has dimension $8$ over the character
+field. Their rational dimensions are $8$ and $4\cdot8$, giving
+all $40$ dimensions of the anti-invariant factor.
+The exact winding computation gives full Hecke orbit rank
+$8$ in both spaces. This is certified by reduction modulo $5$
+and $11$, respectively, avoiding the finitely many denominator
+primes. Thus every newform contributing to these spaces has
+nonzero central $L$-value.
+
+Let $\chi_{-3}$ be the quadratic character of $F$.
+The twist-containment argument at the end of the proof of
+\cite[Theorem~4.1]{DS}, using Atkin--Li, shows that twisting a
+form in $S_2(\Gamma_0(99),\varepsilon)$ by $\chi_{-3}$ stays in
+this same space: the conductor of $\varepsilon$ divides $33$
+and $99=3\cdot33$. In particular its nebentype and its $h$-sign
+are unchanged. The preceding winding computation therefore
+also covers every $\chi_{-3}$-twist of an anti-invariant factor.
+The nonvanishing theorem for modular abelian varieties used
+in \cite[Section~4]{DS} gives rank zero over $\mathbb Q$ for
+each factor and its twist, hence rank zero over $F$.
+The image of $h_*-1$ is contained in this factor, proving the
+claim. The winding vectors and Hecke matrices are retained,
+and their full ranks are checked independently in Sage.
+\end{proof}

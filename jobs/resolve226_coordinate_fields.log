@@ -1,0 +1,14 @@
+[
+  {
+    "class": 30,
+    "coordinate_field_degree": 10,
+    "b_minpoly_degree": 10,
+    "c_minpoly_degree": 10
+  },
+  {
+    "class": 24,
+    "coordinate_field_degree": 10,
+    "b_minpoly_degree": 10,
+    "c_minpoly_degree": 10
+  }
+]

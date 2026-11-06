@@ -1,0 +1,88 @@
+\begin{lemma}\label{lem:octic-dyadic-F4-kernel}
+Let $A/\mathbb Z_2$ be an abelian scheme with commuting
+endomorphisms $T$ and $\delta$ satisfying
+$T_{\mathbb F_2}=F_2+\delta V_2$. Let $R$ be the ring of
+integers of the unramified quadratic extension of $\mathbb Q_2$.
+Then $T^2-\delta^2$ kills the torsion kernel of reduction
+$A(R)\to A(\mathbb F_4)$.
+\end{lemma}
+\begin{proof}
+The torsion kernel has exponent $2$. The schematic closure
+of a nonzero point and zero is finite flat of rank $2$,
+with connected special fibre. The rank-two Tate--Oort
+classification over the unramified ring $R$ identifies it
+with $\mu_2$. Reduction on
+$\operatorname{Hom}_R(\mu_2,A[2])$ is injective: after
+Cartier duality, maps to the constant \'etale group $\mathbb Z/2$
+are determined by their open and closed fibres, hence by
+their reductions over the henselian ring $R$.
+
+Since $F_2V_2=[2]$, we have the exact identity
+\[
+ T^2=F_4+[4]\delta+\delta^2V_4.
+\]
+On a copy of $\mu_2$ defined over $\mathbb F_4$, $F_4$ is
+zero, $V_4$ is the identity, and $[4]$ is zero.
+Naturality therefore gives
+$(T^2-\delta^2)\overline\iota=0$ for the inclusion
+$\iota:\mu_2\hookrightarrow A[2]$. Injectivity of reduction
+on this Hom group proves the assertion over $R$.
+\end{proof}
+
+\begin{lemma}\label{lem:octic-F4-Cartier}
+Let $F=\mathbb Q(\zeta_3)$ and let $Y/\mathbb Q$ be a
+modular curve with good reduction at $2$. Suppose that
+$\operatorname{rk}\operatorname{Jac}(Y)(F)=0$, that $Y_F$
+has an $F$-rational cusp, and that its cusps split over a
+cyclotomic extension unramified at $2$. Suppose that $T_2$
+and $\delta_2$ descend to $\operatorname{Jac}(Y)$ and
+satisfy Eichler--Shimura. Put
+\[
+ U=(\mathcal C^2-1)H^0(Y_{\mathbb F_4},\Omega^1),
+\]
+where $\mathcal C$ is Cartier. If restriction from $U$
+to every effective cuspidal degree-$d$ divisor over
+$\mathbb F_4$ is surjective, then no noncuspidal
+effective $F$-rational degree-$d$ divisor has entirely
+cuspidal reduction at $2$.
+\end{lemma}
+\begin{proof}
+Let $D$ be such a divisor and let $C$ be the unique \'etale
+cuspidal lift of its reduction. Although $C$ need not be
+globally defined over $F$, its multiplicities are constant
+on Frobenius-$4$ cycles. Thus $C$ is defined over the local
+field $F_v$, the unramified quadratic extension of
+$\mathbb Q_2$. It is also globally defined over a
+decomposition field in the cyclotomic cusp field.
+
+By rank zero and Manin--Drinfeld, $[D-C]$ is torsion.
+It lies in the reduction kernel over $F_v$.
+Lemma~\ref{lem:octic-dyadic-F4-kernel} gives
+\[
+ (T_2^2-\delta_4)[D-C]=0,
+ \qquad \delta_4=\delta_2^2.
+\]
+On cotangents in characteristic two, the image of
+$T_2^2-\delta_4$ is
+$\delta_4^*(\mathcal C^2-1)H^0(\Omega^1)=U$.
+Here $F_4$ pulls back to zero, $V_4$ pulls back to
+$\mathcal C^2$, and the diamond operator commutes with
+Cartier. The restriction hypothesis is therefore formal
+immersion at the reduction of $C$ for
+\[
+ Y_F^{(d)}\longrightarrow\operatorname{Jac}(Y)_F,
+ \quad E\longmapsto(T_2^2-\delta_4)[E-dc_0].
+\]
+The sections $D,C$ have the same reduction and image,
+so formal immersion gives $D=C$, a contradiction.
+\end{proof}
+
+For computations over $\mathbb F_4$, Cartier is semilinear.
+If its row matrix is $M$ in a basis of differentials, then
+the row matrix of $\mathcal C^2$ is $M^{[2]}M$, where
+$M^{[2]}$ denotes entrywise squaring. The program
+\texttt{cartier2\_3\_15\_D4.m} verifies this identity
+against direct double application of Cartier. Its
+restriction computation has $616$ exceptions among
+$5000$ divisors, so this lemma alone does not exclude
+$C_3\times C_{15}$ over octic fields.

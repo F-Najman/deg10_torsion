@@ -1,0 +1,19 @@
+{
+  "purpose": "contc91_quotient_differentials",
+  "script": "computations/contc91_quotient_differentials.m",
+  "script_sha256": "3a8b1a87c17d4c1e122cae9da5bafe6c0d9b42cb996993bc3ba2589c0e81e406",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc91_quotient_differentials.m"
+  ],
+  "pid": 2731020,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398618.4814749,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/contc91_quotient_differentials.log",
+  "actual_exit_code": -15,
+  "termination_reason": null,
+  "elapsed_seconds": 665.3756053447723
+}

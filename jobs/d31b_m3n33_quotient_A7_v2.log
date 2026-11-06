@@ -1,0 +1,11 @@
+RELATIVE5_TARGET_MODEL 33 21 12 1.830
+
+Get(
+    E: E,
+    P: (0 : 0 : 1)
+)
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m3n33_quotient_A7_v2.m", line 10, column 86:
+>> =LCM([Degree(MinimalPolynomial(v,k)):v in values]);found:=false;
+                                 ^
+Runtime error in 'MinimalPolynomial': Argument 2 is not a subfield of the parent of argument 1
+

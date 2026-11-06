@@ -1,0 +1,37 @@
+[
+  {
+    "source": "work/deg10/next_cases_20261030/C69/proof_dependencies/DEHMZ_source.snapshot.tex",
+    "copy": "work/deg10/continuation_20261031a/C56/inputs/DEHMZ.tex",
+    "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+  },
+  {
+    "source": "work/deg10/inputs/quintic_paper.tex",
+    "copy": "work/deg10/continuation_20261031a/C56/inputs/accepted_quintic_paper.tex",
+    "sha256": "14f89d7b64bd2daa99f42323c0898a4b04fcfd9f429576da3d82b2fa6bb60fe6"
+  },
+  {
+    "source": "work/deg10/continuation_20261030c/C99/inputs/fast_hecke.m",
+    "copy": "work/deg10/continuation_20261031a/C56/inputs/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  {
+    "source": "work/deg10/continuation_20261030c/C99/inputs/pair_af_place_linear.m",
+    "copy": "work/deg10/continuation_20261031a/C56/inputs/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/deg10/continuation_20261030b/C81/deps/native_group_generators.m",
+    "copy": "work/deg10/continuation_20261031a/C56/inputs/native_group_generators.m",
+    "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1"
+  },
+  {
+    "source": "work/deg10/continuation_20261030b/C81/deps/portable_forward.m",
+    "copy": "work/deg10/continuation_20261031a/C56/inputs/portable_forward.m",
+    "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49"
+  },
+  {
+    "source": "work/deg10/continuation_20261030b/C81/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "copy": "work/deg10/continuation_20261031a/C56/inputs/class_group_direct_RR_checked_v4_fastfb.m",
+    "sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6"
+  }
+]

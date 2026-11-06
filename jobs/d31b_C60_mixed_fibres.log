@@ -1,0 +1,8 @@
+Loading "work/deg10/continuation_20261031b/C60/inputs/a3_model.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C60/d31b_C60_mixed_fibres.m", line 74, column 60:
+>>    vec:=[GF(7)!0:i in[1..pivot-1]] cat [GF(7)!1] cat Eltseq(tail);Append(~s
+                                                              ^
+Runtime error in 'Eltseq': Bad argument types
+Argument types given: Tup
+

@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_C56_sieve_rr_case837_v3",
+  "script": "continuation_20261031b/C56/d31b_C56_sieve_rr_case837_v3.py",
+  "script_sha256": "596e6b00e072fa3346c6d7f90cba0f9ff183cb1d8bd5ecfbdf63772b6312b11f",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C56/d31b_C56_sieve_rr_case837_v3.py"
+  ],
+  "pid": 3692773,
+  "owner_uid": 1001,
+  "start_time_unix": 1793443374.2137887,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/d31b_C56_sieve_rr_case837_v3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 21.37722635269165
+}

@@ -1,0 +1,17 @@
+Loading "work/deg10/continuation_20261029/deps/class_group_direct_RR_m3_18_root.m"
+DECIC612_D5_GROUP 7 [ 6, 12, 24, 24, 48, 48, 0 ]
+[ 6, 12, 12, 12, 24, 24 ]
+7.450
+DECIC612_D5_GROUP 13 [ 3, 3, 3, 3, 6, 24, 24, 24, 96, 96, 0 ]
+[ 6, 12, 12, 12, 24, 24 ]
+17.940
+DECIC612_D5_HECKE_KERNEL [ 6, 12, 24, 24, 24, 24 ]
+[ 2, 2 ]
+18.670
+DECIC612_D5_SOURCE_RESUME_COMPLETE 24576 21024 3360 27.280
+DECIC612_D5_TARGET_PROGRESS 2 144 2 11968 0 27.700
+DECIC612_D5_TARGET_PROGRESS 3 576 6 15136 0 74.210
+DECIC612_D5_TARGET_PROGRESS 4 7116 79 17664 0 88.760
+
+Current total memory usage: 30506.4MB, failed memory request: 32.0MB
+System Error: User memory limit has been reached

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_g5_sage_replay.py", line 2, in <module>
+    runpy.run_path('work/deg10/next_cases_20261030/C242/geometry/replay_genus5.py',run_name='__main__')
+  File "<frozen runpy>", line 290, in run_path
+  File "<frozen runpy>", line 259, in _get_code_from_file
+  File "work/deg10/next_cases_20261030/C242/geometry/replay_genus5.py", line 101
+    K=fields[d];b=ev(K,ky[:d]);c=ev(K,ky[d:]);E=EllipticCurve(K,[0,c,0,b*(1-b-c),0]);P2=E(0,0);Q=E(b,b);assert 42*Q==E(0)and21*Q!=E(0)and14*Q!=E(0)and6*Q!=E(0)and P2!=21*Q
+                                                                                                                         ^^^^^
+SyntaxError: invalid syntax

@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "group": [
+    3,
+    33
+  ],
+  "degree": 10,
+  "relative_field": "Q(zeta3)",
+  "relative_degree": 5,
+  "new_exclusion": true,
+  "genus": 81,
+  "full_JF_rank_zero_not_assumed": true,
+  "h10_minus_factor_dimension": 40,
+  "both_QQ_and_minus3_twists_full_winding": true,
+  "finite_alpha_JF": true,
+  "NC_F4_closed_counts": [
+    0,
+    0,
+    0,
+    0,
+    264
+  ],
+  "cyclic33_image_places": 88,
+  "image_diamond_orbits": 12,
+  "selected_RR_dimensions": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "independent_genuine5kernels": 72,
+  "selected_genuine3kernels": 3,
+  "manual_Velu_maps": 75,
+  "parent_native_prime_references": 80,
+  "full_frame_second_native_replay": true,
+  "F4_closed_cusps": {
+    "1": 40,
+    "5": 8
+  },
+  "h10_free_at_all_cusps": true,
+  "U_dimension": 36,
+  "rational_degree5_cusp_divisors": 1086008,
+  "rank_counts_by_pulled_back_degree": [
+    864008,
+    213600,
+    8400
+  ],
+  "quintic_cusp_divisors_rank5": 8,
+  "independent_series_bases": 24,
+  "independent_source_cusp_matrices": 48,
+  "independent_all_cusp_ranks": 1086016,
+  "relative_formal_F4_lemma_used": true,
+  "no_global_cusp_lift_assumption": true,
+  "workers_remaining": 0
+}

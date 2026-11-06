@@ -1,0 +1,1 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);labels:=[];for eps,eta in[0,1],u in[1,5,7,11]do Append(~labels,[eps,eta,u]);end for;assert #labels eq 16;Write("work/deg10/continuation_20261031b/C48/geometric_action_labels.m",Sprint(labels):Overwrite:=true);print "D31B_C48_ACTION_LABELS_COMPLETE",labels;quit;

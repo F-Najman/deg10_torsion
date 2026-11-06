@@ -1,0 +1,104 @@
+{
+  "checked_at_utc": "2026-10-30T08:39:14.914254+00:00",
+  "all_degree10_recorded_jobs_exited": true,
+  "degree10_job_count": 468,
+  "active_degree10_workers_or_launchers": [],
+  "paused_degree10_jobs": [],
+  "host_cpu_count": 32,
+  "required_idle_cores": 2,
+  "unrelated_magma_workers_preserved": [
+    {
+      "pid": 339824,
+      "uid": 1001,
+      "owner": "fnajman",
+      "start_ticks": 94016621,
+      "state": "R",
+      "command": "/opt/magma-2.29-4/magma.exe -b code/03_groups.m"
+    },
+    {
+      "pid": 1604485,
+      "uid": 1001,
+      "owner": "fnajman",
+      "start_ticks": 215575110,
+      "state": "R",
+      "command": "/opt/magma-2.30-1/magma.exe -b N:=163 Qs:=3,5 Power:=1 DiamondOrder:=81 MatrixFile:=work/degree19/two163_data.m work/degree19/rational_two163.m"
+    },
+    {
+      "pid": 1607804,
+      "uid": 1001,
+      "owner": "fnajman",
+      "start_ticks": 215585970,
+      "state": "R",
+      "command": "/opt/magma-2.30-1/magma.exe -b P:=137 Ind:=68 Tn:=2 Q:=3 Out:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/FI/FI137.txt /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/export_FI_alpha_fast.m"
+    },
+    {
+      "pid": 1622792,
+      "uid": 1001,
+      "owner": "fnajman",
+      "start_ticks": 215649887,
+      "state": "R",
+      "command": "/opt/magma-2.30-1/magma.exe -b Start:=434 End:=441 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/full137/stage2_chunk.m"
+    },
+    {
+      "pid": 1623266,
+      "uid": 1001,
+      "owner": "fnajman",
+      "start_ticks": 215651929,
+      "state": "R",
+      "command": "/opt/magma-2.30-1/magma.exe -b Start:=442 End:=449 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/full137/stage2_chunk.m"
+    },
+    {
+      "pid": 1623706,
+      "uid": 1001,
+      "owner": "fnajman",
+      "start_ticks": 215654045,
+      "state": "R",
+      "command": "/opt/magma-2.30-1/magma.exe -b Start:=450 End:=457 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/full137/stage2_chunk.m"
+    },
+    {
+      "pid": 1623882,
+      "uid": 1001,
+      "owner": "fnajman",
+      "start_ticks": 215654820,
+      "state": "R",
+      "command": "/opt/magma-2.30-1/magma.exe -b P:=261523 OrderToTest:=783 SparseOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/large_orders/p261523_n783_sparse.txt /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/export_large_sparse.m"
+    },
+    {
+      "pid": 1624016,
+      "uid": 1001,
+      "owner": "fnajman",
+      "start_ticks": 215655572,
+      "state": "R",
+      "command": "/opt/magma-2.30-1/magma.exe -b P:=261523 OrderToTest:=4509 SparseOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/large_orders/p261523_n4509_sparse.txt /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/export_large_sparse.m"
+    },
+    {
+      "pid": 1624298,
+      "uid": 1001,
+      "owner": "fnajman",
+      "start_ticks": 215656788,
+      "state": "R",
+      "command": "/opt/magma-2.30-1/magma.exe -b Start:=456 End:=463 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/full127/stage2_chunk.m"
+    },
+    {
+      "pid": 1624330,
+      "uid": 1001,
+      "owner": "fnajman",
+      "start_ticks": 215656976,
+      "state": "R",
+      "command": "/opt/magma-2.30-1/magma.exe -b Raw:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/large_orders/p261509_n10058_cpp_raw.m Final:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/large_orders/p261509_n10058_sequence.m /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree19/finish_cpp.m"
+    },
+    {
+      "pid": 3067704,
+      "uid": 1008,
+      "owner": "nadzaga",
+      "start_ticks": 203444160,
+      "state": "R",
+      "command": "/opt/magma-2.30-1/magma.exe -s for_mordell.m"
+    }
+  ],
+  "retirement_records": [
+    "C226_resolution_20261030/retired_duplicate.json",
+    "C226_resolution_20261030/retired_obsolete_workers.json"
+  ],
+  "no_failed_or_terminated_probe_accepted_as_completed_certificate": true
+}

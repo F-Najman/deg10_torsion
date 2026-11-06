@@ -1,0 +1,13 @@
+Loading "work/deg10/continuation_20261031b/M3N18/final_Hecke_common.m"
+In file "work/deg10/continuation_20261031b/M3N18/final_Hecke_common.m", line 8, column 9:
+>> inputs:=eval Read(root cat "paired_final_Hecke_inputs.m");out:=[* *];q:=7;R
+           ^
+
+In eval expression, line 1, column 7:
+>> [*[1, [4, 13], [[4, [2, 12, 3, 0, 1], [[1, 5, 7, 2], [2, 12, 1, 4]]]]], [2,
+         ^
+    Located in file "work/deg10/continuation_20261031b/M3N18/final_Hecke_common.m", at line 8, column 9:
+    >> inputs:=eval Read(root cat "paired_final_Hecke_inputs.m");out:=[* *];q:=7;R
+               ^
+User error: Could not find a valid universe for the sequence
+

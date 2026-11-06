@@ -1,0 +1,141 @@
+\begin{proposition}\label{prop:decic-no99}
+An elliptic curve over a number field of degree $10$ has no point
+of order $99$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(99)$ and $J=J_1(99)$, of genus $281$.
+The complete winding decomposition has weighted dimension $281$.
+Every nontrivial-character component has full winding submodule;
+the only deficient component has trivial character. Hence the
+winding rank-zero criterion gives
+\[
+                 (\langle2\rangle-1)J(\mathbb Q)\quad\text{finite}.
+\]
+We do not require $J(\mathbb Q)$ to be finite.
+Throughout the proof, diamonds and Hecke operators use point levels:
+$T_\ell(E,P)$ is the sum of $(E/C,P\bmod C)$ over the cyclic
+subgroups $C$ of order $\ell$.
+
+Let $D$ be the effective rational trace divisor of a hypothetical
+level structure over a field of degree $10$. Thus $\deg D=10$,
+with multiplicities allowed. The complete finite-field census gives
+no noncuspidal places on $X_{\mathbb F_2}$ in degrees at most $9$,
+and $120$ in degree $10$. The latter form four diamond orbits.
+It follows that $\overline D$ is either entirely cuspidal or a
+single noncuspidal degree-$10$ place.
+
+Suppose first that $\overline D$ is entirely cuspidal.
+All cusps are defined over $\mathbb Q(\zeta_{99})$, unramified at
+$2$, and the cuspidal scheme is etale there. Lift $\overline D$ to
+a cuspidal divisor $C$ over a finite unramified extension of
+$\mathbb Q_2$. Choose a rational cusp $c_0$ and put
+$t=\langle2\rangle$. The class
+\[
+ (t-1)[D-C]=(t-1)[D-10c_0]+(t-1)[10c_0-C]
+\]
+is torsion, by the finite rational image and Manin--Drinfeld.
+It reduces to zero. The unramified dyadic reduction lemma
+\cite[Section~6.2]{DN} shows that this class is killed by $2$.
+Consequently
+\[
+                     2tD+2C\sim2D+2tC.
+\]
+Both sides have degree $40$, whereas \cite[(2.1)]{NV} gives
+\[
+ \operatorname{gon}_{\mathbb C}X\geq
+ \frac{325\cdot4320}{32768}=\frac{43875}{1024}>40.
+\]
+The two effective divisors are therefore equal. Separating their
+cuspidal and noncuspidal parts gives $tD=D$.
+Every point in the support of $D$ has $j$ with a pole at $2$,
+since its reduction is cuspidal. In particular its $j$-invariant
+is neither $0$ nor $1728$. Its projective diamond stabilizer is
+therefore trivial. The projective order of $t$ is $15$, so its
+orbits on the support of $D$ all have size $15$. This contradicts
+$\deg D=10$.
+
+We are left with the four noncuspidal diamond orbits. We first use
+\[
+ \pi_{33}:X\longrightarrow X_1(33),\qquad(E,P)\longmapsto(E,3P).
+\]
+The target has genus $21$ and rank-zero Jacobian by
+\cite[Theorem~3.1]{DEHMZ}. Write $\delta_a$ for its point diamond
+and put $A_5=T_5-1-5\delta_5$. By Eichler--Shimura and injectivity
+of rational torsion reduction at $5$, $A_5$ annihilates its rational
+Jacobian. A rational Tate cusp $c$ satisfies $A_5c=0$ as a divisor.
+For $P_{33}=\pi_{33*}\overline D$, the degree-zero divisor
+\[
+                 B_{33}=T_5P_{33}-P_{33}-5\delta_5P_{33}
+\]
+must therefore be principal. The four exact Riemann--Roch
+computations give
+\[
+ \begin{array}{c|rrrr}
+ \text{source orbit}&1&2&3&4\\ \hline
+ h^0(B_{33})&0&0&1&0.
+ \end{array}
+\]
+Thus only the third orbit remains. These computations use the six
+actual geometric $5$-kernels. Their Frobenius orbit lengths are
+$1,1,2,2$, their image places have degrees $10,10,20,20$, and every
+residue norm multiplicity is $1$. The Hecke divisor has degree $60$.
+A separate native computation and independent marked Velu maps
+verify all four tests and their moduli identifications.
+
+For the remaining orbit we use the normalized fibre product
+\[
+ Y=X_1(9)\mathbin{\times}_{X(1)}X_0(11),\qquad
+ \pi(E,P)=(E,11P,\langle9P\rangle).
+\]
+The curve $Y$ has genus $29$, and $\deg\pi=10$.
+The map commutes with Hecke operators and diamonds.
+Since $\pi_*\pi^*=[10]$, the finite rational image on $J$ implies
+that $(\delta_2-1)J_Y(\mathbb Q)$ is finite. We make no rank-zero
+assertion for $J_Y$.
+If $E_Y=\pi_*D$, then $[(\delta_2-1)E_Y]$ is rational torsion:
+subtract a rational cuspidal divisor of degree $10$ and use
+Manin--Drinfeld for the remaining cuspidal difference.
+The operator $A_5$ annihilates rational torsion on $J_Y$, again
+by reduction at $5$. Thus, for $P_Y=\pi_*\overline D$ and
+$T=T_5P_Y$, the divisor
+\[
+ \begin{split}
+ B&=(\delta_2-1)(T_5-1-5\delta_5)P_Y\\
+  &=\delta_2T-T+P_Y-\delta_2P_Y
+                     +5\delta_5P_Y-5\delta_{10}P_Y
+ \end{split}
+\]
+must be principal. All these operators commute with diamonds,
+so one representative of the third source orbit suffices.
+
+We describe the exact computation on $Y$.
+On $X_1(9)\simeq\mathbb P^1_t$ take
+\[
+ c=t^2(t-1),\qquad b=c(t^2-t+1),\qquad
+ E_t:y^2+(1-c)xy-by=x^3-bx^2,
+\]
+with the point $(0,0)$ of order $9$.
+Combining its $j$-map with the $j$-map of $X_0(11)$ gives an
+irreducible degree-$12$ function field over $\mathbb F_2(t)$.
+The saved equations satisfy both original modular equations and
+have genus $29$ and exact constant field $\mathbb F_2$.
+The functions $t_9$ and $j_{11}$ record the marked $9$-level and
+the $j$-invariant of the quotient by the marked cyclic
+$11$-subgroup, respectively.
+
+On this model the four $5$-kernel orbits again have lengths
+$1,1,2,2$, and all norm multiplicities are $1$.
+Both $T$ and $\delta_2T$ have degree $60$.
+Since $\delta_{10}P_Y=P_Y$, the positive and negative parts of
+$B$ have degree $110$. The exact Riemann--Roch computation gives
+\[
+                              h^0(B)=0.
+\]
+A fresh native replay reconstructs the model, verifies all $23$
+prime references by exact two-generator ideal identities, and
+recomputes the same divisor and Riemann--Roch space.
+Independently constructed $5$- and $11$-isogenies identify every
+source and Hecke place by the pair $(t_9,j_{11})$, including both
+sides of each diamond difference and all residue norm weights.
+Hence $B$ is not principal, a contradiction.
+\end{proof}

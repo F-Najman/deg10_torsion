@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "groups": [
+    [
+      1,
+      56
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Four X1(28) rational Picard images and genus25 Hecke sieve; exact quadratic X1(56) Kummer restrictions on nine divisors; known decic quotient and four nonsquare 2-descent classes",
+  "frozen_summary_sha256": "fc19b0be483c70372d765903785cbabc0881aef1e5079fe1722181e4ba264b7c",
+  "classification_complete": false
+}

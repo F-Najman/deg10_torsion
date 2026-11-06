@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_winding74",
+  "script": "computations/cont_winding74.m",
+  "script_sha256": "f869ed3b38c51f4d56426bb784b1c8f3bdf40f9d393665e35289ccc1cebb2323",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_winding74.m"
+  ],
+  "pid": 242702,
+  "owner_uid": 1001,
+  "start_time_unix": 1793284579.2092044,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/cont_winding74.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.16396570205688477
+}

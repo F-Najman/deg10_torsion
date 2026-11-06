@@ -1,0 +1,47 @@
+Y228_INDEPENDENT_GENUINE_CASE 2 1 2.078533797059208
+Y228_INDEPENDENT_GENUINE_CASE 8 2 6.471896455157548
+Y228_INDEPENDENT_GENUINE_CASE 14 3 7.498938474338502
+Y228_INDEPENDENT_GENUINE_CASE 20 4 9.891392623074353
+Y228_INDEPENDENT_GENUINE_CASE 26 5 16.737549565266818
+Y228_INDEPENDENT_GENUINE_CASE 32 6 19.230343596078455
+Y228_INDEPENDENT_GENUINE_CASE 38 8 19.80369765823707
+Y228_INDEPENDENT_GENUINE_CASE 44 9 26.772578966338187
+Y228_INDEPENDENT_GENUINE_CASE 4 10 32.26746280025691
+Y228_INDEPENDENT_GENUINE_CASE 10 11 35.45803737314418
+Y228_INDEPENDENT_GENUINE_CASE 16 12 35.752190488390625
+Y228_INDEPENDENT_GENUINE_CASE 22 13 42.8250132300891
+Y228_INDEPENDENT_GENUINE_CASE 28 14 43.83007318107411
+Y228_INDEPENDENT_GENUINE_CASE 34 16 44.393501732032746
+Y228_INDEPENDENT_GENUINE_CASE 40 18 44.89965000702068
+Y228_INDEPENDENT_GENUINE_CASE 6 19 49.31853139214218
+Y228_INDEPENDENT_GENUINE_CASE 12 20 50.11438302323222
+Y228_INDEPENDENT_GENUINE_CASE 18 21 57.2118712333031
+Y228_INDEPENDENT_GENUINE_CASE 24 22 58.1931976811029
+Y228_INDEPENDENT_GENUINE_CASE 30 23 64.05183786107227
+Y228_INDEPENDENT_GENUINE_CASE 36 25 64.3722607861273
+Y228_INDEPENDENT_GENUINE_CASE 42 26 65.79722540313378
+M428_INDEPENDENT_NEIGHBOR_PASS 42 67.20747787132859
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_independent_genuine_s1.py", line 2, in <module>
+    exec(open("work/deg10/computations/d31b_Y228_independent_genuine_common.py").read())
+  File "<string>", line 54, in <module>
+  File "/opt/sage/envs/sage/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Integer is not JSON serializable

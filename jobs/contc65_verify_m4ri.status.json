@@ -1,0 +1,18 @@
+{
+  "purpose": "contc65_verify_m4ri",
+  "script": "computations/contc65_verify_m4ri.py",
+  "script_sha256": "7c38e41b5785ba8aadc7a7a5c15c7b467adee8797a17ca7eac25e918c1af3a8e",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc65_verify_m4ri.py"
+  ],
+  "pid": 2717157,
+  "owner_uid": 1001,
+  "start_time_unix": 1793397973.4807105,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/contc65_verify_m4ri.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.6162378787994385
+}

@@ -1,0 +1,21 @@
+{
+  "cmd": [
+    "/usr/local/bin/magma",
+    "-b",
+    "Ns:=45,49,51,55,57,63,65,69,75,77,81,85,87,91,93,95,99,117,133,247",
+    "Ps:=2",
+    "K:=9",
+    "work/degree9/prime_orders/finite_field_prime_orders.m"
+  ],
+  "pid": 1635349,
+  "start_ticks": 181749187,
+  "started_utc": "2026-10-26T10:27:54.484141+00:00",
+  "cpu_limit": 7200,
+  "wall_limit": 21600,
+  "status": "EXITED",
+  "elapsed_wall_seconds": 2.0012965868227184,
+  "cpu_seconds": 0.86,
+  "last_log_lines": [],
+  "native_exit_code": 0,
+  "log_sha256": "f584aa966474b8f30aa0e2b71bfe980a7cb491ab946c30ce6349795c35862e7f"
+}

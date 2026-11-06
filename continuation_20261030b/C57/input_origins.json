@@ -1,0 +1,47 @@
+[
+  {
+    "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/accepted_degree9_manifest.json",
+    "source": "work/degree9/cyclic/continuation_20261026/C57_convention_supplement_20261027/manifest.json",
+    "sha256": "9e34260c8821591c62137100fb6d4fecd261bd0a127311f91123f2190b602f30"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/accepted_root_review.json",
+    "source": "work/degree9/cyclic/continuation_20261026/C57_root_acceptance_20261027.json",
+    "sha256": "676c42bdd4798e9204eddeb16b62da251dc504101f607c77700cbbcf2213095e"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/accepted_point_normalizations.tex",
+    "source": "work/degree9/cyclic/continuation_20261026/C57_convention_supplement_20261027/normalizations.tex",
+    "sha256": "978c0c615d28c25771aeec1b20e642cfce7066a17b45366cf0e0945d99b2ba52"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/accepted_clean_proof.tex",
+    "source": "work/degree9/cyclic/continuation_20261026/C57_convention_supplement_20261027/exclusion57_clean.tex",
+    "sha256": "d23157904aaad84164c87c56d1e085ae1b621a661ae3731e6740d1a26a426a94"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/accepted_quotient_inputs.tex",
+    "source": "work/degree9/cyclic/continuation_20261026/C57_quotient9/partial_reduction57.tex",
+    "sha256": "4056ed318fecf47e8a196d2f24335f69ac9dbbd2cf72aebf229001547f4d78e3"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/winding57_data.m",
+    "source": "work/degree9/parallel_expansion_20261026/character_probes/N57_winding_data.m",
+    "sha256": "4c4f5be09870ed445de9c4a12a5fe3bb5b70492a14638878f747ac7da21406b5"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/old_point_RR_certificate.json",
+    "source": "work/degree9/cyclic/continuation_20261026/C57_source85/ring_RR_sage_certificate.json",
+    "sha256": "449cd53c7bfad1fa8fd426ac537f5b8cab5e3184b51bd09432837f5b7adbfc9a"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/old_genuine_jets_certificate.json",
+    "source": "work/degree9/cyclic/continuation_20261026/C57_source85/good_jets_sage_certificate.json",
+    "sha256": "06a84a7766bd05bbfa83aa328f006186772c7c112508937b8a92d7281e5b6d96"
+  },
+  {
+    "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/old_quadratic_arc_certificate.json",
+    "source": "work/degree9/cyclic/continuation_20261026/C57_source85/quadratic_arc_sage_certificate.json",
+    "sha256": "9662791e5fa192bc52271444ea91b90f2bc6000fa2def4a70733bf3c11834fa3"
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "case": 578,
+  "hecke": 5,
+  "base_curve_genus": 25,
+  "source_level": 56,
+  "pole_bound_degree": 60,
+  "basis_dimensions": [
+    36,
+    24
+  ],
+  "matrix_rows": 60,
+  "matrix_columns": 120,
+  "rank": 60,
+  "h0": 0,
+  "all_geometry_series_coefficients_128_independently_recomputed": true,
+  "all_operator_signed_closed_source_groups_bound_to_actual_physical_levels": true,
+  "all_basis_rational_functions_reexpanded_in_genuine_local_arcs": true,
+  "all_sqrt_branches_bound_to_actual_56_level": true,
+  "all_matrix_entries_and_residue_power_coordinates_match": true,
+  "local_rows": [
+    {
+      "local_row": 1,
+      "base_degree": 10,
+      "physical_ambient_degree": 10,
+      "pole_bound": 0,
+      "max_needed_jet_order": 1,
+      "work_precision": 7,
+      "geometry_precision_independently_rebuilt": 128,
+      "uniformizer": "V",
+      "matrix_columns": 10,
+      "base_prime_generators_vanish": true,
+      "all_basis_jets_and_residue_power_coordinates_entrywise_equal": true
+    },
+    {
+      "local_row": 2,
+      "base_degree": 10,
+      "physical_ambient_degree": 10,
+      "pole_bound": 0,
+      "max_needed_jet_order": 5,
+      "work_precision": 11,
+      "geometry_precision_independently_rebuilt": 128,
+      "uniformizer": "V",
+      "matrix_columns": 50,
+      "base_prime_generators_vanish": true,
+      "all_basis_jets_and_residue_power_coordinates_entrywise_equal": true
+    },
+    {
+      "local_row": 3,
+      "base_degree": 10,
+      "physical_ambient_degree": 10,
+      "pole_bound": 1,
+      "max_needed_jet_order": 1,
+      "work_precision": 10,
+      "geometry_precision_independently_rebuilt": 128,
+      "uniformizer": "V",
+      "matrix_columns": 10,
+      "base_prime_generators_vanish": true,
+      "all_basis_jets_and_residue_power_coordinates_entrywise_equal": true
+    },
+    {
+      "local_row": 4,
+      "base_degree": 50,
+      "physical_ambient_degree": 50,
+      "pole_bound": 1,
+      "max_needed_jet_order": 1,
+      "work_precision": 10,
+      "geometry_precision_independently_rebuilt": 128,
+      "uniformizer": "V",
+      "matrix_columns": 50,
+      "base_prime_generators_vanish": true,
+      "all_basis_jets_and_residue_power_coordinates_entrywise_equal": true
+    }
+  ],
+  "input_hashes": {
+    "model_snapshot": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "operator_snapshot": "b902e576887d9e0832ae47011834cad8a488d23ac10c4452cbe183c12902e3ea",
+    "basis": "5d1a3e9f8309fed91dda921eb801d0f0f078e6444b0b430e8d2ac4048e91b8b7",
+    "jet_tables": "ac59f415be2d24f3c7bd54b8040df7e292f17a316857cede25a58bb24eb8e8b9",
+    "result": "9c3695f1a1ade12348331a5034415fdf56e2c6534d6f87835631bbf919f2f9bc"
+  },
+  "elapsed_seconds": 8.81469071097672
+}

@@ -1,0 +1,24 @@
+WINDING_SPACE_READY N=111 order=1 dimension=11 time=0.020
+WINDING N=111 order=1 conductor=1 relative_dimension=11 winding_dimension=9 coefficient_degree=1 time=0.030
+WINDING_SPACE_READY N=111 order=36 dimension=11 time=0.010
+WINDING_T2_READY N=111 order=36 time=0.020
+WINDING_GOOD_PRIME p=73 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=111 chi_index=2 order=36 path=work/deg10/exclusions/krylov_N111_chi2_order36.json
+WINDING_KRYLOV N=111 order=36 span_rank=11 dimension=11 verified=true time=0.020
+WINDING N=111 order=36 conductor=111 relative_dimension=11 winding_dimension=11 coefficient_degree=12 time=0.020
+WINDING_SPACE_READY N=111 order=18 dimension=11 time=0.010
+WINDING N=111 order=18 conductor=37 relative_dimension=11 winding_dimension=11 coefficient_degree=6 time=0.030
+WINDING_SPACE_READY N=111 order=12 dimension=10 time=0.010
+WINDING N=111 order=12 conductor=111 relative_dimension=10 winding_dimension=10 coefficient_degree=4 time=0.020
+WINDING_SPACE_READY N=111 order=9 dimension=11 time=0.000
+WINDING N=111 order=9 conductor=37 relative_dimension=11 winding_dimension=11 coefficient_degree=6 time=0.010
+WINDING_SPACE_READY N=111 order=6 dimension=10 time=0.010
+WINDING N=111 order=6 conductor=37 relative_dimension=10 winding_dimension=9 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=111 order=4 dimension=10 time=0.010
+WINDING N=111 order=4 conductor=111 relative_dimension=10 winding_dimension=10 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=111 order=3 dimension=10 time=0.010
+WINDING N=111 order=3 conductor=37 relative_dimension=10 winding_dimension=10 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=111 order=2 dimension=10 time=0.010
+WINDING N=111 order=2 conductor=37 relative_dimension=10 winding_dimension=10 coefficient_degree=1 time=0.010
+WINDING_FINAL N=111 genus=385 total_dimension=385 bad_orders=[ 1, 6 ] admissible=[ 10, 11, 26, 38, 47, 64, 73, 85, 100, 101 ]
+WINDING_CHARACTER_PROBE_DONE

@@ -1,0 +1,112 @@
+[
+  {
+    "source": "work/deg10/next_cases_20261030/dyadic_local/all_curves.m",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/all_curves.m",
+    "sha256": "80eb6b47b34451b886fefec11c6f246e2536c3ecc6b8faa3e69fa50f1ac210a3"
+  },
+  {
+    "source": "work/deg10/next_cases_20261030/dyadic_local/independent_point_counts.json",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/independent_point_counts.json",
+    "sha256": "0f719c333c4185f0092045d2f92af48594eff681fff5ab297b7b406454c2f44c"
+  },
+  {
+    "source": "work/deg10/continuation_20261030c/parent_source_census.json",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/parent_source_census.json",
+    "sha256": "e42231931411ae23daacbb8addd516536d0e1649ca7fdb0dc1966f77836357e5"
+  },
+  {
+    "source": "work/degree9/shared/fast_hecke.m",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  {
+    "source": "work/deg10/continuation_20261030b/C81/deps/pair_af_place_linear.m",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/degree9/cyclic/continuation_20261026/C65_allbad/annihilator_data.m",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/annihilator_data.m",
+    "sha256": "30b60d68b07675f159037e1ddd6e0bd762f5e6df6f79be62b87821a0d0ad094f"
+  },
+  {
+    "source": "work/degree9/cyclic/continuation_20261026/C65_allbad/canonical_source_data.m",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/canonical_source_data.m",
+    "sha256": "56ac8b30694c4db9a649709db1c2c8bf3e06ec09f9966e55451f9ac95167c352"
+  },
+  {
+    "source": "work/degree9/cyclic/continuation_20261026/C65_allbad/quartic_cusp_arc_data.txt",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/quartic_cusp_arc_data.txt",
+    "sha256": "ff3b0b762cd1064b5e78d7c2555344ca85827580ba1acdb35b9f9f4cd332f6ce"
+  },
+  {
+    "source": "work/degree9/cyclic/continuation_20261026/C65_allbad/all_cusp_FI_sage_certificate.json",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/all_cusp_FI_sage_certificate.json",
+    "sha256": "89077dd782ed87dd2c1cf639cea31af4b615c576c14cb13f555d2af7380566e6"
+  },
+  {
+    "source": "work/degree9/cyclic/continuation_20261026/C65_allbad/replay_all_cusp_FI_sage.py",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/replay_all_cusp_FI_sage.py",
+    "sha256": "3a9b293a2150dd0d85983dc19d8189f95375d1f8566c7f19090d4fa6d94eb1c0"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/composite65/canonical_ring_R1_tensor.json",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/canonical_ring_R1_tensor.json",
+    "sha256": "fa8a96a679eeaf2969c33274c8494154b87154db418f74abbc6ef864b97f1c6e"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/composite65/canonical_unit_stage1_data.m",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/canonical_unit_stage1_data.m",
+    "sha256": "56ac8b30694c4db9a649709db1c2c8bf3e06ec09f9966e55451f9ac95167c352"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/composite65/elliptic_hecke_jets_stage2_data.m",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/elliptic_hecke_jets_stage2_data.m",
+    "sha256": "f305fc6eb8608dc7a4ff2faeca6d78127192c8112f014c333515e72680c85958"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/composite65/canonical_R1_sieve_verified.json",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/canonical_R1_sieve_verified.json",
+    "sha256": "98fc2c2cabafab4899a246286aba03a9b594c58953f0b24daf2b1b40875635bf"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/composite65/ordinary_manifest.json",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/ordinary_manifest.json",
+    "sha256": "819088e6576329931d614fb1bb0ca43d9779c9ae98dd44c065eebd203d56172b"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/composite65/unit_arithmetic.py",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/unit_arithmetic.py",
+    "sha256": "15ee93920f4e153d227640e9663762d86698482c8631b3fb5871787d382f6366"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/composite65/canonical_R1_sieve.py",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/canonical_R1_sieve.py",
+    "sha256": "6df73440843c9394a20ec3048341121fdd24998d6f7d32313dcf2ed3cfb030e5"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/composite65/verify_stage2_readonly.py",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/verify_stage2_readonly.py",
+    "sha256": "334918acc598804b10980232dff42f6106398236a83b10d52fcb7f86676d0bd2"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/composite65/verify_R1_ranks_m4ri.py",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/verify_R1_ranks_m4ri.py",
+    "sha256": "40fae3023a1612436d9798d642bfd04ab21c188c89dbcef86eabce560f76b68a"
+  },
+  {
+    "source": "work/degree9/parallel_expansion_20261026/N65_source_units/canonical_unit_data.m",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/canonical_unit_data.m",
+    "sha256": "56ac8b30694c4db9a649709db1c2c8bf3e06ec09f9966e55451f9ac95167c352"
+  },
+  {
+    "source": "work/degree9/cyclic/continuation_20261026/C65_completion_20261027/exclusion65.tex",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/exclusion_degree9.tex",
+    "sha256": "d457353eff5766fa297a610bbc26cc483b9926431cf550bc85f89fa3a0d387d5"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/point_convention_correction_20261027/case65_ordinary_corrected.tex",
+    "copy": "work/deg10/continuation_20261030c/C65/inputs/case65_ordinary_corrected.tex",
+    "sha256": "005b8fc2631e4b0639ac16cbc2a84ca7a49545dae65ef61159791b3699fb741d"
+  }
+]

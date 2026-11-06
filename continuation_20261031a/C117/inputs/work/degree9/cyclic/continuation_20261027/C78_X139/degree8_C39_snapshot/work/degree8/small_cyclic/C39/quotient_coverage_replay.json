@@ -1,0 +1,31 @@
+{
+  "degree": 8,
+  "level": 39,
+  "complete": true,
+  "source_genus": 33,
+  "rational_gonality": 14,
+  "source_rational_2primary_invariants": [
+    2,
+    16
+  ],
+  "torsion_specialization_at2_injective": true,
+  "noncuspidal_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    0,
+    49
+  ],
+  "sextic_orbits": 1,
+  "octic_orbits": 5,
+  "nonprincipality_witnesses": 5,
+  "known_octic_reduction_orbits": 1,
+  "known_closed_octic_points": 1,
+  "all_known_full_torsion": [
+    39
+  ],
+  "unknown": 0
+}

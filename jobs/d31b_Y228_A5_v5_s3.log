@@ -1,0 +1,21 @@
+Loading "work/deg10/computations/d31b_Y228_A5_common_v5.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/fast_primitive_inverse.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/union_cases.m"
+Y228_SHARED_AF_READY 3 15 25 8.410
+Y228_AF_CUBIC_CUSPS_READY 3 23.950
+D31B_Y228_A5_CASE 3 4 3 [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+104.160
+D31B_Y228_A5_CASE 3 10 1 [ 0 ]
+110.780
+D31B_Y228_A5_CASE 3 16 0 [ 0 ]
+118.880
+D31B_Y228_A5_CASE 3 22 0 [ 0 ]
+124.510
+D31B_Y228_A5_CASE 3 28 0 [ 0 ]
+131.610
+D31B_Y228_A5_CASE 3 34 0 [ 0 ]
+138.810
+D31B_Y228_A5_CASE 3 40 0 [ 0 ]
+148.310
+D31B_Y228_A5_COMPLETE 3 7 []
+148.320

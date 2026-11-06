@@ -1,0 +1,8 @@
+{
+  "source": "work/deg10/continuation_20261031a/C56/fourmap_native_class_v4.log.witnesses.py",
+  "source_sha256": "d5f1cc661385d25e385ee537c1bac45d077efb54969b85142bcaa661ca10ffe4",
+  "copy": "work/deg10/continuation_20261031b/C56/fourmap_class_witnesses.m",
+  "copy_sha256": "e8f0b2d049455f92d45f968c0911a775ccf652561385dfdb3f99c89ba942d0b0",
+  "count": 2490,
+  "translation": "Parse literal Python sequence; exact recursive heterogeneous Magma lists, integer leaves unchanged"
+}

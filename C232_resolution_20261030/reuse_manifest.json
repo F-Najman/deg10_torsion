@@ -1,0 +1,49 @@
+[
+  {
+    "source": "continuation_20261029b/deps/native_group_generators.m",
+    "copy": "C232_resolution_20261030/deps/native_group_generators.m",
+    "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1"
+  },
+  {
+    "source": "continuation_20261029b/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "copy": "C232_resolution_20261030/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6"
+  },
+  {
+    "source": "continuation_20261029b/deps/pair_af_place_linear.m",
+    "copy": "C232_resolution_20261030/deps/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "continuation_20261029b/C240/portable/portable_forward.m",
+    "copy": "C232_resolution_20261030/deps/portable_forward.m",
+    "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49"
+  },
+  {
+    "source": "continuation_20261029/Orlic_2407.14512.pdf",
+    "copy": "C232_resolution_20261030/Orlic_2407.14512.pdf",
+    "sha256": "0790a7504d53ed78282cd50f52a80d89f7767f608a2808a224406a9a7dc89e4f"
+  },
+  {
+    "source": "continuation_20261029/Orlic_2407.14512.txt",
+    "copy": "C232_resolution_20261030/Orlic_2407.14512.txt",
+    "sha256": "0503b5db696f3a4d2f6140bf98326b325bbf1bccc379b668821580790fdde787"
+  },
+  {
+    "source": "continuation_20261029/Orlic_source.json",
+    "copy": "C232_resolution_20261030/Orlic_source.json",
+    "sha256": "9b6561a4571364a239ce592c7db429d4abe0e24e513a30a3b952300108400032"
+  },
+  {
+    "source": "continuation_20261029b/deps/certified_kernel_isogenies.m",
+    "copy": "C232_resolution_20261030/deps/certified_kernel_isogenies.m",
+    "sha256": "7f6fe3164a762d57de8d1f91fdd62fa13c0e3ef5bcfcdccdd1142462e0916810"
+  },
+  {
+    "source": "shared/mdmagma/models_X1_m_n/X1_2_16.txt",
+    "copy": "C232_resolution_20261030/models/X1_2_16.txt",
+    "source_sha256": "48a8729c8e8c7b608717a7d150f917e6bfb9e555837f1194963aa3f0d67f775b",
+    "sha256": "973ef257992df35e6f6cddbbe9fa295efd3a6f6b5d0b2ac43f77baf38a29d27e",
+    "transformation": "Join wrapped assignment lines; preserve every token and coefficient."
+  }
+]

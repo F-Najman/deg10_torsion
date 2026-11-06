@@ -1,0 +1,28 @@
+31 October 2026 — Phi(10) COMPLETE
+
+CURRENT COUNTS: 69 exact full groups;110 minimal subgroup obstructions;
+all110 excluded;ZERO unresolved cases. See README.txt for the list.
+
+The final ten original groups were resolved by nine exclusions and one
+occurrence (C3 x C18). Full degree5 point classification on X1(3,18)
+over Q(zeta3) leaves two old27-marking orbits, interchanged by a marked
+2-isogeny involution. An exact global quintic point realizes C3 x C18.
+Both curves have full torsion54 from unramified degree2 reductions at7.
+This excludes new frontier groups C3 x C36 and C6 x C18, completing Phi10.
+
+Proof sources and immutable manifests are in continuation_20261031b/.
+Parent differential controls check2394 cubic and36 quartic restrictions.
+Independent native and Sage arithmetic check all43 A7-negative supports
+and360 geometric7-isogeny kernels, the global section and exact NFpoint.
+C56 has9 exact Kummer RR packets,82944 independently replayed matrix
+entries,66 precision128 arcs, and72 independently constructed kernels.
+
+The 110-page paper compiles without errors or overfull boxes.
+All 1498 recorded jobs exited; no degree10 workers or launchers
+remain. Obsolete jobs were identity-checked before termination. Actual
+exits and failed diagnostic evidence remain recorded; none is silently
+promoted to a certificate. Unrelated useful jobs were preserved.
+
+Final validation: 10687 evidence hashes;
+25 earlier-degree protected files unchanged.
+Earlier progress: continuation_before_20261031b.txt.

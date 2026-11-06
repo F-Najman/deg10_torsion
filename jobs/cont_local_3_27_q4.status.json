@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_local_3_27_q4",
+  "script": "computations/cont_local_3_27_q4.m",
+  "script_sha256": "2e1ab527441ab9a88ded3b548de8b6ee3f39073fb4df6381f6366d2c6dfe89a2",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_local_3_27_q4.m"
+  ],
+  "pid": 242329,
+  "owner_uid": 1001,
+  "start_time_unix": 1793284564.5126169,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/cont_local_3_27_q4.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 240.01607942581177
+}

@@ -1,0 +1,107 @@
+\subsection{Excluding a point of order $77$}
+\input{../continuation_20261030b/C77/finite_image_criterion.tex}
+\input{../continuation_20261030b/C77/geometry_and_finite_image.tex}
+\input{../continuation_20261030b/C77/pure_cusp_exclusion.tex}
+
+\begin{proposition}\label{prop:decic-no77}
+An elliptic curve over a number field of degree $10$ has no point
+of order $77$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(77)$, and use the quotient $\pi:X\to Y$ from
+Lemma~\ref{lem:decic77-geometry}.
+A proposed torsion point gives a rational effective noncuspidal
+divisor $D$ of degree $10$ on $X$.
+The complete noncuspidal closed-point counts through degree $10$
+at $2$ are
+\[
+ (0,0,0,0,0,0,0,0,0,90).
+\]
+An independent census checks every ordinary elliptic curve and
+its quadratic twists; the supersingular trace possibilities
+contribute no point of order $77$.
+The $30$ qualifying curves over $\mathbb F_{1024}$ have cyclic
+group of order $1078$ and form three $j$-orbits of degree $10$.
+Each has a unique subgroup of order $77$, whose $30$ generator
+classes form one source diamond orbit.
+Thus the $90$ closed places form exactly three diamond orbits.
+
+Lemma~\ref{lem:decic77-pure-cusps} excludes entirely cuspidal
+reduction.
+Any other reduction is one closed noncuspidal place of degree
+$10$. Its image $P$ on $Y$ also has degree $10$, since its
+$j$-invariant has that degree.
+In particular there is no residue norm factor in this pushforward.
+
+Put $\delta=\langle2\rangle$ and
+$A_3=T_3-1-3\langle3\rangle$.
+By Eichler--Shimura and injectivity of torsion reduction at the
+good odd prime $3$, $A_3$ kills the rational torsion of $J_Y$.
+Since $T_2J_Y(\mathbb Q)$ is finite, $A_3T_2$ kills
+$J_Y(\mathbb Q)$.
+On $J_Y(\mathbb F_2)$, Eichler--Shimura gives
+$T_2=1+2\delta$.
+Normalize at a rational cusp $c_0$.
+The cusp formula gives $A_3c_0=0$ as a literal divisor, and also
+$A_3\delta c_0=0$. At $2$ the same formula gives
+$T_2c_0=c_0+2\delta c_0$, so $A_3T_2c_0=0$ as well.
+Consequently the reduction of $\pi_*D$ would satisfy
+\[
+ [A_3(1+2\delta)P]=0.
+\]
+Using $\langle3\rangle=\delta^{-1}$, this is the principality
+condition for
+\begin{equation}\label{eq:decic77-B}
+ B=T+2\delta T-7P-2\delta P-3\delta^{-1}P,
+ \qquad T=T_3P.
+\end{equation}
+The positive and negative parts both have degree $120$ before
+any cancellations.
+
+We compute the required Hecke images on the explicit genus-$37$
+model.
+The marked point of order $7$ determines the Tate parameter $t$.
+The cyclic subgroup of order $11$ determines its point on
+$X_0(11)$, using the exact $j$-map and the $j$-invariant of its
+$11$-isogeny quotient.
+These coordinates give the image on the cubic subcover.
+Both quadratic lifts have the same residue degree.
+We fix either source lift and allow every quadratic lift of each
+Hecke image. The deck involution covers the other source lift.
+The complete tests are
+\[
+\begin{array}{c|c|c|c}
+\text{case}&\text{kernel orbit lengths}&\text{lift allocations}
+ &\text{nonprincipal tests}\\\hline
+1&(1,3)&4&4\\
+2&(1,1,1,1)&16&16\\
+3&(1,3)&4&4.
+\end{array}
+\]
+The image degrees are $10$ and $30$ in the first and third
+cases, and $10$ in the second.
+Every residue norm weight is one: $10w/d=1$ for each kernel
+orbit of length $w$ and image degree $d$.
+Thus these $24$ allocations contain the actual Hecke divisor
+in every case.
+
+For every allocation, the exact calculation gives $h^0(B)=0$,
+contradicting \eqref{eq:decic77-B}.
+The finite checks independently reconstruct all $12$ geometric
+cyclic $3$-kernels and the $15$ marked cyclic-$11$ quotient maps
+at the source and isogeny images.
+They also verify the complete $3$-division polynomials, the marked
+Tate coordinates, every norm weight and all quadratic splitting
+conditions.
+The operator divisors are exported before testing, using two
+exact ideal generators for each prime and exact function
+roundtrips and equality of the generated ideals.
+A second native computation rebuilds the fields and prime ideals,
+checks the source and diamond coordinates, and reproduces all
+$24$ zero Riemann--Roch dimensions.
+A separate native check binds all $24$ positive Hecke allocations
+to the marked isogeny coordinates with their exact residue norms.
+Hecke operators commute with the diamond group, so the three
+case computations exclude their entire source diamond orbits.
+This completes the proof.
+\end{proof}

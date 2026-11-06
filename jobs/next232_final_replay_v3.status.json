@@ -1,0 +1,18 @@
+{
+  "purpose": "next232_final_replay_v3",
+  "script": "computations/next232_final_replay_v3.py",
+  "script_sha256": "c36e93a561d18fd145fbd5fc71eb6658c64c3c2a533d1e7294dcc124e2e8fd2e",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_final_replay_v3.py"
+  ],
+  "pid": 1840987,
+  "owner_uid": 1001,
+  "start_time_unix": 1793358568.9729426,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next232_final_replay_v3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.8670318126678467
+}

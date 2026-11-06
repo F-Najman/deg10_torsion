@@ -1,0 +1,19 @@
+{
+  "purpose": "contc91_character_probe",
+  "script": "computations/contc91_character_probe.m",
+  "script_sha256": "c6e4e6a0c429bf411cc350c4ec532565bb18c59ae7e4bfb7fbf99321b015ecff",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc91_character_probe.m"
+  ],
+  "pid": 2728769,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398513.1631851,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/contc91_character_probe.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.21730637550354
+}

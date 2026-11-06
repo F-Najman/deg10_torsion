@@ -1,0 +1,18 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(6*10^9);tt:=Cputime();
+AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");
+load "work/deg10/C232_resolution_20261030/deps/native_group_generators.m";
+load "work/deg10/C232_resolution_20261030/deps/class_group_direct_RR_checked_v4_fastfb.m";
+load "work/deg10/C232_resolution_20261030/deps/pair_af_place_linear.m";
+X:=MDX11(2,32,GF(3));C:=Curve(X);assert Genus(C) eq 37;cs:=Cusps(X);assert {*Degree(c):c in cs*} eq {*1^^16,2^^8,4^^2,8^^2*};c0:=[c:c in cs|Degree(c) eq 1][1];F0,mp:=AlgorithmicFunctionField(FunctionField(C));F:=RationalExtensionRepresentation(F0);base:=DivisorGroup(F)!FunctionFieldDivisor(Divisor(c0));
+print "C232_SOURCE_PICARD_START",Cputime(tt);SetVerbose("ClassGroup",1);
+ivs:=ClassGroupAbelianInvariants(F:ReductionDivisor:=base,Proof:=true);assert F`cld`proven;SetVerbose("ClassGroup",0);print "C232_SOURCE_CLASSGROUP_PROVEN",ivs,Cputime(tt);
+MDProvenClassGroupGenerators(F);G:=F`cld`Cl;ff:=F`cld`ZnToCl;Z:=Domain(ff);fb:=Reverse([a`place:a in F`cld`fb]);fc:=[ff(Z.j):j in [1..#fb]];
+GG,_,phi,witness:=MDClassGroupDirectRRCheckedV4FastFB(F,"work/deg10/C232_resolution_20261030/source_cusps_RR.log");assert GG cmpeq G;
+cc:=[phi(DivisorGroup(F)!FunctionFieldDivisor(Divisor(c)-Degree(c)*Divisor(c0))):c in cs];H:=sub<G|cc>;QH,qh:=quo<G|H>;
+s:=eval Read("work/deg10/C232_resolution_20261030/source6.m");r:=(eval Read("work/deg10/C232_resolution_20261030/filterprobe6.m"))[3];assert #r eq 1;ky:=r[1][3];k:=GF(3);PP:=PolynomialRing(k);K<z>:=ext<k|PP!s[2]>;bc:=[Evaluate(PP!ky[1..6],z),Evaluate(PP!ky[7..12],z)];coords:=[F!mp(v):v in X`_coordinates];pl:=C48PairAFPlaceLinear(coords,bc);assert Degree(pl) eq 6;v:=phi(Divisor(pl)-6*base);passes:=v in H;
+print "C232_SOURCE_FINITE_CUSP_FILTER",Invariants(G),Invariants(H),Invariants(QH),passes,Cputime(tt);
+A:=F`cld`A1;pp,ee:=Support(A);assert #pp eq 1 and ee[1] eq 1;ai:=Index(fb,pp[1]);assert ai gt 0;
+function ER(v) return [[Integers()!c:c in Coefficients(Numerator(v))],[Integers()!c:c in Coefficients(Denominator(v))]];end function;
+function EF(v) return [ER(c):c in Eltseq(F!v)];end function;
+OF:=MaximalOrderFinite(F);flags:=[Order(Ideal(p)) eq OF select 1 else 0:p in fb];degs:=[Degree(p):p in fb];ideals:=[*[EF(v):v in Basis(Ideal(p))]:p in fb*];fp:=(eval Read("work/deg10/C232_resolution_20261030/frobenius.m"))[1];assert &*[x:x in Invariants(G)|x ne 0] eq Evaluate(PolynomialRing(Integers())!fp,1);
+out:=[*[ER(v):v in Coefficients(DefiningPolynomial(F))],flags,degs,ideals,[Eltseq(w):w in fc],[Eltseq(w):w in Rows(RelationMatrix(G))],[EF(w):w in coords],ai,[Degree(c):c in cs],[Eltseq(w):w in cc],Eltseq(v),passes*];Write("work/deg10/C232_resolution_20261030/source_proven_picard.m",Sprint(out):Overwrite:=true);fprintf witness,"]\n";Flush(witness);print "C232_SOURCE_PROVEN_COMPLETE",#fb,passes,Cputime(tt);quit;

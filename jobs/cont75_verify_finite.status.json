@@ -1,0 +1,18 @@
+{
+  "purpose": "cont75_verify_finite",
+  "script": "continuation_20261030b/C75/cont75_verify_finite.py",
+  "script_sha256": "d44385943171de7c5b44f2dfd182e7353ee416611955bc45072474b9acb927e0",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_verify_finite.py"
+  ],
+  "pid": 2543822,
+  "owner_uid": 1001,
+  "start_time_unix": 1793389670.8666298,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/cont75_verify_finite.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.6146714687347412
+}

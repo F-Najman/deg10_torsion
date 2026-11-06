@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "groups": [
+    [
+      3,
+      27
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Complete C3xC27 decic exclusion: split37 odd torsion and intact cusp lifts close dyadic boundary; exhaustive relative-quintic images, all6 exact Hecke tests,48 genuine kernels, and36 fresh native prime references with explicit relativeF4 constants",
+  "frozen_summary_sha256": "51905b59bd64a24705880d26a747410cfe6f223baccaab48ceaf648d466257b9",
+  "classification_complete": false
+}

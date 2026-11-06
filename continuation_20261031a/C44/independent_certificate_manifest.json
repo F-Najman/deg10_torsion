@@ -1,0 +1,203 @@
+{
+  "status": "PASS",
+  "scope": "Independent exact C44 canonical arithmetic, full higher jet geometry, genuine marked5/7 isogenies, residue norms and complete source support coverage",
+  "path_base": "work/deg10",
+  "summary": {
+    "new_A5_matrices": 956,
+    "A5_rejections": 954,
+    "A5_survivors_refined_by_A7": [
+      510,
+      511
+    ],
+    "new_A7_rejections": 2,
+    "old_A5_rejections": 226,
+    "unique_jet_geometries": 3796,
+    "distinct_marked_source_points": 650,
+    "operator_source_pairs": 652,
+    "unique_genuine_geometric_kernels": 3916,
+    "source_degree10_places_covered": 5854,
+    "source_degree5_places_covered": 60,
+    "all_normalized_degree5_pairs_including_diagonals": 360,
+    "canonical_coordinate_basis_matches_tensor_input_exactly": true
+  },
+  "jobs": [
+    {
+      "stem": "d31a_C44_independent_matrices",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_MATRICES_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_jet_geometry",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_JET_GEOMETRY_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_merge",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_FINAL_VERIFICATION_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard0_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard1_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard2_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard3_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard4_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard5_v2",
+      "role": "accepted",
+      "actual_exit_code": 0,
+      "completion_marker": "D31A_C44_INDEPENDENT_GENUINE_SHARD_COMPLETE"
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies",
+      "role": "retired serial backup, not a certificate",
+      "actual_exit_code": -15
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard0",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard1",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard2",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard3",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard4",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    },
+    {
+      "stem": "d31a_C44_independent_isogenies_shard5",
+      "role": "failed v1 serialization diagnostic, not a certificate",
+      "actual_exit_code": 1
+    }
+  ],
+  "all_owned_workers_exited": true,
+  "accepted_files_sha256": {
+    "computations/d31a_C44_independent_isogenies_shard0_v2.py": "8bc80d9c44ea9acc5ca9c67171eb52036f6b79504186e41007be829f4f2dcd75",
+    "computations/d31a_C44_independent_isogenies_shard1_v2.py": "e38e1aa909b3e1c2b3d98b7fb62bbd404872bfc3c77a40231c3ba4d5392574e9",
+    "computations/d31a_C44_independent_isogenies_shard2_v2.py": "c22a5dfe165159befe42e137168ef5c165e49e2fa8cecce623b254ff22ae292e",
+    "computations/d31a_C44_independent_isogenies_shard3_v2.py": "5bb3e22c641eb8a580b7134dbd4d263d0c28667fd6be6aace6aa402456850e08",
+    "computations/d31a_C44_independent_isogenies_shard4_v2.py": "47851f239eb1aa40d999e2825016e1492c6541ff1ef61ee9a29a8e75a15ea0af",
+    "computations/d31a_C44_independent_isogenies_shard5_v2.py": "499ca73751e2e426f166b49d63c0009c1234d4ab6939aa8a20235590c96e3221",
+    "computations/d31a_C44_independent_isogenies_sharded_common_v2.py": "cc840d4b273d75be5b4aa9df6525c76a3159780251db27912330d987b6fc7318",
+    "computations/d31a_C44_independent_jet_geometry.py": "fbd612d5e459830f92e54d5f37a7202e22a93fd04c2edc6163117d29a4927bb6",
+    "computations/d31a_C44_independent_matrices.py": "bc1ea47e7bc4a67470851e4cf24d447f1dd680df05532d639e757baf66b5e676",
+    "computations/d31a_C44_independent_merge.py": "5796bf3308b6a22e88d03525ee332188fc3dfc6b975f6888578e16859b9a281d",
+    "computations/d31a_C44_retire_serial_backup.py": "8020f58288ab37c1f5f4558d388fa125cee37f58f3888107533ef13dc861ab16",
+    "continuation_20261031a/C44/degree10_frobenius_audit.json": "ab0ad61a90ac1e2882e3960dc5afdca1654f5de812b147bc5970181379a3cfcf",
+    "continuation_20261031a/C44/independent_final_verification.json": "b08629504c509002491f0421714a7fb79370794c7b0e0f2524c73cad62e3439d",
+    "continuation_20261031a/C44/independent_genuine_shard0_v2.checkpoint.jsonl": "a193e8c0e645d2a948783055f354f9ff2850f95736cceaaf389edb64e915fbc8",
+    "continuation_20261031a/C44/independent_genuine_shard0_v2.json": "f4066383e01dbc53a4dec5e6cd7549622799c33593d817cc5ecbdac7ebda66a0",
+    "continuation_20261031a/C44/independent_genuine_shard1_v2.checkpoint.jsonl": "5cd65efdd5255305a9a91d5c45b5a275ffc15b706cd8c84c6d69bf0bcf364f76",
+    "continuation_20261031a/C44/independent_genuine_shard1_v2.json": "e627b79d89e5cb02b8088e133430a9680d15c32251112816d90513c3a03ac140",
+    "continuation_20261031a/C44/independent_genuine_shard2_v2.checkpoint.jsonl": "88e1c2c238ca49298df22dedf17c8374c88d2d0a888e1787e55243be50e18bf2",
+    "continuation_20261031a/C44/independent_genuine_shard2_v2.json": "a6b31de15ba3d796262f7347377c09583479def8e8c2aba09b4142bdb0012039",
+    "continuation_20261031a/C44/independent_genuine_shard3_v2.checkpoint.jsonl": "c7074c9e468e47ebdd844bcdc4e58fc12da38c4fa7397a119e89220fc93c0e1f",
+    "continuation_20261031a/C44/independent_genuine_shard3_v2.json": "de605e2ef9638f9d59e461f12f9442f8a474872f9f89e595880efd29bc2fbbae",
+    "continuation_20261031a/C44/independent_genuine_shard4_v2.checkpoint.jsonl": "9ff6a5144b524f5b74bb1cb464a16dd4ddef450bcf2273fe466e9d7b840f658e",
+    "continuation_20261031a/C44/independent_genuine_shard4_v2.json": "ce4a6b658d7255837c63db7c3fa84f637a01880b2a5e545f6f1e1119a49d4139",
+    "continuation_20261031a/C44/independent_genuine_shard5_v2.checkpoint.jsonl": "3dbe571e59e47129f86d92d8d3495104cfc99d30130e688d5d74cbbd25f8bd62",
+    "continuation_20261031a/C44/independent_genuine_shard5_v2.json": "1051f3fe366d352a38d46cd9462b9ee06cd2341ac5458cf2cb5b956055f1224a",
+    "continuation_20261031a/C44/independent_jet_geometry_verified.json": "ae7624b9057186196ed96307ec81f5613bbbe2c83ee6968e17336561add3ae09",
+    "continuation_20261031a/C44/independent_matrices_verified.json": "5f9cfbca5db1f31ff7aaadbd3089a15db8ab044d3d2e30c1f9cc9a6ad2633bb7",
+    "continuation_20261031a/C44/inputs/canonical_data.m": "2b9167707c5ab5c73f256c1e01c16355bc24bee61bd117d2d7b7d5879474af0b",
+    "continuation_20261031a/C44/inputs/inherited_canonical/canonical_data.m": "2b9167707c5ab5c73f256c1e01c16355bc24bee61bd117d2d7b7d5879474af0b",
+    "continuation_20261031a/C44/inputs/inherited_canonical/matrix22_all.raw.jsonseq": "d08787a5575c04cefa998d8b1ef23a283c281a0ff35d315e2a16d3e92953aa1c",
+    "continuation_20261031a/C44/inputs/inherited_canonical/multiplication_22_data.m": "9c2b12bed305b2e8d197c3f91c2efba2354df1ba012ad09382d7e4c6f8f9d4fb",
+    "continuation_20261031a/C44/inputs/inherited_canonical/sieve_all_inputs.normalized.jsonl": "8516e8d456dd87051af044e68e79dafda86f43a0d4360967ec64680c04ab46ec",
+    "continuation_20261031a/C44/new_finite_jets.normalized.jsonl": "9ba6365af3ba147800a69291138f120bd359e2d4d33e49e9b7976d40949d976d",
+    "continuation_20261031a/C44/new_matrix_results.raw.jsonseq": "88871fbd48550b60ac9b993fdaac2eaf0abd79423d4622817ee4f5e58af8cbc4",
+    "continuation_20261031a/C44/q7_finite_jets.normalized.jsonl": "b87ae2a8090825db73270ac27e49c8cd7d93a83d2b4e534a5b547068d51220e1",
+    "continuation_20261031a/C44/q7_matrix_results.raw.jsonseq": "130fadef71b75a278e2705026c6d437ad2d89d0518c5814a794f765761e0806b",
+    "continuation_20261031a/C44/serial_backup_retirement.json": "8ebcde72bcc32c5ad0a17ea3d620a1aa2b802da3ba9230b3592c684006c34cf0",
+    "jobs/d31a_C44_independent_isogenies_shard0_v2.log": "2ee72390d7eff9abaa636fe3ff8842c9b060d3d81d6be20600bef740069879d8",
+    "jobs/d31a_C44_independent_isogenies_shard0_v2.status.json": "7a4aec30bae616fa32cc6d3609a6760ffa7962cda02e2395a2db0e9f460dcb1d",
+    "jobs/d31a_C44_independent_isogenies_shard1_v2.log": "6b3839c37d4e9ca5ea3ad5dc9fb7be1ab4512791f84b8553cca0d1683b31d243",
+    "jobs/d31a_C44_independent_isogenies_shard1_v2.status.json": "c1bdb61cc7170f260446acb7656ca72ac6bdc2cc5a5a4486661c679a3246b26e",
+    "jobs/d31a_C44_independent_isogenies_shard2_v2.log": "3f04e6e33c48e1fc3ba2a1d878f51b529a06c36dedd54c044213b22bb1fa40aa",
+    "jobs/d31a_C44_independent_isogenies_shard2_v2.status.json": "3d320404e94bfddafde3bce09eab6f0099f9641c71bf236fb4fded71a1a05071",
+    "jobs/d31a_C44_independent_isogenies_shard3_v2.log": "e3f848bba051874d0d204b386f7ffb63f5c0ec5f6d07d64501de724653305f3f",
+    "jobs/d31a_C44_independent_isogenies_shard3_v2.status.json": "ce114e01d981fd950dab4ae7cd55adae6b0f03eaf529283d239e6938fcbf71b3",
+    "jobs/d31a_C44_independent_isogenies_shard4_v2.log": "1fd2f1402ff24ac51e0c110871104d25bb7c9257e5f4b25c702b488e7cf3e42c",
+    "jobs/d31a_C44_independent_isogenies_shard4_v2.status.json": "325f1db3a429dddff828eb5dc3bb4eb878f87175e889cda5c4750522e4b75fe6",
+    "jobs/d31a_C44_independent_isogenies_shard5_v2.log": "17348a152d03ee5d7df5c6fd19d95f74ac7a128c9516332f8dcae986b433df71",
+    "jobs/d31a_C44_independent_isogenies_shard5_v2.status.json": "26ba00e4538f52553444b91872f60c66928c07e929137bf05d3b563a2dccef4d",
+    "jobs/d31a_C44_independent_jet_geometry.log": "8c26a2f51647ccd2058b8896da584f67d93a4aed871c8ab8136694b689bb9eb3",
+    "jobs/d31a_C44_independent_jet_geometry.status.json": "8748d4d7096258cc50f8d5f0a51c39433d1bd8e8614e49e5198736d30f8c5673",
+    "jobs/d31a_C44_independent_matrices.log": "3bf18e3f411f840ddc258a7e859be1623f56b23efee2d59c9f31bd4e8c8eefa2",
+    "jobs/d31a_C44_independent_matrices.status.json": "0cb8b62d3376ea61c1dc5cf93f877202352c690ab32e08134920aa8b6c84bf57",
+    "jobs/d31a_C44_independent_merge.log": "ef5b4cca7be91d7f4e67a102a680838377395cc2c3e2b73abbb80f6b91bb2c2b",
+    "jobs/d31a_C44_independent_merge.status.json": "a06bf420a423353227f2deb519725d0b0086cddfba4eea4042dfbd2285629ce1"
+  },
+  "diagnostic_files_sha256": {
+    "computations/d31a_C44_independent_isogenies.py": "ae74b811cd323ae8a4b19cf98996380f288f1bce08a9939515bd25b582110503",
+    "computations/d31a_C44_independent_isogenies_shard0.py": "b39f4df7e9dbb57c9f8ca29ad11b7b9d0b7e1e4ae133c5c655db12cdd09dbbce",
+    "computations/d31a_C44_independent_isogenies_shard1.py": "8a51c74d0f1b2390c6b2830f05de54f0c24123d86b9b9180826e12b5b2071642",
+    "computations/d31a_C44_independent_isogenies_shard2.py": "c957da09de31352173a993b0bd7e26d7be627224f9bb9900da0f158f6ca67d85",
+    "computations/d31a_C44_independent_isogenies_shard3.py": "fc41d2aa1eb0af6b2f90a0844f26a02d731682e0b6a888430cc8203b764594e3",
+    "computations/d31a_C44_independent_isogenies_shard4.py": "9325920308bc307a3f7befc3d20dad1d03ea69dab18a31dea7499d9e3cd17c09",
+    "computations/d31a_C44_independent_isogenies_shard5.py": "985ecf5bff4e7109e2396454b996660299a430095b57df9cd344f119fd10bbc2",
+    "computations/d31a_C44_independent_isogenies_sharded_common.py": "fa2bb7002c61088897460db0bb1b7be3d6c288b7856b11399f8986a96c1c8aca",
+    "continuation_20261031a/C44/independent_genuine_shard0.checkpoint.jsonl": "3d878c36d47460cd0e113f0f0af1225f595bccf3d0326dd49622ab549e2eac0d",
+    "continuation_20261031a/C44/independent_genuine_shard1.checkpoint.jsonl": "1a8bac1519e5cbff0e63ae800f9f35bea96332d08bc2e1dda8a376f15dc7a311",
+    "continuation_20261031a/C44/independent_genuine_shard2.checkpoint.jsonl": "3c534806e4887ccad184c7b015a67a863f130fa0552f9012e5c6ea34ef996081",
+    "continuation_20261031a/C44/independent_genuine_shard3.checkpoint.jsonl": "6914df8171f76fbf7e45fc49e0ec15ffaa678073ab87ae6edc46d9ced9f03748",
+    "continuation_20261031a/C44/independent_genuine_shard4.checkpoint.jsonl": "36e49e05ab4c3771fa53dda51777dfe15e182c40863eca737f84268ea89c2be8",
+    "continuation_20261031a/C44/independent_genuine_shard5.checkpoint.jsonl": "5dc055ec533ff4f35941c7e760c4276164266182de162ba5ac21846875abce0e",
+    "jobs/d31a_C44_independent_isogenies.log": "8a887fb4e7a636a6e67eba5d045f422c53e4f06cdf5db9ca7b73b528fe659137",
+    "jobs/d31a_C44_independent_isogenies.status.json": "64a3db84005dd42e983de4892ec91504f68f6874412717277503f04aa291d4b6",
+    "jobs/d31a_C44_independent_isogenies_shard0.log": "006c62a412cbdb12543a3cff6d1e6d4da0ec07d409c37f8deb80ebddbfc6c432",
+    "jobs/d31a_C44_independent_isogenies_shard0.status.json": "10f045398381731568566cf90f6a9fe7cdf173fbcb3e4df34878a964a697b421",
+    "jobs/d31a_C44_independent_isogenies_shard1.log": "41a689405ce7f6609d2e4cc14cfc702a9e7cd8e8895f750b043c4bc2d700ebdd",
+    "jobs/d31a_C44_independent_isogenies_shard1.status.json": "988cba096ba45eba6ccd5b45d9d17d06e545c7da5b27af64ca2ac41ba240b1fb",
+    "jobs/d31a_C44_independent_isogenies_shard2.log": "1946b32b963f16a5b477f033c89341dc84badd8959d7ff3d97e80f526c925787",
+    "jobs/d31a_C44_independent_isogenies_shard2.status.json": "43c56554f85d6a4f4e4220e1765f071103e1d3fc856f7a325ff1f3ac2bd00631",
+    "jobs/d31a_C44_independent_isogenies_shard3.log": "44dc37839e60c57e8608d54adc1049dd19d519d34fe174d54ed2a851afba63eb",
+    "jobs/d31a_C44_independent_isogenies_shard3.status.json": "80cbb075930e54b5024509bf8acd5ab4071eddf189b46ac91189848eb8fc68e2",
+    "jobs/d31a_C44_independent_isogenies_shard4.log": "e76c5c8d55d4c86cea0efa4a33a5c1e57aacd7f37607fbac134cd93fed56ee3a",
+    "jobs/d31a_C44_independent_isogenies_shard4.status.json": "fd51b2ac3bc46b9a25fd9cf08ab8cf9929ff197f993da1d96a17e188dc3e09d0",
+    "jobs/d31a_C44_independent_isogenies_shard5.log": "d2d134b50e08ad9e250e9cd6b48e10fba71876a667aaae29e06b58201672a130",
+    "jobs/d31a_C44_independent_isogenies_shard5.status.json": "2f52d537f36201469dbc598caa85a0aa32fb4fe6c2628a759abe3c8a309cce0b"
+  },
+  "diagnostic_policy": "Failed v1 serialization runs and the superseded serial run are preserved but never used as completion certificates. The serial backup was retired with verified owner, PID, start time and command after the six-shard replacement passed; actual exit -15 is recorded."
+}

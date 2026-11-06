@@ -1,0 +1,86 @@
+\begin{lemma}\label{lem:nonic31-known-binding}
+The five degree-$9$ places surviving the finite class filter on
+$Y=X_1(31)_{\mathbb F_3}$ are reductions of degree-$9$ points on
+$X_1(31)_{\mathbb Q}$ whose underlying elliptic curves have torsion
+$\mathbb Z/31\mathbb Z$ over their residue fields.
+\end{lemma}
+\begin{proof}
+Let $K=\mathbb Q(a)$, where
+\[
+ a^9-2a^8+a^6-a^5+14a^4-28a^3+19a^2-2a-1=0,
+\]
+and put
+\[
+ x=a,\qquad
+ y=\frac{9a^8-28a^7+16a^6+46a^5-11a^4+125a^3-440a^2+386a+150}{119}.
+\]
+This is the degree-$9$ point in van Hoeij's table with $N=31$,
+source line $68$. Set
+\[
+ r=\frac{x^2y-xy+y-1}{x^2y-x},\qquad
+ s=\frac{xy-y+1}{xy},\qquad b=rs(r-1),\qquad c=s(r-1).
+\]
+The curve $E:y^2+(1-c)xy-by=x^3-bx^2$ is nonsingular, and
+$P=(0,0)$ has exact order $31$. The defining polynomial is irreducible
+modulo $3$. Its simple roots $28$ modulo $53$ and $39$ modulo $83$
+give good degree-one reductions with
+\[
+ \#E(\mathbb F_{53})=62,\qquad \#E(\mathbb F_{83})=93.
+\]
+Reduction is injective on torsion at these unramified odd primes.
+Hence $\#E(K)_{\mathrm{tors}}$ divides $\gcd(62,93)=31$, and thus
+$E(K)_{\mathrm{tors}}\simeq\mathbb Z/31\mathbb Z$.
+
+We reduce $(E,kP)$ modulo $3$, for $1\leq k\leq15$, and compare the
+Frobenius orbits of its Tate normal coefficients with the five surviving
+places. The exact bindings are
+\[
+\begin{array}{c|c}
+\text{factor-base index}&k\\ \hline
+1878&1,5,6\\
+2248&4,7,11\\
+3105&3,13,15\\
+3225&8,9,14\\
+3323&2,10,12
+\end{array}
+\]
+All five orbits have length $9$. The finite-field embeddings and the
+complete coefficient comparisons are recorded in \texttt{binding31.json}.
+The program \texttt{verify\_known31.py} checks the curve equations,
+orders, both point counts, and all fifteen diamond reductions directly.
+Every global diamond translate has the same underlying elliptic curve
+and residue field $K$. This proves the claim.
+\end{proof}
+
+\begin{lemma}\label{lem:nonic31-rigidity}
+Let $D$ be a rational effective divisor of degree $9$ on $X_1(31)$.
+If its reduction modulo $3$ is one of the five places in
+Lemma~\ref{lem:nonic31-known-binding}, then $D$ is the corresponding
+global diamond divisor.
+\end{lemma}
+\begin{proof}
+Let $B$ be the corresponding global divisor. The group
+$J_1(31)(\mathbb Q)$ is finite by \cite[Theorem~3.1(2)]{DEHMZ}.
+Since $X_1(31)$ has good reduction at $3$, reduction on rational torsion
+is injective. The equality of reductions gives $[D-B]=0$ in
+$J_1(31)(\mathbb Q)$. If $D\ne B$, a function with divisor $D-B$
+would give a nonconstant map to $\mathbb P^1$ of degree at most $9$.
+This contradicts $\operatorname{gon}_{\mathbb Q}X_1(31)=12$
+\cite{DvH}. Hence $D=B$.
+\end{proof}
+
+\begin{corollary}\label{cor:nonic62-positive-rigidity}
+Suppose that the finite class filter for a degree-$9$ point on $X_1(62)$
+restricts the reduction of its image on $X_1(31)$ to the five places above.
+Then this degree-$9$ point does not exist.
+\end{corollary}
+\begin{proof}
+By Lemma~\ref{lem:nonic31-rigidity}, its image divisor is one of the
+closed degree-$9$ divisors $B$. Consequently its residue field is the
+full nonic field, rather than a proper subfield. Since $X_1(31)$ is a
+fine moduli space, the underlying curve over this field is isomorphic
+to the curve of the corresponding global diamond point. Its full torsion
+is $\mathbb Z/31\mathbb Z$ by
+Lemma~\ref{lem:nonic31-known-binding}. However, a point of order $62$
+gives a nonzero rational point of order $2$, a contradiction.
+\end{proof}

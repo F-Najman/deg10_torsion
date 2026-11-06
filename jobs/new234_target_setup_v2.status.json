@@ -1,0 +1,19 @@
+{
+  "purpose": "new234_target_setup_v2",
+  "script": "computations/new234_target_setup_v2.m",
+  "script_sha256": "c0e260ddb7f97c31a41ed276547e5e63b9a2d684532b719b2fbad139706826f5",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new234_target_setup_v2.m"
+  ],
+  "pid": 1875992,
+  "owner_uid": 1001,
+  "start_time_unix": 1793359996.2337027,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/new234_target_setup_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 161.6115505695343
+}

@@ -1,0 +1,7 @@
+D31B_C48_GENUINE_PROFILE_FIELD 7 38274 10 4 40 0.17646857118234038
+D31B_C48_GENUINE_PROFILE_KERNELS 7 8 0.4996680151671171
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_genuine_profile.py", line 24, in <module>
+    QQ=ph(Q);assert list(QQ.xy())==manual(E,Q,ph);targets[json.dumps(key(xy(ph.codomain(),QQ)))]+=1
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

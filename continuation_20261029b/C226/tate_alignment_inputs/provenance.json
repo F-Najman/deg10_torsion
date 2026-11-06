@@ -1,0 +1,12 @@
+[
+  {
+    "source": "work/degree9/noncyclic/C226_occurrence_20261026/tate_cusp_replay.py",
+    "copy": "continuation_20261029b/C226/tate_alignment_inputs/tate_cusp_replay.py",
+    "sha256": "3db7447d79b761fc70edc011ea68bbcc07acb14c6a1459bb1986407e328897ef"
+  },
+  {
+    "source": "work/degree9/noncyclic/C226_occurrence_20261026/finite_geometric_arithmetic.txt",
+    "copy": "continuation_20261029b/C226/tate_alignment_inputs/finite_geometric_arithmetic.txt",
+    "sha256": "1386c23ebc67e834e1526548be07b350064e1f2ba09f0f98d83c907d685f6684"
+  }
+]

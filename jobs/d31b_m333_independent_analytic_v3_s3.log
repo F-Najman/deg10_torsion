@@ -1,0 +1,10 @@
+M333_INDEPENDENT_ANALYTIC_BASE 4 1 -18 3 72.88477137917653
+M333_INDEPENDENT_ANALYTIC_BASE 8 1 11 1 175.84500178787857
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_independent_analytic_v3_s3.py", line 38, in <module>
+    M=matrix(GF(2),[list((th**i*om**j).polynomial())+[0]*(2*d-len((th**i*om**j).polynomial())) for i in range(d) for j in range(2)]);assert M.is_invertible();MI=M.inverse()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_independent_analytic_v3_s3.py", line 38, in <listcomp>
+    M=matrix(GF(2),[list((th**i*om**j).polynomial())+[0]*(2*d-len((th**i*om**j).polynomial())) for i in range(d) for j in range(2)]);assert M.is_invertible();MI=M.inverse()
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'sage.rings.polynomial.polynomial_gf2x.Polynomial_GF2X' has no len()

@@ -1,0 +1,18 @@
+{
+  "purpose": "contc99_independent_native_binding",
+  "script": "computations/contc99_independent_native_binding.py",
+  "script_sha256": "6a4c0254bace3979b84e8f1a58be700f5198a7827226af65573b54b5fb8c4950",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc99_independent_native_binding.py"
+  ],
+  "pid": 2734533,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398778.8399532,
+  "state": "EXITED",
+  "time_limit_seconds": 60,
+  "log": "jobs/contc99_independent_native_binding.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.03183698654174805
+}

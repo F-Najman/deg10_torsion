@@ -1,0 +1,119 @@
+\subsection{Excluding order $44$}\label{sec:d31a44}
+\begin{proposition}\label{prop:decic44-exclusion}
+An elliptic curve over a number field of degree $10$ has no point of order $44$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(44)$ and $J=J_1(44)$.
+The genus is $36$, and $J(\mathbb Q)$ has rank zero by
+\cite[Theorem~3.1]{DEHMZ}.
+Moreover, $\operatorname{gon}_{\mathbb Q}(X)=15$ by
+\cite[Theorem~D]{Varivoda26}.
+Suppose $D$ is a noncuspidal effective rational divisor of degree $10$ on $X$.
+
+We first exclude entirely cuspidal reduction at $3$.
+Such a reduction lifts to an effective cuspidal divisor $C$ over $\mathbb Q_3$,
+since the cyclotomic cusp fields are unramified at $3$.
+Both $[D-10c_0]$ and $[C-10c_0]$ are torsion, by rank zero and
+Manin--Drinfeld, respectively, where $c_0$ is a rational cusp.
+Thus $[D-C]\in J(\mathbb Q_3)$ is torsion and has zero reduction.
+The torsion kernel of reduction over $\mathbb Q_3$ is zero, giving $D\sim C$.
+Since $D\ne C$, we have $h^0(X_{\mathbb Q_3},D)\ge2$.
+The divisor $D$ is defined over $\mathbb Q$, so cohomology and base change give
+$h^0(X,D)\ge2$, contradicting rational gonality $15$.
+This argument does not require $C$ to be defined over $\mathbb Q$.
+
+The noncuspidal closed-point counts at $3$ through degree $10$ are
+\[
+ (0,0,0,0,60,160,240,920,2260,5854).
+\]
+They are checked independently from the exact rational matrices of $T_3$
+and $\langle3\rangle$ using Eichler--Shimura.
+Consequently the noncuspidal part of $\overline D$ is either a single
+place of degree $5\le d\le10$, or a pair of quintic places, with repetitions allowed.
+
+The global cusp signature is $1^{15}2^5 5\,10^2$, whereas the signature
+at $3$ is $1^{15}2^5 5^3 10$.
+Every cusp of degree at most $4$ is globally intact.
+The retained Hecke tests for singleton degrees $6$, $7$ and $8$ therefore
+apply with the larger complements of degrees $4$, $3$ and $2$.
+There are respectively $16$, $24$ and $92$ diamond representatives,
+and all tests are nonprincipal.
+The $226$ retained degree-$9$ canonical tests also apply, since their
+new complement is a rational cusp annihilated literally by $A_5$.
+
+For degree $5$, two quintic cusp orbits are fragments of a global
+orbit of degree $10$. We use the cusp formula directly.
+Write $\sigma_q$ for the cyclotomic Galois action at a good prime $q$.
+On cuspidal divisors,
+\[
+ T_q=\sigma_q+q\langle q\rangle\sigma_q^{-1}.
+\]
+Since $5\equiv3^8\pmod {44}$, every Frobenius-$3$ cuspidal trace is fixed by
+$\sigma_5$. Thus
+\[
+ A_5C'=0,\qquad A_5=T_5-1-5\langle5\rangle,
+\]
+as an actual divisor, including the split quintic traces.
+The same identity holds for a rational cusp $c_0$.
+
+For any good odd $q$, the operator $A_q=T_q-1-q\langle q\rangle$
+annihilates $J(\mathbb Q)$ by Eichler--Shimura and injectivity of
+rational torsion reduction at $q$.
+Hence the following are necessary principal-divisor tests:
+$A_5P_5$ for a singleton quintic noncuspidal part, and $A_qD'$ for
+an entirely noncuspidal degree-$10$ reduction $D'$.
+The complete new test list consists of
+\[
+\begin{array}{c|r}
+\text{support type}&\text{tests}\\\hline
+(5)&6\\
+(10)&590\\
+(5,5)&360
+\end{array}
+\]
+The $590$ degree-$10$ diamond orbits cover all $5854$ places.
+For $(5,5)$ we take one of the six quintic representatives for the first
+factor and every one of the $60$ quintic places for the second.
+This includes all pairs and repeated places.
+
+We use the retained canonical model and multiplication tensor
+\[
+ R_2\otimes R_2\longrightarrow R_4,
+ \qquad R_i=H^0(X_{\mathbb F_3},iK_X),\qquad
+ \dim R_2=105,\quad\dim R_4=245.
+\]
+The canonical coordinates and all $11025$ products are certified on the
+function-field model. Since $\deg(2K_X)=140\ge2g+1$, this identifies the
+computed products with the full space $R_4$.
+The old degree-$9$ multiplication certificates use this same model and tensor.
+
+For a new support $D'$ put $T=T_qD'$ and $V=D'+q\langle q\rangle D'$.
+The actual marked cyclic isogenies give $T$, including residue-field norms.
+We merge coincident closed places on each side before computing local jets.
+Thus the tests also cover the stabilizers that can occur in even degree.
+The two divisors have degree $30$ for the singleton quintic $A_5$ test,
+$60$ for a degree-$10$ $A_5$ test, and $80$ for a degree-$10$ $A_7$ test.
+
+Choose nonzero $F,H\in R_2(-T)$.
+If $f\in\mathcal L(T-V)$, then $G=fF\in R_2(-V)$ and $GH\in FR_2$.
+It is therefore enough to show that
+\[
+ R_2\longrightarrow H^0(V,(2K_X)|_V)\oplus R_4/FR_2,
+ \qquad G\longmapsto(G|_V,GH\bmod FR_2)
+\]
+is injective.
+Multiplication by $F$ has rank $105$, so the second summand has dimension $140$.
+The exact restriction and multiplication matrices give rank $105$
+for $954$ of the $956$ new tests with $q=5$.
+The two remaining cases are singleton degree-$10$ supports.
+Using $q=7$, both resulting matrices have rank $105$.
+Thus every necessary new divisor is nonprincipal.
+Together with the unchanged lower-degree tests, this excludes every
+possible reduction of $D$.
+\end{proof}
+
+The new source, marked-isogeny and canonical-jet data are retained in
+\path{continuation_20261031a/C44}.
+The source count is independently checked from the rational Frobenius matrices.
+The canonical arithmetic and marked-isogeny controls are replayed separately;
+the two nonrejections for $A_5$ are retained and are resolved only by $A_7$.

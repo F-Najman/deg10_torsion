@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "degree": 10,
+  "rational_Jacobian": "[3,3,24,96,96]",
+  "full_torsion": [
+    3,
+    15
+  ],
+  "all_containing_curves_same_full_torsion": true,
+  "local_F4_divisors": 24432,
+  "local_F7_noncuspidal_divisors": 57072,
+  "gonality_bound_F7": 6,
+  "exact_diagonal_classes": 240,
+  "known_reducible_classes": 192,
+  "remaining_classes": 48,
+  "new_curve_automorphism_orbit": 48,
+  "excluded_strict_supergroup_examples": [
+    [
+      3,
+      30
+    ],
+    [
+      3,
+      45
+    ]
+  ]
+}

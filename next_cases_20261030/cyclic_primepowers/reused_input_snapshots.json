@@ -1,0 +1,62 @@
+[
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_export.exit.json",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_mixed9_export.exit.json",
+    "sha256": "abe9346353683c8af5a5dc57d26d52524a1a8fb4e1812de3d85e70f20c8cfd84"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_export.log",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_mixed9_export.log",
+    "sha256": "8de5bdfd1923371dac524d5fed81e8d755f33252cb11f1980baaed82685bcb1d"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_export.m",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_mixed9_export.m",
+    "sha256": "1e93f1a218280649b0e0e6dc382c03935241f20a640eea8991e1c4ad1b7b574b"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_export.status.json",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_mixed9_export.status.json",
+    "sha256": "abe9346353683c8af5a5dc57d26d52524a1a8fb4e1812de3d85e70f20c8cfd84"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_jets.m",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_mixed9_jets.m",
+    "sha256": "8eb9eff4283c65c0389512c5800b59b509198e7475932d79bfb3e147c0740147"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_export.exit.json",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_transport_export.exit.json",
+    "sha256": "65d82fdef544ed45bf346e864d4c8e32a9ec65db6cd3d44a4bf59353cc3c351c"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_export.log",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_transport_export.log",
+    "sha256": "1532c254c185bca2d1f395c70c14538c4e0651ee3dba0a852395e8a01e207da5"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_export.m",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_transport_export.m",
+    "sha256": "6142619439f1f8cfec5366e720481a1188cfac19d9011a6ef2dfb83338e53276"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_jets.m",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_transport_jets.m",
+    "sha256": "f0b6689a6996b901c4fba53de3a12503e153e55717347a1f51d56dbed5bcd382"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/mixed9_RR_control.log",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/mixed9_RR_control.log",
+    "sha256": "ed9c62d3623d268036a58b39852da4d6384049cf893df2047e578c34e57f0892"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/mixed9_RR_control.m",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/mixed9_RR_control.m",
+    "sha256": "3fbd740ceaed66c219ecfc5dcb6a8e05fd245c8f75d60eb4149bf029b0374195"
+  },
+  {
+    "source": "work/degree9/prime_orders/continued_20261026/P49/refs/DEHMZ_source.tex",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_primepowers/inputs/degree9/DEHMZ_source.tex",
+    "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+  }
+]

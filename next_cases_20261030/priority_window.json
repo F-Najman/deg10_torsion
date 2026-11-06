@@ -1,0 +1,17 @@
+{
+  "purpose": "Bounded temporary launcher drain for user-prioritized Phi(10); useful existing workers are preserved",
+  "pid": 2008682,
+  "owner": "fnajman",
+  "create_time": 1793365555.01,
+  "command": [
+    "python3",
+    "work/degree20/run_characters_hybrid24.py"
+  ],
+  "max_seconds": 900,
+  "state": "EXITED",
+  "started": 1793368035.838788,
+  "release_reason": "bounded lease expired",
+  "restored": true,
+  "actual_exit_code": 0,
+  "finished": 1793368935.9180167
+}

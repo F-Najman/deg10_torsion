@@ -1,0 +1,19 @@
+{
+  "purpose": "resolve226_unit_v2_p1000000009",
+  "script": "computations/resolve226_unit_v2_p1000000009.m",
+  "script_sha256": "e0569263a57351e7467f112d39df73984702d2b3692e80356a86c20b6509d9ff",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_unit_v2_p1000000009.m"
+  ],
+  "pid": 1581361,
+  "owner_uid": 1001,
+  "start_time_unix": 1793347713.0689483,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/resolve226_unit_v2_p1000000009.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 4.072055101394653
+}

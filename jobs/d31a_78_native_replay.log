@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_78_native_replay.m", line 2, column 1:
+>> mod:=eval Read(root cat "model39.m");raw:=eval Read(root cat "A5_RR.m");src
+   ^
+User error: bad syntax

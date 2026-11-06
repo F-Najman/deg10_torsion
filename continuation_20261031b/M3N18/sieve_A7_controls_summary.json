@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Independent certificate for43 zero A7 tests, not a complete exclusion of C3 x C18",
+  "group": "C3 x C18",
+  "prime": 13,
+  "hecke": 7,
+  "excluded_NC_supports": 43,
+  "physical_source_summands": 55,
+  "distinct_marked_sources": 45,
+  "complete_geometric7_kernels_over_distinct_sources": 360,
+  "explicit_Frobenius_kernel_orbit_payloads": 182,
+  "actual_native_prime_references": 292,
+  "full_marked_source_and_diamond_Weil_component_checked": true,
+  "both_independent_torsion_points_checked_under_every_isogeny": true,
+  "all_stored_kernel_polynomials_source_embeddings_and_orbits_checked": true,
+  "independent_manual_Velu_on_both_marked_points": true,
+  "all_norms_and_physical_prime_keys_match": true,
+  "all43_fresh_native_RR_dimensions_zero": true,
+  "active_own_workers": [],
+  "paused_own_workers": 0,
+  "own_automatic_launchers": 0
+}

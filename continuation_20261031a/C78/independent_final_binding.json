@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "native_RR_tests": 10,
+  "nonprincipal_tests": 8,
+  "known_lift_principal_cases": [
+    1,
+    10
+  ],
+  "actual_geometric5_kernels": 60,
+  "manual_Velu_checks": 60,
+  "all_native_source_diamond_Hecke_keys_bound": true,
+  "known_decic_full_torsion_order": 39,
+  "known_nonic_and_decic_lift_bindings": [
+    {
+      "degree": 9,
+      "principal_source_case": 1,
+      "known_diamond_closed_orbit_size": 4,
+      "mod2_field_irreducible": true
+    },
+    {
+      "degree": 10,
+      "principal_source_case": 10,
+      "known_diamond_closed_orbit_size": 12,
+      "mod2_field_irreducible": true
+    }
+  ],
+  "native_sha256": "fa19488376dd9a952af18ba7513d430b995dd6ab8c6f4905a8672dc89ec4013b",
+  "genuine_sha256": "19b941846eb6421d1844060a7f565361b6a0faf37ec9b4de0184733a29039403"
+}

@@ -1,0 +1,18 @@
+{
+  "purpose": "d31a_C44_independent_isogenies_shard0",
+  "script": "computations/d31a_C44_independent_isogenies_shard0.py",
+  "script_sha256": "b39f4df7e9dbb57c9f8ca29ad11b7b9d0b7e1e4ae133c5c655db12cdd09dbbce",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C44_independent_isogenies_shard0.py"
+  ],
+  "pid": 2860612,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404648.4362717,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/d31a_C44_independent_isogenies_shard0.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 8.577388048171997
+}

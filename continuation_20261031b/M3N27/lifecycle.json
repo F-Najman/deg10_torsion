@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "all_owned_case_jobs_exited": true,
+  "jobs": [
+    {
+      "status_path": "work/deg10/jobs/d31b_m327_cusp_parity.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m327_cusp_parity_v2.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m327_independent_genuine.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m327_independent_genuine_v2.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m327_torsion_gcd.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n27_frob_preflight.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n27_parent_native.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n27_parent_native_v2.status.json",
+      "actual_exit_code": 0,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n27_parent_native_v3.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n27_physical_source.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n27_quotient_A7.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v2.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v3.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v4.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v5.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    }
+  ],
+  "failed_probes_not_certificates": true,
+  "no_case_workers_supervisors_or_launchers_remain": true
+}

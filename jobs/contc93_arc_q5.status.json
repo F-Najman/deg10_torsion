@@ -1,0 +1,19 @@
+{
+  "purpose": "contc93_arc_q5",
+  "script": "continuation_20261030c/C93/contc93_arc_q5.m",
+  "script_sha256": "89bebcba8ac7ebffcc937eee8f6dc35f5b85f2ece5cc0fcd3d8e9a51c0b0be42",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C93/contc93_arc_q5.m"
+  ],
+  "pid": 2714526,
+  "owner_uid": 1001,
+  "start_time_unix": 1793397848.1682403,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/contc93_arc_q5.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 37.97311282157898
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "winding851",
+  "script": "computations/winding851.m",
+  "script_sha256": "d05c667078be776c2a71332ecb022e7bda2b33b67e296ac89aadca71a474063e",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/winding851.m"
+  ],
+  "pid": 26711,
+  "owner_uid": 1001,
+  "start_time_unix": 1793275474.2812998,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/winding851.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 118.55782222747803
+}

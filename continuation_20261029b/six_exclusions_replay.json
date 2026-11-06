@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "new_exclusions": [
+    [
+      1,
+      76
+    ],
+    [
+      1,
+      80
+    ],
+    [
+      1,
+      100
+    ],
+    [
+      2,
+      38
+    ],
+    [
+      2,
+      40
+    ],
+    [
+      2,
+      50
+    ]
+  ],
+  "C238_supports": [
+    233,
+    35,
+    0
+  ],
+  "C240_supports": [
+    781,
+    288,
+    118,
+    0
+  ],
+  "C250_supports": [
+    137,
+    3,
+    0
+  ],
+  "rank_certificates": [
+    {
+      "N": 38,
+      "H_generator": 1,
+      "genus": 28,
+      "all_winding_components_full": true
+    },
+    {
+      "N": 40,
+      "H_generator": 1,
+      "genus": 25,
+      "all_winding_components_full": true
+    },
+    {
+      "N": 50,
+      "H_generator": 1,
+      "genus": 48,
+      "all_winding_components_full": true
+    },
+    {
+      "N": 76,
+      "H_generator": 39,
+      "genus": 64,
+      "all_winding_components_full": true
+    },
+    {
+      "N": 80,
+      "H_generator": 41,
+      "genus": 57,
+      "all_winding_components_full": true
+    },
+    {
+      "N": 100,
+      "H_generator": 51,
+      "genus": 109,
+      "all_winding_components_full": true
+    }
+  ],
+  "C250_target25_rational_group_order": 227555,
+  "C250_target25_image_index": 11,
+  "no_unresolved_case_promoted": true,
+  "elapsed_seconds": 0.2629897170700133
+}

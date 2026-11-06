@@ -1,0 +1,377 @@
+{
+  "status": "PARTIAL",
+  "not_an_exclusion_certificate": true,
+  "paired_target_patterns": 78,
+  "distinct_NC_supports": 53,
+  "A7_zero_supports": 43,
+  "remaining_distinct_NC_supports": 10,
+  "remaining_target_patterns": 12,
+  "A19_resolves_additional_supports": 0,
+  "survivors": [
+    {
+      "target_id": 10828,
+      "target_descriptor": [
+        4,
+        114,
+        [
+          4
+        ]
+      ],
+      "target_class": [
+        3,
+        4,
+        0,
+        2,
+        1,
+        2,
+        0,
+        10,
+        68,
+        142,
+        354
+      ],
+      "source_matches": [
+        [
+          2719,
+          14
+        ]
+      ]
+    },
+    {
+      "target_id": 10842,
+      "target_descriptor": [
+        4,
+        114,
+        [
+          24
+        ]
+      ],
+      "target_class": [
+        2,
+        4,
+        0,
+        2,
+        1,
+        3,
+        6,
+        14,
+        69,
+        170,
+        348
+      ],
+      "source_matches": [
+        [
+          2803,
+          3
+        ]
+      ]
+    },
+    {
+      "target_id": 11117,
+      "target_descriptor": [
+        4,
+        130,
+        [
+          8
+        ]
+      ],
+      "target_class": [
+        0,
+        4,
+        0,
+        1,
+        2,
+        1,
+        6,
+        10,
+        68,
+        190,
+        336
+      ],
+      "source_matches": [
+        [
+          2807,
+          6
+        ]
+      ]
+    },
+    {
+      "target_id": 11125,
+      "target_descriptor": [
+        4,
+        130,
+        [
+          19
+        ]
+      ],
+      "target_class": [
+        2,
+        4,
+        0,
+        1,
+        2,
+        2,
+        9,
+        11,
+        42,
+        134,
+        492
+      ],
+      "source_matches": [
+        [
+          2730,
+          17
+        ]
+      ]
+    },
+    {
+      "target_id": 13900,
+      "target_descriptor": [
+        5,
+        106,
+        []
+      ],
+      "target_class": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        3,
+        2,
+        16,
+        8,
+        84
+      ],
+      "source_matches": [
+        [
+          3514,
+          11
+        ]
+      ]
+    },
+    {
+      "target_id": 14962,
+      "target_descriptor": [
+        5,
+        1168,
+        []
+      ],
+      "target_class": [
+        1,
+        1,
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        11,
+        102,
+        138
+      ],
+      "source_matches": [
+        [
+          3561,
+          8
+        ]
+      ]
+    },
+    {
+      "target_id": 14996,
+      "target_descriptor": [
+        5,
+        1202,
+        []
+      ],
+      "target_class": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        7,
+        43,
+        100,
+        264
+      ],
+      "source_matches": [
+        [
+          3561,
+          6
+        ]
+      ]
+    },
+    {
+      "target_id": 15314,
+      "target_descriptor": [
+        5,
+        1520,
+        []
+      ],
+      "target_class": [
+        1,
+        2,
+        0,
+        1,
+        2,
+        0,
+        3,
+        5,
+        22,
+        104,
+        336
+      ],
+      "source_matches": [
+        [
+          3514,
+          24
+        ]
+      ]
+    },
+    {
+      "target_id": 15533,
+      "target_descriptor": [
+        5,
+        1739,
+        []
+      ],
+      "target_class": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        3,
+        3,
+        53,
+        0,
+        102
+      ],
+      "source_matches": [
+        [
+          2723,
+          2
+        ],
+        [
+          2723,
+          7
+        ],
+        [
+          2723,
+          15
+        ]
+      ]
+    },
+    {
+      "target_id": 16149,
+      "target_descriptor": [
+        5,
+        2355,
+        []
+      ],
+      "target_class": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        6,
+        4,
+        11,
+        40,
+        102
+      ],
+      "source_matches": [
+        [
+          2727,
+          11
+        ],
+        [
+          2727,
+          22
+        ],
+        [
+          2727,
+          27
+        ]
+      ]
+    },
+    {
+      "target_id": 17641,
+      "target_descriptor": [
+        23,
+        1,
+        83
+      ],
+      "target_class": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        16,
+        58,
+        46,
+        480
+      ],
+      "source_matches": [
+        [
+          2723,
+          4
+        ],
+        [
+          2723,
+          5
+        ],
+        [
+          2723,
+          6
+        ]
+      ]
+    },
+    {
+      "target_id": 17823,
+      "target_descriptor": [
+        23,
+        1,
+        265
+      ],
+      "target_class": [
+        3,
+        3,
+        0,
+        1,
+        2,
+        0,
+        0,
+        15,
+        87,
+        36,
+        276
+      ],
+      "source_matches": [
+        [
+          2727,
+          6
+        ],
+        [
+          2727,
+          16
+        ],
+        [
+          2727,
+          20
+        ]
+      ]
+    }
+  ],
+  "full_JF_generation_by_rational_cuspidal_divisors_not_assumed": true
+}

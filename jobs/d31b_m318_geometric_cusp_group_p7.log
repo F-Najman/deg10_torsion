@@ -1,0 +1,6 @@
+Loading "work/deg10/continuation_20261031b/M3N18/geometric_cusp_group_probe.m"
+
+In file "work/deg10/continuation_20261031b/M3N18/geometric_cusp_group_probe.m", line 1, column 318:
+>> gorithmicFunctionField(FF);assert Genus(F)eq10;cs:=Cusps(X);assert #cs eq 3
+                                             ^
+User error: bad syntax

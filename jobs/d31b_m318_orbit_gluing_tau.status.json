@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m318_orbit_gluing_tau",
+  "script": "computations/d31b_m318_orbit_gluing_tau.py",
+  "script_sha256": "b2f069ffed3344c7d81cc63abbcc94a36716376d0a1a5d6e2a8c37be3f148a04",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_orbit_gluing_tau.py"
+  ],
+  "pid": 3706634,
+  "owner_uid": 1001,
+  "start_time_unix": 1793443977.694724,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/d31b_m318_orbit_gluing_tau.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 3.323943853378296
+}

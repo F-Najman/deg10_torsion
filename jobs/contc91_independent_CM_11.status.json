@@ -1,0 +1,19 @@
+{
+  "purpose": "contc91_independent_CM_11",
+  "script": "computations/contc91_independent_CM_11.m",
+  "script_sha256": "e86374edcf23c5df8fb39d90c49ca82affa47e363283a81e9b8d24db62965e7c",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc91_independent_CM_11.m"
+  ],
+  "pid": 2739657,
+  "owner_uid": 1001,
+  "start_time_unix": 1793399025.4853497,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/contc91_independent_CM_11.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.11411404609680176
+}

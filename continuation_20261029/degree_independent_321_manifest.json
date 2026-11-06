@@ -1,0 +1,32 @@
+[
+  {
+    "source": "work/degree8/noncyclic/sieve_3_21_D4_p2.m",
+    "snapshot": "continuation_20261029/degree_independent_321/sieve_3_21_D4_p2.m",
+    "sha256": "640eab4d853ed0f7226bff3653006fa79cea6dbdc1864756b608733dd016c0ab",
+    "scope": "degree-independent quartic support Hecke computation; no degree-eight exclusion transferred"
+  },
+  {
+    "source": "work/degree8/noncyclic/sieve_3_21_D4_p2.log",
+    "snapshot": "continuation_20261029/degree_independent_321/sieve_3_21_D4_p2.log",
+    "sha256": "17eb6f9c65906ef42d7c6d146ff6c5d00d6a88a8f90b5959a0d1622ced78b4c5",
+    "scope": "degree-independent quartic support Hecke computation; no degree-eight exclusion transferred"
+  },
+  {
+    "source": "work/degree8/noncyclic/sieve_3_21_D4_arithmetic.txt",
+    "snapshot": "continuation_20261029/degree_independent_321/sieve_3_21_D4_arithmetic.txt",
+    "sha256": "c2a1f85fd2c4400ebfe815029a8b26937a63dfe4cfa516833106ca437251d76a",
+    "scope": "degree-independent quartic support Hecke computation; no degree-eight exclusion transferred"
+  },
+  {
+    "source": "work/degree8/noncyclic/exclusion_3_21_D4.tex",
+    "snapshot": "continuation_20261029/degree_independent_321/exclusion_3_21_D4.tex",
+    "sha256": "87108dff76ee1bd3541b9ef053c966898f9c305274d283e558a84a1f7a147305",
+    "scope": "degree-independent quartic support Hecke computation; no degree-eight exclusion transferred"
+  },
+  {
+    "source": "work/degree8/noncyclic/replay_good_3_21_D4.json",
+    "snapshot": "continuation_20261029/degree_independent_321/replay_good_3_21_D4.json",
+    "sha256": "5b7de596df314a1c654d3e64fc2ed9ef6ef32e910438f6f804b0cf7e29617838",
+    "scope": "degree-independent quartic support Hecke computation; no degree-eight exclusion transferred"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "character_spaces": 256,
+  "finite_projective_members": 1848,
+  "exact_physical_source_points": 1674,
+  "exact_source_divisor_patterns": 3414,
+  "different_reduced_native_RR_basis": true,
+  "full_intrinsic_point_and_divisor_sets_equal": true
+}

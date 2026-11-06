@@ -1,0 +1,9 @@
+{
+  "new_jobs": 5,
+  "all_jobs_exited": true,
+  "all_actual_exit_codes": 0,
+  "active_workers_supervisors_launchers": [],
+  "paused_jobs": [],
+  "terminated_jobs": [],
+  "automatic_launchers_created": false
+}

@@ -1,0 +1,22 @@
+
+MDX11(
+    N: 6,
+    M: 12,
+    base_ring: base_ring
+)
+_InitMDCrvMod11(
+    X: The modular curve X_1(...[RngIntElt], ...[RngIntElt]) over ....,
+    M: 6,
+    N: 12,
+    base_ring: base_ring
+)
+_equation_X11(
+    m: 6,
+    n: 12,
+    base_ring: base_ring
+)
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/shared/mdmagma/v2/modular_curves/X11.m", line 208, column 40:
+>>         coordinates := [FFX ! q, FFX ! t];
+                                          ^
+Runtime error: Variable 't' has not been initialized
+

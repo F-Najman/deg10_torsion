@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "groups": [
+    [
+      1,
+      62
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Complete C62 decic exclusion: genus26 Picard image,5685-point census,253 new classes,4095 pairs45 doubled fibres, nonic31+cusp rigidity; all independent controls and old2190 tests replayed",
+  "frozen_summary_sha256": "b65c0aa76eb3acbc97d2feab1cf33ea6913260866953664924ddf37faa7c669a",
+  "classification_complete": false
+}

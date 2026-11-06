@@ -1,0 +1,19 @@
+{
+  "purpose": "late240_picard_s3",
+  "script": "computations/late240_picard_s3.m",
+  "script_sha256": "ca3b9f9880a7d3a856094c31dac02eb24ad1d088dcf9913ea97992749b3f312c",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late240_picard_s3.m"
+  ],
+  "pid": 897939,
+  "owner_uid": 1001,
+  "start_time_unix": 1793314492.1361856,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/late240_picard_s3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 286.63197326660156
+}

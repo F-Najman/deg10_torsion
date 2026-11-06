@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "all_nine_base_source_classes_checked": true,
+  "independent_Velu5_isogenies": 54,
+  "complete_five_division_polynomials_recovered": 9,
+  "independent_Velu23_quotient_j_checks": 54,
+  "finite_moduli_coordinates_and_degrees_verified": 54,
+  "positive_norm_summands": 19,
+  "classes": [
+    [
+      7,
+      1,
+      3
+    ],
+    [
+      7,
+      2,
+      3
+    ],
+    [
+      7,
+      3,
+      3
+    ],
+    [
+      8,
+      1,
+      2
+    ],
+    [
+      8,
+      2,
+      2
+    ],
+    [
+      9,
+      1,
+      1
+    ],
+    [
+      9,
+      2,
+      1
+    ],
+    [
+      10,
+      1,
+      2
+    ],
+    [
+      10,
+      2,
+      2
+    ]
+  ],
+  "input_sha256": {
+    "next_cases_20261030/C69/cover_results.m": "ff0d9a1c1ce64ea10133882b0e91f24f97598095505a0808e9a92345792319e2",
+    "next_cases_20261030/C69/cover_model.m": "71d55560f6a82205b91213aed30fd1f5c0098c0f6f1db7e0872e61466ca3de64",
+    "next_cases_20261030/C69/base_j_functions.m": "ed2ea83387198c1bd323f4e8a417def08d5aa323965bfeedcea166398005d3e8"
+  },
+  "seconds": 3.9119454389438033
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_diagonal_6_12_D5_v3",
+  "script": "computations/cont_diagonal_6_12_D5_v3.m",
+  "script_sha256": "6da698211b3b4f355df465d9e0274009a7b8f521109f102ef6c8b6df58826f33",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_diagonal_6_12_D5_v3.m"
+  ],
+  "pid": 407633,
+  "owner_uid": 1001,
+  "start_time_unix": 1793291649.2278292,
+  "state": "EXITED",
+  "time_limit_seconds": 1500,
+  "log": "jobs/cont_diagonal_6_12_D5_v3.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 880.7030718326569
+}

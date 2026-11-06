@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "tag": "A11pure",
+  "ell": 11,
+  "selected_cases": [
+    33546,
+    39662,
+    39669,
+    56937,
+    59070
+  ],
+  "source_summands": 8,
+  "kernel_orbits": 58,
+  "geometric_kernel_count": 96,
+  "all_Velu_maps_and_level_images_checked": true,
+  "all_division_polynomial_factors_exhausted": true,
+  "all_residue_norm_weights_checked": true,
+  "source_reports": [
+    {
+      "record_index_zero_based": 0,
+      "map": 1,
+      "source_degree": 10,
+      "kernel_orbits": 6,
+      "geometric_kernels": 12
+    },
+    {
+      "record_index_zero_based": 1,
+      "map": 1,
+      "source_degree": 4,
+      "kernel_orbits": 4,
+      "geometric_kernels": 12
+    },
+    {
+      "record_index_zero_based": 2,
+      "map": 1,
+      "source_degree": 6,
+      "kernel_orbits": 12,
+      "geometric_kernels": 12
+    },
+    {
+      "record_index_zero_based": 3,
+      "map": 1,
+      "source_degree": 6,
+      "kernel_orbits": 12,
+      "geometric_kernels": 12
+    },
+    {
+      "record_index_zero_based": 4,
+      "map": 1,
+      "source_degree": 5,
+      "kernel_orbits": 6,
+      "geometric_kernels": 12
+    },
+    {
+      "record_index_zero_based": 5,
+      "map": 1,
+      "source_degree": 5,
+      "kernel_orbits": 6,
+      "geometric_kernels": 12
+    },
+    {
+      "record_index_zero_based": 6,
+      "map": 1,
+      "source_degree": 5,
+      "kernel_orbits": 6,
+      "geometric_kernels": 12
+    },
+    {
+      "record_index_zero_based": 7,
+      "map": 1,
+      "source_degree": 5,
+      "kernel_orbits": 6,
+      "geometric_kernels": 12
+    }
+  ],
+  "seconds": 1.2914108340628445,
+  "sha256": {
+    "work/deg10/next_cases_20261030/C242/direct_hecke17/A11pure/explicit_hecke_data.m": "a5c7b07e652d95c50164996f75918e2487598b1672460e6893d1ef4faab00226"
+  }
+}

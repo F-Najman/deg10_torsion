@@ -1,0 +1,19 @@
+{
+  "purpose": "new236_cusp_short",
+  "script": "computations/new236_cusp_short.m",
+  "script_sha256": "900d79eb52a1b556f80e88279405946ea3c718bc9966ef584f8c40092cc2802c",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_cusp_short.m"
+  ],
+  "pid": 1888405,
+  "owner_uid": 1001,
+  "start_time_unix": 1793360517.8601508,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/new236_cusp_short.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.2161369323730469
+}

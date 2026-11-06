@@ -1,0 +1,19 @@
+{
+  "purpose": "late226_second_prime_v2",
+  "script": "computations/late226_second_prime_v2.m",
+  "script_sha256": "cd0af74cc4b63a44ed0b22a9af29fa0cca9a698d2e8d0aefa13be40485d406c3",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_second_prime_v2.m"
+  ],
+  "pid": 983197,
+  "owner_uid": 1001,
+  "start_time_unix": 1793318355.453274,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/late226_second_prime_v2.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 9.5785391330719
+}

@@ -1,0 +1,42 @@
+{
+  "known_lower_bound": {
+    "added": [
+      [
+        2,
+        26
+      ]
+    ],
+    "removed": []
+  },
+  "certified_exclusions": {
+    "added": [
+      [
+        1,
+        52
+      ]
+    ],
+    "removed": []
+  },
+  "minimal_outside_known": {
+    "added": [],
+    "removed": [
+      [
+        2,
+        26
+      ]
+    ]
+  },
+  "remaining_minimal_obstructions": {
+    "added": [],
+    "removed": [
+      [
+        1,
+        52
+      ],
+      [
+        2,
+        26
+      ]
+    ]
+  }
+}

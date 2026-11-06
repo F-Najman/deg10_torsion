@@ -1,0 +1,4 @@
+AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");
+SetColumns(0);SetNthreads(1);SetQuitOnError(true);tt:=Cputime();fp:=FrobeniusPolynomial(JH(80,[41]),3);g:=Degree(fp) div 2;cs:=eval Read("work/deg10/continuation_20261029b/C240/cusp_degrees.txt");assert 12*(g-1)+6*(&+cs) eq 1152;tr:=[];closed:=[];
+for n in [1..10] do z:=-n*Coefficient(fp,2*g-n);for j in [1..n-1] do z-:=Coefficient(fp,2*g-j)*tr[n-j];end for;Append(~tr,Integers()!z);num:=3^n+1-Integers()!z;for d in Divisors(n) do if d lt n then num-:=d*closed[d];end if;end for;assert num mod n eq 0;Append(~closed,num div n);end for;
+nc:=[closed[d]-#[x:x in cs|x eq d]:d in [1..10]];assert nc[1..9] eq [0,0,0,32,96,64,480,504,2048];print "C240_D10_FRESH_PREFLIGHT",g,nc,Cputime(tt);Write("work/deg10/continuation_20261029b/C240/source_frobenius.txt",Sprint([*Coefficients(fp),cs,nc*]):Overwrite:=true);print "C240_D10_FRESH_PREFLIGHT_DONE complete=true";quit;

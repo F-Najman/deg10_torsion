@@ -1,0 +1,118 @@
+\begin{proposition}\label{prop:all-octic-33}
+Every rational effective divisor of degree $8$ on $X_1(33)$
+supported away from the cusps is one of the five closed octic
+divisors in the diamond orbit of
+\[
+ x^4-3x^3+3x^2-3x+1=0,\qquad
+ y^2+(x^3-3x^2+x-3)y+2x^2-x+2=0.
+\]
+Consequently, if an elliptic curve $E$ over an octic number field $K$
+has a point of order $33$, then $E(K)_{\mathrm{tors}}\simeq C_{33}$.
+In particular, $C_{66}$, $C_{99}$ and $C_3\times C_{33}$ do not
+belong to $\Phi(8)$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(33)$, and choose a rational cusp $c_0$.
+By \cite[Theorem~3.1(2), Theorem~4.13 and Table~2]{DEHMZ},
+the full group $J_1(33)(\mathbb Q)$ is rational cuspidal with
+invariants $[5,42373650]$.
+An exact class-group computation over $\mathbb F_2$ gives
+\[
+ J_1(33)(\mathbb F_2)\simeq C_{15}\times C_{42373650}.
+\]
+The reductions of the rational cuspidal generators generate a subgroup
+$H$ with invariants $[5,42373650]$. This is the full order of
+$J_1(33)(\mathbb Q)$, so reduction on $J_1(33)(\mathbb Q)$ is
+injective, including on its $2$-primary subgroup. The index of $H$
+in the finite Jacobian is $3$.
+
+The rational gonality of $X$ is $10$ by \cite[Table~1]{DvH}.
+Thus distinct rational effective divisors of degree $8$ have distinct
+classes in $\operatorname{Pic}^8(X)$: a nontrivial linear equivalence
+would give a rational function of degree at most $8$.
+It follows that two known rational divisors whose reductions have the
+same class must be equal.
+
+The rational cusp-orbit degrees are $1^{10},2^5,10^2$, while the
+closed cusp degrees over $\mathbb F_2$ are $1^{10},2^5,5^2,10$.
+We identify the $17$ rational cusp orbits by the valuations of the
+integral Tate modular units $b$ and $b^4/\Delta$.
+These units are invertible on the fine scheme $Y_1(33)$ over
+$\mathbb Z[1/33]$. Their divisors have no vertical components and
+are supported on the finite etale cusp boundary. Their cusp valuations
+therefore commute with reduction at $2$.
+The computed $17$ distinct signatures separate the rational orbits.
+
+There are exactly $62055$ rational effective cuspidal divisors of
+degree $8$. Their reductions give $62055$ distinct classes.
+The complete finite-field enumeration, independently checked using
+the modular-symbol Frobenius polynomial, gives noncuspidal place counts
+\[
+ (0,0,0,0,2,20,30,25)
+\]
+in degrees one through eight.
+Every degree-eight reduction is therefore entirely cuspidal or
+has a single noncuspidal place of degree $5$, $6$, $7$, or $8$,
+with a cuspidal complement. All multiplicities in the cuspidal part
+are included. The complete class tests are
+\[
+\begin{array}{c|r|r|r}
+\text{noncuspidal part}&\text{divisors tested}&
+ \text{class in }H&\text{rational effective cuspidal classes}\\\hline
+\text{empty}&62595&62055&62055\\
+(5)&540&0&0\\
+(6)&1200&0&0\\
+(7)&300&100&0\\
+(8)&25&5&0
+\end{array}
+\]
+The numbers of cuspidal complements of degrees $0,1,2,3$ are
+$1,10,60,270$, respectively. No mixed noncuspidal support is possible,
+since its degree would be at least $10$.
+
+The $100$ classes in the degree-seven row are reductions of known
+rational divisors of degree $8$: add any of the ten rational cusps
+to each of the ten diamond translates of the septic point
+\[
+ a^7-6a^6+9a^5-5a^3-a+1=0,\qquad
+ y=\frac{-3a^6+16a^5-17a^4-9a^3+11a^2+3a+4}{3}.
+\]
+We reconstruct this point in characteristic zero and verify its order
+$33$ afresh. Only the existence of these reducible degree-eight
+divisors is used.
+The remaining five classes are precisely the reductions of the five
+diamond translates of the octic point in the statement.
+Its absolute field polynomial is
+\[
+ t^8-15t^7+95t^6-331t^5+741t^4-1100t^3+1009t^2-688t+359,
+ \qquad t=x+y.
+\]
+We check its irreducibility, reconstruct the original coordinates,
+and verify exact order $33$ over this octic field.
+
+Thus every possible reduction class is either a rational effective
+cuspidal class, one of the $100$ septic-plus-cusp classes, or one
+of the five known octic classes. Injectivity of reduction identifies
+the corresponding global classes, and gonality $10$ identifies the
+effective divisors. A divisor supported away from the cusps cannot
+be cuspidal or septic-plus-cusp, proving the classification.
+
+The complete source \texttt{classify\_octic\_33.m} exports the actual
+Picard relation matrix, the rational cuspidal generators, all known
+class sets and all $64660$ tested classes. The independent program
+\texttt{replay\_class\_arithmetic.py} checks every group membership
+and the exact equality of the remaining $105$ classes with the
+$100+5$ known classes, using integer lattices.
+
+The known octic elliptic curve has full torsion $C_{33}$:
+good unramified odd-prime reductions have orders $5760579$ over
+$\mathbb F_{7^8}$ and $815675619$ over $\mathbb F_{13^8}$,
+whose gcd is $33$.
+Finally, a point of $X_1(33)$ defined over $K$ yields a noncuspidal
+rational trace divisor of degree $8$, allowing multiplicities if
+its field of definition is smaller than $K$.
+The classification forces this trace to be one of the known closed
+octic divisors. Its field of definition is therefore all of $K$.
+The fine moduli interpretation identifies the elliptic curve with
+the known model over that field, so its full torsion is $C_{33}$.
+\end{proof}

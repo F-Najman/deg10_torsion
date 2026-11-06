@@ -1,0 +1,846 @@
+{
+  "status": "PASS",
+  "scope": "Complete C55 degree10 exclusion with source torsion-injectivity transfer, immutable degree-independent controls, fresh census and five source A3 tests, independent finite geometry and native RR, plus preserved corroboration and job provenance",
+  "files": [
+    {
+      "path": "work/deg10/C234_resolution_20261030/inputs/DEHMZ_2007.13929.tex",
+      "bytes": 115467,
+      "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+    },
+    {
+      "path": "work/deg10/computations/contb55_census.m",
+      "bytes": 1673,
+      "sha256": "ec992eb1bb5a00bf29728dfb649aed48f24d1c1d9a93453eb14ac4ab08ea3957"
+    },
+    {
+      "path": "work/deg10/computations/contb55_cusp_coupled.m",
+      "bytes": 12133,
+      "sha256": "5cea5140de6a4910307d08cccf83d536b1de930d0eab57cc71d6056d1e0250ca"
+    },
+    {
+      "path": "work/deg10/computations/contb55_parent_native.m",
+      "bytes": 3517,
+      "sha256": "6e547fed86dd81410558f1df1e4430227ffd79311a7efc4d615b089a300c14bf"
+    },
+    {
+      "path": "work/deg10/computations/contb55_sage_finite.py",
+      "bytes": 115,
+      "sha256": "8d8b375c8421aa44dc939ac838c911fda8d59932d9176fc924f59d6941116c78"
+    },
+    {
+      "path": "work/deg10/computations/contb55_sage_finite_v2.py",
+      "bytes": 118,
+      "sha256": "35b7f8cef5d7fae024f72e27d4c69c910fb409a57f6357bc0d404ed210297e4d"
+    },
+    {
+      "path": "work/deg10/computations/contb55_source_case1.m",
+      "bytes": 137,
+      "sha256": "d4bdc4252e65049f125b4f9918fe48b34269ef73deb6e789f24ecb760874a797"
+    },
+    {
+      "path": "work/deg10/computations/contb55_source_case2.m",
+      "bytes": 137,
+      "sha256": "5e205d0f7e269af4b462b983eb3f2bda385ae977392bc5328ca8837aaa44c79e"
+    },
+    {
+      "path": "work/deg10/computations/contb55_source_case3.m",
+      "bytes": 137,
+      "sha256": "4fb8b5b40dadc7ffc90026fb57939bc420c1afaae0532b942068f5f5e1204d58"
+    },
+    {
+      "path": "work/deg10/computations/contb55_source_case4.m",
+      "bytes": 137,
+      "sha256": "19781215beec6121ce3cba567e847b4e69568f6f8b2f64c218454d6a968a2281"
+    },
+    {
+      "path": "work/deg10/computations/contb55_source_case5.m",
+      "bytes": 137,
+      "sha256": "05354ca6b638f3e2830d6b8f59e89e5ba40c40018f3cce349c092f1c749063fc"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/census.m",
+      "bytes": 2880,
+      "sha256": "4d782f6c5122980b8898b3bcd70efbdeeeb3b3302202019af8580f34dc2fda44"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/completion.json",
+      "bytes": 1531,
+      "sha256": "1c8ad0c01d7791b2b7b80e834ab0bd2417ed5f13087d009effe1d298db90ed6f"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/cusp_D10_kernels.m",
+      "bytes": 53518,
+      "sha256": "f9805460e80cf516a471ec42fc222ec0a609e43d53fda717804ac0f05e766dde"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/cusp_D10_packet.m",
+      "bytes": 21329,
+      "sha256": "4bdf1d8220bc067fd2e906b5eb4cd4a309da7c60da4fe08eb721a0a854b35972"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/cusp_audit.json",
+      "bytes": 39402,
+      "sha256": "306b3eff49fff9bcea0cde0c95584a2f187d54b12a88a8c23339bdc9d249bf00"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/cusp_audit.py",
+      "bytes": 3499,
+      "sha256": "7a5607c15c17acd94c746f40c94cfb561b9a790aeabdfffc1752ef69e0b6ebf9"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/deps/fast_hecke.m",
+      "bytes": 8266,
+      "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/deps/fast_hecke.sig",
+      "bytes": 1196,
+      "sha256": "7825d52342582741eab41d5e414b493948013f3f212f81144c26a0eddca0dfd0"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/deps/fast_hecke_11.m",
+      "bytes": 12251,
+      "sha256": "a18f21189cba3d5d3a19888012729bde2a4ec0e1839dd770335b79b5149af9cb"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/deps/fast_hecke_11.sig",
+      "bytes": 2349,
+      "sha256": "80c78c6d0c9c0a4470fef04f8215bd90491fc34c886eace7a42e8fcb2af124e3"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/deps/fast_hecke_cyclic_commonzero.m",
+      "bytes": 1560,
+      "sha256": "73e367f6849235036f3fecd9e31850927e93bec6a0afccf468b0770bc0fe8de4"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/deps/fast_hecke_cyclic_commonzero.sig",
+      "bytes": 598,
+      "sha256": "4d6b9f2e107247df21465aa04000e4a8c738160a76a231971cfdcc99be207368"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/full_source_common.m",
+      "bytes": 3508,
+      "sha256": "9ebf1b52a9993ee2fc712ccc88d6ed3b807e764583844610b14c4a28a2db4ad3"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/independent_finite_geometry.json",
+      "bytes": 3219,
+      "sha256": "fb60342928cbf49f5d2da2c2ee94fd4529d55fbd0c1a69e52a87d131761b458d"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/DEHMZ_source.snapshot.tex",
+      "bytes": 115467,
+      "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_D9_coupled_v2_kernels.m",
+      "bytes": 39459,
+      "sha256": "d9404330ff19198b8c531b3441d07e8b444fa7dd7cd6531ef5902c6d5dfcc140"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_coupled_FI_RR_v2.log",
+      "bytes": 8896,
+      "sha256": "91c1d98841921c4347d6df4e53c2fe019b85bf2fbaea4440e94eefdef93fe52a"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_coupled_FI_RR_v2.m",
+      "bytes": 10917,
+      "sha256": "211f2569c6dd58f5cd1414ba6f0c69da6b2c7205b27341b1d0c14a8c5e1d8099"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_geometry_manifest.json",
+      "bytes": 5023,
+      "sha256": "8843fa6931cdfeda2c6a5f5236a82cfe1b3102227cfbeaad28022885e87eae4c"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_good9.m",
+      "bytes": 989,
+      "sha256": "9a49e003ca962389478a3b6ddb63b89ff338bfc9e2f7f39eef0a8869caef93c8"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_good9_retry.log",
+      "bytes": 313,
+      "sha256": "e8dd417c0fb072d69c0e7b870874ad22a0ef196a3b225f04c3ba401c586cd455"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_quotient_cusp_arithmetic.txt",
+      "bytes": 362,
+      "sha256": "048692ecfcca7f52e52b4a07fa9f1b6300c34a6d91d4fcc1014e9e1ee764d539"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_quotient_injectivity_D9_v2.log",
+      "bytes": 2300,
+      "sha256": "fe08d80b91dbd072403cfbf136d0b859c879e745cbd9c4a4cd180368d1e4c14d"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_quotient_injectivity_D9_v2.m",
+      "bytes": 7692,
+      "sha256": "d4467f2720ee46d2186cf3411b701c9bc318d0fb676249e62d430e35edc4afda"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_tate_cusps.log",
+      "bytes": 1733,
+      "sha256": "98de53a7d0c7aa2a859c04fc8d490349b958ca392a37527cc8e8d919b2505741"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_tate_cusps.py",
+      "bytes": 3353,
+      "sha256": "8f21e721b5ea280d47b7e9e187ce49226253322aafab8be1d6b22cd388b272b7"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/exclusion55.tex",
+      "bytes": 6485,
+      "sha256": "5755354352799d41b802fbf0e3ae3595b8dcdb07aa18ff963bb2cc9bc9af0386"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_builtin_model.m",
+      "bytes": 1518,
+      "sha256": "2a3bc5f202c2416d3ac427db509fdf73d11a97c5c6cc5278223369b490584100"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_cartier_continue.m",
+      "bytes": 4349,
+      "sha256": "c857be44b1a1c3aef2033489effb82adf17459d8fa3659077265bc0bbcba8950"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_cartier_kernels.m",
+      "bytes": 35663,
+      "sha256": "11d9d62c2905fc6a699fc40358fcb31b591d86ffa863aa990714a8038db0e87b"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_cartier_reproduce.log",
+      "bytes": 6644,
+      "sha256": "cc062026b6c88ab094a8e6f18d58c83324e8416c58546af8eb0cfba64a67d4fc"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_cartier_reproduce.m",
+      "bytes": 10472,
+      "sha256": "7af0aa9dedfbcb888800a4101fb27ab9d9286806777df1351d313427fee7d1a8"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_cartier_reproduced_kernels.m",
+      "bytes": 35663,
+      "sha256": "11d9d62c2905fc6a699fc40358fcb31b591d86ffa863aa990714a8038db0e87b"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_cover_model_v4.log",
+      "bytes": 7143,
+      "sha256": "e5e7eb18b36214c179835490a6e0820430083425a49f6896de88de238b755f5a"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_cover_model_v4.m",
+      "bytes": 6112,
+      "sha256": "80c9c906b2c6b8e65c94de44d3258cdbf360a8b24e6d34d02194fb53dc119c59"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_exclusion.tex",
+      "bytes": 5084,
+      "sha256": "f599ebf22a6027dd3bcae8d3275a4730953b4845ec8b7aee70aea71af28d0388"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_inputs/N55_D8_NC7_q3.log",
+      "bytes": 209,
+      "sha256": "a38816fcfb62fe096f610d79c2d4958cf2cace23885a46af9cd36e9022a033da"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_inputs/N55_D8_NC7_q3.m",
+      "bytes": 1253,
+      "sha256": "6d1d38547d049bc4835af7c090c038212e718cfcc5e39b15b2168f1e0af76099"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_inputs/dyadic_criterion.tex",
+      "bytes": 3670,
+      "sha256": "a34e7c0f8f7530aae1c6531a8de079950e0f47443540ca51bccb8312721c721f"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_inputs/independent_counts.log",
+      "bytes": 4904,
+      "sha256": "21698f0f5789acc85812604bc68b5a63ac8bd2b41f1004a9c97f25b3fb12ae3e"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_inputs/independent_counts.m",
+      "bytes": 965,
+      "sha256": "619c9bf6a5e539ddcaf31452ee167be17b315fca1caeb9935fb6248ec63a883d"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_inputs/newforms_55.json",
+      "bytes": 2957,
+      "sha256": "79b404910b6c0e8845a6b5462fef3117383047681f19172068f080a1b95f3555"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_inputs/replay_cartier_projection.py",
+      "bytes": 2956,
+      "sha256": "06321dd563de4ce67c41e333d365751d13b76532d69c99f4fc166a70b40ec8da"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_inputs/replay_fi_jets.py",
+      "bytes": 6746,
+      "sha256": "beb52ee3b46d2a2aa224f86c96c005b1d1aff26df90ac67ce6fd33da0cb46207"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_inputs/replay_rr_kernels.py",
+      "bytes": 3334,
+      "sha256": "12209415ba5a9d201cf6210ea7a25e7c27e69f3f90913ce979715ada16342d44"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_projection_replay.log",
+      "bytes": 139,
+      "sha256": "11c94097460e3c6c6e4aea40ef0490516f14349e5c0f3dde99de1cdd29e2474b"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_rank_certificate.json",
+      "bytes": 1395,
+      "sha256": "0aa4887d9f19780ffee6037d9055a72e811a6042a7f3d0ad2c42747ab3759f18"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_rank_replay.log",
+      "bytes": 169,
+      "sha256": "cf146f65ec044859b666fedd061ef02864c3191d05c7a19497b75407d6f39ae2"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/C55_rr_replay.log",
+      "bytes": 128,
+      "sha256": "845c90c7ee0ad4789b30c58b70d31802a018029a19e055210472374cfece5325"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/certify55.py",
+      "bytes": 5398,
+      "sha256": "d1f8f438cd98e113c1aeaf87b8efe7a282521fd572da441c270fd2150187b617"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/cusps_order5_quotients.json",
+      "bytes": 3826,
+      "sha256": "3cc06ffe63d934668cecaa2518ebb77f25e13e5863f0da68f134a50f68b10af0"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/cusps_order5_quotients.log",
+      "bytes": 171,
+      "sha256": "df14a923f5f2e55cf8d865e913826618969b302b7e9e7d4c4d2fc68e4d77463e"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/large_levels/cusps_order5_quotients.py",
+      "bytes": 3326,
+      "sha256": "69f0601297057d51919a057cc5db1e84a7a6a2c384f152754b314d4119bd986b"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/lifecycle.json",
+      "bytes": 4574,
+      "sha256": "620b5c8acee2aacbb97f8366606cdcb48a3f45777a79b45a308a5c3d640f172b"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/parent_native_replay.m",
+      "bytes": 125,
+      "sha256": "712a632fc12f87a4538e24269b0fcda0889f083a976a1f28f91077da709673d3"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/prepare_completion.py",
+      "bytes": 5088,
+      "sha256": "e28d1272fe8f70858c09677ce6bffa19d09aae254b1a5c7f9a7cad531909837a"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/replay_finite_geometry.py",
+      "bytes": 4723,
+      "sha256": "529c6845fcc98722a6db5d249ce7e7e2d894711572557efffda5663637d2d90d"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/replay_finite_geometry_v2.py",
+      "bytes": 4737,
+      "sha256": "75a8447903b78f7c29eb2ff568669d8cb6663100d11d3a6f2b36ebb4714b61b6"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/replay_source_injectivity.py",
+      "bytes": 1207,
+      "sha256": "14b2618a19e9d64ae4f6aabf1d79929b29ebb7053c52fb06ffc17056e19bff35"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/resolution.tex",
+      "bytes": 5910,
+      "sha256": "2389c656b87b3b3d44518c00c9f28277888baa95bb98a71fa9147c35bf1b71a1"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/reuse_manifest.json",
+      "bytes": 12686,
+      "sha256": "db0e85373bbff2b9d65447623f75f60630ce602b2a011f2df9aa38d18d4439d7"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_case1_packet.m",
+      "bytes": 16716,
+      "sha256": "1d152c69be932790c3b0f5026271d45104f92c4c03e8f26ca19e8652d15b29bd"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_case1_result.m",
+      "bytes": 20,
+      "sha256": "2f73697ed2c84a8c10130cbec707ed1e0c367193e2d11fb398f7d44538f596f2"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_case2_packet.m",
+      "bytes": 16692,
+      "sha256": "7abfd72247e2fc175735d0cc88c07795b81dd19b16a9acf694acb5c275cc87ea"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_case2_result.m",
+      "bytes": 20,
+      "sha256": "8337edd70cbee0a0cf7786a0220319ccf1274902bd0feadaa87a7c73bd57821c"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_case3_packet.m",
+      "bytes": 16704,
+      "sha256": "f1e8d7d8928f583e206a691576aeb6c3f3b20b925e92085cd1ba4ef7b4ac4ba0"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_case3_result.m",
+      "bytes": 20,
+      "sha256": "84df9f25eb5b25cd6cc73f69f8d679ae9dbb5039d887044f318eba60fa233f42"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_case4_packet.m",
+      "bytes": 21439,
+      "sha256": "488f59b8d45cb57d810adc10c455863d0d32b1536b21fcc49a3a73417c554496"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_case4_result.m",
+      "bytes": 20,
+      "sha256": "da6d5e0074ef0e930c8229ea2d4b5958afb220244e19a163e2cfeaa0930d824f"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_case5_packet.m",
+      "bytes": 16704,
+      "sha256": "f9f55644860a955d5b442e7eb012001069b879374cd475dac6ac83b6a1e2caec"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_case5_result.m",
+      "bytes": 20,
+      "sha256": "ffedc1a4871a6e55edc0929f83fec261159e8c2455586613fa7c5fe77c69e076"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/source_torsion_injectivity.json",
+      "bytes": 3773,
+      "sha256": "5195ea8b1028c713b9c337fb5ccbf4726a70cf5f6b4ecf59e7ff35a55f3fef78"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_census.log",
+      "bytes": 917,
+      "sha256": "28c34489b2c220ad1761369287ae108f207f06c7df55efebd6eb2a8878585c0f"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_census.status.json",
+      "bytes": 606,
+      "sha256": "03d5d4b2d102106ff659228f062f8425c0cc5f215dc9d931c5d7ec41c14a64e4"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_cusp_coupled.log",
+      "bytes": 16575,
+      "sha256": "9d23ab9b465da1f03ed8dc37b1828e87dd22615d871fda8d7ab8c5ac071ded00"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_cusp_coupled.status.json",
+      "bytes": 628,
+      "sha256": "ac662973446e61c51c1ca00446efc4ba0ea453673ec07e23b9ea642a12321433"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_parent_native.log",
+      "bytes": 259,
+      "sha256": "a60cfe445fc9ed2af26286488799aa8a624e2110ae3fb8b19f83537938812615"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_parent_native.status.json",
+      "bytes": 635,
+      "sha256": "be03b13108c8ea34c16d6e787542efbb197b8ea1fa4a2bf28a2c8b6c010a5fe1"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_sage_finite.log",
+      "bytes": 1752,
+      "sha256": "46d41a46212a1c752b489d7eca7ddec2cbc74531f9780052a479deb8a3d8d134"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_sage_finite.status.json",
+      "bytes": 630,
+      "sha256": "6690ff81331d1491963d7c75fd43012fc6c9ea32490c7c7be8cab71eb1a2d00a"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_sage_finite_v2.log",
+      "bytes": 2258,
+      "sha256": "83d90eea62ba5e652fa4c6e67906d0ed481ec6dc33b35a55ab1c116f3b400903"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_sage_finite_v2.status.json",
+      "bytes": 641,
+      "sha256": "58f78f914c2bc57a7acf0f31dd9dbbe602f248683499115b44e98e30d1fe2ef2"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_source_case1.log",
+      "bytes": 360,
+      "sha256": "107a8c4aa3d2de7d5fd1b7e15e8920ce02d51b624baba7ddebda56f4985c0229"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_source_case1.status.json",
+      "bytes": 631,
+      "sha256": "ae6d468d798cfa11f8133ef4c7567182b271354db6b918980f2aaee3ff2e00cf"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_source_case2.log",
+      "bytes": 360,
+      "sha256": "5dbc7f55eb9bd61b65330171a787e3b4b7180e506242245a6fe3259ac96de754"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_source_case2.status.json",
+      "bytes": 630,
+      "sha256": "a6ae963c680766b4f24f63399f508a117025b6d3143e58ccca097e0033a50d5b"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_source_case3.log",
+      "bytes": 360,
+      "sha256": "34e06ae7d305128db03e746116ceb87364ba7992a08fbe6fcc5f029813b6e6f0"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_source_case3.status.json",
+      "bytes": 631,
+      "sha256": "c05a45aaacaffcf1845da9e477caabf40020582f64ad311807a2be24a1e08930"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_source_case4.log",
+      "bytes": 500,
+      "sha256": "b6ba31239dce9be6fdea77b6fd1584af4fdca63bb3f824ee33684fa83c08b725"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_source_case4.status.json",
+      "bytes": 630,
+      "sha256": "451e1f51445250337583cde7d775a66cc31b7e940e29b55e2166848fc6aaa668"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_source_case5.log",
+      "bytes": 360,
+      "sha256": "1fb0d21b3efb508d4cb5df39a60f84d3a8037d63f4072aa4baf50f3ee80409ec"
+    },
+    {
+      "path": "work/deg10/jobs/contb55_source_case5.status.json",
+      "bytes": 630,
+      "sha256": "d32ca93c0e1a52c76746159bf657ae604a4393d1b9b0e0be5cab796946c29d10"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.m",
+      "bytes": 287,
+      "sha256": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.sig",
+      "bytes": 218,
+      "sha256": "52cf55c738cbd8b7783be68f5128f2e95f62b55b9aa8d284562473fec53b527a"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/classgroups.m",
+      "bytes": 484,
+      "sha256": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/classgroups.sig",
+      "bytes": 151,
+      "sha256": "ba7204632ae38e30f96bded60753927e2ce3b07ae6db9df2952c0405d9cde169"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/divisors.m",
+      "bytes": 1491,
+      "sha256": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/divisors.sig",
+      "bytes": 512,
+      "sha256": "61eb59cce8da8aa6c326ab3340121c9094328b1c325a4dfd48b06e3393839480"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.m",
+      "bytes": 1091,
+      "sha256": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.sig",
+      "bytes": 217,
+      "sha256": "937d65a93d8b0559b4f951e8e78cfcd0959e4c9a63b2a2ee43e244ab06b9c033"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/mdmagma.spec",
+      "bytes": 81,
+      "sha256": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/mdmagma_internal.spec",
+      "bytes": 282,
+      "sha256": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X0.m",
+      "bytes": 883,
+      "sha256": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X0.sig",
+      "bytes": 518,
+      "sha256": "ad7a0ac093106595596ab594b1502a9cd9ad9c11c37802f22be02e986e7afd6e"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X1.m",
+      "bytes": 8226,
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X1.sig",
+      "bytes": 4142,
+      "sha256": "a59ba44cf0beb2eb184866ff2d51be2b70b52beaacbf0ebe627567e79c6209e7"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X11.m",
+      "bytes": 7602,
+      "sha256": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X11.sig",
+      "bytes": 2540,
+      "sha256": "1d42502ec4cd75897c53d7c6e7bc2c8ee20d3fbe74ab89b37c30481ba1fbc8f5"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.m",
+      "bytes": 7298,
+      "sha256": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.sig",
+      "bytes": 3835,
+      "sha256": "ad3a9969c9bb6d2aec183a03facd64779e2e21c712111872067b99c1a3e317ba"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.m",
+      "bytes": 904,
+      "sha256": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.sig",
+      "bytes": 431,
+      "sha256": "bad67095a7ac630eae102c094c32d3e06d70018492b3ccbb6c20bbb7d4396978"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.m",
+      "bytes": 2167,
+      "sha256": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.sig",
+      "bytes": 608,
+      "sha256": "146c4ddbd78b095c65f33f2b3488b6133bc791872db9baa0d87756b128e9aba5"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/utils.m",
+      "bytes": 1321,
+      "sha256": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64"
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/utils.sig",
+      "bytes": 538,
+      "sha256": "3d059d073c8cee670e57109861b9e66d276a3432029d38fe294af14d91bbba4a"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_D9_coupled_v2_kernels.m",
+      "bytes": 39459,
+      "sha256": "d9404330ff19198b8c531b3441d07e8b444fa7dd7cd6531ef5902c6d5dfcc140"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_coupled_FI_RR_v2.log",
+      "bytes": 8896,
+      "sha256": "91c1d98841921c4347d6df4e53c2fe019b85bf2fbaea4440e94eefdef93fe52a"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_coupled_FI_RR_v2.m",
+      "bytes": 10917,
+      "sha256": "211f2569c6dd58f5cd1414ba6f0c69da6b2c7205b27341b1d0c14a8c5e1d8099"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_builtin_model.m",
+      "bytes": 1518,
+      "sha256": "2a3bc5f202c2416d3ac427db509fdf73d11a97c5c6cc5278223369b490584100"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_cartier_continue.m",
+      "bytes": 4349,
+      "sha256": "c857be44b1a1c3aef2033489effb82adf17459d8fa3659077265bc0bbcba8950"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_cartier_kernels.m",
+      "bytes": 35663,
+      "sha256": "11d9d62c2905fc6a699fc40358fcb31b591d86ffa863aa990714a8038db0e87b"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_cartier_reproduce.log",
+      "bytes": 6644,
+      "sha256": "cc062026b6c88ab094a8e6f18d58c83324e8416c58546af8eb0cfba64a67d4fc"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_cartier_reproduce.m",
+      "bytes": 10472,
+      "sha256": "7af0aa9dedfbcb888800a4101fb27ab9d9286806777df1351d313427fee7d1a8"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_cartier_reproduced_kernels.m",
+      "bytes": 35663,
+      "sha256": "11d9d62c2905fc6a699fc40358fcb31b591d86ffa863aa990714a8038db0e87b"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_cover_model_v4.log",
+      "bytes": 7143,
+      "sha256": "e5e7eb18b36214c179835490a6e0820430083425a49f6896de88de238b755f5a"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_cover_model_v4.m",
+      "bytes": 6112,
+      "sha256": "80c9c906b2c6b8e65c94de44d3258cdbf360a8b24e6d34d02194fb53dc119c59"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_exclusion.tex",
+      "bytes": 5084,
+      "sha256": "f599ebf22a6027dd3bcae8d3275a4730953b4845ec8b7aee70aea71af28d0388"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_inputs/N55_D8_NC7_q3.log",
+      "bytes": 209,
+      "sha256": "a38816fcfb62fe096f610d79c2d4958cf2cace23885a46af9cd36e9022a033da"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_inputs/N55_D8_NC7_q3.m",
+      "bytes": 1253,
+      "sha256": "6d1d38547d049bc4835af7c090c038212e718cfcc5e39b15b2168f1e0af76099"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_inputs/dyadic_criterion.tex",
+      "bytes": 3670,
+      "sha256": "a34e7c0f8f7530aae1c6531a8de079950e0f47443540ca51bccb8312721c721f"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_inputs/independent_counts.log",
+      "bytes": 4904,
+      "sha256": "21698f0f5789acc85812604bc68b5a63ac8bd2b41f1004a9c97f25b3fb12ae3e"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_inputs/independent_counts.m",
+      "bytes": 965,
+      "sha256": "619c9bf6a5e539ddcaf31452ee167be17b315fca1caeb9935fb6248ec63a883d"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_inputs/newforms_55.json",
+      "bytes": 2957,
+      "sha256": "79b404910b6c0e8845a6b5462fef3117383047681f19172068f080a1b95f3555"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_inputs/replay_cartier_projection.py",
+      "bytes": 2956,
+      "sha256": "06321dd563de4ce67c41e333d365751d13b76532d69c99f4fc166a70b40ec8da"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_inputs/replay_fi_jets.py",
+      "bytes": 6746,
+      "sha256": "beb52ee3b46d2a2aa224f86c96c005b1d1aff26df90ac67ce6fd33da0cb46207"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_inputs/replay_rr_kernels.py",
+      "bytes": 3334,
+      "sha256": "12209415ba5a9d201cf6210ea7a25e7c27e69f3f90913ce979715ada16342d44"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_projection_replay.log",
+      "bytes": 139,
+      "sha256": "11c94097460e3c6c6e4aea40ef0490516f14349e5c0f3dde99de1cdd29e2474b"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_rank_certificate.json",
+      "bytes": 1395,
+      "sha256": "0aa4887d9f19780ffee6037d9055a72e811a6042a7f3d0ad2c42747ab3759f18"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_rank_replay.log",
+      "bytes": 169,
+      "sha256": "cf146f65ec044859b666fedd061ef02864c3191d05c7a19497b75407d6f39ae2"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/C55_rr_replay.log",
+      "bytes": 128,
+      "sha256": "845c90c7ee0ad4789b30c58b70d31802a018029a19e055210472374cfece5325"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/certify55.py",
+      "bytes": 5398,
+      "sha256": "d1f8f438cd98e113c1aeaf87b8efe7a282521fd572da441c270fd2150187b617"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/cusps_order5_quotients.json",
+      "bytes": 3826,
+      "sha256": "3cc06ffe63d934668cecaa2518ebb77f25e13e5863f0da68f134a50f68b10af0"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/cusps_order5_quotients.log",
+      "bytes": 171,
+      "sha256": "df14a923f5f2e55cf8d865e913826618969b302b7e9e7d4c4d2fc68e4d77463e"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/large_levels/cusps_order5_quotients.py",
+      "bytes": 3326,
+      "sha256": "69f0601297057d51919a057cc5db1e84a7a6a2c384f152754b314d4119bd986b"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/shared/fast_hecke.m",
+      "bytes": 8266,
+      "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/shared/fast_hecke_11.m",
+      "bytes": 12251,
+      "sha256": "a18f21189cba3d5d3a19888012729bde2a4ec0e1839dd770335b79b5149af9cb"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry/shared/fast_hecke_cyclic_commonzero.m",
+      "bytes": 1560,
+      "sha256": "73e367f6849235036f3fecd9e31850927e93bec6a0afccf468b0770bc0fe8de4"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_geometry_manifest.json",
+      "bytes": 5023,
+      "sha256": "8843fa6931cdfeda2c6a5f5236a82cfe1b3102227cfbeaad28022885e87eae4c"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_good9.m",
+      "bytes": 989,
+      "sha256": "9a49e003ca962389478a3b6ddb63b89ff338bfc9e2f7f39eef0a8869caef93c8"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_good9_retry.log",
+      "bytes": 313,
+      "sha256": "e8dd417c0fb072d69c0e7b870874ad22a0ef196a3b225f04c3ba401c586cd455"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_quotient_cusp_arithmetic.txt",
+      "bytes": 362,
+      "sha256": "048692ecfcca7f52e52b4a07fa9f1b6300c34a6d91d4fcc1014e9e1ee764d539"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_quotient_injectivity_D9_v2.log",
+      "bytes": 2300,
+      "sha256": "fe08d80b91dbd072403cfbf136d0b859c879e745cbd9c4a4cd180368d1e4c14d"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_quotient_injectivity_D9_v2.m",
+      "bytes": 7692,
+      "sha256": "d4467f2720ee46d2186cf3411b701c9bc318d0fb676249e62d430e35edc4afda"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_tate_cusps.log",
+      "bytes": 1733,
+      "sha256": "98de53a7d0c7aa2a859c04fc8d490349b958ca392a37527cc8e8d919b2505741"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/N55_tate_cusps.py",
+      "bytes": 3353,
+      "sha256": "8f21e721b5ea280d47b7e9e187ce49226253322aafab8be1d6b22cd388b272b7"
+    },
+    {
+      "path": "work/degree9/cyclic/continuation_20261026/exclusion55.tex",
+      "bytes": 6485,
+      "sha256": "5755354352799d41b802fbf0e3ae3595b8dcdb07aa18ff963bb2cc9bc9af0386"
+    }
+  ]
+}

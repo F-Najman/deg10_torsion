@@ -1,0 +1,8 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(5*10^9);Alarm(500);tt:=Cputime();AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");Attach("work/deg10/continuation_20261031b/M3N18/inputs/fast_full_aut_hash_m3_18_root.m");root:="work/deg10/continuation_20261031b/M3N18/";X:=MDX11(3,18,GF(7));C:=Curve(X);FF:=FunctionField(C);AF,mp:=AlgorithmicFunctionField(FF);E:=EllipticCurve(X`_E);P:=E!X`_P;Q:=E!X`_Q;
+function Units(EE,PP,QQ)
+ ai:=aInvariants(EE);fs:=[ai[3],ai[1]^3-27*ai[3]];for k in[1..9] do for j in[0..2] do A:=k*QQ+j*PP;fs cat:=[A[1],A[2]];end for;A:=k*QQ;B:=A+PP;Append(~fs,A[1]-B[1]);end for;return fs;end function;
+fs:=Units(E,P,Q);cs:=Cusps(X);sigs:=[[Valuation(f,c):f in fs]:c in cs];assert #Seqset(sigs) eq 24;ordered:=Sort(sigs);cs:=[cs[Index(sigs,s)]:s in ordered];data:=eval Read(root cat "paired_p7_group_data.m");assert ordered eq data[2];out:=[];functions:=[* *];
+for par in [[1,1,0,1],[1,0,1,1],[2,0,0,5]] do
+ a,b,c,d:=Explode(par);qq,ttt:=Explode(M3EighteenRootNormalizedPair(E,a*P+6*b*Q,c*P+d*Q));EE:=EllipticCurve([qq*ttt-qq+ttt+2,FF!0,qq*ttt^2-qq*ttt+ttt,FF!0,FF!0]);PP:=EE![0,0];QQ:=EE![-ttt,ttt^2];newfs:=Units(EE,PP,QQ);per:=[Index(ordered,[Valuation(f,z):f in newfs]):z in cs];assert Sort(per) eq [1..24];assert &and[per[per[per[i]]] eq i:i in[1..24]];Append(~out,per);print "M318_CUSP_AUT_GENERATOR_READY",par,per,Cputime();
+end for;
+SG:=sub<Sym(24)|[Sym(24)!v:v in out]>;assert #SG eq 27;allper:=[Eltseq(g):g in SG];assert #Seqset(allper) eq 27;Write(root cat "cusp_automorphisms.m",Sprint([*ordered,data[3],out,allper*]):Overwrite:=true);print "D31B_M318_CUSP_AUTOMORPHISMS_COMPLETE",#SG,Cputime();quit;

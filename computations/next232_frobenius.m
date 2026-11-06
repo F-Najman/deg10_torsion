@@ -1,0 +1,3 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(2*10^9);tt:=Cputime();fp:=FrobeniusPolynomial(JH(64,[33]),3);assert Degree(fp) eq 74;cs:=[1:i in [1..16]] cat [2:i in [1..8]] cat [4,4,8,8];tr:=[];closed:=[];
+for d in [1..10] do s:=-d*Coefficient(fp,74-d);for j in [1..d-1] do s-:=Coefficient(fp,74-j)*tr[d-j];end for;Append(~tr,Integers()!s);a:=3^d+1-s;for e in Divisors(d) do if e lt d then a-:=e*closed[e];end if;end for;assert a mod d eq 0;Append(~closed,Integers()!(a div d));end for;
+nc:=[closed[d]-#[e:e in cs|e eq d]:d in [1..10]];assert nc[1..9] eq [0,0,0,0,0,192,320,960,1824];Write("work/deg10/C232_resolution_20261030/frobenius.m",Sprint([*Coefficients(fp),cs,nc*]):Overwrite:=true);print "C232_FROBENIUS_COMPLETE",nc,Cputime(tt);quit;

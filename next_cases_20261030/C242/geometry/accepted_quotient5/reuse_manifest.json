@@ -1,0 +1,44 @@
+[
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/genus5_quotient/audit_hecke/arithmetic.txt",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/accepted_quotient5/audit_hecke/arithmetic.txt",
+    "sha256": "d2c91b02de3e66c3a2d6827b5dd931a4b803c0d21f4bb24bf24f237c0d44c53a",
+    "reuse": "Accepted degree-independent quotient model and exact A11kernel, not the old degree9 support loop."
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/genus5_quotient/audit_hecke/explicit_hecke_data.txt",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/accepted_quotient5/audit_hecke/explicit_hecke_data.txt",
+    "sha256": "d496933dd173418153d0b09cd2c00a1a25e492806dee9195c0870aedd1edf660",
+    "reuse": "Accepted degree-independent quotient model and exact A11kernel, not the old degree9 support loop."
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/genus5_quotient/filter_919/arithmetic.txt",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/accepted_quotient5/filter_919/arithmetic.txt",
+    "sha256": "d2c91b02de3e66c3a2d6827b5dd931a4b803c0d21f4bb24bf24f237c0d44c53a",
+    "reuse": "Accepted degree-independent quotient model and exact A11kernel, not the old degree9 support loop."
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/genus5_quotient/p5_arithmetic.txt",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/accepted_quotient5/p5_arithmetic.txt",
+    "sha256": "9fa95057e207e4377daa70d129f984470b95626055578293345c025fa81f8756",
+    "reuse": "Accepted degree-independent quotient model and exact A11kernel, not the old degree9 support loop."
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/genus5_quotient/quotient5_reduction.tex",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/accepted_quotient5/quotient5_reduction.tex",
+    "sha256": "69c00907b57dc3f1547d1790af76ed761626d4d36f34f0ab21b1088239e24fa1",
+    "reuse": "Accepted degree-independent quotient model and exact A11kernel, not the old degree9 support loop."
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/genus5_quotient/genus5_sage_certificate.json",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/accepted_quotient5/genus5_sage_certificate.json",
+    "sha256": "848529a7cc74177d79ea1b75fb2ca2ecb6d53b77bbc28f68417cc6bcebbaaa5a",
+    "reuse": "Accepted degree-independent quotient model and exact A11kernel, not the old degree9 support loop."
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/genus5_quotient/replay_genus5_sage.py",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/accepted_quotient5/replay_genus5_sage.py",
+    "sha256": "fe64d3e41609b6aac616a2b780cdc85b6e9cfd20f56682bbaa6dd742ed2c7787",
+    "reuse": "Accepted degree-independent quotient model and exact A11kernel, not the old degree9 support loop."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C56_A5_pure",
+  "script": "computations/d31a_C56_A5_pure.m",
+  "script_sha256": "a9bf9c40fb33a78a444559891ba00b29e622fb295365b73b94c719ada12b49d0",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C56_A5_pure.m"
+  ],
+  "pid": 2845268,
+  "owner_uid": 1001,
+  "start_time_unix": 1793403933.9947226,
+  "state": "EXITED",
+  "time_limit_seconds": 1050,
+  "log": "jobs/d31a_C56_A5_pure.log",
+  "actual_exit_code": -14,
+  "termination_reason": null,
+  "elapsed_seconds": 1000.0645315647125
+}

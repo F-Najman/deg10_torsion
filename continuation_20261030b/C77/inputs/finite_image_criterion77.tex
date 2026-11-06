@@ -1,0 +1,52 @@
+\begin{lemma}\label{lem:nonic77-finite-image-Cartier}
+Let $Y/\mathbb Q$ be an odd-level modular curve or diamond quotient,
+with good reduction at $2$, a rational cusp $c_0$, and finite etale
+cuspidal boundary with cyclotomic fields of definition. Suppose that
+$T_2,\delta=\langle2\rangle$ descend to its Jacobian $J$ and satisfy
+Eichler--Shimura. Let $a$ be an even integer such that
+$(T_2-a)J(\mathbb Q)$ is finite. Put
+\[
+ U=\mathcal C(\mathcal C-1)H^0(Y_{\mathbb F_2},\Omega^1).
+\]
+Let $\mathcal S$ be a set of effective cuspidal divisors of degree $d$
+over $\mathbb F_2$. If restriction from $U$ to every member of
+$\mathcal S$ has rank $d$, no noncuspidal rational effective divisor
+of degree $d$ on $Y$ has reduction in $\mathcal S$.
+\end{lemma}
+\begin{proof}
+Suppose $D$ is such a divisor, and let $C$ be the unique etale
+cuspidal lift of its reduction. The etale lift $C$ is fixed by the dyadic decomposition group.
+It is therefore defined over a cyclotomic decomposition field whose
+completion is $\mathbb Q_2$. Put $\alpha=T_2-a$ and $\beta=T_2-\delta$.
+The class
+\[
+ \alpha[D-C]=\alpha[D-dc_0]-\alpha[C-dc_0]
+\]
+is torsion, by the finite-image hypothesis and Manin--Drinfeld,
+and reduces to zero. Parent's lemma gives exponent two, and
+Lemma~\ref{lem:nonic95-dyadic-Hecke} then gives
+$\beta\alpha[D-C]=0$.
+
+Consider $f:Y^{(d)}\longrightarrow J$ defined by
+$E\longmapsto\beta\alpha[E-dc_0]$.
+On the special fibre $T_2^*=\delta^*\mathcal C$, since Frobenius
+pulls back differentials to zero. Since $a$ is even, the cotangent
+image of $\beta\alpha$ is
+\[
+ (\delta^*)^2\mathcal C(\mathcal C-1)H^0(\Omega^1)=U.
+\]
+Here $\delta^*$ commutes with Cartier and is invertible.
+The rank condition is precisely formal immersion at $\overline C$.
+The sections $D,C$ have the same reduction and the same image under
+$f$, hence coincide, a contradiction.
+\end{proof}
+
+\begin{remark}
+If the only simple factors of $J$ with positive rank are isogenous
+to an elliptic curve with even coefficient $a_2$, the finite-image
+hypothesis holds with $a=a_2$. Thus the criterion can apply when
+$J(\mathbb Q)$ has positive rank, without using a diamond difference.
+On $J(\mathbb F_2)$, Eichler--Shimura also gives
+$T_2=1+2\delta$. Consequently the reduction of $T_2-a$ on rational
+divisor classes can be computed using $1-a+2\delta$.
+\end{remark}

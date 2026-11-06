@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "case": 3,
+  "native_h0": 0,
+  "positive_and_negative_degree": 110,
+  "all_source_diamond_and_signed_Hecke_moduli_keys_bound": true,
+  "native_prime_identity_checks": 23,
+  "geometric_cyclic5_kernels": 6,
+  "weighted_kernel_orbits": [
+    1,
+    1,
+    2,
+    2
+  ],
+  "all_norm_multiplicities": 1,
+  "delta10_equals_identity_verified": true,
+  "key_coordinates": "[t9,j11]",
+  "native_snapshot_sha256": "f5db044af1830689af5a7bc82e88aafc32a3e05d096d6f97ed1649edf2c5a981",
+  "genuine_Sage_snapshot_sha256": "948ecf7b990730e8278c4456a5d2a9906e3c90ac970b540e44c435a31bd4de59"
+}

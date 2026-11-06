@@ -1,0 +1,447 @@
+{
+  "status": "PASS",
+  "case": "C65, C85, C91, C93, C99 and C105 exclusions completed",
+  "time_unix": 1793400263.9104512,
+  "degree_ten_workers_supervisors_launchers": [],
+  "all_recorded_jobs_exited": true,
+  "recorded_job_count": 901,
+  "new_job_count": 81,
+  "new_jobs": [
+    {
+      "purpose": "contc105_kernel_export",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc105_parent_native",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc105_quotient35_RR",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc105_sage_velu",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc105_source_census",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_R1_sieve",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_cusp_FI_n1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_cusp_FI_n2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_cusp_FI_n3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_cusp_FI_n4plus",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_inherited_deep",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_ordinary10_10",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_ordinary10_11",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_ordinary10_12",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_ordinary10_13",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_ordinary10_9",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_parent_prefix_replay",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_source_binding",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_source_census",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_source_census_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_verify_jets",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_verify_jets_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_verify_m4ri",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc65_verify_velu",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_R1_sieve",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_arc_q4",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_arc_q4_control",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_arc_q8width1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_arc_q8width1_control",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_arc_q8width5",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_arc_q8width5_control",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_cusp_FI",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_cusp_blocks",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_jets10",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_operator_control",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_verify_R1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_verify_isogenies",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc85_verify_jets10",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_character_probe",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_export_native",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_export_native_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_independent_CM_11",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_independent_CM_3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_independent_CM_3_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_independent_CM_5",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_independent_CM_level7_binding",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_independent_CM_level7_sage",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_parent_native",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_parent_native_v2",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_parent_native_v3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_quotient_differentials",
+      "actual_exit_code": -15,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_source_cubic_arc",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_source_cubic_arc_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_source_rational_preflight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_tate7_CM",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_tate7_cusps",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc91_witt_differentials",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc93_arc_q5",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc93_arc_q5_control",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc93_cusp_FI",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc93_cusp_blocks",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc93_cusp_descent",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc93_operator_control",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_independent_Y29_RR",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_independent_Y29_binding",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_independent_Y29_genuine",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_independent_Y29_model",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_independent_Y29_model_v2",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_independent_Y29_model_v3",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_independent_Y29_model_v4",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_independent_Y29_model_v5",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_independent_genuine",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_independent_native_binding",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_parent_native_A5",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_peer_Y29_native",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_quotient33_3isog",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_quotient33_A7",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_quotient33_RR",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc99_source_census",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc_parent_85_93_cusp_replay",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contc_parent_source_census",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    }
+  ],
+  "new_automatic_launchers_created": 0,
+  "unrelated_magma_workers_preserved": [
+    {
+      "pid": 339824,
+      "create_time": 1792133148.21,
+      "username": "fnajman",
+      "name": "magma.exe",
+      "status": "running",
+      "cmdline": [
+        "/opt/magma-2.29-4/magma.exe",
+        "-b",
+        "code/03_groups.m"
+      ]
+    },
+    {
+      "pid": 3067704,
+      "create_time": 1793227423.6,
+      "username": "nadzaga",
+      "name": "magma.exe",
+      "status": "running",
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-s",
+        "for_mordell.m"
+      ]
+    }
+  ],
+  "host_cores": 32,
+  "new_case_active_cores": 0,
+  "native_alarm_or_failed_probes_are_not_completed_certificates": true,
+  "retirement_note": "The superseded C91 order4 quotient fallback was identity-checked and terminated after the genus23 replacement passed. Its actual exit is recorded. Root source-level backups all exited. Failed model and parser trials are preserved as diagnostics."
+}

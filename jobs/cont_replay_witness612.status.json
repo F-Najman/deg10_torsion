@@ -1,0 +1,18 @@
+{
+  "purpose": "cont_replay_witness612",
+  "script": "computations/cont_replay_witness612.py",
+  "script_sha256": "4911c2b7b65fd18fca81ef6fa351d16b9b89e22d0bd72aa84e5a6860813f84d3",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_replay_witness612.py"
+  ],
+  "pid": 531382,
+  "owner_uid": 1001,
+  "start_time_unix": 1793297343.3436313,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/cont_replay_witness612.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5146987438201904
+}

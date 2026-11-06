@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc65_verify_jets.py", line 13, in <module>
+    v=verify_record(rec,RX,RY);F=v['F'];p=F.p
+      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C65/inputs/unit_arithmetic.py", line 93, in verify_record
+    v=decode_record(rec);F=v['F'];aa=v['ainv'];xx,yy=v['xjet'],v['yjet'];zz=v['jets'];assert F.d in[7,8,9,14,16,18,28,32,36]and len(zz)==121 and all(len(a)==5 for a in zz);assert aa[0]==1 and aa[2]==aa[3]==0 and xx[0]==v['point'][0]and yy[0]==v['point'][1]and[a[0]for a in zz]==v['z'];assert any(a[1]for a in zz)
+                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

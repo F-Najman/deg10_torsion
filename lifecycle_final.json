@@ -1,0 +1,181 @@
+{
+  "status": "PASS",
+  "time_unix": 1793446817.9079537,
+  "task": "Resolve the final ten original Phi(10) cases",
+  "original_cases_resolved": 10,
+  "original_new_exclusions": 9,
+  "new_occurrences": [
+    [
+      3,
+      18
+    ]
+  ],
+  "new_larger_exclusions": [
+    [
+      3,
+      36
+    ],
+    [
+      6,
+      18
+    ]
+  ],
+  "degree_ten_workers_supervisors_launchers": [],
+  "all_recorded_jobs_exited": true,
+  "recorded_job_count": 1498,
+  "new_automatic_launchers_created": 0,
+  "unrelated_magma_workers_preserved": [
+    {
+      "name": "magma.exe",
+      "pid": 339824,
+      "status": "running",
+      "create_time": 1792133148.21,
+      "cmdline": [
+        "/opt/magma-2.29-4/magma.exe",
+        "-b",
+        "code/03_groups.m"
+      ],
+      "username": "fnajman"
+    },
+    {
+      "name": "magma.exe",
+      "pid": 3067704,
+      "status": "running",
+      "create_time": 1793227423.6,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-s",
+        "for_mordell.m"
+      ],
+      "username": "nadzaga"
+    },
+    {
+      "name": "magma.exe",
+      "pid": 3771363,
+      "status": "running",
+      "create_time": 1793446772.95,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=1049239",
+        "OrderToTest:=7389",
+        "GraphOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/large_orders/p1049239_n7389_graph.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/optimization/export_graph_fast.m"
+      ],
+      "username": "fnajman"
+    },
+    {
+      "name": "magma.exe",
+      "pid": 3771538,
+      "status": "running",
+      "create_time": 1793446778.78,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=1049239",
+        "OrderToTest:=2463",
+        "GraphOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/large_orders/p1049239_n2463_graph.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/optimization/export_graph_fast.m"
+      ],
+      "username": "fnajman"
+    },
+    {
+      "name": "magma.exe",
+      "pid": 3771625,
+      "status": "running",
+      "create_time": 1793446782.0,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=1049239",
+        "OrderToTest:=821",
+        "GraphOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/large_orders/p1049239_n821_graph.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/optimization/export_graph_fast.m"
+      ],
+      "username": "fnajman"
+    },
+    {
+      "name": "magma.exe",
+      "pid": 3771726,
+      "status": "running",
+      "create_time": 1793446787.17,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "Start:=2453",
+        "End:=2460",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/full127/stage2_chunk.m"
+      ],
+      "username": "fnajman"
+    },
+    {
+      "name": "magma.exe",
+      "pid": 3771743,
+      "status": "running",
+      "create_time": 1793446787.89,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "Start:=2454",
+        "End:=2461",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/full137/stage2_chunk.m"
+      ],
+      "username": "fnajman"
+    },
+    {
+      "name": "magma.exe",
+      "pid": 3771846,
+      "status": "running",
+      "create_time": 1793446791.78,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "Start:=2454",
+        "End:=2461",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/full139/stage2_chunk.m"
+      ],
+      "username": "fnajman"
+    },
+    {
+      "name": "magma.exe",
+      "pid": 3772117,
+      "status": "running",
+      "create_time": 1793446804.18,
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=1049227",
+        "OrderToTest:=524613",
+        "GraphOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/large_orders/p1049227_n524613_graph.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree21/optimization/export_graph_fast.m"
+      ],
+      "username": "fnajman"
+    }
+  ],
+  "host_cores": 32,
+  "degree_ten_active_cores": 0,
+  "obsolete_computations_terminated_after_identity_checks": true,
+  "failed_or_terminated_probes_are_not_certificates": true,
+  "retirement_records": [
+    "continuation_20261031b/C48/retired_class_v3.json",
+    "continuation_20261031b/C54/retired_member_profile.json",
+    "continuation_20261031b/C56/obsolete_generic_normalization_retirement.json",
+    "continuation_20261031b/C56/retired_cover_v1_default_RR.json",
+    "continuation_20261031b/C56/retired_cover_v3_add_none.json",
+    "continuation_20261031b/C56/retired_v4_known_global_cases.json",
+    "continuation_20261031b/C66/actual_gonal_filter_retirement.json",
+    "continuation_20261031b/M3N18/obsolete_default_global_RR_retirement.json",
+    "continuation_20261031b/M3N18/point_order_workers_retirement.json",
+    "continuation_20261031b/M3N18/slow_map_workers_retirement.json",
+    "continuation_20261031b/M3N18/unbalanced_workers_retirement.json",
+    "continuation_20261031b/M3N33/analytic_v3_retirement.json",
+    "continuation_20261031b/M3N33/obsolete_factorization_retirement.json",
+    "continuation_20261031b/M3N33/obsolete_full_j_poles_retirement.json",
+    "continuation_20261031b/M3N33/obsolete_relative_completion_s0_retirement.json",
+    "continuation_20261031b/M3N33/obsolete_relative_completion_s1_retirement.json",
+    "continuation_20261031b/M3N33/obsolete_relative_genus_retirement.json",
+    "continuation_20261031b/M3N33/serial_analytic_retirement.json",
+    "continuation_20261031b/Y228_shared/old_cusp_normalization_retirement.json",
+    "continuation_20261031b/Y228_shared/v2_unit_signature_retirement.json"
+  ]
+}

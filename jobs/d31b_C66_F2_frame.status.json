@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C66_F2_frame",
+  "script": "computations/d31b_C66_F2_frame.m",
+  "script_sha256": "b6b6e3c9948272f6c741b4dfe6e43fcbd7dc8cccd047e83ec8591b5d0e04a99c",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_F2_frame.m"
+  ],
+  "pid": 3447762,
+  "owner_uid": 1001,
+  "start_time_unix": 1793432613.98502,
+  "state": "EXITED",
+  "time_limit_seconds": 610,
+  "log": "jobs/d31b_C66_F2_frame.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.06394577026367188
+}

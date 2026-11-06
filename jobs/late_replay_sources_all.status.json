@@ -1,0 +1,18 @@
+{
+  "purpose": "late_replay_sources_all",
+  "script": "computations/late_replay_sources_all.py",
+  "script_sha256": "5e0ffaf4b6dd36e6a8bd9155977b1ab90aeb64e338d04d22f85403d546d13968",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late_replay_sources_all.py"
+  ],
+  "pid": 937740,
+  "owner_uid": 1001,
+  "start_time_unix": 1793316165.836642,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/late_replay_sources_all.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 6.674604415893555
+}

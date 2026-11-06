@@ -1,0 +1,10 @@
+{"purpose": "cont_RR612_source_p13_shard6", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 527.9771790504456}
+{"purpose": "cont_RR612_source_p13_shard3", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 540.9818286895752}
+{"purpose": "cont_RR612_source_p13_shard10", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 594.7377490997314}
+{"purpose": "cont_RR612_source_p13_shard4", "state": "EXITED", "actual_exit_code": -15, "elapsed_seconds": 600.4147984981537}
+{"purpose": "cont_RR612_source_p13_shard1", "state": "EXITED", "actual_exit_code": -15, "elapsed_seconds": 600.4646649360657}
+{"purpose": "cont_RR612_source_p13_shard11", "state": "EXITED", "actual_exit_code": -15, "elapsed_seconds": 600.4646880626678}
+{"purpose": "cont_RR612_source_p13_shard5", "state": "EXITED", "actual_exit_code": -15, "elapsed_seconds": 600.4648494720459}
+{"purpose": "cont_RR612_source_p13_shard2", "state": "EXITED", "actual_exit_code": -15, "elapsed_seconds": 600.4648149013519}
+{"purpose": "cont_RR612_source_p13_shard0", "state": "EXITED", "actual_exit_code": -15, "elapsed_seconds": 600.464857339859}
+{"purpose": "cont_RR612_source_p13_shard7", "state": "EXITED", "actual_exit_code": -15, "elapsed_seconds": 600.4658436775208}

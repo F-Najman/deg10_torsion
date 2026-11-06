@@ -1,0 +1,19 @@
+{
+  "purpose": "b81_target_gcd",
+  "script": "computations/b81_target_gcd.m",
+  "script_sha256": "ec717e12d6dbf2c0885acb2fd1e6dbdf5df6ce77e6f32ebf0c277ecbbaa1512d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_target_gcd.m"
+  ],
+  "pid": 2508451,
+  "owner_uid": 1001,
+  "start_time_unix": 1793388022.6758654,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/b81_target_gcd.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.21413850784301758
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "parent_mathematical_review": "PASS",
+  "realized_groups": [
+    [
+      3,
+      18
+    ]
+  ],
+  "excluded_groups": [
+    [
+      3,
+      36
+    ],
+    [
+      6,
+      18
+    ]
+  ],
+  "complete_low_degree_classification": true,
+  "frozen_summary_sha256": "fbb3d5a92e04d8b339adb863edb36574c43de65eda7c9d3027cae532d30aa436"
+}

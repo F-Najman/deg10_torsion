@@ -1,0 +1,90 @@
+\subsection{Excluding order $46$}\label{sec:d31a46}
+\begin{proposition}\label{prop:decic46-exclusion}
+An elliptic curve over a number field of degree $10$ has no point of order $46$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(46)$ and $Y=X_1(23)$.
+The curve $X$ has genus $45$ and rank-zero rational Jacobian
+\cite[Theorem~3.1]{DEHMZ}.
+Moreover, $\operatorname{gon}_{\mathbb Q}(X)=19$ by
+\cite[Theorem~D]{Varivoda26}.
+Let $D$ be a hypothetical noncuspidal effective rational divisor of degree $10$.
+
+Entirely cuspidal reduction at $3$ lifts to an effective cuspidal divisor $C$
+over $\mathbb Q_3$.
+With a rational cusp $c_0$, both $[D-10c_0]$ and $[C-10c_0]$ are torsion.
+Since the torsion kernel of reduction over $\mathbb Q_3$ is zero, $D\sim C$.
+The divisors are distinct, so $h^0(X_{\mathbb Q_3},D)\ge2$.
+Cohomology and base change give $h^0(X,D)\ge2$, contradicting rational gonality $19$.
+
+The complete noncuspidal closed-point counts at $3$ are
+\[
+ (0,0,0,55,44,55,264,781,1958,6292).
+\]
+They are independently checked using Frobenius similarity classes.
+The global and finite cusp signatures both equal $1^{22}11^2$.
+In particular, every possible cuspidal complement of a nonempty
+noncuspidal part is a sum of rational cusps.
+For any good odd prime $q$ put
+\[
+ A_q=T_q-1-q\langle q\rangle.
+\]
+Eichler--Shimura and odd-prime torsion injectivity give $A_qJ_X(\mathbb Q)=0$.
+The operator also annihilates a rational cusp as an actual divisor.
+Thus $A_qD'$ must be principal for a noncuspidal part $D'$ whenever it is used below.
+
+We also use the degree-$3$ forgetful map
+$\pi:X\longrightarrow Y$, which doubles the point of order $46$.
+By \cite[Theorems~3.1 and~4.13, Table~2]{DEHMZ},
+$J_Y(\mathbb Q)$ is cuspidally generated of order $408991$.
+The proven reduction group at $3$ is cyclic of order $9406793$.
+Its quotient by the rational image is therefore
+\[
+ J_Y(\mathbb F_3)/\operatorname{red}_3J_Y(\mathbb Q)\simeq C_{23}.
+\]
+Every target cusp of degree at most $10$ is rational, so all allowed
+cuspidal complements have zero image in this quotient.
+Consequently the normalized pushforward class of $D'$ must vanish.
+Residue-field degrees are included in each pushforward.
+
+The retained tests in degrees at most $9$ give $782$ negative results,
+with support types
+\[
+ (4),(5),(6),(7),(8),(4,4),(9),(5,4).
+\]
+They remain valid here: the Hecke divisors are unchanged, and the larger
+cuspidal complements still lift globally and vanish in the target quotient.
+The only new support types are $(10)$, $(6,4)$ and $(5,5)$.
+The exact test counts and quotient results are
+\[
+\begin{array}{c|r|r|r}
+\text{type}&\text{tests}&\text{quotient rejections}&\text{Hecke tests}\\\hline
+(10)&572&552&20\\
+(6,4)&275&264&11\\
+(5,5)&176&170&6
+\end{array}
+\]
+For the mixed types we normalize the first factor by diamonds and retain
+every second factor, including repeated places.
+
+The quotient computation is replayed independently on all $1023$ supports.
+It uses $676$ marked source components.
+Their elliptic equations, exact level orders, actual doubled points,
+residue degrees and norms are checked separately.
+An independent finite-field reconstruction of the diamond orbits gives
+all $6292$ decic source places and the required smaller support sets.
+The complete class sums give exactly $986$ nonzero images and $37$ exceptions.
+
+For each exception, an exact computation on the genus-$45$ source gives
+\[
+ h^0\bigl(X_{\mathbb F_3},A_5D'\bigr)=0.
+\]
+The complete cyclic $5$-kernel partition is retained, with the actual
+point of order $46$ transported through every isogeny.
+A separate native replay reconstructs the prime ideals and degree-zero
+Hecke divisors and again gives dimension zero in all $37$ cases.
+Independent V\'elu computations verify all $324$ geometric kernels of
+the $54$ marked elliptic components, including every residue-field norm.
+Thus none of the exceptional divisors is principal.
+All possible reductions of $D$ have been excluded.
+\end{proof}

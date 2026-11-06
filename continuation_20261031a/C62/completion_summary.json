@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "group": [
+    1,
+    62
+  ],
+  "degree": 10,
+  "target_genus": 26,
+  "target_rational_gonality": 12,
+  "target_degree10_places": 5685,
+  "source_degree10_places": 5910,
+  "diamond_orbits": 379,
+  "eligible_orbits": 253,
+  "new_singleton_survivors": 0,
+  "new_pair_tests": 4095,
+  "new_quadratic_fibre_tests": 45,
+  "new_pair_and_quadratic_survivors": 0,
+  "inherited_tests": 2190,
+  "inherited_nonic_survivors": 5,
+  "nonic31_plus_cusp_rigidity": true,
+  "independent_sage": "PASS",
+  "independent_native253_smoothing": "PASS",
+  "global_nonic31_order_and_mod3_irreducibility": "PASS",
+  "terminated_slow_original_is_not_a_certificate": true,
+  "completed_replacement_verifies_all44_prefix_identities": true
+}

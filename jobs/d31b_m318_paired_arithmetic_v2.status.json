@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m318_paired_arithmetic_v2",
+  "script": "computations/d31b_m318_paired_arithmetic_v2.py",
+  "script_sha256": "7770bbf4075a78db57951a1e052f13109c7d74b91d4b20f0daaeefa3aaa9f73b",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_paired_arithmetic_v2.py"
+  ],
+  "pid": 3520203,
+  "owner_uid": 1001,
+  "start_time_unix": 1793435885.2420714,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/d31b_m318_paired_arithmetic_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 12.684529066085815
+}

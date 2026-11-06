@@ -1,0 +1,32 @@
+D31B_M318_POINTCHECK_NF_LEVELS_PASS 10 0.05994155490770936
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/M3N18/d31b_m318_pointcheck_exact_v2.py", line 40, in <module>
+    uu=qt[0]-1;vv=qt[1]*(1+uu)/uu;assert eff(model[0],uu,vv)==0;assert[eff(c,uu,vv)for c in model[1]]==qt;row=next(r for r in sections if r[0]==cid);assert row[2]==1 and eff(row[3],uu,vv)==0
+                                                                                                                                                                          ^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/M3N18/d31b_m318_pointcheck_exact_v2.py", line 38, in eff
+    def eff(fn,uu,vv):return sum((evrat(c,uu)*vv**i for i,c in enumerate(fn)),K(0))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/misc/functional.py", line 588, in symbolic_sum
+    return sum(expression, *args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/M3N18/d31b_m318_pointcheck_exact_v2.py", line 38, in <genexpr>
+    def eff(fn,uu,vv):return sum((evrat(c,uu)*vv**i for i,c in enumerate(fn)),K(0))
+                                  ^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/M3N18/d31b_m318_pointcheck_exact_v2.py", line 37, in evrat
+    def evrat(c,uu):return sum((evnf(z)*uu**i for i,z in enumerate(c[0])),K(0))/sum((evnf(z)*uu**i for i,z in enumerate(c[1])),K(0))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/misc/functional.py", line 588, in symbolic_sum
+    return sum(expression, *args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/M3N18/d31b_m318_pointcheck_exact_v2.py", line 37, in <genexpr>
+    def evrat(c,uu):return sum((evnf(z)*uu**i for i,z in enumerate(c[0])),K(0))/sum((evnf(z)*uu**i for i,z in enumerate(c[1])),K(0))
+                                ^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/M3N18/d31b_m318_pointcheck_exact_v2.py", line 36, in evnf
+    def evnf(c):return K(c[0])+K(c[1])*zeta
+                       ^^^^^^^
+  File "sage/structure/parent.pyx", line 900, in sage.structure.parent.Parent.__call__ (build/cythonized/sage/structure/parent.c:13639)
+  File "sage/structure/coerce_maps.pyx", line 164, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7339)
+  File "sage/structure/coerce_maps.pyx", line 159, in sage.structure.coerce_maps.DefaultConvertMap_unique._call_ (build/cythonized/sage/structure/coerce_maps.c:7231)
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/rings/number_field/number_field.py", line 1759, in _element_constructor_
+    raise ValueError("Length must be equal to the degree of this number field")
+ValueError: Length must be equal to the degree of this number field

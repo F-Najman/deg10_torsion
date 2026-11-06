@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m318_pointcheck_exact_v2",
+  "script": "continuation_20261031b/M3N18/d31b_m318_pointcheck_exact_v2.py",
+  "script_sha256": "1ed5aa466d34309b3642178022758f647a015d050a147990388b4add9c40a0da",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/M3N18/d31b_m318_pointcheck_exact_v2.py"
+  ],
+  "pid": 3766540,
+  "owner_uid": 1001,
+  "start_time_unix": 1793446579.3144221,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/d31b_m318_pointcheck_exact_v2.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.9658060073852539
+}

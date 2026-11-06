@@ -1,0 +1,6 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc65_source_census.m", line 1, column 206:
+>> inuation_20261030b/C65/";data:=eval Read(root cat "inputs/all_curves.m");k:
+                                           ^
+Runtime error in 'Read': Cannot open file "work/deg10/continuation_20261030b/C65/inputs/all_curves.m" (No such file or directory)
+

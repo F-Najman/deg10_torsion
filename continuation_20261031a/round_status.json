@@ -1,0 +1,48 @@
+{
+  "target_additional_exclusions": 10,
+  "registered_new_exclusions": [
+    [
+      1,
+      44
+    ],
+    [
+      1,
+      46
+    ],
+    [
+      1,
+      58
+    ],
+    [
+      1,
+      62
+    ],
+    [
+      1,
+      63
+    ],
+    [
+      1,
+      70
+    ],
+    [
+      1,
+      78
+    ],
+    [
+      1,
+      90
+    ],
+    [
+      1,
+      117
+    ],
+    [
+      3,
+      39
+    ]
+  ],
+  "completed_count": 10,
+  "round_complete": true,
+  "classification_complete": false
+}

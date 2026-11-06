@@ -1,0 +1,14 @@
+Loading "work/deg10/continuation_20261030c/C91/witt_differential_probe.m"
+C91_BASE_READY genus=7 widths=[ 1, 7, 13, 91 ] Jorder=840 time=0.680
+C91_PICARD invariants=[ 840, 0 ] time=1.810
+C91_CUSP_CLASS index=1 class=[ 0, 1 ] time=1.810
+C91_CUSP_CLASS index=2 class=[ 220, 1 ] time=1.930
+C91_CUSP_CLASS index=3 class=[ 805, 1 ] time=2.080
+C91_CUSP_CLASS index=4 class=[ 465, 1 ] time=2.220
+C91_C4_CUSP_CHARACTERS count=1 images=[
+[ 1, 3 ]
+] time=2.230
+C91_C4_CONSTRUCTED degree4=true cyclic4_verified=true time=6.160
+C91_WITT_TOWER_GENUS_VERIFIED
+C91_WITT_DIFFERENTIALS_READY genus=25 CartierRank=23 hminusRank=12 Udim=12 time=250.060
+C91_WITT_DIFFERENTIAL_PROBE_COMPLETE

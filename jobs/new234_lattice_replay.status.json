@@ -1,0 +1,18 @@
+{
+  "purpose": "new234_lattice_replay",
+  "script": "computations/new234_lattice_replay.py",
+  "script_sha256": "6e1bbf42bd9d87e93c47fd932ada10ed97115c356fc9a59f4bd3c0fe1173dde2",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new234_lattice_replay.py"
+  ],
+  "pid": 1889008,
+  "owner_uid": 1001,
+  "start_time_unix": 1793360542.927048,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/new234_lattice_replay.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.8208365440368652
+}

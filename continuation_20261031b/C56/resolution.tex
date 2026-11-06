@@ -1,0 +1,249 @@
+\begin{proposition}\label{prop:decic-no56}
+An elliptic curve over a number field of degree $10$ has no point
+of order $56$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(56)$ and $Y=X_1(2,28)$. Both Jacobians have rational
+rank zero by \cite[Theorem~3.1]{DEHMZ}. We have
+\[
+ g(X)=61,\qquad g(Y)=25,\qquad
+ \operatorname{gon}_{\mathbb Q}X\geq\frac{7\cdot1152}{800}>10,
+ \qquad \operatorname{gon}_{\mathbb Q}Y\geq12,
+\]
+where the gonality bounds follow from \cite{Abramovich} and
+\cite[Table~1]{NV}, respectively.
+Suppose that $X$ has a noncuspidal effective rational divisor $D$
+of degree $10$. We use reduction at $3$ throughout the proof.
+
+First, $\overline D$ cannot be entirely cuspidal. Indeed, the
+cuspidal boundary is finite \'etale at $3$, so it has a cuspidal
+lift $C$ of degree $10$ over $\mathbb Q_3$. The class $[D-C]$ is
+torsion by rank zero and Manin--Drinfeld, and reduces to zero.
+The formal kernel over $\mathbb Q_3$ is torsion-free. Thus $D\sim C$,
+so the global degree-$10$ line bundle has at least two sections
+after base change to $\mathbb Q_3$, and hence over $\mathbb Q$.
+This contradicts the gonality bound.
+
+We first apply necessary class tests on $Z=X_1(28)$.
+The map $X\to Y$ sends $(E,R)$ to
+\[
+ (E/\langle28R\rangle,P_2,\phi(R)),
+\]
+where $P_2$ is the nonzero point in the kernel of the dual isogeny.
+The point $P_2$ is independent of $14\phi(R)$, since the dual sends
+the latter to $28R\ne0$.
+We use the following four maps from $Y$ to $Z$:
+\[
+ (E,P_2,Q)\longmapsto(E,Q),\quad(E,P_2+Q),\quad
+ (E/\langle P_2\rangle,\phi Q),\quad
+ (E/\langle P_2+14Q\rangle,\psi Q).
+\]
+The complete rational torsion subgroup of $J_1(28)$ is cuspidal
+and isomorphic to $[2,4,12,936]$ by
+\cite[Theorem~4.13]{DEHMZ}. Its reduction at $3$ has index $4$
+in $J_1(28)(\mathbb F_3)\simeq[4,4,24,936]$. Each of the four
+image classes must belong to this rational image, with its
+cuspidal complement and all residue-field norms retained.
+
+The numbers of noncuspidal closed points on $X_{\mathbb F_3}$
+in degrees $1,\ldots,10$ are
+\[
+             0,0,0,0,72,48,324,588,2112,6300.
+\]
+The cuspidal degrees have signature $1^{18}2^9 3^2 6^5$.
+The complete source census has $797$ diamond orbits. There are
+$1229$ support patterns to test: one noncuspidal orbit with a
+cuspidal complement, or a sum of two degree-$5$ places, allowing
+repetition. Exactly $135$ pass the four necessary class tests.
+Their noncuspidal degrees and numbers are
+\[
+\begin{array}{c|rrrrrr}
+ \text{degrees}&6&7&8&9&10&5+5\\\hline
+ \text{number}&2&6&11&8&48&60.
+\end{array}
+\]
+The finite Picard presentation is proved. An independent native
+replay verifies all $2560$ image classes, including the $2490$
+nontrivial principal-divisor witnesses in both finite and infinite
+orders. An independent marked V\'elu calculation verifies every
+image place and norm, and an integer replay verifies all $1229$ tests.
+
+We next apply the operator
+$A_5=T_5-1-5\langle5\rangle$ on $Y$. It annihilates
+$\operatorname{Jac}(Y)(\mathbb Q)$: this follows from
+Eichler--Shimura, rank zero and injectivity of rational torsion
+at the good odd prime $5$. It also annihilates a rational base
+cusp as a divisor. Hence $A_5\overline E$ must be principal for
+the projected degree-$10$ divisor $E$.
+The $135$ source patterns give $41$ distinct marked patterns on
+$Y$, up to the rational automorphisms
+\[
+ (P_2,Q)\longmapsto(P_2+14bQ,cP_2+aQ),\qquad
+ b,c\in\{0,1\},\quad a\in\{1,3,5,9,11,13\}.
+\]
+For completeness, the cusp signature on $Y_{\mathbb F_3}$ is
+$1^{12}2^6 3^4 6^2$. The four cubic cusps form two pairs of
+global degree-$6$ cusps. All cuspidal complements have degree
+at most $4$. The closed cusps of degrees $1$ and $2$ are killed
+literally by $A_5$; allowing a cubic cusp gives the seventeen
+possible corrections recorded in the shared certificate.
+Testing all these corrections leaves the six marked patterns
+\[
+                       8,14,26,27,36,41.
+\]
+These labels refer to \texttt{Y228\_shared/union\_cases.m}.
+They come from $15$ original source patterns, or $11$ source
+diamond orbits. The complete remaining source list is
+\[
+\begin{array}{c|c|c}
+ \text{source labels}&\text{noncuspidal degrees}&\text{image label on }Y\\\hline
+ 65&8&8\\
+ 271,327&10&14\\
+ 491,578&10&26\\
+ 492,737&10&27\\
+ 818,837&5+5&36\\
+ 978,1009&5+5&41.
+\end{array}
+\]
+All normalizations act on the whole marked divisor. In particular,
+the relative markings in a sum of two degree-$5$ places are retained.
+
+We first exclude image label $27$ by a global calculation.
+Let $K_0=\mathbb Q(a)$, where
+\[
+ a^5-a^4-2a^3-a^2+2a+2=0,
+\]
+and put
+\[
+ \begin{split}
+ b&=1032-239a-222a^2-759a^3+419a^4,\\
+ c&=42-11a-8a^2-31a^3+17a^4.
+ \end{split}
+\]
+The curve $E:y^2+(1-c)xy-by=x^3-bx^2$ has a point
+$P=(0,0)$ of order $28$. Adjoining an independent point $S$ of
+order $2$ gives a quadratic extension $K/K_0$ and a marked point
+of $Y(K)$. Its trace reduces to one degree-$10$ place, and exact
+finite-field arithmetic identifies its automorphism orbit with
+label $27$. An independent Sage calculation verifies this binding.
+
+Any proposed global degree-$10$ divisor on $Y$ with this reduction
+is linearly equivalent to the known trace: their difference is
+rational torsion and reduces to zero at $3$. Since
+$\operatorname{gon}_{\mathbb Q}Y\geq12$, the divisors are equal.
+Thus the curve, field and marking are the displayed ones, up to
+a rational automorphism of $Y$.
+For this point to lift to $X$, its order-$28$ point $Q$ must lie
+in the image of the dual $2$-isogeny. After translating its kernel
+point $P_2$ to $(0,0)$ and completing the square, the dual has
+first coordinate $(y/(2x))^2$. Consequently
+\[
+                         x(Q)-x(P_2)\in K^{\times2}
+\]
+is necessary. The standard $2$-descent map is a homomorphism, so
+all $24$ possible markings reduce to the four choices
+\[
+ P_2=S+14\epsilon P,\qquad Q=P+\eta P_2,
+ \qquad\epsilon,\eta\in\{0,1\}.
+\]
+All four squareclasses are nontrivial. Indeed, at good unramified
+primes above $43$, with $a\mapsto37$ and $x(S)\mapsto13$ or $22$,
+the four nonzero $x$-differences reduce respectively to
+\[
+                         30,39,30,27\in\mathbb F_{43}.
+\]
+Each has Legendre symbol $-1$. These residue certificates agree
+with separate exact number-field square tests. This excludes
+source labels $492$ and $737$.
+
+It remains to test nine source patterns. We give an explicit
+quadratic model which makes these calculations small.
+Write the universal curve on $Y$ as
+\[
+ E':y^2=x\bigl(x^2+Cx+B(1-B-C)\bigr),\qquad
+ P_2=(0,0),\quad Q=(B,B).
+\]
+Put $\Delta=C^2-4B(1-B-C)$. The function field of $X$ over that
+of $Y$ is
+\[
+                           z^2=B.
+\]
+Indeed, on $E'':y^2=x(x^2-2Cx+\Delta)$ the point
+\[
+ R=(2B+C+2z,\ 2z(2B+C+2z))
+\]
+has order $56$. The dual isogeny
+\[
+ (x,y)\longmapsto
+ \left(\frac{x+\Delta/x-2C}{4},
+       \frac{y(1-\Delta/x^2)}8\right)
+\]
+sends $R$ to $Q$. Conversely, a lift of $Q$ determines the
+square root $z$ and hence this marked curve. These identities
+identify the quadratic cover with $X_1(56)$. They are verified
+in the function field; its genus is $61$ and the odd part of
+$\operatorname{div}(B)$ has degree $24$.
+
+We use the following character decomposition in characteristic
+$3$. Let $F=\mathbb F_3(Y)$, $L=F(z)$ and $z^2=B$. For a
+source divisor $G$ of degree zero supported where the cover is
+unramified, write $n_q$ for its coefficient at $q$. For each
+base place $p$, set
+\[
+ a_p=\max\bigl(\{0\}\cup\{n_q:q\mid p\}\bigr),\qquad
+ H=\sum_p a_pp,\qquad
+ R_B=\left\lfloor\tfrac12\operatorname{div}(B)\right\rfloor.
+\]
+Then $G\leq\pi^*H$ and
+\[
+ \mathcal L_L(\pi^*H)
+ =\mathcal L_F(H)\oplus z\mathcal L_F(H+R_B).
+\]
+To obtain $\mathcal L_L(G)$, it is enough to impose at every
+$q\mid p$ the first $a_p-n_q$ vanishing conditions after
+multiplication by a local parameter to the power $a_p$.
+We impose these conditions on both sheets, including places
+with $n_q=0$. If a place is inert, its full residue field is
+used instead. Thus no conditions are lost by passing to the
+quadratic model.
+
+For the eight purely noncuspidal source patterns, take
+$G=A_5\overline D$ on $X$. For source label $65$, write
+$\overline D=P_8+C_2$ and use
+$A_{11}=T_{11}-1-11\langle11\rangle$.
+On Tate cusp labels, let $\sigma_q$ denote the cyclotomic Galois
+action. The point-level formula
+\[
+       T_q=\sigma_q+q\langle q\rangle\sigma_q^{-1}
+\]
+shows that $A_{11}$ kills every closed cusp of degree at most
+$2$ over $\mathbb F_3$, as also checked on all $27$ such cusps.
+Thus in this case $G=A_{11}P_8$. Both operators annihilate the
+rational source Jacobian and a rational base cusp, so the
+displayed degree-zero divisor must be principal.
+
+The exact computations give the following table. The last
+column is the rank of the vanishing-condition matrix over
+$\mathbb F_3$.
+\[
+\begin{array}{c|r|r|r|r|r}
+ \text{source label}&q&\deg H&\ell(H)&\ell(H+R_B)&\text{rank}\\\hline
+ 271,327,491,578,818,837,978,1009&5&60&36&24&60\\
+ 65&11&96&72&60&132.
+\end{array}
+\]
+There are respectively $120$ and $192$ scalar vanishing
+conditions. In every case the matrix has full row rank, so
+$\ell(G)=0$, a contradiction.
+
+The certificate records the exact function-field model, the
+base prime generators, every marked source and Hecke image,
+and all residue norms. The Taylor expansions are obtained
+from the plane equation by Hensel lifting, and the square root
+is selected by the actual marked point of order $56$.
+Independent native base-space and Sage series calculations
+verify the bases, local equations and restriction matrices;
+independent marked isogenies verify all six $5$-kernels and all
+twelve $11$-kernels used in the corresponding tests.
+This completes the proof.
+\end{proof}

@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_quotient31_q3",
+  "script": "computations/cont_quotient31_q3.m",
+  "script_sha256": "c47484b27f8c8a1fb532e68523d8069a1d56f6525ced120b7bd36d508dfcf4e3",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_quotient31_q3.m"
+  ],
+  "pid": 293420,
+  "owner_uid": 1001,
+  "start_time_unix": 1793286721.5293975,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/cont_quotient31_q3.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 600.0639126300812
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C54_transport_800_resume",
+  "script": "continuation_20261031b/C54/d31b_C54_transport_800_resume.m",
+  "script_sha256": "c75d3016dddf61c0a31045ac99f08fc5238f506cc9c6fc584f9dc91c80191f1b",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C54/d31b_C54_transport_800_resume.m"
+  ],
+  "pid": 3594339,
+  "owner_uid": 1001,
+  "start_time_unix": 1793439207.9558203,
+  "state": "EXITED",
+  "time_limit_seconds": 1050,
+  "log": "jobs/d31b_C54_transport_800_resume.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 641.1640629768372
+}

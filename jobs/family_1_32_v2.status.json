@@ -1,0 +1,18 @@
+{
+  "purpose": "family_1_32_v2",
+  "script": "computations/family_1_32_v2.m",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/family_1_32_v2.m"
+  ],
+  "pid": 4185920,
+  "owner_uid": 1001,
+  "start_time_unix": 1793273837.565787,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/family_1_32_v2.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 120.0323133468628
+}

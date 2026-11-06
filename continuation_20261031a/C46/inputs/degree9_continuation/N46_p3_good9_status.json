@@ -1,0 +1,32 @@
+{
+  "cmd": [
+    "/usr/local/bin/magma",
+    "-b",
+    "N:=46",
+    "BaseNs:=23",
+    "p:=3",
+    "Qs:=5,7,11,13,17,19",
+    "D:=9",
+    "FromDegree:=9",
+    "M:=1",
+    "MemGB:=12",
+    "work/degree9/cyclic/hecke_sieve_quotient_D9.m"
+  ],
+  "pid": 1628398,
+  "start_ticks": 181721913,
+  "started_utc": "2026-10-26T10:23:21.748455+00:00",
+  "cpu_limit": 7200,
+  "wall_limit": 21600,
+  "status": "EXITED",
+  "elapsed_wall_seconds": 1923.6736268769018,
+  "cpu_seconds": 1922.05,
+  "last_log_lines": [
+    "SMART_CASE_RESULT type=[ 5, 4 ] index=208 killed=true time=1814.290",
+    "QUOTIENT_REJECT type=[ 5, 4 ] index=209 base=23",
+    "SMART_CASE_RESULT type=[ 5, 4 ] index=209 killed=true time=1814.290",
+    "QUOTIENT_REJECT type=[ 5, 4 ] index=210 base=23",
+    "SMART_CASE_RESULT type=[ 5, 4 ] index=210 killed=true time=1814.290"
+  ],
+  "native_exit_code": 0,
+  "log_sha256": "abd21e0830a6a0710fa0787194d8c24a159f6d1568920b367f89f351fecc8cfa"
+}

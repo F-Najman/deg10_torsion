@@ -1,0 +1,56 @@
+\input{cyclic/continuation_20261026/injectivity45.tex}
+\begin{proposition}\label{prop:nonic-no45}
+An elliptic curve over a number field of degree $9$ has no point of order $45$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(45)$. It has genus $41$, rank-zero rational Jacobian
+by \cite[Theorem~3.1(2)]{DEHMZ}, and rational gonality at least $10$
+by \cite[Table~1]{NV}. At $2$ its noncuspidal closed-place counts
+through degree $9$ are
+\[
+ (0,0,0,0,0,0,0,60,60).
+\]
+Independent Frobenius similarity-class counts agree.
+Each of degrees $8,9$ has five diamond orbits.
+For all five degree-$8$ representatives the immutable complete
+finite-field computation finds a nonprincipal permitted $A_q$ image.
+The only new complement has degree $1$ and is a rational cusp, killed
+by every tested $A_q$; thus the same tests apply in degree $9$.
+For all five degree-$9$ representatives, fresh full-source
+Riemann--Roch tests give a nonprincipal $A_7$ image.
+An untouched native $7$-isogeny calculation independently reproduces
+the degree-$72$ Hecke divisor of one representative.
+The complete fresh run finishes with exit code $0$.
+Thus no noncuspidal reduction can occur.
+
+The finite cusp signature is $1^{12},2^4,4^5,6^2,12$.
+Put $U=(\mathcal C-1)H^0(X_{\mathbb F_2},\Omega^1)$, of dimension $39$.
+The degree-independent local restrictions of weighted multiplicity
+at most $8$ are retained in their single verified global basis.
+The independent binary calculation enumerates $377348$ degree-$9$
+cuspidal divisors covered by these restrictions. Exactly eight have
+rank $8$; every other restriction has rank $9$.
+A fresh native differential-space kernel at one rational cusp gives
+rank $9$ at multiplicity $9$. Diamond transitivity gives the same
+conclusion for the twelve pure divisors $9c$.
+Lemma~\ref{lem:nonic51-quotient-Cartier} therefore excludes every
+entirely cuspidal reduction except the eight exported configurations.
+No bases from different geometric exports are combined.
+
+Each of these eight configurations is supported only on rational
+and quadratic residue cusps. The global cusp degrees and their
+Frobenius-$2$ degrees, by \cite[Lemma~2.7]{DEHMZ}, are
+\[
+ (12,12),\ (8,4),\ (6,6)^2,\ (4,4)^3,
+ \ (2,2)^4,\ (1,1)^{12}.
+\]
+Consequently every exceptional configuration lifts to a rational
+effective cuspidal divisor $C$ of degree $9$.
+If a rational noncuspidal divisor $D$ had this reduction,
+$[D-C]\in J_1(45)(\mathbb Q)$ would reduce to zero.
+Lemma~\ref{lem:nonic45-injective-two} gives $D\sim C$.
+Since the gonality is greater than $9$, the two effective divisors
+are equal, a contradiction.
+This also excludes the eight remaining configurations and proves
+the proposition.
+\end{proof}

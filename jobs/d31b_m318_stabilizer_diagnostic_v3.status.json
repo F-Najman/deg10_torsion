@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_stabilizer_diagnostic_v3",
+  "script": "computations/d31b_m318_stabilizer_diagnostic_v3.m",
+  "script_sha256": "e9884a42c98fe154db0c87b19136479c7900d1cf30e2304e57cf05536f5b52a8",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_stabilizer_diagnostic_v3.m"
+  ],
+  "pid": 3612864,
+  "owner_uid": 1001,
+  "start_time_unix": 1793440004.7537403,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/d31b_m318_stabilizer_diagnostic_v3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5669538974761963
+}

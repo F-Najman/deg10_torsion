@@ -1,0 +1,19 @@
+{
+  "purpose": "next232_source_picard",
+  "script": "computations/next232_source_picard.m",
+  "script_sha256": "3c5f9ec86a15d4e33c353a501ca239f01e57a6ab82a278c34e37c091cd0760cc",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_source_picard.m"
+  ],
+  "pid": 1737696,
+  "owner_uid": 1001,
+  "start_time_unix": 1793353990.5267634,
+  "state": "EXITED",
+  "time_limit_seconds": 3600,
+  "log": "jobs/next232_source_picard.log",
+  "actual_exit_code": -15,
+  "termination_reason": null,
+  "elapsed_seconds": 3092.7780287265778
+}

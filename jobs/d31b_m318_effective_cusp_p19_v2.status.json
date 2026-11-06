@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_effective_cusp_p19_v2",
+  "script": "computations/d31b_m318_effective_cusp_p19_v2.m",
+  "script_sha256": "21a91d856c92a37e27b77331cd126cdba9e5bcae15f3d9cf8522ab3b64aff565",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_effective_cusp_p19_v2.m"
+  ],
+  "pid": 3718344,
+  "owner_uid": 1001,
+  "start_time_unix": 1793444492.51577,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/d31b_m318_effective_cusp_p19_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5147733688354492
+}

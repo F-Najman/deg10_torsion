@@ -1,0 +1,11 @@
+{
+  "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/noncyclic",
+  "files": {
+    "exclusions/315d5/octic_3_15_classification.tex": "b61fec4a652110973d40243cdc9daf9bda202d27e18e0bc8765acf186b4eb288",
+    "exclusions/315d5/cusp_image_3_15_D4.tex": "f9c4a2541be76669244b84845352605b6005d8d84dbc6e9e54a72b49d205e2d5",
+    "exclusions/315d5/M3N15_complete_root_manifest.json": "b19ff0bcd5373e473371e181d619d912dbd3af581cc9449d29b32861b5d5b1ac",
+    "exclusions/315d5/exact_3_15_D4_specialization.tex": "74431641b8db08d5b07c4017299e8d14e213e995e6f9921adfe8fa587e197000",
+    "exclusions/315d5/M3N15_D4_exact_cusp_lifts.txt": "73cc5ebb4d6287f4e4fcb85263e71941761ff9bfe55c1df27e443bf325d7d9dc",
+    "shared/deps/class_rational_reduction.m": "43e8ae730876321ba2a2a4fd57860f0826f2480d241e9a158a8d8601d7d1979c"
+  }
+}

@@ -1,0 +1,8 @@
+Loading "work/deg10/continuation_20261029/deps/class_group_direct_RR_m3_18_root.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_hecke_torsion_3_18.m", line 27, column 87:
+>> *d,i*]);L:=sub<G|Generators(L) cat [cl]>;
+                                  ^
+Runtime error in 'cat': Bad argument types
+Argument types given: SetEnum[GrpAbElt], SeqEnum[GrpAbElt]
+

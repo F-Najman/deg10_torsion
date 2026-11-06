@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_source612_recert_v2_shard0",
+  "script": "computations/cont_source612_recert_v2_shard0.m",
+  "script_sha256": "bf2f907716fd88d1e94f9f3805197e19552fcabcac7a12900b81c8cfd67aa962",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_source612_recert_v2_shard0.m"
+  ],
+  "pid": 480208,
+  "owner_uid": 1001,
+  "start_time_unix": 1793294915.2593908,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/cont_source612_recert_v2_shard0.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 56.911977767944336
+}

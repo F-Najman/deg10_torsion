@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "parent_mathematical_review": "PASS",
+  "scope": "Complete degree-five classification on X1(3,18) over Q(zeta3); exact decic occurrence C3 x C18; exclusions C3 x C36 and C6 x C18",
+  "reviewed_claims": [
+    "Rank-zero and gonality input (NV Table1 p7 bound6) used over the correct cyclotomic field",
+    "All-effective-divisor sieve includes repeated supports and global cuspidal complements",
+    "Finite torsion bound uses3J(F) contained in cusps, with no saturation premise",
+    "Cubic/quartic formal-fibre arguments force fixed cuspidal support; tame quotients and local injectivity apply at7/13",
+    "Unmultiplied cusp membership leaves exactlytwo normalizedclasses",
+    "Nonzero global firstsection independently satisfies finite/infiniteideal pole bounds; finite13 h0 gives exact dimension1",
+    "Irreducible exact degree10 NF witness has independent markedorders3/18 and correct primitiveWeilpairing",
+    "Actual physical tau crossing and global cuspidal tauclass relation account for the secondorbit",
+    "Squarefree mod7 degree2reductions bound fulltorsion of both2-isogenouscurves by54",
+    "Every larger torsion possibility is excluded; independent frontier grows from109 to110 uponaddingM318"
+  ],
+  "arithmetic_independence": "Nativeparentcontrols in parent_M318_verification.json; finalindependentSageNFcheck recordedseparatelybeforefreeze",
+  "reviewed_source_hashes": {
+    "resolution.tex": "17e1e6e0471b24dc4e5b87d5565ba86f04fd3e0f67cd7c6f079d679fdf668cd6",
+    "relative_cubic_fibre.tex": "c87ee47d9a8a777aa5fd723cddd9c681ef945b9ff3dbf1cec448ffb098fac17d",
+    "relative_quartic_fibre.tex": "c4b27d6424052f8a8c70c67898a955373f21729734c4cb65fba2183318fe3813",
+    "endomorphism_gluing/cuspidal_last_classes.tex": "b8ef89be52b18f39117ffa215764cd231b599f378423501ee93ea44bd8735fd6"
+  }
+}

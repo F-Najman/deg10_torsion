@@ -1,0 +1,7 @@
+Loading "work/deg10/C232_resolution_20261030/replay_witnesses789.m"
+
+In file "work/deg10/C232_resolution_20261030/replay_witnesses789.m", line 1, 
+column 26:
+>> ReplayWitnesses:=[[3, 0, [1, 0, 0, 3, 1, 65, 58224, 0], [[100, 1], [175, 2]
+                            ^
+User error: Could not find a valid universe for the sequence

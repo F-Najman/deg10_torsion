@@ -1,0 +1,202 @@
+freeze;
+/*
+    Dependencies: none (requires the PARI/GP binary gp on the PATH)
+    Intrinsics that make system calls to PARI/GP (polredabs, polredbest, nfisincl, ...), none of which will work unless you have PARI/GP installed.
+
+    Copyright (c) Andrew V. Sutherland, 2019-2026.  See License file for details on copying and usage.
+*/
+
+// extract gp error/warning lines (they contain "***") so we can detect errors and report them
+function gp_err_lines(s)
+    return [t : t in Split(s,"\n") | Index(t,"***") ne 0];
+end function;
+
+function get_gp_coeffs(s)
+    t := Join([t : t in Split(s,"\n") | Index(t,"***") eq 0],"\n");
+    if Index(t,"[") eq 0 then
+        e := gp_err_lines(s);
+        error Sprintf("gp did not return a result in polredabs/polredbest (gp said: %o)", #e gt 0 select e[#e] else s);
+    end if;
+    return [StringToInteger(x) : x in Split(t[Index(t,"[")+1..Index(t,"]")-1],",")];
+end function;
+
+function get_gp_mat(s)
+    return [[StringToInteger(n):n in Split(x,",")] : x in Split(s[Index(s,"[")+1..Index(s,"]")-1],";")];
+end function;
+
+// use lower case intrinsics to avoid collisions with CHIMP and indicate intrinsics that depend on Pari/GP being installed
+
+intrinsic polredabs(f::SeqEnum:DiscFactors:=[]) -> SeqEnum
+{ Computes a smallest canonical defining polynomial of the etale algebra Q[x]/(f(x)) using pari. }
+    cmd := #DiscFactors eq 0 select Sprintf("{print(Vecrev(Vec(polredabs(Pol(Vecrev(%o))))))}", f) else Sprintf("{print(Vecrev(Vec(polredabs([Pol(Vecrev(%o)),%o]))))}", f,DiscFactors);
+    s := Pipe("gp -q 2>&1", cmd);
+    return get_gp_coeffs(s);
+end intrinsic;
+
+intrinsic polredabs(f::RngUPolElt:DiscFactors:=[]) -> RngUPolElt
+{ Computes a smallest canonical defining polynomial of the etale algebra Q[x]/(f(x)) using pari. }
+    return Parent(f)!polredabs(Coefficients(f):DiscFactors:=DiscFactors);
+end intrinsic;
+
+intrinsic polredabs(K::FldNum:DiscFactors:=[]) -> FldNum
+{ Given a number field returns the same number field defined using a canonical defining polynomial using pari. }
+    require BaseField(K) cmpeq Rationals(): "K must be an absolute number field (with base field Q); apply AbsoluteField to K first.";
+    return NumberField(polredabs(DefiningPolynomial(K):DiscFactors:=DiscFactors));
+end intrinsic;
+
+intrinsic polredabs(K::FldRat:DiscFactors:=[]) -> FldRat
+{ Given the rational field returns it unchanged. }
+    return K;
+end intrinsic;
+
+intrinsic polredbest(f::SeqEnum:DiscFactors:=[]) -> SeqEnum
+{ Computes a small (non-canonical) defining polynomial of the etale algebra Q[x]/(f(x)) using pari. }
+    cmd := #DiscFactors eq 0 select Sprintf("{print(Vecrev(Vec(polredbest(Pol(Vecrev(%o))))))}", f) else Sprintf("{print(Vecrev(Vec(polredbest([Pol(Vecrev(%o)),%o]))))}", f,DiscFactors);
+    s := Pipe("gp -q 2>&1", cmd);
+    return get_gp_coeffs(s);
+end intrinsic;
+
+intrinsic polredbest(f::RngUPolElt:DiscFactors:=[]) -> RngUPolElt
+{ Computes a small (non-canonical) defining polynomial of the etale algebra Q[x]/(f(x)) using pari. }
+    return Parent(f)!polredbest(Coefficients(f):DiscFactors:=DiscFactors);
+end intrinsic;
+
+intrinsic polredbest(K::FldNum:DiscFactors:=[]) -> FldNum
+{ Given a number field returns the same number field defined using a small (non-canonical) defining polynomial using pari. }
+    require BaseField(K) cmpeq Rationals(): "K must be an absolute number field (with base field Q); apply AbsoluteField to K first.";
+    return NumberField(polredbest(DefiningPolynomial(K):DiscFactors:=DiscFactors));
+end intrinsic;
+
+intrinsic PerfectPowerBase(n::RngIntElt) -> RngIntElt
+{ Returns the least positive integer m such that m^e = n for some positive integer e (m=n if n is not a perfect power). }
+    assert n ge 0;
+    if n lt 2 then return n; end if;
+    b,m := IsPower(n);
+    return b select m else n;
+end intrinsic;
+
+intrinsic IsPolredabsCandidate (f::RngUPolElt) -> BoolElt
+{ Returns true if the polynomial looks like Polredabs can easily handle it. }
+    if Degree(f) gt 64 then return false; end if;
+    n := PerfectPowerBase(Integers()!AbsoluteValue(Discriminant(f)));
+    if n le 10^80 then return true; end if;
+    _,s := TrialDivision(n,10^6);
+    // in Magma V2.29-9 the second return value of TrialDivision became a bare integer cofactor (1 when none); earlier versions returned [] or [c]
+    if Type(s) eq RngIntElt then s := s eq 1 select [Integers()|] else [s]; end if;
+    if #s eq 0 then return true; end if;
+    n := PerfectPowerBase(Max(s));
+    _,s := PollardRho(n);
+    if #s eq 0 then return true; end if;
+    n := PerfectPowerBase(Max(s));
+    for i:=1 to 5 do
+        d := ECM(n,10^4);
+        if d gt 0 then
+            n := ExactQuotient(n,d);
+            n := PerfectPowerBase(n);
+        end if;
+    end for;
+    return n le 10^80 or IsProbablePrime(n);
+end intrinsic;
+
+intrinsic IsPolredabsCandidate (f::SeqEnum) -> BoolElt
+{ Returns true if the polynomial looks like Polredabs can easily handle it. }
+    return IsPolredabsCandidate(PolynomialRing(Integers())!f);
+end intrinsic;
+
+intrinsic polredbestify (f::RngUPolElt:DiscFactors:=[]) -> RngUPolElt, BoolElt
+{ Call polredbest repeatedly to get a smaller defining polynomial for the etale algebra Q[x]/(f(x)) using pari. }
+    for n:=1 to 5 do
+        g := f;
+        f := polredbest(g:DiscFactors:=DiscFactors);
+        if f eq g then break; end if;
+    end for;
+    if #DiscFactors gt 0 then return polredabs(f:DiscFactors:=DiscFactors),true; end if;
+    if IsPolredabsCandidate(f) then return polredabs(f),true; else return f,false; end if;
+end intrinsic;
+
+intrinsic polredbestify (f::SeqEnum:DiscFactors:=[]) -> SeqEnum, BoolElt
+{ Call polredbest repeatedly to get a smaller defining polynomial for the etale algebra Q[x]/(f(x)) using pari. }
+    f,b := polredbestify(PolynomialRing(Integers())!f:DiscFactors:=DiscFactors);
+    return Eltseq(f),b;
+end intrinsic;
+
+intrinsic polredbestwithroot(f::RngUPolElt) -> RngUPolElt, SeqEnum
+{ Returns small polynomial as in Polredbest together with a root, using pari. }
+    cmd := Sprintf("{u = polredbest(Pol(Vecrev(%o)),1); print(Vecrev(Vec(u[1])),Vecrev(Vec(lift(u[2]))))}", Coefficients(f));
+    s := Pipe("gp -q", cmd);
+    c := Index(s,"]");
+    spol := s[1..c];
+    sroot := s[c+1..c+Index(s[c+1..#s],"]")];
+    sspol := [ StringToInteger(x) : x in Split(spol, ", []\n") | x ne "" ];
+    ssroot := [ StringToRational(x) : x in Split(sroot, ", []\n") | x ne "" ];
+    ssroot cat:= [0 : i in [1..Degree(f)-#ssroot]];
+    return Parent(f) ! sspol, ssroot;
+end intrinsic;
+
+intrinsic polredabswithroot(f::RngUPolElt) -> RngUPolElt, SeqEnum
+{ Returns Polredabs(f) together with a root, using pari. }
+    cmd := Sprintf("{u = polredabs(Pol(Vecrev(%o)),1); print(Vecrev(Vec(u[1])),Vecrev(Vec(lift(u[2]))))}", Coefficients(f));
+    s := Pipe("gp -q", cmd);
+    c := Index(s,"][");
+    spol := s[1..c];
+    sroot := s[c+1..c+Index(s[c+1..#s],"]")];
+    sspol := [ StringToInteger(x) : x in Split(spol, ", []\n") | x ne "" ];
+    ssroot := [ StringToRational(x) : x in Split(sroot, ", []\n") | x ne "" ];
+    ssroot cat:= [0 : i in [1..Degree(f)-#ssroot]];
+    return Parent(f) ! sspol, ssroot;
+end intrinsic;
+
+intrinsic polredbestifywithroot(f::RngUPolElt) -> RngUPolElt, SeqEnum, BoolElt
+{ Returns small polynomial as in Polredbestify together with a root, using pari.  Will use polredabs if this seems feasible (this is indicated by the third return value) }
+    if IsPolredabsCandidate (f) then g,r := polredabswithroot(f);  return g,r,true; end if;
+    K0 := NumberField(f);
+    iota := hom<K0 -> K0 | K0.1>; // start with identity
+    cnt := 0;
+    Kfront := K0;
+    ffront := f;
+    polredabsflag := false;
+    for n:=1 to 5 do
+        fbest, fbestroot := polredbestwithroot(ffront);
+        if fbest eq ffront then
+            if IsPolredabsCandidate (fbest) then
+                fbest, fbestroot := polredabswithroot(ffront); polredabsflag := true;
+            else
+                break;
+            end if;
+        end if;
+        Kbest := NumberField(fbest);
+        iota := iota*hom<Kfront -> Kbest | fbestroot>;
+        Kfront := Kbest;
+        ffront := fbest; 
+        if polredabsflag then break; end if;
+    end for;
+    return ffront, Eltseq(iota(K0.1)), polredabsflag;
+end intrinsic;
+
+intrinsic nfisincl(f::RngUPolElt,g::RngUPolElt) -> SeqEnum[RngUPolElt]
+{ Returns a list of polynomials defining embeddings of the number field K defined by f in the number field L defined by g (each is specified by a polynomial h for which h(L.1) is a generator for the embedding of K in L). }
+    if not IsDivisibleBy(Degree(g),Degree(f)) then return []; end if;
+    f := ChangeRing(f,Rationals());
+    g := ChangeRing(g,Rationals());
+    x := Parent(g).1;
+    if Degree(f) eq 1 then return [Parent(g)!Roots(f)[1][1]]; end if;
+    cmd:=Sprintf("{print(nfisincl(Pol(Vecrev(%o)),Pol(Vecrev(%o))))}",Coefficients(f),Coefficients(g));
+    function strip(s) return Join(Split(Join(Split(s," "),""),"\n"),""); end function;
+    s := strip(Pipe("gp -q", cmd));
+    if s eq "0" then return [Parent(g)|]; end if;
+    s := eval(s);
+    return [Parent(g)!Coefficients(h):h in s];
+end intrinsic;
+
+intrinsic nfisincl(f::SeqEnum,g::SeqEnum) -> SeqEnum[SeqEnum]
+{ Returns a list of embeddings of the number field K defined by f in the number field L defined by g (each is specified by the coefficient sequence of a polynomial h for which h(L.1) is a generator for the embedding of K in L). }
+    if not IsDivisibleBy(#g-1,#f-1) then return []; end if;
+    R<x>:=PolynomialRing(Rationals():Global:=false); // do not rename the print variable of the session-global ring
+    if #f eq 2 then return [[Roots(R!f)[1][1]]]; end if;
+    cmd:=Sprintf("{print(nfisincl(%o,%o))}",R!f,R!g);
+    function strip(s) return Join(Split(Join(Split(s," "),""),"\n"),""); end function;
+    s := strip(Pipe("gp -q", cmd));
+    if s eq "0" then return [Parent(g)|]; end if;
+    s := eval(s);
+    return [Coefficients(Evaluate(h,x)):h in s];
+end intrinsic;

@@ -1,0 +1,7 @@
+Loading "work/deg10/continuation_20261030b/C57/matched_levels.m"
+Loading "work/deg10/continuation_20261030b/C57/inputs/canonical_unit_data.m"
+NONIC57_SOURCE85_CANONICAL_UNIT_STAGE1_DATA_READY
+Loading "work/deg10/continuation_20261030b/C57/inputs/ring24_data.m"
+Loading "work/deg10/continuation_20261030b/C57/inputs/explicit5_isogenies.m"
+DECIC57_SOURCE85_GOOD_JETS_SOURCE case=10 index=2 target_degrees=[ 10, 50 ] norm_weights=[ 1, 1 ] unit_rank251=true genuine_tangent=true precision16=true time=43.640
+DECIC57_SOURCE85_GOOD_JETS_COMPLETE case=10 time=43.680

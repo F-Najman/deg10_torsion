@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m333_prefix_ranks",
+  "script": "computations/d31b_m333_prefix_ranks.py",
+  "script_sha256": "00cbb3d466b579a7fd5b728f629005bbbefb83099a65bfb4006ed52bf923ead4",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_prefix_ranks.py"
+  ],
+  "pid": 3591672,
+  "owner_uid": 1001,
+  "start_time_unix": 1793439092.2961984,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31b_m333_prefix_ranks.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.06699538230896
+}

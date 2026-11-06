@@ -1,0 +1,15 @@
+Loading "work/deg10/continuation_20261030c/C91/export_native.m"
+Loading "work/deg10/continuation_20261030c/C91/tate7_quotient_common.m"
+C91_TATE7_QUOTIENT_READY genus23=true degree14=true deck3=true time=0.420
+C91_TATE7_CUSPS_READY signature=[ <7, 1>, <91, 1>, <7, 1>, <91, 1>, <1, 3>, <13, 3>, <7, 1>, <91, 1> ] time=0.470
+C91_TATE7_DIFFERENTIALS_READY CartierRank=21 tauMinusRank=16 Udim=14 time=0.580
+
+FER(
+    q: t
+)
+In file "work/deg10/continuation_20261030c/C91/export_native.m", line 6, column 30:
+>>  return [RatER(FB!Coefficient(q,i)):i in [0..13]];
+                                ^
+Runtime error in 'Coefficient': Bad argument types
+Argument types given: FldFunElt[FldFunRat[FldFin]], RngIntElt
+

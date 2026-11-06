@@ -1,0 +1,8 @@
+Loading "work/deg10/computations/d31b_C56_kummer_RR_direct.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/fast_primitive_inverse.m"
+C56_KUMMER_BASE_SPACES 491 60 36 24 50.760
+
+In file "work/deg10/computations/d31b_C56_kummer_RR_direct.m", line 39, column 137:
+>> 0 ne 0;prec:=128;LS<uni>:=LaurentSeriesField(KM,prec);UU:=LS!uu0+O(uni^prec
+                             ^
+User error: Identifier 'LaurentSeriesField' has not been declared or assigned

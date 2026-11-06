@@ -1,0 +1,17 @@
+[
+  {
+    "script": "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order_batch.py",
+    "before_sha256": "a055d63b5e7a9dee67c270a816332ee3fb308ee0d797eae6e321ac722e8aaf28",
+    "after_sha256": "c6d61952df1b246f5f1486034a32997591f2d2548f463d3ccfb3cd20df80bec7"
+  },
+  {
+    "script": "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/run_new_ordinary.py",
+    "before_sha256": "0222d7be5724f53934371249b2ed88cb2a150a1bd1a1c1ca96970af5d638246f",
+    "after_sha256": "adcf579efeddc1b763f3d6dbbfb41d1bf6ee21b36f3be60cbac28659209a96e3"
+  },
+  {
+    "script": "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/run_ordinary131.py",
+    "before_sha256": "15811a66fb7f1aa5b1ab9407fcd0eb6b9ddc8902d985d0f23cba457a8fd3db1d",
+    "after_sha256": "318e5d5b3308949d60476979a615a56f3b40818b5d0273a9075555fa930fe17d"
+  }
+]

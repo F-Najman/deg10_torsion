@@ -1,0 +1,15 @@
+Loading "work/deg10/next_cases_20261030/C242/geometry/x0_42_filter_common.m"
+Loading "work/deg10/next_cases_20261030/C242/geometry/deps/portable_forward.m"
+Loading "work/deg10/next_cases_20261030/C242/geometry/quotient5_helpers.m"
+C242_D10_X0_42_STAGE3_PROGRESS tested=10 total=108 remaining=1 imagecount=16 cpu=0.420
+C242_D10_X0_42_STAGE3_PROGRESS tested=20 total=108 remaining=1 imagecount=27 cpu=1.130
+C242_D10_X0_42_STAGE3_PROGRESS tested=30 total=108 remaining=1 imagecount=37 cpu=1.720
+C242_D10_X0_42_STAGE3_PROGRESS tested=40 total=108 remaining=2 imagecount=55 cpu=2.890
+C242_D10_X0_42_STAGE3_PROGRESS tested=50 total=108 remaining=3 imagecount=79 cpu=4.130
+C242_D10_X0_42_STAGE3_PROGRESS tested=60 total=108 remaining=4 imagecount=99 cpu=4.420
+C242_D10_X0_42_STAGE3_PROGRESS tested=70 total=108 remaining=6 imagecount=119 cpu=4.710
+C242_D10_X0_42_STAGE3_PROGRESS tested=80 total=108 remaining=8 imagecount=143 cpu=5.190
+C242_D10_X0_42_STAGE3_PROGRESS tested=90 total=108 remaining=8 imagecount=159 cpu=6.100
+C242_D10_X0_42_STAGE3_PROGRESS tested=100 total=108 remaining=9 imagecount=187 cpu=7.730
+C242_D10_X0_42_STAGE3_PROGRESS tested=108 total=108 remaining=10 imagecount=211 cpu=9.050
+C242_D10_X0_42_STAGE3_COMPLETE tested=108 total=108 remaining=10 images=211 full_input=true cpu=9.050

@@ -1,0 +1,19 @@
+{
+  "purpose": "winding481",
+  "script": "computations/winding481.m",
+  "script_sha256": "2bc840e1f247217bffa454a8504086e5e8c43082603b8b84f44dfac11341753f",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/winding481.m"
+  ],
+  "pid": 9461,
+  "owner_uid": 1001,
+  "start_time_unix": 1793274658.1973886,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/winding481.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 20.09050464630127
+}

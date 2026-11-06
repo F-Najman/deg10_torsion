@@ -1,0 +1,1974 @@
+{
+  "status": "PASS; CLASSIFICATION COMPLETE",
+  "known_full_groups": 69,
+  "certified_excluded_subgroups": 110,
+  "minimal_obstructions": 110,
+  "remaining_minimal_obstructions": 0,
+  "evidence_files_checked": 10687,
+  "protected_earlier_files_unchanged": 25,
+  "all_recorded_jobs_exited": true,
+  "recorded_job_count": 1498,
+  "unsuccessful_or_terminated_probes_not_promoted": [
+    {
+      "job": "b81_sage_local_arcs",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "b81_sage_local_arcs_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "b81_y46_model",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "b81_y46_model_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "b87_base_test",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "b87_base_test_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont57_verify_jets",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont69_independent_moduli",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont69_native_RR_replay",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont69_q67_parent_native",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont75_nc10_job1",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont75_nc10_job2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont75_nc10_job3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont75_verify_cusps",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont75_verify_finite",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_RR612_source_p13_shard0",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_RR612_source_p13_shard1",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_RR612_source_p13_shard11",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_RR612_source_p13_shard2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_RR612_source_p13_shard4",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_RR612_source_p13_shard5",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_RR612_source_p13_shard7",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_RR612_source_p13_shard8",
+      "actual_exit_code": -15,
+      "reason": "obsolete method retired after verified norm-polynomial parity replacement; not a completed certificate"
+    },
+    {
+      "job": "cont_RR612_source_p13_shard9",
+      "actual_exit_code": -15,
+      "reason": "obsolete method retired after verified norm-polynomial parity replacement; not a completed certificate"
+    },
+    {
+      "job": "cont_char0_612_effective_probe",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_char0_612_effective_probe_v2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_char0_612_probe",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_diagonal_4_16_D5",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_diagonal_6_12_D5",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_diagonal_6_12_D5_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_diagonal_6_12_D5_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_diagonal_6_12_D5_v4",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_diagonal_6_12_D5_v5",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_double_cusp_3_21_D5",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_enum612_AF13",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_gonality_4_20_q9_d6",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_hecke_torsion_3_18",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_hecke_torsion_6_12",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_image135_no2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_local_3_27_q4",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_local_4_28_q9",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_quotient31_q2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_quotient31_q3",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_replay416",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_replay416_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_replay612_complete",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_replay612_source",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_replay_witness612",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_sieve_3_18_D5",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_sieve_3_24_D5",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_sieve_4_24_D5",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_source612_recert_shard0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_source612_recert_shard1",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_source612_recert_shard2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_source612_recert_shard3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_source612_recert_shard4",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_source612_recert_shard5",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_source612_recert_shard6",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_source612_recert_shard7",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_validate612_native_basis",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "cont_validate612_native_basis_v2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_validate612_native_basis_v3",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "cont_validate612_native_basis_v4",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "contb55_sage_finite",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contb77_absolute_model",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "contb77_absolute_model_v3",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "contb77_nc_case1",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contb77_nc_case1_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contb77_nc_case2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contb77_nc_case2_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contb77_nc_case3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contb77_nc_case3_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contc65_source_census",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contc65_verify_jets",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contc91_export_native",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contc91_parent_native",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contc91_parent_native_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contc91_quotient_differentials",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "contc99_independent_Y29_model",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contc99_independent_Y29_model_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contc99_independent_Y29_model_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "contc99_independent_Y29_model_v4",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_46_boundary_completion",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31a_46_boundary_flags",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31a_58_parent_class_replay",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_63_independent_bind_boundary",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_78_native_replay",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_90_quartic_boundary",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C44_independent_isogenies",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31a_C44_independent_isogenies_shard0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C44_independent_isogenies_shard1",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C44_independent_isogenies_shard2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C44_independent_isogenies_shard3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C44_independent_isogenies_shard4",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C44_independent_isogenies_shard5",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C54_cusp_completion",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31a_C54_target27_setup",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C54_target27_setup_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C56_A5_pure",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31a_C56_fourmap_filter",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C56_fourmap_filter_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C56_independent_fourmap",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C56_independent_fourmap_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C58_known_lifts",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C58_known_lifts_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C62_class_filter",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31a_C62_class_resume",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C66_target33_setup",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C66_target33_setup_v2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31a_C66_target33_setup_v3",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31a_C70_A2_pilot",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_C70_independent_genuine",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31a_even_p5_all_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31a_even_p5_all_s1",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31a_even_p5_all_s2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31a_even_p5_all_s3",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31a_even_p5_all_s4",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31a_even_p5_all_s5",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31a_m318_CM_preflight",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_character_high_s0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_character_high_s0_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_character_high_s1",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_character_high_s1_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_class_native_high_s0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_class_native_high_s0_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_class_native_high_s0_v3",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_genuine_profile",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_genuine_profile_diag",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_independent_character_s3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_independent_cusp_principal",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C48_low_hecke13_s2",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_C54_enumerate_class_members_profile",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C54_member_profile_classes",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C54_parent_f5_pairs",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C54_relative_source_model",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_C54_transport_800_classes",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C54_transport_800_classes_v2",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_branch_norm_probe",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_A11_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_A5_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_A5_s1",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_A5_s2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_v2_A11_s0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_v3_A11_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_v3_A5_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_v3_A5_s1",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_v3_A5_s2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_v4_A5_s0",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_v4_A5_s1",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_cover_v4_A5_s2",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_kummer_case491",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_kummer_direct_case491_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_parent_basis_v2_s0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_parent_basis_v2_s1",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_parent_basis_v2_s2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_sieve_genuine_isogenies",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_sieve_rr_case491",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_sieve_rr_case491_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_source_A11_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_source_A5_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_source_A5_s1",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C56_source_A5_s2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C60_mixed_fibres",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C60_parent_halving",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_F2_frame",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_F2_independent",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_F2_independent_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_actual_gonal_filter",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_actual_gonal_filter_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_classical_gonal_filter",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_gonal_fibre_filter",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_gonal_fibre_filter_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_gonal_fibre_filter_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_gonal_fibre_filter_v4",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_gonal_fibre_filter_v5",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_gonal_genuine_replay",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_gonal_genuine_replay_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_monic_profile",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_pencil_classes",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_pencil_classes_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C66_pencil_classes_v5",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C74_formal_export",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C74_formal_export_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C74_formal_export_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_C74_parent_native",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_s1",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_s2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_s3",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_s4",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_s5",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v2_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v2_s1",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v2_s2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v2_s3",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v2_s4",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v2_s5",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v3_s0",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v3_s1",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v3_s2",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v3_s3",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v3_s4",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v3_s5",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v4_s0",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v4_s1",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v4_s2",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v4_s3",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v4_s4",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_A5_v4_s5",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_Picard3_candidate",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_Picard3_profile",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_fast_inverse_compare",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_fast_inverse_profile",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_independent_genuine_s0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_independent_genuine_s1",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_known_decic_reduction",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_Y228_parent_native",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_cusp_RR_p31",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_effective_cusp_p19",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_effective_cusp_p19_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_effective_cusp_p19_v4",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_final_Hecke7_s0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_final_Hecke7_s1",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_final_Hecke7_s2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_geometric_cusp_group_p13",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_geometric_cusp_group_p7",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_geometric_cusp_group_v2_p13",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_geometric_cusp_group_v2_p7",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_geometric_fast_p13",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_geometric_fast_p7",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_global_cusp_model_char0",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_global_point13900",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_global_rational_cusps_char0",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_inert_B5_s0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_inert_B5_s1",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_inert_B5_s2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_kernel_structure",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_modsym_cuspidal_probe",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_orbit_gluing_tau",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_fast_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_fast_s1",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_fast_s2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_fast_s3",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_stream",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_stream_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_stream_s1",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_stream_s2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_stream_s3",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_stream_v2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_uniform_s0",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_uniform_s1",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_uniform_s2",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_p13_uniform_s3",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_paired_arithmetic",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_paired_p13",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_paired_p13_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_paired_p13_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_paired_three_relative",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_parent_cusp_RR19",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_parent_global_RR",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_pointcheck_exact",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_pointcheck_exact_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_sage_geocusp_probe",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m318_sage_geocusp_probe_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m327_cusp_parity",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m327_independent_genuine",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_analytic_jets",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_analytic_jets_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_analytic_jets_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_cover_preflight",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_cover_preflight_v2",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_cusp_jets_s0",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_cusp_jets_s1",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_independent_analytic",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_independent_analytic_v2",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_independent_analytic_v3_s0",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_independent_analytic_v3_s1",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_independent_analytic_v3_s2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_independent_analytic_v3_s3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_kummer_cover",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_kummer_cover_v2",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "d31b_m333_kummer_cover_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m3n27_parent_native",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m3n27_quotient_A7",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m3n27_quotient_A7_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m3n27_quotient_A7_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m3n33_quotient_A7",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m3n33_quotient_A7_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m3n33_quotient_A7_v3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m428_independent_fourmap",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m428_independent_fourmap_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "d31b_m428_parent_class_ideals",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "direct69_profile_and_rr",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "direct69_select_input",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "direct69_verify_input",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "family_1_23_v2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "family_1_26_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "family_1_27_v2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "family_1_32_v2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "family_1_33_v2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "family_1_34_v2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "family_1_36_v2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "family_2_22_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "family_2_24_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "family_3_12",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "family_3_15_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "family_3_18_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "family_4_12_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "family_6_12_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "family_6_6_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "function_1_32",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "function_1_33",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "function_1_34",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "function_1_36",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "function_2_20",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "function_2_22",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "function_2_24",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "function_3_15",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "function_3_18",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "late226_Q_RR",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "late226_Q_direct_RR",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "late226_j0_twists",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late226_native_ideal_replay",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "late226_second_prime",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late226_second_prime_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late238_filter19",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late240_cyclic",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "late240_replay_s0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late240_replay_s1",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late240_replay_s2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late240_replay_s3",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late240_replay_s4",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late240_replay_s5",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late240_replay_s6",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late240_replay_s7",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late250_control_s0",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "late250_control_s1",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "late250_control_s2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "late318_homology",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "late_replay_filters",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "new234_sieve_replay",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "new234_target_setup",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "new236_cusp_lattice_replay",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "new236_filter18_native_replay_D10s0",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "new236_filter18_small",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "new236_geom_cusp2_replay",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "new236_geom_genus9_benchmark",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "new236_geom_genus9_benchmark_v2",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "new236_geom_nonsplit_fibres",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "new236_geom_quadratic_fibres",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "next232_exponent_source",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "next232_final_replay",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "next232_quotient13",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "next232_replay_hecke5",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "next232_replay_sieve",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "next232_source_hecke11",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "next232_source_picard",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "next232_target_setup",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "next242_geom_c21_sage_replay",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "next242_geom_g5_benchmark",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "next242_geom_g5_sage_replay",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "next242_geom_v9_setup",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "next242_geom_v9_setup_v2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "pp49_completion_control",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "pp49_cusp_permutation",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "pp49_fast_cartier_export",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "q67_profile_rr",
+      "actual_exit_code": -14,
+      "reason": null
+    },
+    {
+      "job": "quintic_full2_28",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "quintic_full2_30a",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "quintic_full2_30b",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "reconstruct315_D5_residues",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "replay_cyclotomic11",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "replay_new_certificates",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "resolve226_exact_class24",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "resolve226_exact_class30",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "resolve226_find_cusp_fibers",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "resolve226_montes",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "resolve226_montes_nogenus",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "resolve226_montes_v2",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "resolve226_optimized_RR",
+      "actual_exit_code": -15,
+      "reason": null
+    },
+    {
+      "job": "resolve226_positive_RR",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "resolve226_unit_p1000000007",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "resolve226_unit_p1000000009",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "resolve226_unit_p1000000021",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "resolve226_unit_p1000000033",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "resolve226_validate_reconstructed24",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "resolve226_validate_reconstructed30",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "sporadic_check_unit_2_30",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "unit_6_12",
+      "actual_exit_code": 1,
+      "reason": null
+    },
+    {
+      "job": "winding1147",
+      "actual_exit_code": -15,
+      "reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "witness_C42",
+      "actual_exit_code": 1,
+      "reason": null
+    }
+  ],
+  "paper_compiles_without_errors_or_overfull_boxes": true
+}

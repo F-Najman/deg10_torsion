@@ -1,0 +1,43 @@
+\begin{lemma}\label{lem:octic-odd-cuspidal}
+Let $X/\mathbb Q$ be a modular curve with a rational cusp $c_0$,
+rank-zero rational Jacobian and rational gonality greater than $8$.
+Suppose $X$ has good reduction at an odd prime $p$, with finite etale
+cusp scheme, and its cusps are defined over a number field unramified at $p$.
+No noncuspidal effective rational divisor of degree $8$ on $X$ can
+reduce entirely to cusps.
+\end{lemma}
+\begin{proof}
+Suppose $D$ has entirely cuspidal reduction. Over a number field $L$
+unramified at $p$ and containing all cusp coordinates, lift its reduction
+to an effective cuspidal divisor $C$ of degree $8$. Both
+$[D-8c_0]$ and $[C-8c_0]$ are torsion, by rank zero and Manin--Drinfeld,
+respectively. Torsion reduction at an unramified odd prime is injective,
+so $D\sim C$. Since $D\ne C$, base change gives
+$h^0(X,D)=h^0(X_L,D)\ge2$, contrary to the gonality assumption.
+\end{proof}
+
+\begin{lemma}\label{lem:octic-hecke}
+Let $X/\mathbb Q$ have rank-zero Jacobian and a rational cusp $c_0$.
+Let $p$ be a prime of good reduction, and write the reduction of an
+effective rational divisor $D$ of degree $8$ as $D'+C'$, with $C'$
+cuspidal. For an odd prime $q$ coprime to the level and $p$, put
+$A_q=T_q-1-q\langle q\rangle$. If cyclotomic $q$ fixes every
+Frobenius-$p$ cusp orbit which can occur in $C'$, then $A_qD'$ is principal.
+\end{lemma}
+\begin{proof}
+Injectivity of rational torsion reduction at $q$ and Eichler--Shimura
+give $A_q\operatorname{Jac}(X)(\mathbb Q)=0$.
+Moreover, $A_qc_0=0$ as a divisor. Hence $A_qD$ is principal.
+On cusps we have
+$T_qC'=\sigma_q C'+q\langle q\rangle\sigma_q^{-1}C'$.
+The hypothesis gives $A_qC'=0$ as a divisor, proving the assertion.
+\end{proof}
+
+For $X_1(N)$ the program determines the admissible $q$ using
+the cusp description of \cite[Lemma~2.7]{DEHMZ}. It checks that
+the predicted finite-field cusp degrees agree with the model.
+Every integer partition of each noncuspidal degree at most $8$
+is included, and repetitions of places are allowed. Diamond operators
+commute with $A_q$ and preserve the admissible cusp complements, so it
+suffices to take one diamond representative for the first support place
+and all choices for the other support places.

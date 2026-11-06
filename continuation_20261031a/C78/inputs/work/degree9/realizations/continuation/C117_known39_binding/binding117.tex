@@ -1,0 +1,26 @@
+\begin{lemma}\label{lem:nonic117-level39-fibres}
+Over $\mathbb F_{512}$, every elliptic curve with $468$ rational points,
+together with a point of order $39$, gives one of the four known
+closed nonic points of $X_1(39)$.
+\end{lemma}
+\begin{proof}
+The complete ordinary elliptic-curve census gives exactly three
+$j$-invariants with a twist of order $468$.
+In the common field $\mathbb F_2[t]/(t^9+t^8+1)$ their integer
+coefficient encodings are $130,315,441$.
+Each has precisely one twist of this order.
+Since $\gcd(468,511)=1$, each rational point group is cyclic, and
+there are $\varphi(39)/2=12$ fine marked structures per curve.
+Their $j$-invariants are nonzero, so the only automorphisms are
+$\pm1$, which act freely on the points of order $39$.
+
+The four known nonic points have disjoint Frobenius orbits of length
+$9$. Their $36$ exact Tate pairs give precisely $12$ pairs at each
+of these three $j$-invariants. The binding certificate checks this
+directly from the normalized pairs, and independently counts $468$
+points on each representative Tate curve. Thus these points exhaust
+all marked structures under consideration.
+There is no supersingular exception: a supersingular elliptic curve
+in characteristic $2$ has no geometric point of order $2$, so its
+finite group has odd order and cannot have order $468$.
+\end{proof}

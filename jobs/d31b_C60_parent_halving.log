@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C60_parent_halving.py", line 12, in <module>
+    phi=E.isogeny(P2);A=phi.codomain();S=phi(Q);dual=phi.dual();assert dual(S)==2*Q;assert(Q[0]+(Q+P2)[0]-P2[0],Q[1]+(Q+P2)[1]-P2[1])==S.xy()
+                                                     ^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/schemes/elliptic_curves/ell_curve_isogeny.py", line 3327, in dual
+    phi_hat = EllipticCurveIsogeny(E1, None, E2, d)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/schemes/elliptic_curves/ell_curve_isogeny.py", line 1061, in __init__
+    pre_isom, post_isom, E, codomain, kernel = compute_sequence_of_maps(E, codomain, degree)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/schemes/elliptic_curves/ell_curve_isogeny.py", line 3854, in compute_sequence_of_maps
+    ker_poly = compute_isogeny_kernel_polynomial(E1pr, E2pr, ell)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/schemes/elliptic_curves/ell_curve_isogeny.py", line 3653, in compute_isogeny_kernel_polynomial
+    raise NotImplementedError(f'no algorithm for computing kernel polynomial from domain and codomain is implemented for degree {ell} and characteristic {char}')
+NotImplementedError: no algorithm for computing kernel polynomial from domain and codomain is implemented for degree 2 and characteristic 7

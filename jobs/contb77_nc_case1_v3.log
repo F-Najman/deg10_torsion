@@ -1,0 +1,18 @@
+Loading "work/deg10/continuation_20261030b/C77/noncuspidal_common_v3.m"
+Loading "work/deg10/continuation_20261030b/C77/geometry_fast_nc.m"
+NONIC77_X0_MODEL genus7=true modular_polynomial_verified=true cusp_widths=[ 11, 77, 1, 7 ] time=21.480
+Loading "work/deg10/continuation_20261030b/C77/inputs/AS_component.m"
+NONIC77_DIRECT_CUBIC_VERIFIED degree12=true genus19=true exact_base_embedding=true deck_order3=true time=37.120
+NONIC77_DIRECT_GENUS37_VERIFIED time=78.700
+C77_GENUS37_NC_MODEL_READY 78.700
+C77_DIAMONDS_VERIFIED delta2_cubic_exponent 2 delta3=delta2inverse
+C77_NC_INPUT_READY 1 189.120
+C77_NC_HEKCE_ORBIT 1 1 1 10 1 210.350
+C77_NC_HEKCE_ORBIT 1 2 3 30 1 235.170
+C77_NC_DELTA_TARGETS_CACHED 1 4 294.910
+C77_NC_B_INPUT_PACKET_READY case=1 choices=4 cpu=429.240
+C77_NC_B_RR case=1 choice=1/4 h0=0 cpu=449.540
+C77_NC_B_RR case=1 choice=2/4 h0=0 cpu=470.300
+C77_NC_B_RR case=1 choice=3/4 h0=0 cpu=490.720
+C77_NC_B_RR case=1 choice=4/4 h0=0 cpu=511.580
+C77_NC_B_COMPLETE case=1 choices=4 remaining=0 cpu=511.710

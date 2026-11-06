@@ -1,0 +1,255 @@
+{
+  "records": [
+    {
+      "stem": "d31b_m318_p13_stream_v2",
+      "before": {
+        "purpose": "d31b_m318_p13_stream_v2",
+        "script": "computations/d31b_m318_p13_stream_v2.m",
+        "script_sha256": "edb7b9cf6876475112c73e44c33ff6f27e224fc2cbaedd24faf3298c0cea4fd1",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_v2.m"
+        ],
+        "pid": 3470933,
+        "owner_uid": 1001,
+        "start_time_unix": 1793433682.2533422,
+        "state": "RUNNING",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_stream_v2.log"
+      },
+      "reason": "Replace lexicographically biased partition by an even whole-key hash partition; retain verified partial exact class witnesses",
+      "verified_identity": {
+        "pid": 3470933,
+        "owner_uid": 1001,
+        "start_time_unix": 1793433681.64,
+        "command": [
+          "/opt/magma-2.30-1/magma.exe",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_v2.m"
+        ],
+        "executable": "/opt/magma-2.30-1/magma.avx2.exe"
+      },
+      "after": {
+        "purpose": "d31b_m318_p13_stream_v2",
+        "script": "computations/d31b_m318_p13_stream_v2.m",
+        "script_sha256": "edb7b9cf6876475112c73e44c33ff6f27e224fc2cbaedd24faf3298c0cea4fd1",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_v2.m"
+        ],
+        "pid": 3470933,
+        "owner_uid": 1001,
+        "start_time_unix": 1793433682.2533422,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_stream_v2.log",
+        "actual_exit_code": -15,
+        "termination_reason": null,
+        "elapsed_seconds": 782.9252972602844
+      }
+    },
+    {
+      "stem": "d31b_m318_p13_stream_s0",
+      "before": {
+        "purpose": "d31b_m318_p13_stream_s0",
+        "script": "computations/d31b_m318_p13_stream_s0.m",
+        "script_sha256": "65c5cdb12e803e97d68f59f11255bfaf8dc4497e588936cfb64a92596bcba853",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s0.m"
+        ],
+        "pid": 3481000,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434161.7124734,
+        "state": "RUNNING",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_stream_s0.log"
+      },
+      "reason": "Replace lexicographically biased partition by an even whole-key hash partition; retain verified partial exact class witnesses",
+      "verified_identity": {
+        "pid": 3481000,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434161.1,
+        "command": [
+          "/opt/magma-2.30-1/magma.exe",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s0.m"
+        ],
+        "executable": "/opt/magma-2.30-1/magma.avx2.exe"
+      },
+      "after": {
+        "purpose": "d31b_m318_p13_stream_s0",
+        "script": "computations/d31b_m318_p13_stream_s0.m",
+        "script_sha256": "65c5cdb12e803e97d68f59f11255bfaf8dc4497e588936cfb64a92596bcba853",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s0.m"
+        ],
+        "pid": 3481000,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434161.7124734,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_stream_s0.log",
+        "actual_exit_code": -15,
+        "termination_reason": null,
+        "elapsed_seconds": 303.5735070705414
+      }
+    },
+    {
+      "stem": "d31b_m318_p13_stream_s1",
+      "before": {
+        "purpose": "d31b_m318_p13_stream_s1",
+        "script": "computations/d31b_m318_p13_stream_s1.m",
+        "script_sha256": "76fa0cfe57922fd242ab33fe3b2f21d6f18888765bd5dc8bed51f5058ce9a0a1",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s1.m"
+        ],
+        "pid": 3481054,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434163.9035006,
+        "state": "RUNNING",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_stream_s1.log"
+      },
+      "reason": "Replace lexicographically biased partition by an even whole-key hash partition; retain verified partial exact class witnesses",
+      "verified_identity": {
+        "pid": 3481054,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434163.29,
+        "command": [
+          "/opt/magma-2.30-1/magma.exe",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s1.m"
+        ],
+        "executable": "/opt/magma-2.30-1/magma.avx2.exe"
+      },
+      "after": {
+        "purpose": "d31b_m318_p13_stream_s1",
+        "script": "computations/d31b_m318_p13_stream_s1.m",
+        "script_sha256": "76fa0cfe57922fd242ab33fe3b2f21d6f18888765bd5dc8bed51f5058ce9a0a1",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s1.m"
+        ],
+        "pid": 3481054,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434163.9035006,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_stream_s1.log",
+        "actual_exit_code": -15,
+        "termination_reason": null,
+        "elapsed_seconds": 301.44090962409973
+      }
+    },
+    {
+      "stem": "d31b_m318_p13_stream_s2",
+      "before": {
+        "purpose": "d31b_m318_p13_stream_s2",
+        "script": "computations/d31b_m318_p13_stream_s2.m",
+        "script_sha256": "fac1a00f1640a6a99a04f11d0bc4307ebd6af190a881612a1a1c9dd38660d6b3",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s2.m"
+        ],
+        "pid": 3481023,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434162.742029,
+        "state": "RUNNING",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_stream_s2.log"
+      },
+      "reason": "Replace lexicographically biased partition by an even whole-key hash partition; retain verified partial exact class witnesses",
+      "verified_identity": {
+        "pid": 3481023,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434162.13,
+        "command": [
+          "/opt/magma-2.30-1/magma.exe",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s2.m"
+        ],
+        "executable": "/opt/magma-2.30-1/magma.avx2.exe"
+      },
+      "after": {
+        "purpose": "d31b_m318_p13_stream_s2",
+        "script": "computations/d31b_m318_p13_stream_s2.m",
+        "script_sha256": "fac1a00f1640a6a99a04f11d0bc4307ebd6af190a881612a1a1c9dd38660d6b3",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s2.m"
+        ],
+        "pid": 3481023,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434162.742029,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_stream_s2.log",
+        "actual_exit_code": -15,
+        "termination_reason": null,
+        "elapsed_seconds": 302.71787333488464
+      }
+    },
+    {
+      "stem": "d31b_m318_p13_stream_s3",
+      "before": {
+        "purpose": "d31b_m318_p13_stream_s3",
+        "script": "computations/d31b_m318_p13_stream_s3.m",
+        "script_sha256": "eecb99d160677c6193dc031a2bb20f7b0af281b07ba0650f31ba2080ab679429",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s3.m"
+        ],
+        "pid": 3481075,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434164.305643,
+        "state": "RUNNING",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_stream_s3.log"
+      },
+      "reason": "Replace lexicographically biased partition by an even whole-key hash partition; retain verified partial exact class witnesses",
+      "verified_identity": {
+        "pid": 3481075,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434163.69,
+        "command": [
+          "/opt/magma-2.30-1/magma.exe",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s3.m"
+        ],
+        "executable": "/opt/magma-2.30-1/magma.avx2.exe"
+      },
+      "after": {
+        "purpose": "d31b_m318_p13_stream_s3",
+        "script": "computations/d31b_m318_p13_stream_s3.m",
+        "script_sha256": "eecb99d160677c6193dc031a2bb20f7b0af281b07ba0650f31ba2080ab679429",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_p13_stream_s3.m"
+        ],
+        "pid": 3481075,
+        "owner_uid": 1001,
+        "start_time_unix": 1793434164.305643,
+        "state": "EXITED",
+        "time_limit_seconds": 1800,
+        "log": "jobs/d31b_m318_p13_stream_s3.log",
+        "actual_exit_code": -15,
+        "termination_reason": null,
+        "elapsed_seconds": 301.23805022239685
+      }
+    }
+  ],
+  "cached_partial_class_sha256": "76a430d4d57e4474fd42662571d489cdc62178e79ff56023d7b53e859c4e2195"
+}

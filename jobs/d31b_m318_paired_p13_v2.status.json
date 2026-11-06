@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_paired_p13_v2",
+  "script": "computations/d31b_m318_paired_p13_v2.m",
+  "script_sha256": "b63028762a507fdcd7b9bdbbbdad70a1ed3e405f06d4d8a5c7ce680d4c9b4e75",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_paired_p13_v2.m"
+  ],
+  "pid": 3444275,
+  "owner_uid": 1001,
+  "start_time_unix": 1793432451.4329207,
+  "state": "EXITED",
+  "time_limit_seconds": 1800,
+  "log": "jobs/d31b_m318_paired_p13_v2.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 224.08578824996948
+}

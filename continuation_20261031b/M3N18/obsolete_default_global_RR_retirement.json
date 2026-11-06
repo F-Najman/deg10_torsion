@@ -1,0 +1,35 @@
+{
+  "reason": "Obsolete second default global RR: completed primary two-class reduction-disabled RR, independently checked exact first global section and both pole ideals, and exact marked tau crossing at13 provide a verified replacement. First partial line is corroboration only; terminated job is not a completed certificate.",
+  "signal": "SIGTERM",
+  "verified_identity": {
+    "pid": 3734115,
+    "username": "fnajman",
+    "owner_uid": 1001,
+    "create_time": 1793445192.67,
+    "command": [
+      "/opt/magma-2.30-1/magma.exe",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_parent_global_RR.m"
+    ]
+  },
+  "actual_status": {
+    "purpose": "d31b_m318_parent_global_RR",
+    "script": "computations/d31b_m318_parent_global_RR.m",
+    "script_sha256": "8dae5f07779ff62e54cf68137642c0588e06526314476c6e4b2ac0522c787ed1",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_parent_global_RR.m"
+    ],
+    "pid": 3734115,
+    "owner_uid": 1001,
+    "start_time_unix": 1793445193.281412,
+    "state": "EXITED",
+    "time_limit_seconds": 620,
+    "log": "jobs/d31b_m318_parent_global_RR.log",
+    "actual_exit_code": -15,
+    "termination_reason": null,
+    "elapsed_seconds": 580.5216743946075
+  },
+  "time_unix": 1793445773.8537853
+}

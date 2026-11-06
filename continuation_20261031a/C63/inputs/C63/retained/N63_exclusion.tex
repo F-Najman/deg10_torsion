@@ -1,0 +1,86 @@
+\begin{proposition}\label{prop:octic63}
+No elliptic curve over an octic number field has a point of order $63$.
+\end{proposition}
+\begin{proof}
+Put $Y=X_1(63)/\langle8\rangle$. The diamond $8$ acts as $-1$ on the
+$9$-component and as $1$ on the $7$-component. It acts freely also in
+characteristic $2$. At a noncuspidal fixed point the corresponding
+automorphism of the elliptic curve has square $1$, hence is $1$ or $-1$;
+neither induces the two different signs. At a cusp, the primitive-column
+description likewise requires one common sign at $3$ and $7$, which is
+impossible. Thus the quotient is etale and $Y$ has good reduction at $2$.
+Its genus is $49$.
+
+The Jacobian $J(Y)(\mathbb Q)$ has rank zero. Exact modular symbols
+show that each even character $\chi$ modulo $63$ with $\chi(8)=1$
+has a full winding submodule. There are five character orbits, and
+their dimensions weighted by $\varphi(\operatorname{ord}\chi)$ sum
+to $49$. Kato's theorem applies to every simple factor of $J(Y)$.
+
+We use the direct model
+\[
+ E_9:y^2+(1-c)xy-by=x^3-bx^2,\qquad
+ c=t^2(t-1),\quad b=t^2(t-1)(t^2-t+1),
+\]
+and adjoin a root $u$ of $\psi_7(E_9)$. The point $(0,0)$ has exact
+order $9$, and $u=x(P_7)$ forgets the sign of the $7$-point, as required
+for the quotient by $\langle8\rangle$. The polynomial has degree $24$
+and is irreducible. Its function field has genus $49$ and $j$-degree
+$864$. Its closed cusps at $2$ have degrees $1^9,2^3,3^9,6$.
+All nine rational cusps at $2$ lift to rational cusps over $\mathbb Q$.
+The primitive-column audit verifies both the freeness at the cusps
+and this rational-lift assertion.
+
+Let $D_X$ be the rational degree-eight trace divisor associated to
+a hypothetical point of order $63$. The complete finite-field count
+on $X_1(63)$ has no noncuspidal places of degrees $1$ through $6$ at
+$2$, and has $54$ noncuspidal places in each degree $7$ and $8$.
+Consequently, if $\overline D_X$ has a noncuspidal part, it consists
+either of a degree-seven place and a rational cusp, or of a degree-eight
+place.
+
+The direct quotient enumeration gives respectively $189$ and $216$
+pairs $(t,u)$ over $\mathbb F_{128}$ and $\mathbb F_{256}$ which lift
+to source points. In each case these give $27$ closed points of the
+indicated degree, in three orbits under the residual diamonds $2,5$.
+The enumeration checks the exact Frobenius degree of every pair and
+the existence of the $7$-point itself over the residue field.
+For a representative $P$ of each of these six orbits, compute
+\[
+ A_5P=T_5P-P-5\langle5\rangle P.
+\]
+All six divisors are nonprincipal. These are exact function-field
+calculations: the six $5$-isogenies transport both torsion points,
+Tate normalization recovers the new parameter and $7$-coordinate,
+and prime ideals identify the resulting places. The divisor
+multiplicities include the ratios of residue degrees.
+
+Since $J(Y)(\mathbb Q)$ has rank zero, $A_5$ annihilates its rational
+points, by reduction at $5$ and Eichler--Shimura. It also annihilates
+each rational cusp as a divisor. The rational cusp complement in the
+degree-seven case therefore contributes zero. Both noncuspidal
+reduction cases contradict the six tests.
+
+It remains to exclude entirely cuspidal reduction. Push $D_X$ forward
+to a noncuspidal rational effective divisor $D$ of degree $8$ on $Y$.
+The quotient Cartier criterion applies: $Y$ has good reduction and a
+rational cusp, its cusp fields are cyclotomic, and $T_2,\langle2\rangle$
+descend and satisfy Eichler--Shimura. The Cartier-difference space
+\[
+ U=(\mathcal C-1)H^0(Y_{\mathbb F_2},\Omega^1)
+\]
+has dimension $45$. The fresh calculation computes all $103$ spaces
+$H^0(\Omega^1(-mP))$ at the $22$ cusps, for
+$1\leq m\leq\lfloor8/\deg(P)\rfloor$. Their annihilators give
+compatible restriction matrices. On each of the $44046$ effective
+cuspidal divisors of degree $8$, restriction from $U$ has rank $8$.
+Independent binary elimination verifies all $103$ kernel equalities,
+all $103$ Cartier projections, and all $44046$ rank-eight assertions.
+The criterion therefore forces $D$ to be cuspidal, a contradiction.
+\end{proof}
+
+% All computation is fresh for degree8. Completed good branches:
+% N63_good_branches_manifest.json. Full packet: N63_manifest.json.
+% Executed RR source and raw output are retained; normalize63_export.py
+% removes only a checked identical repeated initialization.
+% N63_cartier_rr_reproduce.m is the clean standalone reproduction source.

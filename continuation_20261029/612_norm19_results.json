@@ -1,0 +1,154 @@
+[
+  {
+    "purpose": "cont_RR612_norm19_shard0",
+    "script": "computations/cont_RR612_norm19_shard0.m",
+    "script_sha256": "1117884b23201fe95c9165093123b391b7bac622b63d5beaaa77039351b783b9",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_norm19_shard0.m"
+    ],
+    "pid": 482028,
+    "owner_uid": 1001,
+    "start_time_unix": 1793294995.8168075,
+    "state": "EXITED",
+    "time_limit_seconds": 300,
+    "log": "jobs/cont_RR612_norm19_shard0.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 5.1724629402160645
+  },
+  {
+    "purpose": "cont_RR612_norm19_shard1",
+    "script": "computations/cont_RR612_norm19_shard1.m",
+    "script_sha256": "d8c18fb76281feb72dec752427072fd730d6a45683c46638cc4b052c9b12b868",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_norm19_shard1.m"
+    ],
+    "pid": 482031,
+    "owner_uid": 1001,
+    "start_time_unix": 1793294995.817854,
+    "state": "EXITED",
+    "time_limit_seconds": 300,
+    "log": "jobs/cont_RR612_norm19_shard1.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 5.069862127304077
+  },
+  {
+    "purpose": "cont_RR612_norm19_shard2",
+    "script": "computations/cont_RR612_norm19_shard2.m",
+    "script_sha256": "42fd28c897687a07a711181c00c31598570d1b589302afd841fbc92a09ee56f9",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_norm19_shard2.m"
+    ],
+    "pid": 482030,
+    "owner_uid": 1001,
+    "start_time_unix": 1793294995.8178368,
+    "state": "EXITED",
+    "time_limit_seconds": 300,
+    "log": "jobs/cont_RR612_norm19_shard2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 4.721733093261719
+  },
+  {
+    "purpose": "cont_RR612_norm19_shard3",
+    "script": "computations/cont_RR612_norm19_shard3.m",
+    "script_sha256": "8807028feffac04de0dcc78ba1064c7e6515b58ac52970c8134251d27da7684b",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_norm19_shard3.m"
+    ],
+    "pid": 482032,
+    "owner_uid": 1001,
+    "start_time_unix": 1793294995.8179896,
+    "state": "EXITED",
+    "time_limit_seconds": 300,
+    "log": "jobs/cont_RR612_norm19_shard3.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 4.719934701919556
+  },
+  {
+    "purpose": "cont_RR612_norm19_shard4",
+    "script": "computations/cont_RR612_norm19_shard4.m",
+    "script_sha256": "5aa5c57bb0b5d504a4c4f24897bd6f8dc656279b2b5174d0f2609786e45aa435",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_norm19_shard4.m"
+    ],
+    "pid": 482035,
+    "owner_uid": 1001,
+    "start_time_unix": 1793294995.8183987,
+    "state": "EXITED",
+    "time_limit_seconds": 300,
+    "log": "jobs/cont_RR612_norm19_shard4.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 5.020453453063965
+  },
+  {
+    "purpose": "cont_RR612_norm19_shard5",
+    "script": "computations/cont_RR612_norm19_shard5.m",
+    "script_sha256": "2f98f2a5be649ddbadf9adc1724268f96a9deab9ed6fc8bc035e65f38de0bc0a",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_norm19_shard5.m"
+    ],
+    "pid": 482040,
+    "owner_uid": 1001,
+    "start_time_unix": 1793294995.8192143,
+    "state": "EXITED",
+    "time_limit_seconds": 300,
+    "log": "jobs/cont_RR612_norm19_shard5.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 5.070719242095947
+  },
+  {
+    "purpose": "cont_RR612_norm19_shard6",
+    "script": "computations/cont_RR612_norm19_shard6.m",
+    "script_sha256": "7aac7fe327c3528d8d8931dee01b623cd066c4fa00e6289e3d10683483ae48a5",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_norm19_shard6.m"
+    ],
+    "pid": 482045,
+    "owner_uid": 1001,
+    "start_time_unix": 1793294995.819617,
+    "state": "EXITED",
+    "time_limit_seconds": 300,
+    "log": "jobs/cont_RR612_norm19_shard6.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 4.821437358856201
+  },
+  {
+    "purpose": "cont_RR612_norm19_shard7",
+    "script": "computations/cont_RR612_norm19_shard7.m",
+    "script_sha256": "78a94fcb15c4a50328fe9565817b65c16a621b73ad1c9999c91f1a058afb46f1",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_norm19_shard7.m"
+    ],
+    "pid": 482042,
+    "owner_uid": 1001,
+    "start_time_unix": 1793294995.819295,
+    "state": "EXITED",
+    "time_limit_seconds": 300,
+    "log": "jobs/cont_RR612_norm19_shard7.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 4.720804452896118
+  }
+]

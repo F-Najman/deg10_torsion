@@ -1,0 +1,18 @@
+{
+  "purpose": "d31a_46_parent_merge_exceptional_v2",
+  "script": "computations/d31a_46_parent_merge_exceptional_v2.py",
+  "script_sha256": "7c3577a0b68374e42f2c5fda691ed7399f9ad9c090875be51373fba9024bc4d7",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_46_parent_merge_exceptional_v2.py"
+  ],
+  "pid": 2861924,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404708.2719905,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/d31a_46_parent_merge_exceptional_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.0153367519378662
+}

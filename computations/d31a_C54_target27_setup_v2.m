@@ -1,0 +1,1 @@
+ROOT:="work/deg10/continuation_20261031a/C54/";LEVEL:=27;GENUS:=13;load "work/deg10/continuation_20261031a/C54/inputs/native_group_generators.m";load "work/deg10/computations/d31a_smalltarget_setup_common_v2.m";

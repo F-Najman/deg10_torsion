@@ -1,0 +1,78 @@
+WINDING_SPACE_READY N=629 order=1 dimension=55 time=0.020
+WINDING N=629 order=1 conductor=1 relative_dimension=55 winding_dimension=37 coefficient_degree=1 time=0.090
+WINDING_SPACE_READY N=629 order=8 dimension=56 time=0.020
+WINDING N=629 order=8 conductor=17 relative_dimension=56 winding_dimension=56 coefficient_degree=4 time=1.270
+WINDING_SPACE_READY N=629 order=4 dimension=54 time=0.020
+WINDING N=629 order=4 conductor=17 relative_dimension=54 winding_dimension=54 coefficient_degree=2 time=0.560
+WINDING_SPACE_READY N=629 order=2 dimension=54 time=0.040
+WINDING N=629 order=2 conductor=17 relative_dimension=54 winding_dimension=54 coefficient_degree=1 time=0.110
+WINDING_SPACE_READY N=629 order=144 dimension=55 time=0.030
+WINDING_T2_READY N=629 order=144 time=0.730
+WINDING_GOOD_PRIME p=433 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=629 chi_index=5 order=144 path=work/deg10/exclusions/krylov_N629_chi5_order144.json
+WINDING_KRYLOV N=629 order=144 span_rank=55 dimension=55 verified=true time=0.790
+WINDING N=629 order=144 conductor=629 relative_dimension=55 winding_dimension=55 coefficient_degree=48 time=0.790
+WINDING_SPACE_READY N=629 order=144 dimension=55 time=0.030
+WINDING_T2_READY N=629 order=144 time=0.790
+WINDING_GOOD_PRIME p=433 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=629 chi_index=6 order=144 path=work/deg10/exclusions/krylov_N629_chi6_order144.json
+WINDING_KRYLOV N=629 order=144 span_rank=55 dimension=55 verified=true time=0.860
+WINDING N=629 order=144 conductor=629 relative_dimension=55 winding_dimension=55 coefficient_degree=48 time=0.860
+WINDING_SPACE_READY N=629 order=18 dimension=56 time=0.030
+WINDING N=629 order=18 conductor=37 relative_dimension=56 winding_dimension=56 coefficient_degree=6 time=1.280
+WINDING_SPACE_READY N=629 order=72 dimension=54 time=0.030
+WINDING_T2_READY N=629 order=72 time=0.880
+WINDING_GOOD_PRIME p=433 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=629 chi_index=8 order=72 path=work/deg10/exclusions/krylov_N629_chi8_order72.json
+WINDING_KRYLOV N=629 order=72 span_rank=54 dimension=54 verified=true time=0.950
+WINDING N=629 order=72 conductor=629 relative_dimension=54 winding_dimension=54 coefficient_degree=24 time=0.950
+WINDING_SPACE_READY N=629 order=36 dimension=56 time=0.030
+WINDING N=629 order=36 conductor=629 relative_dimension=56 winding_dimension=56 coefficient_degree=12 time=2.720
+WINDING_SPACE_READY N=629 order=18 dimension=56 time=0.020
+WINDING N=629 order=18 conductor=629 relative_dimension=56 winding_dimension=56 coefficient_degree=6 time=1.310
+WINDING_SPACE_READY N=629 order=48 dimension=55 time=0.060
+WINDING N=629 order=48 conductor=629 relative_dimension=55 winding_dimension=55 coefficient_degree=16 time=3.360
+WINDING_SPACE_READY N=629 order=48 dimension=55 time=0.040
+WINDING N=629 order=48 conductor=629 relative_dimension=55 winding_dimension=55 coefficient_degree=16 time=3.340
+WINDING_SPACE_READY N=629 order=9 dimension=54 time=0.020
+WINDING N=629 order=9 conductor=37 relative_dimension=54 winding_dimension=53 coefficient_degree=6 time=1.330
+WINDING_SPACE_READY N=629 order=72 dimension=56 time=0.030
+WINDING_T2_READY N=629 order=72 time=0.930
+WINDING_GOOD_PRIME p=433 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=629 chi_index=14 order=72 path=work/deg10/exclusions/krylov_N629_chi14_order72.json
+WINDING_KRYLOV N=629 order=72 span_rank=56 dimension=56 verified=true time=0.970
+WINDING N=629 order=72 conductor=629 relative_dimension=56 winding_dimension=56 coefficient_degree=24 time=0.970
+WINDING_SPACE_READY N=629 order=36 dimension=54 time=0.020
+WINDING N=629 order=36 conductor=629 relative_dimension=54 winding_dimension=54 coefficient_degree=12 time=2.630
+WINDING_SPACE_READY N=629 order=18 dimension=54 time=0.030
+WINDING N=629 order=18 conductor=629 relative_dimension=54 winding_dimension=54 coefficient_degree=6 time=1.220
+WINDING_SPACE_READY N=629 order=6 dimension=56 time=0.020
+WINDING N=629 order=6 conductor=37 relative_dimension=56 winding_dimension=56 coefficient_degree=2 time=0.440
+WINDING_SPACE_READY N=629 order=24 dimension=54 time=0.020
+WINDING N=629 order=24 conductor=629 relative_dimension=54 winding_dimension=54 coefficient_degree=8 time=2.890
+WINDING_SPACE_READY N=629 order=12 dimension=56 time=0.030
+WINDING N=629 order=12 conductor=629 relative_dimension=56 winding_dimension=56 coefficient_degree=4 time=0.800
+WINDING_SPACE_READY N=629 order=6 dimension=56 time=0.020
+WINDING N=629 order=6 conductor=629 relative_dimension=56 winding_dimension=56 coefficient_degree=2 time=0.420
+WINDING_SPACE_READY N=629 order=16 dimension=55 time=0.020
+WINDING N=629 order=16 conductor=629 relative_dimension=55 winding_dimension=55 coefficient_degree=8 time=2.390
+WINDING_SPACE_READY N=629 order=16 dimension=55 time=0.020
+WINDING N=629 order=16 conductor=629 relative_dimension=55 winding_dimension=55 coefficient_degree=8 time=2.280
+WINDING_SPACE_READY N=629 order=3 dimension=54 time=0.020
+WINDING N=629 order=3 conductor=37 relative_dimension=54 winding_dimension=54 coefficient_degree=2 time=0.390
+WINDING_SPACE_READY N=629 order=24 dimension=56 time=0.020
+WINDING N=629 order=24 conductor=629 relative_dimension=56 winding_dimension=56 coefficient_degree=8 time=2.960
+WINDING_SPACE_READY N=629 order=12 dimension=54 time=0.020
+WINDING N=629 order=12 conductor=629 relative_dimension=54 winding_dimension=54 coefficient_degree=4 time=0.710
+WINDING_SPACE_READY N=629 order=6 dimension=54 time=0.020
+WINDING N=629 order=6 conductor=629 relative_dimension=54 winding_dimension=54 coefficient_degree=2 time=0.380
+WINDING_SPACE_READY N=629 order=2 dimension=56 time=0.020
+WINDING N=629 order=2 conductor=37 relative_dimension=56 winding_dimension=56 coefficient_degree=1 time=0.100
+WINDING_SPACE_READY N=629 order=8 dimension=54 time=0.030
+WINDING N=629 order=8 conductor=629 relative_dimension=54 winding_dimension=54 coefficient_degree=4 time=0.810
+WINDING_SPACE_READY N=629 order=4 dimension=56 time=0.030
+WINDING N=629 order=4 conductor=629 relative_dimension=56 winding_dimension=56 coefficient_degree=2 time=0.700
+WINDING_SPACE_READY N=629 order=2 dimension=56 time=0.040
+WINDING N=629 order=2 conductor=629 relative_dimension=56 winding_dimension=56 coefficient_degree=1 time=0.120
+WINDING_FINAL N=629 genus=15841 total_dimension=15841 bad_orders=[ 1, 9 ] admissible=[ 6, 31, 36, 38, 43, 73, 75, 80, 105, 110, 112, 117, 142, 147, 149, 154, 179, 184, 186, 191, 216, 223, 228, 253, 258, 260, 265, 290, 295, 297, 302, 327, 332, 334, 339, 364, 369, 371, 376, 401, 406, 413, 438, 443, 445, 450, 475, 480, 482, 487, 512, 517, 519, 524, 549, 554, 556, 586, 591, 593, 598, 623 ]
+WINDING_CHARACTER_PROBE_DONE

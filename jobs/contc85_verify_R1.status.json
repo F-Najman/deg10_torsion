@@ -1,0 +1,18 @@
+{
+  "purpose": "contc85_verify_R1",
+  "script": "continuation_20261030c/C85/contc85_verify_R1.py",
+  "script_sha256": "86259bbac29857643eb7a8385482cd771760ca357b99ae9622401bee9696f2e5",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C85/contc85_verify_R1.py"
+  ],
+  "pid": 2729017,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398525.430229,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/contc85_verify_R1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.669893503189087
+}

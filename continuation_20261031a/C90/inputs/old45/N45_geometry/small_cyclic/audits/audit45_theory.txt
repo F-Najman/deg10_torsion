@@ -1,0 +1,42 @@
+Independent audit of the fresh octic N45 completion and Hecke packet.
+22 October 2026. No theory or coverage gap found.
+
+The completion source constructs the curve, its actual function field,
+holomorphic differential basis and Cartier matrix afresh for D8. At each
+cusp it writes eta=t^k*unit*dt. The expansion t^k*ex(omega/eta) differs
+from omega/dt by one common unit. This changes every local restriction
+block by an invertible triangular matrix, so all kernel and combined
+restriction ranks remain correct. The adaptive precision loop explicitly
+checks absolute precision after multiplying by t^k. Holomorphicity and
+the residue-field coefficient dimensions are checked.
+
+The reference RR geometry through D7 is used only as a degree-independent
+cross-check. The actual Cartier matrix, image basis and cusp order agree,
+and103 exact kernel equalities are checked by orthogonality plus the
+dimension identity. The fresh D8 export adds all required longer local
+blocks; no D7 exclusion or D7 exhaustive rank result is imported.
+
+The fresh relevant cusp degrees are1^12,2^4,4^5,6^2. There are124 local
+prefix matrices and148945 effective cuspidal degree8 divisors. The
+independent audit uses column ranks and least-bit binary elimination to
+check all124 projections and all148945 restriction ranks. All are8.
+This is a fresh D8 enumeration in Python, rather than a claim that the
+Magma export itself enumerated every global divisor.
+
+Rank J1(45)(Q)=0 is the cited DEHMZ theorem. The odd-level curve has good
+reduction and an etale cyclotomic cusp boundary at2, and has a rational
+cusp. Thus the audited dyadic quotient Cartier criterion applies with
+U=(Cartier-1)Omega of dimension39, and excludes entirely cuspidal
+reduction. Its Frobenius-fixed cuspidal lift can be non-Q-rational;
+only the rational class uses rank0, and Manin--Drinfeld handles the
+cuspidal correction over the decomposition field.
+
+Fresh finite-field counts allow only a single noncuspidal octic place.
+All60 closed places are covered by five diamond orbits. The fresh
+Hecke source tests all five and records zero survivors. With rank0,
+Tq-1-q*diamondq annihilates the rational Jacobian by odd-prime good
+reduction and Eichler--Shimura. It kills a rational cusp as an actual
+divisor, so each finite nonprincipality witness is a valid obstruction.
+There is no cusp complement in this branch and no dyadic injectivity
+assumption is needed. The all-cuspidal and noncuspidal branches exhaust
+degree8 reductions.

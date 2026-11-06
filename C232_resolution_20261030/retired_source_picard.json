@@ -1,0 +1,16 @@
+{
+  "purpose": "next232_source_picard",
+  "pid": 1737696,
+  "owner_uid": 1001,
+  "start_time_unix": 1793353989.91,
+  "command": [
+    "/opt/magma-2.30-1/magma.exe",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_source_picard.m"
+  ],
+  "reason": "Abandoned the slow genus-37 full class-group route after the involution descent reduced the problem to genus 13 and the smaller full Picard group was proved in 2.63 CPU seconds. No completed source class-group certificate is claimed.",
+  "signal": "SIGTERM",
+  "is_completed_certificate": false,
+  "actual_exit_code": -15,
+  "actual_state": "EXITED"
+}

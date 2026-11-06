@@ -1,0 +1,58 @@
+\begin{lemma}\label{lem:decic-318-cubic-fibre}
+Put $F=\mathbb Q(\zeta_3)$ and $X=X_1(3,18)_F$.
+An effective noncuspidal $F$-rational divisor of degree $5$ on $X$
+cannot reduce at $7$ or $13$ to one of the cubic places listed
+below together with a cuspidal divisor of degree $2$.
+\end{lemma}
+\begin{proof}
+At $7$, the cubic indices are $4,5,7,8$. At $13$, they are
+$15,19,28,29,31,32,35,36,37,38$. The indices refer to the
+complete $27$-automorphism enumerations. Let $p$ denote the chosen prime.
+Each $N_i$ is fixed by a nonidentity automorphism $h_i$ of order $3$.
+These level changes preserve the nonzero point $9Q_{18}$ of order $2$.
+They act freely on geometric noncuspidal points: an elliptic
+curve automorphism of order $3$ modulo sign has $\deg(u-1)=3$
+and cannot fix nonzero $2$-torsion.
+
+Write $\pi_i:X\to Y_i=X/\langle h_i\rangle$.
+The quotient is smooth at the chosen prime, since the action
+has order prime to its residue characteristic, and $\pi_i$ is \'etale at $N_i$.
+The closed cubic is therefore the full fibre of a point
+$q_i\in Y_i(\mathbb F_p)$.
+For every effective rational two-cusp divisor $C_2$,
+restriction of
+\[
+ (h_i^*-1)H^0(X_{\mathbb F_p},\Omega^1)
+                 \longrightarrow H^0(N_i+C_2,\Omega^1)
+\]
+has rank $4$. The source space has dimension $6$ or $8$.
+The computation tests $684$ cases at $7$ and $1710$ at $13$,
+including double cusps, using the full Jacobian differential space.
+A fresh native replay checks every stabilizer and every differential
+kernel independently.
+
+Suppose that $\overline D=N_i+C_2$.
+Lift $C_2$ cuspidally over $R=\mathbb Z_p$, and lift $q_i$ to
+$Y_i(R)$ using smoothness. Put $\alpha=h_{i*}-1$.
+The class
+\[
+ [h_iD-D-h_iC_2+C_2]
+\]
+is torsion, by rank zero over $F$ and Manin--Drinfeld, and has
+zero reduction. The odd unramified formal group has no torsion,
+so this class is zero.
+Thus $D$ lies in the same $\alpha$-Abel fibre as
+$C_2+\pi_i^*q_i$.
+
+The family $C_2+\pi_i^*Y_i$ is a smooth closed formal family of
+dimension $1$ in $X^{(5)}$ at this residue divisor.
+Its moving support is disjoint from $C_2$, and the three moving
+branches are \'etale over $Y_i$, so their coefficients recover
+the parameter of $Y_i$. It lies in the $\alpha$-Abel fibre.
+The rank-$4$ restriction gives four independent equations for
+that fibre in the smooth five-dimensional symmetric power.
+Their zero locus is formally smooth of dimension $1$.
+The tangent map of the known family is an isomorphism onto this
+zero locus, so the formal implicit function theorem identifies
+them. Hence $D$ contains $C_2$, contradicting its noncuspidal support.
+\end{proof}

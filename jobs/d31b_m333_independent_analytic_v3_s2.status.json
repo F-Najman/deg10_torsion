@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m333_independent_analytic_v3_s2",
+  "script": "computations/d31b_m333_independent_analytic_v3_s2.py",
+  "script_sha256": "c1c1d0a6061a0772fa011aa9c3251187f032b7866c1de1d8efd1febd2438f20b",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_independent_analytic_v3_s2.py"
+  ],
+  "pid": 3643045,
+  "owner_uid": 1001,
+  "start_time_unix": 1793441206.8236482,
+  "state": "EXITED",
+  "time_limit_seconds": 1600,
+  "log": "jobs/d31b_m333_independent_analytic_v3_s2.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 222.6391875743866
+}

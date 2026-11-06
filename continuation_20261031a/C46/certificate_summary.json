@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "parent_mathematical_review": "PASS",
+  "group": [
+    1,
+    46
+  ],
+  "degree": 10,
+  "complete_exclusion": true,
+  "method": "Rank-zero odd-prime cusp lifting and rational gonality19; complete finite source support enumeration; exact X1(23) rational class quotientC23 and independently reconstructed marked A5 nonprincipality tests on the37 residual supports",
+  "source_genus": 45,
+  "rational_J_rank": 0,
+  "rational_gonality": 19,
+  "prime": 3,
+  "noncuspidal_closed_counts": [
+    0,
+    0,
+    0,
+    55,
+    44,
+    55,
+    264,
+    781,
+    1958,
+    6292
+  ],
+  "cusp_signature": "1^22 11^2 globally and overF3",
+  "inherited_negative_support_tests": 782,
+  "new_support_tests": 1023,
+  "quotient_rejections": 986,
+  "A5_nonprincipal_exceptions": 37,
+  "native_prime_references": 292,
+  "genuine5_kernels": 324,
+  "source_components_in_Hecke_tests": 54,
+  "inherited_source_snapshot_bindings_checked": 308,
+  "old_cusp_alarms_are_not_premises": true,
+  "initial_unused_prepared_scripts_and_failed_merge_are_not_certificates": true,
+  "all_case_jobs_exited": true,
+  "classification_complete": false
+}

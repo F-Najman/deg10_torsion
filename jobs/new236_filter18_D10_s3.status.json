@@ -1,0 +1,19 @@
+{
+  "purpose": "new236_filter18_D10_s3",
+  "script": "computations/new236_filter18_D10_s3.m",
+  "script_sha256": "b49f42aa343a40fcac320b60f2b1beec90b7ff928ee5911244426ec8706cdfb5",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_D10_s3.m"
+  ],
+  "pid": 1893222,
+  "owner_uid": 1001,
+  "start_time_unix": 1793360716.12663,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/new236_filter18_D10_s3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 336.67758083343506
+}

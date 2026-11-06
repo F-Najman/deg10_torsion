@@ -1,0 +1,322 @@
+{
+  "status": "PASS",
+  "all_case_jobs_exited": true,
+  "primary_job_count": 21,
+  "jobs": [
+    {
+      "job": "next232_cusp_signatures",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_diamond5_exact",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_diamond7_exact",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_exponent_setup",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_exponent_source",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "used_in_final_proof": false,
+      "termination_reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "job": "next232_filter10",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_filter6",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_filter789",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_final_replay",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_final_replay_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_final_replay_v3",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_frobenius",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_gonality_boundary",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_hecke5_cusp_filter",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_hecke7_cusp_filter",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_ideal_replay10",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_ideal_replay10_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_ideal_replay789",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_ideal_replay789_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_ideal_replayprobe6_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_integral_lattice_replay",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_quotient13",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_quotient13_cuspidal_saturation",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_quotient13_filter",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_quotient13_integral_certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_quotient13_native_replay",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_quotient13_orbit_filter",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_quotient13_torsion_bound",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_quotient13_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_quotient_cusps",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_replay_hecke5",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_replay_hecke5_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_replay_hecke7",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_replay_sieve",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_replay_sieve_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_source10",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_source6",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_source789",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_source_hecke11",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_source_hecke11_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_source_hecke5",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_source_hecke7",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_source_picard",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_target_setup",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "used_in_final_proof": false,
+      "termination_reason": null
+    },
+    {
+      "job": "next232_target_setup_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "used_in_final_proof": true,
+      "termination_reason": null
+    }
+  ]
+}

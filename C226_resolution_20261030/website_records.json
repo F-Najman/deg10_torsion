@@ -1,0 +1,18 @@
+{
+  "published_date": "2026-10-30",
+  "pull_request": "https://github.com/x1mn-sporadic/x1mn-sporadic.github.io/pull/5",
+  "merge_commit": "dc1694839b72d4f6c4672deed340be85195ea39b",
+  "verified_live": true,
+  "examples": [
+    {
+      "original_class": 30,
+      "point_id": "2.26.10.a",
+      "url": "https://x1mn-sporadic.github.io/point.html?id=2.26.10.a"
+    },
+    {
+      "original_class": 24,
+      "point_id": "2.26.10.b",
+      "url": "https://x1mn-sporadic.github.io/point.html?id=2.26.10.b"
+    }
+  ]
+}

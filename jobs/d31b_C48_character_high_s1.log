@@ -1,0 +1,12 @@
+Loading "work/deg10/continuation_20261031b/C48/d31b_C48_character_high_common.m\
+"
+Loading "work/deg10/continuation_20261031b/C48/inputs/portable_inputs.m"
+Loading "work/deg10/continuation_20261031b/C48/inputs/four_characters.m"
+Loading "work/deg10/continuation_20261031b/C48/inputs/two_isogeny_48_to_2_24.m"
+
+In file "work/deg10/continuation_20261031b/C48/d31b_C48_character_high_common.m", line 2, column 215:
+>> do fields[v[1]]:=ext<k|R!v[2]>;end for;CM:=Matrix(GF(2),FilterCharacterRows
+                                                    ^
+Runtime error in 'Matrix': Bad argument types
+Argument types given: FldFin, List
+

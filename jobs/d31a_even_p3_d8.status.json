@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_even_p3_d8",
+  "script": "computations/d31a_even_p3_d8.m",
+  "script_sha256": "2b5c9f8842a9c32e5ead51bd5ff93f8640d7002f689365e76d9914fecc13a10e",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_even_p3_d8.m"
+  ],
+  "pid": 2795580,
+  "owner_uid": 1001,
+  "start_time_unix": 1793401636.7798455,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/d31a_even_p3_d8.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5652024745941162
+}

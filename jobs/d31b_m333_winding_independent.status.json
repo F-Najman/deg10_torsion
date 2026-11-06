@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m333_winding_independent",
+  "script": "computations/d31b_m333_winding_independent.py",
+  "script_sha256": "b4791088ff4f6ea61790cec19d668216f506665e5d28f898b1e7f10d6b7922f6",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_winding_independent.py"
+  ],
+  "pid": 3595438,
+  "owner_uid": 1001,
+  "start_time_unix": 1793439254.5677745,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/d31b_m333_winding_independent.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5151000022888184
+}

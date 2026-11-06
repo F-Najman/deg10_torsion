@@ -1,0 +1,141 @@
+\begin{lemma}\label{lem:decic242-last-support}
+The remaining support in case $26$ cannot be the reduction of a
+rational effective divisor of degree $10$ with entirely
+noncuspidal support.
+\end{lemma}
+\begin{proof}
+Write its noncuspidal part as $\overline N$.
+For an exact identification, let
+\[
+ k=\mathbb F_5[\alpha]/
+ (\alpha^6+\alpha^4+4\alpha^3+\alpha^2+2).
+\]
+The coefficient vectors of $B,C\in k$, in ascending powers of
+$\alpha$, are
+\[
+ (B_i)=(0,0,2,4,2,3),\qquad(C_i)=(4,1,4,0,0,1).
+\]
+The level structure
+\[
+ E:\ y^2=x^3+Cx^2+B(1-B-C)x,\qquad P=(0,0),\quad Q=(B,B)
+\]
+represents $\overline N$.
+Put
+\[
+ h(P,Q)=(P+21Q,P+4Q).
+\]
+This automorphism has order $3$ and agrees with the second power
+of Frobenius on $\overline N$.
+It acts freely on all $72$ geometric cusps.
+
+Let $\pi:X\to W=X/\langle h\rangle$.
+The quotient has genus $17$, and
+$\overline N=\pi^*q$ for a closed quadratic place $q$.
+We describe the model and the section calculation used below.
+With the notation of Lemma~\ref{lem:decic242-quotient5}, adjoining
+\[
+ w^3-\frac{N(t)}{48}w+
+ \frac{M(t)(2t+13)}{1728D(t)}-\frac{u}{8D(t)}=0
+\]
+to the genus-$5$ field gives the field of $W$.
+Indeed, if $r_0,r_1,r_2$ are the ordered normalized $2$-division
+roots and $v_0=v$, $v_1=(v-1)/v$, $v_2=1/(1-v)$, then
+$w=r_0v_0+r_1v_1+r_2v_2$ satisfies this equation.
+The generator used for this invariant-field model is
+$(21Q,P+37Q)=h^2$; it agrees with the fourth power of Frobenius
+on $\overline N$. Thus it gives the same quotient.
+
+Over $\mathbb F_5$, the genus-zero $(u,w)$-field has a parameter
+$z$ with
+\[
+ u=\frac{z^3+3z^2+4z+3}{z^2+1}.
+\]
+Adjoining the coordinates of the nonzero $3$-point on $E_u$
+gives an absolute degree-$8$ model over $\mathbb F_5(z)$ of
+genus $17$.
+The source function $u$ is regular on $\overline N$ and satisfies
+$u^2+4u+2=0$ there.
+We retain \emph{all} quadratic places of $W$ above this polynomial.
+There are two. Both are unramified with inert cubic fibre, so
+they form a containing set for the actual place $q$.
+This avoids evaluating a chart with poles at the CM residue point.
+
+The source cusp signature is $1^{18},2^9,3^6,6^3$.
+By Lemma~\ref{lem:decic242-case26-cubic}, the complement
+$\overline C$ consists of one cubic and one rational cusp.
+The quotient cusp signature is $1^6,2^3,3^2,6$.
+The $108$ possible source complements give exactly $12$ divisors
+$\pi_*\overline C$, one for each choice of a cubic and a rational
+cusp of $W$; each choice has nine source preimages.
+
+We compute the required section dimensions after extending
+constants to $\mathbb F_{25}$.
+Put $s=u^2+8$, $D=s^2-3s+9$, and
+$A=2s^3-9s^2+27s-27$.
+Adjoining the Tate parameter $v$ recovers the cyclic degree-$3$
+source cover:
+\[
+ v^3-sv^2+(s-3)v+1=0.
+\]
+For a primitive cube root $\zeta\in\mathbb F_{25}$, this is the
+Kummer cover $y^3=f$, where
+\[
+ f=\frac{A+3(\zeta-\zeta^2)D}{2}.
+\]
+The identities
+$A^2-4D^3=-27D^2$ and $3v-s=y+D/y$ verify the correspondence.
+For $j=0,1,2$, put
+\[
+ D_j=\left\lfloor\frac{j\operatorname{div}(f)}3\right\rfloor.
+\]
+Their degrees are $0,-6,-6$, and the branch divisor has degree
+$12$. The usual integral local bases of a tame Kummer cover give
+\[
+ h^0_X(\pi^*T)=\sum_{j=0}^2h^0_W(T+D_j).
+\]
+
+A quadratic place over $\mathbb F_5$ becomes a sum of two rational
+places over $\mathbb F_{25}$.
+The degree-$6$ source place becomes a sum of two cubic places;
+we retain both summands in each divisor.
+For each of the two admitted $q$ and all $12$ cusp choices, take
+$T=q+\pi_*\overline C$, of degree $6$.
+The $24$ exact calculations, comprising $72$ Riemann--Roch spaces,
+give
+\[
+ (h^0(T+D_0),h^0(T+D_1),h^0(T+D_2))=(1,0,0).
+\]
+Consequently
+\begin{equation}\label{eq:decic242-final-section}
+ h^0_X(\overline N+\pi^*\pi_*\overline C)=1
+\end{equation}
+for every compatible complement.
+All places are exported by two exact ideal generators.
+The field is an absolute extension of degree $8$ over the rational
+function field; its finite and infinite ideal module bases each
+have eight elements. A second native calculation reconstructs
+the character divisors, compares both module lattices in both
+directions, and reproduces all $72$ dimensions.
+Independent arithmetic also verifies the cyclic-cover identity,
+the Frobenius phases and the complete cusp-orbit coverage.
+
+Suppose that a rational noncuspidal divisor $D$ of degree $10$
+has the proposed reduction.
+Lift $\overline C$ to a cuspidal divisor $C$ over an unramified
+local field at $5$.
+The class $[hD-D-hC+C]$ is torsion by rank zero and
+Manin--Drinfeld, and reduces to zero.
+Odd unramified torsion injectivity makes it zero.
+Thus $L=[D-C]$ is $h$-invariant.
+Put
+\[
+ \Omega=C+hC+h^2C=\pi^*\pi_*C.
+\]
+The effective divisors $D+\Omega-C$ and $hD+\Omega-hC$ are
+linearly equivalent.
+By \eqref{eq:decic242-final-section} and upper semicontinuity,
+their common line bundle has at most one section, so the divisors
+are equal. Comparing their cuspidal parts gives $C=hC$.
+Since $h$ acts freely on the geometric cusps, this forces
+$3\mid\deg C=4$, a contradiction.
+\end{proof}

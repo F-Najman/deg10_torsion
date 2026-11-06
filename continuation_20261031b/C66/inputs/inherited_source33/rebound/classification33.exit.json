@@ -1,0 +1,20 @@
+{
+  "pid": 2931122,
+  "startticks": 186820656,
+  "cmd": [
+    "nice",
+    "-n",
+    "10",
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/cyclic/continuation_20261026/C66_quotient17/source33/rebound/classify_degree9_33.m"
+  ],
+  "CPU_budget_seconds": 1800,
+  "wall_budget_seconds": 7200,
+  "memory_budget_bytes": 10737418240,
+  "native_memory_budget_bytes": 8000000000,
+  "nice": 10,
+  "actual_exit_code": 0,
+  "elapsed_wall_seconds": 140.1107017993927,
+  "completed_marker": true
+}

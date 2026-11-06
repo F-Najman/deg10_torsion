@@ -1,0 +1,118 @@
+\input{continuation_20261031b/C48/cuspidal_hecke13.tex}
+
+\begin{proposition}\label{prop:decic48}
+There is no elliptic curve over a number field of degree $10$ with a point
+of order $48$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(48)$ and $Y=X_1(2,24)$. The curve $X$ has genus $37$,
+$J_X(\mathbf Q)$ has rank $0$ by \cite[Theorem~3.1(2)]{DEHMZ}, and
+$\operatorname{gon}_{\mathbf Q}(X)=16$ by Varivoda, Theorem~D.
+Suppose that $D$ is the noncuspidal rational trace divisor of degree $10$
+supplied by a point of order $48$.
+
+Its reduction at $5$ is not entirely cuspidal. Otherwise, lift that
+reduction to an effective cuspidal divisor $C$ over $\mathbf Q_5$.
+The class $[D-C]$ is torsion, by rank zero and Manin--Drinfeld, and has
+zero reduction. Torsion injectivity over $\mathbf Q_5$ gives $D\sim C$.
+Since the two effective divisors are distinct, base change would give
+$h^0(X,D)\geq2$ over $\mathbf Q$, contrary to the gonality bound.
+Write $\overline D=N+C$, with $N\ne0$ noncuspidal and $C$ cuspidal.
+
+We first use the degree-$2$ map
+\[
+ \pi:X\longrightarrow Y,\qquad
+ (E,P)\longmapsto
+ (E/\langle24P\rangle,P_2,\overline P),
+\]
+where $P_2$ is the nonzero dual-kernel point. The point $\overline P$
+has order $24$ and $P_2\ne12\overline P$. The map preserves cusps.
+The Jacobian $J_Y$ has rank $0$, since it is a quotient of $J_X$.
+Thus \cite[Theorem~3.1, Proposition~4.16 and Table~3]{DEHMZ} gives
+\[
+ J_Y(\mathbf Q)=C_Y(\mathbf Q)
+ \simeq C_2\times C_4^2\times C_{120}\times C_{240}.
+\]
+The characteristic-zero cusp blocks are identified by the integral
+modular units $b,d,c^2-4d,x(kQ)$ in the normalization
+$y^2=x^3+cx^2+dx$, $P_2=(0,0)$, $Q=(b,b)$,
+$d=b(1-b-c)$. There are $19$ such blocks, of degrees $1^8,2^6,4^5$;
+their integral identification is retained in
+\path{inputs/integral_unit_blocks.tex}.
+
+The proven finite Picard presentation gives
+\[
+ J_Y(\mathbf F_5)\simeq C_2^2\times C_4^2\times C_{12}
+                 \times C_{24}\times C_{480}^2.
+\]
+The rational cusp blocks generate a subgroup $H$ of order $921600$.
+Thus $H$ is the full specialization image of $J_Y(\mathbf Q)$,
+and $J_Y(\mathbf F_5)/H$ has invariants $[2,2,24,48]$.
+Choose the recorded rational cusp $A$ of $Y$, and let $q$ be the
+quotient map. If $r=\deg N$, we necessarily have
+\[
+ -q[\pi_*N-rA]\in\mathcal C_{10-r},\qquad
+ \mathcal C_e=\{q[C'-eA]:C'\text{ effective cuspidal of degree }e\}.
+ \tag{48.1}
+\]
+Every finite target cusp is allowed. The cardinalities of these sets
+for $e=0,\ldots,7$ are
+\[
+ 1,5,23,75,178,378,661,1065.
+\]
+All pushforwards include their residue-degree multiplicities.
+
+The exhaustive source census at $5$ gives the following noncuspidal
+closed-point counts in degrees $1$ through $10$:
+\[
+ 0,0,16,64,656,2712,10784,48992,217520,977528.
+\]
+The corresponding diamond-orbit counts in degrees $3$ through $10$
+are $2,8,82,342,1348,6172,27190,122318$.
+These counts also agree with the independently computed Frobenius
+polynomial. Since the least noncuspidal degree is $3$, the only mixed
+support types are pairs of total degree at most $10$, and the triples
+$(3,3,3)$ and $(3,3,4)$. Repeated supports are included.
+
+For a single support of degree $9$ or $10$, four quadratic characters
+annihilating $H$ give a preliminary form of (48.1). They are evaluated
+using rational functions with even divisors; the functions, divisor-class
+characters and base values are retained in
+\path{inputs/four_characters.m}. A pole or zero of an evaluation is
+retained for the full class test. Of $149508$ source diamond orbits,
+$12604$ pass this preliminary test, including one pole fallback.
+Their images give $5619$ queries after the rational automorphisms of $Y$.
+The full class test leaves $107$ source cases: $57$ of degree $10$ and
+$50$ of degree $9$ with a cusp complement of degree $1$.
+
+For the lower and mixed supports, we retain every actual closed point
+needed in a second or third summand; only a simultaneous source diamond
+is used to normalize the whole divisor. The $16$ target automorphisms
+are used to cache individual class queries. Their actions are undone
+before summing mixed classes. The $3550$ target queries test all
+$119986$ listed support patterns. Condition (48.1) leaves $243$ cases,
+which give $201$ simultaneous source-diamond orbits.
+Every class query is certified by an exact identity
+$E-R-\operatorname{div}(f)$ in both maximal orders, or by an exact
+factor-base hit. The independent replay also checks the actual point
+coordinates and all norm weights.
+
+It remains to exclude the resulting $308$ cases. For the $107$ cases
+with no cusp complement ($57$ high and $50$ lower cases), Lemma~\ref{lem:decic48NC13} makes
+$A_7N$ principal. For the other $201$ cases ($50$ high and $151$ lower cases), the same lemma makes
+$A_{13}N$ principal, including every possible cuspidal complement.
+We construct these divisors on the full genus-$37$ source, using all
+cyclic $7$- or $13$-kernels with their Frobenius-orbit lengths.
+For a source support of degree $d$ and a kernel orbit of length $e$,
+a target prime of degree $f$ occurs with norm weight $de/f$.
+The marked image retains exact order $48$.
+
+In every one of the $308$ cases the resulting degree-zero divisor
+has Riemann--Roch dimension $0$. All sums, including repeated supports,
+are independently rebuilt in a fresh source function field. Separate
+Sage computations enumerate all geometric cyclic kernels, partition
+by Frobenius, evaluate normalized isogenies and independent pairwise
+V\'elu formulas, and bind the marked source, diamond and target primes
+to those used in the native Riemann--Roch calculations.
+Thus none of the required principal divisors exists, a contradiction.
+\end{proof}

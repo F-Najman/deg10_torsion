@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-10-26T11:30:07.746263+00:00",
+  "worker_pid": 1726218,
+  "worker_start_ticks": 182122513,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P37/rational_isogeny_fibers.m"
+  ],
+  "actual_cmdline": [
+    "/bin/sh",
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P37/rational_isogeny_fibers.m"
+  ],
+  "wall_seconds": 10.001801699167117,
+  "cpu_seconds": 0.0,
+  "state": "S",
+  "wall_cap_seconds": 3600,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T11:30:17.748068+00:00",
+  "termination_reason": null
+}

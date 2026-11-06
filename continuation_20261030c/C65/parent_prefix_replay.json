@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "case": "C65",
+  "method": "Independent Sage jet vectors using F16 coordinate functionals and compiled rank-at-leaf Gaussian elimination; no incremental matroid state reused",
+  "total_configurations": 7170048,
+  "counts_by_max_rational_multiplicity": [
+    [
+      1,
+      1019567
+    ],
+    [
+      2,
+      4152510
+    ],
+    [
+      3,
+      1521680
+    ],
+    [
+      4,
+      377867
+    ],
+    [
+      5,
+      80868
+    ],
+    [
+      6,
+      14956
+    ],
+    [
+      7,
+      2300
+    ],
+    [
+      8,
+      276
+    ],
+    [
+      9,
+      23
+    ],
+    [
+      10,
+      1
+    ]
+  ],
+  "all_prefix_matrices_have_rank10": true,
+  "cpp_sha256": "11b0841ee4e2563f99a9e9db8b0284295a7898636056403551f7e8106f8027ee",
+  "vector_data_sha256": "392c4fc62b006c324d8ce509c2808a5b6655a5c4b93ce0f563dd68cc90e135e2",
+  "seconds": 2.444138288497925
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "diagonal315_D5_RR_primes",
+  "script": "computations/diagonal315_D5_RR_primes.m",
+  "script_sha256": "c4e30697186e34ddd2ddfd36704cdc26f37982384bd388b7e6efcb58ad921636",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/diagonal315_D5_RR_primes.m"
+  ],
+  "pid": 110879,
+  "owner_uid": 1001,
+  "start_time_unix": 1793279283.7097044,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/diagonal315_D5_RR_primes.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 22.65027165412903
+}

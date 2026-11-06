@@ -1,0 +1,11 @@
+Loading "work/deg10/computations/d31b_Y228_A5_common_v3.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/pair_af_place_linear.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/union_cases.m"
+Y228_SHARED_AF_READY 2 15 25 8.140
+Y228_AF_CUBIC_CUSPS_READY 2 23.370
+D31B_Y228_A5_CASE 2 3 3 [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+295.620
+D31B_Y228_A5_CASE 2 9 2 [ 0 ]
+841.970
+D31B_Y228_A5_CASE 2 15 0 [ 0 ]
+1183.620

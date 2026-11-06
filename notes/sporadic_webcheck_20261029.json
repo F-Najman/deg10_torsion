@@ -1,0 +1,441 @@
+{
+  "checked_at_utc": "2026-10-29 14:07:24 UTC",
+  "scope": "Degree 10, among the 66 full torsion types currently realized; not a completed Phi(10) classification.",
+  "known_infinite_family_types": 53,
+  "proved_sporadic_types": [
+    [
+      1,
+      29
+    ],
+    [
+      1,
+      31
+    ],
+    [
+      1,
+      35
+    ],
+    [
+      1,
+      38
+    ],
+    [
+      1,
+      39
+    ],
+    [
+      1,
+      40
+    ],
+    [
+      1,
+      42
+    ],
+    [
+      1,
+      45
+    ],
+    [
+      1,
+      50
+    ],
+    [
+      2,
+      28
+    ],
+    [
+      3,
+      15
+    ]
+  ],
+  "sporadic_status_unsettled_in_current_work": [
+    [
+      1,
+      37
+    ],
+    [
+      2,
+      30
+    ]
+  ],
+  "live_degree10_record_count": 18,
+  "live_degree10_record_ids": [
+    "1.29.10.a",
+    "1.29.10.b",
+    "1.31.10.a",
+    "1.35.10.a",
+    "1.35.10.b",
+    "1.37.10.a",
+    "1.38.10.a",
+    "1.38.10.b",
+    "1.38.10.c",
+    "1.39.10.a",
+    "1.40.10.a",
+    "1.40.10.b",
+    "1.42.10.a",
+    "1.42.10.b",
+    "1.42.10.c",
+    "1.42.10.d",
+    "1.45.10.a",
+    "1.50.10.a"
+  ],
+  "live_representatives": [
+    {
+      "id": "1.29.10.a",
+      "group": [
+        1,
+        29
+      ],
+      "status": "certified",
+      "sporadic": {
+        "value": "yes",
+        "rule": "finitely many points of degree <= 10: rank 0 and 10 < 11 <= gonality of X_1(29) over Q",
+        "sources": [
+          "RankZeroLemma",
+          "DvH14",
+          "DvH14"
+        ]
+      },
+      "url": "https://x1mn-sporadic.github.io/point.html?id=1.29.10.a"
+    },
+    {
+      "id": "1.31.10.a",
+      "group": [
+        1,
+        31
+      ],
+      "status": "certified",
+      "sporadic": {
+        "value": "yes",
+        "rule": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(31) over Q",
+        "sources": [
+          "RankZeroLemma",
+          "DvH14",
+          "DvH14"
+        ]
+      },
+      "url": "https://x1mn-sporadic.github.io/point.html?id=1.31.10.a"
+    },
+    {
+      "id": "1.35.10.a",
+      "group": [
+        1,
+        35
+      ],
+      "status": "certified",
+      "sporadic": {
+        "value": "yes",
+        "rule": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(35) over Q",
+        "sources": [
+          "RankZeroLemma",
+          "DvH14",
+          "DvH14"
+        ]
+      },
+      "url": "https://x1mn-sporadic.github.io/point.html?id=1.35.10.a"
+    },
+    {
+      "id": "1.37.10.a",
+      "group": [
+        1,
+        37
+      ],
+      "status": "verified",
+      "sporadic": {
+        "value": "maybe",
+        "rule": "finitely many points of degree 10 on X_1(37): not decided by any recorded result",
+        "sources": []
+      },
+      "url": "https://x1mn-sporadic.github.io/point.html?id=1.37.10.a"
+    },
+    {
+      "id": "1.38.10.a",
+      "group": [
+        1,
+        38
+      ],
+      "status": "certified",
+      "sporadic": {
+        "value": "yes",
+        "rule": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(38) over Q",
+        "sources": [
+          "RankZeroLemma",
+          "DvH14",
+          "DvH14"
+        ]
+      },
+      "url": "https://x1mn-sporadic.github.io/point.html?id=1.38.10.a"
+    },
+    {
+      "id": "1.39.10.a",
+      "group": [
+        1,
+        39
+      ],
+      "status": "certified",
+      "sporadic": {
+        "value": "yes",
+        "rule": "finitely many points of degree <= 10: rank 0 and 10 < 14 <= gonality of X_1(39) over Q",
+        "sources": [
+          "RankZeroLemma",
+          "DvH14",
+          "DvH14"
+        ]
+      },
+      "url": "https://x1mn-sporadic.github.io/point.html?id=1.39.10.a"
+    },
+    {
+      "id": "1.40.10.a",
+      "group": [
+        1,
+        40
+      ],
+      "status": "certified",
+      "sporadic": {
+        "value": "yes",
+        "rule": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(40) over Q",
+        "sources": [
+          "RankZeroLemma",
+          "DvH14",
+          "DvH14"
+        ]
+      },
+      "url": "https://x1mn-sporadic.github.io/point.html?id=1.40.10.a"
+    },
+    {
+      "id": "1.42.10.a",
+      "group": [
+        1,
+        42
+      ],
+      "status": "certified",
+      "sporadic": {
+        "value": "yes",
+        "rule": "finitely many points of degree <= 10: rank 0 and 10 < 12 <= gonality of X_1(42) over Q",
+        "sources": [
+          "RankZeroLemma",
+          "DvH14",
+          "Varivoda26"
+        ]
+      },
+      "url": "https://x1mn-sporadic.github.io/point.html?id=1.42.10.a"
+    },
+    {
+      "id": "1.45.10.a",
+      "group": [
+        1,
+        45
+      ],
+      "status": "certified",
+      "sporadic": {
+        "value": "yes",
+        "rule": "finitely many points of degree <= 10: rank 0 and 10 < 18 <= gonality of X_1(45) over Q",
+        "sources": [
+          "RankZeroLemma",
+          "DvH14",
+          "Varivoda26"
+        ]
+      },
+      "url": "https://x1mn-sporadic.github.io/point.html?id=1.45.10.a"
+    },
+    {
+      "id": "1.50.10.a",
+      "group": [
+        1,
+        50
+      ],
+      "status": "certified",
+      "sporadic": {
+        "value": "yes",
+        "rule": "finitely many points of degree <= 10: rank 0 and 10 < 15 <= gonality of X_1(50) over Q",
+        "sources": [
+          "RankZeroLemma",
+          "DvH14",
+          "Varivoda26"
+        ]
+      },
+      "url": "https://x1mn-sporadic.github.io/point.html?id=1.50.10.a"
+    }
+  ],
+  "missing_proved_sporadic_types": [
+    [
+      2,
+      28
+    ],
+    [
+      3,
+      15
+    ]
+  ],
+  "missing_unsettled_type": [
+    [
+      2,
+      30
+    ]
+  ],
+  "website_generated": "2026-10-27 06:25 UTC",
+  "missing_type_curve_metadata": [
+    {
+      "m": 2,
+      "n": 28,
+      "label": "X1(2,28)",
+      "torsion": "Z/2 x Z/28",
+      "base_field": "Q",
+      "base_field_degree": 1,
+      "genus": 25,
+      "index": 576,
+      "abramovich_bound": 5.713,
+      "gonality": {
+        "lb": 12,
+        "ub": 12,
+        "exact": true,
+        "lb_source": "NV26",
+        "ub_source": "Najman2026",
+        "source": "Najman2026"
+      },
+      "rank": {
+        "value": 0,
+        "source": "DS17",
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
+      },
+      "degrees_infinite": {
+        "12": "Najman2026"
+      },
+      "degrees_finite": {
+        "1": "Mazur77",
+        "2": "KKM",
+        "3": "JKS04",
+        "4": "JKP06",
+        "5": "DS17",
+        "6": "DS17",
+        "7": "NV26",
+        "8": "NV26",
+        "9": "NV26",
+        "10": "RankZeroLemma",
+        "11": "RankZeroLemma"
+      },
+      "table_note": "DT",
+      "in_tables": true,
+      "n_points": 0,
+      "n_certified": 0,
+      "n_verified": 0,
+      "n_sporadic": 0,
+      "n_isolated": 0,
+      "degrees_present": []
+    },
+    {
+      "m": 2,
+      "n": 30,
+      "label": "X1(2,30)",
+      "torsion": "Z/2 x Z/30",
+      "base_field": "Q",
+      "base_field_degree": 1,
+      "genus": 25,
+      "index": 576,
+      "abramovich_bound": 5.713,
+      "gonality": {
+        "lb": 10,
+        "ub": 12,
+        "exact": false,
+        "lb_source": "NV26",
+        "ub_source": "Najman2026",
+        "source": "NV26"
+      },
+      "rank": {
+        "value": 0,
+        "source": "DS17",
+        "analytic_rank": 0,
+        "analytic_rank_source": "Najman2026"
+      },
+      "degrees_infinite": {},
+      "degrees_finite": {
+        "1": "Mazur77",
+        "2": "KKM",
+        "3": "JKS04",
+        "4": "JKP06",
+        "5": "DS17",
+        "6": "DS17",
+        "7": "NV26",
+        "8": "NV26",
+        "9": "NV26"
+      },
+      "table_note": "DT - todo probaj gon=12",
+      "in_tables": true,
+      "n_points": 0,
+      "n_certified": 0,
+      "n_verified": 0,
+      "n_sporadic": 0,
+      "n_isolated": 0,
+      "degrees_present": []
+    },
+    {
+      "m": 3,
+      "n": 15,
+      "label": "X1(3,15)",
+      "torsion": "Z/3 x Z/15",
+      "base_field": "Q(zeta_3)",
+      "base_field_degree": 2,
+      "genus": 9,
+      "index": 288,
+      "abramovich_bound": 2.856,
+      "gonality": {
+        "lb": 6,
+        "ub": null,
+        "source": "NV26",
+        "exact": false,
+        "lb_source": "NV26",
+        "ub_source": null
+      },
+      "rank": {
+        "value": 0,
+        "source": "DS17"
+      },
+      "degrees_infinite": {},
+      "degrees_finite": {
+        "2": "KKM",
+        "4": "JKP06",
+        "6": "DS17",
+        "8": "NV26",
+        "10": "RankZeroLemma"
+      },
+      "table_note": "",
+      "in_tables": false,
+      "n_points": 0,
+      "n_certified": 0,
+      "n_verified": 0,
+      "n_sporadic": 0,
+      "n_isolated": 0,
+      "degrees_present": []
+    }
+  ],
+  "note": "Counts are torsion-group types, not individual closed points or diamond orbits. Read-only website check; no records were submitted.",
+  "additional_infinite_family_certificates": [
+    {
+      "group": [
+        1,
+        28
+      ],
+      "certificate": "notes/sporadic_check_unit_1_28.json",
+      "sha256": "a33f1f689264742c82b8ca1c6a4cba92a945df9c810d177230ff70f205ce52f5"
+    },
+    {
+      "group": [
+        1,
+        30
+      ],
+      "certificate": "notes/sporadic_check_unit_1_30.json",
+      "sha256": "80d8223b3c64e57f237c543645c9b873ecbb29e2d5a18f79d052f3500fb69269"
+    },
+    {
+      "group": [
+        2,
+        18
+      ],
+      "certificate": "notes/sporadic_check_unit_2_18.json",
+      "sha256": "530ceb46f59d328855c8178d3e60ccf15ded1e422ca9c1f9e73552eb1d14a516"
+    }
+  ],
+  "separate_replay": "jobs/replay_sporadic_family_checks.log",
+  "X1_2_30_search": "Inconclusive: bounded auxiliary search terminated at 120 seconds; not a nonexistence proof."
+}

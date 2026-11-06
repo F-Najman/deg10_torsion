@@ -1,0 +1,75 @@
+30 October 2026 — Phi(10) after the paired C234/C68 and C236/C72 exclusions
+
+CURRENT COUNTS: 68 exact full groups occur; 70 minimal subgroup obstructions
+are excluded; 39 remain unresolved (33 cyclic, 6 noncyclic). The minimal
+frontier still has 109 groups. Phi(10) is INCOMPLETE.
+Use candidates.json/txt and paper/remaining.tex for the current lists.
+
+C2 x C34 AND C68 ARE EXCLUDED. DO NOT RESTART THEIR DISCOVERY JOBS.
+C234_resolution_20261030/resolution.tex proves the result. The complete
+F3 census has 9678 noncuspidal closed points in 209 full level orbits.
+Four maps to X1(34) exclude all 521 support patterns. The full rank-23
+rational cusp-unit lattice has no nonzero vector of squared norm <=60.
+The two largest of four rational fibres of a hypothetical decic pencil
+would give just such a vector. Finite gonality >=10 and this obstruction
+prove rational gonality >=11, which closes entirely cuspidal reduction.
+The final_certificate_summary.json pins the accepted proof and replays.
+
+C2 x C36 AND C72 ARE EXCLUDED. DO NOT RESTART THEIR DISCOVERY JOBS.
+C236_resolution_20261030/geometry/resolution.tex proves the result. The
+F5 source census and complete degree-ten support enumeration give
+135282 patterns. Two maps to X1(2,18) leave 1251, the genus-9 quotient
+leaves 208, and four maps to X1(36) leave exactly the old degree-eight
+support with a quadratic cuspidal complement. All norm multiplicities
+and nonrational cusp complements are included.
+
+For that support, g(P,Q)=(P+18Q,P+Q) has order four and free cusp orbits.
+The quotient W has genus 11. Its cyclic Kummer model gives 23 character
+Riemann-Roch tests: two quadratic quotient cusps and 21 rational-cusp
+pairs with repetitions. Every character dimension tuple is (1,0,0,0).
+Rank-zero torsion injectivity and equality of effective degree-16
+divisors force a degree-two cusp divisor to be g-invariant, impossible.
+This works for an arbitrary rational effective divisor with entirely
+noncuspidal global support; irreducibility is not required.
+
+The full geometric principal cusp lattice, intersected with Frobenius-5
+invariants, has rank 35 in 64 geometric cusp coordinates. Among 24552
+short-vector pairs of squared norm <=104 none has positive degree ten.
+Two of the six rational fibres of a hypothetical finite decic pencil
+would give such a vector. NV Table 1 gives gon_F5>=10, so specialization
+of a saturated QQ decic pencil cannot drop degree or acquire basepoints.
+A rational finite fibre with NC support lifts to a QQ fibre avoiding
+all global cusps, contradicting the finite sieve and exceptional lemma.
+Thus gon_Q>=11; the shared rank-zero reduction lemma closes pure cusp
+reduction. See proof_audit.txt for the complete scope audit.
+
+All source/filter integer arithmetic and finite projections have separate
+replays. Second native replays reconstruct 58728 projected target images:
+58501 exact finite AND infinite ideal identities and 227 direct factorbase
+cases. The boundary lattice was independently reconstructed and enumerated
+using Sage/PARI. C236 final_certificate_summary.json pins completed
+primary evidence and explicitly separates failed diagnostic jobs.
+
+PRESERVE EARLIER RESULTS. C232/C64 and C226/C52 remain resolved; the two
+C2 x C26 occurrences have exact full torsion and are live at the sporadic
+website as 2.26.10.a and 2.26.10.b. Prior handoffs are archived as
+continuation_before_C234_C236.txt and continuation_before_C232.txt.
+
+NEXT PAIRED CASE: C2 x C42 -> C84. This has not been started here.
+The remaining C3 x C18 case requires its rational-image argument; do not
+assume cuspidal saturation. Relative quintic analysis is needed for
+C3 x C27,33,39 and C4 x C28. Other cyclic obstructions remain exactly
+as listed in candidates.txt. Failed modular-unit searches do not exclude
+isolated low-degree points.
+
+LIFECYCLE: all paired-case workers, supervisors, and launchers have exited.
+No paused or obsolete Magma computation remains in degree ten. Useful
+unrelated work has been preserved. Continue to leave two host cores idle.
+Earlier degree-six through nine proof files remain protected by their
+original manifest. Run candidates.py and verify_project.py after any
+accepted evidence change. The integrated paper is 33 pages.
+
+FINAL AUDIT: validation.json passes with 1777 accepted evidence files,
+591 recorded jobs all exited, and 25 protected earlier files unchanged.
+The 33-page paper compiles without errors or overfull boxes. The 135
+unsuccessful or terminated diagnostic probes are not promoted to proofs.

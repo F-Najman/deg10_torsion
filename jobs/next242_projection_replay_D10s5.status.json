@@ -1,0 +1,18 @@
+{
+  "purpose": "next242_projection_replay_D10s5",
+  "script": "computations/next242_projection_replay_D10s5.py",
+  "script_sha256": "fb3abd0fa089566480ce39de2cb45807a9abbdb2f5cdc7b3c2e37abfd869e2f5",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_projection_replay_D10s5.py"
+  ],
+  "pid": 2379062,
+  "owner_uid": 1001,
+  "start_time_unix": 1793381981.417681,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next242_projection_replay_D10s5.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 8.180280685424805
+}

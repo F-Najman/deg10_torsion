@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "groups": [
+    [
+      3,
+      33
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Complete C3xC33 decic exclusion: exact anti-invariant winding over Q and its -3 twist; relative F4 formal-fibre criterion at all1086016 cuspidal divisors with independent analytic jets and native cotangent frame; twelve exact cyclic33 rational-trace Hecke exclusions with75 genuine marked isogenies and80 fresh native primes",
+  "frozen_summary_sha256": "0be74b943516696c8bc9c53d14c22718215089723f9c8e24e96d7143717698cc",
+  "classification_complete": false
+}

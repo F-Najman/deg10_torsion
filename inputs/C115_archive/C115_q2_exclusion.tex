@@ -1,0 +1,66 @@
+\begin{proposition}\label{prop:nonic-no115}
+An elliptic curve over a number field of degree $9$ has no point of order $115$.
+\end{proposition}
+\begin{proof}
+Put $J=J_1(115)$ and $A=(\langle16\rangle-1)J$.
+The projective order of $16$ modulo $115$ is $11$.
+An exact computation identifies $A$ with the isogeny factors from the
+three character orbits of orders $44$, $11$ and $22$.
+Each has relative cuspidal dimension $10$, and
+\[
+ \dim A=10\bigl(\varphi(44)+\varphi(11)+\varphi(22)\bigr)=400.
+\]
+All three components have full winding submodule, by the complete
+level-$115$ winding record. Thus $A(\mathbb Q)$ is finite by Kato's theorem.
+
+We show that its order is odd. The variety $A$ has good reduction at $3$.
+For each of the three characters $\chi$, form the exact determinant
+\[
+ h_\chi=\det\bigl((1+3\chi(3))I-T_3\mid S_\chi\bigr),
+\]
+where $S_\chi$ is the complete sign-one cuspidal modular-symbol space,
+including all oldforms. Its matrices are defined over
+$L=\mathbb Q(\zeta_{44})$. The following table records the norm and
+its relation to the finite reduction order of the corresponding
+character component $A_\chi$:
+\[
+\begin{array}{r|r|r|r|c}
+ \operatorname{ord}\chi&\dim_L S_\chi&[L:\mathbb Q]&
+ [L:\mathbb Q(\chi)]&N_{L/\mathbb Q}(h_\chi)\bmod2\\\hline
+ 44&10&20&1&1\\
+ 11&10&20&2&1\\
+ 22&10&20&2&1
+\end{array}
+\]
+The characteristic polynomial of Frobenius gives
+\[
+ N_{L/\mathbb Q}(h_\chi)
+ =\#A_\chi(\mathbb F_3)^{[L:\mathbb Q(\chi)]}.
+\]
+Every norm is odd, so every $\#A_\chi(\mathbb F_3)$ is odd.
+The finite reduction order is invariant under isogeny; hence
+$\#A(\mathbb F_3)$ is odd. Injectivity of reduction on $2$-primary
+torsion gives $A(\mathbb Q)[2^\infty]=0$.
+In particular, $(\langle16\rangle-1)J(\mathbb Q)$ is finite of odd order.
+
+We can therefore apply \cite[Proposition~4.4]{DN} at $q=2$.
+Its required hypothesis on the $2$-primary part is satisfied.
+Here $k_2=2(2+1)=6$, and
+\[
+ 9k_2=54<\frac{325\cdot6336}{32768}
+       =\frac{32175}{512}
+       \leq\operatorname{gon}_{\mathbb C}X_1(115).
+\]
+Thus the trace divisor of a hypothetical degree-nine torsion point
+is stable under $\langle16\rangle$. The least degree of a CM point
+on $X_1(115)$ is $88$, so its support has no CM points.
+The free action of this order-$11$ diamond would force $11\mid9$,
+a contradiction.
+
+The three exact determinants, their defining field polynomial and
+norms are preserved in \texttt{C115\_norm\_order*.json}.
+The computation \texttt{C115\_image\_even\_orders\_certified.m}
+is replayed independently by \texttt{replay\_C115\_norms.py}, which
+computes each norm as an exact polynomial resultant and checks its parity.
+The larger integral-homology diagnostic is not used in this proof.
+\end{proof}

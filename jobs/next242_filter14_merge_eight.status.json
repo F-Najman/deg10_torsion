@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_filter14_merge_eight",
+  "script": "computations/next242_filter14_merge_eight.m",
+  "script_sha256": "a8630596d514e2b4f972c550e91e4e544d767a3c04d1efc54adccc6813beedd2",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_filter14_merge_eight.m"
+  ],
+  "pid": 2378148,
+  "owner_uid": 1001,
+  "start_time_unix": 1793381940.3440616,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/next242_filter14_merge_eight.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.9154188632965088
+}

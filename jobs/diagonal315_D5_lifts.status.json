@@ -1,0 +1,19 @@
+{
+  "purpose": "diagonal315_D5_lifts",
+  "script": "computations/diagonal315_D5_lifts.m",
+  "script_sha256": "29f1a518e7eecad4cd01f1dae301c57ba536f6e1d7056d9f8dc6299194f5d695",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/diagonal315_D5_lifts.m"
+  ],
+  "pid": 94540,
+  "owner_uid": 1001,
+  "start_time_unix": 1793278528.4856644,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/diagonal315_D5_lifts.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.7148251533508301
+}

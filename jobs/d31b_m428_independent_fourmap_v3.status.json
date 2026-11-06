@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m428_independent_fourmap_v3",
+  "script": "computations/d31b_m428_independent_fourmap_v3.py",
+  "script_sha256": "f653a0c3abe973770b01d25e55c5631fe55958a32e1ad504d632c45fe626df50",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m428_independent_fourmap_v3.py"
+  ],
+  "pid": 3565872,
+  "owner_uid": 1001,
+  "start_time_unix": 1793437965.616382,
+  "state": "EXITED",
+  "time_limit_seconds": 700,
+  "log": "jobs/d31b_m428_independent_fourmap_v3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.266655921936035
+}

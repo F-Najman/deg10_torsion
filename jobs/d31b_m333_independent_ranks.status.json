@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m333_independent_ranks",
+  "script": "computations/d31b_m333_independent_ranks.py",
+  "script_sha256": "4487ac4b9ecc63f5c761ba1549475d800ad7f5d2a76dbcbf01ae0b0a3073e84f",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_independent_ranks.py"
+  ],
+  "pid": 3615723,
+  "owner_uid": 1001,
+  "start_time_unix": 1793440134.1524982,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31b_m333_independent_ranks.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 9.734260320663452
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "new234_short_cusp_units",
+  "script": "computations/new234_short_cusp_units.m",
+  "script_sha256": "1ba98f522d5c4ddbfe288621e5fbf1126a8dffd2400e2941bf8fdb35937d35a0",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new234_short_cusp_units.m"
+  ],
+  "pid": 1886303,
+  "owner_uid": 1001,
+  "start_time_unix": 1793360427.8417869,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/new234_short_cusp_units.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.06402897834777832
+}

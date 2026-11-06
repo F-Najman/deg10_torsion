@@ -1,0 +1,25 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(8*10^9);Alarm(1140);tt:=Cputime();
+F0<t>:=FunctionField(GF(2));b:=t^2*(t-1)*(t^2-t+1);c:=t^2*(t-1);E9:=EllipticCurve([1-c,-b,-b,F0!0,F0!0]);assert 9*(E9![0,0]) eq E9!0 and 3*(E9![0,0]) ne E9!0;
+f:=DivisionPolynomial(E9,7);assert Degree(f) eq 24 and IsIrreducible(f);AF<u>:=FunctionField(f);assert Genus(AF) eq 49;jaf:=AF!jInvariant(E9);
+Omega,om:=SpaceOfHolomorphicDifferentials(AF);B:=[om(v):v in Basis(Omega)];g:=49;k:=GF(2);CM:=Matrix(k,[Eltseq(Cartier(w)@@om):w in B]);U:=RowSpace(CM-IdentityMatrix(k,g));assert Dimension(U) eq 45;
+cs_all:=[];basecs:=Poles(jInvariant(E9));
+for p0 in basecs do for p in Decomposition(AF,p0) do if p notin cs_all and Valuation(jaf,p) lt 0 then Append(~cs_all,p);end if;end for;end for;
+ds:=[Degree(p):p in cs_all];assert ds eq [3,1,1,1,3,1,1,1,6,2,2,2,3,3,3,3,3,3,3,1,1,1];assert &+[-Valuation(jaf,p)*Degree(p):p in cs_all] eq 864;
+function ER(v)return [[Integers()!q:q in Coefficients(Numerator(v))],[Integers()!q:q in Coefficients(Denominator(v))]];end function;
+function EF(v)return [ER(q):q in Eltseq(AF!v)];end function;
+function MB(M)return [*Nrows(M),Ncols(M),[Integers()!q:q in Eltseq(M)]*];end function;
+model:=[* [ER(q):q in Coefficients(f)],EF(jaf),MB(CM),MB(BasisMatrix(U)),ds*];
+Write("work/deg10/continuation_20261031a/C63/model_3.m",Sprint(model):Overwrite:=true);
+printf "D31A_C63_HIGH_SETUP part=3 genus49=true U45=true cusp_signature=true time=%o\n",Cputime(tt);
+ans:=[* *];
+for i in [20, 21, 22] do
+ p:=cs_all[i];d:=Degree(p);m:=10 div d;assert m*d eq 10;
+ printf "D31A_C63_HIGH_KERNEL_START part=3 cusp=%o degree=%o multiplicity=%o time=%o\n",i,d,m,Cputime(tt);
+ VV,vvmap:=DifferentialSpace(m*Divisor(p));VO:=VectorSpace(k,g);W:=sub<VO|[VO!Eltseq(vvmap(v)@@om):v in Basis(VV)]>;
+ rr:=Dimension(U)-Dimension(U meet W);assert rr eq 10;
+ gg,hh:=TwoGenerators(p);OO:=IsFinite(p) select MaximalOrderFinite(AF) else MaximalOrderInfinite(AF);assert ideal<OO|gg,hh> eq Ideal(p);
+ Append(~ans,[*i,d,m,MB(BasisMatrix(W)),rr,IsFinite(p) select 1 else 0,[EF(gg),EF(hh)]*]);
+ Write("work/deg10/continuation_20261031a/C63/high_kernels_3.m",Sprint(ans):Overwrite:=true);
+ printf "D31A_C63_HIGH_KERNEL_DONE part=3 cusp=%o rank=%o time=%o\n",i,rr,Cputime(tt);
+end for;
+printf "D31A_C63_HIGH_COMPLETE part=3 tests=%o all_rank10=true time=%o\n",#ans,Cputime(tt);quit;

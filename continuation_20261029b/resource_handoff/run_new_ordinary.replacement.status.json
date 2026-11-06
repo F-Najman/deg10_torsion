@@ -1,0 +1,11 @@
+{
+  "purpose": "Continue existing degree-18 computations at user-authorized lower concurrency",
+  "state": "EXITED",
+  "pid": 889031,
+  "owner_uid": 1001,
+  "start_time_unix": 1793314119.4329913,
+  "script": "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/run_new_ordinary.py",
+  "script_sha256": "adcf579efeddc1b763f3d6dbbfb41d1bf6ee21b36f3be60cbac28659209a96e3",
+  "actual_exit_code": 0,
+  "elapsed_seconds": 1268.8710215091705
+}

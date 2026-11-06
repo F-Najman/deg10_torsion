@@ -1,0 +1,87 @@
+[
+  {
+    "source": "work/deg10/continuation_20261031a/C54/inputs/native_group_generators.m",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/native_group_generators.m",
+    "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/inputs/portable_forward.m",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/portable_forward.m",
+    "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/inputs/pair_af_place_linear.m",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/inputs/Varivoda_2610.00219v1.pdf",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/Varivoda_2610.00219v1.pdf",
+    "sha256": "246a8196fe7d15acee9322297c2d5d4f618ad6bcfed6e6b2e0a30c5f3f9ba481"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/inputs/accepted_quintic_paper.tex",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/accepted_quintic_paper.tex",
+    "sha256": "14f89d7b64bd2daa99f42323c0898a4b04fcfd9f429576da3d82b2fa6bb60fe6"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/inputs/DEHMZ.tex",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/DEHMZ.tex",
+    "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/inputs/fast_hecke.m",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/source54_p5.json",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/source54_p5.json",
+    "sha256": "9d3c823c4913fe61c0f735eda3d22ac303535e8acc53a45ce372332b46633769"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/low_actual_source.m",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/low_actual_source.m",
+    "sha256": "941e2da9d3114be46f8017734896b8dbefbc9b9843e2782bf1958d609e7baa9b"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/target27_proven_picard.m",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/target27_proven_picard.m",
+    "sha256": "f1ca3bb79b916974d6ccd259ae64c48b4fe2bf57b3468c2f7b46757962e629e3"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/source_census_verified.json",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/source_census_verified.json",
+    "sha256": "410b7f7d040ef31bc3e0f280d05def2e69d2f685e34fd57f8e58a672a91ddc3f"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/cusp_actions_p5.json",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/cusp_actions_p5.json",
+    "sha256": "8f6318b47aee8aed935094034379cc8eeb2d6c4d07dc90c0911999c7585e22d5"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/gonality.tex",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/gonality.tex",
+    "sha256": "e2171a645733c0e5b7caf56a8b9f7db0a59c8ed02ec892f2f32ec2b23497c103"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/reduction_degree10.tex",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/reduction_degree10.tex",
+    "sha256": "3e8695ec8a302512b20dfbb1724df45403a3190b9eccb4a52a8655e529c6771d"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C54/parent_gonality_controls.json",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/parent_gonality_controls.json",
+    "sha256": "ab09362acd9d27529a0a680d3f0610415bf9c29b0f3f16c4a3f80c4ae28836a1"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C54/CM54_minimum_check.json",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/CM54_minimum_check.json",
+    "sha256": "60e93613cc4b1ec62af9221e821685de073851c76b0e8d1d531644c5b9344d96"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C133/retained/dcm_list_all_min_orders_X1_10k.m",
+    "copy": "work/deg10/continuation_20261031b/C54/inputs/CGPS_CM_minimum_degrees.m",
+    "sha256": "020ba11c347b70aafd59099994d5df55d969ffeaff468ced1a06ae97868b64cc"
+  }
+]

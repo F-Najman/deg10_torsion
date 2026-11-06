@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_Y228_known_decic_binding_sage",
+  "script": "computations/d31b_Y228_known_decic_binding_sage.py",
+  "script_sha256": "328838be89a8da92e3e7cae0fbd50912d61517f835130b132535c2938a293f46",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_known_decic_binding_sage.py"
+  ],
+  "pid": 3603694,
+  "owner_uid": 1001,
+  "start_time_unix": 1793439626.2173772,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/d31b_Y228_known_decic_binding_sage.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5146279335021973
+}

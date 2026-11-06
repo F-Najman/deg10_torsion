@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "native_RR_tests_bound_to_genuine_isogenies": 21,
+  "actual_geometric5_kernels": 36,
+  "manual_Velu_checks": 72,
+  "independent_full_matrix_boundary_patterns": 239226,
+  "independent_new_high_kernel_rank_checks": 12,
+  "total_pure_cusp_patterns": 239238,
+  "all_cusp_ranks": 10,
+  "nonglobal_width1_cubic_cusps": 3,
+  "Gal5_on_three_closed_cusps": "3-cycle; all six ordered pairs tested",
+  "old_RR_kernel_equalities_independently_replayed": 121,
+  "elapsed_seconds": 1.2756297588348389
+}

@@ -1,0 +1,61 @@
+{
+  "status": "PASS: C77 excluded over degree10 number fields",
+  "finished_utc": "2026-10-30T20:42:22.833368+00:00",
+  "source_level": 77,
+  "source_genus": 181,
+  "source_index": 2880,
+  "quotient_genus": 37,
+  "source_quotient_degree": 5,
+  "quotient_to_X0_degree": 6,
+  "finite_image_operator": "T2",
+  "source_winding_dimension_accounted": 181,
+  "nonwinding_dimension": 1,
+  "T2_zero_on_nonwinding_quotient": true,
+  "source_closed_NC_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    90
+  ],
+  "new_source_diamond_orbits": 3,
+  "source_curve_group": "C1078",
+  "pure_cusp": {
+    "patterns": 4992,
+    "ordinary_patterns": 4989,
+    "special_5Q_patterns": 3,
+    "Cartier_image": "C(C-1)",
+    "image_dimension": 32,
+    "restriction_rank": 10,
+    "RR_blocks": 69,
+    "retained_blocks_reidentified": 60,
+    "new_native_geometric_controls": 2
+  },
+  "noncuspidal": {
+    "operator": "A3*T2",
+    "delta2_physical_action": "t->(t+1)/t, s->s, z->z+1",
+    "delta3_is_delta2_inverse": true,
+    "divisor_formula": "T+2delta(T)-7P-2delta(P)-3delta^(-1)(P)",
+    "positive_degree_before_cancellation": 120,
+    "AS_lift_allocations": [
+      4,
+      16,
+      4
+    ],
+    "total_allocations": 24,
+    "all_primary_h0": 0,
+    "all_fresh_native_h0": 0,
+    "positive_T3_moduli_bindings": 24,
+    "independent_marked_Velu3_kernels": 12,
+    "independent_marked_Velu11_quotients": 15,
+    "all_norm_weights": 1
+  },
+  "prime_encoding": "TwoGenerators with exact generated-ideal and function roundtrip checks; all native RR uses Reduction=false,Simplification=None",
+  "proof": "continuation_20261030b/C77/resolution.tex",
+  "proof_scope": "Arbitrary rational effective degree10 divisors with entirely noncuspidal support; local cubic cusp traces are allowed."
+}

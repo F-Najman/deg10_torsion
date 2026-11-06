@@ -1,0 +1,33 @@
+{
+  "rows": {
+    "27": {
+      "least_CM_degree": 9,
+      "number_minimizing_orders": 1,
+      "orders_conductor_fundamental_discriminant_classnumber": [
+        [
+          3,
+          -3,
+          1
+        ]
+      ]
+    },
+    "54": {
+      "least_CM_degree": 18,
+      "number_minimizing_orders": 1,
+      "orders_conductor_fundamental_discriminant_classnumber": [
+        [
+          1,
+          -8,
+          1
+        ]
+      ]
+    }
+  },
+  "CGPS_table": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/realizations/continuation/C133/retained/dcm_list_all_min_orders_X1_10k.m",
+  "CGPS_table_sha256": "020ba11c347b70aafd59099994d5df55d969ffeaff468ced1a06ae97868b64cc",
+  "CCRS_nonic_section": "../../cm/degree9_section.txt",
+  "CCRS_nonic_section_sha256": "4ff89fa132a6560d4959d5f7b92a4f9f3110c023bbcbe6af1494c21e26a9c9db",
+  "nonic_C27_example_j": -12288000,
+  "CM_C54_impossible_over_degree9": true,
+  "reason": "A point of order27 and a nonzero point of order2 over the same field sum to a point of order54; its CM modular-point degree is at least18. The unique order attaining CM27 degree9 has discriminant\u221227, so j0 does not supply a nonic27-point."
+}

@@ -1,0 +1,25 @@
+{
+  "complete_finite_census": true,
+  "degree": 9,
+  "no_exclusion_claimed_alone": true,
+  "all_selected_curve_orders_independent_direct_count": true,
+  "script_actual_exit_code": 0,
+  "script_wall_seconds": 0.099174771,
+  "files": [
+    {
+      "path": "census39_F512.py",
+      "sha256": "b04b98ab72e2b8af4ef698f2e91a800b7284da0c389b2defb9b04cd85968eca2",
+      "bytes": 3700
+    },
+    {
+      "path": "census39_F512.json",
+      "sha256": "e9a860837e5be7f7bd6fe0852477a00b56ebde81672c6dcf39ed72936566a2c7",
+      "bytes": 12162
+    },
+    {
+      "path": "census39_F512.tex",
+      "sha256": "8740650d90d15e773beebcab67316d739f8e58711d9d92611e6213f9fbcfa6a8",
+      "bytes": 2576
+    }
+  ]
+}

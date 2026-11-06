@@ -1,0 +1,33 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(7*10^9);tt:=Cputime();SetUseMontes(FldFun,true);
+k:=Rationals();PP:=PolynomialRing(k);B<t>:=FunctionField(k);R<Y>:=PolynomialRing(B);
+model:=eval Read("work/deg10/C226_resolution_20261030/Q_model_fast.m");
+function EQ(v) return k!v[1]/k!v[2];end function;
+function ER(v) return B!(PP![EQ(a):a in v[1]])/B!(PP![EQ(a):a in v[2]]);end function;
+g:=R![ER(v):v in model[1]];F<z>:=FunctionField(g);
+function EF(v) return F![ER(a):a in v];end function;
+function SQ(v) return [Numerator(v),Denominator(v)];end function;
+function SR(v) return [[SQ(x):x in Coefficients(Numerator(v))],[SQ(x):x in Coefficients(Denominator(v))]];end function;
+function SF(v) return [SR(x):x in Eltseq(F!v)];end function;
+OF:=MaximalOrderFinite(F:Al:="Montes");OI:=MaximalOrderInfinite(F);b:=EF(model[2]);c:=EF(model[3]);
+ci:=eval Read("work/deg10/C226_resolution_20261030/Q_cusp_ideals_portable.m");cs:=[];labels:=[];
+for row in ci do OO:=row[2] eq 1 select OF else OI;J:=ideal<OO|[EF(v):v in row[3]]>;p:=Place(J);assert Degree(p) eq 1;Append(~cs,p);Append(~labels,row[1]);end for;
+a:=eval Read("work/deg10/C226_resolution_20261030/pencil_inputs.m");row:=[r:r in a[2]|r[1] eq CLASS][1];co:=row[2];
+AA:=&+[Maximum(0,co[i])*Divisor(cs[Index(labels,a[1][i])]):i in [1..18]];BB:=&+[Maximum(0,-co[i])*Divisor(cs[Index(labels,a[1][i])]):i in [1..18]];L:=AA-BB;assert Degree(L) eq 10;
+neg:=[cs[Index(labels,a[1][i])]:i in [1..18]|co[i] lt 0];assert &and[v ge -1:v in co];
+print "Q226_EXACT_POSITIVE_RR_START",CLASS,Degree(AA),Cputime(tt);ba:=Basis(AA:Reduction:=false,Simplification:="None");assert #ba in [1,2];
+Write(Sprintf("work/deg10/C226_resolution_20261030/positive_basis_%o.m",CLASS),Sprint([SF(h):h in ba]):Overwrite:=true);
+print "Q226_EXACT_POSITIVE_RR_READY",CLASS,#ba,Cputime(tt);M:=Matrix([[Rationals()!Evaluate(h,p):p in neg]:h in ba]);U:=Nullspace(M);bs:=[&+[v[i]*ba[i]:i in [1..#ba]]:v in Basis(U)];assert #bs le 1;
+Write(Sprintf("work/deg10/C226_resolution_20261030/exact_RR_%o.m",CLASS),Sprint([*CLASS,co,#ba,#bs,[[SQ(v):v in Eltseq(r)]:r in Rows(M)],[SF(h):h in bs]*]):Overwrite:=true);
+print "Q226_EXACT_RR_DIMENSION",CLASS,#bs,Cputime(tt);
+if #bs eq 1 then
+ h:=bs[1];assert &and[Evaluate(h,p) eq 0:p in neg];IA,JA:=Ideals(AA);IB,JB:=Ideals(BB);IE:=(h*OF)*IA/IB;JE:=(h*OI)*JA/JB;assert IsIntegral(IE) and IsIntegral(JE);
+ Write(Sprintf("work/deg10/C226_resolution_20261030/effective_ideals_%o.m",CLASS),Sprint([*[SF(v):v in Basis(IE)],[SF(v):v in Basis(JE)]*]):Overwrite:=true);
+ print "Q226_EFFECTIVE_IDEALS_SAVED",CLASS,Cputime(tt);fac:=Factorization(IE) cat Factorization(JE);pls:=[Place(r[1]):r in fac];mults:=[r[2]:r in fac];assert &+[Degree(pls[i])*mults[i]:i in [1..#pls]] eq 10;print "Q226_EXACT_EFFECTIVE_SUPPORT",CLASS,[Degree(p):p in pls],mults,Cputime(tt);
+ records:=[* *];
+ for i in [1..#pls] do
+  p:=pls[i];K:=ResidueClassField(p);bk:=Evaluate(b,p);ck:=Evaluate(c,p);E:=EllipticCurve([K|0,ck,0,bk*(1-bk-ck),0]);P:=E![0,0];Q:=E![bk,bk];assert Discriminant(E) ne 0 and P ne E!0 and 2*P eq E!0 and 26*Q eq E!0 and 13*Q ne E!0 and 2*Q ne E!0 and P ne 13*Q;
+  kp:=Type(K) eq FldRat select [k|0,1] else Coefficients(DefiningPolynomial(K));Append(~records,[*[SQ(v):v in kp],[SQ(v):v in Eltseq(K!bk)],[SQ(v):v in Eltseq(K!ck)],mults[i]*]);print "Q226_EXACT_NONCUSPIDAL_POINT",CLASS,i,Degree(p),Cputime(tt);
+ end for;
+ Write(Sprintf("work/deg10/C226_resolution_20261030/exact_points_%o.m",CLASS),Sprint(records):Overwrite:=true);
+end if;
+print "Q226_EXACT_CLASS_COMPLETE",CLASS,Cputime(tt);quit;

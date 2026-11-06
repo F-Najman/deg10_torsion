@@ -1,0 +1,14 @@
+Loading "work/deg10/C232_resolution_20261030/deps/native_group_generators.m"
+Loading "work/deg10/C232_resolution_20261030/deps/class_group_direct_RR_checked_v4_fastfb.m"
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/shared/mdmagma/v2/modular_curves/X11.m", line 192, column 37:
+>>         if line[1] eq "t" then t := eval(val); end if;
+                                       ^
+
+In eval expression, line 1, column 188:
+>>  3*u^3*v^4 - 3*u^3*v^2;
+                         ^
+    Located in file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/shared/mdmagma/v2/modular_curves/X11.m", at line 192, column 37:
+    >>         if line[1] eq "t" then t := eval(val); end if;
+                                           ^
+User error: bad syntax
+

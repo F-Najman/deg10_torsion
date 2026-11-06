@@ -1,0 +1,121 @@
+\subsection{Excluding order $37$}
+\begin{proposition}\label{prop:nonic37-exclusion}
+An elliptic curve over a number field of degree $9$ has no point of order $37$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(37)$ and $J=J_1(37)$.
+Since $37\notin S(1)\cup S(3)$, a hypothetical point gives a
+noncuspidal closed point of exact degree $9$ on $X$; write $D$ for
+its rational effective divisor. By
+\cite[Proposition~5.2 and Table~2]{DSPrime}, the prime $37$ is not
+strange. Therefore $(\langle a\rangle-1)J(\mathbb Q)$ is finite
+for every diamond operator.
+
+We first verify that reduction at $2$ is injective on
+$J(\mathbb Q)_{\mathrm{tors}}$.
+On the actual integral homology of $J$, computed using
+\texttt{JOne(37)} with sign $0$, the common kernel modulo $2$ of
+\[
+ A_3=T_3-1-3\langle3\rangle,\qquad
+ A_5=T_5-1-5\langle5\rangle
+\]
+is zero. The homology has rank $80$, and an independent binary
+replay verifies this common kernel directly from the integral
+matrices. Eichler--Shimura implies $J(\mathbb Q)[2]=0$.
+The kernel of reduction on rational torsion at $2$ is killed by $2$,
+by \cite[proof of Proposition~3.4]{DKSS}; hence this kernel is zero.
+
+The cusp degrees modulo $2$ are $1^{18},18$.
+The formal immersion computation of
+\cite[Corollary~4.4, Corollary~5.2 and Proposition~5.3]{DKSS},
+using the full genus-$40$ curve, $t_0=T_2$ and $q=7$, excludes
+cuspidal reduction. The independent binary replay checks all
+$287743$ normalized cusp-prefix configurations of degree $9$ and
+finds rank $9$ in every case.
+
+Complete finite-field enumeration shows that the noncuspidal
+support can have degree only $6,7$ or $9$. The remaining degree is
+supported on rational cusps. Put $\alpha=\langle2\rangle-1$.
+The divisor $\alpha A_3P$ must be principal for each such
+noncuspidal support point $P$: $\alpha J(\mathbb Q)$ is finite,
+$A_3$ annihilates rational torsion, and $A_3$ kills rational cusps
+as divisors. Full-source Riemann--Roch computations give:
+\[
+\begin{array}{c|r|r|r}
+\deg P&\text{closed points}&\text{diamond orbits}&
+ \text{orbits surviving }\alpha A_3\\\hline
+6&21&2&1\\
+7&18&1&0\\
+9&39&4&2
+\end{array}
+\]
+Independent enumeration of all curves, twists and level structures
+verifies these counts and every orbit. All four untouched native
+$3$-isogenies on each of the seven representatives agree with the
+faster kernel computation, including diamond-$2$ images, closed
+degrees and norm multiplicities.
+
+Consider the two surviving degree-$9$ orbits. They contain two
+points and one point respectively, all fixed by $h=\langle4\rangle$,
+of order $9$. This is checked directly on their level structures.
+The class $[hD-D]$ is rational torsion: its difference from an element
+of $(h-1)J(\mathbb Q)$ is cuspidal. It reduces to zero, so the
+injectivity proved above gives $hD\sim D$.
+By \cite[Theorem~1]{DvH}, $\operatorname{gon}_{\mathbb Q}(X)=18$,
+and therefore $hD=D$.
+The point cannot be CM, by \cite[Section~4.9]{CCRS}.
+Thus its nine geometric points have trivial diamond stabilizers
+and form a single $\langle h\rangle$-orbit. Their image is a
+rational noncuspidal point of $X/\langle h\rangle$, hence of $X_0(37)$.
+
+There are exactly two noncuspidal rational points on $X_0(37)$,
+as recorded in \cite[p.~129]{MazurIsog}. Their $j$-invariants are
+$-9317$ and $-162677523113838677$.
+For the respective rational models with Cremona labels
+\texttt{1225h1} and \texttt{1225h2}, complete factorization of the
+$37$-division polynomial gives $x$-coordinate factor degrees
+\[
+ (6,6,6,666),\qquad(18,222,222,222).
+\]
+The two models are joined by an explicitly verified $37$-isogeny.
+Every factor degree is even, so neither $j$-invariant permits
+$37$-torsion over an odd-degree field. This argument applies to
+arbitrary quadratic twists over that field, since their
+$x$-coordinates identify over the field itself. This excludes
+the degree-$9$ reduction classes.
+
+It remains to treat $\overline D=P+C'$, with $\deg P=6$ and
+$\deg C'=3$. The surviving degree-$6$ diamond orbit has three
+closed points. Each is the reduction of a sextic closed point
+above $j=-9317$. We verify this directly: the three sextic factors
+of the division polynomial of \texttt{1225h1} remain distinct and
+irreducible modulo $2$, and their exact Tate-coordinate reductions
+are precisely these three finite-field places. For a chosen $P$,
+let $S$ be its rational effective sextic lift and let $C$ be the
+rational cuspidal lift of $C'$. Then
+\[
+ \alpha[D-S-C]\in J(\mathbb Q)_{\mathrm{tors}}
+\]
+reduces to zero. Hence $\alpha[D-S-C]=0$.
+
+The pullback image of $\alpha$ on holomorphic differentials of
+$X_{\mathbb F_2}$ has dimension $38$.
+In one global differential basis, we compute the diamond-$2$
+matrix, verify its order $18$, and export restrictions at $P$ and
+all eighteen rational cusps. For each of the
+$\binom{20}{3}=1140$ effective rational-cuspidal divisors $C'$ of
+degree $3$, restriction from this image to $P+C'$ has rank $9$.
+Independent binary replay verifies the image basis, every
+projection, and all $1140$ ranks. A native differential-space
+calculation also verifies rank $9$ at $P+3c$ for one rational cusp
+$c$. The image is stable under diamonds, so this covers all three
+choices of $P$.
+
+Thus the map $\alpha\circ\iota:X^{(9)}\to J$, with any rational
+cuspidal base point used to define $\iota$, is a formal immersion
+at $P+C'$. The two rational effective divisors $D$ and $S+C$ have
+the same reduction and the same image under this map, and are
+therefore equal. Since $S+C$ is reducible and $D$ is a closed
+point of degree $9$, this is a contradiction. All native
+computations used in the proof finish with actual exit code $0$.
+\end{proof}

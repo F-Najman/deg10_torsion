@@ -1,0 +1,1 @@
+PRIMES:=[11];load "work/deg10/computations/contc91_independent_CM_Hecke_v2.m";

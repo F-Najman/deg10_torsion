@@ -1,0 +1,13 @@
+Loading "work/deg10/continuation_20261031b/C66/inputs/pair_af_place_linear.m"
+D31B_C66_F2_PICARD_READY G=[ 15, 42373650, 0 ] H=[ 5, 42373650 ] quotient3=true time=126.730
+D31B_C66_F2_NC_CLASS_DEGREE d=1 count=0 time=129.100
+D31B_C66_F2_NC_CLASS_DEGREE d=2 count=0 time=129.320
+D31B_C66_F2_NC_CLASS_DEGREE d=3 count=0 time=129.320
+D31B_C66_F2_NC_CLASS_DEGREE d=4 count=0 time=129.320
+D31B_C66_F2_NC_CLASS_DEGREE d=5 count=2 time=129.430
+D31B_C66_F2_NC_CLASS_DEGREE d=6 count=20 time=130.440
+D31B_C66_F2_NC_CLASS_DEGREE d=7 count=30 time=132.350
+D31B_C66_F2_NC_CLASS_DEGREE d=8 count=25 time=133.860
+D31B_C66_F2_NC_CLASS_DEGREE d=9 count=50 time=137.300
+D31B_C66_F2_NC_CLASS_DEGREE d=10 count=123 time=145.470
+D31B_C66_F2_FRAME_COMPLETE counts=[ 0, 0, 0, 0, 2, 20, 30, 25, 50, 123 ] all_TwoGenerators=true time=145.480

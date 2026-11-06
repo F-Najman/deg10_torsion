@@ -1,0 +1,91 @@
+\begin{lemma}\label{lem:octic-unramified-cuspidal}
+Let $X/F$ be a modular curve with an $F$-rational cusp $c_0$ and
+$\operatorname{rk}\operatorname{Jac}(X)(F)=0$. Suppose that $X$
+has good reduction at a prime above $p$, and that all cusps are
+rational over an extension $L/F$ unramified over $\mathbb Q_p$.
+Put $e_p=1$ for odd $p$ and $e_2=2$. If
+\[
+ \operatorname{gon}_{\overline F}X>e_p d,
+\]
+then a noncuspidal effective $F$-rational divisor of degree $d$
+cannot have entirely cuspidal reduction at this prime.
+\end{lemma}
+\begin{proof}
+Suppose that $D$ has such a reduction. The cusps are finite
+\'{e}tale away from the level, so we may lift its geometric
+cusps with their multiplicities to an effective degree-$d$
+cuspidal divisor $C$ over $L$. The classes $[D-dc_0]$ and
+$[C-dc_0]$ are torsion, by rank zero and Manin--Drinfeld.
+Thus $[D-C]$ is torsion and reduces to zero.
+
+Over an unramified $p$-adic field, the torsion in the kernel of
+good reduction is trivial for odd $p$ and is killed by $2$ for
+$p=2$. Indeed, the formal logarithm is injective on the first
+formal filtration for odd $p$ and on the second for $p=2$;
+multiplication by $2$ sends the first filtration into the second.
+Hence $e_p[D-C]=0$. Since $D$ is noncuspidal, $e_pD\ne e_pC$.
+The corresponding nonconstant function has degree at most
+$e_p d$, contradicting the geometric gonality bound.
+\end{proof}
+
+\begin{proposition}\label{prop:octic-local-mixed-exclusions}
+No elliptic curve over a number field of degree $8$ has a
+subgroup isomorphic to $C_5\times C_{15}$,
+$C_5\times C_{20}$, or $C_3\times C_{27}$.
+\end{proposition}
+\begin{proof}
+For a proposed subgroup $C_m\times C_n$, put
+$F=\mathbb Q(\zeta_m)$ and $X=X_1(m,n)$. The Weil pairing
+gives $F\subseteq K$, and the trace of the modular point is an
+effective noncuspidal $F$-rational divisor of degree
+$d=8/\varphi(m)$. In all three cases
+$\operatorname{rk}J_1(m,n)(F)=0$ by
+\cite[Theorem~4.1]{DS}.
+
+The indices of the corresponding congruence subgroups in
+$\operatorname{PSL}_2(\mathbb Z)$ are respectively
+\[
+ I(5,15)=480,\qquad I(5,20)=720,\qquad I(3,27)=972.
+\]
+The bound $\operatorname{gon}_{\mathbb C}X>325I/32768$ from
+\cite[Proposition~2.1]{DS}
+therefore gives gonality greater than $2$ in the first two
+cases and greater than $8$ in the third.
+
+Suppose first that $(m,n)=(5,15)$ or $(5,20)$. The prime $11$
+splits completely in $F$, and $d=2$. The Hasse intervals for
+$\mathbb F_{11}$ and $\mathbb F_{121}$ are $[6,18]$ and
+$[100,144]$. Neither contains a multiple of $75$, so
+$C_5\times C_{15}$ cannot occur over either residue field.
+For $C_5\times C_{20}$, the only possible group order is $100$
+over $\mathbb F_{121}$. The Frobenius then has trace $22$ and
+is multiplication by $11$: its difference from $[11]$ has
+square zero, and an elliptic endomorphism algebra has no
+nonzero nilpotents. Consequently the group is $C_{10}^2$,
+which has no point of order $20$.
+
+Thus $X$ has no noncuspidal closed points of degree at most two
+over $\mathbb F_{11}$ in either case. Every degree-$2$ trace
+divisor has entirely cuspidal reduction. We may take
+$L=\mathbb Q(\zeta_n)$, which is unramified at $11$.
+Lemma~\ref{lem:octic-unramified-cuspidal} gives a contradiction.
+
+Finally let $(m,n)=(3,27)$. Here $d=4$, and the residue field
+of $F$ at $2$ is $\mathbb F_4$. There is no elliptic curve
+over any of $\mathbb F_4,\mathbb F_{16},\mathbb F_{64}$ or
+$\mathbb F_{256}$ with a subgroup $C_3\times C_{27}$.
+The exact enumeration of every $j$-invariant and every twist
+is recorded in \texttt{check\_local\_cyclotomic.m}.
+For the first two fields Hasse suffices. Over $\mathbb F_{64}$,
+the only possible order is $81$, and its group is $C_9^2$;
+over $\mathbb F_{256}$, no group order is divisible by $81$.
+Hence the trace divisor has entirely cuspidal reduction at $2$.
+The field $L=\mathbb Q(\zeta_{27})$ is unramified at $2$, and
+the geometric gonality is greater than $2d=8$.
+The dyadic case of Lemma~\ref{lem:octic-unramified-cuspidal}
+gives the contradiction.
+\end{proof}
+
+% Fresh exhaustive local verification completes all8 field/group cases,
+% including all special-j twists, in0.190CPU. No earlier-degree exclusion,
+% no CM exclusion, and no rational2-torsion saturation claim is used.

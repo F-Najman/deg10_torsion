@@ -1,0 +1,205 @@
+{
+  "degree": 10,
+  "group_excluded": "C51",
+  "claim": "No elliptic curve over a degree10 number field has a point of order51",
+  "status": "COMPLETE; parent mathematical audit PASS",
+  "proof": "work/deg10/next_cases_20261030/cyclic_further/C51/resolution.tex",
+  "proof_dependencies": [
+    "work/deg10/next_cases_20261030/dyadic_formal_kernel.tex"
+  ],
+  "rank_zero_source": "DEHMZ Theorem3.1(2)",
+  "noncuspidal_closed_points": {
+    "degrees1_to8": 0,
+    "degree9": 80,
+    "degree10": 64
+  },
+  "noncuspidal_diamond_orbits": {
+    "degree9": 5,
+    "degree10": 4
+  },
+  "A5_nonprincipal_tests": 9,
+  "cusp_signature_at2": {
+    "1": 16,
+    "2": 8,
+    "8": 4
+  },
+  "Cartier_image_dimension": 62,
+  "old_individual_caps_new_total_degree_replayed": 9655880,
+  "new_high_multiplicity_divisors": 264,
+  "new_native_representative_cases": 17,
+  "all_cuspidal_degree10_divisors": 9656144,
+  "all_restriction_ranks": 10,
+  "basis_alignment": {
+    "Cartier_intertwiner_and_degree8_anchor_dimension": 1,
+    "invertible": true,
+    "actual_geometric_transition_identified_up_to_diamond": true
+  },
+  "earlier_degree_exclusions_not_transferred": true,
+  "earlier_degree_independent_jet_data_used_at_fresh_degree10": true,
+  "successful_jobs": [
+    {
+      "stem": "further51_finite_sieve",
+      "marker": "DECIC51_GOOD_BRANCHES_COMPLETED",
+      "status": {
+        "purpose": "further51_finite_sieve",
+        "script": "next_cases_20261030/cyclic_further/C51/further51_finite_sieve.m",
+        "script_sha256": "19cb224e4fdd4f2a9b8125d559d3d4f7dbb8abe3e537541f1efff915d1c1da81",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_further/C51/further51_finite_sieve.m"
+        ],
+        "pid": 2360028,
+        "owner_uid": 1001,
+        "start_time_unix": 1793381134.004703,
+        "state": "EXITED",
+        "time_limit_seconds": 1200,
+        "log": "jobs/further51_finite_sieve.log",
+        "actual_exit_code": 0,
+        "termination_reason": null,
+        "elapsed_seconds": 642.7784020900726
+      }
+    },
+    {
+      "stem": "further51_finite_controls",
+      "marker": "DECIC51_FINITE_AND_HECKE_CONTROLS_COMPLETE",
+      "status": {
+        "purpose": "further51_finite_controls",
+        "script": "next_cases_20261030/cyclic_further/C51/further51_finite_controls.m",
+        "script_sha256": "7805990ab9f0ade2a92e1d717dcdd7e7455032f5f7d4c35cf9b28232bbfd8dff",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_further/C51/further51_finite_controls.m"
+        ],
+        "pid": 2375220,
+        "owner_uid": 1001,
+        "start_time_unix": 1793381807.005261,
+        "state": "EXITED",
+        "time_limit_seconds": 120,
+        "log": "jobs/further51_finite_controls.log",
+        "actual_exit_code": 0,
+        "termination_reason": null,
+        "elapsed_seconds": 1.9167509078979492
+      }
+    },
+    {
+      "stem": "further51_replay_old_jets",
+      "marker": "DECIC51_DEGREE10_CUSP_REPLAY_DONE tested=9655880 exceptions=0 complete=true",
+      "status": {
+        "purpose": "further51_replay_old_jets",
+        "script": "next_cases_20261030/cyclic_further/C51/further51_replay_old_jets.py",
+        "script_sha256": "64a358f1b675c38255c9e3636917ce72d946ba278a70b378b8517b5721115e90",
+        "command": [
+          "/opt/sage/envs/sage/bin/python3",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_further/C51/further51_replay_old_jets.py"
+        ],
+        "pid": 2360320,
+        "owner_uid": 1001,
+        "start_time_unix": 1793381147.984613,
+        "state": "EXITED",
+        "time_limit_seconds": 120,
+        "log": "jobs/further51_replay_old_jets.log",
+        "actual_exit_code": 0,
+        "termination_reason": null,
+        "elapsed_seconds": 7.0228431224823
+      }
+    },
+    {
+      "stem": "further51_new_jets",
+      "marker": "DECIC51_NEW_JETS_COMPLETE",
+      "status": {
+        "purpose": "further51_new_jets",
+        "script": "next_cases_20261030/cyclic_further/C51/further51_new_jets.m",
+        "script_sha256": "fb6a5f535091e2ad8c0f9e38289bf517d1f7c4222360dd52ca56bacc54087ca7",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_further/C51/further51_new_jets.m"
+        ],
+        "pid": 2366365,
+        "owner_uid": 1001,
+        "start_time_unix": 1793381410.833446,
+        "state": "EXITED",
+        "time_limit_seconds": 1200,
+        "log": "jobs/further51_new_jets.log",
+        "actual_exit_code": 0,
+        "termination_reason": null,
+        "elapsed_seconds": 379.7601125240326
+      }
+    },
+    {
+      "stem": "further51_replay_new_jets",
+      "marker": "DECIC51_NEW_JETS_REPLAY_COMPLETE",
+      "status": {
+        "purpose": "further51_replay_new_jets",
+        "script": "next_cases_20261030/cyclic_further/C51/further51_replay_new_jets.py",
+        "script_sha256": "ab0fdb5b8bfa194781ed08a0098a7d33a6b3a9827c22b8892b83daada060ca0d",
+        "command": [
+          "/opt/sage/envs/sage/bin/python3",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_further/C51/further51_replay_new_jets.py"
+        ],
+        "pid": 2375227,
+        "owner_uid": 1001,
+        "start_time_unix": 1793381807.6070287,
+        "state": "EXITED",
+        "time_limit_seconds": 120,
+        "log": "jobs/further51_replay_new_jets.log",
+        "actual_exit_code": 0,
+        "termination_reason": null,
+        "elapsed_seconds": 0.26431846618652344
+      }
+    }
+  ],
+  "lifecycle": {
+    "new_jobs": 5,
+    "all_jobs_exited": true,
+    "all_actual_exit_codes": 0,
+    "active_workers_supervisors_launchers": [],
+    "paused_jobs": [],
+    "terminated_jobs": [],
+    "automatic_launchers_created": false
+  },
+  "file_hashes": {
+    "work/deg10/jobs/further51_finite_controls.log": "fe63e1654f4e658ce76d03e3ce8612252d2e2ad04191b33c135b1843b3466436",
+    "work/deg10/jobs/further51_finite_controls.status.json": "9510cec33f9df1632f882bf338e9edec51a5749da1066cc1ef8b4a70cf5022fc",
+    "work/deg10/jobs/further51_finite_sieve.log": "4e9cc6bd2c7e1c05a0e72dd685da2b0c693b2c742d2eb74ad9c7fae69845819e",
+    "work/deg10/jobs/further51_finite_sieve.status.json": "7597aa674f180238b791ec2b19ac9f48c43fc54904ed13163130d5998a2a46e4",
+    "work/deg10/jobs/further51_new_jets.log": "4b5956b259d2309a070557d74883a77b68ac541e1470febed6bbdb244bd4412e",
+    "work/deg10/jobs/further51_new_jets.status.json": "d915ae40024deee044c784f7350dfc4959006b89e657860065b2e1045986d4df",
+    "work/deg10/jobs/further51_replay_new_jets.log": "40811589ed9cc4c04fd8b52507a8b3ef0865af82e29fde44767b8b45d2751f2c",
+    "work/deg10/jobs/further51_replay_new_jets.status.json": "15565576163a0f358928fc8f34c9d0968a4ce41564b6eeef26d5e06dea60afb7",
+    "work/deg10/jobs/further51_replay_old_jets.log": "de2ddf5a0d9b54710f59e78fda0d8be6eb7d8a4b8f7272eeeea9ee960a5d89ac",
+    "work/deg10/jobs/further51_replay_old_jets.status.json": "3261b52fd3ac81487c01d61a0c065fdb281affd42d262aeb1331a47bad45273e",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/certify51.py": "d58b619147a4e2834975d850fb6b53ba30c649df29491b07f2ae55621b32d5c6",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/cusp_orbits_verified.json": "003397a698678a82ecc391963ea9f42574af4845946676d89ab8ab7895c2d74d",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/finite_inputs.m": "5f680e18b04fc7937b9554d175d109509279540d2ca6d1b895f1998e2baab7cb",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/further51_cusp_orbits.py": "10f4bb97b5ea4990616a3b6e1eae1d3f86e3399f18b4f2b7ffb80aa797e02a28",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/further51_finite_controls.m": "7805990ab9f0ade2a92e1d717dcdd7e7455032f5f7d4c35cf9b28232bbfd8dff",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/further51_finite_controls_body.m": "46d3764fa868ee276b754195dfe1595d44bc83f237e2db2719b088d6c639cfe9",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/further51_finite_sieve.m": "19cb224e4fdd4f2a9b8125d559d3d4f7dbb8abe3e537541f1efff915d1c1da81",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/further51_new_jets.m": "fb6a5f535091e2ad8c0f9e38289bf517d1f7c4222360dd52ca56bacc54087ca7",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/further51_replay_new_jets.py": "ab0fdb5b8bfa194781ed08a0098a7d33a6b3a9827c22b8892b83daada060ca0d",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/further51_replay_old_jets.py": "64a358f1b675c38255c9e3636917ce72d946ba278a70b378b8517b5721115e90",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/lifecycle_final.json": "f66ede4881738c5551eaafc802040f1c7ed6a1b0522d7881cfc421d92cbdfaa1",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/new_jets.json": "5fa066bf7ee5011f8ce36394371e0202060d2edd483152d3ef0d1b4d92449704",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/new_jets_verified.json": "e2047c5eb8fa5a9f3d1e7166146ac172730b0681c13eb194170eb22ea5dff09c",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/old_jets_degree10_replay.json": "6683c6c933c27a91dab440bfa5fa8317de34421286b23d3614360175d8f1897f",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/preparation.json": "3000d94c24c485605284235c88cec9ec8d56b82dd91104fe82c6bc9a5ebd7bcc",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/resolution.tex": "52feba85639db44c117dc5a70eeafe7906620f8870bcb842ee49a35b0b6d048c",
+    "work/deg10/next_cases_20261030/cyclic_further/C51/resolution_draft.tex": "cb9bc2b3f5687430aafe66bcbfa11cc105a68a4c9f37826845f2574c69201b51",
+    "work/deg10/next_cases_20261030/dyadic_formal_kernel.tex": "a3cdae435898f20cbcd29a709799e8cd8a54890c1e91388b563e0e13e05a9c4b",
+    "work/degree9/cyclic/continuation_20261026/N51_geometry/cyclic_sieves/N51_frozen.log": "298cddbc37c3cf1ccef8cf873ecc72907f6a23419d903865bbac0292fe85b8ab",
+    "work/degree9/cyclic/continuation_20261026/N51_geometry/cyclic_sieves/N51_frozen_jets.m": "dac58b2d2b6e306e7bd198620e09a4f73f3c8810db5a2a085ff76f7915d4c9cf",
+    "work/degree9/cyclic/continuation_20261026/N51_geometry/cyclic_sieves/N51_full_RR_crosscheck_root.log": "a358b5a455039c3cf11210976b6a693e69252a0b5279bc1afca98ecf55fdd6a6",
+    "work/degree9/cyclic/continuation_20261026/N51_geometry/cyclic_sieves/N51_prefix27_RR_control_root.log": "5b9cc8e3e8e3bee7d155858d72ff6d846f6d85898f6b34b32ebf105227615adb",
+    "work/degree9/cyclic/continuation_20261026/N51_geometry/cyclic_sieves/N51_prefix27_RR_control_root.m": "b8a3130589275a6fcb9819c845f1706af2f5a4699960fe74827996ed09ec7524",
+    "work/degree9/cyclic/continuation_20261026/N51_geometry/cyclic_sieves/N51_prefix27_RR_control_root_data.m": "9736009419b20829e10c029fa8b46c6bfb7edc1fad74e1e03890c1d21b326b48",
+    "work/degree9/cyclic/continuation_20261026/N51_geometry/cyclic_sieves/N51_projection_replay.log": "79ba38de87721145ec36ceafdbadc104f670109058f0cd7d550435a21d975827",
+    "work/degree9/cyclic/continuation_20261026/N51_geometry/cyclic_sieves/generic_cartier_completion_export.m": "a881cd999a5a64be6aaf35d984f2e1d50f745aaf6154c958cdb64d4f75f92338",
+    "work/degree9/cyclic/continuation_20261026/exclusion51.tex": "78342014309b0df8a82d8c22d555a4ed9f2b3476e4c70ff8fa458d48eee7b907",
+    "work/degree9/prime_orders/continued_20261026/P49/refs/DEHMZ_source.tex": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d",
+    "work/degree9/shared/fast_hecke.m": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  "parent_audit": "Complete support coverage, exact A5 normalization, local Q2 trace hypotheses and unique Cartier/8P-anchor basis transition verified."
+}

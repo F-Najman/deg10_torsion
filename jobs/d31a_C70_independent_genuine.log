@@ -1,0 +1,7 @@
+D31A_C70_GENUINE_SOURCE_KERNEL_PROGRESS 100 309 3.7824246790260077
+D31A_C70_GENUINE_SOURCE_KERNEL_PROGRESS 200 609 6.6283743917010725
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C70_independent_genuine.py", line 55, in <module>
+    assert Counter((a,b,c)for a,b,c,k in obs)==expected
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

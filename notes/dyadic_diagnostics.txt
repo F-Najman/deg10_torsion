@@ -1,0 +1,19 @@
+The degree-six dyadic lemma is copied in inputs/sextic_dyadic_hecke_kernel.tex.
+Its stated local hypothesis is Q_2; an unramified quadratic base requires
+additional Frobenius accounting. No accepted exclusion here ignores this.
+
+At X1(3,15)/F4 the diagnostic image (Cartier^2 - 1) has dimension 6.
+The exhaustive degree-five cuspidal test covers 22608 divisors, with ranks:
+  rank 5: 16384; rank 4: 6048; rank 3: 176.
+Thus 6224 divisors fail surjectivity for this image. This diagnostic alone
+cannot exclude C3 x C15. It says nothing about other possible methods.
+
+The diagonal degree-five computation instead uses the degree-independent
+cusp group C=[3,3,24,96,96], [J(F):C] dividing 3, and injectivity at F4
+proved in the accepted octic packet. Only its new degree-five conclusion,
+if every branch and algebraic replay completes, can enter the decic ledger.
+
+RESOLVED by the exact cusp calculation: J1(3,15)(Q(zeta3))=C.
+The exact diagonal sieve leaves 48 irreducible degree-five classes.
+A reconstructed example realizes all 48 via the level automorphism group,
+and its full torsion is exactly C3 x C15. Its strict enlargements are excluded.

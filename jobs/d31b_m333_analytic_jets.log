@@ -1,0 +1,11 @@
+
+SubstituteMonomial(
+    A: 0,
+    e: 1,
+    c: 1
+)
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_analytic_jets.m", line 15, column 47:
+>>  C:=Parent(A);s:=C.1;if A eq 0 then return O(s^(e*AbsolutePrecision(A)));en
+                                                 ^
+Runtime error in '^': Bad argument types
+

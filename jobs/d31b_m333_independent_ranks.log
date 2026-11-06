@@ -1,0 +1,33 @@
+M333_INDEPENDENT_FRAME_H_AND_GF4_ARITHMETIC_PASS
+{
+  "status": "PASS",
+  "frame_Cartier_square_and_h_matrices_independently_recomputed": true,
+  "h_cotangent_rank": 40,
+  "U_dimension": 36,
+  "all48_full_canonical_first_column_spaces_distinct": true,
+  "all48_h_partners_uniquely_reconstructed": true,
+  "h_free_involution": true,
+  "all48_saved_UJ_products_verified": true,
+  "Sage_matrix_rank_crosschecks": 2000,
+  "independent_GF4_integer_gaussian_ranks": 1086008,
+  "rational_cusp_divisors": 1086008,
+  "rank_distribution_by_pulledback_degree": [
+    864008,
+    213600,
+    8400
+  ],
+  "quintic_cusp_divisors": 8,
+  "quintic_ranks": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "bad": 0,
+  "elapsed_seconds": 8.987274192273617
+}
+D31B_M333_INDEPENDENT_ALL_RANKS_COMPLETE 8.987547951284796

@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "complete_source_cases": 3,
+  "cases": [
+    {
+      "case": 1,
+      "isogeny_orbits": [
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          3,
+          30,
+          1
+        ]
+      ],
+      "lift_allocations": 4
+    },
+    {
+      "case": 2,
+      "isogeny_orbits": [
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          1,
+          10,
+          1
+        ]
+      ],
+      "lift_allocations": 16
+    },
+    {
+      "case": 3,
+      "isogeny_orbits": [
+        [
+          1,
+          10,
+          1
+        ],
+        [
+          3,
+          30,
+          1
+        ]
+      ],
+      "lift_allocations": 4
+    }
+  ],
+  "independent_marked_Velu3_kernels": 12,
+  "independent_marked_Velu11_quotients": 15,
+  "complete_division3_polynomials": 3,
+  "geometric_kernels": 12,
+  "kernel_Frobenius_orbits": 8,
+  "all_equal_degree_quadratic_lifts_split": true,
+  "all_norm_weights": 1,
+  "total_AS_allocations": 24,
+  "delta2_cubic_exponent": 2,
+  "delta2_quadratic_action": "swap",
+  "delta3_is_inverse_delta2": true,
+  "evidence": [
+    {
+      "path": "work/deg10/continuation_20261030b/C77/independent_nc_geometry_case1.json",
+      "sha256": "31e62dbaa19ca808ac5a97931e2aa8f731b07ea5539c81c870a561261094014e"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C77/independent_nc_geometry_case2.json",
+      "sha256": "0b31e4db74b18513b2769db2bb8e4e52ce269202d3d937566392468feb4f0e66"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C77/independent_nc_geometry_case3.json",
+      "sha256": "4ded0141e1631d9c044825e76112ef3c37fc737039f56e228d09f2197b2f88a1"
+    }
+  ]
+}

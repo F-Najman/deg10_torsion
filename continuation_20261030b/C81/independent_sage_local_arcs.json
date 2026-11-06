@@ -1,0 +1,411 @@
+{
+  "status": "PASS",
+  "method": "independent Sage Hensel arcs, explicit Velu branches, entrywise full jet matrix comparison",
+  "series_precision": 64,
+  "local_arcs": [
+    {
+      "case": 1,
+      "block": 0,
+      "base_parameter": "t",
+      "relative_degree": 9,
+      "multiplicity": 1,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 1,
+      "block": 1,
+      "base_parameter": "t",
+      "relative_degree": 9,
+      "multiplicity": 2,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 2,
+      "block": 0,
+      "base_parameter": "t",
+      "relative_degree": 9,
+      "multiplicity": 1,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 2,
+      "block": 1,
+      "base_parameter": "t",
+      "relative_degree": 9,
+      "multiplicity": 2,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 3,
+      "block": 0,
+      "base_parameter": "t",
+      "relative_degree": 9,
+      "multiplicity": 1,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 3,
+      "block": 1,
+      "base_parameter": "t",
+      "relative_degree": 9,
+      "multiplicity": 2,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 7,
+      "block": 0,
+      "base_parameter": "t",
+      "relative_degree": 5,
+      "multiplicity": 1,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 7,
+      "block": 1,
+      "base_parameter": "t",
+      "relative_degree": 5,
+      "multiplicity": 2,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 7,
+      "block": 2,
+      "base_parameter": "t",
+      "relative_degree": 5,
+      "multiplicity": 1,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 7,
+      "block": 3,
+      "base_parameter": "t",
+      "relative_degree": 5,
+      "multiplicity": 2,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 10,
+      "block": 0,
+      "base_parameter": "t",
+      "relative_degree": 5,
+      "multiplicity": 1,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 10,
+      "block": 1,
+      "base_parameter": "t",
+      "relative_degree": 5,
+      "multiplicity": 2,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 10,
+      "block": 2,
+      "base_parameter": "t",
+      "relative_degree": 5,
+      "multiplicity": 1,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    },
+    {
+      "case": 10,
+      "block": 3,
+      "base_parameter": "t",
+      "relative_degree": 5,
+      "multiplicity": 2,
+      "tau_valuation": 1,
+      "hensel_precision": 62,
+      "exact_velu_branch": true
+    }
+  ],
+  "tests": [
+    {
+      "case": 1,
+      "cusp": 1,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 1,
+      "cusp": 2,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 1,
+      "cusp": 3,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 1,
+      "cusp": 4,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 1,
+      "cusp": 5,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 1,
+      "cusp": 6,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 1,
+      "cusp": 7,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 1,
+      "cusp": 8,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 1,
+      "cusp": 9,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 2,
+      "cusp": 1,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 2,
+      "cusp": 2,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 2,
+      "cusp": 3,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 2,
+      "cusp": 4,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 2,
+      "cusp": 5,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 2,
+      "cusp": 6,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 2,
+      "cusp": 7,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 2,
+      "cusp": 8,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 2,
+      "cusp": 9,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 3,
+      "cusp": 1,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 3,
+      "cusp": 2,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 3,
+      "cusp": 3,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 3,
+      "cusp": 4,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 3,
+      "cusp": 5,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 3,
+      "cusp": 6,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 3,
+      "cusp": 7,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 3,
+      "cusp": 8,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 3,
+      "cusp": 9,
+      "rows": 39,
+      "columns": 54,
+      "rank": 38,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 7,
+      "cusp": 0,
+      "rows": 45,
+      "columns": 60,
+      "rank": 44,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    },
+    {
+      "case": 10,
+      "cusp": 0,
+      "rows": 45,
+      "columns": 60,
+      "rank": 44,
+      "h0": 1,
+      "matrix_entrywise_equal": true
+    }
+  ],
+  "elapsed_seconds": 38.76149599114433
+}

@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "source": [
+        1,
+        8,
+        1
+      ],
+      "all_eight_kernels_covered_once": true,
+      "every_normalized_isogeny_and_level_image_verified_in_Sage": true,
+      "normed_target_degrees_and_multiplicities": [
+        [
+          8,
+          1
+        ],
+        [
+          56,
+          1
+        ]
+      ],
+      "positive_Hecke_divisor_degree": 64
+    },
+    {
+      "source": [
+        1,
+        8,
+        5
+      ],
+      "all_eight_kernels_covered_once": true,
+      "every_normalized_isogeny_and_level_image_verified_in_Sage": true,
+      "normed_target_degrees_and_multiplicities": [
+        [
+          8,
+          1
+        ],
+        [
+          56,
+          1
+        ]
+      ],
+      "positive_Hecke_divisor_degree": 64
+    },
+    {
+      "source": [
+        1,
+        8,
+        18
+      ],
+      "all_eight_kernels_covered_once": true,
+      "every_normalized_isogeny_and_level_image_verified_in_Sage": true,
+      "normed_target_degrees_and_multiplicities": [
+        [
+          8,
+          1
+        ],
+        [
+          56,
+          1
+        ]
+      ],
+      "positive_Hecke_divisor_degree": 64
+    }
+  ],
+  "elapsed_seconds": 0.23126603988930583
+}

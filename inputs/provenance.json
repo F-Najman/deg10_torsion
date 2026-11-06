@@ -1,0 +1,57 @@
+[
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/outputs/S10_result.json",
+    "snapshot": "inputs/S10_result.json",
+    "sha256": "5e9406d4323f99dadbc541eeedced17305583bd7a17602d64a9938cd69ad90bc"
+  },
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/outputs/S10_proof_audited.txt",
+    "snapshot": "inputs/S10_proof_audited.txt",
+    "sha256": "70b693a809c95b6277457a6b41f81d1be11cea3142f992a3fbbe8531177b9106"
+  },
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/outputs/S10_S11_independent_audit_summary.json",
+    "snapshot": "inputs/S10_S11_independent_audit_summary.json",
+    "sha256": "f15a77d986cc9aac2afd6afa89f08bf8982d37ca1b5ba906c659e55b038083b6"
+  },
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree5/paper/main.tex",
+    "snapshot": "inputs/quintic_paper.tex",
+    "sha256": "14f89d7b64bd2daa99f42323c0898a4b04fcfd9f429576da3d82b2fa6bb60fe6"
+  },
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/database_submission_20261027/repository/data/knowledge/sources/X1_N.csv",
+    "snapshot": "inputs/X1_N.csv",
+    "sha256": "2a93da522eb749bd8b19e2587ad7397de19b8961cd32e15dddb2871372947df5"
+  },
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/database_submission_20261027/repository/data/knowledge/sources/X1_2_N.csv",
+    "snapshot": "inputs/X1_2_N.csv",
+    "sha256": "d888b8c59cce033600036625e9d3f32533035b797e33149ab7fd614b1517b17e"
+  },
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/realizations/large_global/large_global_certificate.json",
+    "snapshot": "inputs/nonic_degree_independent_global_data.json",
+    "sha256": "1b4dd101724af4970bec3d9b5eab12e991e48d953c0af76bf2e9117e0d442b2c"
+  },
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/inputs/lmfdb_newforms_cache.json",
+    "snapshot": "inputs/lmfdb_newforms_cache.json",
+    "sha256": "f1fdb641a16ab0f02c2cc6a07ea6c4bb2643522d4a3b127dba41dc7d3d023fee"
+  },
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/inputs/dcm_list_all_min_orders_X1_10k.m",
+    "snapshot": "inputs/dcm_list_all_min_orders_X1_10k.m",
+    "sha256": "020ba11c347b70aafd59099994d5df55d969ffeaff468ced1a06ae97868b64cc"
+  },
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree6/dyadic_hecke_kernel.tex",
+    "snapshot": "inputs/sextic_dyadic_hecke_kernel.tex",
+    "sha256": "ca07d4045c8e37c3d0915e8b1fd364e4e81b7596982f8b025bac22ef9fedab56"
+  },
+  {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree6/positive_quotient_cartier_criterion.tex",
+    "snapshot": "inputs/sextic_positive_quotient_cartier_criterion.tex",
+    "sha256": "63f4ebb94d4ab5b426866c7b0ef3d42274a44d8ea8e3ed5e8a3db80e0bb7c430"
+  }
+]

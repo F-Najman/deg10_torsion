@@ -1,0 +1,9 @@
+Loading "work/deg10/continuation_20261030b/C57/census10_records.m"
+DECIC57_POINT_GROUPS {*
+    [ 3, 342 ]^^20,
+    [ 1026 ]^^40
+*}
+DECIC57_SOURCE_LEVEL_ORBITS jpoly=[ 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1 ] group=[ 1026 ] primitive_points=36 diamond_orbits=1
+DECIC57_SOURCE_LEVEL_ORBITS jpoly=[ 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1 ] group=[ 1026 ] primitive_points=36 diamond_orbits=1
+DECIC57_SOURCE_LEVEL_ORBITS jpoly=[ 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ] group=[ 3, 342 ] primitive_points=144 diamond_orbits=4
+DECIC57_LEVEL_SURVEY_COMPLETE cases=6 time=0.050

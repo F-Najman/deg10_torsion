@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "stages": [
+    {
+      "stage": "newA5",
+      "all_jet_blocks_verified": 6202,
+      "sha256": "9ba6365af3ba147800a69291138f120bd359e2d4d33e49e9b7976d40949d976d"
+    },
+    {
+      "stage": "residualA7",
+      "all_jet_blocks_verified": 6,
+      "sha256": "b87ae2a8090825db73270ac27e49c8cd7d93a83d2b4e534a5b547068d51220e1"
+    },
+    {
+      "stage": "oldA5",
+      "all_jet_blocks_verified": 968,
+      "sha256": "8516e8d456dd87051af044e68e79dafda86f43a0d4360967ec64680c04ab46ec"
+    }
+  ],
+  "unique_jet_geometries": 3796,
+  "all_affine_defining_equations_verified_to_full_saved_precision": true,
+  "all_uniformizer_parameters_and_nonsingular_partials_verified": true,
+  "all36_global_canonical_coordinate_functions_verified_at_every_saved_coefficient": true,
+  "normalization": "first nonzero constant canonical coordinate",
+  "coordinate_model": "root x, base y, AF degree19, genus36",
+  "cache": "CacheInfo(hits=3380, misses=3796, maxsize=20000, currsize=3796)",
+  "elapsed_seconds": 120.48698144732043
+}

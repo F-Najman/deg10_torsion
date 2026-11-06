@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m428_parent_class_ideals_v2",
+  "script": "computations/d31b_m428_parent_class_ideals_v2.m",
+  "script_sha256": "21cea5d7930bdce38de0b7449b522aa4bc8676caac80431bb4e95bffde13019b",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m428_parent_class_ideals_v2.m"
+  ],
+  "pid": 3556554,
+  "owner_uid": 1001,
+  "start_time_unix": 1793437529.4547558,
+  "state": "EXITED",
+  "time_limit_seconds": 760,
+  "log": "jobs/d31b_m428_parent_class_ideals_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 13.581802606582642
+}

@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "degree": 10,
+  "case": 26,
+  "chosen_h": "(P+21Q,P+4Q)",
+  "h_order": 3,
+  "h_Frobenius5_phase": 2,
+  "accepted_model_generator_Frobenius5_phase": 4,
+  "source_cusp_signature": {
+    "1": 18,
+    "2": 9,
+    "3": 6,
+    "6": 3
+  },
+  "all_72_geometric_cusps_free": true,
+  "quotient_cusp_signature": {
+    "1": 6,
+    "2": 3,
+    "3": 2,
+    "6": 1
+  },
+  "compatible_source_C4": 108,
+  "omega_types": 12,
+  "source_options_per_type": 9,
+  "Kummer_resolvent_identity_checked": true,
+  "quadratic_quotient_containing_places": 2,
+  "character_RR_patterns": 24,
+  "character_RR_spaces": 72,
+  "all_character_dimensions": [
+    1,
+    0,
+    0
+  ],
+  "absolute_rational_base_module_rank": 8
+}

@@ -1,0 +1,23 @@
+{
+  "Waterhouse": {
+    "title": "Abelian varieties over finite fields",
+    "author": "William C. Waterhouse",
+    "journal": "Annales scientifiques de l Ecole Normale Superieure, Serie4,2(1969),521-560",
+    "theorem": "4.1",
+    "url": "https://www.numdam.org/article/ASENS_1969_4_2_4_521_0.pdf"
+  },
+  "DKSS": {
+    "title": "Torsion points on elliptic curves over number fields of small degree",
+    "authors": "Maarten Derickx,Sheldon Kamienny,William Stein,Michael Stoll",
+    "url": "https://arxiv.org/pdf/1707.00364v2",
+    "location": "Proof of Proposition3.4, first paragraph; cites Parent(2000),Lemme1.7 for exponent-two torsion reduction kernel"
+  },
+  "gonality": {
+    "source": "DN_2412.16016_main.tex, Theorem4.1 in archived auxiliary results",
+    "constant": "325/32768 times the PSL2 index",
+    "description": "Abramovich with the Kim-Sarnak constant"
+  },
+  "finiteness": {
+    "source": "Complete exact winding records in inputs/; full winding components have Mordell-Weil rankzero by Kato, as in DKSS winding-quotient theorem."
+  }
+}

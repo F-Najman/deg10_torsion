@@ -1,0 +1,11 @@
+{
+  "status": "NUMERIC_INPUT_ASSEMBLED_PENDING_INDEPENDENT_NATIVE_REPLAY",
+  "original_worker_actual_exit": -14,
+  "original_worker_is_not_a_complete_certificate": true,
+  "completed_checkpoint_cases": 37,
+  "separately_completed_tail_cases": 1,
+  "tail_case_ID": 41265,
+  "total_cases": 38,
+  "total_distinct_source_points": 45,
+  "all_primary_h0_zero": true
+}

@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-26T12:12:39.658195+00:00",
+  "worker_pid": 1788280,
+  "worker_start_ticks": 182377704,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_export.m"
+  ],
+  "actual_cmdline": [
+    "/opt/magma-2.30-1/magma.exe",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_export.m"
+  ],
+  "wall_seconds": 3640.9234961587936,
+  "cpu_seconds": 1922.96,
+  "state": "R",
+  "wall_cap_seconds": 14400,
+  "status": "FAILED OR GUARDED; NO EXCLUSION INFERRED",
+  "native_exit_code": 1,
+  "finished_utc": "2026-10-26T13:13:20.581694+00:00",
+  "termination_reason": null
+}

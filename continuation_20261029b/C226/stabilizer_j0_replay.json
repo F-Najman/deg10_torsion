@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "degree_9_descriptor": [
+    1,
+    9,
+    52
+  ],
+  "order_three_stabilizers": [
+    {
+      "matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          13,
+          69
+        ]
+      ],
+      "frobenius_powers": [
+        3
+      ],
+      "cube_scalar": -1
+    },
+    {
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          13,
+          42
+        ]
+      ],
+      "frobenius_powers": [
+        6
+      ],
+      "cube_scalar": 1
+    }
+  ],
+  "j0_division_polynomial_factor_degrees": [
+    6,
+    6,
+    72
+  ],
+  "no_factor_degree_divides_5": true
+}

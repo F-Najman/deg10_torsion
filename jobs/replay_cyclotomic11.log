@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/replay_cyclotomic11.py", line 8, in <module>
+    Ar=EllipticCurve(GF(23),[0,-1,1,0,0]);assert Ar.cardinality()==25 and f(GF(23)(2))==0
+                                                                          ^^^^^^^^^^^^
+  File "sage/rings/polynomial/polynomial_rational_flint.pyx", line 559, in sage.rings.polynomial.polynomial_rational_flint.Polynomial_rational_flint.__call__ (build/cythonized/sage/rings/polynomial/polynomial_rational_flint.cpp:16134)
+  File "sage/rings/polynomial/polynomial_element.pyx", line 896, in sage.rings.polynomial.polynomial_element.Polynomial.__call__ (build/cythonized/sage/rings/polynomial/polynomial_element.c:24147)
+  File "sage/structure/coerce.pyx", line 1434, in sage.structure.coerce.CoercionModel.canonical_coercion (build/cythonized/sage/structure/coerce.c:19703)
+TypeError: no common canonical parent for objects with parents: 'Rational Field' and 'Finite Field of size 23'

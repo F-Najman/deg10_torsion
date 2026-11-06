@@ -1,0 +1,12 @@
+{
+  "purpose": "New degree10 continuation; degree-independent C87 model exploration",
+  "fast_hecke_snapshot": {
+    "source": "work/degree9/shared/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  "previous_group_counts": {
+    "known": 68,
+    "excluded": 77,
+    "remaining": 32
+  }
+}

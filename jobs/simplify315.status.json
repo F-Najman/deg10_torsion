@@ -1,0 +1,18 @@
+{
+  "purpose": "simplify315",
+  "script": "computations/simplify315.py",
+  "script_sha256": "3b2ab31894c7749c8525bf0f438606bcafb8e0f27bfcce4a2804681e0fb0abec",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/simplify315.py"
+  ],
+  "pid": 170988,
+  "owner_uid": 1001,
+  "start_time_unix": 1793281898.2676952,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/simplify315.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.514596700668335
+}

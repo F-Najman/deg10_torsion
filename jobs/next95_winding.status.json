@@ -1,0 +1,19 @@
+{
+  "purpose": "next95_winding",
+  "script": "computations/next95_winding.m",
+  "script_sha256": "dea16cffefd0d777b14d89da0717f4209d3f69a0b8b1f074eb55c12ada396a22",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next95_winding.m"
+  ],
+  "pid": 2073274,
+  "owner_uid": 1001,
+  "start_time_unix": 1793368421.1195362,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next95_winding.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.16421270370483398
+}

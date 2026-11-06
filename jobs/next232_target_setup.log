@@ -1,0 +1,7 @@
+Loading "work/deg10/C232_resolution_20261030/deps/native_group_generators.m"
+Loading "work/deg10/C232_resolution_20261030/deps/class_group_direct_RR_checked_v4_fastfb.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_target_setup.m", line 7, column 155:
+>> s(H) eq [2,2,2,4,120,11640];QH,qh:=quo<G|H>;assert #QH eq 68;
+                                               ^
+Runtime error in assert: Assertion failed

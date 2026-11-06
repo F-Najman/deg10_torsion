@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "case": "C49, C95 and C111 exclusions completed",
+  "time_unix": 1793370992.2206404,
+  "degree_ten_workers_supervisors_launchers": [],
+  "all_recorded_jobs_exited": true,
+  "recorded_job_count": 602,
+  "new_job_count": 11,
+  "new_jobs": [
+    {
+      "purpose": "pp49_fast_cartier_export",
+      "actual_exit_code": -15,
+      "termination_reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "purpose": "pp49_native_matrix_replay",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next95111_independent_finite",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "pp49_cusp_permutation",
+      "actual_exit_code": -15,
+      "termination_reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "purpose": "next69_degree10_base",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "pp49_finite_sieve",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "pp49_replay_old_jets_degree10",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next95111_finite_controls",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "pp49_completion_control",
+      "actual_exit_code": -15,
+      "termination_reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "purpose": "pp49_finite_controls",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next95_winding",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    }
+  ],
+  "new_automatic_launchers_created": 0,
+  "temporary_priority_guardian_exited": true,
+  "other_launcher_restored": true,
+  "priority_window_evidence": "next_cases_20261030/priority_window.json",
+  "unrelated_magma_workers_preserved": [
+    {
+      "create_time": 1792133148.21,
+      "status": "running",
+      "cmdline": [
+        "/opt/magma-2.29-4/magma.exe",
+        "-b",
+        "code/03_groups.m"
+      ],
+      "username": "fnajman",
+      "pid": 339824
+    },
+    {
+      "create_time": 1793370981.68,
+      "status": "running",
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "Raw:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p524933_n6907_cpp_raw.m",
+        "Final:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p524933_n6907_sequence.m",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/finish_cpp.m"
+      ],
+      "username": "fnajman",
+      "pid": 2129555
+    },
+    {
+      "create_time": 1793370983.66,
+      "status": "running",
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=524893",
+        "OrderToTest:=43741",
+        "GraphOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p524893_n43741_graph.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/optimization/export_graph_fast.m"
+      ],
+      "username": "fnajman",
+      "pid": 2129594
+    },
+    {
+      "create_time": 1793370988.75,
+      "status": "running",
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "Raw:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p524921_n262460_cpp_raw.m",
+        "Final:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p524921_n262460_sequence.m",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/finish_cpp.m"
+      ],
+      "username": "fnajman",
+      "pid": 2129697
+    },
+    {
+      "create_time": 1793370990.72,
+      "status": "running",
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=524893",
+        "OrderToTest:=15438",
+        "GraphOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p524893_n15438_graph.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/optimization/export_graph_fast.m"
+      ],
+      "username": "fnajman",
+      "pid": 2129767
+    },
+    {
+      "create_time": 1793227423.6,
+      "status": "running",
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-s",
+        "for_mordell.m"
+      ],
+      "username": "nadzaga",
+      "pid": 3067704
+    }
+  ],
+  "host_cores": 32,
+  "new_case_active_cores": 0
+}

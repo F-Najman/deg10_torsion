@@ -1,0 +1,10 @@
+M333_COVER_BASE_READY g=21 degree=12 cpu=2.010
+M333_KUMMER_POLYNOMIAL_READY 2.030
+M333_KUMMER_IDENTITY_VERIFIED 2.040
+M333_KUMMER_COVER_GENUS_READY 81 17.240
+M333_DELTA10_INVOLUTION_READY 17.580
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_kummer_cover_v3.m", line 11, column 208:
+>> n basecs|Valuation(jInvariant(E),p) lt 0];assert &+[Degree(p):p in basecs] 
+                                             ^
+Runtime error in assert: Assertion failed

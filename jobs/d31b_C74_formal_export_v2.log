@@ -1,0 +1,11 @@
+Loading "work/deg10/continuation_20261031b/C74/inputs/dt_expansions_local.m"
+Loading "work/deg10/continuation_20261031b/C74/inputs/pair_af_place_linear.m"
+D31B_C74_FORMAL_MODEL_READY genus40=true U38=true actual_diamond_pullback=true time=33.000
+D31B_C74_CUSP_JETS_COMPLETE native_cap10_rank10=true transported18=true time=74.320
+Loading "work/deg10/continuation_20261031b/C74/inputs/work/degree9/prime_orders/continued_20261026/P37/input_records.m"
+D31B_C74_SEXTIC_RESTRICTION_COMPLETE native_6plus4_rank10=true time=98.610
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C74_formal_export_v2.m", line 18, column 29:
+>> ps:=NoncuspidalPlaces(X,10);assert #ps eq 90;out:=[* *];
+                               ^
+Runtime error in assert: Assertion failed

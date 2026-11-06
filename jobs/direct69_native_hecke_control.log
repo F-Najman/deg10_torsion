@@ -1,0 +1,5 @@
+Loading "work/deg10/next_cases_20261030/C69/direct_full/selected_hecke_input.m"
+Loading "work/deg10/next_cases_20261030/C69/direct_full/direct69_native_hecke_b\
+ody.m"
+DIRECT69_INDEPENDENT_HECKE_CONTROL N=69 degree=10 index=2 native_maps=6 fast_orbits=2 weighted_image_degrees=[ 50, 10 ] observations=[ 5, 1 ] weights=[ 1, 1 ] alpha=1 agrees=true time=0.140
+DIRECT69_NATIVE_HECKE_CONTROL_COMPLETE N=69 inputs=1 time=0.140

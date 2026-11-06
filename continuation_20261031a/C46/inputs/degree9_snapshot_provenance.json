@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/N46_p3_good9.log",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/N46_p3_good9.log",
+      "sha256": "abd21e0830a6a0710fa0787194d8c24a159f6d1568920b367f89f351fecc8cfa"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/N46_p3_good9_status.json",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/N46_p3_good9_status.json",
+      "sha256": "3fbcab126c34b9d9048e44c651d34b2909477ad8850f6664790f014b12a5a072"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/audit_46_50_D9.log",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/audit_46_50_D9.log",
+      "sha256": "7f7b3ccd93ffb833c82d35a6b0cd8c5279f1d0656f1cf7eef496add95d13d4d9"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/audit_46_50_D9.py",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/audit_46_50_D9.py",
+      "sha256": "3c9478d9f94b9a346d3a71098f67d79cff853e9ea7c0c6215775dcdfa40561f6"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/certify_45_46_50_51.py",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/certify_45_46_50_51.py",
+      "sha256": "266fc5a314f14cde6997d291836de17a58d98f86c5a67ea99f41b9fef8286c79"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/exclusion46_50.tex",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/exclusion46_50.tex",
+      "sha256": "09b1368541d8b216a49a4715c0247e2434145f7fb85a08758e969ae34f7b6788"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/independent_counts_46_50_51.log",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/independent_counts_46_50_51.log",
+      "sha256": "05b28f495c2bef2172486e12e01bfa9e521054450d8457963088db690fdc69c0"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/independent_counts_46_50_51.m",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/independent_counts_46_50_51.m",
+      "sha256": "b008db78f76747d3a86b059dd7a127374ef0862bb1c689ba1e67b3b51db104a2"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/independent_counts_46_50_51_status.json",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/independent_counts_46_50_51_status.json",
+      "sha256": "b022aa2b57c615037045103052469f4d62f3794ce7f5cb97bd7d3d7b0f928909"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/native_controls_46_50_51.m",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/native_controls_46_50_51.m",
+      "sha256": "1c0946614ed7491995e4744b5c22d3cb91a10ee2129a68da7e68f5147bf16ac0"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/native_controls_46_50_51.log",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/native_controls_46_50_51.log",
+      "sha256": "51d43d675c3eb96064de62db2debb8ad0ca7ba4c3c3380e87354a7f801943b4b"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/native_controls_46_50_51_status.json",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/native_controls_46_50_51_status.json",
+      "sha256": "67fb68f079de41c58fd09029e9260944be61abfcd05ed3c7136b25e75eef8593"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261026/odd_prime_criteria.tex",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/odd_prime_criteria.tex",
+      "sha256": "9cde4b099c8477d44962f215edf18067eb47080b6fae3fed821d41191422e00a"
+    },
+    {
+      "source": "work/degree9/cyclic/hecke_sieve_quotient_D9.m",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/hecke_sieve_quotient_D9.m",
+      "sha256": "c76038b18de3a5ce0407c441b2f5551c3b1a3fedd811b1a54ce46657c510d6d0"
+    },
+    {
+      "source": "work/degree9/cyclic/class_rational_reduction.m",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/class_rational_reduction.m",
+      "sha256": "43e8ae730876321ba2a2a4fd57860f0826f2480d241e9a158a8d8601d7d1979c"
+    },
+    {
+      "source": "work/degree9/cyclic/quotient_class_prefilter.m",
+      "snapshot": "work/deg10/continuation_20261031a/C46/inputs/degree9_continuation/quotient_class_prefilter.m",
+      "sha256": "2fdcd9c832a1559c67f788e3a388f3f99c469ba618be57b364b63e7bf5d5fcd7"
+    }
+  ]
+}

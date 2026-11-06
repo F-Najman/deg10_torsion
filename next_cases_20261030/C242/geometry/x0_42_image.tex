@@ -1,0 +1,80 @@
+\begin{lemma}\label{lem:decic242-X042-image}
+Let $q:X_1(42)\to Z=X_0(42)$ be the natural map.
+Normalize at a rational cusp of $X_1(42)$ and its image.
+The reduction of $q_*J_1(42)(\mathbb Q)$ at $5$ is a subgroup
+$H=[2,48]$ of index $192$ in
+\[
+ J_Z(\mathbb F_5)=[2,4,48,48].
+\]
+The classes of finite effective cuspidal divisors of degrees
+$0,\ldots,6$, modulo $H$, form sets of cardinalities
+\[
+ (1,6,12,16,20,24,24).
+\]
+\end{lemma}
+\begin{proof}
+A convenient model of $Z$ is the normalization of
+\[
+ \frac{N(t)^3D(t)}t=j(E_z),\qquad
+ E_z:\ y^2+(1-z)xy-(z+z^2)y=x^3-(z+z^2)x^2,
+\]
+where $D=t^2+13t+49$ and $N=t^2+5t+1$.
+The equation has degree $8$ in $t$, is irreducible, and has genus
+$5$. It is the fibre product of $X_0(7)$ and
+$X_1(6)=X_0(6)$ over the $j$-line.
+
+We use global rational cuspidal divisors on $X_1(42)$.
+These generate its rational Jacobian by
+\cite[Theorems~3.1 and 4.13, and Table~2]{DEHMZ}.
+Here the rational cuspidal group is defined as the image of
+Galois-invariant cuspidal \emph{divisors}, not merely the
+Galois-fixed part of the geometric cuspidal class group.
+In particular, the stated theorem supplies the required integral
+Galois descent.
+
+All eight cusps of $Z$ are rational.
+A cusp with denominator $g\mid42$ receives the global cusp
+orbits on $X_1(42)$ in the following table:
+\[
+\begin{array}{c|rrrrrrrr}
+g&1&2&3&6&7&14&21&42\\\hline
+\text{number of global orbits}&6&6&3&3&1&1&1&1\\
+\text{degree of each orbit}&1&1&2&2&6&6&6&6.
+\end{array}
+\]
+Thus the pushforward generators, normalized at the chosen base,
+are the corresponding cusp classes multiplied by the last row.
+Their exact subgroup in the proven finite Jacobian is $[2,48]$.
+No assertion that this is the whole of $J_Z(\mathbb Q)$ is needed.
+
+We check this pushforward directly from the universal level
+structure on $X_1(42)$.
+For the point $Q$ of order $42$, let $z$ be the Tate parameter
+for $7Q$ of order $6$.
+For $6Q$ of order $7$, write
+$b_7=v^2(v-1)$ and $c_7=v(v-1)$; then
+\[
+ t=\frac{v^3-3v+1}{v(v-1)}-8.
+\]
+Valuations of $z,z+1,9z+1,t$ distinguish the eight target cusps.
+All $22$ global source orbits have the stated pushforwards, and
+each target cusp has six geometric preimages.
+An independent Tate-label calculation reproduces every global
+and finite cusp orbit and these valuation signatures.
+Finally we enumerate all effective target cusp complements
+through degree $6$. This gives the displayed cardinalities.
+\end{proof}
+
+\noindent
+To evaluate the normalized model at all noncuspidal places, we
+also use the rational function
+\[
+ \eta=-\frac{c_6(E_z)N(t)D(t)}{c_4(E_z)M(t)},\qquad
+ M(t)=t^4+14t^3+63t^2+70t-7.
+\]
+If $k_6,k_7$ are the scales in the two Tate normal forms, then
+$\eta=(k_7(v^2-v+1)/k_6)^2$.
+This expression evaluates the function without discarding the
+branches above $j=0$ or $1728$.
+The three coordinates $(z,t,\eta)$ determine a unique normalized
+place in every finite test below.

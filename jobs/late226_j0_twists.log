@@ -1,0 +1,6 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_j0_twists.m", line 4, column 136:
+>> :c in Coefficients(f)],[*[Degree(r[1]),r[2],[En(c):c in Coefficients(r[1])]
+                            ^
+Runtime error in [ ... ]: No valid universe containing all elements
+

@@ -1,0 +1,60 @@
+Mathematical scope audit — 30 October 2026
+
+The source is X1(2,36), not X1(36). The former has genus 41,
+rank-zero rational Jacobian, good reduction at 5, and F5-gonality at
+least 10 (NV, Table 1). The latter is the genus-17 final sieve target.
+
+The source enumeration includes every noncuspidal support of total
+degree at most 10, including repeated supports. Normalizing one support
+by a rational level automorphism is legitimate: all the quotient class
+conditions also apply to the transformed global divisor. Each image of
+a source place of degree d on a target place of degree e is counted with
+multiplicity d/e. Cuspidal complements are retained. For the genus-7
+and genus-9 quotients they have zero class in the necessary quotient;
+for X1(36), every effective cusp complement of its actual remaining
+degree is enumerated. No rational-cusp-only simplification is used there.
+
+The exceptional oldN8 argument concerns any QQ-rational effective
+divisor D of degree 10 with entirely noncuspidal global support, whether
+irreducible, reducible, or repeated. Its reduction can have cuspidal
+components. The cusp complement C has degree 2. On the order-four free
+quotient, pi_*C is either one of two quadratic cusp places or a sum of
+two of the six rational cusp places, with repetitions allowed. These
+are the 2+21 Riemann--Roch tests. All four character dimensions are
+(1,0,0,0). The orbit sum Omega has degree 8; the two equivalent divisors
+D+Omega-C and gD+Omega-gC have degree 16. Rank zero and Manin--Drinfeld
+make g[D-C]-[D-C] torsion. Its specialization vanishes, and unramified
+odd-prime torsion injectivity makes it zero. Semicontinuity and h0=1
+force equality of the effective divisors. Their cuspidal parts then
+give C=gC, impossible for degree 2 with free cusp orbits of length 4.
+
+The cuspidal-pencil calculation allows nonreduced fibres. If n distinct
+rational cusps lie in a degree-10 fibre, its weighted geometric squared
+norm is at most (11-n)^2+n-1, including any nonrational cusp components.
+The two largest of six rational fibres contain enough of the 24 rational
+cusps that their difference has norm at most 104. Its positive part has
+degree 10. The full geometric principal cusp lattice, intersected with
+Frobenius-5 invariants, has no such vector. Both the complete lattice
+and short-vector enumeration were reconstructed independently; testing
+only a chosen family of modular units would not suffice.
+
+A rational degree-10 pencil specializes, using a saturated integral
+section lattice, to independent sections. After removing base points,
+its moving degree is at most 10. The F5-gonality bound forces degree
+exactly 10 and removes all base points. The boundary lemma gives a
+rational special fibre with some noncuspidal support. A QQ parameter
+lifting it can be chosen away from the finitely many global cusp images.
+The resulting global divisor is entirely noncuspidal and has the
+forbidden reduction. Irreducibility is not required. Thus gon_Q>=11.
+The shared rank-zero cuspidal-reduction lemma excludes a noncuspidal
+trace divisor of degree 10 with entirely cuspidal reduction: it would
+give h0(D)>=2 over an unramified local extension, hence over QQ by
+cohomology base change, contradicting this gonality bound.
+
+Only completed calculations with successful mathematical markers are
+proof certificates. Failed probes, including time-limited alternatives,
+are preserved for provenance and are never used as exclusion evidence.
+The second native ideal replays checked 58,728 target images in total:
+58,501 exact RR identities in both maximal orders and 227 direct
+factorbase cases. Separate Sage/Python replays verify the finite-field
+projections, quotient lattices, support sums and final survivor IDs.

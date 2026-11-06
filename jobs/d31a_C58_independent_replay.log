@@ -1,0 +1,7 @@
+D31A_C58_INDEPENDENT_POINTS 1000 8.8
+D31A_C58_INDEPENDENT_POINTS 2000 16.45
+D31A_C58_INDEPENDENT_POINTS 3000 24.67
+D31A_C58_INDEPENDENT_POINTS 4000 32.24
+D31A_C58_INDEPENDENT_POINTS 5000 40.72
+D31A_C58_INDEPENDENT_ORBITS 430
+D31A_C58_INDEPENDENT_REPLAY_COMPLETE {'status': 'PASS', 'target_degree10_places': 5971, 'source_degree10_places': 5796, 'diamond_orbits': 430, 'eligible_class_tests': 293, 'survivor_representatives': [462, 1748], 'known_lifts': [{'label': 'a', 'representative': 1748, 'orbit_size': 7, 'good_prime': 29, 'simple_root': 11, 'odd_cardinality': 29}, {'label': 'b', 'representative': 462, 'orbit_size': 14, 'good_prime': 29, 'simple_root': 5, 'odd_cardinality': 29}], 'seconds': 50.40353438304737, 'complete_marked_point_and_2division_census': True, 'all_diamond_orbits_reconstructed': True, 'all_primary_sums_and_memberships_verified': True, 'native_ideal_identities_are_separately_replayed': True}

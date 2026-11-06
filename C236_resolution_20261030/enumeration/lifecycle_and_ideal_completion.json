@@ -1,0 +1,322 @@
+{
+  "status": "PASS",
+  "completed_ideal_replay_batches": 11,
+  "projected_images": 57384,
+  "exact_RR_identities": 57368,
+  "smooth_factorbase_images": 16,
+  "batches": [
+    [
+      "ownsmall",
+      1152,
+      1136,
+      16,
+      8.59
+    ],
+    [
+      "D8",
+      2292,
+      2292,
+      0,
+      26.56
+    ],
+    [
+      "D9",
+      9769,
+      9769,
+      0,
+      100.46
+    ],
+    [
+      "D10s0",
+      5527,
+      5527,
+      0,
+      53.48
+    ],
+    [
+      "D10s1",
+      5534,
+      5534,
+      0,
+      58.68
+    ],
+    [
+      "D10s2",
+      5531,
+      5531,
+      0,
+      57.15
+    ],
+    [
+      "D10s3",
+      5540,
+      5540,
+      0,
+      62.3
+    ],
+    [
+      "D10s4",
+      5495,
+      5495,
+      0,
+      53.8
+    ],
+    [
+      "D10s5",
+      5491,
+      5491,
+      0,
+      53.68
+    ],
+    [
+      "D10s6",
+      5531,
+      5531,
+      0,
+      54.8
+    ],
+    [
+      "D10s7",
+      5522,
+      5522,
+      0,
+      57.8
+    ]
+  ],
+  "source_and_filter_workers_exited": [
+    {
+      "name": "new236_filter18_D10_s0.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1893253,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_D10_s1.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1893228,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_D10_s2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1893216,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_D10_s3.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1893222,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_D10_s4.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1893247,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_D10_s5.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1893241,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_D10_s6.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1893261,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_D10_s7.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1893210,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_D8_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1893183,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_D9_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1896815,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_aut_actions.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1900220,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_benchmark.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1889266,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_merge.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1908122,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D10s0.status",
+      "actual_exit_code": 1,
+      "termination_reason": null,
+      "pid": 1914819,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D10s0_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1916496,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D10s1_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1917651,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D10s2_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1918073,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D10s3_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1919019,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D10s4_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1919443,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D10s5_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1919885,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D10s6_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1920578,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D10s7_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1920728,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D8_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1917443,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_D9_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1917454,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_native_replay_ownsmall_v2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1917425,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_ownsmall.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1902700,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_propagate.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1906934,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter18_small.status",
+      "actual_exit_code": -15,
+      "termination_reason": "time limit; computation is not a completed certificate",
+      "pid": 1878866,
+      "process_absent": true
+    },
+    {
+      "name": "new236_filter_target18_setup.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1873676,
+      "process_absent": true
+    },
+    {
+      "name": "new236_source10_s0.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1870428,
+      "process_absent": true
+    },
+    {
+      "name": "new236_source10_s1.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1870499,
+      "process_absent": true
+    },
+    {
+      "name": "new236_source10_s2.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1870563,
+      "process_absent": true
+    },
+    {
+      "name": "new236_source_merge.status",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "pid": 1890116,
+      "process_absent": true
+    }
+  ],
+  "paused_workers": 0,
+  "automatic_launchers_left": 0,
+  "finished_utc": "2026-10-30T12:05:31.959110+00:00"
+}

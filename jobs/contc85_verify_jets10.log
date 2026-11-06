@@ -1,0 +1,5 @@
+DEG10_C85_JET_REPLAY_SOURCE 1 all_four_families_valid=true
+DEG10_C85_JET_REPLAY_SOURCE 2 all_four_families_valid=true
+DEG10_C85_JET_REPLAY_SOURCE 3 all_four_families_valid=true
+DEG10_C85_JET_REPLAY_SOURCE 4 all_four_families_valid=true
+DEG10_C85_ELLIPTIC_HECKE_JETS_INDEPENDENT_PASS {"all_canonical_tangents_nonzero": true, "all_finite_unit_ranks": 224, "all_psi85_derivatives_nonzero": true, "elapsed_seconds": 7.396982724778354, "native_data_sha256": "046a29178624c813b98130be5e07c8941d186e3e9bd8dd916a49992c9e81fa4e", "ordinary_85_torsion_families": 12, "precision": 5, "sources": 4, "status": "PASS", "unit_relations": [136, 131]}

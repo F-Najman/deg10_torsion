@@ -1,0 +1,7 @@
+Loading "work/deg10/continuation_20261029b/deps/pair_af_place_linear.m"
+Loading "work/deg10/continuation_20261029b/deps/class_group_direct_RR_checked_v4_fastfb.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late238_filter19.m", line 10, column 79:
+>> :o in os];H:=sub<G|hg>;assert #H eq 438;QH,qh:=quo<G|H>;
+                          ^
+Runtime error in assert: Assertion failed

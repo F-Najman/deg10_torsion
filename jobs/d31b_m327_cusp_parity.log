@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m327_cusp_parity.py", line 10, in <module>
+    r=next(r for r in a[1] if r[0]==7);number=sum(r[3]);assert number%2==1
+                                                               ^^^^^^^^^^^
+AssertionError

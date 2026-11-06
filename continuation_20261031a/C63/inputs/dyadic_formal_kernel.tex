@@ -1,0 +1,101 @@
+% Local dyadic lemma: full abelian scheme, no abelian-quotient cotangent sequence.
+\begin{lemma}\label{lem:dyadic-formal-Hecke-kernel}
+Let $A/\mathbb Z_2$ be an abelian scheme, and let $T,\delta$ be
+commuting endomorphisms over $\mathbb Z_2$. Suppose that their
+reductions satisfy
+\[
+ \overline T=F+\overline\delta V,
+\]
+where $F,V$ are Frobenius and Verschiebung on $A_{\mathbb F_2}$.
+Then $M=T-\delta$ kills the torsion kernel of
+$A(\mathbb Q_2)\to A(\mathbb F_2)$.
+\end{lemma}
+\begin{proof}
+Choose integral parameters $t=(t_1,\ldots,t_g)$ at the identity,
+and let $A_n$ be the subgroup with $t\in2^n\mathbb Z_2^g$.
+The group $A_2$ is torsion free.
+Indeed, if a nonzero point has minimum coordinate valuation
+$n\geq2$, then $[2](t)=2t+O(t^2)$ has minimum valuation $n+1$.
+Multiplication by an odd integer preserves the minimum valuation.
+Thus no nonzero point of $A_2$ is torsion.
+
+Let $P\in A_1$ be torsion. Since $[2]A_1\subseteq A_2$, we have
+$2P=0$. Write $t(P)=2u$, with $u\in\mathbb Z_2^g$.
+Put $H=dV$ and $D=d\overline\delta$, as matrices over $\mathbb F_2$.
+The identity $[2]=V\circ F$ on the special fibre shows that the
+quadratic part of the multiplication-by-$2$ series, reduced
+modulo $2$, is $H t^{[2]}$, where $t^{[2]}=(t_1^2,\ldots,t_g^2)$.
+Its linear part over $\mathbb Z_2$ is $2t$.
+Consequently, with any integral lift of $H$,
+\[
+ 0=[2](2u)\equiv4u+4H u^{[2]}\pmod8.
+\]
+Since the residue field is $\mathbb F_2$, this gives
+$(H-I)\overline u=0$.
+
+Frobenius has zero differential, so
+\[
+ d\overline M=D(H-I).
+\]
+Using the integral series for $M$ now gives
+\[
+ t(MP)\equiv2\,dM\,u\equiv0\pmod4.
+\]
+Thus $MP\in A_2$. It is torsion, and hence $MP=0$.
+\end{proof}
+
+\begin{corollary}\label{cor:dyadic-Cartier-formal-immersion}
+Let $N\geq5$ be odd, $X=X_1(N)$ and $J=J_1(N)$.
+On $H^0(X_{\mathbb F_2},\Omega^1)$ put
+\[
+ U=(\mathcal C-I)H^0(X_{\mathbb F_2},\Omega^1),
+\]
+where $\mathcal C$ is Cartier.
+Let $E\in X^{(d)}(\mathbb F_2)$.
+If restriction from $U$ to $H^0(E,\Omega^1_X|_E)$ is surjective,
+then $(T_2-\langle2\rangle)\circ\iota$ is a formal immersion at $E$,
+where $\iota:X^{(d)}\to J$ is an integral Abel--Jacobi map.
+In particular, if two points $D,C\in X^{(d)}(\mathbb Q_2)$ reduce
+to $E$ and $[D-C]\in J(\mathbb Q_2)$ is torsion, then $D=C$.
+\end{corollary}
+\begin{proof}
+The full Jacobian has good reduction at $2$.
+Eichler--Shimura gives $\overline T_2=F+\langle2\rangle V$.
+Under the Abel--Jacobi identification of invariant differentials
+with $H^0(X_{\mathbb F_2},\Omega^1)$, pullback by $V$ is Cartier.
+Therefore, for $M=T_2-\langle2\rangle$ and $\delta=\langle2\rangle$,
+\[
+ M^*=(\mathcal C-I)\circ\delta^*.
+\]
+Since $\delta^*$ is invertible, $\operatorname{im}(M^*)=U$.
+
+The cotangent map of the Abel--Jacobi morphism at $E$ is the
+restriction map to $H^0(E,\Omega_X^1|_E)$.
+This description holds for nonreduced divisors and nonrational
+support points: it follows from the perfect residue pairing with
+$H^0(E,\mathcal O_E(E))$, the tangent space of $X^{(d)}$ at $E$.
+The assumed surjectivity therefore gives a formal immersion.
+This uses the endomorphism of the full smooth Jacobian directly;
+no cotangent sequence for an abelian quotient is required.
+
+For the final assertion, properness extends $D,C$ over
+$\mathbb Z_2$. Their torsion difference reduces to zero, so
+Lemma~\ref{lem:dyadic-formal-Hecke-kernel} gives $M[D-C]=0$.
+Their images under $M\circ\iota$ are equal.
+Formal immersion is injective on the corresponding residue class,
+since its map of completed local rings is surjective.
+Hence $D=C$.
+\end{proof}
+
+\noindent\emph{Local cuspidal traces.}
+For an application with $D$ defined over $\mathbb Q$ and $J(\mathbb Q)$
+of rank zero, the cuspidal lift $C$ need only be defined over
+$\mathbb Q_2$.
+The cuspidal scheme is finite etale at $2$, so a closed residue cusp
+of degree $f$ lifts to an unramified degree-$f$ cusp over
+$\mathbb Q_2$; its trace is a $\mathbb Q_2$-rational divisor.
+Manin--Drinfeld makes $[C-dc_0]$ torsion, while rank zero makes
+$[D-dc_0]$ torsion, for a rational cusp $c_0$.
+Thus $[D-C]\in J(\mathbb Q_2)$ is torsion, even when individual
+cusps in $C$ have degree $3$.
+The residue field used in the kernel lemma remains $\mathbb F_2$.

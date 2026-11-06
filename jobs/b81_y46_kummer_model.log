@@ -1,0 +1,6 @@
+C81_KUMMER_BASE_AND_DUAL_READY 0.900
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_y46_kummer_model.m", line 9, column 61:
+>> end for;assert found;print "C81_KUMMER_CUBE_CLASS_VERIFIED",power,trials,Cp
+                                                               ^
+User error: Identifier 'power' has not been declared or assigned

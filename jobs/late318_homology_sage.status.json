@@ -1,0 +1,18 @@
+{
+  "purpose": "late318_homology_sage",
+  "script": "computations/late318_homology_sage.py",
+  "script_sha256": "cb625f401cbdabf68a9217ad289f4d90d3c94a94281839f8aac435d1e3e5b416",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late318_homology_sage.py"
+  ],
+  "pid": 892675,
+  "owner_uid": 1001,
+  "start_time_unix": 1793314265.7664142,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/late318_homology_sage.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.5212337970733643
+}

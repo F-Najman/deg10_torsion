@@ -1,0 +1,16 @@
+{
+  "time_unix": 1793282316.5601563,
+  "owner_uid": 1001,
+  "active_degree10_workers_and_supervisors": [],
+  "recorded_jobs": 118,
+  "all_exited": true,
+  "exit_code_counts": {
+    "1": 17,
+    "0": 85,
+    "-15": 16
+  },
+  "paused_degree10_jobs": 0,
+  "automatic_launchers_created": false,
+  "other_users_jobs_signalled": false,
+  "note": "All own workers and batch coordinators have exited. Bounded incomplete probes retain their actual exit status. The terminated winding1147 job contributes only explicitly completed character components to the separately completed resume certificate."
+}

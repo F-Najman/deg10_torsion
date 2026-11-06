@@ -1,0 +1,141 @@
+{
+  "complete": true,
+  "degree": 10,
+  "excluded_level111": true,
+  "generic_lemma": "dyadic_cuspidal_criterion.tex, lem:dyadic-cuspidal-diamond",
+  "proof111": "C111_exclusion.tex",
+  "proof95_owned_by_parent": true,
+  "independent_levels_checked": [
+    111,
+    95
+  ],
+  "exact_results": {
+    "111": {
+      "cusp_signature": {
+        "1": 36,
+        "36": 2,
+        "2": 18
+      },
+      "all_global_cusp_orbits_intact_at2": true,
+      "noncuspidal_points_over_F2_extensions_through_degree10": 0,
+      "diamond": 10,
+      "diamond_order": 3,
+      "finite_image_dimension": 264,
+      "complex_gonality_strict_lower_bound": [
+        55575,
+        1024
+      ],
+      "effective_divisor_comparison_degree": 40
+    },
+    "95": {
+      "cusp_signature": {
+        "1": 36,
+        "36": 1,
+        "4": 9,
+        "18": 2
+      },
+      "all_global_cusp_orbits_intact_at2": true,
+      "noncuspidal_points_over_F2_extensions_through_degree10": 0,
+      "diamond": 11,
+      "diamond_order": 3,
+      "finite_image_dimension": 192,
+      "complex_gonality_strict_lower_bound": [
+        43875,
+        1024
+      ],
+      "effective_divisor_comparison_degree": 40
+    }
+  },
+  "computation_lifecycle": {
+    "new_magma_jobs_started": 0,
+    "new_magma_workers_or_launchers_to_retire": 0,
+    "plain_python_replay": "Exited successfully; runtime below one second in shell tool. Existing completed winding packets copied read-only; other host computations untouched."
+  },
+  "files": [
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/C111_exclusion.tex",
+      "bytes": 2589,
+      "sha256": "e203200f24607a6a059798d437d87eaa738fcb72af93c2e6ed10236b5c49608e"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/bibliography_additions.tex",
+      "bytes": 345,
+      "sha256": "011442992d127e778d89492270c2c78fd80789e83ae3abe236c3a04ffd0ea4a8"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/dyadic_cuspidal_criterion.tex",
+      "bytes": 1554,
+      "sha256": "8ba3e280e91d8991cd3bbbfc1969b028643c88c97b30268fb2a1fbde22ec9c57"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/independent_replay.json",
+      "bytes": 37427,
+      "sha256": "5ce1228431c42f81f8af7c0e0b2d232c1896def61ebb0722409c612a42d49138"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/krylov_N111_chi2_order36.json",
+      "bytes": 575,
+      "sha256": "862efc5082962d24fe0d28d434c1c73cbf69917eb964fb1a76997cee75aa42cc"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/krylov_N95_chi3_order36.json",
+      "bytes": 337,
+      "sha256": "f7e7d00fd0d281010b67b6f198d2221417057c3e13e0f09b22483b46b871ad8a"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/reuse_manifest.json",
+      "bytes": 2689,
+      "sha256": "9a2e7b558a4ef2ee7437dbcd3c46b67a9104be514c63fc584bab3d1c77748b1e"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding111.log",
+      "bytes": 1961,
+      "sha256": "691188d2d81d0f85cd84690ab2d06dd48864ec9d6ad265325082da698243105a"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding111.m.archived.txt",
+      "bytes": 2756,
+      "sha256": "7b1f159ac47a5b33f3e3f96b34fc31a79544feccc28561bf69ddb03a77eebfad"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding111.status.json",
+      "bytes": 589,
+      "sha256": "c5e9bfa50d68f3ffa99fd25fba522f1b6bb27781b80b1088850593167307bf2f"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding95.log",
+      "bytes": 1892,
+      "sha256": "fe1caf8bf586a50c6ea5d1f091f903f56525358036042b504f7ab74ffb022737"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding95.m.archived.txt",
+      "bytes": 2768,
+      "sha256": "dea16cffefd0d777b14d89da0717f4209d3f69a0b8b1f074eb55c12ada396a22"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding95.status.json",
+      "bytes": 608,
+      "sha256": "2625f3d45cf475bf3dae374735c7e4697599b52430af36d2274f074cfbd8d5d1"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/primary_references.json",
+      "bytes": 1058,
+      "sha256": "d0d8584f94b73536d17b306483b33b1283e41e1dd82928538b2a02849fb88dbd"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/replay.log",
+      "bytes": 339,
+      "sha256": "40e0160e00f584312bd44f3efd4b8867cbf0006a7da96f19dba9caa6fef792fc"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/replay.py",
+      "bytes": 5418,
+      "sha256": "6a1d47caca129ca01122c20f90cc2b10fc1505b41bbf2f0b07e24aca7b47ecaa"
+    },
+    {
+      "path": "work/deg10/next_cases_20261030/cyclic_hecke/resolution.tex",
+      "bytes": 200,
+      "sha256": "d5c39901eec8e0b8e4a21f3094e3b77ecb584fb1b21481a94f9a12d26e943e91"
+    }
+  ]
+}

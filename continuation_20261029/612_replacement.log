@@ -1,0 +1,21 @@
+{"purpose": "cont_RR612_norm13_shard6", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 52.87032747268677}
+{"purpose": "cont_RR612_norm13_shard10", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 54.547770261764526}
+{"purpose": "cont_RR612_norm13_shard3", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 54.95074534416199}
+{"purpose": "cont_RR612_norm13_shard11", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 56.35092616081238}
+{"purpose": "cont_RR612_norm13_shard7", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 56.50339698791504}
+{"purpose": "cont_RR612_norm13_shard4", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 56.555065870285034}
+{"purpose": "cont_RR612_norm13_shard1", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 58.956326484680176}
+{"purpose": "cont_RR612_norm13_shard0", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 59.463252544403076}
+{"purpose": "cont_RR612_norm13_shard9", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 59.709312915802}
+{"purpose": "cont_RR612_norm13_shard5", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 61.053473234176636}
+{"purpose": "cont_RR612_norm13_shard2", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 62.98094058036804}
+{"purpose": "cont_RR612_norm13_shard8", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 63.474878549575806}
+{"purpose": "cont_source612_recert_shard2", "state": "EXITED", "actual_exit_code": 1, "elapsed_seconds": 9.38848090171814}
+{"purpose": "cont_source612_recert_shard4", "state": "EXITED", "actual_exit_code": 1, "elapsed_seconds": 8.426318407058716}
+{"purpose": "cont_source612_recert_shard1", "state": "EXITED", "actual_exit_code": 1, "elapsed_seconds": 10.633160591125488}
+{"purpose": "cont_source612_recert_shard3", "state": "EXITED", "actual_exit_code": 1, "elapsed_seconds": 8.879769325256348}
+{"purpose": "cont_source612_recert_shard5", "state": "EXITED", "actual_exit_code": 1, "elapsed_seconds": 9.984288930892944}
+{"purpose": "cont_source612_recert_shard6", "state": "EXITED", "actual_exit_code": 1, "elapsed_seconds": 7.925565004348755}
+{"purpose": "cont_source612_recert_shard7", "state": "EXITED", "actual_exit_code": 1, "elapsed_seconds": 9.480690956115723}
+{"purpose": "cont_source612_recert_shard0", "state": "EXITED", "actual_exit_code": 1, "elapsed_seconds": 42.342111110687256}
+DECIC612_VERIFIED_REPLACEMENT_FINISHED 20

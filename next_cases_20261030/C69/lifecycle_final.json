@@ -1,0 +1,65 @@
+{
+  "all_case_workers_and_supervisors_exited": true,
+  "active_workers_supervisors_launchers": [],
+  "paused_jobs": [],
+  "automatic_launchers_created": false,
+  "successful_new_checks": [
+    {
+      "job": "direct69_select_input_v2",
+      "marker": "DIRECT69_SELECTED_INPUT_COMPLETE",
+      "actual_exit_code": 0
+    },
+    {
+      "job": "direct69_native_hecke_control",
+      "marker": "DIRECT69_NATIVE_HECKE_CONTROL_COMPLETE",
+      "actual_exit_code": 0
+    },
+    {
+      "job": "direct69_verify_input_v2",
+      "marker": "DIRECT69_SELECTED_INPUT_REPLAY_COMPLETE",
+      "actual_exit_code": 0
+    },
+    {
+      "job": "q67_local_preflight",
+      "marker": "Q67_LOCAL_PREFLIGHT_COMPLETE",
+      "actual_exit_code": 0
+    },
+    {
+      "job": "q67_profile_rr_v2",
+      "marker": "Q67_V2_A5_RR_COMPLETE base_case=2 principal=false",
+      "actual_exit_code": 0
+    },
+    {
+      "job": "q67_geometry_audit",
+      "marker": "Q67_GEOMETRY_PACKET_AUDIT_COMPLETE",
+      "actual_exit_code": 0
+    },
+    {
+      "job": "cont69_q67_parent_native_v2",
+      "marker": "C69_Q67_PARENT_NATIVE_RR_V2_COMPLETE 4 0",
+      "actual_exit_code": 0
+    }
+  ],
+  "unsuccessful_attempts_preserved_not_used_as_proof": [
+    {
+      "job": "direct69_select_input",
+      "actual_exit_code": 1,
+      "used_as_proof": false
+    },
+    {
+      "job": "direct69_verify_input",
+      "actual_exit_code": 1,
+      "used_as_proof": false
+    },
+    {
+      "job": "direct69_profile_and_rr",
+      "actual_exit_code": -14,
+      "used_as_proof": false
+    },
+    {
+      "job": "q67_profile_rr",
+      "actual_exit_code": -14,
+      "used_as_proof": false
+    }
+  ]
+}

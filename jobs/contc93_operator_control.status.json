@@ -1,0 +1,18 @@
+{
+  "purpose": "contc93_operator_control",
+  "script": "continuation_20261030c/C93/contc93_operator_control.py",
+  "script_sha256": "f16328d62ee6cc0fa5b166573a4688cb88b7ae43580f66221248531be5dbd750",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C93/contc93_operator_control.py"
+  ],
+  "pid": 2733447,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398729.2682593,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/contc93_operator_control.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.8684439659118652
+}

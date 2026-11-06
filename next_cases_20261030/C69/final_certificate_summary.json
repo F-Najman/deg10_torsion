@@ -1,0 +1,204 @@
+{
+  "status": "COMPLETE; parent mathematical and independent geometry audits PASS",
+  "degree": 10,
+  "excluded_group": "C69",
+  "claim": "No elliptic curve over a degree10 number field has a point of order69",
+  "proof": "work/deg10/next_cases_20261030/C69/resolution.tex",
+  "rank_zero_input": "DEHMZ Theorem3.1",
+  "source_genus": 133,
+  "geometric_gonality_bound": "10725/512 > 20",
+  "noncuspidal_closed_point_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    66,
+    44,
+    44,
+    44
+  ],
+  "small_cover_completed_intermediate_stage": {
+    "status_at_that_stage": "VERIFIED PARTIAL; C69 remains open",
+    "base_tests": 9,
+    "cover_tests": 18,
+    "residual_then": "one degree10 diamond orbit",
+    "resolved_by_current_genus67_test": true,
+    "source_sha256": "4314c40824424a008495f68abde8352c08ac9f3211b729f526e7b3d34f2a6526"
+  },
+  "final_quotient_genus": 67,
+  "quartic_over_X1_23_genus12": "v^4+v^3+1/j",
+  "exact_constants_proof": "simple root v=1 at a rational base cusp; Hensel",
+  "actual_source_and_Hecke_lifts": "unique same-degree root, factors[1,3], all exact prime restrictions independently replayed",
+  "correct_operator": "T5-1-5<5>",
+  "Hecke_degrees": [
+    10,
+    50
+  ],
+  "Hecke_observations": [
+    1,
+    5
+  ],
+  "Hecke_norm_weights": [
+    1,
+    1
+  ],
+  "positive_Hecke_degree": 60,
+  "primary_principal": false,
+  "independent_native_RR_dimension": 0,
+  "source_and_norm_inputs_pinned_locally": true,
+  "terminated_attempts_not_used_as_proof": true,
+  "lifecycle": {
+    "all_case_workers_and_supervisors_exited": true,
+    "active_workers_supervisors_launchers": [],
+    "paused_jobs": [],
+    "automatic_launchers_created": false,
+    "successful_new_checks": [
+      {
+        "job": "direct69_select_input_v2",
+        "marker": "DIRECT69_SELECTED_INPUT_COMPLETE",
+        "actual_exit_code": 0
+      },
+      {
+        "job": "direct69_native_hecke_control",
+        "marker": "DIRECT69_NATIVE_HECKE_CONTROL_COMPLETE",
+        "actual_exit_code": 0
+      },
+      {
+        "job": "direct69_verify_input_v2",
+        "marker": "DIRECT69_SELECTED_INPUT_REPLAY_COMPLETE",
+        "actual_exit_code": 0
+      },
+      {
+        "job": "q67_local_preflight",
+        "marker": "Q67_LOCAL_PREFLIGHT_COMPLETE",
+        "actual_exit_code": 0
+      },
+      {
+        "job": "q67_profile_rr_v2",
+        "marker": "Q67_V2_A5_RR_COMPLETE base_case=2 principal=false",
+        "actual_exit_code": 0
+      },
+      {
+        "job": "q67_geometry_audit",
+        "marker": "Q67_GEOMETRY_PACKET_AUDIT_COMPLETE",
+        "actual_exit_code": 0
+      },
+      {
+        "job": "cont69_q67_parent_native_v2",
+        "marker": "C69_Q67_PARENT_NATIVE_RR_V2_COMPLETE 4 0",
+        "actual_exit_code": 0
+      }
+    ],
+    "unsuccessful_attempts_preserved_not_used_as_proof": [
+      {
+        "job": "direct69_select_input",
+        "actual_exit_code": 1,
+        "used_as_proof": false
+      },
+      {
+        "job": "direct69_verify_input",
+        "actual_exit_code": 1,
+        "used_as_proof": false
+      },
+      {
+        "job": "direct69_profile_and_rr",
+        "actual_exit_code": -14,
+        "used_as_proof": false
+      },
+      {
+        "job": "q67_profile_rr",
+        "actual_exit_code": -14,
+        "used_as_proof": false
+      }
+    ]
+  },
+  "file_hashes": {
+    "work/deg10/computations/cont69_cover_all_decic_v2.m": "7827dd1804e4456c7097b9d1e831cdf60e923ce16aea4f98a8e98275a272d27a",
+    "work/deg10/computations/cont69_geometry_export.m": "712c061df8468e9cc77dfe95ce6f2bae29025cf606763b75c80ec13d96a598a5",
+    "work/deg10/computations/cont69_independent_moduli_v4.py": "dd2d420cf3fd8692dab4b0c3bd68de27e0e7857c5751ce974066eb760e7cc478",
+    "work/deg10/computations/cont69_native_RR_replay_v2.m": "191424cca5dccaef87b1c7c9acb3177de262ad83150726672988d961f7667946",
+    "work/deg10/computations/cont69_q67_parent_native_v2.m": "564a0aa71a6d4c4a47393a20671dfbab2185f858c4d30ec9a718309ab0aaaf5a",
+    "work/deg10/jobs/cont69_cover_all_decic_v2.log": "065827b18a1ce3ff222bc83117b1d6ad165f86298cf93f342b38c6b109d92b0e",
+    "work/deg10/jobs/cont69_cover_all_decic_v2.status.json": "1c729b0196b075ec6551a968c8013de510e82823234c25d84600433371c5ed7f",
+    "work/deg10/jobs/cont69_geometry_export.log": "598915cdbb435e188b157073bae61cc802792f625b8bc2a6c4b260728b386de0",
+    "work/deg10/jobs/cont69_geometry_export.status.json": "9c4b9aeab300c073da42026c2007ba231c968f9a4bdf19651db665d2cf5e92f2",
+    "work/deg10/jobs/cont69_independent_moduli_v4.log": "26441a1e873d2c11af8a2d2e62ecf53a8030c274b09147410f9ad040f4a16751",
+    "work/deg10/jobs/cont69_independent_moduli_v4.status.json": "3274bac715fc3fda3cb0780fe14da86e8cd338dd8104d61b63e1a0322106c1c3",
+    "work/deg10/jobs/cont69_native_RR_replay_v2.log": "faf370752d2f2cddec9cfcfefe103cf8bc4841dd5262a4986fe17417e7ee45f6",
+    "work/deg10/jobs/cont69_native_RR_replay_v2.status.json": "caf7b89c58d43c162e9d79a22257dde946184b84c8ec7a0de72154466744d803",
+    "work/deg10/jobs/cont69_q67_parent_native_v2.log": "b05291297212becf5879a7d912bef0ffbb069ccd73a774483a066e52761d917b",
+    "work/deg10/jobs/cont69_q67_parent_native_v2.status.json": "e941b1a6e3160aaef54f33c1992f811a04b184505e8e106e24c85a2921f83741",
+    "work/deg10/jobs/direct69_native_hecke_control.log": "5502461f896dde1207c7e9438d300a80171ff36b711ab8bd98c22707966f3c99",
+    "work/deg10/jobs/direct69_native_hecke_control.status.json": "a7f6253ce8b9e612441ae31141d758cee9bb0c4b551f09ea602b45d1b336ac8b",
+    "work/deg10/jobs/direct69_profile_and_rr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "work/deg10/jobs/direct69_profile_and_rr.status.json": "65ef5d874765f074e152e340c4e09f7d9cd23833ba78f7800ad773b56d843fa3",
+    "work/deg10/jobs/direct69_select_input.log": "e0c03db5a895e49088cad91dbfc389bc65058909ebed52e5b605b29c4ba0dfef",
+    "work/deg10/jobs/direct69_select_input.status.json": "c3128671901f354cda0c036445420c284314659827eab616f426b72993d2a8ff",
+    "work/deg10/jobs/direct69_select_input_v2.log": "0c7956ef1deb01f949dc0c7987d8cbf2681d68f36af2f0ebbe5aa506c7e2c95e",
+    "work/deg10/jobs/direct69_select_input_v2.status.json": "938f5a63fc472a9b4917c80d9f6b5b9a015a77f21d254ba88c046977c1259f02",
+    "work/deg10/jobs/direct69_verify_input.log": "d1c2c6ef427616b0499004284481692a5a1e81342732af52d5c1be3c01385dbe",
+    "work/deg10/jobs/direct69_verify_input.status.json": "5db526568f20eddac61506724d5f21f02e0df13ac1aa93e1144d1209f20fe4f3",
+    "work/deg10/jobs/direct69_verify_input_v2.log": "fce127120702fc3fd86996ac70c20cb7bc202f4f98fe9432934ce1783590c864",
+    "work/deg10/jobs/direct69_verify_input_v2.status.json": "b6e5168c6fc75f15b151927ee3e43956cf83df687fa3690fa69b1b2a0d8ab717",
+    "work/deg10/jobs/independent_source_cusps.log": "fe3a7a715f9e40b126564a5ca0a4207e1287c900219b15a15721fcc993c311f0",
+    "work/deg10/jobs/independent_source_cusps.status.json": "6692ab8f734a2c74d8d393fe26cd7c50db8e8f867c353b89d205167fcad45ebd",
+    "work/deg10/jobs/q67_geometry_audit.log": "9a566bb7325cc0fb24705ebd14c86d5707a56aa161f7c16fc343d975862b94db",
+    "work/deg10/jobs/q67_geometry_audit.status.json": "6f0b531890e8e623c9e95f0af0c67f71c1a7b998a7cf403b464e6a6059e7d3a0",
+    "work/deg10/jobs/q67_local_preflight.log": "a0b28a4230b97f45716ddbbb79107fbb0ca77b477067658cc7e08f0691cfdf58",
+    "work/deg10/jobs/q67_local_preflight.status.json": "ee53267eea8741cae6a43aafb9b51b26eb676517383a11a6aea24825582ad61e",
+    "work/deg10/jobs/q67_profile_rr.log": "1d00d95136480e9232bb36134e4fc721b61f64d61b0d8e0829ca6e6f6fd5427d",
+    "work/deg10/jobs/q67_profile_rr.status.json": "0669d2e3c9904a97989d2040d9fa8fd2a6b77be112b45c1c9556dc51a66b4f83",
+    "work/deg10/jobs/q67_profile_rr_v2.log": "20bd8fc41be1baec78d85063610b05b13f61ecc734e3d346177b138cf8255e06",
+    "work/deg10/jobs/q67_profile_rr_v2.status.json": "545956b06eddabad22c1081131b98747966232727951eadfbf3780e7ca10a15d",
+    "work/deg10/next_cases_20261030/C69/base_j_functions.m": "ed2ea83387198c1bd323f4e8a417def08d5aa323965bfeedcea166398005d3e8",
+    "work/deg10/next_cases_20261030/C69/certify69.py": "e9f1f4f95978595df4968658143d333ff50d5b107cb349544a9412d4e6daae03",
+    "work/deg10/next_cases_20261030/C69/cover_model_v2.m": "71d55560f6a82205b91213aed30fd1f5c0098c0f6f1db7e0872e61466ca3de64",
+    "work/deg10/next_cases_20261030/C69/cover_results_v2.m": "59d19f28e281262bc9b1e95870dcafb885eb644cfaf30cec8e786988c275ed82",
+    "work/deg10/next_cases_20261030/C69/degree10_base.m": "217e708b99416054237966f9ae66d723ee4904362f3254c86d34279eef395325",
+    "work/deg10/next_cases_20261030/C69/direct_full/direct69_native_hecke_body.m": "1ffb2b8b9e0fc0bb1db72d979bf2247729a17bebe04fba52e7a95f0df8d187ff",
+    "work/deg10/next_cases_20261030/C69/direct_full/direct69_native_hecke_control.m": "bdc5cf70f2e86576d8800b926251dd24eb9909cca8648dce307358e037a07e7b",
+    "work/deg10/next_cases_20261030/C69/direct_full/direct69_profile_and_rr.m": "21a3e584a140935612bdd43202091e72a1cc755c1cdff600553580fb5f9cdc3a",
+    "work/deg10/next_cases_20261030/C69/direct_full/direct69_select_input.m": "28fde33d1620890f006f3c97decf7a4dbb739c00ad2b51d428380dc4085f6cf3",
+    "work/deg10/next_cases_20261030/C69/direct_full/direct69_select_input_v2.m": "8ff71f3cffe02a261607c1d7e03043d9b9e8b309c046095c37d6a00c8b5e4e59",
+    "work/deg10/next_cases_20261030/C69/direct_full/direct69_verify_input.py": "7d9264ff2878751a6d72243e76b18ac8f61772ff8d60cec17ce05fa49cfca065",
+    "work/deg10/next_cases_20261030/C69/direct_full/direct69_verify_input_v2.py": "eccf06e597b8f82e2f1e7fd8d6e1461e9daf44af4ffca49c8d369e3585f50136",
+    "work/deg10/next_cases_20261030/C69/direct_full/selected_hecke_input.m": "5221ca140aa78daa6cee4a698f9c8960fb7c43ced2b36b7083bb4974a4d607ef",
+    "work/deg10/next_cases_20261030/C69/direct_full/selected_input.m": "f708511b42aaa13acc9d3ee4595719954ae292905f33eb4babd2ebdf5fc76f8b",
+    "work/deg10/next_cases_20261030/C69/direct_full/selected_input_verified.json": "a4d849c340002a52a0c9e8f1ddc968f5985ca0f352de28ca01d719ff17fa5128",
+    "work/deg10/next_cases_20261030/C69/independent_moduli_isogenies_v4.json": "e35bd51fb7478dcec3796f259a87c85d755569a490f38d7fbec75a4c2d31edf1",
+    "work/deg10/next_cases_20261030/C69/independent_source_cusps.json": "a924cd6b5ab74a39d9f39f0f74a542787c17da58b1ee2e0f374c0e7e93de62a1",
+    "work/deg10/next_cases_20261030/C69/independent_source_cusps.py": "122a02f4f4840cb375eca91b8c927cf459dc57842504c0d924a5d49914a9a3f5",
+    "work/deg10/next_cases_20261030/C69/lifecycle_final.json": "961c49dabc708c7426cca5f9f994f03971816d01b3ad69a1fcb9110cc0d10056",
+    "work/deg10/next_cases_20261030/C69/native_RR_replay_v2.m": "04eb525eefd5e55979ca21005da5a9e05c48bc8ecaac058304e2edc5616cb926",
+    "work/deg10/next_cases_20261030/C69/parent_final_checks.json": "1f8c864152dc2c75aea6978f16923f7124e0fbc0ebe2a98eec992f68763520bb",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/DEHMZ_source.snapshot.tex": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/base_j_functions.snapshot.m": "ed2ea83387198c1bd323f4e8a417def08d5aa323965bfeedcea166398005d3e8",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/cover_model_v2.snapshot.m": "71d55560f6a82205b91213aed30fd1f5c0098c0f6f1db7e0872e61466ca3de64",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/cover_results_v2.snapshot.m": "59d19f28e281262bc9b1e95870dcafb885eb644cfaf30cec8e786988c275ed82",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/fast_hecke.snapshot.m": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/independent_moduli_isogenies_v4.snapshot.json": "e35bd51fb7478dcec3796f259a87c85d755569a490f38d7fbec75a4c2d31edf1",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/independent_norm_control_source.snapshot.py": "dd2d420cf3fd8692dab4b0c3bd68de27e0e7857c5751ce974066eb760e7cc478",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/mdmagma_LICENSE.snapshot": "de33dba20e562aa9800d97371351ff738181a155bbba218960299c71f1d40392",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/mdmagma_X1.snapshot.m": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/mdmagma_X1_N_equations.snapshot.m": "4a344f4e1ca7c09a8d9a61828912ca316a39e5feebc04cfe3051dbf9843c94a7",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/mdmagma_model_X1_23.snapshot.txt": "7c8ef20718e262ce585ce1a9e280658b063f26095c1fcb59c1147415d5560f6f",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/parent_native_replay_source.snapshot.m": "564a0aa71a6d4c4a47393a20671dfbab2185f858c4d30ec9a718309ab0aaaf5a",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/selected_hecke_input.snapshot.m": "5221ca140aa78daa6cee4a698f9c8960fb7c43ced2b36b7083bb4974a4d607ef",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/selected_input.snapshot.m": "f708511b42aaa13acc9d3ee4595719954ae292905f33eb4babd2ebdf5fc76f8b",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/small_cover_verified_stage.snapshot.json": "4314c40824424a008495f68abde8352c08ac9f3211b729f526e7b3d34f2a6526",
+    "work/deg10/next_cases_20261030/C69/proof_dependencies/snapshot_manifest.json": "bcacb06b64286c687aabdf94c00a1e0227814d8cd2499836b715cd9f1269cad7",
+    "work/deg10/next_cases_20261030/C69/quotient67/geometry_verified.json": "8ce91d33c48e8d71f9295a257236987bd04641cb43c791e1f53bfa621fc1cb12",
+    "work/deg10/next_cases_20261030/C69/quotient67/model_profile_v2.json": "fd16e117f9956f3ef0256c8b0165091ffb0bcb840f1a11f209a22ea7dd1aeb96",
+    "work/deg10/next_cases_20261030/C69/quotient67/parent_native_replay.m": "0c09942e1f58cb7404c92db5b35d59c2cd00db2fa34ac2fb8fa56f1b87785a84",
+    "work/deg10/next_cases_20261030/C69/quotient67/proof_packet_v2.m": "769bbe82ffd302a9f832c5e1ee0e0003adda56328c9c58c3f069cdcb7cce69bf",
+    "work/deg10/next_cases_20261030/C69/quotient67/q67_geometry_audit.py": "f7f270feef20ed9ec10b657709e72bfedab03ef596cbb4e8302171c215049a29",
+    "work/deg10/next_cases_20261030/C69/quotient67/q67_local_preflight.m": "dd57f2c89cca5daddbbbcfaf6b6a0794ea6a79dc19d8ff300ef58b045288a640",
+    "work/deg10/next_cases_20261030/C69/quotient67/q67_profile_rr.m": "91fecc53ba4a73d1eeab8407b1749cc2b7cbce994e39d2b61eea60d623846118",
+    "work/deg10/next_cases_20261030/C69/quotient67/q67_profile_rr_v2.m": "a97ba3aee6b87830f30f5f14cf7649ad46f7d5bc7e905040579dd2835e95a6d9",
+    "work/deg10/next_cases_20261030/C69/quotient67/rr_result_v2.json": "5fba04bad93033308b7fa1b52899144e29db56c60d5df67660a402a9dac4c552",
+    "work/deg10/next_cases_20261030/C69/resolution.tex": "dc64480f97e5d42eeae95f503d47e82a25847377e867b9a8b990c6f7150b43a4",
+    "work/deg10/next_cases_20261030/C69/small_cover_verified_partial.json": "4314c40824424a008495f68abde8352c08ac9f3211b729f526e7b3d34f2a6526"
+  }
+}

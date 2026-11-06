@@ -1,0 +1,3 @@
+data:=eval Read("work/deg10/C236_resolution_20261030/geometry/genus9_stage2_arithmetic.m");prefix:=eval Read("work/deg10/C236_resolution_20261030/geometry/cyclic36_prefix_input.m");assert #data[3] eq 1251 and #data[4] eq 208;ids:={r[1]:r in prefix[4]};assert #ids eq 98 and ids subset {r[1]:r in data[4]};data[4]:=[*r:r in data[4]|r[1] notin ids*];assert #data[4] eq 110;Write("work/deg10/C236_resolution_20261030/geometry/cyclic36_tail_input.m",Sprint(data):Overwrite:=true);
+INPUTPATH:="work/deg10/C236_resolution_20261030/geometry/cyclic36_tail_input.m";OUTPUTPREFIX:="work/deg10/C236_resolution_20261030/geometry/cyclic36_tail";MAXCASES:=1000000;
+load "work/deg10/C236_resolution_20261030/geometry/cyclic36_stage3_common.m";

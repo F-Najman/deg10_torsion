@@ -1,0 +1,1326 @@
+{
+  "status": "PASS",
+  "method": "Independent plain-Python GF(2) elimination of every exact local block combination",
+  "patterns": [
+    {
+      "vector": [
+        0,
+        0,
+        0,
+        10
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        0,
+        0,
+        1,
+        7
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        0,
+        0,
+        2,
+        4
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        0,
+        0,
+        3,
+        1
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        0,
+        1,
+        0,
+        9
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        0,
+        1,
+        1,
+        6
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        0,
+        1,
+        3,
+        0
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        0,
+        2,
+        0,
+        8
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        0,
+        2,
+        1,
+        5
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        0,
+        3,
+        0,
+        7
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        0,
+        3,
+        1,
+        4
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        0,
+        4,
+        0,
+        6
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        0,
+        4,
+        1,
+        3
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        0,
+        4,
+        2,
+        0
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        0,
+        5,
+        1,
+        2
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        0,
+        6,
+        0,
+        4
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        0,
+        6,
+        1,
+        1
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        0,
+        7,
+        0,
+        3
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        0,
+        7,
+        1,
+        0
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        0,
+        8,
+        0,
+        2
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        0,
+        9,
+        0,
+        1
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        0,
+        10,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        1,
+        0,
+        0,
+        9
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        1,
+        0,
+        1,
+        6
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        1,
+        0,
+        3,
+        0
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        1,
+        1,
+        0,
+        8
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        1,
+        1,
+        1,
+        5
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        1,
+        2,
+        0,
+        7
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        1,
+        2,
+        1,
+        4
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        1,
+        3,
+        0,
+        6
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        1,
+        3,
+        1,
+        3
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        1,
+        4,
+        0,
+        5
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        1,
+        4,
+        1,
+        2
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        1,
+        5,
+        0,
+        4
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        1,
+        5,
+        1,
+        1
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        1,
+        6,
+        0,
+        3
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        1,
+        6,
+        1,
+        0
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        1,
+        7,
+        0,
+        2
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        1,
+        8,
+        0,
+        1
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        1,
+        9,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        2,
+        0,
+        0,
+        8
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        2,
+        0,
+        1,
+        5
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        2,
+        1,
+        0,
+        7
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        2,
+        1,
+        1,
+        4
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        2,
+        2,
+        0,
+        6
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        2,
+        2,
+        1,
+        3
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        2,
+        3,
+        0,
+        5
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        2,
+        3,
+        1,
+        2
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        2,
+        4,
+        0,
+        4
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        2,
+        4,
+        1,
+        1
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        2,
+        5,
+        0,
+        3
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        2,
+        5,
+        1,
+        0
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        2,
+        6,
+        0,
+        2
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        2,
+        7,
+        0,
+        1
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        2,
+        8,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        3,
+        0,
+        0,
+        7
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        3,
+        0,
+        1,
+        4
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        3,
+        1,
+        0,
+        6
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        3,
+        1,
+        1,
+        3
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        3,
+        2,
+        0,
+        5
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        3,
+        2,
+        1,
+        2
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        3,
+        3,
+        0,
+        4
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        3,
+        3,
+        1,
+        1
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        3,
+        4,
+        0,
+        3
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        3,
+        4,
+        1,
+        0
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        3,
+        5,
+        0,
+        2
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        3,
+        6,
+        0,
+        1
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        3,
+        7,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        4,
+        0,
+        0,
+        6
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        4,
+        0,
+        1,
+        3
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        4,
+        0,
+        2,
+        0
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        4,
+        1,
+        0,
+        5
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        4,
+        1,
+        1,
+        2
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        4,
+        2,
+        0,
+        4
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        4,
+        3,
+        0,
+        3
+      ],
+      "rank": 7,
+      "pullback_degree": 3,
+      "fixed_residual_degree": 1
+    },
+    {
+      "vector": [
+        4,
+        3,
+        1,
+        0
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        4,
+        4,
+        0,
+        2
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        4,
+        5,
+        0,
+        1
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        4,
+        6,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        5,
+        0,
+        0,
+        5
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        5,
+        0,
+        1,
+        2
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        5,
+        1,
+        0,
+        4
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        5,
+        1,
+        1,
+        1
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        5,
+        2,
+        0,
+        3
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        5,
+        2,
+        1,
+        0
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        5,
+        3,
+        0,
+        2
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        5,
+        4,
+        0,
+        1
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        5,
+        5,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        6,
+        0,
+        0,
+        4
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        6,
+        0,
+        1,
+        1
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        6,
+        1,
+        0,
+        3
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        6,
+        1,
+        1,
+        0
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        6,
+        2,
+        0,
+        2
+      ],
+      "rank": 8,
+      "pullback_degree": 2,
+      "fixed_residual_degree": 4
+    },
+    {
+      "vector": [
+        6,
+        3,
+        0,
+        1
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        6,
+        4,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        7,
+        0,
+        0,
+        3
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        7,
+        0,
+        1,
+        0
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        7,
+        1,
+        0,
+        2
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        7,
+        2,
+        0,
+        1
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        7,
+        3,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        8,
+        0,
+        0,
+        2
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        8,
+        1,
+        0,
+        1
+      ],
+      "rank": 9,
+      "pullback_degree": 1,
+      "fixed_residual_degree": 7
+    },
+    {
+      "vector": [
+        8,
+        2,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        9,
+        0,
+        0,
+        1
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        9,
+        1,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    },
+    {
+      "vector": [
+        10,
+        0,
+        0,
+        0
+      ],
+      "rank": 10,
+      "pullback_degree": 0,
+      "fixed_residual_degree": 10
+    }
+  ]
+}

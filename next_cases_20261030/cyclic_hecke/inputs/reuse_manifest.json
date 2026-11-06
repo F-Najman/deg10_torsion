@@ -1,0 +1,50 @@
+[
+  {
+    "source": "work/deg10/computations/winding111.m",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding111.m.archived.txt",
+    "sha256": "7b1f159ac47a5b33f3e3f96b34fc31a79544feccc28561bf69ddb03a77eebfad",
+    "mode": "verbatim accepted completed winding computation; archived scripts are not run"
+  },
+  {
+    "source": "work/deg10/jobs/winding111.log",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding111.log",
+    "sha256": "691188d2d81d0f85cd84690ab2d06dd48864ec9d6ad265325082da698243105a",
+    "mode": "verbatim accepted completed winding computation; archived scripts are not run"
+  },
+  {
+    "source": "work/deg10/jobs/winding111.status.json",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding111.status.json",
+    "sha256": "c5e9bfa50d68f3ffa99fd25fba522f1b6bb27781b80b1088850593167307bf2f",
+    "mode": "verbatim accepted completed winding computation; archived scripts are not run"
+  },
+  {
+    "source": "work/deg10/exclusions/krylov_N111_chi2_order36.json",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/krylov_N111_chi2_order36.json",
+    "sha256": "862efc5082962d24fe0d28d434c1c73cbf69917eb964fb1a76997cee75aa42cc",
+    "mode": "verbatim accepted completed winding computation; archived scripts are not run"
+  },
+  {
+    "source": "work/deg10/jobs/next95_winding.log",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding95.log",
+    "sha256": "fe1caf8bf586a50c6ea5d1f091f903f56525358036042b504f7ab74ffb022737",
+    "mode": "verbatim accepted completed winding computation; archived scripts are not run"
+  },
+  {
+    "source": "work/deg10/jobs/next95_winding.status.json",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding95.status.json",
+    "sha256": "2625f3d45cf475bf3dae374735c7e4697599b52430af36d2274f074cfbd8d5d1",
+    "mode": "verbatim accepted completed winding computation; archived scripts are not run"
+  },
+  {
+    "source": "work/deg10/next_cases_20261030/C95/krylov_N95_chi3_order36.json",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/krylov_N95_chi3_order36.json",
+    "sha256": "f7e7d00fd0d281010b67b6f198d2221417057c3e13e0f09b22483b46b871ad8a",
+    "mode": "verbatim accepted completed winding computation; archived scripts are not run"
+  },
+  {
+    "source": "work/deg10/computations/next95_winding.m",
+    "snapshot": "work/deg10/next_cases_20261030/cyclic_hecke/inputs/winding95.m.archived.txt",
+    "sha256": "dea16cffefd0d777b14d89da0717f4209d3f69a0b8b1f074eb55c12ada396a22",
+    "mode": "verbatim accepted completed winding computation; archived scripts are not run"
+  }
+]

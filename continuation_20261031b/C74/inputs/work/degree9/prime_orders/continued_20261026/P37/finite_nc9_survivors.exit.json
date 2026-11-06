@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-10-26T11:45:55.370157+00:00",
+  "worker_pid": 1750537,
+  "worker_start_ticks": 182217275,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P37/finite_nc9_survivors.m"
+  ],
+  "actual_cmdline": [
+    "/bin/sh",
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P37/finite_nc9_survivors.m"
+  ],
+  "wall_seconds": 10.0011482660193,
+  "cpu_seconds": 0.0,
+  "state": "S",
+  "wall_cap_seconds": 3600,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T11:46:05.371308+00:00",
+  "termination_reason": null
+}

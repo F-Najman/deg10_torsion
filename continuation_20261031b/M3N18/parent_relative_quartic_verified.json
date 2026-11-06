@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "restrictions": 36,
+  "all_relative_ranks": 3,
+  "all_fresh_genus10_holomorphic_frames_verified": true,
+  "all_actual_involutions_and_closed_prime_stabilizers_verified": true,
+  "all_native_DifferentialSpace_kernels_match": true,
+  "formal_fibre_proof_review": "PASS; smooth two-dimensional pullback family with a fixed rational cusp",
+  "residue_Frobenius_phase": "separately bound by primary physical-coordinate phase test",
+  "files": {
+    "computations/d31b_m318_parent_quartic_12.m": "346c788249aeadca5c306aba8197f21ffd6d7dc71b2070f1742421a708b0023d",
+    "computations/d31b_m318_parent_quartic_17.m": "608e6fc00d0a8a883abeba20488b6fac7abf8a030d9bf0f7fb4a39918d14ee16",
+    "computations/d31b_m318_parent_quartic_common.m": "965204b06d81a9903e6bf565834215cc1468300e7c9f5bbfeec3eb3bc0f1f51b",
+    "continuation_20261031b/M3N18/parent_relative_quartic_12.m": "97e3407330db54af1bf5953479232366773898956b82c06c2cf9fee529b51bec",
+    "continuation_20261031b/M3N18/parent_relative_quartic_17.m": "97e3407330db54af1bf5953479232366773898956b82c06c2cf9fee529b51bec",
+    "continuation_20261031b/M3N18/relative_cubic_rank.m": "3d21a437d8db2858eba3789a8d3af388d18c58e11ce5f1d40b3466d3bfaae2be",
+    "continuation_20261031b/M3N18/relative_quartic_12.m": "822954c5953bfb62476b2c54db0e1257274862c584b02689393575066b864d2d",
+    "continuation_20261031b/M3N18/relative_quartic_17.m": "68664f429474d261639082b4a97b7a0b456d32f7b97957406d577ce48cf693c7",
+    "jobs/d31b_m318_parent_quartic_12.log": "0eae5b5f0529d3fbff33571b1b3935d7086fd311423216e506c2a3a0611e74e0",
+    "jobs/d31b_m318_parent_quartic_12.status.json": "976915e7a84f0f0d24ed2e4ceb5260a60ece6ff13afd27546530d2fc20c3c320",
+    "jobs/d31b_m318_parent_quartic_17.log": "27d1c7ad3150f9393c744e47ece77f30fe4cde62f97ea6c88a5d32507833edbc",
+    "jobs/d31b_m318_parent_quartic_17.status.json": "1065154bec42c64da3abb327a5a6e4c1b7d97ada5cf8c5908b75561cc7758cdd"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/filter_quotient18_linear_arithmetic.txt",
+    "copy": "work/deg10/C236_resolution_20261030/geometry/source_support_data.m",
+    "sha256": "b3f51bea677b9cfece1edb6f023913d3f64cfb609d18e432417bef242e984ba4"
+  },
+  {
+    "source": "work/degree9/noncyclic/C230/deps/pair_af_place_linear.m",
+    "copy": "work/deg10/C236_resolution_20261030/geometry/deps/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  }
+]

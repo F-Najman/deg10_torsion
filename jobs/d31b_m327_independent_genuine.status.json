@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m327_independent_genuine",
+  "script": "computations/d31b_m327_independent_genuine.py",
+  "script_sha256": "535b1bc1e86c4aa920cf86ef9854bf7d438b8d7a7aa3fe401f80327fab64c2a5",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m327_independent_genuine.py"
+  ],
+  "pid": 3450090,
+  "owner_uid": 1001,
+  "start_time_unix": 1793432721.1356933,
+  "state": "EXITED",
+  "time_limit_seconds": 650,
+  "log": "jobs/d31b_m327_independent_genuine.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5145707130432129
+}

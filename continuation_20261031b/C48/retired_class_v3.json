@@ -1,0 +1,27 @@
+{
+  "reason": "Verified v4 replacement completed all1405 queries and exact both-order class identities; raw-BC v3 inversion is obsolete",
+  "replacement_status": "work/deg10/jobs/d31b_C48_class_native_high_s0_v4.status.json",
+  "old_status": "work/deg10/jobs/d31b_C48_class_native_high_s0_v3.status.json",
+  "before": {
+    "purpose": "d31b_C48_class_native_high_s0_v3",
+    "script": "continuation_20261031b/C48/d31b_C48_class_native_high_s0_v3.m",
+    "script_sha256": "5e070bdc9ca1d999172348e6fb5c2f0cb91365427e0b739e80b98297fc56fd3e",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_class_native_high_s0_v3.m"
+    ],
+    "pid": 3600582,
+    "owner_uid": 1001,
+    "start_time_unix": 1793439482.7097542,
+    "state": "RUNNING",
+    "time_limit_seconds": 1050,
+    "log": "jobs/d31b_C48_class_native_high_s0_v3.log"
+  },
+  "pid": 3600582,
+  "uid": 1001,
+  "proc_start_ticks": "224650009",
+  "command": "/opt/magma-2.30-1/magma.exe -b /home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_class_native_high_s0_v3.m ",
+  "signal": "SIGTERM",
+  "actual_exit_code": -15
+}

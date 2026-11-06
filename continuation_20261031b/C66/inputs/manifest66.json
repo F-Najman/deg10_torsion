@@ -1,0 +1,1904 @@
+{
+  "complete": true,
+  "degree": 9,
+  "excluded_groups": [
+    [
+      1,
+      66
+    ]
+  ],
+  "auxiliary_theorem": "Every noncuspidal rational effective degree9 divisor on X1(33) is a known closed nonic divisor; every elliptic curve with33torsion over a degree9 field has fulltorsion33.",
+  "proof": "exclusion66.tex",
+  "method": "CompleteF2rationalJacobianclasssieve plusF5RiemannRoch obstruction onten GLOBALsignedcuspidalclasses; Qgonality10; directF25fulltorsion certificate.",
+  "mathematical_review": "Parent and independent prime agent reviewed the proof and found no gap.",
+  "files": {
+    "F5_rr/basis33.m": {
+      "bytes": 31291,
+      "sha256": "fde9a71fa521ae47eccb978aa7fcbefa38f7d9667b0cca8b2e72cd9c9c63ad39"
+    },
+    "F5_rr/basis_jets33.exit.json": {
+      "bytes": 555,
+      "sha256": "7ba3125cb33d8c4a3296ba3366da79eeedd862c036692bc7623e5bc8a97381ae"
+    },
+    "F5_rr/basis_jets33.log": {
+      "bytes": 229,
+      "sha256": "8e118e95b4f756bc633fabe8550172788689b00507395e8c0f48cdc770bec039"
+    },
+    "F5_rr/basis_jets33.m": {
+      "bytes": 3109,
+      "sha256": "40f92740aeda72a2df745097fc443fff6fe14546cad8575f3388231545bdeddd"
+    },
+    "F5_rr/basis_jets33.status.json": {
+      "bytes": 456,
+      "sha256": "a16716427c940763dc4fb2e97b4cebf1a519139f3ee5e1a3751a3f0a350fbc09"
+    },
+    "F5_rr/coefficient_independence33.json": {
+      "bytes": 121,
+      "sha256": "fad0bd0be27ffdab9ec0de93d11e410fbbd895be30da55837f10e05fd5d4e1a3"
+    },
+    "F5_rr/guard_basis33.py": {
+      "bytes": 1478,
+      "sha256": "5753bfcbbde2f04681d0c73bb8a142fa88cb99c461f95c3a986b4ae3d2fbad28"
+    },
+    "F5_rr/guard_replay33.py": {
+      "bytes": 1247,
+      "sha256": "20351dd04eac9ac09bf00873280b1074fbfb9c12aeb1ab768b94c50badd1a0b9"
+    },
+    "F5_rr/guard_test33.py": {
+      "bytes": 1436,
+      "sha256": "370263474bcc310a28d7c2edf10c17bfbf8d0ea4555c02b75b4147e42e8e73df"
+    },
+    "F5_rr/guard_verify33.py": {
+      "bytes": 1473,
+      "sha256": "c4454f14cce6cb99e220875b84676d75811f520b4af7c1d9c2adc56369c254c0"
+    },
+    "F5_rr/independent_certificate33.json": {
+      "bytes": 444,
+      "sha256": "fbcefd980d84c03119b3231392b05d866e9d5967d9a78224a3fc1bc69d728a83"
+    },
+    "F5_rr/input33.m": {
+      "bytes": 61882,
+      "sha256": "af3a907988071cb87ec78ac63b668738ef34b662866ece7c1b7fe6bc6c6d5c9f"
+    },
+    "F5_rr/jet_tables33.m": {
+      "bytes": 7175,
+      "sha256": "af3dae5f71f1fdd39917b6e5c021fe1e136a7aaa754dd561fdd6f1a224bd6129"
+    },
+    "F5_rr/jets_data33.json": {
+      "bytes": 6478,
+      "sha256": "a1b12133a8412bdade891f6995f00c572f07d6e2e930e9bc6240f4ed312eba0f"
+    },
+    "F5_rr/native_basis_certificate33.json": {
+      "bytes": 159,
+      "sha256": "51c87c92d874c39627c2eade62268eac364514bcfa917e73e790e4729aad898a"
+    },
+    "F5_rr/replay33.exit.json": {
+      "bytes": 565,
+      "sha256": "6c5e69aa579631b080d7dd1c92e42560bd0e00f6395b3ca0e2860b36293303ed"
+    },
+    "F5_rr/replay33.log": {
+      "bytes": 72,
+      "sha256": "b66f0e8609569496292416b8327a666184555738419f39d34aab8fa9dc04a73d"
+    },
+    "F5_rr/replay33.py": {
+      "bytes": 3795,
+      "sha256": "dd8d8b2ba8de2115cbc3f18d1d825b17b1039428caae00f79d21e6090273c723"
+    },
+    "F5_rr/replay33.status.json": {
+      "bytes": 466,
+      "sha256": "3a23727fbf97b569188529ba2903c06488dff3fbca522643fb52ca8cdc38447f"
+    },
+    "F5_rr/test33.exit.json": {
+      "bytes": 548,
+      "sha256": "ab123a8215aee9404621e6e4bd95b95626c4c5656b5bd374641cf0693f3e8816"
+    },
+    "F5_rr/test33.log": {
+      "bytes": 723,
+      "sha256": "61bcbdcb3dc2116119e07349aa21e4cb849f646bb89d3d9adae4dabffae29db0"
+    },
+    "F5_rr/test33.m": {
+      "bytes": 1489,
+      "sha256": "d61d840e5e06b3a37932e81dbbd711b5e4f395ecc1674d0550ab450342e86ceb"
+    },
+    "F5_rr/test33.status.json": {
+      "bytes": 450,
+      "sha256": "e8fd21ab5ac522712e0105ee06fc35c145c065483ba437532dbe79b50c8db2d8"
+    },
+    "F5_rr/verify33.exit.json": {
+      "bytes": 551,
+      "sha256": "6b4eb7bec5bc6aa4d74712c27332bf5f31db4522033b0fa16b47a17c88f3593e"
+    },
+    "F5_rr/verify33.log": {
+      "bytes": 1958,
+      "sha256": "f551f28caae0280b78b0233b96a92d7a37f9e0f9b86e92cdadf3e9f97ab806cb"
+    },
+    "F5_rr/verify33.m": {
+      "bytes": 2977,
+      "sha256": "7283bbcf8dbd4bd28506d84ad8fdcc98a73a0b6a5202816623e8a1aca221ddee"
+    },
+    "F5_rr/verify33.status.json": {
+      "bytes": 452,
+      "sha256": "d303cf894555e3eab5781ed0ca12c3e8243e28426f0e5ec5456e91def0519c28"
+    },
+    "README.txt": {
+      "bytes": 2122,
+      "sha256": "710e33c6711f71440027db0b954eaf79745c156ddd78026df1dc937f511e7c7a"
+    },
+    "certify66.py": {
+      "bytes": 1837,
+      "sha256": "bdd3635cd49c4a32440c332db9e8abaae1657215f6e19c7af541bb1fb536c94d"
+    },
+    "class_with_AF66.m": {
+      "bytes": 426,
+      "sha256": "5a899d373c2ca8e1caafc05d9eae3638b6aa5b2367beadc4ca589ca95230cd55"
+    },
+    "exclusion66.tex": {
+      "bytes": 7333,
+      "sha256": "9f31baba0db5b9bb33adf9fb08d3124fd2596421447b77e7459e17dbd45ff045"
+    },
+    "finite33.tex": {
+      "bytes": 4229,
+      "sha256": "133a22118972af64ca59ecf1070e216b8477016bd798562c733a90a349dbd125"
+    },
+    "frobenius2_input33.m": {
+      "bytes": 376,
+      "sha256": "a39dcb8d5a5f1bf721f7ec09d3ebbca5cecd418a319789fce84313e082bbb712"
+    },
+    "frobenius2_verify33.exit.json": {
+      "bytes": 556,
+      "sha256": "48657cf61d92a594882453bb3c052a8c7a223497c53fca2134694b23665b5058"
+    },
+    "frobenius2_verify33.log": {
+      "bytes": 199,
+      "sha256": "2846f6ebd25cc17ba7a283b69702347c0adb39d60e40e142e5a064b9375ca30b"
+    },
+    "frobenius2_verify33.m": {
+      "bytes": 427,
+      "sha256": "37b035cae5920238478691bf85afbcdf696824e103bc8fdc20f1f7bd95e85986"
+    },
+    "frobenius2_verify33.status.json": {
+      "bytes": 457,
+      "sha256": "14bedbfb3c636ce6aeac7ca967d074d91ffa308c934f31cece9619aeefa7d644"
+    },
+    "full_torsion33.exit.json": {
+      "bytes": 565,
+      "sha256": "23de960a8553ee122a65b41efcdcc75484f167fa1719cc8568d35250bf6a420e"
+    },
+    "full_torsion33.json": {
+      "bytes": 571,
+      "sha256": "20cfa01f5ebef7f75b551a3c74cc631d62448760395d9297602b31030c041aaf"
+    },
+    "full_torsion33.log": {
+      "bytes": 76,
+      "sha256": "099c8b72711dcde92e2f5eecc49dadf0f52f20384a9970fcf46c535fe85f4841"
+    },
+    "full_torsion33.py": {
+      "bytes": 1783,
+      "sha256": "f57f39d854bf801d6a0780726e93cd77866c848f9dc71041c54c8c23c13fdd57"
+    },
+    "full_torsion33.status.json": {
+      "bytes": 466,
+      "sha256": "844496fc5e82068e65c0c5e6ebc0455bfee8485cccea74c99a6d59715d9aadbd"
+    },
+    "guard_frobenius2_33.py": {
+      "bytes": 1511,
+      "sha256": "1d46c951c646c7535fec6ea48e461bf7b8677275bbe2f7e0a0f309b4b84b8d04"
+    },
+    "guard_full_torsion33.py": {
+      "bytes": 1265,
+      "sha256": "6bd9ff65f26a35f40b95e133a757cc73d36a702ffde4d8aec09f945eeea5d6e2"
+    },
+    "guard_replay33.py": {
+      "bytes": 1249,
+      "sha256": "d02f6a82511848c2cf6be1f36ca3eed751c558d938b198307e0f9213fc21c663"
+    },
+    "guard_short33.py": {
+      "bytes": 1278,
+      "sha256": "3821eb5351e6c9c44170ebd1cb4a7ccd1a06c48483fdd542177e0d06d9b407eb"
+    },
+    "imports/DEHMZ.tex": {
+      "bytes": 115467,
+      "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+    },
+    "imports/class_rational_reduction.m": {
+      "bytes": 822,
+      "sha256": "43e8ae730876321ba2a2a4fd57860f0826f2480d241e9a158a8d8601d7d1979c"
+    },
+    "imports/classify_octic_33.m": {
+      "bytes": 7517,
+      "sha256": "74b99015c14e29766a0c58b79aa2197dca26363f08bbdbdc42ecc522c6585ccf"
+    },
+    "imports/frobenius_coefficients33.txt": {
+      "bytes": 355,
+      "sha256": "3995ab0bee20362548b3f9bac4a50b09310447755b2277e097ff424de17c6ab4"
+    },
+    "imports/octic_completeness_33.tex": {
+      "bytes": 5245,
+      "sha256": "3ac9f1b23696c94656d2fabb6190f7525cfb2e6ec0f68aa95b00552a303cc73e"
+    },
+    "imports/pair_af_place_linear.m": {
+      "bytes": 1441,
+      "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+    },
+    "imports/vanhoeij_nonic_input.json": {
+      "bytes": 11633,
+      "sha256": "fed7f3544fbea4b88cebdfb9996bec5549de4a499dfefc81960378254a1f8ce5"
+    },
+    "imports/vanhoeij_nonic_input.m": {
+      "bytes": 1772,
+      "sha256": "99f800545acc7579238f851d6a307a6ea80f13035a2e97e5a2bf9e9efb3b0989"
+    },
+    "imports/vanhoeij_octic_input.m": {
+      "bytes": 1118,
+      "sha256": "4917e6b29275d1eb6b78080f9439a776bea68073c5da0ef99a43807ababd0009"
+    },
+    "imports_manifest.json": {
+      "bytes": 2144,
+      "sha256": "b72ee26583aae59f0d89a6ed8787f39ff1d71ffec62e5185ffcf6d5f321faa33"
+    },
+    "independent_replay33.json": {
+      "bytes": 439,
+      "sha256": "79f9dd64417f28f2ba3079fb16a38669025fcf6d72f23db20b6b5d9c535a8547"
+    },
+    "mdmagma/Magma/chars.m": {
+      "bytes": 72624,
+      "sha256": "4ba0d71a2e5ec126c7b8443ff6819dffdc9400db5895622a1203c89cc6d7f65b"
+    },
+    "mdmagma/Magma/gl2base.m": {
+      "bytes": 298316,
+      "sha256": "0dc6e1c47699ba10deb974f3138b8436dbc2c4cd0dcdcbb17bc5e4d8875dc783"
+    },
+    "mdmagma/Magma/magma.spec": {
+      "bytes": 58,
+      "sha256": "19eb16416c2febd41a09f10c2da05a5fb01db4974d3a6ce8d0b82f1256d85813"
+    },
+    "mdmagma/Magma/tracehash.m": {
+      "bytes": 16346,
+      "sha256": "53f9c1365d9298735fda7fd90aa4fc2b3e19ba36ace6d7927d90b3a523ccf817"
+    },
+    "mdmagma/Magma/utils.m": {
+      "bytes": 38029,
+      "sha256": "491363cbaa93262296845247320d24f7a9983788f98015d68bb3dec579d7a1d5"
+    },
+    "mdmagma/X1_N_equations.m": {
+      "bytes": 242753,
+      "sha256": "4a344f4e1ca7c09a8d9a61828912ca316a39e5feebc04cfe3051dbf9843c94a7"
+    },
+    "mdmagma/X_1_m_n.m": {
+      "bytes": 2032,
+      "sha256": "aa819ef2e6d511e53db2af794247aa58d3d1ba29bb7c06f65718757bffe43a0f"
+    },
+    "mdmagma/X_1_n.m": {
+      "bytes": 4733,
+      "sha256": "543dff61c0a9028dc4cf23533106125c2ccb5af50fd6ace51ad8db2cda7b7862"
+    },
+    "mdmagma/assorted_functions.m": {
+      "bytes": 10101,
+      "sha256": "4b01be31c8472937541163836c4b7d64a0b020e940ea2a90497995ff9785a573"
+    },
+    "mdmagma/computations/derickx-X1_16_classgroups/logs/order_2.txt": {
+      "bytes": 3661,
+      "sha256": "93845b7abec7de4cfbb45fe3b9acb2d8741248b9a933c674345fab6b352e90d8"
+    },
+    "mdmagma/computations/derickx-X1_16_classgroups/logs/order_5.txt": {
+      "bytes": 3617,
+      "sha256": "fa0c49c5a057f53b9ae3348de58ba393d623a1696bc59bf4bee5c4ae25ea0639"
+    },
+    "mdmagma/computations/derickx-X1_16_classgroups/logs/verify_joblog.txt": {
+      "bytes": 220,
+      "sha256": "6b2a26bb58bedc78b4dfa3d48acfd23f71c0627a114fc6ab0db0974567cc1e4b"
+    },
+    "mdmagma/computations/derickx-X1_16_classgroups/order_2.m": {
+      "bytes": 8855,
+      "sha256": "23cbbb6f93bf0c4849872e8f8ab97189142806d9ab6149fa7664b84928953e8b"
+    },
+    "mdmagma/computations/derickx-X1_16_classgroups/order_5.m": {
+      "bytes": 8197,
+      "sha256": "6d5b28bc4cd0c831cfb47338ad0909c02c5d4ba75f8ac4e17a32d0be906caf54"
+    },
+    "mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/LRatios for positive rank J1(N).txt": {
+      "bytes": 3209,
+      "sha256": "750fb5dba780a5bee9ea754d366d06a17ca9cd07cb1982d9086d2c26e06ea42f"
+    },
+    "mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/d6m2n12.txt": {
+      "bytes": 1372,
+      "sha256": "48fc8ade715e70ea728b22828fe8dfc4a6ad528fdad87407e48fcbd117b8c6b6"
+    },
+    "mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/d6m3n5.txt": {
+      "bytes": 1509,
+      "sha256": "a3398a86686f7e6c1a4365043322cec3621dd8f8dea8491b0d80f46b16f8b04d"
+    },
+    "mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/d6m4n3.txt": {
+      "bytes": 1477,
+      "sha256": "bd52786291c2d74d1f2fa5ee7be8f645b0d2d57ed8dd3b1ed553e5e89227adbf"
+    },
+    "mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/d6m6n2.txt": {
+      "bytes": 1512,
+      "sha256": "752e7cf15737202128b6f50b6ab90c99071313ac9723ceb9b3459938ed4dcc31"
+    },
+    "mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/rank_0_of_X_1(m,mn).txt": {
+      "bytes": 2237,
+      "sha256": "eb78db446cb4f3beab7087298114deaee3b67b7cda96b6dd096210eb5c936812"
+    },
+    "mdmagma/elliptic_curve_chabauty.m": {
+      "bytes": 5316,
+      "sha256": "c94d47f49aba999b9627d562bd213dbeaefff5510a311439480241a36a1b7afb"
+    },
+    "mdmagma/examples/degeneracy_maps.m": {
+      "bytes": 924,
+      "sha256": "19455efcbf1bad9a11ed58e743b7297bd9287c700a02e1896774a5344a19400e"
+    },
+    "mdmagma/generate_candidates.m": {
+      "bytes": 627,
+      "sha256": "dbc2a79644d984c70f2cf770943735bbf48bb0f8cb9e65b46eeb9d6119b6d6a7"
+    },
+    "mdmagma/gonality.m": {
+      "bytes": 5584,
+      "sha256": "a2e40222a87221e1df3bd542f5e8e6a8a615910aa1fac348e11d5c9cc5986513"
+    },
+    "mdmagma/hecke_operators.m": {
+      "bytes": 5722,
+      "sha256": "f2d85b419177acaa6d7dcc03faff9fe73a4faf1a46f54a8d64ce619956e97bfc"
+    },
+    "mdmagma/low_degree_places.m": {
+      "bytes": 4180046,
+      "sha256": "782c2edd7942591991908a8991a8f4a87b38ae2f669c3b84dd73c4c2bfd24785"
+    },
+    "mdmagma/models_X1_m_n/README.txt": {
+      "bytes": 70,
+      "sha256": "4d2ce5e8fa19160fdee211686ca6297a357f261ba3b4f2e33a3cd7d2a7546dd6"
+    },
+    "mdmagma/models_X1_m_n/X1_2_10.txt": {
+      "bytes": 167,
+      "sha256": "5e2bd328ec769af9f410fe6a87c63047e2f46fa70113afaf4b28a5d636fa6011"
+    },
+    "mdmagma/models_X1_m_n/X1_2_12.txt": {
+      "bytes": 177,
+      "sha256": "26bdea651a4e33b169e1761f4347d6a7a4535bd6e33bbb34153c7499fdddc7b2"
+    },
+    "mdmagma/models_X1_m_n/X1_2_14.txt": {
+      "bytes": 305,
+      "sha256": "2e8c3509540196ecc4eee204205fcb45ad99212796dfe652512ae15e12edf293"
+    },
+    "mdmagma/models_X1_m_n/X1_2_16.txt": {
+      "bytes": 569,
+      "sha256": "48a8729c8e8c7b608717a7d150f917e6bfb9e555837f1194963aa3f0d67f775b"
+    },
+    "mdmagma/models_X1_m_n/X1_2_18.txt": {
+      "bytes": 243,
+      "sha256": "152be07e6326532e55fe35761072a6187e35e809ad1b89ec9b19906e5fbb2dce"
+    },
+    "mdmagma/models_X1_m_n/X1_2_20.txt": {
+      "bytes": 355,
+      "sha256": "44ce972be7498b65c49fdf3eec29458961821d48dd9656c1b9c2a7e162ced3fd"
+    },
+    "mdmagma/models_X1_m_n/X1_2_22.txt": {
+      "bytes": 803,
+      "sha256": "9a2ba8a0dac15110f996664374c469364cbf5c41e01a6e5ac566d7f8ee4cee07"
+    },
+    "mdmagma/models_X1_m_n/X1_2_24.txt": {
+      "bytes": 756,
+      "sha256": "f538cf6e1a67fa8d8606f089ebe549371c1bf4a77d2194917bc62bde488faf44"
+    },
+    "mdmagma/models_X1_m_n/X1_2_26.txt": {
+      "bytes": 1257,
+      "sha256": "95e449761daf328b5b1d7fcf6fb993db722840bfe48f7ea6e17d9c4adc02f04a"
+    },
+    "mdmagma/models_X1_m_n/X1_2_28.txt": {
+      "bytes": 1848,
+      "sha256": "fc551fa26420ac50d2222eee5a3b45c4c2f0b424fa715b1b568a262ca34b10ac"
+    },
+    "mdmagma/models_X1_m_n/X1_2_30.txt": {
+      "bytes": 1849,
+      "sha256": "878a2b5cf0ceb396c789a3b25285a9df2c32caf31ff0f258fba24b71012105f8"
+    },
+    "mdmagma/models_X1_m_n/X1_2_32.txt": {
+      "bytes": 3258,
+      "sha256": "991f6be0d4905f3299daec866cc6d998756bedaad58f97a05cbcb3ef0f1b7389"
+    },
+    "mdmagma/models_X1_m_n/X1_2_34.txt": {
+      "bytes": 3872,
+      "sha256": "37feb4523009a12cc8d778ce3c92299beff5acaab00613748252c0f4cc7002a5"
+    },
+    "mdmagma/models_X1_m_n/X1_2_36.txt": {
+      "bytes": 3780,
+      "sha256": "4bf05451bcbfc19ef28a87cf917f23b2c5b5caccc314a2ef764d128e5ed89c4f"
+    },
+    "mdmagma/models_X1_m_n/X1_3_12.txt": {
+      "bytes": 1034,
+      "sha256": "7c8113d38e59ddc5d5a8f933e0253f6d194fd192bceb132c6d7654fbd5844442"
+    },
+    "mdmagma/models_X1_m_n/X1_3_15.txt": {
+      "bytes": 4466,
+      "sha256": "f76ab73f7b2604de31857d9917f7b7f8c2c733695c64b5a1b2dadba806c1e264"
+    },
+    "mdmagma/models_X1_m_n/X1_3_18.txt": {
+      "bytes": 5840,
+      "sha256": "f2586405410895383f2301343f3fb74c239c096ecf5919d6f567f4040e26f27a"
+    },
+    "mdmagma/models_X1_m_n/X1_3_21.txt": {
+      "bytes": 22459,
+      "sha256": "01050b519b80a7d9f0eb50f9c7873565a9ebc69b56336b8f60eef5de45f81334"
+    },
+    "mdmagma/models_X1_m_n/X1_3_24.txt": {
+      "bytes": 22269,
+      "sha256": "b40d728aeed27d81d4a581e7daa680ad42651d94b787e7aa6578837778a41b2d"
+    },
+    "mdmagma/models_X1_m_n/X1_3_27.txt": {
+      "bytes": 83961,
+      "sha256": "a2e18f069c09dc7a250f4420aab534c07e043f185c79118d0497b9c7c28ac141"
+    },
+    "mdmagma/models_X1_m_n/X1_3_3.txt": {
+      "bytes": 121,
+      "sha256": "de6f5b537d9e7a871c57209a1325868ff650404a53e404c9aafad2d3f6b21659"
+    },
+    "mdmagma/models_X1_m_n/X1_3_30.txt": {
+      "bytes": 62421,
+      "sha256": "b5e2094c2eaef664b143ce622f451508b3ad47b72814d3bac3934c0eb99bc116"
+    },
+    "mdmagma/models_X1_m_n/X1_3_33.txt": {
+      "bytes": 237926,
+      "sha256": "7ef52da53e7df9032be961bf68189bbc9c7d36a5c0333e35ae6d8ddeee419aa2"
+    },
+    "mdmagma/models_X1_m_n/X1_3_36.txt": {
+      "bytes": 178604,
+      "sha256": "0f74b9e4942b174a1f8a9b17e47464a76729bc07b61d40035d6cbdc2235b7848"
+    },
+    "mdmagma/models_X1_m_n/X1_3_6.txt": {
+      "bytes": 216,
+      "sha256": "1de3d67aba86a6b2e23fb4dd62047a8c8829e31c71d16fa246643cc6a7d39c90"
+    },
+    "mdmagma/models_X1_m_n/X1_3_9.txt": {
+      "bytes": 620,
+      "sha256": "0d20aad7ed110e36256c3eaa84d899d39da08c9f7b909f22c7d43ab8728b9232"
+    },
+    "mdmagma/models_X1_m_n/X1_4_12.txt": {
+      "bytes": 1229,
+      "sha256": "303126c90d116678def63e6f36cb43061976a76aa1574c7600c1413d0b209da6"
+    },
+    "mdmagma/models_X1_m_n/X1_4_16.txt": {
+      "bytes": 4873,
+      "sha256": "ddc46e9ebe8a65d466c4151eb1bc2e83192249773f8da49921c7880229dd7f8f"
+    },
+    "mdmagma/models_X1_m_n/X1_4_20.txt": {
+      "bytes": 15032,
+      "sha256": "14b80e5d2db940208b4496133e2e33442e118d0bee2a477c3f028a3e190647d5"
+    },
+    "mdmagma/models_X1_m_n/X1_4_24.txt": {
+      "bytes": 22282,
+      "sha256": "125678d239c53e94f2a652d0a9e70f75fba68ac10fb40b8d1a5564e0ad3ad484"
+    },
+    "mdmagma/models_X1_m_n/X1_4_28.txt": {
+      "bytes": 60735,
+      "sha256": "0d9569361d9ad147aaebe056ab1f1b21727851b3f2f0e9cfb66c2b7a77ac78d3"
+    },
+    "mdmagma/models_X1_m_n/X1_4_32.txt": {
+      "bytes": 129363,
+      "sha256": "96cb81c3a50bc0856193e197f3f54b2bbe7191145776f72a8c7fc8e977ce3ae4"
+    },
+    "mdmagma/models_X1_m_n/X1_4_36.txt": {
+      "bytes": 171283,
+      "sha256": "d7440aee6a98413aa3c5b2ac298d141c5f83334dd0f111e50225042956aed109"
+    },
+    "mdmagma/models_X1_m_n/X1_4_4.txt": {
+      "bytes": 163,
+      "sha256": "f784b4a66a4f5b718316dd0899d311c7166439f8abc627c9241e84f36aa39fb0"
+    },
+    "mdmagma/models_X1_m_n/X1_4_8.txt": {
+      "bytes": 331,
+      "sha256": "77951e13c030cff92f73e13ede3f790a8c2c99a951a61c797b89766f3195739c"
+    },
+    "mdmagma/models_X1_m_n/X1_6_12.txt": {
+      "bytes": 846,
+      "sha256": "a52e86f8e8622f769d78203cb7519e96ca3ecff5dcab49c812c67e8736a1151d"
+    },
+    "mdmagma/models_X1_n/FFFc10.txt": {
+      "bytes": 10,
+      "sha256": "511283e868db4b943ffa30e6dcee5d32ec13cd0a7e76765779a22df76f1e0eaa"
+    },
+    "mdmagma/models_X1_n/FFFc100.txt": {
+      "bytes": 205329,
+      "sha256": "e5d0a20e93b9ef28345e46d50f012bcb597c0a019a9b96165bed0fbab7c47aa3"
+    },
+    "mdmagma/models_X1_n/FFFc101.txt": {
+      "bytes": 524474,
+      "sha256": "691957a3ccd0be1e3c11e55b5bdf37d587d3a926be8f8fef01017ee98bd16df0"
+    },
+    "mdmagma/models_X1_n/FFFc102.txt": {
+      "bytes": 189252,
+      "sha256": "1f646e6d53b463df0035f2307865bbef463684186db501b6162bfb3176a782bc"
+    },
+    "mdmagma/models_X1_n/FFFc103.txt": {
+      "bytes": 584617,
+      "sha256": "8b018cd8888a01d6861a8f4a98c801218c41f300eba1a83804e5ee1c0d0cbd87"
+    },
+    "mdmagma/models_X1_n/FFFc104.txt": {
+      "bytes": 276079,
+      "sha256": "43152b66bf01a32bfec169988c7fad26dbcc0ee1fca50215c3baf1da3db876b1"
+    },
+    "mdmagma/models_X1_n/FFFc105.txt": {
+      "bytes": 398298,
+      "sha256": "965da57573058612923569f72ff4522938ae668598b82cf78ddccb3c87b31460"
+    },
+    "mdmagma/models_X1_n/FFFc106.txt": {
+      "bytes": 304428,
+      "sha256": "18c02b35dc02f37c983288fab35632f73eaa050068b3ff61bacc87aec89b5bfe"
+    },
+    "mdmagma/models_X1_n/FFFc107.txt": {
+      "bytes": 717757,
+      "sha256": "fd9dcc4783f014faeeebda07f99d71804e3510b6ecce81dfcdda43d2d28fcfdb"
+    },
+    "mdmagma/models_X1_n/FFFc108.txt": {
+      "bytes": 252072,
+      "sha256": "71da88fe5db65348b8f5ea85dc77af65607077bf15b39c752bd3cfeb758cb5c3"
+    },
+    "mdmagma/models_X1_n/FFFc109.txt": {
+      "bytes": 795288,
+      "sha256": "c9479552f39006afcf1b33c3e8e57b283a618423f8586d4d15361ca5ad1f9d54"
+    },
+    "mdmagma/models_X1_n/FFFc11.txt": {
+      "bytes": 22,
+      "sha256": "f169601eee2eadf6a7d291f4aa58f3b29b1ea13923df44baf0d7add55f469404"
+    },
+    "mdmagma/models_X1_n/FFFc110.txt": {
+      "bytes": 331716,
+      "sha256": "bdcef47a787cc0d6f83d954a8e5c381bb9beb94b9373388c53e20a586070e6ca"
+    },
+    "mdmagma/models_X1_n/FFFc12.txt": {
+      "bytes": 6,
+      "sha256": "6b8d2afb9d41b774a0eb44cb8cb60f9b2f47fe99f96023743193b8eb9f5cac98"
+    },
+    "mdmagma/models_X1_n/FFFc13.txt": {
+      "bytes": 40,
+      "sha256": "458afee06877eaca7d97042e3b46e12c76542a369dfd59bb028847b0c7c26d74"
+    },
+    "mdmagma/models_X1_n/FFFc14.txt": {
+      "bytes": 30,
+      "sha256": "58cb7293ae8d698b7f6839c4f503d50573d5bf65cef21631bc1ac3a85408ad48"
+    },
+    "mdmagma/models_X1_n/FFFc15.txt": {
+      "bytes": 38,
+      "sha256": "841680f65147b437efda9f26859998f698f871bba32d095a958735d139b8de73"
+    },
+    "mdmagma/models_X1_n/FFFc16.txt": {
+      "bytes": 44,
+      "sha256": "91aa32cb917ceb3e76aea6ba78c0e696a241533ba11d3673d998f697f8d1c088"
+    },
+    "mdmagma/models_X1_n/FFFc17.txt": {
+      "bytes": 101,
+      "sha256": "032b4edcf42230383db0cbe0cebe7d7ecc73ed1267849d3212d2ea731b6c10dd"
+    },
+    "mdmagma/models_X1_n/FFFc18.txt": {
+      "bytes": 99,
+      "sha256": "cd130df6c1fe597670389d3e328242c6b518da8c4df2aa1d092c1b479a3a7594"
+    },
+    "mdmagma/models_X1_n/FFFc19.txt": {
+      "bytes": 178,
+      "sha256": "689a5b3c2679dffda889b71e3c7ab554c777f6a1b1f08bb9baa3f90ef821ad2b"
+    },
+    "mdmagma/models_X1_n/FFFc20.txt": {
+      "bytes": 91,
+      "sha256": "1d04387bc1f46baee6ba51561625d110afdfe77912d9db414ed0502d5297e59d"
+    },
+    "mdmagma/models_X1_n/FFFc21.txt": {
+      "bytes": 151,
+      "sha256": "8cbe6cdf5593f65d514a2d1346d97b6c3f58a16c01e5a8b2f47aba71dd80603a"
+    },
+    "mdmagma/models_X1_n/FFFc22.txt": {
+      "bytes": 176,
+      "sha256": "30d2793b9bd68856711f1f9def576232d0f8a94471f5e618897437e868208a46"
+    },
+    "mdmagma/models_X1_n/FFFc23.txt": {
+      "bytes": 415,
+      "sha256": "7c8ef20718e262ce585ce1a9e280658b063f26095c1fcb59c1147415d5560f6f"
+    },
+    "mdmagma/models_X1_n/FFFc24.txt": {
+      "bytes": 279,
+      "sha256": "026186c87cfed22aaffcae30903cc71b2e954c700728d7fb44e2c93063a71d50"
+    },
+    "mdmagma/models_X1_n/FFFc25.txt": {
+      "bytes": 579,
+      "sha256": "8a9ef41acf56e469d202399dbc2824f1271c45d8b8491a115d2c793ffcd8a7c3"
+    },
+    "mdmagma/models_X1_n/FFFc26.txt": {
+      "bytes": 286,
+      "sha256": "5ddda30dfd914c1ae8101fbf05b952d237bd37873df04d49969785795c903cee"
+    },
+    "mdmagma/models_X1_n/FFFc27.txt": {
+      "bytes": 699,
+      "sha256": "9fb26e8d45f28c59b4991ec30edd9a1122ee61ba338b868f8e04fde657134174"
+    },
+    "mdmagma/models_X1_n/FFFc28.txt": {
+      "bytes": 443,
+      "sha256": "6277693a4e301ee7c374b1f32232c50f7afb1923f0e1b5c7357eea5a83c5a08d"
+    },
+    "mdmagma/models_X1_n/FFFc29.txt": {
+      "bytes": 1180,
+      "sha256": "ed353d8ef36894edaf4d1d363ade9fb65a26310e3dc00e5324ee1c9c16f8a635"
+    },
+    "mdmagma/models_X1_n/FFFc30.txt": {
+      "bytes": 578,
+      "sha256": "6ef2db7042674db18bb8a2df00e2b736c1100da51d3e686af5ba3479f1fd096e"
+    },
+    "mdmagma/models_X1_n/FFFc31.txt": {
+      "bytes": 1711,
+      "sha256": "cfa3b709f124daeeb6157522784907f83da85911ed65b5a1f4edfe3dada7017c"
+    },
+    "mdmagma/models_X1_n/FFFc32.txt": {
+      "bytes": 1057,
+      "sha256": "7370a8adb5ed617202f6e9710d0223d5717bbf8d36a7e352b0a38e6eec9796dd"
+    },
+    "mdmagma/models_X1_n/FFFc33.txt": {
+      "bytes": 1482,
+      "sha256": "1471012002d2ef25a7e223b928aa1852bbca232b6d8f71678251786a3df06e5a"
+    },
+    "mdmagma/models_X1_n/FFFc34.txt": {
+      "bytes": 1166,
+      "sha256": "2e820cfbdf07e7590824c9aae16b57e2e7737868c6818b7d0205cd967d9c5ffa"
+    },
+    "mdmagma/models_X1_n/FFFc35.txt": {
+      "bytes": 2482,
+      "sha256": "eeadd544bb37aae057d1755a901305a9bbb921300ec8ec2839ad037b3c8ff2ba"
+    },
+    "mdmagma/models_X1_n/FFFc36.txt": {
+      "bytes": 1214,
+      "sha256": "99d029441095a5c57852d591fd5c3a845f18c94e8c4aa50bc009aa70f89396fc"
+    },
+    "mdmagma/models_X1_n/FFFc37.txt": {
+      "bytes": 3722,
+      "sha256": "9854d659f3834ebe52c385cdd1a7b16510ba7178f44b9df1c53d349341664e90"
+    },
+    "mdmagma/models_X1_n/FFFc38.txt": {
+      "bytes": 2305,
+      "sha256": "03ccda7385cd8f1c0b8eabfcdb447141ebd2036f165d35730f1fa69ba96c90bf"
+    },
+    "mdmagma/models_X1_n/FFFc39.txt": {
+      "bytes": 3405,
+      "sha256": "faecd4f8cbe37bf9c1c4896d020137d28aa61087ed0c096b8a8a009710f99e24"
+    },
+    "mdmagma/models_X1_n/FFFc40.txt": {
+      "bytes": 2733,
+      "sha256": "d1870f31c665d53f0a6fc6523e02662719e0b9489ebcc6c709891800bea04a2a"
+    },
+    "mdmagma/models_X1_n/FFFc41.txt": {
+      "bytes": 5818,
+      "sha256": "acade4017abc665f0c45402f754a3c9739bd0656ba3b96473fc683cb0c66d853"
+    },
+    "mdmagma/models_X1_n/FFFc42.txt": {
+      "bytes": 2576,
+      "sha256": "b9aeadff7be11c2569d1143f5e38436554e5e1610d46e399e32f575fd4491e6b"
+    },
+    "mdmagma/models_X1_n/FFFc43.txt": {
+      "bytes": 7317,
+      "sha256": "b678b67d35b01281215aa1a28660bb28dc856ee39edb3a203fefd9a13a5cfc81"
+    },
+    "mdmagma/models_X1_n/FFFc44.txt": {
+      "bytes": 3749,
+      "sha256": "ed66d53a4ae31e063f384f32a04c77fed92ca61b91f2dd64483bc770d6b1b6c6"
+    },
+    "mdmagma/models_X1_n/FFFc45.txt": {
+      "bytes": 6801,
+      "sha256": "2a924d5d90a67eeb837283a75ee033c515f458a9efd14dac8b7265aa63341754"
+    },
+    "mdmagma/models_X1_n/FFFc46.txt": {
+      "bytes": 5171,
+      "sha256": "4e85e373fa88a52c93318f6bd3717219460e2bc958f52116e6ee346b0317dc69"
+    },
+    "mdmagma/models_X1_n/FFFc47.txt": {
+      "bytes": 11294,
+      "sha256": "64480ba5a4b5e8a2330f2cda1ebbe8a8a39fa741c241834b3b8cbb0bc00a3167"
+    },
+    "mdmagma/models_X1_n/FFFc48.txt": {
+      "bytes": 4707,
+      "sha256": "6d0def2aa37bbf56c54305001e53b6808bc428bdd9e72fb0d43f1fbc6d506764"
+    },
+    "mdmagma/models_X1_n/FFFc49.txt": {
+      "bytes": 13004,
+      "sha256": "c5573202116df71ae534148005d857e4d3b2a9f36ea8561d78f36a9da9e56763"
+    },
+    "mdmagma/models_X1_n/FFFc50.txt": {
+      "bytes": 6770,
+      "sha256": "023bb1f84d9731c476a006858e4b18287277235162321831643d75fdbe3fb0cb"
+    },
+    "mdmagma/models_X1_n/FFFc51.txt": {
+      "bytes": 11871,
+      "sha256": "7b6b5948a172aaa9daa689b08197f27c813f191da6649bbfbc00136a1637e842"
+    },
+    "mdmagma/models_X1_n/FFFc52.txt": {
+      "bytes": 9032,
+      "sha256": "127d6d5d7dfe3fd184e0b053fc6c69037bf2a3f645e0f73284804fa9e8fccac5"
+    },
+    "mdmagma/models_X1_n/FFFc53.txt": {
+      "bytes": 19931,
+      "sha256": "bd0c7a7b550c2fd237f401431dc32a85898b99276bb3e73b7d0b2da4c5e5606b"
+    },
+    "mdmagma/models_X1_n/FFFc54.txt": {
+      "bytes": 8153,
+      "sha256": "ca30effcf22782fc1dd96fdb16a4cf8d5abb8bb2b744edc9231f532ecff7cb00"
+    },
+    "mdmagma/models_X1_n/FFFc55.txt": {
+      "bytes": 20439,
+      "sha256": "547f90eed72ef75af9e3393edb34528c630a225354885ea7a88721e9cc8b7a8a"
+    },
+    "mdmagma/models_X1_n/FFFc56.txt": {
+      "bytes": 12855,
+      "sha256": "1a24a808b2fdb52818df3aa906dad5185cdf73357e0933d66761b67a1fb9ed27"
+    },
+    "mdmagma/models_X1_n/FFFc57.txt": {
+      "bytes": 20484,
+      "sha256": "15790756c48033946babf0f44dc0d599a99e427046f297182d35feafdf8daccc"
+    },
+    "mdmagma/models_X1_n/FFFc58.txt": {
+      "bytes": 15414,
+      "sha256": "6577364cefe085e1c8945137a5e39a4c72549b084757fe88a2c51695c0f487c3"
+    },
+    "mdmagma/models_X1_n/FFFc59.txt": {
+      "bytes": 33250,
+      "sha256": "356fc012ecd95bc3bf30c7e500c44f9d71ff8b95a32dac124ec08251d2682a44"
+    },
+    "mdmagma/models_X1_n/FFFc60.txt": {
+      "bytes": 12744,
+      "sha256": "8787c9db47e30a1440269efd15e4ea4cfc60d2dfc9b643a8a07b0a96766e5e9a"
+    },
+    "mdmagma/models_X1_n/FFFc61.txt": {
+      "bytes": 38627,
+      "sha256": "3aadf4e7918d12ad63bf94b47bb6b7dbcbd63f27670efc4cbc559cffd688ec08"
+    },
+    "mdmagma/models_X1_n/FFFc62.txt": {
+      "bytes": 20411,
+      "sha256": "ddd5eeaa560a4fa3bc082744db884ea903216e27a43cfb74d2a3667cadb66fd4"
+    },
+    "mdmagma/models_X1_n/FFFc63.txt": {
+      "bytes": 33675,
+      "sha256": "142ce73b97f11858ce45c9d63537e9133f3a1d975b002f7857a74f79afc84c01"
+    },
+    "mdmagma/models_X1_n/FFFc64.txt": {
+      "bytes": 23844,
+      "sha256": "f2f82005ab1e89dd3669d28a5bc2ac46ca632dfa8ef0aa938b6ffe34404524f0"
+    },
+    "mdmagma/models_X1_n/FFFc65.txt": {
+      "bytes": 47094,
+      "sha256": "1983ea96dec8cf24c24741d61e5e0b8d0e4b2d264153ebf5865aca35b9cdd859"
+    },
+    "mdmagma/models_X1_n/FFFc66.txt": {
+      "bytes": 21574,
+      "sha256": "9262ae65524db9827e50a04061a321c005827fd47d9a8352a6010be824d090a4"
+    },
+    "mdmagma/models_X1_n/FFFc67.txt": {
+      "bytes": 61940,
+      "sha256": "4e75c74c3e2660e4c717a5aa50348cfa5c09d7a101c02d951936b78b57055194"
+    },
+    "mdmagma/models_X1_n/FFFc68.txt": {
+      "bytes": 32530,
+      "sha256": "31777b3106bcb505e4ffa0870a767a9c9b043e314287c8392751d5a336c869c5"
+    },
+    "mdmagma/models_X1_n/FFFc69.txt": {
+      "bytes": 51564,
+      "sha256": "62b183368a017f5d79b84147947b90e66cbccc1376dcbfdb929808c64d1f6cf0"
+    },
+    "mdmagma/models_X1_n/FFFc70.txt": {
+      "bytes": 32285,
+      "sha256": "b3fcc48e707430931da10f30d142b50db63fdb91a171a42fad43ad1cb7c712dd"
+    },
+    "mdmagma/models_X1_n/FFFc71.txt": {
+      "bytes": 81691,
+      "sha256": "eba983923c8da9bd29eac30f0a776e8adcd169af7efccccfb13375ee0a1663a6"
+    },
+    "mdmagma/models_X1_n/FFFc72.txt": {
+      "bytes": 32949,
+      "sha256": "0b19938c893a11e0b454bde396c0e9a846bdf6e99806c88f4da7cc7fdbec620f"
+    },
+    "mdmagma/models_X1_n/FFFc73.txt": {
+      "bytes": 95180,
+      "sha256": "30c4b40f070193ab5a4452dbeaadcbd6eb3aadde515fa3355b2b7b901e4a9566"
+    },
+    "mdmagma/models_X1_n/FFFc74.txt": {
+      "bytes": 49236,
+      "sha256": "3773e95cf66fe5302e64dd775f4cdb827a9b7d098c7100c230932760d5857629"
+    },
+    "mdmagma/models_X1_n/FFFc75.txt": {
+      "bytes": 72586,
+      "sha256": "06cc0b9bc3784ff8030bbc9ce42a837bdff05c85e817115237f6d2d77d1775d4"
+    },
+    "mdmagma/models_X1_n/FFFc76.txt": {
+      "bytes": 53756,
+      "sha256": "b2da5c6180061b84badfe5b15d825efe93fd8db5717909eb5133bc60425bc28d"
+    },
+    "mdmagma/models_X1_n/FFFc77.txt": {
+      "bytes": 114982,
+      "sha256": "33d13534ef3935a76d01ef44713d6ca5d3e29abf64d45864cc73428261893f6b"
+    },
+    "mdmagma/models_X1_n/FFFc78.txt": {
+      "bytes": 48302,
+      "sha256": "f459689766629eb827ddf1eba129cfd2591cced7571248c307404ca7a76f07a5"
+    },
+    "mdmagma/models_X1_n/FFFc79.txt": {
+      "bytes": 141320,
+      "sha256": "fcf563d2ae6dbe70a847e701a58625290b10a6e2a4c1f25a05ce206164528767"
+    },
+    "mdmagma/models_X1_n/FFFc80.txt": {
+      "bytes": 65396,
+      "sha256": "ffd1c8b5ee61e702cc99661aa6348982833d4735aaa497c234cb41b4cce8e831"
+    },
+    "mdmagma/models_X1_n/FFFc81.txt": {
+      "bytes": 119908,
+      "sha256": "3d44ce7330760fee6dd244ecf28ba76534e438cb565a7d410ea24d6fc19b7c9f"
+    },
+    "mdmagma/models_X1_n/FFFc82.txt": {
+      "bytes": 82810,
+      "sha256": "e49263aec0e8b568a6a142fc8f68c099c916cb1240c2b2577ef63b0a2e3b7ade"
+    },
+    "mdmagma/models_X1_n/FFFc83.txt": {
+      "bytes": 181524,
+      "sha256": "e867ac7ff36fc62cc787ca07f933ccbc6e99af5c78e4881290d27f2635599363"
+    },
+    "mdmagma/models_X1_n/FFFc84.txt": {
+      "bytes": 66219,
+      "sha256": "f7c80e20b43c0fd4fe7ab31c668abe5694aae7b3a4cf199874f1cad2a8b328f0"
+    },
+    "mdmagma/models_X1_n/FFFc85.txt": {
+      "bytes": 183714,
+      "sha256": "c38ac3d5a63210158861626d437a79d7db9aafb8d1ff94eaa340894dfb49c961"
+    },
+    "mdmagma/models_X1_n/FFFc86.txt": {
+      "bytes": 105221,
+      "sha256": "547594f05950a75204955e6585deba94aa36679ab1dc82c6296ac70638a36c8c"
+    },
+    "mdmagma/models_X1_n/FFFc87.txt": {
+      "bytes": 170809,
+      "sha256": "5743dda61de152391038f491f801926e4ce485a257fce21e5241c4817697e692"
+    },
+    "mdmagma/models_X1_n/FFFc88.txt": {
+      "bytes": 118807,
+      "sha256": "dbe0ac6349481a9aa26fe807c8905a32e13963b1c28219c8c680ca7a4d985da0"
+    },
+    "mdmagma/models_X1_n/FFFc89.txt": {
+      "bytes": 260993,
+      "sha256": "551d4b03f60ea786acd5e1f27ba8257826bae394db27fd407b0d7a2fc48a1fc0"
+    },
+    "mdmagma/models_X1_n/FFFc90.txt": {
+      "bytes": 84506,
+      "sha256": "eddd373d36e2077657c43879e02ed59bdf3dc6913965e5c4b2f682983211b3e7"
+    },
+    "mdmagma/models_X1_n/FFFc91.txt": {
+      "bytes": 272749,
+      "sha256": "e1760deec432d3604a3373be18024a59826a92413129391f51e21a97a50655cd"
+    },
+    "mdmagma/models_X1_n/FFFc92.txt": {
+      "bytes": 144331,
+      "sha256": "c8a370118c471d69f805c164ac69a02b5704a695cbc67a0e770ddbb59e3988c4"
+    },
+    "mdmagma/models_X1_n/FFFc93.txt": {
+      "bytes": 238094,
+      "sha256": "bfb6b7ba2642cb7480a036db0d9735563747054f323d66a4e1e04a6b596dec72"
+    },
+    "mdmagma/models_X1_n/FFFc94.txt": {
+      "bytes": 164729,
+      "sha256": "f56552ecd42207b460e740b2cdbef2eb6b76c66e72e9ef654c592df897f5c0c3"
+    },
+    "mdmagma/models_X1_n/FFFc95.txt": {
+      "bytes": 333283,
+      "sha256": "175aa636439941fa3353d70a3f389836141be43413c5c73ad38519a24f955be2"
+    },
+    "mdmagma/models_X1_n/FFFc96.txt": {
+      "bytes": 134834,
+      "sha256": "a36dc23af880cc5e0df4bbf8cda03f081066f6f723ca1f58e3e89f0fdedea837"
+    },
+    "mdmagma/models_X1_n/FFFc97.txt": {
+      "bytes": 417174,
+      "sha256": "602ed45b33fb6b7257860c32b1417542ae4f32ad434b41308c7c794026ac25e9"
+    },
+    "mdmagma/models_X1_n/FFFc98.txt": {
+      "bytes": 193630,
+      "sha256": "4f989104537f8e16fe5a747cde1ece633d4c9bb289a9c58f83c0ee3b5858238a"
+    },
+    "mdmagma/models_X1_n/FFFc99.txt": {
+      "bytes": 333966,
+      "sha256": "a3a8aed20cdd91256803f00a5470b1ea3be9cc45c993bb4a02655dab035d4081"
+    },
+    "mdmagma/models_X1_n/README.txt": {
+      "bytes": 147,
+      "sha256": "eee0478b2b192eda9dcaf540439864953e188a17b9babcbd775914f44183947e"
+    },
+    "mdmagma/rank_zero_of_X1mn.m": {
+      "bytes": 2364,
+      "sha256": "47529913c99d3a653eef8cd8c11d7da61093f821fca6b2b844cfaaeaab9857a6"
+    },
+    "mdmagma/strange_characters.m": {
+      "bytes": 3138,
+      "sha256": "459d24500c883a50a34c11328f8917ecd00f392a9e2dd12557f622fbbb34cd9a"
+    },
+    "mdmagma/tests/magma-unittest/tests/test_all.m": {
+      "bytes": 2242,
+      "sha256": "e3025b1d2639f0feb8639abf9389c8abf2c1cad2d32b171e6bf2c768d57b357b"
+    },
+    "mdmagma/tests/magma-unittest/tst.m": {
+      "bytes": 1614,
+      "sha256": "4e67e9b2fb8f222d588c2a7f05d0bda7ad82d254b5b9870c8f1a1388c8d6c408"
+    },
+    "mdmagma/tests/v2/algebra/test_linear_algebra.m": {
+      "bytes": 272,
+      "sha256": "07f5406a3a095fd9d20f825da50cafd1c859eb527fde85dfdec4529b205e3acb"
+    },
+    "mdmagma/tests/v2/curves/test_all.m": {
+      "bytes": 40,
+      "sha256": "64c9458dc7a24f9e0e12e3551a3c97d32ff1902b2576c0564561e0370117d94b"
+    },
+    "mdmagma/tests/v2/curves/test_places.m": {
+      "bytes": 1294,
+      "sha256": "c6c9f5f0c934d269cf65011e71e042407ebad11e7f8c254b7f8827f1fb65d2ed"
+    },
+    "mdmagma/tests/v2/elliptic_curves/test_isogenies.m": {
+      "bytes": 2001,
+      "sha256": "fd8972d3b782581e68dbed13e778b14b249303b5e793b05192104141087c086b"
+    },
+    "mdmagma/tests/v2/modular_curves/test_X0.m": {
+      "bytes": 334,
+      "sha256": "229239b04aa9bb3b1625b0cd10a630b6a1ddfe43623c2fcde0dd0d8df30f8849"
+    },
+    "mdmagma/tests/v2/modular_curves/test_X1.m": {
+      "bytes": 2838,
+      "sha256": "5e7af3ee6144f0326a42c1d15557b8d54f932998848a914f81cc29481b08d7ce"
+    },
+    "mdmagma/tests/v2/modular_curves/test_X11.m": {
+      "bytes": 2555,
+      "sha256": "961febd67f263f5bd74ebca388c01339c120ca4becbb15d1caad01b6d5acbfef"
+    },
+    "mdmagma/tests/v2/modular_curves/test_all.m": {
+      "bytes": 206,
+      "sha256": "8b1ca55d324fccc693d412eb99d5305bb71399d03e37b5a25b750f2c5fb5958c"
+    },
+    "mdmagma/tests/v2/modular_curves/test_base_curve.m": {
+      "bytes": 151,
+      "sha256": "11e1ea9a7aa8a20e57e6e0774b3062ce11b408e9f09cdc29f79d153658331409"
+    },
+    "mdmagma/tests/v2/modular_forms/test_all.m": {
+      "bytes": 47,
+      "sha256": "6fdd97b5c1b0c2cf0bee49e97109735c1f8eace6116bdb9fee9f0fc4ba6f6342"
+    },
+    "mdmagma/tests/v2/modular_forms/test_modular_symbols.m": {
+      "bytes": 943,
+      "sha256": "f4c3dca75900c67f738ea6c8b61f2026ac4bb5ce76573dc4730951410a2eb510"
+    },
+    "mdmagma/tests/v2/test_all.m": {
+      "bytes": 319,
+      "sha256": "a929fc452d2187f1fc40d008d052d9a0f625d1d6ca7b0422b8d838a218071b05"
+    },
+    "mdmagma/tests/v2/test_utils.m": {
+      "bytes": 1299,
+      "sha256": "7357441c6648186de16a968206485ce1cf0370d651ebfcbb95875612df0cfb46"
+    },
+    "mdmagma/v2/algebra/linear_algebra.m": {
+      "bytes": 287,
+      "sha256": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed"
+    },
+    "mdmagma/v2/curves/classgroups.m": {
+      "bytes": 484,
+      "sha256": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24"
+    },
+    "mdmagma/v2/curves/divisors.m": {
+      "bytes": 1491,
+      "sha256": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7"
+    },
+    "mdmagma/v2/elliptic_curves/isogenies.m": {
+      "bytes": 1091,
+      "sha256": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15"
+    },
+    "mdmagma/v2/mdmagma.spec": {
+      "bytes": 81,
+      "sha256": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a"
+    },
+    "mdmagma/v2/mdmagma_internal.spec": {
+      "bytes": 282,
+      "sha256": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487"
+    },
+    "mdmagma/v2/modular_curves/X0.m": {
+      "bytes": 883,
+      "sha256": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83"
+    },
+    "mdmagma/v2/modular_curves/X1.m": {
+      "bytes": 8226,
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f"
+    },
+    "mdmagma/v2/modular_curves/X11.m": {
+      "bytes": 7602,
+      "sha256": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9"
+    },
+    "mdmagma/v2/modular_curves/base_curve.m": {
+      "bytes": 7298,
+      "sha256": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e"
+    },
+    "mdmagma/v2/modular_curves/rational_points.m": {
+      "bytes": 904,
+      "sha256": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee"
+    },
+    "mdmagma/v2/modular_forms/modular_symbols.m": {
+      "bytes": 2167,
+      "sha256": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14"
+    },
+    "mdmagma/v2/utils.m": {
+      "bytes": 1321,
+      "sha256": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64"
+    },
+    "model_retained/build33.log": {
+      "bytes": 117,
+      "sha256": "bc8904ea92c486f70f3cd711045ab3c23855c46268322756c364be15b0a8e0a3"
+    },
+    "model_retained/build33.m": {
+      "bytes": 1756,
+      "sha256": "9cde49b4fa706edc9e6ee2ea3fd4e8c309f1cd895836cfc1c7b283415578e718"
+    },
+    "model_retained/build33.status.json": {
+      "bytes": 843,
+      "sha256": "804ac24909ee9da09d855334f11eac5e9495918ba4762a94c32f3fb55398c50c"
+    },
+    "model_retained/build33_pool_complete.json": {
+      "bytes": 1056,
+      "sha256": "1fa34a8e02f37eb18f721cf286baf5b1212d0f83f94e085f48a80ecaebd4143b"
+    },
+    "model_retained/guard_build33.py": {
+      "bytes": 2812,
+      "sha256": "7ec9d1cc010f754a93ac059caaa13ffa76f3dbba8c35220cef6f6c12813753eb"
+    },
+    "model_retained/model_cusps33.json": {
+      "bytes": 76057,
+      "sha256": "3d3c34dcffcbcded99467a32ef6d4738e611c8d1c46a5f0f1b2c72294d413edd"
+    },
+    "model_retained/reproduce_model33.m": {
+      "bytes": 1820,
+      "sha256": "6affed649f72c578e1bbaef96b9931a1a0197fb5b23a3fa7e2747f605cadde04"
+    },
+    "model_retained/source_package_identity33.json": {
+      "bytes": 46274,
+      "sha256": "4d5cb71de938319ac41feac81c6a022c81911991561861de2411315126508acb"
+    },
+    "rebound/class_arithmetic33.py": {
+      "bytes": 7243861,
+      "sha256": "ad44427c0fcbbd47c751e66488e8b9859989a51694f45f00939055fa7dd8790a"
+    },
+    "rebound/classification33.exit.json": {
+      "bytes": 564,
+      "sha256": "f51cea77f856a0b635f9dd769120b9fbb80f0508964c61c5e46bcd1acca5d8d2"
+    },
+    "rebound/classification33.log": {
+      "bytes": 2204,
+      "sha256": "e6faab76a1f708a789f8d67f8d8ea0bbe850b6290e012e5e0260b6c163466ded"
+    },
+    "rebound/classification33.status.json": {
+      "bytes": 466,
+      "sha256": "e1db6eb9e46e43e6ba91bdfcfe47f45d5f2efe070f44d0b61647638933f4f402"
+    },
+    "rebound/classification33.stdout": {
+      "bytes": 2619,
+      "sha256": "f0169a54e7140018fd739e5adf19b8d356a321b6954fae185adac7c5d251547d"
+    },
+    "rebound/classify_degree9_33.m": {
+      "bytes": 10527,
+      "sha256": "583d9e7613c55d1a4be5f6984a09b0b075a63ae63290e4344d4920c32ecacc1c"
+    },
+    "rebound/cusp_binding33.json": {
+      "bytes": 784,
+      "sha256": "c01292a1bac0e9bc687052000118b2047a9a9592b7b70f210a637c00ce7f44af"
+    },
+    "rebound/guard33.py": {
+      "bytes": 1515,
+      "sha256": "2394014097077500ad9937cae22550337cc4c19b094c096e72d35dda0719a202"
+    },
+    "replay33.exit.json": {
+      "bytes": 557,
+      "sha256": "19427f3652408e6fc3a78cc9bd05bff4dc00065957db8a172750c9c9fed5aaf5"
+    },
+    "replay33.log": {
+      "bytes": 470,
+      "sha256": "7fd9c06e31153698894e0c498fa3b7b73a14889e22c61eb326ec4f4a08175e4a"
+    },
+    "replay33.py": {
+      "bytes": 4864,
+      "sha256": "acfe0406a3fe33b57ae2fb6e5f467c04951c4e71d27708ce0cf3ec591ac36210"
+    },
+    "replay33.status.json": {
+      "bytes": 460,
+      "sha256": "a2b12682d407bc3f1daab0e61a5ae49a018eea48d2e51058a52b3daf4b1c5c85"
+    },
+    "short_classes33.exit.json": {
+      "bytes": 566,
+      "sha256": "90a9013a356205b050e49667f8f6bfed47712e14faf00e09319079da4445ff58"
+    },
+    "short_classes33.log": {
+      "bytes": 142,
+      "sha256": "c9c91c4af238e2944da7f191e07aa1df383cbb9ccf0e7debfe1678cdde4987fa"
+    },
+    "short_classes33.py": {
+      "bytes": 2966,
+      "sha256": "1301b444e895300ccef28bfdb3143c036a939bbea3cc9ca8b88c95bc344a6b4f"
+    },
+    "short_classes33.status.json": {
+      "bytes": 467,
+      "sha256": "da98e3c07e5b08f5ec56b2a862b35cd650edd33f98ab26376c1aac386cedf67b"
+    },
+    "short_cusp_classes33.json": {
+      "bytes": 4863,
+      "sha256": "434cd0970262d65e3a027fca14c2fb0863438379d4e56de066734604955e8b36"
+    },
+    "../../../../shared/mdmagma/Magma/chars.m": {
+      "bytes": 72624,
+      "sha256": "4ba0d71a2e5ec126c7b8443ff6819dffdc9400db5895622a1203c89cc6d7f65b"
+    },
+    "../../../../shared/mdmagma/Magma/gl2base.m": {
+      "bytes": 298316,
+      "sha256": "0dc6e1c47699ba10deb974f3138b8436dbc2c4cd0dcdcbb17bc5e4d8875dc783"
+    },
+    "../../../../shared/mdmagma/Magma/magma.spec": {
+      "bytes": 58,
+      "sha256": "19eb16416c2febd41a09f10c2da05a5fb01db4974d3a6ce8d0b82f1256d85813"
+    },
+    "../../../../shared/mdmagma/Magma/tracehash.m": {
+      "bytes": 16346,
+      "sha256": "53f9c1365d9298735fda7fd90aa4fc2b3e19ba36ace6d7927d90b3a523ccf817"
+    },
+    "../../../../shared/mdmagma/Magma/utils.m": {
+      "bytes": 38029,
+      "sha256": "491363cbaa93262296845247320d24f7a9983788f98015d68bb3dec579d7a1d5"
+    },
+    "../../../../shared/mdmagma/X1_N_equations.m": {
+      "bytes": 242753,
+      "sha256": "4a344f4e1ca7c09a8d9a61828912ca316a39e5feebc04cfe3051dbf9843c94a7"
+    },
+    "../../../../shared/mdmagma/X_1_m_n.m": {
+      "bytes": 2032,
+      "sha256": "aa819ef2e6d511e53db2af794247aa58d3d1ba29bb7c06f65718757bffe43a0f"
+    },
+    "../../../../shared/mdmagma/X_1_n.m": {
+      "bytes": 4733,
+      "sha256": "543dff61c0a9028dc4cf23533106125c2ccb5af50fd6ace51ad8db2cda7b7862"
+    },
+    "../../../../shared/mdmagma/assorted_functions.m": {
+      "bytes": 10101,
+      "sha256": "4b01be31c8472937541163836c4b7d64a0b020e940ea2a90497995ff9785a573"
+    },
+    "../../../../shared/mdmagma/computations/derickx-X1_16_classgroups/logs/order_2.txt": {
+      "bytes": 3661,
+      "sha256": "93845b7abec7de4cfbb45fe3b9acb2d8741248b9a933c674345fab6b352e90d8"
+    },
+    "../../../../shared/mdmagma/computations/derickx-X1_16_classgroups/logs/order_5.txt": {
+      "bytes": 3617,
+      "sha256": "fa0c49c5a057f53b9ae3348de58ba393d623a1696bc59bf4bee5c4ae25ea0639"
+    },
+    "../../../../shared/mdmagma/computations/derickx-X1_16_classgroups/logs/verify_joblog.txt": {
+      "bytes": 220,
+      "sha256": "6b2a26bb58bedc78b4dfa3d48acfd23f71c0627a114fc6ab0db0974567cc1e4b"
+    },
+    "../../../../shared/mdmagma/computations/derickx-X1_16_classgroups/order_2.m": {
+      "bytes": 8855,
+      "sha256": "23cbbb6f93bf0c4849872e8f8ab97189142806d9ab6149fa7664b84928953e8b"
+    },
+    "../../../../shared/mdmagma/computations/derickx-X1_16_classgroups/order_5.m": {
+      "bytes": 8197,
+      "sha256": "6d5b28bc4cd0c831cfb47338ad0909c02c5d4ba75f8ac4e17a32d0be906caf54"
+    },
+    "../../../../shared/mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/LRatios for positive rank J1(N).txt": {
+      "bytes": 3209,
+      "sha256": "750fb5dba780a5bee9ea754d366d06a17ca9cd07cb1982d9086d2c26e06ea42f"
+    },
+    "../../../../shared/mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/d6m2n12.txt": {
+      "bytes": 1372,
+      "sha256": "48fc8ade715e70ea728b22828fe8dfc4a6ad528fdad87407e48fcbd117b8c6b6"
+    },
+    "../../../../shared/mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/d6m3n5.txt": {
+      "bytes": 1509,
+      "sha256": "a3398a86686f7e6c1a4365043322cec3621dd8f8dea8491b0d80f46b16f8b04d"
+    },
+    "../../../../shared/mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/d6m4n3.txt": {
+      "bytes": 1477,
+      "sha256": "bd52786291c2d74d1f2fa5ee7be8f645b0d2d57ed8dd3b1ed553e5e89227adbf"
+    },
+    "../../../../shared/mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/d6m6n2.txt": {
+      "bytes": 1512,
+      "sha256": "752e7cf15737202128b6f50b6ab90c99071313ac9723ceb9b3459938ed4dcc31"
+    },
+    "../../../../shared/mdmagma/computations/derickx_sutherland-quintic_and_sextic_torsion/rank_0_of_X_1(m,mn).txt": {
+      "bytes": 2237,
+      "sha256": "eb78db446cb4f3beab7087298114deaee3b67b7cda96b6dd096210eb5c936812"
+    },
+    "../../../../shared/mdmagma/elliptic_curve_chabauty.m": {
+      "bytes": 5316,
+      "sha256": "c94d47f49aba999b9627d562bd213dbeaefff5510a311439480241a36a1b7afb"
+    },
+    "../../../../shared/mdmagma/examples/degeneracy_maps.m": {
+      "bytes": 924,
+      "sha256": "19455efcbf1bad9a11ed58e743b7297bd9287c700a02e1896774a5344a19400e"
+    },
+    "../../../../shared/mdmagma/generate_candidates.m": {
+      "bytes": 627,
+      "sha256": "dbc2a79644d984c70f2cf770943735bbf48bb0f8cb9e65b46eeb9d6119b6d6a7"
+    },
+    "../../../../shared/mdmagma/gonality.m": {
+      "bytes": 5584,
+      "sha256": "a2e40222a87221e1df3bd542f5e8e6a8a615910aa1fac348e11d5c9cc5986513"
+    },
+    "../../../../shared/mdmagma/hecke_operators.m": {
+      "bytes": 5722,
+      "sha256": "f2d85b419177acaa6d7dcc03faff9fe73a4faf1a46f54a8d64ce619956e97bfc"
+    },
+    "../../../../shared/mdmagma/low_degree_places.m": {
+      "bytes": 4180046,
+      "sha256": "782c2edd7942591991908a8991a8f4a87b38ae2f669c3b84dd73c4c2bfd24785"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/README.txt": {
+      "bytes": 70,
+      "sha256": "4d2ce5e8fa19160fdee211686ca6297a357f261ba3b4f2e33a3cd7d2a7546dd6"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_10.txt": {
+      "bytes": 167,
+      "sha256": "5e2bd328ec769af9f410fe6a87c63047e2f46fa70113afaf4b28a5d636fa6011"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_12.txt": {
+      "bytes": 177,
+      "sha256": "26bdea651a4e33b169e1761f4347d6a7a4535bd6e33bbb34153c7499fdddc7b2"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_14.txt": {
+      "bytes": 305,
+      "sha256": "2e8c3509540196ecc4eee204205fcb45ad99212796dfe652512ae15e12edf293"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_16.txt": {
+      "bytes": 569,
+      "sha256": "48a8729c8e8c7b608717a7d150f917e6bfb9e555837f1194963aa3f0d67f775b"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_18.txt": {
+      "bytes": 243,
+      "sha256": "152be07e6326532e55fe35761072a6187e35e809ad1b89ec9b19906e5fbb2dce"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_20.txt": {
+      "bytes": 355,
+      "sha256": "44ce972be7498b65c49fdf3eec29458961821d48dd9656c1b9c2a7e162ced3fd"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_22.txt": {
+      "bytes": 803,
+      "sha256": "9a2ba8a0dac15110f996664374c469364cbf5c41e01a6e5ac566d7f8ee4cee07"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_24.txt": {
+      "bytes": 756,
+      "sha256": "f538cf6e1a67fa8d8606f089ebe549371c1bf4a77d2194917bc62bde488faf44"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_26.txt": {
+      "bytes": 1257,
+      "sha256": "95e449761daf328b5b1d7fcf6fb993db722840bfe48f7ea6e17d9c4adc02f04a"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_28.txt": {
+      "bytes": 1848,
+      "sha256": "fc551fa26420ac50d2222eee5a3b45c4c2f0b424fa715b1b568a262ca34b10ac"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_30.txt": {
+      "bytes": 1849,
+      "sha256": "878a2b5cf0ceb396c789a3b25285a9df2c32caf31ff0f258fba24b71012105f8"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_32.txt": {
+      "bytes": 3258,
+      "sha256": "991f6be0d4905f3299daec866cc6d998756bedaad58f97a05cbcb3ef0f1b7389"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_34.txt": {
+      "bytes": 3872,
+      "sha256": "37feb4523009a12cc8d778ce3c92299beff5acaab00613748252c0f4cc7002a5"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_2_36.txt": {
+      "bytes": 3780,
+      "sha256": "4bf05451bcbfc19ef28a87cf917f23b2c5b5caccc314a2ef764d128e5ed89c4f"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_12.txt": {
+      "bytes": 1034,
+      "sha256": "7c8113d38e59ddc5d5a8f933e0253f6d194fd192bceb132c6d7654fbd5844442"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_15.txt": {
+      "bytes": 4466,
+      "sha256": "f76ab73f7b2604de31857d9917f7b7f8c2c733695c64b5a1b2dadba806c1e264"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_18.txt": {
+      "bytes": 5840,
+      "sha256": "f2586405410895383f2301343f3fb74c239c096ecf5919d6f567f4040e26f27a"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_21.txt": {
+      "bytes": 22459,
+      "sha256": "01050b519b80a7d9f0eb50f9c7873565a9ebc69b56336b8f60eef5de45f81334"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_24.txt": {
+      "bytes": 22269,
+      "sha256": "b40d728aeed27d81d4a581e7daa680ad42651d94b787e7aa6578837778a41b2d"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_27.txt": {
+      "bytes": 83961,
+      "sha256": "a2e18f069c09dc7a250f4420aab534c07e043f185c79118d0497b9c7c28ac141"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_3.txt": {
+      "bytes": 121,
+      "sha256": "de6f5b537d9e7a871c57209a1325868ff650404a53e404c9aafad2d3f6b21659"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_30.txt": {
+      "bytes": 62421,
+      "sha256": "b5e2094c2eaef664b143ce622f451508b3ad47b72814d3bac3934c0eb99bc116"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_33.txt": {
+      "bytes": 237926,
+      "sha256": "7ef52da53e7df9032be961bf68189bbc9c7d36a5c0333e35ae6d8ddeee419aa2"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_36.txt": {
+      "bytes": 178604,
+      "sha256": "0f74b9e4942b174a1f8a9b17e47464a76729bc07b61d40035d6cbdc2235b7848"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_6.txt": {
+      "bytes": 216,
+      "sha256": "1de3d67aba86a6b2e23fb4dd62047a8c8829e31c71d16fa246643cc6a7d39c90"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_3_9.txt": {
+      "bytes": 620,
+      "sha256": "0d20aad7ed110e36256c3eaa84d899d39da08c9f7b909f22c7d43ab8728b9232"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_4_12.txt": {
+      "bytes": 1229,
+      "sha256": "303126c90d116678def63e6f36cb43061976a76aa1574c7600c1413d0b209da6"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_4_16.txt": {
+      "bytes": 4873,
+      "sha256": "ddc46e9ebe8a65d466c4151eb1bc2e83192249773f8da49921c7880229dd7f8f"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_4_20.txt": {
+      "bytes": 15032,
+      "sha256": "14b80e5d2db940208b4496133e2e33442e118d0bee2a477c3f028a3e190647d5"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_4_24.txt": {
+      "bytes": 22282,
+      "sha256": "125678d239c53e94f2a652d0a9e70f75fba68ac10fb40b8d1a5564e0ad3ad484"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_4_28.txt": {
+      "bytes": 60735,
+      "sha256": "0d9569361d9ad147aaebe056ab1f1b21727851b3f2f0e9cfb66c2b7a77ac78d3"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_4_32.txt": {
+      "bytes": 129363,
+      "sha256": "96cb81c3a50bc0856193e197f3f54b2bbe7191145776f72a8c7fc8e977ce3ae4"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_4_36.txt": {
+      "bytes": 171283,
+      "sha256": "d7440aee6a98413aa3c5b2ac298d141c5f83334dd0f111e50225042956aed109"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_4_4.txt": {
+      "bytes": 163,
+      "sha256": "f784b4a66a4f5b718316dd0899d311c7166439f8abc627c9241e84f36aa39fb0"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_4_8.txt": {
+      "bytes": 331,
+      "sha256": "77951e13c030cff92f73e13ede3f790a8c2c99a951a61c797b89766f3195739c"
+    },
+    "../../../../shared/mdmagma/models_X1_m_n/X1_6_12.txt": {
+      "bytes": 846,
+      "sha256": "a52e86f8e8622f769d78203cb7519e96ca3ecff5dcab49c812c67e8736a1151d"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc10.txt": {
+      "bytes": 10,
+      "sha256": "511283e868db4b943ffa30e6dcee5d32ec13cd0a7e76765779a22df76f1e0eaa"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc100.txt": {
+      "bytes": 205329,
+      "sha256": "e5d0a20e93b9ef28345e46d50f012bcb597c0a019a9b96165bed0fbab7c47aa3"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc101.txt": {
+      "bytes": 524474,
+      "sha256": "691957a3ccd0be1e3c11e55b5bdf37d587d3a926be8f8fef01017ee98bd16df0"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc102.txt": {
+      "bytes": 189252,
+      "sha256": "1f646e6d53b463df0035f2307865bbef463684186db501b6162bfb3176a782bc"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc103.txt": {
+      "bytes": 584617,
+      "sha256": "8b018cd8888a01d6861a8f4a98c801218c41f300eba1a83804e5ee1c0d0cbd87"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc104.txt": {
+      "bytes": 276079,
+      "sha256": "43152b66bf01a32bfec169988c7fad26dbcc0ee1fca50215c3baf1da3db876b1"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc105.txt": {
+      "bytes": 398298,
+      "sha256": "965da57573058612923569f72ff4522938ae668598b82cf78ddccb3c87b31460"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc106.txt": {
+      "bytes": 304428,
+      "sha256": "18c02b35dc02f37c983288fab35632f73eaa050068b3ff61bacc87aec89b5bfe"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc107.txt": {
+      "bytes": 717757,
+      "sha256": "fd9dcc4783f014faeeebda07f99d71804e3510b6ecce81dfcdda43d2d28fcfdb"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc108.txt": {
+      "bytes": 252072,
+      "sha256": "71da88fe5db65348b8f5ea85dc77af65607077bf15b39c752bd3cfeb758cb5c3"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc109.txt": {
+      "bytes": 795288,
+      "sha256": "c9479552f39006afcf1b33c3e8e57b283a618423f8586d4d15361ca5ad1f9d54"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc11.txt": {
+      "bytes": 22,
+      "sha256": "f169601eee2eadf6a7d291f4aa58f3b29b1ea13923df44baf0d7add55f469404"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc110.txt": {
+      "bytes": 331716,
+      "sha256": "bdcef47a787cc0d6f83d954a8e5c381bb9beb94b9373388c53e20a586070e6ca"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc12.txt": {
+      "bytes": 6,
+      "sha256": "6b8d2afb9d41b774a0eb44cb8cb60f9b2f47fe99f96023743193b8eb9f5cac98"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc13.txt": {
+      "bytes": 40,
+      "sha256": "458afee06877eaca7d97042e3b46e12c76542a369dfd59bb028847b0c7c26d74"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc14.txt": {
+      "bytes": 30,
+      "sha256": "58cb7293ae8d698b7f6839c4f503d50573d5bf65cef21631bc1ac3a85408ad48"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc15.txt": {
+      "bytes": 38,
+      "sha256": "841680f65147b437efda9f26859998f698f871bba32d095a958735d139b8de73"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc16.txt": {
+      "bytes": 44,
+      "sha256": "91aa32cb917ceb3e76aea6ba78c0e696a241533ba11d3673d998f697f8d1c088"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc17.txt": {
+      "bytes": 101,
+      "sha256": "032b4edcf42230383db0cbe0cebe7d7ecc73ed1267849d3212d2ea731b6c10dd"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc18.txt": {
+      "bytes": 99,
+      "sha256": "cd130df6c1fe597670389d3e328242c6b518da8c4df2aa1d092c1b479a3a7594"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc19.txt": {
+      "bytes": 178,
+      "sha256": "689a5b3c2679dffda889b71e3c7ab554c777f6a1b1f08bb9baa3f90ef821ad2b"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc20.txt": {
+      "bytes": 91,
+      "sha256": "1d04387bc1f46baee6ba51561625d110afdfe77912d9db414ed0502d5297e59d"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc21.txt": {
+      "bytes": 151,
+      "sha256": "8cbe6cdf5593f65d514a2d1346d97b6c3f58a16c01e5a8b2f47aba71dd80603a"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc22.txt": {
+      "bytes": 176,
+      "sha256": "30d2793b9bd68856711f1f9def576232d0f8a94471f5e618897437e868208a46"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc23.txt": {
+      "bytes": 415,
+      "sha256": "7c8ef20718e262ce585ce1a9e280658b063f26095c1fcb59c1147415d5560f6f"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc24.txt": {
+      "bytes": 279,
+      "sha256": "026186c87cfed22aaffcae30903cc71b2e954c700728d7fb44e2c93063a71d50"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc25.txt": {
+      "bytes": 579,
+      "sha256": "8a9ef41acf56e469d202399dbc2824f1271c45d8b8491a115d2c793ffcd8a7c3"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc26.txt": {
+      "bytes": 286,
+      "sha256": "5ddda30dfd914c1ae8101fbf05b952d237bd37873df04d49969785795c903cee"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc27.txt": {
+      "bytes": 699,
+      "sha256": "9fb26e8d45f28c59b4991ec30edd9a1122ee61ba338b868f8e04fde657134174"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc28.txt": {
+      "bytes": 443,
+      "sha256": "6277693a4e301ee7c374b1f32232c50f7afb1923f0e1b5c7357eea5a83c5a08d"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc29.txt": {
+      "bytes": 1180,
+      "sha256": "ed353d8ef36894edaf4d1d363ade9fb65a26310e3dc00e5324ee1c9c16f8a635"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc30.txt": {
+      "bytes": 578,
+      "sha256": "6ef2db7042674db18bb8a2df00e2b736c1100da51d3e686af5ba3479f1fd096e"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc31.txt": {
+      "bytes": 1711,
+      "sha256": "cfa3b709f124daeeb6157522784907f83da85911ed65b5a1f4edfe3dada7017c"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc32.txt": {
+      "bytes": 1057,
+      "sha256": "7370a8adb5ed617202f6e9710d0223d5717bbf8d36a7e352b0a38e6eec9796dd"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc33.txt": {
+      "bytes": 1482,
+      "sha256": "1471012002d2ef25a7e223b928aa1852bbca232b6d8f71678251786a3df06e5a"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc34.txt": {
+      "bytes": 1166,
+      "sha256": "2e820cfbdf07e7590824c9aae16b57e2e7737868c6818b7d0205cd967d9c5ffa"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc35.txt": {
+      "bytes": 2482,
+      "sha256": "eeadd544bb37aae057d1755a901305a9bbb921300ec8ec2839ad037b3c8ff2ba"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc36.txt": {
+      "bytes": 1214,
+      "sha256": "99d029441095a5c57852d591fd5c3a845f18c94e8c4aa50bc009aa70f89396fc"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc37.txt": {
+      "bytes": 3722,
+      "sha256": "9854d659f3834ebe52c385cdd1a7b16510ba7178f44b9df1c53d349341664e90"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc38.txt": {
+      "bytes": 2305,
+      "sha256": "03ccda7385cd8f1c0b8eabfcdb447141ebd2036f165d35730f1fa69ba96c90bf"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc39.txt": {
+      "bytes": 3405,
+      "sha256": "faecd4f8cbe37bf9c1c4896d020137d28aa61087ed0c096b8a8a009710f99e24"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc40.txt": {
+      "bytes": 2733,
+      "sha256": "d1870f31c665d53f0a6fc6523e02662719e0b9489ebcc6c709891800bea04a2a"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc41.txt": {
+      "bytes": 5818,
+      "sha256": "acade4017abc665f0c45402f754a3c9739bd0656ba3b96473fc683cb0c66d853"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc42.txt": {
+      "bytes": 2576,
+      "sha256": "b9aeadff7be11c2569d1143f5e38436554e5e1610d46e399e32f575fd4491e6b"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc43.txt": {
+      "bytes": 7317,
+      "sha256": "b678b67d35b01281215aa1a28660bb28dc856ee39edb3a203fefd9a13a5cfc81"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc44.txt": {
+      "bytes": 3749,
+      "sha256": "ed66d53a4ae31e063f384f32a04c77fed92ca61b91f2dd64483bc770d6b1b6c6"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc45.txt": {
+      "bytes": 6801,
+      "sha256": "2a924d5d90a67eeb837283a75ee033c515f458a9efd14dac8b7265aa63341754"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc46.txt": {
+      "bytes": 5171,
+      "sha256": "4e85e373fa88a52c93318f6bd3717219460e2bc958f52116e6ee346b0317dc69"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc47.txt": {
+      "bytes": 11294,
+      "sha256": "64480ba5a4b5e8a2330f2cda1ebbe8a8a39fa741c241834b3b8cbb0bc00a3167"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc48.txt": {
+      "bytes": 4707,
+      "sha256": "6d0def2aa37bbf56c54305001e53b6808bc428bdd9e72fb0d43f1fbc6d506764"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc49.txt": {
+      "bytes": 13004,
+      "sha256": "c5573202116df71ae534148005d857e4d3b2a9f36ea8561d78f36a9da9e56763"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc50.txt": {
+      "bytes": 6770,
+      "sha256": "023bb1f84d9731c476a006858e4b18287277235162321831643d75fdbe3fb0cb"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc51.txt": {
+      "bytes": 11871,
+      "sha256": "7b6b5948a172aaa9daa689b08197f27c813f191da6649bbfbc00136a1637e842"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc52.txt": {
+      "bytes": 9032,
+      "sha256": "127d6d5d7dfe3fd184e0b053fc6c69037bf2a3f645e0f73284804fa9e8fccac5"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc53.txt": {
+      "bytes": 19931,
+      "sha256": "bd0c7a7b550c2fd237f401431dc32a85898b99276bb3e73b7d0b2da4c5e5606b"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc54.txt": {
+      "bytes": 8153,
+      "sha256": "ca30effcf22782fc1dd96fdb16a4cf8d5abb8bb2b744edc9231f532ecff7cb00"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc55.txt": {
+      "bytes": 20439,
+      "sha256": "547f90eed72ef75af9e3393edb34528c630a225354885ea7a88721e9cc8b7a8a"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc56.txt": {
+      "bytes": 12855,
+      "sha256": "1a24a808b2fdb52818df3aa906dad5185cdf73357e0933d66761b67a1fb9ed27"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc57.txt": {
+      "bytes": 20484,
+      "sha256": "15790756c48033946babf0f44dc0d599a99e427046f297182d35feafdf8daccc"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc58.txt": {
+      "bytes": 15414,
+      "sha256": "6577364cefe085e1c8945137a5e39a4c72549b084757fe88a2c51695c0f487c3"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc59.txt": {
+      "bytes": 33250,
+      "sha256": "356fc012ecd95bc3bf30c7e500c44f9d71ff8b95a32dac124ec08251d2682a44"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc60.txt": {
+      "bytes": 12744,
+      "sha256": "8787c9db47e30a1440269efd15e4ea4cfc60d2dfc9b643a8a07b0a96766e5e9a"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc61.txt": {
+      "bytes": 38627,
+      "sha256": "3aadf4e7918d12ad63bf94b47bb6b7dbcbd63f27670efc4cbc559cffd688ec08"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc62.txt": {
+      "bytes": 20411,
+      "sha256": "ddd5eeaa560a4fa3bc082744db884ea903216e27a43cfb74d2a3667cadb66fd4"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc63.txt": {
+      "bytes": 33675,
+      "sha256": "142ce73b97f11858ce45c9d63537e9133f3a1d975b002f7857a74f79afc84c01"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc64.txt": {
+      "bytes": 23844,
+      "sha256": "f2f82005ab1e89dd3669d28a5bc2ac46ca632dfa8ef0aa938b6ffe34404524f0"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc65.txt": {
+      "bytes": 47094,
+      "sha256": "1983ea96dec8cf24c24741d61e5e0b8d0e4b2d264153ebf5865aca35b9cdd859"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc66.txt": {
+      "bytes": 21574,
+      "sha256": "9262ae65524db9827e50a04061a321c005827fd47d9a8352a6010be824d090a4"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc67.txt": {
+      "bytes": 61940,
+      "sha256": "4e75c74c3e2660e4c717a5aa50348cfa5c09d7a101c02d951936b78b57055194"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc68.txt": {
+      "bytes": 32530,
+      "sha256": "31777b3106bcb505e4ffa0870a767a9c9b043e314287c8392751d5a336c869c5"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc69.txt": {
+      "bytes": 51564,
+      "sha256": "62b183368a017f5d79b84147947b90e66cbccc1376dcbfdb929808c64d1f6cf0"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc70.txt": {
+      "bytes": 32285,
+      "sha256": "b3fcc48e707430931da10f30d142b50db63fdb91a171a42fad43ad1cb7c712dd"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc71.txt": {
+      "bytes": 81691,
+      "sha256": "eba983923c8da9bd29eac30f0a776e8adcd169af7efccccfb13375ee0a1663a6"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc72.txt": {
+      "bytes": 32949,
+      "sha256": "0b19938c893a11e0b454bde396c0e9a846bdf6e99806c88f4da7cc7fdbec620f"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc73.txt": {
+      "bytes": 95180,
+      "sha256": "30c4b40f070193ab5a4452dbeaadcbd6eb3aadde515fa3355b2b7b901e4a9566"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc74.txt": {
+      "bytes": 49236,
+      "sha256": "3773e95cf66fe5302e64dd775f4cdb827a9b7d098c7100c230932760d5857629"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc75.txt": {
+      "bytes": 72586,
+      "sha256": "06cc0b9bc3784ff8030bbc9ce42a837bdff05c85e817115237f6d2d77d1775d4"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc76.txt": {
+      "bytes": 53756,
+      "sha256": "b2da5c6180061b84badfe5b15d825efe93fd8db5717909eb5133bc60425bc28d"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc77.txt": {
+      "bytes": 114982,
+      "sha256": "33d13534ef3935a76d01ef44713d6ca5d3e29abf64d45864cc73428261893f6b"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc78.txt": {
+      "bytes": 48302,
+      "sha256": "f459689766629eb827ddf1eba129cfd2591cced7571248c307404ca7a76f07a5"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc79.txt": {
+      "bytes": 141320,
+      "sha256": "fcf563d2ae6dbe70a847e701a58625290b10a6e2a4c1f25a05ce206164528767"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc80.txt": {
+      "bytes": 65396,
+      "sha256": "ffd1c8b5ee61e702cc99661aa6348982833d4735aaa497c234cb41b4cce8e831"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc81.txt": {
+      "bytes": 119908,
+      "sha256": "3d44ce7330760fee6dd244ecf28ba76534e438cb565a7d410ea24d6fc19b7c9f"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc82.txt": {
+      "bytes": 82810,
+      "sha256": "e49263aec0e8b568a6a142fc8f68c099c916cb1240c2b2577ef63b0a2e3b7ade"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc83.txt": {
+      "bytes": 181524,
+      "sha256": "e867ac7ff36fc62cc787ca07f933ccbc6e99af5c78e4881290d27f2635599363"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc84.txt": {
+      "bytes": 66219,
+      "sha256": "f7c80e20b43c0fd4fe7ab31c668abe5694aae7b3a4cf199874f1cad2a8b328f0"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc85.txt": {
+      "bytes": 183714,
+      "sha256": "c38ac3d5a63210158861626d437a79d7db9aafb8d1ff94eaa340894dfb49c961"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc86.txt": {
+      "bytes": 105221,
+      "sha256": "547594f05950a75204955e6585deba94aa36679ab1dc82c6296ac70638a36c8c"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc87.txt": {
+      "bytes": 170809,
+      "sha256": "5743dda61de152391038f491f801926e4ce485a257fce21e5241c4817697e692"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc88.txt": {
+      "bytes": 118807,
+      "sha256": "dbe0ac6349481a9aa26fe807c8905a32e13963b1c28219c8c680ca7a4d985da0"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc89.txt": {
+      "bytes": 260993,
+      "sha256": "551d4b03f60ea786acd5e1f27ba8257826bae394db27fd407b0d7a2fc48a1fc0"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc90.txt": {
+      "bytes": 84506,
+      "sha256": "eddd373d36e2077657c43879e02ed59bdf3dc6913965e5c4b2f682983211b3e7"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc91.txt": {
+      "bytes": 272749,
+      "sha256": "e1760deec432d3604a3373be18024a59826a92413129391f51e21a97a50655cd"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc92.txt": {
+      "bytes": 144331,
+      "sha256": "c8a370118c471d69f805c164ac69a02b5704a695cbc67a0e770ddbb59e3988c4"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc93.txt": {
+      "bytes": 238094,
+      "sha256": "bfb6b7ba2642cb7480a036db0d9735563747054f323d66a4e1e04a6b596dec72"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc94.txt": {
+      "bytes": 164729,
+      "sha256": "f56552ecd42207b460e740b2cdbef2eb6b76c66e72e9ef654c592df897f5c0c3"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc95.txt": {
+      "bytes": 333283,
+      "sha256": "175aa636439941fa3353d70a3f389836141be43413c5c73ad38519a24f955be2"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc96.txt": {
+      "bytes": 134834,
+      "sha256": "a36dc23af880cc5e0df4bbf8cda03f081066f6f723ca1f58e3e89f0fdedea837"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc97.txt": {
+      "bytes": 417174,
+      "sha256": "602ed45b33fb6b7257860c32b1417542ae4f32ad434b41308c7c794026ac25e9"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc98.txt": {
+      "bytes": 193630,
+      "sha256": "4f989104537f8e16fe5a747cde1ece633d4c9bb289a9c58f83c0ee3b5858238a"
+    },
+    "../../../../shared/mdmagma/models_X1_n/FFFc99.txt": {
+      "bytes": 333966,
+      "sha256": "a3a8aed20cdd91256803f00a5470b1ea3be9cc45c993bb4a02655dab035d4081"
+    },
+    "../../../../shared/mdmagma/models_X1_n/README.txt": {
+      "bytes": 147,
+      "sha256": "eee0478b2b192eda9dcaf540439864953e188a17b9babcbd775914f44183947e"
+    },
+    "../../../../shared/mdmagma/rank_zero_of_X1mn.m": {
+      "bytes": 2364,
+      "sha256": "47529913c99d3a653eef8cd8c11d7da61093f821fca6b2b844cfaaeaab9857a6"
+    },
+    "../../../../shared/mdmagma/strange_characters.m": {
+      "bytes": 3138,
+      "sha256": "459d24500c883a50a34c11328f8917ecd00f392a9e2dd12557f622fbbb34cd9a"
+    },
+    "../../../../shared/mdmagma/tests/magma-unittest/tests/test_all.m": {
+      "bytes": 2242,
+      "sha256": "e3025b1d2639f0feb8639abf9389c8abf2c1cad2d32b171e6bf2c768d57b357b"
+    },
+    "../../../../shared/mdmagma/tests/magma-unittest/tst.m": {
+      "bytes": 1614,
+      "sha256": "4e67e9b2fb8f222d588c2a7f05d0bda7ad82d254b5b9870c8f1a1388c8d6c408"
+    },
+    "../../../../shared/mdmagma/tests/v2/algebra/test_linear_algebra.m": {
+      "bytes": 272,
+      "sha256": "07f5406a3a095fd9d20f825da50cafd1c859eb527fde85dfdec4529b205e3acb"
+    },
+    "../../../../shared/mdmagma/tests/v2/curves/test_all.m": {
+      "bytes": 40,
+      "sha256": "64c9458dc7a24f9e0e12e3551a3c97d32ff1902b2576c0564561e0370117d94b"
+    },
+    "../../../../shared/mdmagma/tests/v2/curves/test_places.m": {
+      "bytes": 1294,
+      "sha256": "c6c9f5f0c934d269cf65011e71e042407ebad11e7f8c254b7f8827f1fb65d2ed"
+    },
+    "../../../../shared/mdmagma/tests/v2/elliptic_curves/test_isogenies.m": {
+      "bytes": 2001,
+      "sha256": "fd8972d3b782581e68dbed13e778b14b249303b5e793b05192104141087c086b"
+    },
+    "../../../../shared/mdmagma/tests/v2/modular_curves/test_X0.m": {
+      "bytes": 334,
+      "sha256": "229239b04aa9bb3b1625b0cd10a630b6a1ddfe43623c2fcde0dd0d8df30f8849"
+    },
+    "../../../../shared/mdmagma/tests/v2/modular_curves/test_X1.m": {
+      "bytes": 2838,
+      "sha256": "5e7af3ee6144f0326a42c1d15557b8d54f932998848a914f81cc29481b08d7ce"
+    },
+    "../../../../shared/mdmagma/tests/v2/modular_curves/test_X11.m": {
+      "bytes": 2555,
+      "sha256": "961febd67f263f5bd74ebca388c01339c120ca4becbb15d1caad01b6d5acbfef"
+    },
+    "../../../../shared/mdmagma/tests/v2/modular_curves/test_all.m": {
+      "bytes": 206,
+      "sha256": "8b1ca55d324fccc693d412eb99d5305bb71399d03e37b5a25b750f2c5fb5958c"
+    },
+    "../../../../shared/mdmagma/tests/v2/modular_curves/test_base_curve.m": {
+      "bytes": 151,
+      "sha256": "11e1ea9a7aa8a20e57e6e0774b3062ce11b408e9f09cdc29f79d153658331409"
+    },
+    "../../../../shared/mdmagma/tests/v2/modular_forms/test_all.m": {
+      "bytes": 47,
+      "sha256": "6fdd97b5c1b0c2cf0bee49e97109735c1f8eace6116bdb9fee9f0fc4ba6f6342"
+    },
+    "../../../../shared/mdmagma/tests/v2/modular_forms/test_modular_symbols.m": {
+      "bytes": 943,
+      "sha256": "f4c3dca75900c67f738ea6c8b61f2026ac4bb5ce76573dc4730951410a2eb510"
+    },
+    "../../../../shared/mdmagma/tests/v2/test_all.m": {
+      "bytes": 319,
+      "sha256": "a929fc452d2187f1fc40d008d052d9a0f625d1d6ca7b0422b8d838a218071b05"
+    },
+    "../../../../shared/mdmagma/tests/v2/test_utils.m": {
+      "bytes": 1299,
+      "sha256": "7357441c6648186de16a968206485ce1cf0370d651ebfcbb95875612df0cfb46"
+    },
+    "../../../../shared/mdmagma/v2/algebra/linear_algebra.m": {
+      "bytes": 287,
+      "sha256": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed"
+    },
+    "../../../../shared/mdmagma/v2/curves/classgroups.m": {
+      "bytes": 484,
+      "sha256": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24"
+    },
+    "../../../../shared/mdmagma/v2/curves/divisors.m": {
+      "bytes": 1491,
+      "sha256": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7"
+    },
+    "../../../../shared/mdmagma/v2/elliptic_curves/isogenies.m": {
+      "bytes": 1091,
+      "sha256": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15"
+    },
+    "../../../../shared/mdmagma/v2/mdmagma.spec": {
+      "bytes": 81,
+      "sha256": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a"
+    },
+    "../../../../shared/mdmagma/v2/mdmagma_internal.spec": {
+      "bytes": 282,
+      "sha256": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487"
+    },
+    "../../../../shared/mdmagma/v2/modular_curves/X0.m": {
+      "bytes": 883,
+      "sha256": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83"
+    },
+    "../../../../shared/mdmagma/v2/modular_curves/X1.m": {
+      "bytes": 8226,
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f"
+    },
+    "../../../../shared/mdmagma/v2/modular_curves/X11.m": {
+      "bytes": 7602,
+      "sha256": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9"
+    },
+    "../../../../shared/mdmagma/v2/modular_curves/base_curve.m": {
+      "bytes": 7298,
+      "sha256": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e"
+    },
+    "../../../../shared/mdmagma/v2/modular_curves/rational_points.m": {
+      "bytes": 904,
+      "sha256": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee"
+    },
+    "../../../../shared/mdmagma/v2/modular_forms/modular_symbols.m": {
+      "bytes": 2167,
+      "sha256": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14"
+    },
+    "../../../../shared/mdmagma/v2/utils.m": {
+      "bytes": 1321,
+      "sha256": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64"
+    }
+  }
+}

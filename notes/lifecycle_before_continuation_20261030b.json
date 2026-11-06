@@ -1,0 +1,616 @@
+{
+  "status": "PASS",
+  "case": "C51, C69, C2 x C42 and C84 exclusions completed",
+  "time_unix": 1793386446.6821284,
+  "degree_ten_workers_supervisors_launchers": [],
+  "all_recorded_jobs_exited": true,
+  "recorded_job_count": 717,
+  "new_job_count": 115,
+  "new_jobs": [
+    {
+      "purpose": "cont242_case26_parent_native",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont242_final_native_A11pure",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont242_final_native_A17s0",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont242_final_native_A17s1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont242_parent_ideal_cyclic21_full",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont242_parent_ideal_g5_s0",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont242_parent_ideal_g5_s1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont242_parent_ideal_g5_s2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont242_parent_ideal_x0_42",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_cover_all_decic",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_cover_all_decic_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_generator_probe",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_geometry_export",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_hecke7",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_independent_moduli",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_independent_moduli_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_independent_moduli_v3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_independent_moduli_v4",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_native_RR_replay",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_native_RR_replay_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_q67_parent_native",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont69_q67_parent_native_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "direct69_native_hecke_control",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "direct69_profile_and_rr",
+      "actual_exit_code": -14,
+      "termination_reason": null
+    },
+    {
+      "purpose": "direct69_select_input",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "direct69_select_input_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "direct69_verify_input",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "direct69_verify_input_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "further51_finite_controls",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "further51_finite_sieve",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "further51_new_jets",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "further51_replay_new_jets",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "further51_replay_old_jets",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "independent_source_cusps",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_case26_phases",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_cheap_stabilizers",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_direct_A11_pure_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_direct_A17_s0_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_direct_A17_s1_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D10s0_eight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D10s1_eight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D10s2_eight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D10s3_eight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D10s4_eight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D10s5_eight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D10s6_eight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D10s7_eight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D7",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D8",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_D9",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_merge_eight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_filter14_small",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_frobenius",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_c21_benchmark_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_c21_full",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_c21_sage_replay",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_c21_sage_replay_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_c21_setup",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_case26_sage_replay",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_case26_sections",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_g5_benchmark",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_g5_benchmark_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_g5_merge",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_g5_s0",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_g5_s1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_g5_s2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_g5_sage_replay",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_g5_sage_replay_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_g5_setup",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_g5_setup_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_v9_setup",
+      "actual_exit_code": -15,
+      "termination_reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "purpose": "next242_geom_v9_setup_v2",
+      "actual_exit_code": -15,
+      "termination_reason": "time limit; computation is not a completed certificate"
+    },
+    {
+      "purpose": "next242_geom_x0_42_benchmark",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_x0_42_coordinates",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_x0_42_cusp_audit",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_x0_42_full",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_x0_42_sage_replay_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_geom_x0_42_setup",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_independent_norm_A11pure",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_independent_norm_A17s0",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_independent_norm_A17s1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D10s0",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D10s1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D10s2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D10s3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D10s4",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D10s5",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D10s6",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D10s7",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D7",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D8",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_D9",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_native_small",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_order3_phases",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_projection_replay_D10s0",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_projection_replay_D10s1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_projection_replay_D10s2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_projection_replay_D10s3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_projection_replay_D10s4",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_projection_replay_D10s5",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_projection_replay_D10s6",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_projection_replay_D10s7",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_projection_replay_D9",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_projection_replay_low",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_source10_profile",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_source10_s0",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_source10_s1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_source10_s2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_source10_s3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_source_merge",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "next242_target14_setup",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "q67_geometry_audit",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "q67_local_preflight",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "q67_profile_rr",
+      "actual_exit_code": -14,
+      "termination_reason": null
+    },
+    {
+      "purpose": "q67_profile_rr_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    }
+  ],
+  "new_automatic_launchers_created": 0,
+  "unrelated_magma_workers_preserved": [
+    {
+      "username": "fnajman",
+      "name": "magma.exe",
+      "status": "running",
+      "cmdline": [
+        "/opt/magma-2.29-4/magma.exe",
+        "-b",
+        "code/03_groups.m"
+      ],
+      "pid": 339824,
+      "create_time": 1792133148.21
+    },
+    {
+      "username": "nadzaga",
+      "name": "magma.exe",
+      "status": "running",
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-s",
+        "for_mordell.m"
+      ],
+      "pid": 3067704,
+      "create_time": 1793227423.6
+    }
+  ],
+  "host_cores": 32,
+  "new_case_active_cores": 0,
+  "native_alarm_or_failed_probes_are_not_completed_certificates": true
+}

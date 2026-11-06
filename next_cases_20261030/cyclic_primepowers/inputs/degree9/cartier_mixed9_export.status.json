@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-26T11:07:44.324609+00:00",
+  "worker_pid": 1691894,
+  "worker_start_ticks": 181988171,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_export.m"
+  ],
+  "actual_cmdline": [
+    "/opt/magma-2.30-1/magma.exe",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_export.m"
+  ],
+  "wall_seconds": 6891.724097107071,
+  "cpu_seconds": 4672.04,
+  "state": "R",
+  "wall_cap_seconds": 14400,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T13:02:36.048708+00:00",
+  "termination_reason": null
+}

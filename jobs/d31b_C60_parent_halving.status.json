@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_C60_parent_halving",
+  "script": "computations/d31b_C60_parent_halving.py",
+  "script_sha256": "8481ded9b04ea1a1a4880d6b6518e258b246d71198581690d790b9259a4b730f",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C60_parent_halving.py"
+  ],
+  "pid": 3471425,
+  "owner_uid": 1001,
+  "start_time_unix": 1793433702.8954427,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/d31b_C60_parent_halving.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.6149868965148926
+}

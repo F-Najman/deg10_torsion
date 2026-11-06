@@ -1,0 +1,74 @@
+\subsection{Excluding order $85$}
+\begin{proposition}\label{prop:nonic85-exclusion}
+An elliptic curve over a number field of degree $9$ has no point of order $85$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(85)$ and $J=J_1(85)$. A hypothetical point gives a noncuspidal closed point of exact degree $9$ on $X$: its degree divides $9$, and order $17$ is impossible in degrees $1$ and $3$. Write $D$ for its trace divisor. The genus is $225$, and the geometric gonality bound gives
+\[
+ \operatorname{gon}_{\mathbb C}(X)\geq\frac{325\cdot3456}{32768}
+ =\frac{8775}{256}>28.
+\]
+The exact winding calculation has two winding-zero constituents, both of dimension $2$ and new level $85$. Their character kernels contain $2$ and $16$. All other constituents have nonzero winding. Hence $(\langle2\rangle-1)J(\mathbb Q)$ and $(\langle16\rangle-1)J(\mathbb Q)$ are finite.
+
+We first exclude entirely cuspidal reduction at $2$. The cusp degrees are $1^{32},4^8,8^8$. Put $h=\langle16\rangle$, an involution. The exact cusp calculation shows that $h$ acts freely on the rational cusps and fixes every nonrational closed cusp. Suppose first that $\overline D$ contains a nonrational cusp. Its rational-cusp part has degree $r=1$ or $5$; let $R$ be its rational cuspidal lift. Then
+\[
+ y=(h-1)[D-R]\in J(\mathbb Q)_{\mathrm{tors}}.
+\]
+Indeed, subtracting $(9-r)$ times a rational cusp reduces this to finite image and a cuspidal torsion class. The class $y$ reduces to zero, since $h$ fixes the nonrational part of $\overline D$. The kernel of reduction on rational torsion at the unramified prime $2$ is killed by $2$, as in \cite[proof of Proposition~3.4]{DKSS}. Thus
+\[
+ 2hD+2R\sim2D+2hR.
+\]
+The two sides have degree $2(9+r)\leq28$, below the geometric gonality. They are equal. Separating cuspidal and noncuspidal support gives $hR=R$, which is impossible because $r$ is odd and $h$ is free on the rational cusps.
+
+It remains to consider reduction supported on the $32$ rational cusps. On the two winding-zero constituents the characteristic polynomials of $T_3$ are
+\[
+ X^2+4X+2,\qquad X^2+2X+2.
+\]
+Their product
+\[
+ k(X)=X^4+6X^3+12X^2+12X+4
+\]
+therefore kills every possible positive-rank factor. In particular $k(T_3)J(\mathbb Q)$ is finite. Compose this map with the standard torsion annihilator $T_3-1-3\langle3\rangle$ in the canonical cotangent convention. The formal immersion criterion of \cite[Corollaries~4.4 and~5.2, Proposition~5.3]{DKSS} applies. We verify its cotangent rank directly in the saturated canonical expansion lattice.
+
+Translate a cusp of largest multiplicity to the first cusp. At this cusp retain jets $1,\ldots,9$, and at each other cusp retain jets $1,\ldots,4$. This covers every configuration of total degree $9$: a second multiplicity cannot exceed $4$. The resulting $133\times225$ binary matrix has rank $122$. Its complete relation kernel has dimension $11$. For a relation, define its cusp-prefix cost as the sum, over all cusps, of the largest jet index occurring at that cusp. Independent enumeration of all $2047$ nonzero relations gives minimum cost $32$. Thus no $9$ selected prefix rows are dependent. This proves formal immersion at every rational-cuspidal divisor of degree $9$, and excludes the remaining entirely cuspidal reduction.
+
+Complete enumeration of all curves and twists over $\mathbb F_{2^f}$, $6\leq f\leq9$, leaves no noncuspidal degree below $9$ and exactly five eligible closed $j$-orbits of degree $9$. Degrees at most $5$ are excluded by the Hasse bound. The retained curves over $\mathbb F_{512}$ have $510$ points and trace $3$. Their rational $85$-torsion is cyclic, so the $32$ projective generators give five free diamond orbits of length $32$, consisting of $160$ degree-$9$ points. Hence $\overline D$ is one of these points.
+
+We now work on the point-level model. Put $\sigma=\langle2\rangle^{-1}$ and $\tau=\langle3\rangle$. The class $[\sigma D-D]$ is rational torsion, since $\sigma-1$ has finite rational image and differences of cusps are torsion. The point-level operator
+\[
+ A_3=T_3-1-3\tau
+\]
+kills rational torsion by Lemma~\ref{lem:nonic-point-hecke-annihilator}. Thus, writing $P=\overline D$ and $T=T_3P$, the divisor
+\[
+ B=\sigma T-T-\sigma P+P-3\sigma\tau P+3\tau P
+\]
+must be principal.
+
+We recover all required canonical points directly from modular units. A saturated integral basis gives $225$ canonical expansions through $q^{1299}$. Its binary rank is $225$ already through the weight-$2$ Sturm bound $576$; the oldforms from level $17$, including their $q\mapsto q^5$ degeneracies, are included. The standard units $x=f_7/f_8$, $y=f_8/f_9$ have pole degrees $90,95$. These bounds are certified independently by Tate expansions at all $128$ cusps, with $32$ cusps of each width $85,17,5,1$; no plane equation or canonical relation is used for the pole computation. The normal-form formulas and modular-unit interpretation are as in \cite[Sections~2 and~2.1]{DvH}.
+
+There are $136$ independent identities $B_i=xA_i$ and $131$ independent identities $D_j=yC_j$ between canonical linear forms. Their zero orders are at least $1298$, exceeding the section-degree bounds $448+90=538$ and $448+95=543$. They therefore hold globally. The expansions of the units come from $E(q^{85})$ with Tate point $u=q$, whose quotient gives the canonical dual-level expansion. At each retained source and target these $267$ linear equations have rank $224$, so their kernel recovers the actual canonical point.
+
+The canonical diamond matrices $M_2,M_3$ have orders $8,16$, commute, and generate the full diamond group of order $32$. Their identification with point diamonds $2^{-1}$ and $3^{-1}$ is certified globally: substituting their inverses and the Tate points $u=q^2,u=q^3$ makes every unit relation vanish beyond the degree bound $543$. This proves exact diamond transport, including its convention.
+
+For each of the five source representatives the four cyclic $3$-kernels are enumerated and the actual point of order $85$ is transported along the isogenies. There are two closed targets of degree $9$ and one of degree $18$, each of norm multiplicity $1$. Independent Sage V\'elu isogenies rebuild all twenty geometric transports, with the same unit coordinates. To cover every convention and target alignment, we test all $32$ simultaneous target diamond translates and both divisors
+\[
+ \begin{split}
+ B_1&=\sigma T-T-\sigma\tau P+\tau P-3\sigma P+3P,\\
+ B_2&=\sigma T-T-\sigma P+P-3\sigma\tau P+3\tau P.
+ \end{split}
+\]
+There are $5\cdot32\cdot2=320$ tests, including every necessary divisor $B$. Coincident closed points are identified before adding signed multiplicities.
+
+Formal parameters are obtained from genuine ordinary elliptic families. After an isomorphism write $E:y^2+xy=x^3+a_2x^2+a_6$ and deform $a_6$ to $a_6+t$. The standard division recurrence with
+\[
+ \psi_2=x,\qquad\psi_3=x^4+x^3+a_6,\qquad\psi_4=x^6+a_6x^2
+\]
+gives $\psi_{85}$; its $x$-derivative is nonzero at every retained level point. Hensel lifting gives the $85$-torsion point, and the unit equations recover the canonical jets through order $5$. Independent arithmetic verifies all elliptic equations, division recurrences and unit relations, and each canonical tangent is nonzero. Since $j=1/(a_6+t)$, this is a local parameter.
+
+Put $R_i=H^0(X,iK_X)$. The products of the canonical forms span $R_2$, of dimension $672$. All $50625$ ordered product identities use $1300$ terms, beyond the weight-$4$ Sturm bound $1152$. For each test write $B=B^+-B^-$ and choose nonzero $F,H\in R_1$ vanishing on $B^+$. If $f\in\mathcal L(B)$, then $G=fF$ vanishes on $B^-$ and $GH=F(fH)\in FR_1$. It is therefore enough to check injectivity of
+\[
+ R_1\longrightarrow H^0(B^-,K_X|_{B^-})\oplus R_2/FR_1,
+ \qquad G\longmapsto(G|_{B^-},GH\bmod FR_1).
+\]
+Multiplication by $F$ has rank $225$, so the quotient has dimension $447$. Every resulting matrix has rank $225$. All $320$ matrices and chosen sections are retained, reconstructed by a read-only replay, and independently checked by Sage's M4RI implementation. Thus every necessary divisor is nonprincipal, a contradiction. All native computations used in the certificate finish with actual exit code $0$.
+\end{proof}

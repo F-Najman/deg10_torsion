@@ -1,0 +1,21 @@
+\begin{lemma}
+Let $D$ be an effective rational divisor of degree $10$ on
+$X=X_1(60)$ supported outside the cusps.
+Its reduction at 7 cannot be entirely cuspidal.
+\end{lemma}
+\begin{proof}
+The Jacobian $J(\mathbb Q)$ has rank zero
+\cite[Theorem~3.1(2)]{DEHMZ}, and $\operatorname{gon}_{\mathbb Q}X\geq 7\cdot1152/800>10$.
+The curve has good reduction at the odd prime $p=7$.
+Suppose that $\overline D$ is cuspidal. The finite etale cuspidal
+boundary gives an effective lift $C$ over $\mathbb Q_p$ of degree
+$10$ with this reduction. Choose a rational cusp $c_0$.
+The class $[D-10c_0]$ is torsion by rank zero, and
+$[C-10c_0]$ is torsion by Manin--Drinfeld. Hence
+$[D-C]\in J(\mathbb Q_p)$ is torsion and reduces to zero.
+The kernel of reduction on $J(\mathbb Q_p)$ is torsion-free
+for odd $p$, so $D\sim C$ over $\mathbb Q_p$.
+These are distinct effective divisors, whence
+$h^0(X_{\mathbb Q_p},D)\geq2$. Base change gives
+$h^0(X,D)\geq2$, contradicting the gonality bound.
+\end{proof}

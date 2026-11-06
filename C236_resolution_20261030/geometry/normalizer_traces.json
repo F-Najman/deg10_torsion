@@ -1,0 +1,1063 @@
+{
+  "status": "PASS",
+  "genus": 41,
+  "automorphism_count": 24,
+  "rows": [
+    {
+      "level_parameters": [
+        0,
+        0,
+        1
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": 82,
+      "is_involution": true,
+      "fixed_points_if_involution": -80
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        1
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": -10,
+      "is_involution": true,
+      "fixed_points_if_involution": 12
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        1
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        1
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        5
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        5
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        5
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        5
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        7
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        7
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        7
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        7
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        11
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -14,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        11
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        11
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        11
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        13
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -14,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        13
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        13
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        13
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        17
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": 2,
+      "is_involution": true,
+      "fixed_points_if_involution": 0
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        17
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": -10,
+      "is_involution": true,
+      "fixed_points_if_involution": 12
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        17
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        0,
+        17
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        1
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -14,
+      "is_involution": true,
+      "fixed_points_if_involution": 16
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        1
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        1
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        1
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        5
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        5
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        5
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        5
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        7
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        7
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        7
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        7
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        11
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        11
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        11
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        11
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        13
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        13
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        13
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        13
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        17
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -14,
+      "is_involution": true,
+      "fixed_points_if_involution": 16
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        17
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        17
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        0,
+        1,
+        17
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        1
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -14,
+      "is_involution": true,
+      "fixed_points_if_involution": 16
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        1
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        1
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        1
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        5
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        5
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        5
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        5
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        7
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        7
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        7
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        7
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        11
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        11
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        11
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        11
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        13
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        13
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        13
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        13
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        17
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": -14,
+      "is_involution": true,
+      "fixed_points_if_involution": 16
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        17
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        17
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        0,
+        17
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        1
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        1
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": -10,
+      "is_involution": true,
+      "fixed_points_if_involution": 12
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        1
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": -6,
+      "is_involution": true,
+      "fixed_points_if_involution": 8
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        1
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        5
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        5
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        5
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": -6,
+      "is_involution": true,
+      "fixed_points_if_involution": 8
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        5
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        7
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        7
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        7
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": -6,
+      "is_involution": true,
+      "fixed_points_if_involution": 8
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        7
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        11
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        11
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        11
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": -6,
+      "is_involution": true,
+      "fixed_points_if_involution": 8
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        11
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        13
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        13
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        13
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": -6,
+      "is_involution": true,
+      "fixed_points_if_involution": 8
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        13
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        17
+      ],
+      "Atkin_Lehner_divisor": 1,
+      "homology_trace": 2,
+      "is_involution": false,
+      "fixed_points_if_involution": null
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        17
+      ],
+      "Atkin_Lehner_divisor": 8,
+      "homology_trace": -10,
+      "is_involution": true,
+      "fixed_points_if_involution": 12
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        17
+      ],
+      "Atkin_Lehner_divisor": 9,
+      "homology_trace": -6,
+      "is_involution": true,
+      "fixed_points_if_involution": 8
+    },
+    {
+      "level_parameters": [
+        1,
+        1,
+        17
+      ],
+      "Atkin_Lehner_divisor": 72,
+      "homology_trace": -2,
+      "is_involution": true,
+      "fixed_points_if_involution": 4
+    }
+  ]
+}

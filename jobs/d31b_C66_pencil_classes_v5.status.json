@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C66_pencil_classes_v5",
+  "script": "computations/d31b_C66_pencil_classes_v5.m",
+  "script_sha256": "8f14151ed6d647e610637fc200b4805be588d38d22e239abd182e9ef933a1459",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_pencil_classes_v5.m"
+  ],
+  "pid": 3495840,
+  "owner_uid": 1001,
+  "start_time_unix": 1793434765.2312875,
+  "state": "EXITED",
+  "time_limit_seconds": 360,
+  "log": "jobs/d31b_C66_pencil_classes_v5.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 33.563782930374146
+}

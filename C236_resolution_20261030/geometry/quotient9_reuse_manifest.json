@@ -1,0 +1,65 @@
+[
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/model.m",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_model.m",
+    "source_sha256": "cda1123f6f0e03f32865c3d31cce7c4108529142127adfa1dd1878af82440cac",
+    "snapshot_sha256": "9a42666c0974be71af486fbe133ff5e5f511e03cb59c9b86079e155ebb6d71b6",
+    "changes": "Only load paths, memory limit, and introductory comment adjusted"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/cusp_units_model.m",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_cusp_units_model.m",
+    "source_sha256": "06503cd66675e95b92187b7865996db5dad91ee0a2ecfc25257d79b2b4984f1b",
+    "snapshot_sha256": "0b1d852cb16e1e88c87e2c1376a7e6407a071f53398e9fe47c29ded91fbe7daa",
+    "changes": "Only load paths, memory limit, and introductory comment adjusted"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/cusp_permutations.m",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_cusp_permutations.m",
+    "source_sha256": "895a2805e59495fcd044c357c8e659327370644c345cc31737ca5e0b3406afac",
+    "snapshot_sha256": "895a2805e59495fcd044c357c8e659327370644c345cc31737ca5e0b3406afac",
+    "changes": "verbatim"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/rational_image_upper.tex",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_rational_image_upper_reused.tex",
+    "source_sha256": "43308e15b42b13f26bb736c3691c7034103d851a6d6e6b76eb0d32c86ec9439a",
+    "snapshot_sha256": "2d96ccecb6c644fb805d293fdabcbf530ed9181d009fa64caeed7821a084cc37",
+    "changes": "Lemma label changed to decic; final normalization paragraph stated for arbitrary degree, with explicit residue norm multiplicities. Mathematical Jacobian image proof reused verbatim."
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/jacobian_image_fullcontrol_arithmetic.txt",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_image_fullcontrol_arithmetic.m",
+    "source_sha256": "b5dca278309172930ef6d0dbf16f7484f325f8fe2d2ceba61d6ead2196ce62e9",
+    "snapshot_sha256": "b5dca278309172930ef6d0dbf16f7484f325f8fe2d2ceba61d6ead2196ce62e9",
+    "changes": "verbatim"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/tate_cusp_alignment.json",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_tate_cusp_alignment.json",
+    "source_sha256": "072ee19dbea3ffe4973b6579e84ea987d4bf485238f88be44780755be9fdce40",
+    "snapshot_sha256": "072ee19dbea3ffe4973b6579e84ea987d4bf485238f88be44780755be9fdce40",
+    "changes": "verbatim"
+  },
+  {
+    "source": "work/deg10/C232_resolution_20261030/deps/native_group_generators.m",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/deps/native_group_generators.m",
+    "source_sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1",
+    "snapshot_sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1",
+    "changes": "verbatim"
+  },
+  {
+    "source": "work/deg10/C232_resolution_20261030/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "source_sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6",
+    "snapshot_sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6",
+    "changes": "verbatim"
+  },
+  {
+    "source": "work/deg10/C232_resolution_20261030/deps/portable_forward.m",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/deps/portable_forward.m",
+    "source_sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49",
+    "snapshot_sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49",
+    "changes": "verbatim"
+  }
+]

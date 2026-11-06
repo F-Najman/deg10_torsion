@@ -1,0 +1,19 @@
+{
+  "purpose": "cont242_parent_ideal_g5_s0",
+  "script": "computations/cont242_parent_ideal_g5_s0.m",
+  "script_sha256": "20c1e4c4897a08f678413e85b36e436708e80dbe4cd09c695cf337de64c41eae",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont242_parent_ideal_g5_s0.m"
+  ],
+  "pid": 2394119,
+  "owner_uid": 1001,
+  "start_time_unix": 1793382663.8756602,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/cont242_parent_ideal_g5_s0.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 87.65203928947449
+}

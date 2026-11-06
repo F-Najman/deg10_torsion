@@ -1,0 +1,8 @@
+Loading "work/degree9/prime_orders/continued_20261026/P49/dt_expansions_local.m"
+NONIC49_CARTIER_TRANSPORT_SETUP genus=69 Udim=68 diamond2_exact_order=21 time=1340.440
+
+In file "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_export.m", line 24, column 31:
+>> blocks:=[MD^k*AA:k in [0..17]]cat[MD^k*z:k in [0..2],z in BB];
+                                 ^
+Runtime error in 'cat': Incompatible sequences
+

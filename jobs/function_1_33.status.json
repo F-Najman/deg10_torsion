@@ -1,0 +1,19 @@
+{
+  "purpose": "function_1_33",
+  "script": "computations/function_1_33.m",
+  "script_sha256": "64e6c387aa114ce5da8b5ef733bdd882331fb6ec0426382409e97c1af3180aea",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/function_1_33.m"
+  ],
+  "pid": 1588,
+  "owner_uid": 1001,
+  "start_time_unix": 1793274285.3082254,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/function_1_33.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 180.0079562664032
+}

@@ -1,0 +1,22 @@
+{
+  "group": [
+    3,
+    21
+  ],
+  "absolute_degree": 10,
+  "relative_degree": 5,
+  "noncuspidal_counts": [
+    0,
+    0,
+    0,
+    144,
+    216
+  ],
+  "cusp_divisors_tested": 100680,
+  "doubled_cusp_rank": 10,
+  "local_matrices": 128,
+  "quartic_Hecke_orbits": 2,
+  "quintic_Hecke_orbits": 3,
+  "all_Hecke_images_nonprincipal": true,
+  "independent_replay": "PASS"
+}

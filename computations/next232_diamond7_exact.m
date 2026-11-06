@@ -1,0 +1,20 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(4*10^9);tt:=Cputime();
+AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");
+a:=eval Read("work/deg10/C232_resolution_20261030/hecke11_geometry_v2.m");k:=GF(3);PP:=PolynomialRing(k);B<t>:=FunctionField(k);RF<Y>:=PolynomialRing(B);
+function Rat(v) return B!(PP!v[1])/B!(PP!v[2]);end function;
+f:=RF![Rat(v):v in a[1]];f/:=LeadingCoefficient(f);F<y>:=FunctionField(f);assert Genus(F) eq 37;
+function GFUN(v) return F![Rat(w):w in v];end function;
+OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);
+function ER(v) return [[Integers()!c:c in Coefficients(Numerator(v))],[Integers()!c:c in Coefficients(Denominator(v))]];end function;
+function EF(v) return [ER(c):c in Eltseq(F!v)];end function;
+function EP(pl) I:=Ideal(pl);return [*Order(I) eq OF select 1 else 0,Degree(pl),[EF(v):v in Basis(I)]*];end function;
+function DP(s) OO:=s[1] eq 1 select OF else OI;I:=ideal<OO|[GFUN(v):v in s[3]]>;pl:=Place(I);assert Degree(pl) eq s[2];return pl;end function;
+cg:=eval Read("work/deg10/C232_resolution_20261030/hecke5_cusp_geometry.m");ps:=[DP(s):s in cg[2]];us:=[GFUN(v):v in cg[6]];coords:=[GFUN(v):v in a[2]];b,c:=Explode(coords);E:=EllipticCurve([F|0,c,0,b*(1-b-c),0]);P:=E![0,0];Q:=E![b,b];bb,cc:=Explode(DerickxNormalForm_bc(E,P,7*Q));ugs:=[bb,cc,1-bb-cc,cc^2-4*bb*(1-bb-cc)];permutation:=[];records:=[* *];
+for i in [1..#ps] do
+ sigg:=[Valuation(v,ps[i]):v in ugs];dest:=[j:j in [1..#ps]|cg[3][j] eq sigg];assert #dest in [1,2];if #dest eq 1 then Append(~permutation,dest[1]);continue;end if;
+ sig:=cg[3][dest[1]];v1:=sig[1];v2:=sig[3];assert v1 gt 0 and v2 gt 0;gg:=GCD(v1,v2);m:=v2 div gg;n:=v1 div gg;z:=us[1]^m/us[3]^n;zg:=ugs[1]^m/ugs[3]^n;
+ assert Valuation(zg,ps[i]) eq 0;image:=[Integers()!v:v in Coefficients(MinimalPolynomial(Evaluate(zg,ps[i]),k))];wanted:=[];vals:=[];
+ for j in dest do assert Valuation(z,ps[j]) eq 0;pol:=[Integers()!v:v in Coefficients(MinimalPolynomial(Evaluate(z,ps[j]),k))];Append(~vals,pol);if pol eq image then Append(~wanted,j);end if;end for;
+ assert #wanted eq 1;Append(~permutation,wanted[1]);Append(~records,[*i,dest,m,n,vals,image,wanted[1]*]);
+end for;
+assert Sort(permutation) eq [1..#ps];Write("work/deg10/C232_resolution_20261030/diamond7_exact.m",Sprint([*permutation,records*]):Overwrite:=true);print "C232_DIAMOND7_EXACT_COMPLETE",permutation,Cputime(tt);quit;

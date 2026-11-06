@@ -1,0 +1,13 @@
+Loading "work/deg10/continuation_20261031b/Y228_shared/fast_primitive_inverse.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/union_cases.m"
+KNOWN_DECIC_QUINTIC_AT3 [
+    <X^5 + 2*X^4 + X^3 + 2*X^2 + 2*X + 2, 1>
+]
+KNOWN_DECIC_GOOD_BAD [
+    [ 5, 2, 1 ]
+]
+[]
+D31B_Y228_KNOWN_DECIC_REDUCTION_COMPLETE [*
+    [ 27, 0, 1, 1 ],
+    [ 27, 1, 1, 13 ]
+*] 0.050

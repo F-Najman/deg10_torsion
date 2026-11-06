@@ -1,0 +1,32 @@
+WINDING_SPACE_READY N=117 order=1 dimension=11 time=0.010
+WINDING N=117 order=1 conductor=1 relative_dimension=11 winding_dimension=10 coefficient_degree=1 time=0.030
+WINDING_SPACE_READY N=117 order=3 dimension=12 time=0.000
+WINDING N=117 order=3 conductor=9 relative_dimension=12 winding_dimension=11 coefficient_degree=2 time=0.020
+WINDING_SPACE_READY N=117 order=12 dimension=12 time=0.000
+WINDING N=117 order=12 conductor=117 relative_dimension=12 winding_dimension=12 coefficient_degree=4 time=0.020
+WINDING_SPACE_READY N=117 order=12 dimension=10 time=0.000
+WINDING N=117 order=12 conductor=39 relative_dimension=10 winding_dimension=10 coefficient_degree=4 time=0.010
+WINDING_SPACE_READY N=117 order=12 dimension=12 time=0.010
+WINDING N=117 order=12 conductor=117 relative_dimension=12 winding_dimension=12 coefficient_degree=4 time=0.010
+WINDING_SPACE_READY N=117 order=6 dimension=10 time=0.010
+WINDING N=117 order=6 conductor=13 relative_dimension=10 winding_dimension=10 coefficient_degree=2 time=0.020
+WINDING_SPACE_READY N=117 order=6 dimension=12 time=0.000
+WINDING N=117 order=6 conductor=117 relative_dimension=12 winding_dimension=12 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=117 order=6 dimension=12 time=0.000
+WINDING N=117 order=6 conductor=117 relative_dimension=12 winding_dimension=11 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=117 order=12 dimension=12 time=0.010
+WINDING N=117 order=12 conductor=117 relative_dimension=12 winding_dimension=11 coefficient_degree=4 time=0.020
+WINDING_SPACE_READY N=117 order=4 dimension=10 time=0.000
+WINDING N=117 order=4 conductor=39 relative_dimension=10 winding_dimension=10 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=117 order=3 dimension=10 time=0.000
+WINDING N=117 order=3 conductor=13 relative_dimension=10 winding_dimension=10 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=117 order=3 dimension=12 time=0.000
+WINDING N=117 order=3 conductor=117 relative_dimension=12 winding_dimension=12 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=117 order=3 dimension=12 time=0.010
+WINDING N=117 order=3 conductor=117 relative_dimension=12 winding_dimension=12 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=117 order=2 dimension=10 time=0.010
+WINDING N=117 order=2 conductor=13 relative_dimension=10 winding_dimension=10 coefficient_degree=1 time=0.010
+WINDING_SPACE_READY N=117 order=6 dimension=12 time=0.010
+WINDING N=117 order=6 conductor=117 relative_dimension=12 winding_dimension=11 coefficient_degree=2 time=0.020
+WINDING_FINAL N=117 genus=409 total_dimension=409 bad_orders=[ 1, 3, 6, 12, 6 ] admissible=[]
+WINDING_CHARACTER_PROBE_DONE

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "genus": 37,
+  "degree": 10,
+  "unique_basis_intertwiner_dimension": 1,
+  "RR_blocks": 69,
+  "accepted_degree_independent_blocks_reidentified": 60,
+  "ordinary_cusp_patterns": 4989,
+  "additional_5Q_quadratic_patterns": 3,
+  "tested": 4992,
+  "all_restriction_ranks": 10,
+  "Cartier_image_dimension": 32
+}

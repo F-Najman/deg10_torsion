@@ -1,0 +1,11 @@
+Parent and independent geometry review: PASS.
+
+Both modular Jacobians are rank zero. All source cusps through degree ten
+are intact global orbits. Entirely cuspidal reduction gives a degree-twenty
+pencil below geometric gonality. Mixed reduction has one degree-nine point
+and one globally rational cusp; the latter has zero A5 image on X0(87).
+The complete census includes every cyclic three-subgroup on curves with
+full rational three-torsion. All twelve normalized image cases have exact
+nonprincipal T5-6 image, independently checked by native ideals and by all
+seventy-two explicit kernels, marked maps, residue fields and norm factors.
+No earlier-degree exclusion or genus-thirty-three model is needed.

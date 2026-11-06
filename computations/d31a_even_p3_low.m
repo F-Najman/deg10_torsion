@@ -1,0 +1,1 @@
+DEGREES:=[1, 2, 3, 4, 5, 6, 7];load "work/deg10/computations/d31a_even_p3_census_common.m";

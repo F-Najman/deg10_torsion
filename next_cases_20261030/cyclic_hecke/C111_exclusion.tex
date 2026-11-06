@@ -1,0 +1,75 @@
+\begin{proposition}\label{prop:decic111-excluded}
+No elliptic curve over a number field of degree $10$ has a point
+of order $111$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(111)$ and $h=\langle10\rangle$.
+We verify the hypotheses of Lemma~\ref{lem:dyadic-cuspidal-diamond}
+with $d=10$.
+
+There is no elliptic curve over $\mathbb F_{2^f}$ with order
+divisible by $111$ for $1\leq f\leq10$.
+For $f\leq6$ this follows from the Hasse bound.
+The remaining Hasse-allowed possibilities are
+\[
+\begin{array}{c|c|c}
+f&\#E(\mathbb F_{2^f})&a_{2^f}\\\hline
+7&111&18\\
+8&\text{none}&\text{none}\\
+9&555&-42\\
+10&999&26
+\end{array}
+\]
+In characteristic $2$, an ordinary trace is odd.
+The supersingular traces for odd $f$ are $0$ and
+$\pm2^{(f+1)/2}$, and for even $f$ they are
+$0$, $\pm2^{f/2}$ and $\pm2^{f/2+1}$;
+see \cite[Theorem~4.1]{Waterhouse}.
+None of the displayed even traces is allowed.
+Thus $Y_1(111)(\mathbb F_{2^f})=\emptyset$ for $f\leq10$.
+
+The global cusp signature is $1^{36},2^{18},36^2$.
+To see this directly, write a Tate label as
+$Q=\zeta_{111}^u q^{v/111}$, with $(u,v,111)=1$,
+and quotient by $(u,v)\mapsto(u+kv,v)$ and simultaneous negation.
+The cases $\gcd(v,111)=1,3,37,111$ give respectively
+$36$ rational cusps, $18$ cusps over $\mathbb Q(\zeta_3)$,
+one cusp over $\mathbb Q(\zeta_{37})$, and one cusp over
+$\mathbb Q(\zeta_{111})^+$.
+Their degrees are unchanged at $2$:
+\[
+ \operatorname{ord}_{3}(2)=2,\qquad
+ \operatorname{ord}_{37}(2)=36,\qquad
+ \operatorname{ord}_{(\mathbb Z/111\mathbb Z)^\times/\{\pm1\}}(2)=36.
+\]
+Hence every cuspidal divisor over $\mathbb F_2$ of degree $10$
+lifts to a rational cuspidal divisor of degree $10$.
+
+The projective diamond group is cyclic of order $36$, generated
+by $\langle2\rangle$, and $10\equiv2^{24}\pmod {111}$.
+A character is nontrivial on $h$ precisely when its order is
+$9$, $18$ or $36$.
+The complete exact winding computation gives
+\[
+\begin{array}{c|c|c|c}
+\operatorname{ord}(\chi)&\operatorname{cond}(\chi)&
+\dim S_\chi&\dim S_\chi^{\mathrm{wind}}\\\hline
+9&37&11&11\\
+18&37&11&11\\
+36&111&11&11
+\end{array}
+\]
+The full character list has weighted dimension $385=g(X)$.
+For the order-$36$ component an exported $11\times11$ modular
+Krylov matrix has rank $11$ at the good prime $73$.
+The other two full winding dimensions are exact characteristic-zero
+computations. It follows that $(h-1)J_1(111)(\mathbb Q)$ is finite.
+
+Finally, $h$ has order $3$, and Abramovich's bound gives
+\[
+ \operatorname{gon}_{\mathbb C}(X)>
+ \frac{325\cdot5472}{32768}
+ =\frac{55575}{1024}>40.
+\]
+Since $3\nmid10$, the lemma applies.
+\end{proof}

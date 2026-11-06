@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_C60_genuine_source_maps",
+  "script": "continuation_20261031b/C60/d31b_C60_genuine_source_maps.py",
+  "script_sha256": "28347425b7557a4036f013782eb7289383d20d22da13bbe66a487711007a6809",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C60/d31b_C60_genuine_source_maps.py"
+  ],
+  "pid": 3468379,
+  "owner_uid": 1001,
+  "start_time_unix": 1793433558.5621634,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/d31b_C60_genuine_source_maps.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 10.929558277130127
+}

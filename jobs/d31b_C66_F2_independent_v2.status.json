@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_C66_F2_independent_v2",
+  "script": "computations/d31b_C66_F2_independent_v2.py",
+  "script_sha256": "351b00618ef85dbf9f351e3a9620341f88b15df9bc9284969f9140e648ab471d",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_F2_independent_v2.py"
+  ],
+  "pid": 3518514,
+  "owner_uid": 1001,
+  "start_time_unix": 1793435805.7970622,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31b_C66_F2_independent_v2.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 8.079809665679932
+}

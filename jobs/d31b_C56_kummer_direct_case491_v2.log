@@ -1,0 +1,22 @@
+Loading "work/deg10/computations/d31b_C56_kummer_RR_direct_v2.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/fast_primitive_inverse.m"
+C56_KUMMER_BASE_SPACES 491 60 36 24 48.610
+
+PrimitiveUV(
+    BB: aa^52412,
+    CC: aa^53504
+)
+EVALF(
+    f: (t^35 + 2*t^33 + 2*t^32 + t^30 + t^29 + 2*t^26 + t^24 + 2*t^...,
+    x: 2,
+    y: 2
+)
+VR(
+    v: (2*t^36 + t^34 + t^33 + 2*t^31 + 2*t^30 + t^25 + t^24 + 2*t^...,
+    x: 2
+)
+In file "work/deg10/computations/d31b_C56_kummer_RR_direct_v2.m", line 15, column 51:
+>> function VR(v,x)return Evaluate(PK!Numerator(v),x)/Evaluate(PK!Denominator(
+                                                     ^
+Runtime error in '/': Division by zero
+

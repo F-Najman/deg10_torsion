@@ -1,0 +1,28 @@
+{
+  "N": 91,
+  "field_degree": 7,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "N:=91",
+    "FieldDegree:=7",
+    "OutFile:=/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/parallel_expansion_20261026/N91_f7/records.m",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/parallel_expansion_20261026/odd_census.m"
+  ],
+  "identity": {
+    "pid": 2642858,
+    "startticks": 185882207
+  },
+  "status": "COMPLETE",
+  "CPU_limit_seconds": 120,
+  "kernel_CPU_backstop_seconds": 125,
+  "wall_limit_seconds": 600,
+  "native_memory_bytes": 1000000000,
+  "AS_bytes": 2147483648,
+  "started_utc": "2026-10-26T21:56:44.697662+00:00",
+  "actual_exit_code": 0,
+  "completed_marker": true,
+  "elapsed_wall_seconds": 0.04853151808492839,
+  "source_sha256": "5c1f147ab09230763c9af83eec9f788b0df1d0e6f2a66630352433307cb3eb2e",
+  "log_sha256": "7157958682b0226f2ea8c536c75384dfe847eb41304734992255c64055311963"
+}

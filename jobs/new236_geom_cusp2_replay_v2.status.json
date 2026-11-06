@@ -1,0 +1,18 @@
+{
+  "purpose": "new236_geom_cusp2_replay_v2",
+  "script": "computations/new236_geom_cusp2_replay_v2.py",
+  "script_sha256": "7a2fa3db55b6f63c65450069edb7a81a1b40f6cb6b55aa1406f759f5f83c76bc",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_geom_cusp2_replay_v2.py"
+  ],
+  "pid": 1898349,
+  "owner_uid": 1001,
+  "start_time_unix": 1793360936.3122504,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/new236_geom_cusp2_replay_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.8151249885559082
+}

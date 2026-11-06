@@ -1,0 +1,20 @@
+{
+  "pid": 2821339,
+  "startticks": 186393876,
+  "cmd": [
+    "nice",
+    "-n",
+    "10",
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/parallel_expansion_20261026/N91_source_units/hecke3_source4/run.m"
+  ],
+  "CPU_budget_seconds": 1800,
+  "wall_budget_seconds": 7200,
+  "memory_budget_bytes": 6000000000,
+  "native_memory_budget_bytes": 4000000000,
+  "nice": 10,
+  "actual_exit_code": 0,
+  "elapsed_wall_seconds": 3.135248899459839,
+  "completed_marker": true
+}

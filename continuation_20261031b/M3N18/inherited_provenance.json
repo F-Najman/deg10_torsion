@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "model_library_bindings": [
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/utils.m",
+      "original": "work/deg10/shared/mdmagma/v2/utils.m",
+      "sha256": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/mdmagma_internal.spec",
+      "original": "work/deg10/shared/mdmagma/v2/mdmagma_internal.spec",
+      "sha256": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/mdmagma.spec",
+      "original": "work/deg10/shared/mdmagma/v2/mdmagma.spec",
+      "sha256": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/utils.sig",
+      "original": "work/deg10/shared/mdmagma/v2/utils.sig",
+      "sha256": "3d059d073c8cee670e57109861b9e66d276a3432029d38fe294af14d91bbba4a"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/algebra/linear_algebra.sig",
+      "original": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.sig",
+      "sha256": "52cf55c738cbd8b7783be68f5128f2e95f62b55b9aa8d284562473fec53b527a"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/algebra/linear_algebra.m",
+      "original": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.m",
+      "sha256": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_curves/X0.m",
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X0.m",
+      "sha256": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_curves/X11.m",
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X11.m",
+      "sha256": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_curves/rational_points.m",
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.m",
+      "sha256": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_curves/X0.sig",
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X0.sig",
+      "sha256": "ad7a0ac093106595596ab594b1502a9cd9ad9c11c37802f22be02e986e7afd6e"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_curves/X11.sig",
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X11.sig",
+      "sha256": "1d42502ec4cd75897c53d7c6e7bc2c8ee20d3fbe74ab89b37c30481ba1fbc8f5"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_curves/rational_points.sig",
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.sig",
+      "sha256": "bad67095a7ac630eae102c094c32d3e06d70018492b3ccbb6c20bbb7d4396978"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_curves/X1.sig",
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X1.sig",
+      "sha256": "a59ba44cf0beb2eb184866ff2d51be2b70b52beaacbf0ebe627567e79c6209e7"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_curves/base_curve.m",
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.m",
+      "sha256": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_curves/base_curve.sig",
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.sig",
+      "sha256": "ad3a9969c9bb6d2aec183a03facd64779e2e21c712111872067b99c1a3e317ba"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_curves/X1.m",
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X1.m",
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/elliptic_curves/isogenies.m",
+      "original": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.m",
+      "sha256": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/elliptic_curves/isogenies.sig",
+      "original": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.sig",
+      "sha256": "937d65a93d8b0559b4f951e8e78cfcd0959e4c9a63b2a2ee43e244ab06b9c033"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_forms/modular_symbols.sig",
+      "original": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.sig",
+      "sha256": "146c4ddbd78b095c65f33f2b3488b6133bc791872db9baa0d87756b128e9aba5"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/modular_forms/modular_symbols.m",
+      "original": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.m",
+      "sha256": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/curves/divisors.sig",
+      "original": "work/deg10/shared/mdmagma/v2/curves/divisors.sig",
+      "sha256": "61eb59cce8da8aa6c326ab3340121c9094328b1c325a4dfd48b06e3393839480"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/curves/classgroups.m",
+      "original": "work/deg10/shared/mdmagma/v2/curves/classgroups.m",
+      "sha256": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/curves/divisors.m",
+      "original": "work/deg10/shared/mdmagma/v2/curves/divisors.m",
+      "sha256": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/v2/curves/classgroups.sig",
+      "original": "work/deg10/shared/mdmagma/v2/curves/classgroups.sig",
+      "sha256": "ba7204632ae38e30f96bded60753927e2ce3b07ae6db9df2952c0405d9cde169"
+    },
+    {
+      "snapshot": "work/deg10/continuation_20261031b/M3N18/inputs/mdmagma/models_X1_m_n/X1_3_18.txt",
+      "original": "work/deg10/shared/mdmagma/models_X1_m_n/X1_3_18.txt",
+      "sha256": "f2586405410895383f2301343f3fb74c239c096ecf5919d6f567f4040e26f27a"
+    }
+  ]
+}

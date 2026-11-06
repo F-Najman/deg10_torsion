@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_verify_finite.py", line 35, in <module>
+    ci=2*job-1+off//14;block=rows[off:off+14];E,Q,R,source=record(block[0]);assert source[0]==10
+                                                           ^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_verify_finite.py", line 28, in record
+    poly,data,d=row;root=fieldroot(poly);v=[element(n,root)for n in data];assert len(v)==15
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_verify_finite.py", line 28, in <listcomp>
+    poly,data,d=row;root=fieldroot(poly);v=[element(n,root)for n in data];assert len(v)==15
+                                            ^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_verify_finite.py", line 13, in element
+    def element(v,root):return sum(K((v>>i)&1)*root**i for i in range(len(root.minpoly())))
+                                                                      ^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'sage.rings.polynomial.polynomial_gf2x.Polynomial_GF2X' has no len()

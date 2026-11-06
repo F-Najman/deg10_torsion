@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_char0_612_coordinates",
+  "script": "computations/cont_char0_612_coordinates.m",
+  "script_sha256": "2755ee33bb78b51c6604f525b5d71755860c739b0f5a5b15f2d329dfcf330279",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_char0_612_coordinates.m"
+  ],
+  "pid": 541206,
+  "owner_uid": 1001,
+  "start_time_unix": 1793297830.0266714,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/cont_char0_612_coordinates.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 4.771363258361816
+}

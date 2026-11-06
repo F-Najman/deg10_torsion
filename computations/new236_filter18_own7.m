@@ -1,0 +1,1 @@
+TAG:="own7";DS:=[7];SHARDS:=1;SHARD:=0;load "work/deg10/computations/new236_filter18_own7_common.m";

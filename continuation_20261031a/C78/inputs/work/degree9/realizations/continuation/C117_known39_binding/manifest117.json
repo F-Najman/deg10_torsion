@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "scope": "Exact finite order468 elliptic curve / level39 binding to the four known global nonic39 divisors. Standalone finite supplement; no newP9 RR assumption and noC78exclusion claimed.",
+  "helper_manifest_sha256": "921fd3c267f053962ea1fb90c8936ac39be782114823b116c03c5c69e4e9ab05",
+  "files": {
+    "census_root/census39_F512.py": {
+      "bytes": 3700,
+      "sha256": "b04b98ab72e2b8af4ef698f2e91a800b7284da0c389b2defb9b04cd85968eca2"
+    },
+    "census_root/census39_F512.json": {
+      "bytes": 12162,
+      "sha256": "e9a860837e5be7f7bd6fe0852477a00b56ebde81672c6dcf39ed72936566a2c7"
+    },
+    "imported_census.json": {
+      "bytes": 550,
+      "sha256": "c8a57a1422a336195d24a68b00ce30cf6c12ecfbcb42ab55e4bbb935ff00eb7b"
+    },
+    "bind117.py": {
+      "bytes": 3789,
+      "sha256": "d752c80ee9eb6e096c5a20f482f83e9620de6a80e4c3bd65983fa97e45e2ef50"
+    },
+    "binding117.json": {
+      "bytes": 1021,
+      "sha256": "c6841febc1bfdb49bcdcabe85a5aa2c99bb6819ab3ebe227c6c8b650414ac575"
+    },
+    "binding117.tex": {
+      "bytes": 1334,
+      "sha256": "9b5d6f8d642af26f38a8d4b592679d3190ad955720555b86ead1b4471c4cc1a0"
+    },
+    "certify117.py": {
+      "bytes": 862,
+      "sha256": "5ae310895fe20e79be75be692009991f30240f57eba06a7ae978d6f5d72044ca"
+    }
+  }
+}

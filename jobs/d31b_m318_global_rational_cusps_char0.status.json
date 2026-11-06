@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_global_rational_cusps_char0",
+  "script": "computations/d31b_m318_global_rational_cusps_char0.m",
+  "script_sha256": "9d374dd1128f859822d0cafa988bd60a41d6c32548e0cbf0b72de598fb985d37",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_global_rational_cusps_char0.m"
+  ],
+  "pid": 3717264,
+  "owner_uid": 1001,
+  "start_time_unix": 1793444443.1099758,
+  "state": "EXITED",
+  "time_limit_seconds": 850,
+  "log": "jobs/d31b_m318_global_rational_cusps_char0.log",
+  "actual_exit_code": -14,
+  "termination_reason": null,
+  "elapsed_seconds": 800.0724101066589
+}

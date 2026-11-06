@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_quintic612_class_orbits",
+  "script": "computations/cont_quintic612_class_orbits.m",
+  "script_sha256": "daf6f0fbe2de8baaf9205a249cf4f828fb0bcf0f3ad6881d413b1899267b7769",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_quintic612_class_orbits.m"
+  ],
+  "pid": 504553,
+  "owner_uid": 1001,
+  "start_time_unix": 1793296018.144685,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/cont_quintic612_class_orbits.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.7703912258148193
+}

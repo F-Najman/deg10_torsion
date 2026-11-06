@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "method": "Second reconstruction of all projected target places, both maximal-order fractional ideal identities, class-coordinate sums, and residue-degree norm multiplicities; no ClassGroup or Riemann-Roch search rerun.",
+  "images": 1344,
+  "exact_RR_ideal_identities": 1133,
+  "direct_factorbase_cases": 211,
+  "primary_jobs": {
+    "new236_parent_ideal_genus9": "C236_NATIVE_IDEAL_REPLAY_COMPLETE genus9 1104 1022 82",
+    "new236_parent_ideal_cyclic36_prefix": "C236_NATIVE_IDEAL_REPLAY_COMPLETE cyclic36_prefix 106 89 17",
+    "new236_parent_ideal_cyclic36_tail": "C236_NATIVE_IDEAL_REPLAY_COMPLETE cyclic36_tail 134 22 112"
+  },
+  "evidence": [
+    {
+      "path": "C236_resolution_20261030/geometry/cyclic36_prefix_native_ideal_replay.m",
+      "sha256": "22d334cc03fb427b7ed2de2bd3a68292705e8cb6bc2f5b476c6b6a92edd5195f"
+    },
+    {
+      "path": "C236_resolution_20261030/geometry/cyclic36_tail_native_ideal_replay.m",
+      "sha256": "fbe69353ea0b3a4aefbc964b3155aba3630c3b719df4f98b7380044ddd6ac1af"
+    },
+    {
+      "path": "C236_resolution_20261030/geometry/genus9_native_ideal_replay.m",
+      "sha256": "22e41572e7d4533144316bec08fde76d38ac37b093860f028f592891e2351b8b"
+    },
+    {
+      "path": "C236_resolution_20261030/geometry/replay_cyclic36_prefix_native_witnesses.m",
+      "sha256": "4978b0f09affffda31a316ed7e94acfa629ffe6bf8e0747b4cc15a44be65cc6e"
+    },
+    {
+      "path": "C236_resolution_20261030/geometry/replay_cyclic36_tail_native_witnesses.m",
+      "sha256": "3b7a02a4f8b846bc42f72080ff01936e92f12f3f22711a9d78f5bf7190aa91a1"
+    },
+    {
+      "path": "C236_resolution_20261030/geometry/replay_genus9_native_witnesses.m",
+      "sha256": "9a67bdd1b4d49a64718df24703abcc39a60e1337bb9a9fb29501fbb1e68d5751"
+    },
+    {
+      "path": "computations/new236_parent_ideal_common.m",
+      "sha256": "2460318522df0d7229dfaedf172d79d0e266fb6386a0f1662826d8d40acf9cf0"
+    },
+    {
+      "path": "computations/new236_parent_ideal_cyclic36_prefix.m",
+      "sha256": "b4514e3c5eab518653d98305b99452d7d73539baaafa7c9eaa110a9b3b026818"
+    },
+    {
+      "path": "computations/new236_parent_ideal_cyclic36_tail.m",
+      "sha256": "edfa6f432216281f0be3a5b2db0d12c3fea8bc211edc6590a0384a5fa21532a1"
+    },
+    {
+      "path": "computations/new236_parent_ideal_genus9.m",
+      "sha256": "c69fe3bcf413f465638b97d0e9fdda6b6c6999b4dbed48b49d865f30da1629c9"
+    },
+    {
+      "path": "jobs/new236_parent_ideal_cyclic36_prefix.log",
+      "sha256": "4510eb41c72216d48f8dfb32f3e4346153bce766a1263426129824e9b3d8afa7"
+    },
+    {
+      "path": "jobs/new236_parent_ideal_cyclic36_prefix.status.json",
+      "sha256": "0b7ad02f310b8a237a68d38bb1356435db2afa3822b30b97a2b8a2aed966fb0e"
+    },
+    {
+      "path": "jobs/new236_parent_ideal_cyclic36_tail.log",
+      "sha256": "c5bb88a0892794d538be732900f2dbbf22ab52e24db16495dd4f31abb3fe238b"
+    },
+    {
+      "path": "jobs/new236_parent_ideal_cyclic36_tail.status.json",
+      "sha256": "964b9f1b9c08298e98fb21758beac91d536318fdfa33e2a3dfbf1cd5682a6118"
+    },
+    {
+      "path": "jobs/new236_parent_ideal_genus9.log",
+      "sha256": "b1a5603d950bad871a34bd78e35daee8695757fe7d12cdd65de937b14ab8dcf7"
+    },
+    {
+      "path": "jobs/new236_parent_ideal_genus9.status.json",
+      "sha256": "e66a9acc92ba890159a48a8edecf6a3ce5289e5ac7886930ca479230d6d64cfe"
+    }
+  ]
+}

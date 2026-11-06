@@ -1,0 +1,6 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261029/deps/model_6_12.m", line 68, column 8:
+>>  isog:=MDIsogeniesFastPoints(E,[Ls`P,Ls`Q],q);
+          ^
+Runtime error: Undefined reference 'MDIsogeniesFastPoints' in package "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261029/deps/model_6_12.m"
+

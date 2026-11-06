@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_filter14_D10s1_eight",
+  "script": "computations/next242_filter14_D10s1_eight.m",
+  "script_sha256": "08f43ec0ce5cb1d6dc776537cfa1e3f7c1f30e2a69087ce171a4cdbd4af37e71",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_filter14_D10s1_eight.m"
+  ],
+  "pid": 2372794,
+  "owner_uid": 1001,
+  "start_time_unix": 1793381711.4043224,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/next242_filter14_D10s1_eight.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 187.14333868026733
+}

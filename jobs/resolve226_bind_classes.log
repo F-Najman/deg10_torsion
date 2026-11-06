@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "both_classes_effective_over_Q": true,
+  "each_unique_effective_divisor_irreducible_degree10": true,
+  "distinct_Galois_orbits_of_j_invariants": true,
+  "class_records": [
+    {
+      "class": 30,
+      "descriptor": [
+        2,
+        5,
+        1,
+        5,
+        19
+      ],
+      "field_mod3_factor_degrees": [
+        5,
+        5
+      ],
+      "exact_Frobenius_keys_match_saved_class": true,
+      "j_polynomial": [
+        "-718499946452197677753302533/67108864",
+        "4618447131764567170074151/67108864",
+        "-27536348660239173618653/67108864",
+        "11733332224477713435/67108864",
+        "-281880740924361/67108864",
+        "1"
+      ],
+      "six_nonsquare_certificates": [
+        {
+          "kernel_root_index": 0,
+          "other_root_index": 1,
+          "prime": 41,
+          "field_generator_residue": 23,
+          "difference_residue": 38,
+          "euler_symbol": -1
+        },
+        {
+          "kernel_root_index": 0,
+          "other_root_index": 2,
+          "prime": 41,
+          "field_generator_residue": 23,
+          "difference_residue": 19,
+          "euler_symbol": -1
+        },
+        {
+          "kernel_root_index": 1,
+          "other_root_index": 0,
+          "prime": 41,
+          "field_generator_residue": 23,
+          "difference_residue": 3,
+          "euler_symbol": -1
+        },
+        {
+          "kernel_root_index": 1,
+          "other_root_index": 2,
+          "prime": 41,
+          "field_generator_residue": 23,
+          "difference_residue": 22,
+          "euler_symbol": -1
+        },
+        {
+          "kernel_root_index": 2,
+          "other_root_index": 0,
+          "prime": 41,
+          "field_generator_residue": 23,
+          "difference_residue": 22,
+          "euler_symbol": -1
+        },
+        {
+          "kernel_root_index": 2,
+          "other_root_index": 1,
+          "prime": 41,
+          "field_generator_residue": 23,
+          "difference_residue": 19,
+          "euler_symbol": -1
+        }
+      ],
+      "all_three_two_isogenous_curves_have_no_K_rational_point_of_order4": true
+    },
+    {
+      "class": 24,
+      "descriptor": [
+        1,
+        10,
+        54
+      ],
+      "field_mod3_factor_degrees": [
+        10
+      ],
+      "exact_Frobenius_keys_match_saved_class": true,
+      "j_polynomial": [
+        "-660778586925613001/25",
+        "1214143947280834/25",
+        "-3145461334977/25",
+        "1371305044/25",
+        "-303692/25",
+        "1"
+      ],
+      "six_nonsquare_certificates": [
+        {
+          "kernel_root_index": 0,
+          "other_root_index": 2,
+          "prime": 43,
+          "field_generator_residue": 39,
+          "difference_residue": 18,
+          "euler_symbol": -1
+        },
+        {
+          "kernel_root_index": 1,
+          "other_root_index": 0,
+          "prime": 43,
+          "field_generator_residue": 39,
+          "difference_residue": 29,
+          "euler_symbol": -1
+        },
+        {
+          "kernel_root_index": 2,
+          "other_root_index": 1,
+          "prime": 43,
+          "field_generator_residue": 39,
+          "difference_residue": 39,
+          "euler_symbol": -1
+        },
+        {
+          "kernel_root_index": 0,
+          "other_root_index": 1,
+          "prime": 43,
+          "field_generator_residue": 16,
+          "difference_residue": 33,
+          "euler_symbol": -1
+        },
+        {
+          "kernel_root_index": 1,
+          "other_root_index": 2,
+          "prime": 43,
+          "field_generator_residue": 16,
+          "difference_residue": 19,
+          "euler_symbol": -1
+        },
+        {
+          "kernel_root_index": 2,
+          "other_root_index": 0,
+          "prime": 43,
+          "field_generator_residue": 16,
+          "difference_residue": 34,
+          "euler_symbol": -1
+        }
+      ],
+      "all_three_two_isogenous_curves_have_no_K_rational_point_of_order4": true
+    }
+  ],
+  "cyclic52_excluded_by_complete_C226_classification_and_two_isogeny_tests": true
+}

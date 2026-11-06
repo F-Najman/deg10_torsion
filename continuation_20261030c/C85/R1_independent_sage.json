@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "cases": 4,
+  "necessary_convention": 2,
+  "simultaneous_target_shift": 0,
+  "domain_dimension": 225,
+  "product_dimension": 672,
+  "reports": [
+    {
+      "source": 1,
+      "positive_rank": 80,
+      "negative_rank": 80,
+      "multiplication_rank": 225,
+      "independent_joint_rank": 225
+    },
+    {
+      "source": 2,
+      "positive_rank": 80,
+      "negative_rank": 80,
+      "multiplication_rank": 225,
+      "independent_joint_rank": 225
+    },
+    {
+      "source": 3,
+      "positive_rank": 80,
+      "negative_rank": 80,
+      "multiplication_rank": 225,
+      "independent_joint_rank": 225
+    },
+    {
+      "source": 4,
+      "positive_rank": 80,
+      "negative_rank": 80,
+      "multiplication_rank": 225,
+      "independent_joint_rank": 225
+    }
+  ],
+  "seconds": 3.4519638479687274
+}

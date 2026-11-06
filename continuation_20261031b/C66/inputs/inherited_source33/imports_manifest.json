@@ -1,0 +1,51 @@
+{
+  "complete": true,
+  "scope": "hash-verified source snapshots only; no earlier-degree classification imported",
+  "files": [
+    {
+      "source": "work/degree8/small_cyclic/C33/classify_octic_33.m",
+      "copy": "source33/imports/classify_octic_33.m",
+      "sha256": "74b99015c14e29766a0c58b79aa2197dca26363f08bbdbdc42ecc522c6585ccf"
+    },
+    {
+      "source": "work/degree8/small_cyclic/C33/class_rational_reduction.m",
+      "copy": "source33/imports/class_rational_reduction.m",
+      "sha256": "43e8ae730876321ba2a2a4fd57860f0826f2480d241e9a158a8d8601d7d1979c"
+    },
+    {
+      "source": "work/degree8/small_cyclic/C33/octic_completeness_33.tex",
+      "copy": "source33/imports/octic_completeness_33.tex",
+      "sha256": "3ac9f1b23696c94656d2fabb6190f7525cfb2e6ec0f68aa95b00552a303cc73e"
+    },
+    {
+      "source": "work/degree8/small_cyclic/C33/inputs/DEHMZ.tex",
+      "copy": "source33/imports/DEHMZ.tex",
+      "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+    },
+    {
+      "source": "work/degree8/small_cyclic/C33/inputs/gonality",
+      "copy": "source33/imports/gonality",
+      "sha256": "71a842ec5f97807baf9e75e3e4766df484c61157ad7dead2e5187ff00fc4d1d9"
+    },
+    {
+      "source": "work/degree8/small_cyclic/inputs/vanhoeij_octic_input.m",
+      "copy": "source33/imports/vanhoeij_octic_input.m",
+      "sha256": "4917e6b29275d1eb6b78080f9439a776bea68073c5da0ef99a43807ababd0009"
+    },
+    {
+      "source": "work/degree9/realizations/inputs/vanhoeij_nonic_input.m",
+      "copy": "source33/imports/vanhoeij_nonic_input.m",
+      "sha256": "99f800545acc7579238f851d6a307a6ea80f13035a2e97e5a2bf9e9efb3b0989"
+    },
+    {
+      "source": "work/degree9/realizations/inputs/vanhoeij_nonic_input.json",
+      "copy": "source33/imports/vanhoeij_nonic_input.json",
+      "sha256": "fed7f3544fbea4b88cebdfb9996bec5549de4a499dfefc81960378254a1f8ce5"
+    },
+    {
+      "source": "work/degree9/noncyclic/C230/deps/pair_af_place_linear.m",
+      "copy": "source33/imports/pair_af_place_linear.m",
+      "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+    }
+  ]
+}

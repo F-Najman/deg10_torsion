@@ -1,0 +1,4 @@
+{"N":69,"quotient_genus":67,"base_case":2,"point_degree":10,"operator":"T5-1-5<5>","principal":false,"actual_source_lift_and_all_Hecke_lifts_unique":true,"isogeny_orbits":[
+[ 1, 10, 10, 10, 1, 1 ],
+[ 2, 50, 50, 50, 5, 1 ]
+],"completed":true,"rr_cpu_seconds":301.910,"total_cpu_seconds":484.470}

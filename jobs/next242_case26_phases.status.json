@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_case26_phases",
+  "script": "computations/next242_case26_phases.m",
+  "script_sha256": "fd51bd1d9bfd0bc9de6850bb8bd84da0658b58e3580c943fb1924f220ebaf540",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_case26_phases.m"
+  ],
+  "pid": 2427102,
+  "owner_uid": 1001,
+  "start_time_unix": 1793384195.3928125,
+  "state": "EXITED",
+  "time_limit_seconds": 30,
+  "log": "jobs/next242_case26_phases.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.015653610229492188
+}

@@ -1,0 +1,18 @@
+{
+  "purpose": "late226_replay_tate",
+  "script": "computations/late226_replay_tate.py",
+  "script_sha256": "63b8874aec0c5f49fa05477aec9a2b719e91044bb2632f59e43f65897c129da5",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_replay_tate.py"
+  ],
+  "pid": 1000489,
+  "owner_uid": 1001,
+  "start_time_unix": 1793319202.6097622,
+  "state": "EXITED",
+  "time_limit_seconds": 60,
+  "log": "jobs/late226_replay_tate.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.0638127326965332
+}

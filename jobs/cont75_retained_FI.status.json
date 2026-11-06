@@ -1,0 +1,18 @@
+{
+  "purpose": "cont75_retained_FI",
+  "script": "continuation_20261030b/C75/cont75_retained_FI.py",
+  "script_sha256": "479a77b7cfc9dfbd3c7529119be10d1158494b4cedeb22a150d997409ff36dec",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_retained_FI.py"
+  ],
+  "pid": 2529237,
+  "owner_uid": 1001,
+  "start_time_unix": 1793388988.8892214,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/cont75_retained_FI.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.219149351119995
+}

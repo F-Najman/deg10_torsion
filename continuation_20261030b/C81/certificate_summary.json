@@ -1,0 +1,60 @@
+{
+  "status": "COMPLETE: C81 excluded over degree-10 number fields",
+  "degree": 10,
+  "group": "C81",
+  "source_genus": 190,
+  "source_rank": 0,
+  "source_rational_2_torsion_dimension": 0,
+  "finite_NC_closed_counts_through10": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    135,
+    135
+  ],
+  "source_diamond_orbits_degree9": 5,
+  "source_diamond_orbits_degree10": 5,
+  "source_candidate_supports": 10,
+  "after_proven_X0_81_odd_coset_sieve": [
+    1,
+    2,
+    3,
+    7,
+    10
+  ],
+  "RR_target": "X1(81)/<28>",
+  "RR_target_genus": 46,
+  "base_curve": "X1(27)",
+  "base_genus": 13,
+  "Kummer_extension_degree": 3,
+  "rational_branched_cusp_count": 9,
+  "RR_tests": 29,
+  "native_base_RR_spaces": 87,
+  "native_genuine_completions": 14,
+  "all_RR_dimensions": 1,
+  "native_completion_replay": "PASS",
+  "independent_Sage_Hensel_arcs": "PASS",
+  "parent_nested_input_hashes_verified": 50,
+  "Sage_series_precision": 64,
+  "remaining_supports": [],
+  "lifecycle": {
+    "all_records_exited": true,
+    "active_C81_workers_or_supervisors": [],
+    "obsolete_paused_workers": 0,
+    "automatic_launchers": 0,
+    "diagnostics_preserved": [
+      "b81_parent_rr_completions",
+      "b81_y46_kummer_model",
+      "b81_y46_model",
+      "b81_y46_model_v2",
+      "b81_sage_local_arcs",
+      "b81_sage_local_arcs_v2"
+    ]
+  },
+  "primary_proof": "resolution.tex"
+}

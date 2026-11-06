@@ -1,0 +1,19 @@
+{
+  "purpose": "late240_enum10",
+  "script": "computations/late240_enum10.m",
+  "script_sha256": "f6194eced3c1a59979e27d4e0b2dba1a519a3ebd98a5a0d08edd9e0a0c5c4852",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late240_enum10.m"
+  ],
+  "pid": 859623,
+  "owner_uid": 1001,
+  "start_time_unix": 1793312875.194723,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/late240_enum10.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.2793378829956055
+}

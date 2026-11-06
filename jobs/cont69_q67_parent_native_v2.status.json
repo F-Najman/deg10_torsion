@@ -1,0 +1,19 @@
+{
+  "purpose": "cont69_q67_parent_native_v2",
+  "script": "computations/cont69_q67_parent_native_v2.m",
+  "script_sha256": "564a0aa71a6d4c4a47393a20671dfbab2185f858c4d30ec9a718309ab0aaaf5a",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont69_q67_parent_native_v2.m"
+  ],
+  "pid": 2456083,
+  "owner_uid": 1001,
+  "start_time_unix": 1793385542.895701,
+  "state": "EXITED",
+  "time_limit_seconds": 1600,
+  "log": "jobs/cont69_q67_parent_native_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 432.1616635322571
+}

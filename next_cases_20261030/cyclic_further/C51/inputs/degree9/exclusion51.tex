@@ -1,0 +1,50 @@
+\input{cyclic/continuation_20261026/dyadic_criterion51.tex}
+\begin{proposition}\label{prop:nonic-no51}
+An elliptic curve over a number field of degree $9$ has no point of order $51$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(51)$, of genus $65$. Its rational Jacobian has rank zero
+by \cite[Theorem~3.1(2)]{DEHMZ}. The curve has good reduction at $2$.
+Independent Frobenius similarity-class counts give no noncuspidal
+closed places of degree at most $8$ and exactly $80$ of degree $9$.
+A separate enumeration using every $j$-invariant and twist over
+$\mathbb F_{2^r}$, $r\le9$, agrees on the possible degrees.
+The $80$ places form five diamond orbits. On each representative,
+$A_5=T_5-1-5\langle5\rangle$ has nonprincipal image, by exact
+Riemann--Roch on the full curve. Since $A_5$ kills rational torsion
+and a rational base cusp, this excludes every noncuspidal reduction.
+Untouched native isogenies independently give the same Hecke divisor
+on a pure degree-$9$ support.
+
+It remains to exclude entirely cuspidal reduction. The cusp signature
+at $2$ is $1^{16},2^8,8^4$. The Cartier image
+\[
+ U=(\mathcal C-1)H^0(X_{\mathbb F_2},\Omega^1)
+\]
+has dimension $62$. One immutable export in a single global basis
+contains the restriction matrices at every cusp through every
+multiplicity of weighted degree at most $8$. The independent replay
+checks the Cartier image and all projected restrictions. These
+restrictions depend only on the cusp and its multiplicity, so they
+also apply to degree-$9$ divisors with each multiplicity of weighted
+degree at most $8$.
+
+The independent binary enumeration tests all $3333248$ such divisors,
+and every restriction from $U$ has rank $9$. The only other divisors
+are $9c$ for the sixteen rational cusps. A fresh native differential
+Riemann--Roch kernel computes
+\[
+ \dim U-\dim\bigl(U\cap H^0(\Omega^1(-9c))\bigr)=9
+\]
+at one rational cusp; the diamond group acts transitively on all sixteen
+rational cusps and preserves $U$. Thus all
+\[
+ [t^9](1-t)^{-16}(1-t^2)^{-8}(1-t^8)^{-4}=3333264
+\]
+cuspidal degree-$9$ divisors pass the required formal-immersion test.
+The fresh kernel is checked in its own differential basis; no matrices
+from different basis exports are combined.
+Lemma~\ref{lem:nonic51-quotient-Cartier} excludes the cuspidal branch.
+Both the new kernel calculation and all five nonprincipal tests finish
+in a complete native run with exit code $0$.
+\end{proof}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "low_actual_source_points": 20404,
+  "low_target_queries": 3550,
+  "all_mixed_normalizing_automorphism_labels_bound_to_actual_projected_points": true,
+  "high_retained_source_points": 12604,
+  "high_target_queries": 5619,
+  "high_expanded_target_orbit_keys": 88432,
+  "all_high_cluster_bindings_match_actual_projected_points": true,
+  "method": "Actual source24P and manual two-point Velu formulas in normalized short coordinates; actual dual-kernel and marked24-level; exact rational automorphism action and full Frobenius orbit, independently computed in Sage",
+  "elapsed_seconds": 288.1008461462334
+}

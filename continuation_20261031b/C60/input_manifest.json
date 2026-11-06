@@ -1,0 +1,97 @@
+[
+  {
+    "source": "work/deg10/continuation_20261031a/C60/inputs/pair_af_place_linear.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C60/inputs/accepted_quintic_paper.tex",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/accepted_quintic_paper.tex",
+    "sha256": "14f89d7b64bd2daa99f42323c0898a4b04fcfd9f429576da3d82b2fa6bb60fe6"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C60/inputs/DEHMZ.tex",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/DEHMZ.tex",
+    "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C60/inputs/fast_hecke.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C60/boundary.tex",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/boundary.tex",
+    "sha256": "c74ac4d7d3a62ba771b9885a5b989a2d0fe44577bfde968d102f1615089e97ea"
+  },
+  {
+    "source": "work/degree9/noncyclic/C230/a3_model.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/a3_model.m",
+    "sha256": "9eabf6fb2d335de84b3ad408868fee599590244cc5903bf2730a33dc0ba3ced8"
+  },
+  {
+    "source": "work/degree9/noncyclic/C230/classes256_D9.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/classes256_D9.m",
+    "sha256": "51618cf378ecbf68f523218688ece10a1a4df686f865db520dabc98949b8f0a0"
+  },
+  {
+    "source": "work/degree9/noncyclic/C230/exceptional_fibres_D9.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/exceptional_fibres_D9.m",
+    "sha256": "542a8227f40b551c9e0ce8336089ed32c5e256e1086723c488fa22b78094c21a"
+  },
+  {
+    "source": "work/degree9/noncyclic/C230/three_quotients_D9.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/three_quotients_D9.m",
+    "sha256": "cdf7d41d793d07fb5d09408ee4518baa67ff00812d3cfca7645ef0e5a2b99ab8"
+  },
+  {
+    "source": "work/degree9/noncyclic/C230/exclusion_2_30_D9.tex",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/exclusion_2_30_D9.tex",
+    "sha256": "decabf269cb894b618091083195322c3c75279a901bab45b5cc5ea93dc37526d"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/native_group_generators.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/native_group_generators.m",
+    "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/portable_forward.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/portable_forward.m",
+    "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C56/inputs/pair_af_place_linear.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/deg10/computations/quintic_full2_30a_v2.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/quintic_full2_30a_v2.m",
+    "sha256": "2b23b266af68823598fa0ba604e19fc863b40d8530688c0c3867dc85f913557e"
+  },
+  {
+    "source": "work/deg10/jobs/quintic_full2_30a_v2.log",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/quintic_full2_30a_v2.log",
+    "sha256": "b483a9929cef0edfb3d559869ffecd4722c1be44d5de4ffaaab93f7e0333aee7"
+  },
+  {
+    "source": "work/deg10/jobs/quintic_full2_30a_v2.status.json",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/quintic_full2_30a_v2.status.json",
+    "sha256": "7652bf5f0fba9bde6ffbd9d84c74fa849aec36629d3c39b6598781689c15335a"
+  },
+  {
+    "source": "work/deg10/computations/quintic_full2_30b_v2.m",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/quintic_full2_30b_v2.m",
+    "sha256": "dfa8d11aabdb78e465ae8ec3ee0bd4d1aaa61c529cfbce6ba9a405ae506428ae"
+  },
+  {
+    "source": "work/deg10/jobs/quintic_full2_30b_v2.log",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/quintic_full2_30b_v2.log",
+    "sha256": "4fd9cfa140c9740ca152de935c052bd42a9362817a750b159b9b0f269f24ac00"
+  },
+  {
+    "source": "work/deg10/jobs/quintic_full2_30b_v2.status.json",
+    "copy": "work/deg10/continuation_20261031b/C60/inputs/quintic_full2_30b_v2.status.json",
+    "sha256": "67f8219865813b56e02dbf5e42f06e0fee04bc094747606ee55294ff47de3e3f"
+  }
+]

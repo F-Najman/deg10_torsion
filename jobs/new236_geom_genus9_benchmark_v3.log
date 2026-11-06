@@ -1,0 +1,6 @@
+Loading "work/deg10/C236_resolution_20261030/geometry/genus9_stage2_common_v2.m\
+"
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/portable_forward.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/quotient9_projection_helpers.m"
+C236_D10_GENUS9_STAGE2_PROGRESS tested=5 total=5 remaining=1 imagecount=5 cpu=3.650
+C236_D10_GENUS9_STAGE2_COMPLETE tested=5 total=5 remaining=1 images=5 full_input=true cpu=3.650

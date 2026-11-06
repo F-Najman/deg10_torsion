@@ -1,0 +1,19 @@
+{
+  "purpose": "contb55_cusp_coupled",
+  "script": "computations/contb55_cusp_coupled.m",
+  "script_sha256": "5cea5140de6a4910307d08cccf83d536b1de930d0eab57cc71d6056d1e0250ca",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_cusp_coupled.m"
+  ],
+  "pid": 2496598,
+  "owner_uid": 1001,
+  "start_time_unix": 1793387476.0971165,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/contb55_cusp_coupled.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 68.674076795578
+}

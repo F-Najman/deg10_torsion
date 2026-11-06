@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_cusp_lattice_replay.py", line 9, in <module>
+    C=A*periods;T=C.transpose().augment(Matrix.identity(QQ,C.ncols())).transpose();K=(T*T.denominator()).change_ring(ZZ).kernel().basis_matrix();coef=K[:,:A.nrows()];rebuilt=(coef*A).row_module();assert rebuilt==B.row_module()
+                                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

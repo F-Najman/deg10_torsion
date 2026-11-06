@@ -1,0 +1,46 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(10*10^9);tt:=Cputime();
+CQ:=SmallModularCurve(11);jraw:=jInvariant(CQ,11);
+CC:=ChangeRing(CQ,GF(2));assert IsNonsingular(CC) and Genus(CC) eq 1;
+RC:=CoordinateRing(Ambient(CC));jn:=RC!Numerator(jraw);jd:=RC!Denominator(jraw);
+K,kmap:=AlgorithmicFunctionField(FunctionField(CC));jK:=kmap(FunctionField(CC)!(jn/jd));
+// The classical X0(7) parameter has j=(v^2+v+1)^4/v^7 in characteristic2.
+Fv<v>:=FunctionField(GF(2));j7:=(v^2+v+1)^4/v^7;j7dual:=(v^2+v+1)^4/v;
+Phi7:=ClassicalModularPolynomial(7);
+assert Evaluate(Phi7,[j7,j7dual]) eq 0;
+R<x>:=PolynomialRing(K);f:=x^8+jK*x^7+x^4+1;
+assert IsIrreducible(f);AF<u>:=FunctionField(f);assert Genus(AF) eq 7;
+jaf:=AF!jK;
+cs:=Poles(jaf);widths:=[-Valuation(jaf,c):c in cs];
+assert #cs eq 4 and &and[Degree(c) eq 1:c in cs] and Seqset(widths) eq {1,7,11,77};
+printf "NONIC77_X0_MODEL genus7=true modular_polynomial_verified=true cusp_widths=%o time=%o\n",widths,Cputime(tt);
+load "work/deg10/continuation_20261030b/C77/inputs/AS_component.m";
+RF<Y>:=PolynomialRing(AF);f2:=Y^2+Y+a2;assert IsIrreducible(f2);
+// Direct cyclic cubic: the fine X1(7) family over its genus-zero parameter.
+FB<t>:=FunctionField(GF(2));b7:=t^3-t^2;c7:=t^2-t;
+E7u:=EllipticCurve([1-c7,-b7,-b7,FB!0,FB!0]);P7u:=E7u![0,0];assert Order(P7u) eq 7;
+ju:=jInvariant(E7u);vu:=(t^2+t)/(t^3+t+1);
+assert vu^8+ju*vu^7+vu^4+1 eq 0;
+assert Evaluate(Numerator(ju),1/(t+1))/Evaluate(Denominator(ju),1/(t+1)) eq ju;
+// j on X011 is j0(x)+j1(x)y, with y quadratic over F2(x).
+jparts:=Eltseq(jK);assert #jparts eq 2 and jparts[2] ne 0;
+kpoly:=DefiningPolynomial(K);assert Degree(kpoly) eq 2;
+FX<X>:=FunctionField(FB);rx:=hom<BaseField(K)->FX|X>;
+j0:=rx(jparts[1]);j1:=rx(jparts[2]);aa:=rx(Coefficient(kpoly,1));bb:=rx(Coefficient(kpoly,0));
+normrel:=((FX!ju)+j0)^2+aa*j1*((FX!ju)+j0)+bb*j1^2;
+f3:=Numerator(normrel);assert Degree(f3) eq 12 and IsIrreducible(f3);
+E3<s>:=FunctionField(f3);
+kx:=hom<BaseField(K)->E3|s>;
+yval:=((E3!ju)+kx(jparts[1]))/kx(jparts[2]);
+kemb:=hom<K->E3|kx,yval>;
+afemb:=hom<AF->E3|kemb,E3!vu>;
+assert afemb(jaf) eq E3!ju;
+tau:=hom<E3->E3|hom<FB->E3|1/((E3!t)+1)>,s>;
+assert tau(tau(tau(E3!t))) eq E3!t and tau(tau(tau(s))) eq s;
+assert &and[tau(afemb(v)) eq afemb(v):v in [AF.1,AF!K.1,AF!K!BaseField(K).1]];
+assert Genus(E3) eq 19;
+printf "NONIC77_DIRECT_CUBIC_VERIFIED degree12=true genus19=true exact_base_embedding=true deck_order3=true time=%o\n",Cputime(tt);
+QY<z>:=PolynomialRing(E3);fy:=QY![afemb(c):c in Coefficients(f2)];assert IsIrreducible(fy);
+CY<zz>:=FunctionField(fy);jY:=CY!E3!ju;
+assert Genus(CY) eq 37;
+printf "NONIC77_DIRECT_GENUS37_VERIFIED time=%o\n",Cputime(tt);
+print "C77_GENUS37_NC_MODEL_READY",Cputime(tt);

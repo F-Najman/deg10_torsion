@@ -1,0 +1,13 @@
+Loading "work/deg10/continuation_20261031b/Y228_shared/fast_primitive_inverse.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/union_cases.m"
+Y228_FAST_MODEL_READY 15 false false 8.130
+Y228_FAST_GET 8 0.470 8.600
+Y228_FAST_GET 8 0.360 8.960
+Y228_FAST_GET 8 0.370 9.330
+Y228_FAST_GET 40 1.990 11.320
+Y228_FAST_OPERATOR_READY 8 [*
+    [ 1, 1, 8 ],
+    [ 5, 1, 40 ]
+*] 11.330
+Y228_FAST_BASIS_RESULT 8 1 2.430 13.760
+D31B_Y228_FAST_INVERSE_PROFILE_COMPLETE

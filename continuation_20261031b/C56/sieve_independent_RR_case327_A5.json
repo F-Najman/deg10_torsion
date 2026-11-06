@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "case": 327,
+  "hecke": 5,
+  "base_curve_genus": 25,
+  "source_level": 56,
+  "pole_bound_degree": 60,
+  "basis_dimensions": [
+    36,
+    24
+  ],
+  "matrix_rows": 60,
+  "matrix_columns": 120,
+  "rank": 60,
+  "h0": 0,
+  "all_geometry_series_coefficients_128_independently_recomputed": true,
+  "all_operator_signed_closed_source_groups_bound_to_actual_physical_levels": true,
+  "all_basis_rational_functions_reexpanded_in_genuine_local_arcs": true,
+  "all_sqrt_branches_bound_to_actual_56_level": true,
+  "all_matrix_entries_and_residue_power_coordinates_match": true,
+  "local_rows": [
+    {
+      "local_row": 1,
+      "base_degree": 10,
+      "physical_ambient_degree": 10,
+      "pole_bound": 0,
+      "max_needed_jet_order": 1,
+      "work_precision": 7,
+      "geometry_precision_independently_rebuilt": 128,
+      "uniformizer": "V",
+      "matrix_columns": 10,
+      "base_prime_generators_vanish": true,
+      "all_basis_jets_and_residue_power_coordinates_entrywise_equal": true
+    },
+    {
+      "local_row": 2,
+      "base_degree": 10,
+      "physical_ambient_degree": 10,
+      "pole_bound": 0,
+      "max_needed_jet_order": 5,
+      "work_precision": 11,
+      "geometry_precision_independently_rebuilt": 128,
+      "uniformizer": "V",
+      "matrix_columns": 50,
+      "base_prime_generators_vanish": true,
+      "all_basis_jets_and_residue_power_coordinates_entrywise_equal": true
+    },
+    {
+      "local_row": 3,
+      "base_degree": 10,
+      "physical_ambient_degree": 10,
+      "pole_bound": 1,
+      "max_needed_jet_order": 1,
+      "work_precision": 10,
+      "geometry_precision_independently_rebuilt": 128,
+      "uniformizer": "V",
+      "matrix_columns": 10,
+      "base_prime_generators_vanish": true,
+      "all_basis_jets_and_residue_power_coordinates_entrywise_equal": true
+    },
+    {
+      "local_row": 4,
+      "base_degree": 10,
+      "physical_ambient_degree": 10,
+      "pole_bound": 1,
+      "max_needed_jet_order": 1,
+      "work_precision": 10,
+      "geometry_precision_independently_rebuilt": 128,
+      "uniformizer": "V",
+      "matrix_columns": 10,
+      "base_prime_generators_vanish": true,
+      "all_basis_jets_and_residue_power_coordinates_entrywise_equal": true
+    },
+    {
+      "local_row": 5,
+      "base_degree": 20,
+      "physical_ambient_degree": 20,
+      "pole_bound": 1,
+      "max_needed_jet_order": 1,
+      "work_precision": 10,
+      "geometry_precision_independently_rebuilt": 128,
+      "uniformizer": "V",
+      "matrix_columns": 20,
+      "base_prime_generators_vanish": true,
+      "all_basis_jets_and_residue_power_coordinates_entrywise_equal": true
+    },
+    {
+      "local_row": 6,
+      "base_degree": 20,
+      "physical_ambient_degree": 20,
+      "pole_bound": 1,
+      "max_needed_jet_order": 1,
+      "work_precision": 10,
+      "geometry_precision_independently_rebuilt": 128,
+      "uniformizer": "V",
+      "matrix_columns": 20,
+      "base_prime_generators_vanish": true,
+      "all_basis_jets_and_residue_power_coordinates_entrywise_equal": true
+    }
+  ],
+  "input_hashes": {
+    "model_snapshot": "e8c619302bcda03fcdebe7b1798baac2bf6de58550e61174561e74e2deae48cc",
+    "operator_snapshot": "8c8a07a4efc4b565316b09771dcb09f01438a5da2fba8f6d339236835dc21362",
+    "basis": "9096bdc52e29ae50aafda8644c17d8162895690e068825e12d7b81fdf2fa9e21",
+    "jet_tables": "7af48fc56c0ff1741709fc7fdbd6a893209081fcf54b4002672405cc5e867d10",
+    "result": "b95b5030d3e062ee5fe0c1a1255f32511d5dbedfe523f6401c347b0458658920"
+  },
+  "elapsed_seconds": 10.969089641235769
+}

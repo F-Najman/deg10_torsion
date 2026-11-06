@@ -1,0 +1,14 @@
+SetColumns(0);SetNthreads(1);SetQuitOnError(true);SetMemoryLimit(10*10^9);Alarm(1200);tt:=Cputime();AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");Attach("work/deg10/continuation_20261031b/C56/inputs/fast_hecke.m");load "work/deg10/continuation_20261031b/C56/inputs/pair_af_place_linear.m";root:="work/deg10/continuation_20261031b/C56/";src:=eval Read(root cat "final_original_source_subset.m");k:=GF(3);PK:=PolynomialRing(k);X:=MDX1(56,k);F0,mp:=AlgorithmicFunctionField(FunctionField(Curve(X)));F:=RationalExtensionRepresentation(F0);xy:=[F!mp(v):v in X`_coordinates_xy];OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);print "C56_DIRECT_MODEL_READY",Q,SHARD,Genus(F),Degree(F),Cputime(tt);
+function ER(v)return [[Integers()!a:a in Coefficients(Numerator(v))],[Integers()!a:a in Coefficients(Denominator(v))]];end function;
+function EF(v)return [ER(a):a in Eltseq(F!v)];end function;
+function PD(p)a,b:=TwoGenerators(p);O:=IsFinite(p)select OF else OI;assert ideal<O|a,b>eq Ideal(p);return[*Degree(p),IsFinite(p)select 1 else 0,[EF(a),EF(b)]*];end function;
+function Get(E,P)return C48PairAFPlaceLinear(xy,TateNormalForm_xy(E,P));end function;
+tag:=Sprintf("source_A%o_s%o",Q,SHARD);Write(root cat tag cat "_model.m",Sprint([*[ER(v):v in Coefficients(DefiningPolynomial(F))],[EF(v):v in xy]*]):Overwrite:=true);fields:=AssociativeArray();for r in src[1]do fields[r[1]]:=ext<k|PK!r[2]>;end for;rs:=AssociativeArray();for r in src[2]do rs[r[1]]:=r;end for;cache:=AssociativeArray();divcache:=AssociativeArray();out:=[* *];pointrows:=[* *];
+for ci in[1..#src[3]]do cas:=src[3][ci];if(cas[3]eq 2)ne(Q eq 11)or(ci-1)mod NSHARDS ne SHARD then continue;end if;D:=DivisorGroup(F)!0;inds:=[];
+ for id in cas[2]do
+  if IsDefined(cache,id)then ix:=cache[id];else
+   r:=rs[id];d:=r[2];ky:=r[3];K:=fields[d];b:=Evaluate(PK!ky[1..d],K.1);c:=Evaluate(PK!ky[d+1..2*d],K.1);E:=EllipticCurve([K|1-c,-b,-b,0,0]);P:=E![0,0];assert 56*P eq E!0 and 28*P ne E!0 and 8*P ne E!0;ps:=Get(E,P);pd:=Get(E,Q*P);ns:=d div Degree(ps);nd:=Q*d div Degree(pd);assert ns*Degree(ps)eq d and nd*Degree(pd)eq Q*d;A:=-ns*Divisor(ps)-nd*Divisor(pd);he:=[* *];
+   for rr in MDIsogeniesFast(E,P,Q)do ET,PT,ell:=Explode(rr);T:=Get(ET,PT);nn:=d*ell div Degree(T);assert nn*Degree(T)eq d*ell;A+:=nn*Divisor(T);Append(~he,[*ell,nn,PD(T)*]);end for;assert Degree(A)eq 0 and &+[h[1]:h in he]eq Q+1;Append(~pointrows,[*id,d,ky,PD(ps),ns,PD(pd),nd,he*]);ix:=#pointrows;cache[id]:=ix;divcache[id]:=A;
+  end if;D+:=divcache[id];Append(~inds,ix);
+ end for;assert Degree(D)eq 0;print "C56_DIRECT_RR_START",Q,cas[1],Cputime(tt);h0:=#Basis(D);Append(~out,[*cas[1],cas[2],cas[3],inds,h0*]);Write(root cat tag cat "_progress.m",Sprint([*pointrows,out*]):Overwrite:=true);print "C56_DIRECT_CASE",Q,cas[1],h0,Cputime(tt);
+end for;Write(root cat tag cat ".m",Sprint([*pointrows,out*]):Overwrite:=true);print "D31B_C56_DIRECT_COMPLETE",Q,SHARD,#out,[r[1]:r in out|r[5]ne 0],Cputime(tt);quit;

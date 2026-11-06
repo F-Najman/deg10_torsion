@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "test_is_necessary_only": true,
+  "all_diamond_orientations_allowed": true,
+  "degree_2_images_including_zero": 9,
+  "degree_4_images": 4,
+  "cusp_image_vectors": 45,
+  "modular_unit_signatures_without_c_distinct": 23
+}

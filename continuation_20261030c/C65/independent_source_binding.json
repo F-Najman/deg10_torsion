@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "normalized_degree10_sources": 5,
+  "closed_places": 108,
+  "diamond_orbit_sizes": [
+    24,
+    24,
+    24,
+    12,
+    24
+  ],
+  "all_original_Tate_bc_keys_and_canonical_level_points_match": true
+}

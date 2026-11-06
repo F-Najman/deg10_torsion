@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_C74_prefix_rank_driver",
+  "script": "computations/d31b_C74_prefix_rank_driver.py",
+  "script_sha256": "d46ec6b6b3ab46cba8b1c94460050a468830bc2bf7920f984e84bfd44a00e4c3",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C74_prefix_rank_driver.py"
+  ],
+  "pid": 3484684,
+  "owner_uid": 1001,
+  "start_time_unix": 1793434269.767614,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31b_C74_prefix_rank_driver.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.7159192562103271
+}

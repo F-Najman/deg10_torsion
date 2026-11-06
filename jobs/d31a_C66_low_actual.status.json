@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C66_low_actual",
+  "script": "computations/d31a_C66_low_actual.m",
+  "script_sha256": "9973874d290b15dd46d230d76479070207967cd3c1f46d627f6a9816b5412ff9",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C66_low_actual.m"
+  ],
+  "pid": 2853914,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404335.3145056,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31a_C66_low_actual.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.3658909797668457
+}

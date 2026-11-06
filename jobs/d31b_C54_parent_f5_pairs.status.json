@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C54_parent_f5_pairs",
+  "script": "continuation_20261031b/C54/d31b_C54_parent_f5_pairs.m",
+  "script_sha256": "33dde7c9138a0ec7a6cb9e3e26e89dc2fdec557baf216a00be77f29b9f5fb6b5",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_pairs.m"
+  ],
+  "pid": 3639452,
+  "owner_uid": 1001,
+  "start_time_unix": 1793441048.4717076,
+  "state": "EXITED",
+  "time_limit_seconds": 1800,
+  "log": "jobs/d31b_C54_parent_f5_pairs.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 200.3262848854065
+}

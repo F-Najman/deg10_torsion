@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "CM_class_numbers": [
+    {
+      "discriminant": -119,
+      "forms": [
+        [
+          1,
+          1,
+          30
+        ],
+        [
+          2,
+          -1,
+          15
+        ],
+        [
+          2,
+          1,
+          15
+        ],
+        [
+          3,
+          -1,
+          10
+        ],
+        [
+          3,
+          1,
+          10
+        ],
+        [
+          4,
+          -3,
+          8
+        ],
+        [
+          4,
+          3,
+          8
+        ],
+        [
+          5,
+          -1,
+          6
+        ],
+        [
+          5,
+          1,
+          6
+        ],
+        [
+          6,
+          5,
+          6
+        ]
+      ],
+      "class_number": 10,
+      "independent_PARI_class_number": 10
+    },
+    {
+      "discriminant": -319,
+      "forms": [
+        [
+          1,
+          1,
+          80
+        ],
+        [
+          2,
+          -1,
+          40
+        ],
+        [
+          2,
+          1,
+          40
+        ],
+        [
+          4,
+          -1,
+          20
+        ],
+        [
+          4,
+          1,
+          20
+        ],
+        [
+          5,
+          -1,
+          16
+        ],
+        [
+          5,
+          1,
+          16
+        ],
+        [
+          8,
+          -1,
+          10
+        ],
+        [
+          8,
+          1,
+          10
+        ],
+        [
+          10,
+          9,
+          10
+        ]
+      ],
+      "class_number": 10,
+      "independent_PARI_class_number": 10
+    }
+  ],
+  "source_decic_orders": [
+    990,
+    1080
+  ],
+  "Frobenius_traces": [
+    35,
+    -55
+  ],
+  "possible_automorphism_orders": [
+    1,
+    2,
+    5,
+    10
+  ],
+  "marked_cycle_even_cases": [
+    [
+      2,
+      2
+    ],
+    [
+      10,
+      32
+    ]
+  ],
+  "marked_scalars_never_pm1_mod45": true,
+  "independent_full_matrix_quartic_patterns": 94420,
+  "all_ranks": 10,
+  "old_degree9_A7_tests_replayed_from_accepted_native_log": 5,
+  "elapsed_seconds": 0.8604162517003715
+}

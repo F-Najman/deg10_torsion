@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "all_case_jobs_exited": true,
+  "accepted_producers": [
+    "d31a_C58_class_filter",
+    "d31a_C58_known_lifts_v3",
+    "d31a_C58_independent_replay",
+    "d31a_C58_inherited_replay",
+    "d31a_58_parent_class_replay_v2"
+  ],
+  "all_case_statuses": [
+    {
+      "path": "work/deg10/jobs/d31a_C58_places10.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C58_independent_replay.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C58_known_lifts.status.json",
+      "actual_exit_code": 1
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C58_known_lifts_v3.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C58_known_lifts_v2.status.json",
+      "actual_exit_code": 1
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C58_inherited_replay.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C58_class_filter.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_58_parent_class_replay.status.json",
+      "actual_exit_code": 1
+    },
+    {
+      "path": "work/deg10/jobs/d31a_58_parent_class_replay_v2.status.json",
+      "actual_exit_code": 0
+    }
+  ],
+  "failed_preflights_are_not_certificates": true
+}

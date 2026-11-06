@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_tau_cusps_p7",
+  "script": "computations/d31b_m318_tau_cusps_p7.m",
+  "script_sha256": "6cdf5e8a054480957c9d9e9db089e70ed89d85dc9f4af7dcb3a660363d6c3993",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_tau_cusps_p7.m"
+  ],
+  "pid": 3698157,
+  "owner_uid": 1001,
+  "start_time_unix": 1793443607.8071194,
+  "state": "EXITED",
+  "time_limit_seconds": 650,
+  "log": "jobs/d31b_m318_tau_cusps_p7.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 234.9717526435852
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "purpose": "late226_native_replay_s0",
+    "script": "computations/late226_native_replay_s0.m",
+    "script_sha256": "847141972e605dffcaff963fccde83cded5c6b7ee1e84b3d60ccad6b16a691cd",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_native_replay_s0.m"
+    ],
+    "pid": 990725,
+    "owner_uid": 1001,
+    "start_time_unix": 1793318723.3360732,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/late226_native_replay_s0.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 106.45896935462952,
+    "host_magma_before_admission": 5
+  },
+  {
+    "purpose": "late226_native_replay_s1",
+    "script": "computations/late226_native_replay_s1.m",
+    "script_sha256": "5cd8f3ca603d4ee894adb9cfc730024f4170b1dd917e53715772ddd1b077b203",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_native_replay_s1.m"
+    ],
+    "pid": 990741,
+    "owner_uid": 1001,
+    "start_time_unix": 1793318723.603116,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/late226_native_replay_s1.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 100.6677656173706,
+    "host_magma_before_admission": 6
+  },
+  {
+    "purpose": "late226_native_replay_s2",
+    "script": "computations/late226_native_replay_s2.m",
+    "script_sha256": "39abd6bff1fd04528854492cb6ed29f056707eb24e126d3fb1ffe65f07404d80",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_native_replay_s2.m"
+    ],
+    "pid": 990748,
+    "owner_uid": 1001,
+    "start_time_unix": 1793318723.870626,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/late226_native_replay_s2.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 96.68017983436584,
+    "host_magma_before_admission": 7
+  },
+  {
+    "purpose": "late226_native_replay_s3",
+    "script": "computations/late226_native_replay_s3.m",
+    "script_sha256": "3b910842e99557f68bd087fc4b175d4dd446976a6ca48e3c6ffba80245cd73ff",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_native_replay_s3.m"
+    ],
+    "pid": 990756,
+    "owner_uid": 1001,
+    "start_time_unix": 1793318724.1367316,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/late226_native_replay_s3.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 95.70280957221985,
+    "host_magma_before_admission": 8
+  },
+  {
+    "purpose": "late226_native_replay_s4",
+    "script": "computations/late226_native_replay_s4.m",
+    "script_sha256": "3952c5bf84fe6c3cbeabbdf29bcaa4f2aa913da85ec2f3a136acc5407123d6e6",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_native_replay_s4.m"
+    ],
+    "pid": 990764,
+    "owner_uid": 1001,
+    "start_time_unix": 1793318724.4052887,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/late226_native_replay_s4.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 99.50924754142761,
+    "host_magma_before_admission": 9
+  },
+  {
+    "purpose": "late226_native_replay_s5",
+    "script": "computations/late226_native_replay_s5.m",
+    "script_sha256": "6e6148ef47ace3cb22a99f545e1317d0fc0eacfc34cc0f8268b389bb720d41b8",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_native_replay_s5.m"
+    ],
+    "pid": 990777,
+    "owner_uid": 1001,
+    "start_time_unix": 1793318724.6703167,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/late226_native_replay_s5.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 101.34477710723877,
+    "host_magma_before_admission": 10
+  },
+  {
+    "purpose": "late226_native_replay_s6",
+    "script": "computations/late226_native_replay_s6.m",
+    "script_sha256": "c665e8a7265c0755c163cf1763ffe53279fdff24052ab188c498a3c123079425",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_native_replay_s6.m"
+    ],
+    "pid": 990795,
+    "owner_uid": 1001,
+    "start_time_unix": 1793318724.9391577,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/late226_native_replay_s6.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 98.05475640296936,
+    "host_magma_before_admission": 11
+  },
+  {
+    "purpose": "late226_native_replay_s7",
+    "script": "computations/late226_native_replay_s7.m",
+    "script_sha256": "7ca16e7d620c38bcebbe477d5af3c071ffa46f02ccf15e25618530de19c103f9",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_native_replay_s7.m"
+    ],
+    "pid": 990809,
+    "owner_uid": 1001,
+    "start_time_unix": 1793318725.208315,
+    "state": "EXITED",
+    "time_limit_seconds": 240,
+    "log": "jobs/late226_native_replay_s7.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 97.92245841026306,
+    "host_magma_before_admission": 12
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "purpose": "new236_cusp_lattice_replay_v2",
+  "script": "computations/new236_cusp_lattice_replay_v2.py",
+  "script_sha256": "41adec50b7214aa545f7aeb8da104f52f942be997197e561d76bf25bc37f73c9",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_cusp_lattice_replay_v2.py"
+  ],
+  "pid": 1894497,
+  "owner_uid": 1001,
+  "start_time_unix": 1793360767.971371,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/new236_cusp_lattice_replay_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 6.187302827835083
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "script": "computations/winding111.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding117.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding851.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding1147_resume.m",
+    "supervisor_exit": 0
+  }
+]

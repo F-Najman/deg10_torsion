@@ -1,0 +1,7 @@
+FIELD 6x12 polredabs x^10 - 3*x^9 + 7*x^8 - 11*x^7 + 12*x^6 - 10*x^5 + 8*x^4 - 5*x^3 + 4*x^2 - 3*x + 3 disc -4678854192 signature (0, 5) LMFDB [('10.0.4678854192.1',)]
+FIELD 3x15 polredabs x^10 - x^8 - 2*x^7 + 2*x^6 + 2*x^5 + 2*x^4 - 3*x^3 - x + 1 disc -306454347 signature (0, 5) LMFDB [('10.0.306454347.1',)]
+FIELD 3x18 polredabs x^10 - 3*x^9 + 9*x^8 - 16*x^7 + 26*x^6 - 30*x^5 + 31*x^4 - 22*x^3 + 16*x^2 - 6*x + 3 disc -2571428187 signature (0, 5) LMFDB [('10.0.2571428187.1',)]
+FIELD 2x26a polredabs x^10 - 2*x^9 - 4*x^8 + 15*x^5 + 14*x^4 + 5*x^3 - 4*x^2 - 21*x - 8 disc 396320664709 signature (6, 2) LMFDB [('10.6.396320664709.1',)]
+FIELD 2x26b polredabs x^10 - x^9 + x^7 + x^6 - x^5 - x^4 + x^3 - x - 1 disc 799905449 signature (2, 4) LMFDB [('10.2.799905449.1',)]
+FIELD 2x28 polredabs x^10 + x^8 - 2*x^6 + x^4 + 2*x^2 - 2 disc 9630499328 signature (2, 4) LMFDB [('10.2.9630499328.1',)]
+FIELD 2x30 polredabs x^10 - 2*x^7 - 3*x^6 - 3*x^5 - 3*x^4 - 2*x^3 + 1 disc 3574086417 signature (2, 4) LMFDB [('10.2.3574086417.1',)]

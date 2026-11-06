@@ -1,0 +1,244 @@
+% Local proof fragment.  Include in a document with amsmath, amsthm and url.
+\begin{proposition}\label{prop:decic-no81}
+An elliptic curve over a number field of degree $10$ has no point of
+order $81$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(81)$. We use the rank-zero result
+\cite[Theorem~3.1]{DEHMZ} and the retained integral homology computation
+\[
+ J_X(\mathbb Q)[2]=0.
+\]
+For completeness, the latter computation uses the integral homology of
+rank $380$. The kernel of $T_5-1-5\langle5\rangle$ modulo $2$ has
+dimension $8$, and its intersection with the kernel of
+$T_7-1-7\langle7\rangle$ is zero. Both operators kill rational
+$2$-torsion. The retained matrices have been independently replayed in
+\path{parent_two_torsion_replay.json}.
+
+Reduction at $2$ is injective on $J_X(\mathbb Q)$. Indeed, the kernel
+on torsion in $J_X(\mathbb Q_2)$ is killed by $2$: multiplication by $2$
+maps the first formal filtration into the second, and the formal
+logarithm is injective on the latter. The assertion follows from the
+absence of rational $2$-torsion.
+
+Suppose that a point of order $81$ is defined over a field of degree
+$10$, and let $D$ be its trace divisor on $X$. Thus $D$ is rational,
+effective, entirely noncuspidal and of degree $10$.
+
+First suppose that $\overline D$ is cuspidal. The cusps are finite
+\'{e}tale away from $81$, and their residue fields are subfields of
+$\mathbb Q(\zeta_{81})$. Since $2$ generates
+$(\mathbb Z/81\mathbb Z)^\times$, every global cusp orbit remains
+intact on reduction at $2$. Hence $\overline D$ lifts to a rational
+effective cuspidal divisor $C$ of degree $10$. Injectivity gives
+$D\sim C$. Abramovich's bound~\cite{Abramovich} gives
+\[
+ \operatorname{gon}_{\mathbb C}X
+ \geq \frac7{800}[\operatorname{PSL}_2(\mathbb Z):\overline{\Gamma_1(81)}]
+ =\frac7{800}\,2916>25.
+\]
+Since $D\ne C$, the equivalence $D\sim C$ would give a function of
+degree at most $10$, a contradiction.
+
+We now consider reductions with noncuspidal support. The exhaustive
+finite-field census gives the following numbers of noncuspidal closed
+points:
+\[
+\begin{array}{c|rrrrrrrrrr}
+ \text{degree}&1&2&3&4&5&6&7&8&9&10\\ \hline
+ \text{number}&0&0&0&0&0&0&0&0&135&135.
+\end{array}
+\]
+In each of degrees $9$ and $10$ these points form five orbits under
+$(\mathbb Z/81\mathbb Z)^\times/\{\pm1\}$. Thus, after a rational
+diamond operator, $\overline D$ is one of five degree-$10$ points, or
+one of five degree-$9$ points together with a rational cusp. We number
+these ten noncuspidal supports as in \path{source81.m}, with IDs
+$1,\ldots,5$ in degree $9$ and $6,\ldots,10$ in degree $10$.
+
+The census enumerates every elliptic curve isomorphism class over
+$\mathbb F_{2^d}$ for $d\leq10$, and every cyclic subgroup of order
+$81$ on the relevant curves. In degree $6$ the only group of order
+divisible by $81$ is $C_9\times C_9$, which contributes no point of
+order $81$. The degree-$9$ contribution consists of $45$ curves with
+group $C_{486}$. In degree $10$ there are $30$ relevant curves, with
+groups $C_{972}$ or $C_3\times C_{324}$, and $50$ cyclic subgroups of
+order $81$. The second enumeration in
+\path{parent_independent_source_filter.json} independently recovers
+all ten normalized records and both numbers $135$.
+
+The map $X\longrightarrow X_0(81)$ has odd degree $27$. Consequently
+$J_0(81)(\mathbb Q)$ has rank zero and has no rational $2$-torsion.
+The proven finite Jacobian presentation is
+\[
+ J_0(81)(\mathbb F_2)\simeq C_3\times C_{18}.
+\]
+Its odd subgroup has order $27$ and contains the reduction of every
+rational divisor class of degree zero. The normalized noncuspidal
+classes for IDs $4,5,6,8,9$ lie outside this subgroup. A rational
+cuspidal complement has class in the subgroup and cannot change this
+obstruction. Every inverse image of the computed pair of $j$-invariants
+was included, with its norm multiplicity; all ten inverse images are
+unique and have norm multiplicity $1$. This leaves precisely
+\[
+                  1,2,3,7,10.                         \tag{81.1}
+\]
+The finite and infinite ideal identities for this sieve were replayed
+on a fresh native model in \path{parent_native_x0_filter.m}.
+
+It remains to exclude (81.1). Put
+\[
+ Y=X_1(81)/\langle\langle28\rangle\rangle,
+ \qquad Z=X_1(27),
+\]
+so that $X\longrightarrow Y\longrightarrow Z$ has degrees $3,3$.
+Here $g(Z)=13$ and $g(Y)=46$. The rank-zero assertion and the absence
+of rational $2$-torsion descend from $J_X$ to $J_Y$: pullback followed
+by norm is multiplication by the odd integer $3$. The curve $Y$ has
+good reduction at $2$, since it is the tame quotient of the smooth
+model of $X$ by a group of order $3$. Reduction at $2$ is therefore
+injective on $J_Y(\mathbb Q)$.
+
+Write $\delta=\langle2\rangle$. The Eichler--Shimura relation gives
+\[
+             (T_2-1-2\delta)J_Y(\mathbb Q)=0.           \tag{81.2}
+\]
+For the rational Tate cusp $c_0$ we have the literal identity
+$T_2c_0=c_0+2\delta c_0$. Indeed, quotienting
+$(\operatorname{Tate}(q),q^{1/81})$ by $\mu_2$ preserves its component
+label; the other two subgroups give the component label $2/81$.
+The same identity holds after passing to $Y$.
+
+Let $E$ be the pushforward of $D$ to $Y$. Applying (81.2) to
+$[E-10c_0]$ gives
+\[
+                   T_2E\sim E+2\delta E.                \tag{81.3}
+\]
+Both divisors have degree $30$. On the special fibre, the Hecke
+correspondence acts on cycles by Frobenius plus $\delta$ times
+Frobenius pullback. Since $\overline E$ is rational over $\mathbb F_2$,
+\[
+              \overline{T_2E}=\overline E+2\delta\overline E.
+                                                               \tag{81.4}
+\]
+We compute, for every remaining possibility,
+\[
+              h^0_Y(\overline E+2\delta\overline E)=1.   \tag{81.5}
+\]
+We give the model and the finite linear algebra for this computation
+below. Semicontinuity now gives $h^0_Y(E+2\delta E)=1$. Hence (81.3)
+is an equality of effective divisors.
+
+The finite set of $j$-invariants in the support of $E$ is therefore
+closed under every cyclic $2$-isogeny. This is impossible. For
+$E_\tau=\mathbb C/(\mathbb Z+\tau\mathbb Z)$, the map $z\mapsto2z$
+gives a cyclic $2$-isogeny $E_\tau\longrightarrow E_{2\tau}$.
+Thus all $j(2^k\tau)$
+would lie in the same finite set, whereas these numbers are unbounded.
+This proves the proposition.
+\end{proof}
+
+\paragraph{The genus-$46$ computation.}
+We describe the calculation of (81.5), including the constant field,
+the selected points in the cubic cover and the conditions at the
+other branches. All function-field data are saved in
+\path{y46_kummer_model.m}.
+
+Let $(\mathcal E,R)$ be the universal elliptic curve with a point of
+order $27$, in Tate normal form. Put $S=9R$, let $m$ be the tangent
+slope at $S$, and set
+\[
+                f=(y(R)-y(S))-m(x(R)-x(S)).
+\]
+Over $\mathbb F_4$, the cover $Y\longrightarrow Z$ is
+\[
+                         w^3=f.                         \tag{81.6}
+\]
+To identify the twist in (81.6), take
+$\phi:\mathcal E\longrightarrow\mathcal E/\langle S\rangle$ and
+its dual $\widehat\phi$. The curve $Y$ parametrizes points $V$ with
+$\widehat\phi(V)=R$. This follows directly from
+$(\mathcal E,P)\mapsto(\mathcal E,3P,\phi(P))$; replacing $P$ by
+$28P$ does not change this image. The cubic equation for
+$x(V)$ is irreducible over $\mathbb F_4(Z)$, and the retained
+functions $a,A,B$ satisfy the exact identity
+\[
+                         x(V)=a+Aw+Bw^2.
+\]
+Substitution in the cubic verifies (81.6) and its twist. The divisor
+of $f$ has eleven rational places over $\mathbb F_4$, with
+multiplicities
+\[
+             2,2,8,-9,-22,-9,-7,14,8,8,5.
+\]
+Exactly nine places are branched. All are cusps and have valuation
+$2$ modulo $3$. Riemann--Hurwitz gives
+$g(Y)=1+3(13-1)+9=46$.
+
+The nine rational source-cusp images are these nine ramified cusps.
+Their images in $Z$ are rational over $\mathbb F_2$ and are permuted
+in one $9$-cycle by $\delta$. This is also determined by cusp widths:
+the map to $Z$ has ramification index $3$ at the images of the
+rational Tate cusps. The computed permutation, in the retained order,
+is
+\[
+                  [2,8,6,1,9,4,5,7,3].
+\]
+Thus, for each of IDs $1,2,3$, we test all nine choices of the
+cuspidal complement. IDs $7,10$ have no complement. Base change to
+$\mathbb F_4$ preserves $h^0$; a degree-$9$ noncuspidal point stays
+irreducible, while a degree-$10$ point splits into two degree-$5$
+points. All these points have norm multiplicity $1$ in the successive
+maps used here.
+
+Write $\overline E=N+C$ and put
+$L=N+2\delta N+C+2\delta C$ on $Y_{\mathbb F_4}$. Let $M$ be the
+pushforward of $N+2\delta N$ to $Z$. Its support is disjoint from the
+branch locus. First allow poles of order $M_p$ on all three points
+above every $p\in\operatorname{supp}(M)$, and retain the prescribed
+poles at the ramified cusps. The space with these relaxed conditions
+decomposes into the three characters of the cover. Its character-$j$
+part is
+\[
+ H^0\left(Z,M+
+       \sum_p\left\lfloor\frac{c_p+jv_p(f)}3\right\rfloor p\right)w^j,
+       \qquad j=0,1,2,                                  \tag{81.7}
+\]
+where $c_p$ is the coefficient of $C+2\delta C$ at the unique
+ramified point above $p$, and is zero otherwise. The sum includes
+all zeros and poles of $f$.
+
+At a noncuspidal place $p$ the three cube roots of $f(p)$ are
+distinct. We select the actual root by the displayed formula for
+$x(V)$ and a fresh $3$-isogeny calculation on the source elliptic
+curve. If $\tau$ is a uniformizer at $p$ and the allowed pole order
+is $r\in\{1,2\}$, we impose vanishing to order $r$ of
+$\tau^r\sum_jg_jw^j$ at each of the other two roots. Constant terms
+give the conditions for $r=1$; constant and first terms give the
+conditions for $r=2$. These are all the omitted local conditions, so
+their kernel is exactly $H^0(Y,L)$.
+
+The dimensions and matrix ranks are
+\[
+\begin{array}{c|c|c|c|c|c}
+ \text{IDs}&\text{tests}&\text{character dimensions}
+       &\text{matrix size}&\text{rank}&h^0\\ \hline
+ 1,2,3&27&(15,11,13)&39\times54&38&1\\
+ 7,10&2 &(18,12,15)&45\times60&44&1.
+\end{array}
+\]
+This proves (81.5). The files \path{rr_case1_summary.m},
+\path{rr_case2_summary.m}, \path{rr_case3_summary.m},
+\path{rr_case7_summary.m} and \path{rr_case10_summary.m} record all
+$29$ tests.
+
+The native replay \path{parent_native_completion_RR_v2.m} rebuilds
+all $87$ spaces in (81.7), checks membership and independence of
+every exported basis, and recomputes every matrix entry from genuine
+local completions. It also checks the uniformizers and selects the
+physical branch from the source level point. Independently, the Sage
+replay in \path{independent_sage_local_arcs.json} constructs Hensel
+arcs to precision $64$, checks the source point orders and the
+explicit V\'{e}lu images, and recovers every entry of all $29$ matrices.
+Both replays give the ranks in the table.

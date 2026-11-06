@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_paired_arithmetic.py", line 36, in <module>
+    own7={d:own(7,d) for d in range(2,6)};own13={d:own(13,d) for d in range(2,5)}
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_paired_arithmetic.py", line 36, in <dictcomp>
+    own7={d:own(7,d) for d in range(2,6)};own13={d:own(13,d) for d in range(2,5)}
+                                                   ^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_paired_arithmetic.py", line 34, in own
+    old=rd(f'inputs/M3N18_9multiple_aut27_p13_degree{d}_data.m');assert a[2]==old[2] and all(v==old[3][i-1] for v,i in zip(a[3],a[5]))
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

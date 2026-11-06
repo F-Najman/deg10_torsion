@@ -1,0 +1,1110 @@
+{
+  "status": "PASS",
+  "group": "C54",
+  "degree": 10,
+  "summary_sha256": "63bdb535a8924512cee55a33202e9c8378fe73aaff083f365c6ea6b68937a5eb",
+  "files": [
+    {
+      "path": "work/deg10/continuation_20261031b/C54/README.md",
+      "sha256": "73ce3fa666c997e626b0d63d5eeac02231cd29ad5abfc712a221d5378d0c0c37",
+      "bytes": 2833
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/Y10_orders.m",
+      "sha256": "b5e73106cdd5068e92da707e265c2fd27dff9a61e833cbff6dcd8237fb194d35",
+      "bytes": 772
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/build_manifest.py",
+      "sha256": "7c9f6338594ff82a1eb5d982e9436c7e05895f7f9643d8f9444a663b65023761",
+      "bytes": 5293
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/certificate_summary.json",
+      "sha256": "63bdb535a8924512cee55a33202e9c8378fe73aaff083f365c6ea6b68937a5eb",
+      "bytes": 1038
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/class_members_all.m",
+      "sha256": "c90d510d9f8717f6cf5980e8be9a0bbb2596fedda91c28d73c2eca552d102de6",
+      "bytes": 83595
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/class_members_profile.m",
+      "sha256": "af8067391316433d7a74f8a000a4fa12ccb75de3ec207a40988ea548d256404b",
+      "bytes": 10604
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/class_members_profile_input.m",
+      "sha256": "1e933e8304c5e0d6a7e5174668f432a73b9f963fd3436e0f343a2d57f6e6d67c",
+      "bytes": 276408
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/cusp_degree10_class_representatives.json",
+      "sha256": "9df8afc817cbbcd1257ad5434b825650d0c341eda54df6c7529b3f3ec83b3ca5",
+      "bytes": 60729
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_Y10_orders.m",
+      "sha256": "87983e12310a23aef24b1be932320ae374a2ad8fad666d69059b0850740a6e62",
+      "bytes": 595
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_class_profile.m",
+      "sha256": "9979e301c097dab9362b575e27d8b0e5a2609044853b3c363c54d214f1749695",
+      "bytes": 1944
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_dyadic_rigidity.m",
+      "sha256": "fd93e8660bffa854304f68d6a05c57429115c59bf4721eae8b9d3405c755ffb7",
+      "bytes": 3151
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_dyadic_rigidity_v2.m",
+      "sha256": "5af07c60b6ab06fa473f0bf960147201f74114c1ce3941e141494730812289fa",
+      "bytes": 3306
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_enumerate_all_class_members.m",
+      "sha256": "2a70ce56bd8042db8b7190e6380656e417e39364c756b6ab75cd606a5197da65",
+      "bytes": 2543
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_enumerate_class_members_profile.m",
+      "sha256": "18b83b2e5978500d2cff691513ef279c47fbb7246f5df14802773b0817c20c44",
+      "bytes": 2535
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_enumerate_class_members_profile_v2.m",
+      "sha256": "4f07c318b06e8f85568ee20c8ec734e7967e6a81c55fd1c24e7135b443873ce8",
+      "bytes": 2527
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_expand_common.m",
+      "sha256": "3f1c0383a95309152622d8c26ad25079995d0dc4b4ac4edde7b281ee9b760245",
+      "bytes": 1952
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_expand_d5.m",
+      "sha256": "58b40e99de76d9884cde54e28c7bebb7706357c0a06cf66b4fadd47f301cd90e",
+      "bytes": 100
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_expand_d6.m",
+      "sha256": "4b0b0c94e42bbd6dc7c136b9086719f1b8706cd8c1e30bb085356b2d58f2562c",
+      "bytes": 100
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_expanded_profile.m",
+      "sha256": "840768779cbdc7e9957a0a9716c0d0044168514ca62f0443da9bd39d9a57fc82",
+      "bytes": 2260
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_member_all_classes.m",
+      "sha256": "92515f03de3997f4baa1a9365685d572eaadf5de29e0f2b3b8f7c90f0e8f7450",
+      "bytes": 3127
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_member_profile_classes.m",
+      "sha256": "cf0ecacb27ef3a42531daa63fa928ac04768758b438fd8fd29a2e74f16652247",
+      "bytes": 3183
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_member_profile_classes_v2.m",
+      "sha256": "40e5ce00b09e08eea5afb252d2eb5b554aca0658930f8d2bad8b4e18197f0413",
+      "bytes": 3143
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_member_two_isogenies_all.py",
+      "sha256": "03cbe6a21698335f65bd350a7b88b75bc4e331d730398a40b00c0f1f93a029f0",
+      "bytes": 3411
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_member_two_isogenies_profile.py",
+      "sha256": "5910230d778c9d972e3989066148e67c9ab2e837246b2b1b9b1535e116ff5bc4",
+      "bytes": 3427
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_dyadic_replay.m",
+      "sha256": "c44b0359a8d7aaaf11c06dc4402d41299f435b0b73d58d5b2d0cfe362ee783e7",
+      "bytes": 2236
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_pairs.m",
+      "sha256": "33dde7c9138a0ec7a6cb9e3e26e89dc2fdec557baf216a00be77f29b9f5fb6b5",
+      "bytes": 3674
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_pairs_v2.m",
+      "sha256": "78833b803654495194de63623aed263bacc8d2dcf3bcd0aad509e64781982997",
+      "bytes": 3703
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_rr_common.m",
+      "sha256": "b5d49231baf71667a427b64a255459ba7382734eb98b384bdc3f545c1ac397ff",
+      "bytes": 2386
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_rr_s0.m",
+      "sha256": "b511db59ca571978686648cf4fdbc7be3ef8d81b7bace153521ab27f6f0b03f6",
+      "bytes": 97
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_rr_s1.m",
+      "sha256": "e3fb76c79cf773c393250fcd4feab292a29847d78b2197f93eb5c76ca964a104",
+      "bytes": 97
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_setup.m",
+      "sha256": "6c1680c2e605d14fed9567bb58ad74ecc28908d3c2bd9a950c9d410f3f0e2257",
+      "bytes": 2628
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_relative_source_model.m",
+      "sha256": "b8073ed9c4ada5058a7ee02527bb2da012a9de3d3cc547c25fa0dd49812e9b11",
+      "bytes": 1295
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_transport_800_classes.m",
+      "sha256": "942e39eed3b4ee77adfa5722ae6041fe89568de53875f1bf6221966146bd6f74",
+      "bytes": 2548
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_transport_800_classes_v2.m",
+      "sha256": "116fe05ae67828e13f1ad79c6f37d37b3c6bab9f4374cd20af734b8066107522",
+      "bytes": 2549
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/d31b_C54_transport_800_resume.m",
+      "sha256": "c75d3016dddf61c0a31045ac99f08fc5238f506cc9c6fc584f9dc91c80191f1b",
+      "bytes": 2800
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/dyadic_rigidity.m",
+      "sha256": "1c4ca33e7506fe4ffff647f7b7adbf39de2d54a1faedb361e72d1d5b180c0b1c",
+      "bytes": 1818053
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/dyadic_rigidity_numeric.json",
+      "sha256": "ca47d05bb0d188533951e65c2579782a208df6b28369190d91af74c31e3ee009",
+      "bytes": 1196110
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/dyadic_rigidity_progress.m",
+      "sha256": "1c4ca33e7506fe4ffff647f7b7adbf39de2d54a1faedb361e72d1d5b180c0b1c",
+      "bytes": 1818053
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/dyadic_rigidity_v2.m",
+      "sha256": "c538e4927311b84a7f54aa2aa7786a0a7b45524603f4d1b8c4c0028de1efa1de",
+      "bytes": 1820629
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/dyadic_rigidity_v2_progress.m",
+      "sha256": "c538e4927311b84a7f54aa2aa7786a0a7b45524603f4d1b8c4c0028de1efa1de",
+      "bytes": 1820629
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/expanded_d5.m",
+      "sha256": "ecb4d3901b124f0d4417981d4d91f23e4ead1a219769a1b68758abb7e818f322",
+      "bytes": 1184202
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/expanded_d5_class.log",
+      "sha256": "38ee21393bb32fb5030f8e7bd539661bff629a293213067890bb1e27e980e96b",
+      "bytes": 82040
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/expanded_d5_class.log.witnesses.py",
+      "sha256": "9c5743f4c50d200bbb4efb7c59a93c907692c2ccf835f0145bbf38474ddfd86a",
+      "bytes": 906815
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/expanded_d5_progress.m",
+      "sha256": "42250b56f3dc5441124a369c32c475db015464fbf2b45a51cdc3b90f19e5786b",
+      "bytes": 1160979
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/expanded_d6.m",
+      "sha256": "0ddaf7332749bdd81aadd237d6b58aec8ae4020321e66678ebfbda299e391073",
+      "bytes": 5291696
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/expanded_d6_class.log",
+      "sha256": "9455c5bcd97d4fb18e7ec90f72adc701033f83ce79ea6517c32dffd48079ec45",
+      "bytes": 356734
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/expanded_d6_class.log.witnesses.py",
+      "sha256": "11e8143605e14a84b68dc3a6f2c4f4f3b0c1b6769265ecf59d99c8b4dece9782",
+      "bytes": 4120124
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/expanded_d6_progress.m",
+      "sha256": "609092fa4ad298334734f091ada6687c0c929f31b5d90c4d6b0bd0b322485cdd",
+      "bytes": 5289734
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/expanded_forward.m",
+      "sha256": "82b94f96a62cb91948bcd07d96ae0fdc392fb1267054e4f9ba3c33e5003f5a4e",
+      "bytes": 5430
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/input_manifest.json",
+      "sha256": "2365a695058e7cd63e3408539948333a945a64e42eec42f95d27fabb4a7afd51",
+      "bytes": 4306
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/CGPS_CM_minimum_degrees.m",
+      "sha256": "020ba11c347b70aafd59099994d5df55d969ffeaff468ced1a06ae97868b64cc",
+      "bytes": 782198
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/CM54_minimum_check.json",
+      "sha256": "60e93613cc4b1ec62af9221e821685de073851c76b0e8d1d531644c5b9344d96",
+      "bytes": 1214
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/DEHMZ.tex",
+      "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d",
+      "bytes": 115467
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/Varivoda_2610.00219v1.pdf",
+      "sha256": "246a8196fe7d15acee9322297c2d5d4f618ad6bcfed6e6b2e0a30c5f3f9ba481",
+      "bytes": 566197
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/accepted_quintic_paper.tex",
+      "sha256": "14f89d7b64bd2daa99f42323c0898a4b04fcfd9f429576da3d82b2fa6bb60fe6",
+      "bytes": 105087
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/class_rational_reduction.m",
+      "sha256": "43e8ae730876321ba2a2a4fd57860f0826f2480d241e9a158a8d8601d7d1979c",
+      "bytes": 822
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/class_rational_reduction.sig",
+      "sha256": "41c5b0f12c1fcb462df22f13ddb8e9c5518430d71c66b57a8643c569934ad7ab",
+      "bytes": 178
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/cusp_actions_p5.json",
+      "sha256": "8f6318b47aee8aed935094034379cc8eeb2d6c4d07dc90c0911999c7585e22d5",
+      "bytes": 79960
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/fast_hecke.m",
+      "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7",
+      "bytes": 8266
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/fast_hecke.sig",
+      "sha256": "7825d52342582741eab41d5e414b493948013f3f212f81144c26a0eddca0dfd0",
+      "bytes": 1196
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/gonality.tex",
+      "sha256": "e2171a645733c0e5b7caf56a8b9f7db0a59c8ed02ec892f2f32ec2b23497c103",
+      "bytes": 1165
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/low_actual_source.m",
+      "sha256": "941e2da9d3114be46f8017734896b8dbefbc9b9843e2782bf1958d609e7baa9b",
+      "bytes": 675984
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/native_group_generators.m",
+      "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1",
+      "bytes": 1828
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/pair_af_place_linear.m",
+      "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802",
+      "bytes": 1441
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/parent_gonality_controls.json",
+      "sha256": "ab09362acd9d27529a0a680d3f0610415bf9c29b0f3f16c4a3f80c4ae28836a1",
+      "bytes": 1534
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/portable_forward.m",
+      "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49",
+      "bytes": 5040
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/reduction_degree10.tex",
+      "sha256": "3e8695ec8a302512b20dfbb1724df45403a3190b9eccb4a52a8655e529c6771d",
+      "bytes": 2201
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/source54_p5.json",
+      "sha256": "9d3c823c4913fe61c0f735eda3d22ac303535e8acc53a45ce372332b46633769",
+      "bytes": 6367613
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/source_census_verified.json",
+      "sha256": "410b7f7d040ef31bc3e0f280d05def2e69d2f685e34fd57f8e58a672a91ddc3f",
+      "bytes": 6918
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/inputs/target27_proven_picard.m",
+      "sha256": "f1ca3bb79b916974d6ccd259ae64c48b4fe2bf57b3468c2f7b46757962e629e3",
+      "bytes": 499023
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/member_all_class.log",
+      "sha256": "eb5386bf9600d4e6fe32bb831bb243d4ac9f99afdcb68117a23f6d7bf5a7baaa",
+      "bytes": 22992
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/member_all_class.log.witnesses.py",
+      "sha256": "39e3ff6ded47d264b520dfb8d8f0b546e656ebae538ccc82d1b77156a91f1ae4",
+      "bytes": 358953
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/member_all_classes.m",
+      "sha256": "dac293716d5c5fdae39ceca89de9929f65bdefcb04af35d0531540b4bd9256ab",
+      "bytes": 16917
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/member_profile_class.log",
+      "sha256": "7aa6dad7872138e1ae3e1f5920dca8d181cdc0f5a56c3894a6f1698a282fb0c1",
+      "bytes": 6533
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/member_profile_class.log.witnesses.py",
+      "sha256": "b5d711634d444dae6fdea70c3b6bd86ab866cbb0baeed06a82dd834053d60fbf",
+      "bytes": 106277
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/member_profile_classes.m",
+      "sha256": "ed21b1eb881970530eb6b53f80c8066fd0f65093adeb4f0111365fcadcac0ec4",
+      "bytes": 5045
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/member_two_isogenies_all.json",
+      "sha256": "bdd48be248e4c1e77191a053886819152853ca994b765047fdbaf12cfab5815b",
+      "bytes": 264
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/member_two_isogenies_all.m",
+      "sha256": "3023f168fdecea348c2aa4d83bc9886ea0f079dce4dd7be6e032955ba4534ebf",
+      "bytes": 37638
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/member_two_isogenies_profile.json",
+      "sha256": "8a994c1794235d30932f3af1205dbdfdba89038ea360669fa75dc75aa293c479",
+      "bytes": 257
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/member_two_isogenies_profile.m",
+      "sha256": "999bf66f4562234416433ad393f222e512897f25bcd397e2fd9bbc439fe17125",
+      "bytes": 11441
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/parent_dyadic_replay.m",
+      "sha256": "e3a57b5f0d5ab7a7ea2c64f5bf434b43e283ba77e6435c726ac1dc77975ca83e",
+      "bytes": 480641
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/parent_f5_RR_s0.m",
+      "sha256": "9d0c9c414ed8383ee8fc2647d443b92e3028a45c13100a18189076434f969508",
+      "bytes": 15060
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/parent_f5_RR_s1.m",
+      "sha256": "1f7fee82a812a5ce83f740452e2ee4a14f57ff65adc2ab7b1c2ebb15dda67b2d",
+      "bytes": 15063
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/parent_f5_pairs.m",
+      "sha256": "004683f6ac88d655b83b83f9897688a2a304f6ffcee5aba13df11a96f2a92b1e",
+      "bytes": 19392
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/profile100_class.log",
+      "sha256": "cbd8ab2940ece879f6585c5995ce626a6bb5d75127046b4c55af9350a9f0991c",
+      "bytes": 13317
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/profile100_class.log.witnesses.py",
+      "sha256": "22d5508391c0abdc3d489d86a8173a99bf3c9c8543ac49cbf37145b6871e0a16",
+      "bytes": 172042
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/profile100_classes.m",
+      "sha256": "7f8535d31dfa58fb38cad879aadba20965405e9cc28f4a19e0ed3bef6899f935",
+      "bytes": 4076
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/profile100_expanded_class.log",
+      "sha256": "64a3d6d58c807d9cb7e4132bdb086bdf95c461290bc2a1a7cb5a1bafb4a866fa",
+      "bytes": 11671
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/profile100_expanded_class.log.witnesses.py",
+      "sha256": "4470024ebab9fed40d1d0af0ca9d2c077f95180db447484cf0a35b583675256d",
+      "bytes": 172794
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/profile100_expanded_classes.m",
+      "sha256": "7f8535d31dfa58fb38cad879aadba20965405e9cc28f4a19e0ed3bef6899f935",
+      "bytes": 4076
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/profile100_input.m",
+      "sha256": "3fbbc72ee8838dcc63b306ea8c3a3905c113f15df1a0313231e8b856165b7e91",
+      "bytes": 5123
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/resolution.tex",
+      "sha256": "2a2175bf998b8692a516e35ea38ad52ddad332892852055c35b503823b2c268f",
+      "bytes": 6701
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/retired_member_profile.json",
+      "sha256": "1102e890efa1b782ebb468d102c56bd54edcd572f4d22f9951619d60d2a720f6",
+      "bytes": 531
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/transport_800_classes.m",
+      "sha256": "89bfe2ced9a62bc2a06bb66f5a25c0f780e09d9a98aba8e51385f38f92cb52bb",
+      "bytes": 7758363
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/transport_800_model.m",
+      "sha256": "ae5ee8321ca3996eee0b45d1a35a448a7f072ce1393630a10d966a1fb30cd529",
+      "bytes": 43430
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/transport_800_progress.m",
+      "sha256": "fc540c3eebdb7eb2e2fb506dc4d0b654f2ef0b0ba762f31021d75cfd3392595f",
+      "bytes": 4752798
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/transport_800_resume_model.m",
+      "sha256": "ae5ee8321ca3996eee0b45d1a35a448a7f072ce1393630a10d966a1fb30cd529",
+      "bytes": 43430
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/transport_800_resume_progress.m",
+      "sha256": "89bfe2ced9a62bc2a06bb66f5a25c0f780e09d9a98aba8e51385f38f92cb52bb",
+      "bytes": 7758363
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/C54/transport_prefix475.m",
+      "sha256": "4904ce70288f338865259914dadb371099dde1555c8ba671b9814e20ccceffe7",
+      "bytes": 3123417
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_Y10_orders.log",
+      "sha256": "0ecd2b70d93c8b237c75235892d61cc2af6a1f35aad2b1b86299579d3a13cfd1",
+      "bytes": 248
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_Y10_orders.status.json",
+      "sha256": "9714bedb99ea9837ecfe36acbcf976b14ca813009dece8b8329327ad4b214e0a",
+      "bytes": 656
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_class_profile.log",
+      "sha256": "df4b3407d61eb203c0221a1ac1b9a541b69e0d63f6633faa8d8692684f130e0e",
+      "bytes": 384
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_class_profile.status.json",
+      "sha256": "13e3e1fdc362a1bee656afe8fcaebf750f7dc799094d2b449b1983d2d64c158c",
+      "bytes": 667
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_dyadic_rigidity.log",
+      "sha256": "2829e50a17e5b58b7886259e541186a513f356e91308d32aa564dcabedb2b29d",
+      "bytes": 1327
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_dyadic_rigidity.status.json",
+      "sha256": "c821dd606f16d3d9a47f5987a771f44c8e60693f48933018d7f3918174f17cd7",
+      "bytes": 675
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_dyadic_rigidity_v2.log",
+      "sha256": "61f4f9e1f65eaf5ce55f8434027e0ce309ffe12bd99f933ef6c005c011c1817f",
+      "bytes": 1327
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_dyadic_rigidity_v2.status.json",
+      "sha256": "3e7d521da6ce89e255e8cb13588e92d9824eefd3472d5bd0e0ab8e2182ffdb4f",
+      "bytes": 686
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_enumerate_all_class_members.log",
+      "sha256": "cb142cca1eca6b9c2770efaff3f463d43d2669bb17bc1bced2a1990ec781c8f4",
+      "bytes": 4218
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_enumerate_all_class_members.status.json",
+      "sha256": "ab0e694351fa082209e42ab97a6c7c5c665e118785fce8ba0b8cd116024c48dd",
+      "bytes": 723
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_enumerate_class_members_profile.log",
+      "sha256": "845c82f7350aac2ebbbb0719d919a28049e81359396bd802368f12194400fb81",
+      "bytes": 393
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_enumerate_class_members_profile.status.json",
+      "sha256": "643c860f44fbed1371257926a10bf19525d88148bfe4c01cbb939962dbe2f6b5",
+      "bytes": 739
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_enumerate_class_members_profile_v2.log",
+      "sha256": "4a93b41c790fcd6cd1e8fb1359fcb1722318e211a385e2cad574032439f5309c",
+      "bytes": 293
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_enumerate_class_members_profile_v2.status.json",
+      "sha256": "03d808fc9a3f56c339c13df69d44f9e8f496c1abcf346a2070897d59cfbc557d",
+      "bytes": 751
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_expand_d5.log",
+      "sha256": "08e6112790a6df7aef8332cb37ebdd226750b67a890bddd31592ddbd93ba9723",
+      "bytes": 918
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_expand_d5.status.json",
+      "sha256": "dec30d5e57b9818371c1b34988610621538c3a0de375ab2848be06954790fe31",
+      "bytes": 652
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_expand_d6.log",
+      "sha256": "1d6dfe7f2b84e60b6b5170aed9b9e67fe6dadf9d6f2d52e689389ec60bb2584b",
+      "bytes": 3151
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_expand_d6.status.json",
+      "sha256": "9dc29c15239214c0b1177068b260df0683be21d59404152ab48c22e2c4c9310b",
+      "bytes": 651
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_expanded_profile.log",
+      "sha256": "84053ec0cfd38a490b440a88e4321b93fbf3e369b8ddb048bb86f0b16e86f4f6",
+      "bytes": 420
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_expanded_profile.status.json",
+      "sha256": "db53dc07811ba7d74359ff91544b00b0d1bf0d94738b0248824335fc2843ef31",
+      "bytes": 678
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_member_all_classes.log",
+      "sha256": "eca7631101e994aaa66a1dab292ec17e0b6c6ff3c9422c4587edd84c2370a658",
+      "bytes": 246
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_member_all_classes.status.json",
+      "sha256": "678959932741001dec8dca8ecd3a1b1f702b887498f0c0e26216ce4f5df7a3be",
+      "bytes": 685
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_member_profile_classes.log",
+      "sha256": "bdca532c138014a530462b5a4ce4df88175881c3bebe750c6c63fc109b5a3258",
+      "bytes": 187
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_member_profile_classes.status.json",
+      "sha256": "895b6b27e79b2b4b6446e45918b487e9eb9ec2b9a6448b19f8f04357db9091e1",
+      "bytes": 705
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_member_profile_classes_v2.log",
+      "sha256": "a3cbcad2c3d98803d6d9fb98cd10f5e5f8c9395d176264e0bf90b4212ab961d6",
+      "bytes": 248
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_member_profile_classes_v2.status.json",
+      "sha256": "67c4483c8bc0fa70407dc617c191e0418882faf0b37baa65251affb5021e33ec",
+      "bytes": 713
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_member_two_isogenies_all.log",
+      "sha256": "7db26862b67023d98e0e9c68f403e736a0ee7f51db84890ff89e198a6e642943",
+      "bytes": 79
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_member_two_isogenies_all.status.json",
+      "sha256": "e435e56290fec952891815b62895843fde4314c4b137c04138910a28a1b4d64b",
+      "bytes": 713
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_member_two_isogenies_profile.log",
+      "sha256": "c1e49e5df105fb6d485ed984098eea0bafe41c0395fd5cd7243c75d4d05f7a46",
+      "bytes": 77
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_member_two_isogenies_profile.status.json",
+      "sha256": "4e009ff9551cae480a3977ce4fa0fb39e310025820ae2c00b4ff070f656f039b",
+      "bytes": 730
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_parent_dyadic_replay.log",
+      "sha256": "0b52e162455e99bc901093c9d9783f8bc6f988e2364d259ca3b362b4d3b61e15",
+      "bytes": 959
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_parent_dyadic_replay.status.json",
+      "sha256": "c363ae87e931a7d4ceee2d8c945283db5728e043a4a3167775b091b5988797d9",
+      "bytes": 693
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_parent_f5_pairs.log",
+      "sha256": "6c1fbb2c74802a3e793a13675ed209ba2fc793263b5e563cc7e5fe5f34ff098c",
+      "bytes": 864
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_parent_f5_pairs.status.json",
+      "sha256": "7726e553c5f03b0cc6a397e9319e0912d3238c53c00b00b783fb400d398662d2",
+      "bytes": 675
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_parent_f5_pairs_v2.log",
+      "sha256": "f49bee306bee30e9cb5eee687fc9b28e3020510a4b5b6be9ec6bf1c1cb316e78",
+      "bytes": 568
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_parent_f5_pairs_v2.status.json",
+      "sha256": "e66a7b3d7745e663bf2cedd3e9bc6d995a8fcad33672c9da0ee69dcdce8c581e",
+      "bytes": 687
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_parent_f5_rr_s0.log",
+      "sha256": "11f3da3d2f9dcd49c86a233a822ad0232fe11e70fceb91274115ed62b8a0583a",
+      "bytes": 1238
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_parent_f5_rr_s0.status.json",
+      "sha256": "8b92dec991e792b1fade1085d69e415dd6b2283436bd81848450452097bb11e4",
+      "bytes": 676
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_parent_f5_rr_s1.log",
+      "sha256": "281a852ea0178f4710126b9b71145e7b26efc2018ef60aff1142e366f6bb4a08",
+      "bytes": 1241
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_parent_f5_rr_s1.status.json",
+      "sha256": "22ac70c2c82eb18504b80a547d2e4bd50f7be42f8c1342ca1b515e950b5a912a",
+      "bytes": 675
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_relative_source_model.log",
+      "sha256": "28480d99f58e76e44eb0d6e3383e4bd8c91b9d320e91474cebd102fa277bffb5",
+      "bytes": 81
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_relative_source_model.status.json",
+      "sha256": "b6acc3f92a649a4f915d606c69d4caf1130407615b9f1fcefe2ec737c4d8b6b8",
+      "bytes": 701
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_transport_800_classes.log",
+      "sha256": "da7e9d88a4daa62ab2e06171f5c8a3fb74933da46a85c59a268faefc6bc9c6a3",
+      "bytes": 573
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_transport_800_classes.status.json",
+      "sha256": "626d44ecf8c7d73a45a509b04c866eef02b49c0b5e600cba8bac157fa733c27d",
+      "bytes": 699
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_transport_800_classes_v2.log",
+      "sha256": "259798921846b263e2f68850572f0d35599de4cd4ffc36faa5ffd2d6f4e21821",
+      "bytes": 904
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_transport_800_classes_v2.status.json",
+      "sha256": "ced6dc10a6ad1ffd66c26ca28b5d140643b84172095ea134cbab09971635cbf0",
+      "bytes": 714
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_transport_800_resume.log",
+      "sha256": "aa1a7d6923c24b9dbb98b3cf056ac4c74ab9c52e007f426c733a524aa93a83cf",
+      "bytes": 709
+    },
+    {
+      "path": "work/deg10/jobs/d31b_C54_transport_800_resume.status.json",
+      "sha256": "775cf7fdbdd508490509cc7608eabce62ff1000446e78b7e9b2bc75406e5cbab",
+      "bytes": 695
+    },
+    {
+      "path": "work/deg10/run_job.py",
+      "sha256": "92c5f1910c551f00bced7c3d4e3731634d8bdb6ee2a07b5a87178c1ea9aed8bc",
+      "bytes": 1995
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.m",
+      "sha256": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed",
+      "bytes": 287
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.sig",
+      "sha256": "52cf55c738cbd8b7783be68f5128f2e95f62b55b9aa8d284562473fec53b527a",
+      "bytes": 218
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/classgroups.m",
+      "sha256": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24",
+      "bytes": 484
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/classgroups.sig",
+      "sha256": "ba7204632ae38e30f96bded60753927e2ce3b07ae6db9df2952c0405d9cde169",
+      "bytes": 151
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/divisors.m",
+      "sha256": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7",
+      "bytes": 1491
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/divisors.sig",
+      "sha256": "61eb59cce8da8aa6c326ab3340121c9094328b1c325a4dfd48b06e3393839480",
+      "bytes": 512
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.m",
+      "sha256": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15",
+      "bytes": 1091
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.sig",
+      "sha256": "937d65a93d8b0559b4f951e8e78cfcd0959e4c9a63b2a2ee43e244ab06b9c033",
+      "bytes": 217
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/mdmagma.spec",
+      "sha256": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a",
+      "bytes": 81
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/mdmagma_internal.spec",
+      "sha256": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487",
+      "bytes": 282
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X0.m",
+      "sha256": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83",
+      "bytes": 883
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X0.sig",
+      "sha256": "ad7a0ac093106595596ab594b1502a9cd9ad9c11c37802f22be02e986e7afd6e",
+      "bytes": 518
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X1.m",
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f",
+      "bytes": 8226
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X1.sig",
+      "sha256": "a59ba44cf0beb2eb184866ff2d51be2b70b52beaacbf0ebe627567e79c6209e7",
+      "bytes": 4142
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X11.m",
+      "sha256": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9",
+      "bytes": 7602
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X11.sig",
+      "sha256": "1d42502ec4cd75897c53d7c6e7bc2c8ee20d3fbe74ab89b37c30481ba1fbc8f5",
+      "bytes": 2540
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.m",
+      "sha256": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e",
+      "bytes": 7298
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.sig",
+      "sha256": "ad3a9969c9bb6d2aec183a03facd64779e2e21c712111872067b99c1a3e317ba",
+      "bytes": 3835
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.m",
+      "sha256": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee",
+      "bytes": 904
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.sig",
+      "sha256": "bad67095a7ac630eae102c094c32d3e06d70018492b3ccbb6c20bbb7d4396978",
+      "bytes": 431
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.m",
+      "sha256": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14",
+      "bytes": 2167
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.sig",
+      "sha256": "146c4ddbd78b095c65f33f2b3488b6133bc791872db9baa0d87756b128e9aba5",
+      "bytes": 608
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/utils.m",
+      "sha256": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64",
+      "bytes": 1321
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/utils.sig",
+      "sha256": "3d059d073c8cee670e57109861b9e66d276a3432029d38fe294af14d91bbba4a",
+      "bytes": 538
+    }
+  ],
+  "jobs": [
+    {
+      "purpose": "d31b_C54_Y10_orders",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_Y10_orders.m",
+      "log": "work/deg10/jobs/d31b_C54_Y10_orders.log",
+      "status": "work/deg10/jobs/d31b_C54_Y10_orders.status.json"
+    },
+    {
+      "purpose": "d31b_C54_class_profile",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_class_profile.m",
+      "log": "work/deg10/jobs/d31b_C54_class_profile.log",
+      "status": "work/deg10/jobs/d31b_C54_class_profile.status.json"
+    },
+    {
+      "purpose": "d31b_C54_dyadic_rigidity",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_dyadic_rigidity.m",
+      "log": "work/deg10/jobs/d31b_C54_dyadic_rigidity.log",
+      "status": "work/deg10/jobs/d31b_C54_dyadic_rigidity.status.json"
+    },
+    {
+      "purpose": "d31b_C54_dyadic_rigidity_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "diagnostic_only": false,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_dyadic_rigidity_v2.m",
+      "log": "work/deg10/jobs/d31b_C54_dyadic_rigidity_v2.log",
+      "status": "work/deg10/jobs/d31b_C54_dyadic_rigidity_v2.status.json"
+    },
+    {
+      "purpose": "d31b_C54_enumerate_all_class_members",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "diagnostic_only": false,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_enumerate_all_class_members.m",
+      "log": "work/deg10/jobs/d31b_C54_enumerate_all_class_members.log",
+      "status": "work/deg10/jobs/d31b_C54_enumerate_all_class_members.status.json"
+    },
+    {
+      "purpose": "d31b_C54_enumerate_class_members_profile",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_enumerate_class_members_profile.m",
+      "log": "work/deg10/jobs/d31b_C54_enumerate_class_members_profile.log",
+      "status": "work/deg10/jobs/d31b_C54_enumerate_class_members_profile.status.json"
+    },
+    {
+      "purpose": "d31b_C54_enumerate_class_members_profile_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_enumerate_class_members_profile_v2.m",
+      "log": "work/deg10/jobs/d31b_C54_enumerate_class_members_profile_v2.log",
+      "status": "work/deg10/jobs/d31b_C54_enumerate_class_members_profile_v2.status.json"
+    },
+    {
+      "purpose": "d31b_C54_expand_d5",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_expand_d5.m",
+      "log": "work/deg10/jobs/d31b_C54_expand_d5.log",
+      "status": "work/deg10/jobs/d31b_C54_expand_d5.status.json"
+    },
+    {
+      "purpose": "d31b_C54_expand_d6",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_expand_d6.m",
+      "log": "work/deg10/jobs/d31b_C54_expand_d6.log",
+      "status": "work/deg10/jobs/d31b_C54_expand_d6.status.json"
+    },
+    {
+      "purpose": "d31b_C54_expanded_profile",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_expanded_profile.m",
+      "log": "work/deg10/jobs/d31b_C54_expanded_profile.log",
+      "status": "work/deg10/jobs/d31b_C54_expanded_profile.status.json"
+    },
+    {
+      "purpose": "d31b_C54_member_all_classes",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "diagnostic_only": false,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_member_all_classes.m",
+      "log": "work/deg10/jobs/d31b_C54_member_all_classes.log",
+      "status": "work/deg10/jobs/d31b_C54_member_all_classes.status.json"
+    },
+    {
+      "purpose": "d31b_C54_member_profile_classes",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_member_profile_classes.m",
+      "log": "work/deg10/jobs/d31b_C54_member_profile_classes.log",
+      "status": "work/deg10/jobs/d31b_C54_member_profile_classes.status.json"
+    },
+    {
+      "purpose": "d31b_C54_member_profile_classes_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_member_profile_classes_v2.m",
+      "log": "work/deg10/jobs/d31b_C54_member_profile_classes_v2.log",
+      "status": "work/deg10/jobs/d31b_C54_member_profile_classes_v2.status.json"
+    },
+    {
+      "purpose": "d31b_C54_member_two_isogenies_all",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "diagnostic_only": false,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_member_two_isogenies_all.py",
+      "log": "work/deg10/jobs/d31b_C54_member_two_isogenies_all.log",
+      "status": "work/deg10/jobs/d31b_C54_member_two_isogenies_all.status.json"
+    },
+    {
+      "purpose": "d31b_C54_member_two_isogenies_profile",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_member_two_isogenies_profile.py",
+      "log": "work/deg10/jobs/d31b_C54_member_two_isogenies_profile.log",
+      "status": "work/deg10/jobs/d31b_C54_member_two_isogenies_profile.status.json"
+    },
+    {
+      "purpose": "d31b_C54_parent_dyadic_replay",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "diagnostic_only": false,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_dyadic_replay.m",
+      "log": "work/deg10/jobs/d31b_C54_parent_dyadic_replay.log",
+      "status": "work/deg10/jobs/d31b_C54_parent_dyadic_replay.status.json"
+    },
+    {
+      "purpose": "d31b_C54_parent_f5_pairs",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_pairs.m",
+      "log": "work/deg10/jobs/d31b_C54_parent_f5_pairs.log",
+      "status": "work/deg10/jobs/d31b_C54_parent_f5_pairs.status.json"
+    },
+    {
+      "purpose": "d31b_C54_parent_f5_pairs_v2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "diagnostic_only": false,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_pairs_v2.m",
+      "log": "work/deg10/jobs/d31b_C54_parent_f5_pairs_v2.log",
+      "status": "work/deg10/jobs/d31b_C54_parent_f5_pairs_v2.status.json"
+    },
+    {
+      "purpose": "d31b_C54_parent_f5_rr_s0",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "diagnostic_only": false,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_rr_s0.m",
+      "log": "work/deg10/jobs/d31b_C54_parent_f5_rr_s0.log",
+      "status": "work/deg10/jobs/d31b_C54_parent_f5_rr_s0.status.json"
+    },
+    {
+      "purpose": "d31b_C54_parent_f5_rr_s1",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "diagnostic_only": false,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_parent_f5_rr_s1.m",
+      "log": "work/deg10/jobs/d31b_C54_parent_f5_rr_s1.log",
+      "status": "work/deg10/jobs/d31b_C54_parent_f5_rr_s1.status.json"
+    },
+    {
+      "purpose": "d31b_C54_relative_source_model",
+      "state": "EXITED",
+      "actual_exit_code": -14,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_relative_source_model.m",
+      "log": "work/deg10/jobs/d31b_C54_relative_source_model.log",
+      "status": "work/deg10/jobs/d31b_C54_relative_source_model.status.json"
+    },
+    {
+      "purpose": "d31b_C54_transport_800_classes",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_transport_800_classes.m",
+      "log": "work/deg10/jobs/d31b_C54_transport_800_classes.log",
+      "status": "work/deg10/jobs/d31b_C54_transport_800_classes.status.json"
+    },
+    {
+      "purpose": "d31b_C54_transport_800_classes_v2",
+      "state": "EXITED",
+      "actual_exit_code": -14,
+      "complete_certificate": false,
+      "diagnostic_only": true,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_transport_800_classes_v2.m",
+      "log": "work/deg10/jobs/d31b_C54_transport_800_classes_v2.log",
+      "status": "work/deg10/jobs/d31b_C54_transport_800_classes_v2.status.json"
+    },
+    {
+      "purpose": "d31b_C54_transport_800_resume",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "diagnostic_only": false,
+      "script": "work/deg10/continuation_20261031b/C54/d31b_C54_transport_800_resume.m",
+      "log": "work/deg10/jobs/d31b_C54_transport_800_resume.log",
+      "status": "work/deg10/jobs/d31b_C54_transport_800_resume.status.json"
+    }
+  ]
+}

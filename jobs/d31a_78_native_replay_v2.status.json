@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_78_native_replay_v2",
+  "script": "computations/d31a_78_native_replay_v2.m",
+  "script_sha256": "bb367d3eb7b1a38cdf7369360ff5234c8045a49c0d98760ae82c86d305533cf5",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_78_native_replay_v2.m"
+  ],
+  "pid": 2814430,
+  "owner_uid": 1001,
+  "start_time_unix": 1793402510.697575,
+  "state": "EXITED",
+  "time_limit_seconds": 910,
+  "log": "jobs/d31a_78_native_replay_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 8.92817759513855
+}

@@ -1,0 +1,6 @@
+Loading "work/deg10/continuation_20261030c/C91/native_packet.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc91_parent_native_v2.m", line 31, column 23:
+>> VO:=VectorSpace(k,23);local:=AssociativeArray();n1:=0;n2:=0;cmranks:=[];
+                         ^
+User error: bad syntax

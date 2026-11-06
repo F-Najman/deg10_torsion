@@ -1,0 +1,21 @@
+{"purpose": "cont_sieve_4_20_quintic_shard0", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 326.2117221355438}
+{"purpose": "cont_sieve_4_20_quintic_shard1", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 336.3612837791443}
+{"purpose": "cont_sieve_4_20_mixed_shard5", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 505.70454454421997}
+{"purpose": "cont_sieve_4_20_mixed_shard6", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 551.2889256477356}
+{"purpose": "cont_sieve_4_20_quintic_shard10", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 259.9163930416107}
+{"purpose": "cont_sieve_4_20_mixed_shard3", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 622.1149749755859}
+{"purpose": "cont_sieve_4_20_mixed_shard7", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 635.5099844932556}
+{"purpose": "cont_sieve_4_20_mixed_shard2", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 637.0071382522583}
+{"purpose": "cont_sieve_4_20_mixed_shard0", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 647.8834276199341}
+{"purpose": "cont_sieve_4_20_mixed_shard1", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 648.8553833961487}
+{"purpose": "cont_sieve_4_20_quintic_shard11", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 317.9925363063812}
+{"purpose": "cont_sieve_4_20_mixed_shard4", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 658.6570346355438}
+{"purpose": "cont_sieve_4_20_quintic_shard2", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 302.3989751338959}
+{"purpose": "cont_sieve_4_20_quintic_shard3", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 282.80010294914246}
+{"purpose": "cont_sieve_4_20_quintic_shard7", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 210.46760821342468}
+{"purpose": "cont_sieve_4_20_quintic_shard5", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 256.5553915500641}
+{"purpose": "cont_sieve_4_20_quintic_shard4", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 297.4365198612213}
+{"purpose": "cont_sieve_4_20_quintic_shard6", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 283.2433044910431}
+{"purpose": "cont_sieve_4_20_quintic_shard9", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 284.77285861968994}
+{"purpose": "cont_sieve_4_20_quintic_shard8", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 293.14918327331543}
+DECIC420_ALL_SHARDS_FINISHED 20

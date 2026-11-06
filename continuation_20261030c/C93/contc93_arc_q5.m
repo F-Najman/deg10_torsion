@@ -1,0 +1,31 @@
+SetColumns(0);SetQuitOnError(true);SetMemoryLimit(12*10^9);tt:=Cputime();
+load "work/deg10/continuation_20261030c/C93/inputs/canonical_unit_data.m";
+g:=261;F<a>:=GF(2^5);zeta:=a^((2^5-1) div 31);assert Order(zeta) eq 31;prec:=500;LS<q>:=LaurentSeriesRing(F,prec);w:=3;a:=1;xp:=zeta*q^a/(1+zeta*q^a)^2;yp:=(zeta*q^a)^2/(1+zeta*q^a)^3;s1:=LS!0;a6:=LS!0;
+for n in [1..prec div w+1]do
+ if w*n+a lt prec then z:=zeta*q^(w*n+a);xp+:=z/(1+z)^2;yp+:=z*z/(1+z)^3;end if;
+ if w*n-a lt prec then z:=zeta^-1*q^(w*n-a);xp+:=z/(1+z)^2;yp+:=z/(1+z)^3;end if;
+ if w*n lt prec then z:=q^(w*n);s1+:=(F!n)*z/(1+z);a6+:=(F!((5*n^3+7*n^5)div 12))*z/(1+z);end if;
+end for;yp+:=s1;assert Valuation(yp^2+xp*yp+xp^3+s1*xp+a6) ge prec;
+aa4:=xp^2+s1+yp;aaa2:=xp+(aa4/xp)^2+aa4/xp;b:=aaa2^3/xp^2;c:=(aaa2+xp)/xp;r:=b/c;s:=c^2/(b+c);t:=r*s+1;xu:=(s+r)/t;yu:=t/(s*s+s+r+1);
+load "work/deg10/continuation_20261030c/C93/inputs/elliptic_hecke5_v2_data.m";SampleFieldPolynomial:=SourceRecords[1][1];SampleUnitCoordinates:=SourceRecords[1][5];SampleCanonicalCoordinates:=SourceRecords[1][4];
+SF:=ext<GF(2)|PolynomialRing(GF(2))!SampleFieldPolynomial>;ev:=func<co|Evaluate(PolynomialRing(GF(2))!co,SF.1)>;xx,yy:=Explode([ev(v):v in SampleUnitCoordinates]);
+SM:=VerticalJoin(Matrix(SF,[[SF!v[i]+xx*v[g+i]:i in[1..g]]:v in Rows(UnitXRelations)]),Matrix(SF,[[SF!v[i]+yy*v[g+i]:i in[1..g]]:v in Rows(UnitYRelations)]));assert Rank(SM)eq 260;
+inds:=[];rr:=Matrix(SF,0,g,[]);
+for i in [1..Nrows(SM)]do ss:=VerticalJoin(rr,Matrix(SF,1,g,Eltseq(SM[i])));if Rank(ss)gt Nrows(rr)then Append(~inds,i);rr:=ss;end if;end for;assert #inds eq 260;
+zs:=[ev(v):v in SampleCanonicalCoordinates];idx:=Index([v ne 0:v in zs],true);cols:=[j:j in[1..g]|j ne idx];assert Determinant(Matrix(SF,[[SM[i,j]:j in cols]:i in inds]))ne 0;
+MM:=VerticalJoin(Matrix(LS,[[LS!v[i]+xu*v[g+i]:i in[1..g]]:v in Rows(UnitXRelations)]),Matrix(LS,[[LS!v[i]+yu*v[g+i]:i in[1..g]]:v in Rows(UnitYRelations)]));AA:=Matrix(LS,[[MM[i,j]:j in cols]:i in inds]);rhs:=Vector(LS,[-MM[i,idx]:i in inds]);printf "DEG10_C93_QUADRATIC_CUSP_ARC_SOLVE_START precision=%o time=%o\n",prec,Cputime(tt);nn:=260;clearpow:=Max(0,-Min([Valuation(v):v in Eltseq(AA) cat Eltseq(rhs)|v ne 0]));AA:=q^clearpow*AA;bb:=[q^clearpow*v:v in Eltseq(rhs)];perm:=[1..nn];totalv:=0;
+for kk in [1..nn]do
+ vv:=Min([Valuation(AA[i,j]):i,j in[kk..nn]]);hits:=[<i,j>:i,j in[kk..nn]|Valuation(AA[i,j])eq vv];ii,jj:=Explode(hits[1]);assert vv lt AbsolutePrecision(AA[ii,jj]);totalv+:=vv;
+ if ii ne kk then for j in[1..nn]do tmp:=AA[kk,j];AA[kk,j]:=AA[ii,j];AA[ii,j]:=tmp;end for;tmp:=bb[kk];bb[kk]:=bb[ii];bb[ii]:=tmp;end if;
+ if jj ne kk then for i in[1..nn]do tmp:=AA[i,kk];AA[i,kk]:=AA[i,jj];AA[i,jj]:=tmp;end for;tmp:=perm[kk];perm[kk]:=perm[jj];perm[jj]:=tmp;end if;
+ pp:=AA[kk,kk];for j in[kk+1..nn]do AA[kk,j]:=AA[kk,j]/pp;end for;bb[kk]:=bb[kk]/pp;AA[kk,kk]:=1;
+ for i in[kk+1..nn]do fac:=AA[i,kk];if fac ne 0 then for j in[kk+1..nn]do AA[i,j]-:=fac*AA[kk,j];end for;bb[i]-:=fac*bb[kk];end if;AA[i,kk]:=0;end for;
+ if kk mod 20 eq 0 or kk eq nn then printf "DEG10_C93_CUSP_ARC_VALUATION_PIVOT k=%o total=%o time=%o\n",kk,totalv,Cputime(tt);end if;
+end for;
+yy:=[LS|0:i in[1..nn]];for kk in[nn..1 by -1]do yy[kk]:=bb[kk]-&+[LS|AA[kk,j]*yy[j]:j in[kk+1..nn]];end for;sol:=[LS|0:i in[1..nn]];for kk in[1..nn]do sol[perm[kk]]:=yy[kk];end for;
+zz:=[LS|0:j in[1..g]];zz[idx]:=1;for j in[1..#cols]do zz[cols[j]]:=sol[j];end for;
+vmin:=Min([Valuation(z):z in zz|z ne 0]);pivot:=Index([Valuation(z):z in zz],vmin);zz:=[z/zz[pivot]:z in zz];assert &and[Valuation(z)ge 0 and AbsolutePrecision(z)ge 2:z in zz];
+for row in Rows(MM)do assert Valuation(&+[row[j]*zz[j]:j in[1..g]])ge 2;end for;
+assert exists{z:z in zz|Coefficient(z,1)ne 0};code:=func<z|[Integers()!v:v in Eltseq(z,GF(2))]>;
+Write("work/deg10/continuation_20261030c/C93/cusp_arc_q5.m",Sprint([*3,[Integers()!v:v in Eltseq(DefiningPolynomial(F,GF(2)))],prec,pivot,inds,idx,[[code(Coefficient(z,n)):n in[0..1]]:z in zz],totalv*]):Overwrite:=true);
+printf "DEG10_C93_SOURCE85_QUADRATIC_CUSP_ARC_COMPLETE normalized_pivot=%o all96relations=true canonical_tangent_nonzero=true jet_precision20=true time=%o\n",pivot,Cputime(tt);quit;

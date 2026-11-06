@@ -1,0 +1,20 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(4*10^9);tt:=Cputime();
+AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");
+a:=eval Read("work/deg10/C232_resolution_20261030/hecke11_geometry_v2.m");k:=GF(3);PP:=PolynomialRing(k);B<t>:=FunctionField(k);RF<Y>:=PolynomialRing(B);
+function Rat(v) return B!(PP!v[1])/B!(PP!v[2]);end function;
+f:=RF![Rat(v):v in a[1]];f/:=LeadingCoefficient(f);F<y>:=FunctionField(f);assert Genus(F) eq 37;
+function GFUN(v) return F![Rat(w):w in v];end function;
+OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);
+function ER(v) return [[Integers()!c:c in Coefficients(Numerator(v))],[Integers()!c:c in Coefficients(Denominator(v))]];end function;
+function EF(v) return [ER(c):c in Eltseq(F!v)];end function;
+function EP(pl) I:=Ideal(pl);return [*Order(I) eq OF select 1 else 0,Degree(pl),[EF(v):v in Basis(I)]*];end function;
+function DP(s) OO:=s[1] eq 1 select OF else OI;I:=ideal<OO|[GFUN(v):v in s[3]]>;pl:=Place(I);assert Degree(pl) eq s[2];return pl;end function;
+X:=MDX11(2,32,k);C:=Curve(X);cs:=Cusps(X);assert {*Degree(c):c in cs*} eq {*1^^16,2^^8,4^^2,8^^2*};F0,mp:=AlgorithmicFunctionField(FunctionField(C));FN:=RationalExtensionRepresentation(F0);
+function TransferPlace(c)
+ D:=DivisorGroup(FN)!FunctionFieldDivisor(Divisor(c));ps,es:=Support(D);assert #ps eq 1 and es[1] eq 1;J:=Ideal(ps[1]);basis:=[F![Rat(ER(w)):w in Eltseq(FN!v)]:v in Basis(J)];OO:=IsFinite(ps[1]) select OF else OI;I:=ideal<OO|basis>;pl:=Place(I);assert Degree(pl) eq Degree(c);return pl;
+end function;
+ps:=[TransferPlace(c):c in cs];rat:=[p:p in ps|Degree(p) eq 1];A:=Divisor(rat[1]);N:=Divisor(DP(a[5]));assert Degree(N) eq 6;small:=[p:p in ps|Degree(p) in [2,4]];
+Write("work/deg10/C232_resolution_20261030/exponent_cusp_geometry.m",Sprint([*EP(rat[1]),[EP(p):p in small],[EP(p):p in rat]*]):Overwrite:=true);print "C232_EXPONENT_GEOMETRY_READY",Cputime(tt);
+D:=N-6*A;result,r,AA,h:=Reduction(D,A);assert AA eq A;DD:=result+r*A;ID,JD:=Ideals(D);IE,JE:=Ideals(DD);assert IE/(h*OF) eq ID and JE/(h*OI) eq JD;assert Degree(result) le 37 and Degree(DD) eq 0;
+function ED(D) I,J:=Ideals(D);return [*[EF(v):v in Basis(I)],[EF(v):v in Basis(J)]*];end function;
+Write("work/deg10/C232_resolution_20261030/exponent_reduction_probe.m",Sprint([*ED(D),ED(DD),r,EF(h)*]):Overwrite:=true);print "C232_EXPONENT_REDUCTION_PROBE_COMPLETE",Degree(result),Cputime(tt);quit;

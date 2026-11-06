@@ -1,0 +1,18 @@
+{
+  "purpose": "resolve226_reconstruct_units",
+  "script": "computations/resolve226_reconstruct_units.py",
+  "script_sha256": "943390850428e4e1aae59bd32b0bfb5fa8db03fba3898119a0a11bc6ee7c0670",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_reconstruct_units.py"
+  ],
+  "pid": 1585343,
+  "owner_uid": 1001,
+  "start_time_unix": 1793347897.1216948,
+  "state": "EXITED",
+  "time_limit_seconds": 90,
+  "log": "jobs/resolve226_reconstruct_units.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5144691467285156
+}

@@ -1,0 +1,14 @@
+SetColumns(0);SetNthreads(1);SetQuitOnError(true);SetMemoryLimit(8*10^9);Alarm(900);tt:=Cputime();root:="work/deg10/continuation_20261031b/M3N18/";file:=P eq 7 select "relative_cubic_rank.m"else"relative_cubic_rank_p13.m";a:=eval Read(root cat file);Fp:=GF(P);k<z>:=GF(P^3);PK:=PolynomialRing(k);B<t>:=FunctionField(k);R<Y>:=PolynomialRing(B);
+function DR(v)return B!(PK!v[1])/(B!(PK!v[2]));end function;
+F<u>:=FunctionField(R![DR(v):v in a[1]]);assert Genus(F)eq 10;OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);print "M318_GEOM_FAST_MODEL",P,Degree(F),Cputime(tt);
+function DF(v)return F![DR(c):c in v];end function;
+function SigmaRat(v)return B!(PK![c^P:c in Coefficients(Numerator(v))])/(B!(PK![c^P:c in Coefficients(Denominator(v))]));end function;
+function Sigma(v)return F![SigmaRat(c):c in Eltseq(F!v)];end function;
+cs:=[];labels:=[];for i in[1..#a[3]]do d,fin,gs:=Explode(a[3][i]);O:=fin eq 1 select OF else OI;I:=ideal<O|[DF(v):v in gs]>;ff:=Factorization(I);assert &and[v[2]eq 1:v in ff];for row in ff do Q:=Place(row[1]);assert Degree(Q)eq 1;Append(~cs,Q);Append(~labels,i);end for;assert #ff eq d;end for;assert #cs eq 36 and #Seqset(cs)eq 36;
+base:=Index(labels,Index([c[1]:c in a[3]],1));assert base gt 0;A:=Divisor(cs[base]);perm:=[];for q in cs do O:=IsFinite(q)select OF else OI;x,y:=TwoGenerators(q);I:=ideal<O|Sigma(x),Sigma(y)>;assert IsPrime(I);j:=Index(cs,Place(I));assert j gt 0;Append(~perm,j);end for;assert perm[base]eq base and &and[perm[perm[perm[i]]]eq i:i in[1..36]];print "M318_GEOM_FAST_CUSPS",P,#cs,perm,Cputime(tt);
+G,_,phi:=ClassGroup(F:ReductionDivisor:=A,Proof:=true);print "M318_GEOM_FAST_PROVEN_GROUP",P,Invariants(G),Cputime(tt);cc:=[phi(Divisor(q)-A):q in cs];H:=sub<G|cc>;ZZ:=FreeAbelianGroup(36);h:=hom<ZZ->G|cc>;diffs:=[cc[perm[i]]-cc[i]:i in[1..36]];ims:=[&+[Eltseq((G!H.j)@@h)[i]*diffs[i]:i in[1..36]]:j in[1..Ngens(H)]];dmap:=hom<H->G|ims>;fixed:=Kernel(dmap);print "M318_GEOM_FAST_GAL_FIXED",P,Invariants(H),Invariants(fixed),#fixed,Cputime(tt);
+function EK(c)return[Integers()!b:b in Eltseq(k!c,Fp)];end function;
+function ER(v)return[[EK(c):c in Coefficients(Numerator(v))],[EK(c):c in Coefficients(Denominator(v))]];end function;
+function EF(v)return[ER(c):c in Eltseq(F!v)];end function;
+function EP(q)x,y:=TwoGenerators(q);O:=IsFinite(q)select OF else OI;assert ideal<O|x,y>eq Ideal(q);return[*IsFinite(q)select 1 else 0,[EF(x),EF(y)]*];end function;
+packet:=[*P,[Integers()!c:c in Coefficients(DefiningPolynomial(k,Fp))],[ER(c):c in Coefficients(DefiningPolynomial(F))],[EP(q):q in cs],labels,base,perm,Invariants(G),[Eltseq(r):r in Rows(RelationMatrix(G))],[Eltseq(v):v in cc],Invariants(H),Invariants(fixed),#fixed*];Write(root cat Sprintf("geometric_fast_p%o.m",P),Sprint(packet):Overwrite:=true);print "D31B_M318_GEOMETRIC_FAST_COMPLETE",P,#cs,#fixed,Cputime(tt);quit;

@@ -1,0 +1,28 @@
+[
+  {
+    "source": "work/deg10/next_cases_20261030/C69/proof_dependencies/DEHMZ_source.snapshot.tex",
+    "copy": "work/deg10/continuation_20261031a/C54/inputs/DEHMZ.tex",
+    "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+  },
+  {
+    "source": "work/deg10/inputs/quintic_paper.tex",
+    "copy": "work/deg10/continuation_20261031a/C54/inputs/accepted_quintic_paper.tex",
+    "sha256": "14f89d7b64bd2daa99f42323c0898a4b04fcfd9f429576da3d82b2fa6bb60fe6"
+  },
+  {
+    "source": "work/deg10/continuation_20261030c/C99/inputs/fast_hecke.m",
+    "copy": "work/deg10/continuation_20261031a/C54/inputs/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  {
+    "source": "work/deg10/continuation_20261030c/C99/inputs/pair_af_place_linear.m",
+    "copy": "work/deg10/continuation_20261031a/C54/inputs/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C44/inputs/Varivoda_2610.00219v1.pdf",
+    "copy": "work/deg10/continuation_20261031a/C54/inputs/Varivoda_2610.00219v1.pdf",
+    "sha256": "246a8196fe7d15acee9322297c2d5d4f618ad6bcfed6e6b2e0a30c5f3f9ba481",
+    "use": "Primary gonality source: TheoremD level48, Table5 genus10 quotient level54"
+  }
+]

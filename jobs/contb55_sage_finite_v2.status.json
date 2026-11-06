@@ -1,0 +1,18 @@
+{
+  "purpose": "contb55_sage_finite_v2",
+  "script": "computations/contb55_sage_finite_v2.py",
+  "script_sha256": "35b7f8cef5d7fae024f72e27d4c69c910fb409a57f6357bc0d404ed210297e4d",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_sage_finite_v2.py"
+  ],
+  "pid": 2508912,
+  "owner_uid": 1001,
+  "start_time_unix": 1793388043.6172462,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/contb55_sage_finite_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.267577886581421
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "arcs": [
+    {
+      "name": "q5",
+      "level": 93,
+      "point_level_Tate_width": 3,
+      "closed_degree": 5,
+      "retained_coefficients": 2,
+      "canonical_dimension": 261,
+      "Tate_series_precision": 500,
+      "primary_minor_valuation": 0,
+      "independent_minor_valuation": 0,
+      "all_retained_coefficients_identical": true,
+      "nonzero_projective_tangent_checked": true,
+      "primary_path": "work/deg10/continuation_20261030c/C93/cusp_arc_q5.m",
+      "control_path": "work/deg10/continuation_20261030c/C93/cusp_arc_q5_control.m",
+      "primary_sha256": "e889a21e6f6d5f0867c244c40f5570093d6a302fdfce4fc37fb72dc34586183e",
+      "control_sha256": "b8276208018e4ab15b7d61b6cadd934d900376d2a052e8f4a819a76c882844ba"
+    }
+  ],
+  "legacy_progress_labels_not_used_for_precision_claims": true
+}

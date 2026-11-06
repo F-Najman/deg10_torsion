@@ -1,0 +1,19 @@
+{
+  "purpose": "contb55_source_case2",
+  "script": "computations/contb55_source_case2.m",
+  "script_sha256": "5e205d0f7e269af4b462b983eb3f2bda385ae977392bc5328ca8837aaa44c79e",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_source_case2.m"
+  ],
+  "pid": 2498297,
+  "owner_uid": 1001,
+  "start_time_unix": 1793387553.0262907,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/contb55_source_case2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 375.1853058338165
+}

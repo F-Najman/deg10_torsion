@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_parent_relative_p13_block1",
+  "script": "computations/d31b_m318_parent_relative_p13_block1.m",
+  "script_sha256": "ee3f8df078d947dbb5487758e74f35a64e3440a0c116ff654f02cbd881032715",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_parent_relative_p13_block1.m"
+  ],
+  "pid": 3615820,
+  "owner_uid": 1001,
+  "start_time_unix": 1793440138.3823113,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31b_m318_parent_relative_p13_block1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 45.65888977050781
+}

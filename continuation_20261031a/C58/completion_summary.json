@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "group": [
+    1,
+    58
+  ],
+  "degree": 10,
+  "quotient_level": 29,
+  "rank_zero": true,
+  "rational_gonality": 11,
+  "target_degree10_places": 5971,
+  "source_degree10_places": 5796,
+  "diamond_orbits": 430,
+  "eligible_orbits": 293,
+  "surviving_orbits": [
+    462,
+    1748
+  ],
+  "survivors_rigidity_lifts": [
+    {
+      "id": "1.29.10.b",
+      "representative": 462,
+      "orbit_size": 14,
+      "good_prime": 29,
+      "root": 5,
+      "odd_cardinality": 29
+    },
+    {
+      "id": "1.29.10.a",
+      "representative": 1748,
+      "orbit_size": 7,
+      "good_prime": 29,
+      "root": 11,
+      "odd_cardinality": 29
+    }
+  ],
+  "inherited_tests_replayed": 2324,
+  "principal_smoothing_identities_independently_replayed": 293,
+  "all_mathematical_audits": "parent PASS",
+  "all_required_workers_exited": true
+}

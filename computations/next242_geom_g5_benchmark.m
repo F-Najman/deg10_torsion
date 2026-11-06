@@ -1,0 +1,2 @@
+src:=eval Read("work/deg10/next_cases_20261030/C242/source9.m");rr:=[r:r in src[9]|r[1] eq 9];cases:=[*[*i,[*[*9,rr[i][2]*]*]*]:i in [1..5]*];Write("work/deg10/next_cases_20261030/C242/geometry/g5_benchmark_input.m",Sprint([*[[*9,src[2]*]],cases*]):Overwrite:=true);INPUTPATH:="work/deg10/next_cases_20261030/C242/geometry/g5_benchmark_input.m";OUTPUTPREFIX:="work/deg10/next_cases_20261030/C242/geometry/g5_benchmark";SHARDS:=1;SHARD:=0;MAXCASES:=5;
+load "work/deg10/next_cases_20261030/C242/geometry/quotient5_filter_common.m";

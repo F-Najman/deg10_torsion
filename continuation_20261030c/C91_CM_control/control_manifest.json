@@ -1,0 +1,174 @@
+{
+  "status": "PASS: finite controls, not a standalone exclusion",
+  "files": [
+    {
+      "path": "work/deg10/computations/contc91_independent_CM_11.m",
+      "sha256": "e86374edcf23c5df8fb39d90c49ca82affa47e363283a81e9b8d24db62965e7c"
+    },
+    {
+      "path": "work/deg10/computations/contc91_independent_CM_3.m",
+      "sha256": "d5f8410b181122faff66734ec94fa307ea5715d06d7ecddc9c03a6f73207be81"
+    },
+    {
+      "path": "work/deg10/computations/contc91_independent_CM_3_v2.m",
+      "sha256": "ff0df587cb2b96fe13a9b547ca08aa535279592578e0338f903303bb407e6594"
+    },
+    {
+      "path": "work/deg10/computations/contc91_independent_CM_5.m",
+      "sha256": "773f3f5bea60360eb881b47229a847c88c203f125fd08e4d5cb0abd468726e4a"
+    },
+    {
+      "path": "work/deg10/computations/contc91_independent_CM_Hecke.m",
+      "sha256": "6159a8a75488ef82c4a8e3c7a469688185936bebb0727b7d40a4f3b5465de0a7"
+    },
+    {
+      "path": "work/deg10/computations/contc91_independent_CM_Hecke_v2.m",
+      "sha256": "99349c4ab983fd34745ef723dbd806f956f568b946c8eb2de580efdae33e3697"
+    },
+    {
+      "path": "work/deg10/computations/contc91_independent_CM_level7_binding.m",
+      "sha256": "72318b227a3114283efd0d5d57887c074d00d3d67d2682fd1297c44928eba910"
+    },
+    {
+      "path": "work/deg10/computations/contc91_independent_CM_level7_sage.py",
+      "sha256": "0c15f89d56849c115f81a748fd8e723daf0a219bc21270ef0da3a7a193d1a7ad"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/CM_level7_binding.m",
+      "sha256": "c0104454a220274cba73f1beb02a71d6d54234599edcddc849508ed05134041e"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/Hecke_CM_11.m",
+      "sha256": "59625c3e2eef629e4ed98eb27c3cb5175f9f63daa1ca0d13ce2901d8edd4fcd4"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/Hecke_CM_3.m",
+      "sha256": "395099476ed84c1f577b04ac7b7e7f622f326b1e83ab95e72002f42cb100aec3"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/Hecke_CM_5.m",
+      "sha256": "656754f941dbaaa2ab60f6754d9da964955c32b11b0ea232df93d0a86d0fef1d"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/README.md",
+      "sha256": "736f64b084b2b6b1603addaea4ae058254cd66c711fdceb51a133e3cf518a5c8"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/independent_CM_level7_binding.json",
+      "sha256": "0c2fb874c2848990e3b3e60461238746eb72d493646e127b4a9c18990bc08bf4"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/input_provenance.json",
+      "sha256": "8820e2defe1694bbd6db597b6c747cd99961290a73d89b07fd5de0496b6f05d7"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/inputs/CM8_action_verified.json",
+      "sha256": "61fa02500dcd3268ca9106372f2c55b6dbe105dc1ceacef86b7e374542c3b179"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/inputs/fast_hecke.m",
+      "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/inputs/fast_hecke.sig",
+      "sha256": "7825d52342582741eab41d5e414b493948013f3f212f81144c26a0eddca0dfd0"
+    },
+    {
+      "path": "work/deg10/continuation_20261030c/C91_CM_control/inputs/records91_8.m",
+      "sha256": "cf02d6cefe46af45f57d2cca5ea0cddb4e100675f7aacd2e722706844aef66bd"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_11.log",
+      "sha256": "495509779b2a04b4e50e9cd11fe88c2c46491090fdd5db196229e49fdd87ce0e"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_11.status.json",
+      "sha256": "68d0d2215a3340540c34e5487f47bc31da975896a2d881df4087790b9a55899f"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_3.log",
+      "sha256": "fd6138c67be65588ba5d8213c9eea6cdbc8f36dd73b6be8ff5e81368ead75bc2"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_3.status.json",
+      "sha256": "26454e24aa0d7957709cf681c921ad2fa267f70155a873f7677c2f42925038dd"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_3_v2.log",
+      "sha256": "4a01346ad204bab7404d30e0645c9f648aea8feb3253e4ee3e0cb7e1653b72ec"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_3_v2.status.json",
+      "sha256": "29ee07edbab9af5f04fc3d2696b8393861dac6b361f1555bca9c6268d65b03a9"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_5.log",
+      "sha256": "c41ac3e8deb297234903df2ae2c8dd7d50b1eb635d18b7e6f24d8939f1c3c46e"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_5.status.json",
+      "sha256": "4b62eb7a96dab1752150871e5c9f84f45f031fb0721a485e325d45641666e429"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_level7_binding.log",
+      "sha256": "d9ca8e8234e06e0474c028d4ed6a2451523e102b4cb10a5c47b2bacbf7fa96d0"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_level7_binding.status.json",
+      "sha256": "2ec7b4496c5ac416510e3bcaf4ed73438ef431df9a2fba0f8ed6b83d430d2df9"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_level7_sage.log",
+      "sha256": "73db84286c5f983a1cdc29625e8951dc481ff29c309dca3f57d9f1aa30b5fe4a"
+    },
+    {
+      "path": "work/deg10/jobs/contc91_independent_CM_level7_sage.status.json",
+      "sha256": "ef4f4322eecba7f5d73485725604ab80b83ca609a9b9317dd708576fd4dd4354"
+    },
+    {
+      "path": "work/deg10/run_job.py",
+      "sha256": "92c5f1910c551f00bced7c3d4e3731634d8bdb6ee2a07b5a87178c1ea9aed8bc"
+    }
+  ],
+  "jobs": [
+    {
+      "purpose": "contc91_independent_CM_11",
+      "actual_exit_code": 0,
+      "successful_control": true,
+      "not_an_exclusion_certificate": true
+    },
+    {
+      "purpose": "contc91_independent_CM_3",
+      "actual_exit_code": 0,
+      "successful_control": false,
+      "not_an_exclusion_certificate": true
+    },
+    {
+      "purpose": "contc91_independent_CM_3_v2",
+      "actual_exit_code": 0,
+      "successful_control": true,
+      "not_an_exclusion_certificate": true
+    },
+    {
+      "purpose": "contc91_independent_CM_5",
+      "actual_exit_code": 0,
+      "successful_control": true,
+      "not_an_exclusion_certificate": true
+    },
+    {
+      "purpose": "contc91_independent_CM_level7_binding",
+      "actual_exit_code": 0,
+      "successful_control": true,
+      "not_an_exclusion_certificate": true
+    },
+    {
+      "purpose": "contc91_independent_CM_level7_sage",
+      "actual_exit_code": 0,
+      "successful_control": true,
+      "not_an_exclusion_certificate": true
+    }
+  ],
+  "active_workers": 0,
+  "paused_workers": 0,
+  "automatic_launchers": 0
+}

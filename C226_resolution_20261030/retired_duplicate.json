@@ -1,0 +1,14 @@
+{
+  "job": "resolve226_montes_nogenus",
+  "pid": 1542335,
+  "owner_uid": 1001,
+  "start_time_unix_verified": 1793345879.4668584,
+  "command": [
+    "/opt/magma-2.30-1/magma.exe",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_montes_nogenus.m"
+  ],
+  "reason": "Duplicate characteristic-zero calculation retired; the original worker has reached the identical RR step and also checked the genus.",
+  "signal": "SIGTERM",
+  "actual_exit_code": -15
+}

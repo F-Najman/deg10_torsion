@@ -1,0 +1,24 @@
+WINDING_SPACE_READY N=95 order=1 dimension=9 time=0.010
+WINDING N=95 order=1 conductor=1 relative_dimension=9 winding_dimension=9 coefficient_degree=1 time=0.020
+WINDING_SPACE_READY N=95 order=2 dimension=8 time=0.010
+WINDING N=95 order=2 conductor=5 relative_dimension=8 winding_dimension=8 coefficient_degree=1 time=0.010
+WINDING_SPACE_READY N=95 order=36 dimension=8 time=0.010
+WINDING_T2_READY N=95 order=36 time=0.010
+WINDING_GOOD_PRIME p=73 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=95 chi_index=3 order=36 path=work/deg10/next_cases_20261030/C95/krylov_N95_chi3_order36.json
+WINDING_KRYLOV N=95 order=36 span_rank=8 dimension=8 verified=true time=0.010
+WINDING N=95 order=36 conductor=95 relative_dimension=8 winding_dimension=8 coefficient_degree=12 time=0.010
+WINDING_SPACE_READY N=95 order=9 dimension=8 time=0.010
+WINDING N=95 order=9 conductor=19 relative_dimension=8 winding_dimension=8 coefficient_degree=6 time=0.020
+WINDING_SPACE_READY N=95 order=18 dimension=8 time=0.000
+WINDING N=95 order=18 conductor=95 relative_dimension=8 winding_dimension=8 coefficient_degree=6 time=0.010
+WINDING_SPACE_READY N=95 order=12 dimension=8 time=0.000
+WINDING N=95 order=12 conductor=95 relative_dimension=8 winding_dimension=7 coefficient_degree=4 time=0.000
+WINDING_SPACE_READY N=95 order=3 dimension=8 time=0.010
+WINDING N=95 order=3 conductor=19 relative_dimension=8 winding_dimension=8 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=95 order=6 dimension=8 time=0.000
+WINDING N=95 order=6 conductor=95 relative_dimension=8 winding_dimension=8 coefficient_degree=2 time=0.010
+WINDING_SPACE_READY N=95 order=4 dimension=8 time=0.000
+WINDING N=95 order=4 conductor=95 relative_dimension=8 winding_dimension=8 coefficient_degree=2 time=0.000
+WINDING_FINAL N=95 genus=289 total_dimension=289 bad_orders=[ 12 ] admissible=[ 11, 26, 69, 84 ]
+WINDING_CHARACTER_PROBE_DONE

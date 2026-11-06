@@ -1,0 +1,26 @@
+{
+  "N": 51,
+  "geometric_cusps": 64,
+  "global_rational_cusps": 16,
+  "Frobenius2_signature": {
+    "1": 16,
+    "2": 8,
+    "8": 4
+  },
+  "diamond_generator": 5,
+  "diamond_orbit_lengths_on_closed_cusps": {
+    "1": [
+      16
+    ],
+    "2": [
+      8
+    ],
+    "8": [
+      2,
+      2
+    ]
+  },
+  "rational_cusps_transitive": true,
+  "quadratic_cusps_transitive": true,
+  "status": "PASS"
+}

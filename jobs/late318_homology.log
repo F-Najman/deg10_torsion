@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late318_homology.m", line 2, column 38:
+>> J:=JH(54,[19]);MM:=ModularSymbols(J);assert #MM eq 1;M:=MM[1];assert Dimens
+                                        ^
+Runtime error in assert: Assertion failed

@@ -1,0 +1,18 @@
+{
+  "purpose": "cont57_verify_jets_v3",
+  "script": "continuation_20261030b/C57/cont57_verify_jets_v3.py",
+  "script_sha256": "d31a0c8f8a68e18169d6e1ef8a0c4ba3405ccf08da5c85bc1e97c1c801762506",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C57/cont57_verify_jets_v3.py"
+  ],
+  "pid": 2511886,
+  "owner_uid": 1001,
+  "start_time_unix": 1793388185.4193966,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/cont57_verify_jets_v3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 30.86400032043457
+}

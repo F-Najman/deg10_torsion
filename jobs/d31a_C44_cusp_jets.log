@@ -1,0 +1,28 @@
+Loading "work/deg10/continuation_20261031a/C44/cusp_jet_export.m"
+Loading "work/deg10/continuation_20261031a/C44/inputs/canonical_data.m"
+D31A_C44_CUSP_MODEL_READY signature=[ 1, 1, 2, 1, 1, 1, 2, 2, 1, 1, 5, 5, 5, 10, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1 ] time=98.180
+D31A_C44_CUSP_JETS index=1/24 degree=1 multiplicity=10 rank=10 time=107.800
+D31A_C44_CUSP_JETS index=2/24 degree=1 multiplicity=10 rank=10 time=109.950
+D31A_C44_CUSP_JETS index=3/24 degree=2 multiplicity=5 rank=10 time=116.230
+D31A_C44_CUSP_JETS index=4/24 degree=1 multiplicity=10 rank=10 time=117.600
+D31A_C44_CUSP_JETS index=5/24 degree=1 multiplicity=10 rank=10 time=119.330
+D31A_C44_CUSP_JETS index=6/24 degree=1 multiplicity=10 rank=10 time=119.430
+D31A_C44_CUSP_JETS index=7/24 degree=2 multiplicity=5 rank=10 time=135.410
+D31A_C44_CUSP_JETS index=8/24 degree=2 multiplicity=5 rank=10 time=139.610
+D31A_C44_CUSP_JETS index=9/24 degree=1 multiplicity=10 rank=10 time=146.470
+D31A_C44_CUSP_JETS index=10/24 degree=1 multiplicity=10 rank=10 time=151.090
+D31A_C44_CUSP_JETS index=11/24 degree=5 multiplicity=2 rank=10 time=155.150
+D31A_C44_CUSP_JETS index=12/24 degree=5 multiplicity=2 rank=10 time=159.700
+D31A_C44_CUSP_JETS index=13/24 degree=5 multiplicity=2 rank=10 time=163.490
+D31A_C44_CUSP_JETS index=14/24 degree=10 multiplicity=1 rank=10 time=184.490
+D31A_C44_CUSP_JETS index=15/24 degree=1 multiplicity=10 rank=10 time=196.220
+D31A_C44_CUSP_JETS index=16/24 degree=1 multiplicity=10 rank=10 time=209.840
+D31A_C44_CUSP_JETS index=17/24 degree=1 multiplicity=10 rank=10 time=255.420
+D31A_C44_CUSP_JETS index=18/24 degree=1 multiplicity=10 rank=10 time=293.100
+D31A_C44_CUSP_JETS index=19/24 degree=2 multiplicity=5 rank=10 time=322.940
+D31A_C44_CUSP_JETS index=20/24 degree=2 multiplicity=5 rank=10 time=352.330
+D31A_C44_CUSP_JETS index=21/24 degree=1 multiplicity=10 rank=10 time=379.270
+D31A_C44_CUSP_JETS index=22/24 degree=1 multiplicity=10 rank=10 time=415.190
+D31A_C44_CUSP_JETS index=23/24 degree=1 multiplicity=10 rank=10 time=478.070
+D31A_C44_CUSP_JETS index=24/24 degree=1 multiplicity=10 rank=10 time=481.300
+D31A_C44_CUSP_JETS_COMPLETE places=24 time=481.320

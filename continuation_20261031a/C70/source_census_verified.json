@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "level": 70,
+  "prime": 3,
+  "genus": 97,
+  "full_curve_closed_counts": [
+    24,
+    0,
+    0,
+    6,
+    0,
+    52,
+    408,
+    735,
+    2144,
+    5880
+  ],
+  "cusp_closed_counts": [
+    24,
+    0,
+    0,
+    6,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0
+  ],
+  "noncuspidal_closed_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    48,
+    408,
+    735,
+    2144,
+    5880
+  ],
+  "complete_source_diamond_orbits": 773,
+  "Frobenius_and_full_torsion_enumeration_agree": true,
+  "all_cusps_globally_intact": true
+}

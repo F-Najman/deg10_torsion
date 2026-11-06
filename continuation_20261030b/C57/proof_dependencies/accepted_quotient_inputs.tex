@@ -1,0 +1,133 @@
+\begin{proposition}\label{prop:nonic57-quotient9-partial}
+Put $X=X_1(57)$ and $H=\langle4\rangle\subset
+(\mathbb Z/57\mathbb Z)^*/\{\pm1\}$.
+The following are necessary conditions for a noncuspidal closed
+point of degree $9$ on $X$.
+At $2$, its noncuspidal reduction has degree $6$ or $8$.
+On the genus-$9$ quotient by $H$, there is one remaining normed
+image in degree $6$ and two remaining images in degree $8$.
+If its reduction is entirely cuspidal, it is the reduction of a
+rational cuspidal divisor.
+\end{proposition}
+\begin{proof}
+We use the rational $q$-expansion model $Y$ of the quotient.
+This is the dual moduli convention: a point level structure
+is sent to the quotient elliptic curve with its dual multiplicative
+level structure. Fricke interchanges the displayed $j$-widths
+$w$ and $57/w$. The map from $X$ to this model is defined over
+$\mathbb Q$ and has degree $9$.
+
+The genus of $Y$ is $9$. The exact modular-symbol decomposition
+has dimensions $1,1,1,1,4$, with the level-$19$ elliptic factor
+occurring twice. Only the first level-$57$ elliptic factor has
+zero central $L$-value. The involution $\sigma=\langle5\rangle$
+acts as $-1$ precisely on the four-dimensional factor, whose
+exact central ratio is $32/49$.
+Consequently $(\sigma-1)J_Y(\mathbb Q)$ is finite.
+The associated abelian fourfold has $49$ points over $\mathbb F_2$
+and $441$ points over $\mathbb F_5$. Its rational torsion order
+therefore divides $49$.
+
+We construct a saturated canonical model, check all $21$
+quadrics on its normalized genus-$9$ plane model, and recover
+the $j$-map from both the $E_4^3$ and $\Delta$ section conditions.
+The map has degree $160$. Its finite cusp signature is
+$1^4 2^2$, whereas its global cusp signature is $1^2 2^3$.
+The proven finite Jacobian is
+\[
+ J_Y(\mathbb F_2)=[105,210].
+\]
+All finite cusp classes generate $[21,210]$.
+Their images under $\alpha=\sigma-1$ generate $[7,7]$;
+this is the entire finite image of $\alpha$, since the image
+abelian fourfold has order $49$ over $\mathbb F_2$.
+
+In the dual convention the Eichler--Shimura annihilator at $5$ is
+\[
+ A_5=T_5-\langle5\rangle-5.
+\]
+It kills the rational finite image of $\alpha$.
+Indeed that image has rank zero and order prime to $5$.
+We compute its action at the cusps by the dual boundary formula
+\[
+ T_5=\langle5\rangle\mathrm{Frob}_5+
+ 5\mathrm{Frob}_5^{-1}.
+\]
+In the exact finite cusp order, the widths, diamond permutation
+and Galois permutation are respectively
+\[
+ (1,19,57,3,57,1),\quad
+ (6,2,5,4,3,1),\quad(1,2,5,4,3,6).
+\]
+The induced operator respects every relation of the finite
+$\alpha$-image, and its kernel is a subgroup $K\simeq C_7$.
+Thus the reduction of the rational $\alpha$-image is contained
+in $K$.
+
+For $d\leq5$, the Hasse bound gives
+$\#E(\mathbb F_{2^d})<57$, so no noncuspidal source place
+has degree at most $5$. An independent enumeration of every
+finite-field $j$-invariant and every twist gives the qualified
+$j$-polynomial counts
+\[
+\begin{array}{c|rrrr}
+ d&6&7&8&9\\ \hline
+ \text{qualified twists}&2&14&8&1\\
+ \text{closed }j\text{-polynomials}&1&2&1&1.
+\end{array}
+\]
+Both entries in degrees $6$ and $9$ have $j=0$.
+Since $57$ is squarefree, divisibility of the curve order by
+$57$ is equivalent to existence of a point of order $57$.
+It is preserved by isogeny, so this same census contains the
+$j$-values on the dual quotient model.
+
+The source cusp signatures globally and at $2$ are
+\[
+ 1^{18}2^9 18^2,\qquad 1^{18}2^9 9^2 18.
+\]
+All cusp places of degree at most $3$ are globally intact.
+They are the point-model width-$57$ rational cusps and
+width-$19$ quadratic cusps. Their images have dual widths
+$1$ and $3$ and are rational closed cusp divisors.
+A noncuspidal support of degree $d\geq6$ therefore has a
+rational cuspidal complement of degree at most $3$.
+After normalization at a rational cusp, its normed $\alpha$-class
+must belong to $K$.
+
+We enumerate every closed place of $Y$ of degree at most $9$.
+Their counts are
+\[
+ (6,9,0,2,0,0,24,24,64).
+\]
+Independent canonical coordinates account for every place and
+agree with the exact Frobenius polynomial.
+For every $d=6,7,8,9$, we retain every place of degree $e\mid d$
+whose $j$-polynomial occurs in the qualified degree-$d$ census,
+and apply the norm multiplicity $d/e$.
+This containing set has $23$ cases. Testing their normalized
+$\alpha$-classes against $K$ leaves exactly
+\[
+ (d,e,d/e)=(6,2,3),(8,8,1),(8,8,1).
+\]
+The first image has $j=0$ and is fixed by $\sigma$.
+The other two are interchanged by $\sigma$ and lie above
+\[
+ x^8+x^7+x^6+x^3+x^2+x+1.
+\]
+Thus all noncuspidal degree-$7$ and degree-$9$ reduction
+possibilities are excluded.
+
+Finally the only non-global source cusp places of degree at
+most $9$ are the two nonic places splitting one global
+cusp orbit of degree $18$. Each maps, with norm $9$, to one of
+the two dual width-$57$ cusps.
+For both choices, the normalized $\alpha$-class lies outside $K$.
+These two entirely cuspidal reductions are also excluded.
+Every other entirely cuspidal reduction is globally intact,
+as claimed.
+\end{proof}
+
+The three surviving images and the globally intact cuspidal
+reductions remain to be excluded or lifted. This proposition
+does not determine whether $C_{57}$ occurs in degree $9$.

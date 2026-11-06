@@ -1,0 +1,80 @@
+{
+  "purpose": "Stable local pins of model, rank reference, independent norm-control inputs, fast Hecke source and finite input",
+  "snapshots": [
+    {
+      "source": "work/degree9/shared/fast_hecke.m",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/fast_hecke.snapshot.m",
+      "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+    },
+    {
+      "source": "work/degree9/prime_orders/continued_20261026/P49/refs/DEHMZ_source.tex",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/DEHMZ_source.snapshot.tex",
+      "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+    },
+    {
+      "source": "work/deg10/next_cases_20261030/C69/cover_results_v2.m",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/cover_results_v2.snapshot.m",
+      "sha256": "59d19f28e281262bc9b1e95870dcafb885eb644cfaf30cec8e786988c275ed82"
+    },
+    {
+      "source": "work/deg10/next_cases_20261030/C69/cover_model_v2.m",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/cover_model_v2.snapshot.m",
+      "sha256": "71d55560f6a82205b91213aed30fd1f5c0098c0f6f1db7e0872e61466ca3de64"
+    },
+    {
+      "source": "work/deg10/next_cases_20261030/C69/base_j_functions.m",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/base_j_functions.snapshot.m",
+      "sha256": "ed2ea83387198c1bd323f4e8a417def08d5aa323965bfeedcea166398005d3e8"
+    },
+    {
+      "source": "work/deg10/next_cases_20261030/C69/independent_moduli_isogenies_v4.json",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/independent_moduli_isogenies_v4.snapshot.json",
+      "sha256": "e35bd51fb7478dcec3796f259a87c85d755569a490f38d7fbec75a4c2d31edf1"
+    },
+    {
+      "source": "work/deg10/computations/cont69_independent_moduli_v4.py",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/independent_norm_control_source.snapshot.py",
+      "sha256": "dd2d420cf3fd8692dab4b0c3bd68de27e0e7857c5751ce974066eb760e7cc478"
+    },
+    {
+      "source": "work/deg10/next_cases_20261030/C69/small_cover_verified_partial.json",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/small_cover_verified_stage.snapshot.json",
+      "sha256": "4314c40824424a008495f68abde8352c08ac9f3211b729f526e7b3d34f2a6526"
+    },
+    {
+      "source": "work/deg10/next_cases_20261030/C69/direct_full/selected_input.m",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/selected_input.snapshot.m",
+      "sha256": "f708511b42aaa13acc9d3ee4595719954ae292905f33eb4babd2ebdf5fc76f8b"
+    },
+    {
+      "source": "work/deg10/next_cases_20261030/C69/direct_full/selected_hecke_input.m",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/selected_hecke_input.snapshot.m",
+      "sha256": "5221ca140aa78daa6cee4a698f9c8960fb7c43ced2b36b7083bb4974a4d607ef"
+    },
+    {
+      "source": "work/deg10/shared/mdmagma/v2/modular_curves/X1.m",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/mdmagma_X1.snapshot.m",
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f"
+    },
+    {
+      "source": "work/deg10/shared/mdmagma/models_X1_n/FFFc23.txt",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/mdmagma_model_X1_23.snapshot.txt",
+      "sha256": "7c8ef20718e262ce585ce1a9e280658b063f26095c1fcb59c1147415d5560f6f"
+    },
+    {
+      "source": "work/deg10/shared/mdmagma/X1_N_equations.m",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/mdmagma_X1_N_equations.snapshot.m",
+      "sha256": "4a344f4e1ca7c09a8d9a61828912ca316a39e5feebc04cfe3051dbf9843c94a7"
+    },
+    {
+      "source": "work/deg10/shared/mdmagma/LICENSE",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/mdmagma_LICENSE.snapshot",
+      "sha256": "de33dba20e562aa9800d97371351ff738181a155bbba218960299c71f1d40392"
+    },
+    {
+      "source": "work/deg10/computations/cont69_q67_parent_native_v2.m",
+      "snapshot": "work/deg10/next_cases_20261030/C69/proof_dependencies/parent_native_replay_source.snapshot.m",
+      "sha256": "564a0aa71a6d4c4a47393a20671dfbab2185f858c4d30ec9a718309ab0aaaf5a"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+CUSP_DEGREES X_1(2,28) over Q: [(1, 12), (2, 6), (6, 4)] number of cusps 48
+CUSP_SPLITTING X_1(2,28) mod 3 (degree over Q, degrees over F_3) -> count: [((1, (1,)), 12), ((2, (2,)), 6), ((6, (3, 3)), 2), ((6, (6,)), 2)]
+CUSP_DEGREES X_1(70) over Q: [(1, 24), (4, 6), (6, 4), (12, 2)]
+CUSP_SPLITTING X_1(70) mod 3 (degree over Q, degrees over F_3) -> count: [((1, (1,)), 24), ((4, (4,)), 6), ((6, (6,)), 4), ((12, (12,)), 2)]
+CUSP_DEGREES X_1(70) over F_3: [(1, 24), (4, 6), (6, 4), (12, 2)] number of cusps 96
+CUSP_DEGREES X_1(3,33) over F_4: [(1, 40), (5, 8)] number of cusps 80
+CUSP_DEGREES_DONE

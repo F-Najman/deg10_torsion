@@ -1,0 +1,19 @@
+{
+  "purpose": "late226_hecke_s7",
+  "script": "computations/late226_hecke_s7.m",
+  "script_sha256": "4d437eeb6df668a681a306c4763cf7f2349c6f3884a220cb32ab1e1db1c34611",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_hecke_s7.m"
+  ],
+  "pid": 960036,
+  "owner_uid": 1001,
+  "start_time_unix": 1793317214.902617,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/late226_hecke_s7.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 497.9392750263214
+}

@@ -1,0 +1,49 @@
+\begin{lemma}\label{lem:decic318-last-cuspidal-classes}
+Let $F=\mathbb Q(\zeta_3)$ and $X=X_1(3,18)$ over $F$.
+After the preceding finite and relative tests, every noncuspidal
+$F$-rational effective divisor of degree $5$ on $X$, after applying
+an automorphism in the order-$27$ marking group $G$, is linearly
+equivalent to one of the following two cuspidal divisors:
+\[
+\begin{split}
+ A_1={}&-C_3-C_4+C_8+2C_{14}+C_{15}+C_{19}+C_{21}+C_{23},\\
+ A_2={}&-C_1-C_2+C_3+C_8-C_9+2C_{10}+C_{15}+C_{19}
+          -C_{20}+2C_{22}+C_{24}.
+\end{split}
+\]
+Here the $C_i$ are the global closed cusp divisors in the order
+specified by their $65$ modular-unit valuations in
+\path{short_cusp_divisors.m}. All cusps occurring in these
+two expressions are $F$-rational. For each $i$, we have
+$h^0(X,A_i)\leq1$.
+\end{lemma}
+\begin{proof}
+Let $c_0$ be the first rational cusp, and put
+$\mathcal C=\langle[C_i-(\deg C_i)c_0]:1\leq i\leq24\rangle$.
+Its order is $20253807$. We use the established rank-zero
+input for $J(F)$ and injectivity of torsion at the two split
+odd primes $7$ and $13$.
+
+There are four remaining normalized pairs of reductions. Their labels
+at $13$ are $106,1168,1202,1520$, and the two possible source
+patterns at $7$ are $3514$ and $3561$.
+Both source classes $[D_7-5c_0]$ belong to the reduction of
+$\mathcal C$. Since rational torsion injects at $7$, this forces
+the global class $[D-5c_0]$ itself to belong to $\mathcal C$.
+The classes labelled $1168$ and $1520$ at $13$ do not belong
+to its reduction, so these two cases are impossible.
+
+For labels $106$ and $1202$, the actual unmultiplied classes
+at both primes agree with $[A_1-5c_0]$ and $[A_2-5c_0]$,
+respectively. The normalization uses the actual cusp
+permutation and the correction $5(gc_0-c_0)$.
+The lattice calculations retain the full native class
+coordinates; no cuspidal generation statement for $J(F)$
+is assumed. Injectivity at $7$ now gives the claimed global
+linear equivalences.
+
+Finally, \cite[Table~1]{NV} gives
+$\operatorname{gon}_{\mathbb F_7}X\geq6$, hence
+$\operatorname{gon}_F X\geq6$. It follows that
+$h^0(X,A_i)\leq1$.
+\end{proof}

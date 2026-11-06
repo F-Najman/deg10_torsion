@@ -1,0 +1,393 @@
+{
+  "status": "PASS",
+  "excluded_case_ids": [
+    33546,
+    35341,
+    35579,
+    35601,
+    35633,
+    39662,
+    39669,
+    56937,
+    59070
+  ],
+  "remaining_direct_Hecke_case_ids": [
+    26
+  ],
+  "independent_source_summands": 16,
+  "independent_kernel_Frobenius_orbits": 78,
+  "independent_geometric_kernels": 240,
+  "fresh_native_RR_tests": [
+    [
+      "A11pure",
+      33546,
+      1,
+      0
+    ],
+    [
+      "A11pure",
+      39662,
+      1,
+      0
+    ],
+    [
+      "A11pure",
+      39669,
+      1,
+      0
+    ],
+    [
+      "A11pure",
+      56937,
+      1,
+      0
+    ],
+    [
+      "A11pure",
+      59070,
+      1,
+      0
+    ],
+    [
+      "A17s0",
+      35579,
+      2,
+      0
+    ],
+    [
+      "A17s0",
+      35633,
+      1,
+      0
+    ],
+    [
+      "A17s1",
+      35341,
+      1,
+      0
+    ],
+    [
+      "A17s1",
+      35601,
+      1,
+      0
+    ]
+  ],
+  "all_owned_workers_exited": [
+    {
+      "name": "next242_case26_phases.status",
+      "pid": 2427102,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_cheap_stabilizers.status",
+      "pid": 2396063,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_direct_A11_pure_v2.status",
+      "pid": 2414415,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_direct_A17_s0_v2.status",
+      "pid": 2414428,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_direct_A17_s1_v2.status",
+      "pid": 2414434,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s0_eight.status",
+      "pid": 2372861,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s1_eight.status",
+      "pid": 2372794,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s2_eight.status",
+      "pid": 2372820,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s3_eight.status",
+      "pid": 2372824,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s4_eight.status",
+      "pid": 2372837,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s5_eight.status",
+      "pid": 2372867,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s6_eight.status",
+      "pid": 2372815,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D10s7_eight.status",
+      "pid": 2372831,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D7.status",
+      "pid": 2355677,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D8.status",
+      "pid": 2355636,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_D9.status",
+      "pid": 2355642,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_merge_eight.status",
+      "pid": 2378148,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_filter14_small.status",
+      "pid": 2355630,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_frobenius.status",
+      "pid": 2355075,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_independent_norm_A11pure.status",
+      "pid": 2439648,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_independent_norm_A17s0.status",
+      "pid": 2439696,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_independent_norm_A17s1.status",
+      "pid": 2439667,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s0.status",
+      "pid": 2381204,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s1.status",
+      "pid": 2381224,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s2.status",
+      "pid": 2381183,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s3.status",
+      "pid": 2381214,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s4.status",
+      "pid": 2381209,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s5.status",
+      "pid": 2381195,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s6.status",
+      "pid": 2381237,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D10s7.status",
+      "pid": 2381229,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D7.status",
+      "pid": 2363303,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D8.status",
+      "pid": 2363293,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_D9.status",
+      "pid": 2363494,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_native_small.status",
+      "pid": 2363287,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_order3_phases.status",
+      "pid": 2399829,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s0.status",
+      "pid": 2379028,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s1.status",
+      "pid": 2379191,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s2.status",
+      "pid": 2379058,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s3.status",
+      "pid": 2379207,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s4.status",
+      "pid": 2379063,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s5.status",
+      "pid": 2379062,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s6.status",
+      "pid": 2379070,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D10s7.status",
+      "pid": 2379192,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_D9.status",
+      "pid": 2363262,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_projection_replay_low.status",
+      "pid": 2362240,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source10_profile.status",
+      "pid": 2355650,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source10_s0.status",
+      "pid": 2356093,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source10_s1.status",
+      "pid": 2356066,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source10_s2.status",
+      "pid": 2356080,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source10_s3.status",
+      "pid": 2356089,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_source_merge.status",
+      "pid": 2372001,
+      "actual_exit_code": 0,
+      "process_absent": true
+    },
+    {
+      "name": "next242_target14_setup.status",
+      "pid": 2355053,
+      "actual_exit_code": 0,
+      "process_absent": true
+    }
+  ],
+  "paused_workers": 0,
+  "automatic_launchers": 0,
+  "finished_utc": "2026-10-30T18:30:09.368357+00:00"
+}

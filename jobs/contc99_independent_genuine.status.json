@@ -1,0 +1,18 @@
+{
+  "purpose": "contc99_independent_genuine",
+  "script": "computations/contc99_independent_genuine.py",
+  "script_sha256": "dfb42b6f40be191e2eec02cf2ed82475907faf39b65f1c1e2fcdc1e91c2836f2",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc99_independent_genuine.py"
+  ],
+  "pid": 2732357,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398679.728954,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/contc99_independent_genuine.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 7.025370121002197
+}

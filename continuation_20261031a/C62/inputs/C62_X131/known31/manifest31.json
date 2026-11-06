@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "scope": "Positive known31 binding and gonality rigidity only; finite classification supplied by root C62 packet",
+  "files": {
+    "verify_known31.py": {
+      "bytes": 5903,
+      "sha256": "2fa310b64241b01f637b3c992c11717e54c1ddf88e36364a149c2e386283b8b8"
+    },
+    "verify_known31.log": {
+      "bytes": 370,
+      "sha256": "9cef177595a3a453dcbae0b65f2816eb13802bd23febe2dc7c1e19a352ed61ae"
+    },
+    "actual_exit31.json": {
+      "bytes": 413,
+      "sha256": "ce49c840d6385027c00b796155039dcaf2b99bdcd580ffb46d4c9d5a11c0aa67"
+    },
+    "rigidity31.tex": {
+      "bytes": 3453,
+      "sha256": "6b51e7ff031259092c41b9665bb531ac094eb97e2b3ed9ca1b1473e716cb3d90"
+    },
+    "certify_known31.py": {
+      "bytes": 997,
+      "sha256": "7b18f62352dfbdc08b4daed30e714a39e78646b566e451e6fd8bae072af3b44b"
+    },
+    "binding31.json": {
+      "bytes": 11121,
+      "sha256": "79e6595c32737cabce866f93a468acf2ca6568f7f6b662ba778206de2adc9255"
+    },
+    "inputs/classification62.json": {
+      "bytes": 285287,
+      "sha256": "a53074ecb6e8650e119155b7ae00a47e48bd4ba5d85b91ce33229a55e63ebb8d"
+    },
+    "inputs/finite_points62.jsonseq": {
+      "bytes": 629255,
+      "sha256": "481df3c6e997bba4ba38e79a44e139ea3451da5a564de78c48a06f45312cd903"
+    },
+    "inputs/geometry62.json": {
+      "bytes": 7749,
+      "sha256": "a49a002f25507cd025788eed3af2a64a8981a8fe98f01a17644313bd417f416a"
+    },
+    "inputs/vanhoeij_nonic_input.json": {
+      "bytes": 11633,
+      "sha256": "fed7f3544fbea4b88cebdfb9996bec5549de4a499dfefc81960378254a1f8ce5"
+    }
+  }
+}

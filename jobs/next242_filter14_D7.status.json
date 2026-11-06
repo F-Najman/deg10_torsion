@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_filter14_D7",
+  "script": "computations/next242_filter14_D7.m",
+  "script_sha256": "347c2a102f93c6cba5435f5e4f14175e5cb724240940c755738d20c40ff16ab2",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_filter14_D7.m"
+  ],
+  "pid": 2355677,
+  "owner_uid": 1001,
+  "start_time_unix": 1793380933.0442028,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/next242_filter14_D7.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 11.335057973861694
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "late226_cusp_preimages",
+  "script": "computations/late226_cusp_preimages.m",
+  "script_sha256": "4e248c295a1c33e2a1eb02b48368ca37a844c8bc683df1eb82ab07867fcc7167",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_cusp_preimages.m"
+  ],
+  "pid": 974122,
+  "owner_uid": 1001,
+  "start_time_unix": 1793317907.2064643,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/late226_cusp_preimages.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 21.898401975631714
+}

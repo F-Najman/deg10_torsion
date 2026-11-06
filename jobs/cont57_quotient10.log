@@ -1,0 +1,15 @@
+Loading "work/deg10/continuation_20261030b/C57/inputs/native_group_generators.m"
+Loading "work/deg10/continuation_20261030b/C57/inputs/class_group_direct_RR_checked_v4_fastfb.m"
+Loading "work/deg10/continuation_20261030b/C57/inputs/finite_j_model_data.m"
+Loading "work/deg10/continuation_20261030b/C57/inputs/diamond5_data.m"
+DECIC57_CUSP_DIAMOND_EXACT permutation=[ 6, 2, 5, 4, 3, 1 ] time=0.280
+DECIC57_NONGLOBAL_CUSP_9_PLUS_1_EXCLUDED
+Loading "work/deg10/continuation_20261030b/C57/census10_records.m"
+DECIC57_CENSUS_JPOLYNOMIALS count=6 degrees=[ 10, 10, 10, 10, 10, 10 ]
+DECIC57_TARGET_DEGREE_TESTED d=1 places=6 tested=0 kept=0 time=2.410
+DECIC57_TARGET_DEGREE_TESTED d=2 places=9 tested=0 kept=0 time=2.660
+DECIC57_TARGET_DEGREE_TESTED d=5 places=0 tested=0 kept=0 time=2.660
+DECIC57_TARGET_DEGREE_TESTED d=10 places=120 tested=48 kept=6 time=5.530
+DECIC57_QUOTIENT9_NC_FILTER tested=48 kept=6 complete=true time=5.530
+DECIC57_FINITE_ALPHA_A5_KERNEL G=[ 105, 210, 0 ] cuspgroup=[ 21, 210 ] alpha_cusps=[ 7, 7 ] A5kernel=[ 7 ] widths=[ 1, 19, 57, 3, 57, 1 ] frob5=[ 1, 2, 5, 4, 3, 6 ] time=5.560
+DECIC57_QUOTIENT9_NC_EXPORT_COMPLETE

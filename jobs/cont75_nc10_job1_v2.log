@@ -1,0 +1,53 @@
+N75_GON5_CANONICAL_RESULTANT_START 12 13 0.000
+N75_GON5_CANONICAL_RESULTANT_FACTORS [ <1, 48>, <1, 20>, <5, 1> ]
+0.000
+N75_GON5_CANONICAL_BASE_MODEL_VERIFIED 5 12 0.040
+N75_GON5_CANONICAL_DEGREE20_GENUS_START 0.180
+N75_GON5_CANONICAL_GENUS73_MODEL_VERIFIED 23.190
+Loading "work/degree9/cyclic/continuation_20261026/N75_geometry/noncyclic/deps/pair_af_place_linear_C48.m"
+Loading "work/deg10/continuation_20261030b/C75/census10_records.m"
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=23.230
+DECIC75_INPUT_READY case=1 degree10=true time=23.750
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=23.780
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=24.330
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=25.690
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=26.930
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=27.480
+DECIC75_A7_RR_COMPLETE case=1 h0=0 Tdegree80=true point_convention=true metadata=[
+[ 1, 10, 1 ],
+[ 3, 30, 1 ],
+[ 3, 30, 1 ],
+[ 1, 10, 1 ]
+] time=29.360
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=29.410
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=29.470
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=29.530
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=29.580
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=29.650
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=29.710
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=29.770
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=29.820
+DECIC75_NATIVE_GEOMETRIC_HECKE_CONTROL_PASS case=1 common=30 geometric_kernels=8 time=29.840
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=29.870
+DECIC75_INPUT_READY case=2 degree10=true time=30.390
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=30.410
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=30.960
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=32.310
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=33.630
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=34.180
+DECIC75_A7_RR_COMPLETE case=2 h0=0 Tdegree80=true point_convention=true metadata=[
+[ 1, 10, 1 ],
+[ 3, 30, 1 ],
+[ 3, 30, 1 ],
+[ 1, 10, 1 ]
+] time=36.000
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=36.040
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=36.110
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=36.180
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=36.240
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=36.310
+DECIC75_RELATIVE_POINT_IDEAL base_degree=30 residue_degree=1 time=36.370
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=36.430
+DECIC75_RELATIVE_POINT_IDEAL base_degree=10 residue_degree=1 time=36.480
+DECIC75_NATIVE_GEOMETRIC_HECKE_CONTROL_PASS case=2 common=30 geometric_kernels=8 time=36.500
+DECIC75_NC10_JOB_COMPLETE job=1 cases=[ 1, 2 ] time=36.510

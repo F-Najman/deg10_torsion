@@ -1,0 +1,8 @@
+DECIC51_NEW_JET_SETUP genus=65 Udim=62 rational=16 quadratic=8 octic=4 time=311.480
+DECIC51_NEW_RATIONAL_CAP10_DONE rank10=10 time=320.790
+DECIC51_NEW_QUADRATIC_CAP5_DONE rank10=10 time=378.980
+Loading "work/degree9/cyclic/continuation_20261026/N51_geometry/cyclic_sieves/N51_frozen_jets.m"
+FI_JET_DATA_READY
+DECIC51_BASIS_ALIGNMENT_DONE dimension=1 invertible=true anchor_degree=8 time=379.640
+DECIC51_NINE_PLUS_ONE_RANKS_DONE cases=15 rank=10 time=379.640
+DECIC51_NEW_JETS_COMPLETE rational_cap10=true quadratic_cap5=true nine_plus_one=15 unique_basis_alignment=true time=379.640

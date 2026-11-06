@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C56_base_operator_s1",
+  "script": "computations/d31b_C56_base_operator_s1.m",
+  "script_sha256": "cd5f2d4e7137db25650f50ad644d8beddd2f1853790f1fef3c6bd42adab0b234",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_base_operator_s1.m"
+  ],
+  "pid": 3653654,
+  "owner_uid": 1001,
+  "start_time_unix": 1793441670.7596712,
+  "state": "EXITED",
+  "time_limit_seconds": 550,
+  "log": "jobs/d31b_C56_base_operator_s1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 22.510090351104736
+}

@@ -1,0 +1,707 @@
+{
+  "degree": 10,
+  "excluded_groups": [
+    [
+      1,
+      57
+    ]
+  ],
+  "complete_exclusion": true,
+  "source_genus": 85,
+  "prime": 2,
+  "rank_zero_assumed": false,
+  "positive_factor": "57a1; its diamond action is trivial",
+  "proof": "resolution.tex",
+  "proof_status": "complete; independent arithmetic replay PASS; parent mathematical review PASS",
+  "quotient_genus": 9,
+  "new_degree10_qualified_twists": 60,
+  "new_degree10_j_orbits": 6,
+  "new_quotient_candidates": 48,
+  "new_quotient_survivors": 6,
+  "all_physical_cyclic_subgroup_orbits": 12,
+  "required_source_orbits": 6,
+  "required_source_test_indices": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "numerical_source_tests": 8,
+  "nonprincipal_divisor_positive_degrees": [
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110
+  ],
+  "cusp_configurations": 2383311,
+  "all_quadratic_cusp_configurations": 1287,
+  "cusp_FI_rank": 10,
+  "point_Hecke_convention": "T5-1-5sigma",
+  "point_divisor_source_coefficients": [
+    1,
+    4,
+    -5
+  ],
+  "canonical_mu_convention": "Tell-diamond(ell)-ell",
+  "failed_noncertificate_jobs": [
+    {
+      "name": "cont57_verify_jets",
+      "actual_exit_code": 1,
+      "reason": "common-field selection could not embed degree50 targets into degree10; corrected in v2 and final v3"
+    }
+  ],
+  "all_jobs_exited": true,
+  "tracked_jobs": 23,
+  "earlier_accepted_evidence_unchanged": 170,
+  "created_utc": "2026-10-30T19:29:03.730480+00:00",
+  "files": [
+    {
+      "path": "work/deg10/continuation_20261030b/C57/README.txt",
+      "sha256": "c8efbe7473763cb7954a2b2a6de9c62d75dd74627c1f358dbf15e97d5e951c22",
+      "size": 2001
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/all_cusp_FI_sage_certificate.json",
+      "sha256": "ea5190d911cd2ed43ca62c8ee799423e83719f4f10fbe3bd02374d8d16ad5010",
+      "size": 1164
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/census10_records.m",
+      "sha256": "6db685335447cc1f7c92257bcd19045e680b72fdec403712edc942200a3837e2",
+      "size": 20279
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/certify57.py",
+      "sha256": "b217cc0d6e287a71462b6031012ddec0538b22a32931d9bb4a607d81b6ed7248",
+      "size": 4035
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_RR.m",
+      "sha256": "8b0b50446f1e477ac5370809bd7b8beeb42c8eff7cf7a1109010d9da6e78dc23",
+      "size": 2507
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_RR_v2.m",
+      "sha256": "91ce58b20e6240b1d43e301caea84bd80b2254ce2abe155e99a28bb68f1e1b10",
+      "size": 2519
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_assemble_RR.py",
+      "sha256": "a3bea96100077024d1d0d3dde55c28c8b89134a188dd26bd120e826771811471",
+      "size": 2906
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_assemble_RR_v2.py",
+      "sha256": "c7d149f8c1bc7c6626c722eaeea471c843b6acd94e567bd8ffa76a6f5374a08b",
+      "size": 2930
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_census10.m",
+      "sha256": "4bd779098e782e806e4c34ec9b62202c1e1b3d9b1d8e78b0fcd7820ff7cb691f",
+      "size": 1729
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_cusp_FI.py",
+      "sha256": "333bec20fb4ed17bbaf977355e02bb3a4a0a0eb7797ac28ef2a3d107ed92d54a",
+      "size": 5218
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_dual_match.m",
+      "sha256": "8388de7dcea1abd441f9f50a7829e801ca34dd7cc1b463245633e3c7518e9737",
+      "size": 2719
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_good10_1.m",
+      "sha256": "80be6071a95f50a45e5e2facf2a4f8844afc55c5be344a04d5de8a20bf50c5aa",
+      "size": 5703
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_good10_2.m",
+      "sha256": "cadc8eeb59bda95a9cb07ca58d77b29340c7930a8a8fa631ce4d70e2e31922fd",
+      "size": 5703
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_good10_3.m",
+      "sha256": "96da6744f671152743450e991c4fea305e2901b59f522d9a59c412af4439c5ee",
+      "size": 5703
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_good10_4.m",
+      "sha256": "6659fb2529bc7e375e5130d5308c7b557640a5de865aa7cd18086fc04522364d",
+      "size": 5703
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_good10_5.m",
+      "sha256": "66758d1da924681a431b3625aea3ed0ba70ebb47c3d1fda82b6984eaf0d28bef",
+      "size": 5703
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_good10_6.m",
+      "sha256": "681fc79726f77e14906be5a3a61f24469ff32bf93ee6cea78acc6f07b7106a58",
+      "size": 5703
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_good10_7.m",
+      "sha256": "5f2f37804ead3f32b29ae561046aff19888d84fd234c5de9f5ff0408f56d4392",
+      "size": 5738
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_good10_8.m",
+      "sha256": "c97756e576d2f3102de6ba564689422d2d46a7a5bdac833829f8ed9d26b4ca33",
+      "size": 5738
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_level_survey.m",
+      "sha256": "12f31ae58c27e0be82c2795b873ff3dd96845b06ebfb725876390d20c8a7ab81",
+      "size": 1921
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_quotient10.m",
+      "sha256": "aa9ddb655d7e4e71716bcaf91afb169487f6a8ab54b5126042737d59eabe9b95",
+      "size": 6419
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_verify_RR.py",
+      "sha256": "99e50bcc4f0e987b43075dd47db38c0afd98d1489dfc862ec0a836eadd355eab",
+      "size": 5963
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_verify_RR_v2.py",
+      "sha256": "82049048cd1821ae1c533fb20dca1222d78cd338e2d2f71c72396052958c1e3a",
+      "size": 5983
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_verify_coverage.py",
+      "sha256": "e84dd6a5aa1ef55329ffbbd86e6fa680a8b823d1ccf86951478adc5d1e22dc8f",
+      "size": 3400
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_verify_jets.py",
+      "sha256": "ebece7455ec389acfe2fe4ee148a91bfbff7682cc1a9593f190af9710fe43a37",
+      "size": 7757
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_verify_jets_v2.py",
+      "sha256": "4ac4ee370e77e62cbe8916b68585c6ab855941d52f27c3c254d68d008253b8b6",
+      "size": 8236
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/cont57_verify_jets_v3.py",
+      "sha256": "d31a0c8f8a68e18169d6e1ef8a0c4ba3405ccf08da5c85bc1e97c1c801762506",
+      "size": 8236
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/finite_RR.log",
+      "sha256": "c2334d8717e61449d600b7e9e2d7e1f1fb5d3adbbd50acf6f13a70f8153fa43c",
+      "size": 5092
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/finite_RR.log.witnesses.py",
+      "sha256": "978a3caf2caf00eb013e126ba4422ec4752b61cf81a5574a2ef9e990f275e813",
+      "size": 60022
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/finite_group_A5_dual_verified_data.txt",
+      "sha256": "a5fbdaf3aabc4fdcc8522aec49d55ce052883a1bb8aedd81e8cef540bea7d6ec",
+      "size": 466
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/good10_1_jets_data.txt",
+      "sha256": "027c4150d3fa2b977eaeda0bb5db6b7e976d9bc98e2d3103762d56f9d966ec42",
+      "size": 2078721
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/good10_2_jets_data.txt",
+      "sha256": "ab3642817247a87b9829c70ed8d29f8957dee2bf560946c95d622783739b1820",
+      "size": 2078721
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/good10_3_jets_data.txt",
+      "sha256": "798dffb317392fcf6d8f9fed1bec0ff7e49cdd8050d8590e3ad5236db5fe6518",
+      "size": 2078721
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/good10_4_jets_data.txt",
+      "sha256": "66bc42b2c0eabf2c88fb6bf492b39f4b49490f7f6f06ac35ab8def30a492f150",
+      "size": 2078721
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/good10_5_jets_data.txt",
+      "sha256": "ad984f2e9c5b7a537427c234dc9c740bc82ca655280b3640f6a388341a0888cd",
+      "size": 2078721
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/good10_6_jets_data.txt",
+      "sha256": "55c22d2dcf0d2088412d67c6880b42aba2d29e4b1405b8272172d3b08d4d631a",
+      "size": 2078721
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/good10_7_jets_data.txt",
+      "sha256": "e8545c131a0141400ce21125dbea6cd694c68b84e35e0c61f7ebaf4140920ac3",
+      "size": 2078721
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/good10_8_jets_data.txt",
+      "sha256": "45d777b1af8cfff788107609d8bead19a79039c70fcd3867ae391b2bce08db37",
+      "size": 2078721
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/good_jets_sage_certificate_v2.json",
+      "sha256": "a6b49a5272c1bc306182e26e97e50f27b0e00a83d09e55338431598bf36b07d1",
+      "size": 1611
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/good_jets_sage_certificate_v3.json",
+      "sha256": "352cf4b3eed848acc21d5c3c95641834b713b76dfe8952869301f7cf0aa628bc",
+      "size": 1987
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inherited_evidence_verified.json",
+      "sha256": "94596c2e0e44020ae9d2098830af050177a4c3634d81224b38c19a8f9ce367c1",
+      "size": 34989
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/input_origins.json",
+      "sha256": "40d74eaf0999aa890d51da7bf9202d3a98dbbe83e4b32e9dce9bca67d44e7782",
+      "size": 2657
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/annihilator_data.m",
+      "sha256": "7ae4c69e8551062a74451bf2a20508e988a0f5d9bac96083a7671bb0d2cc67ec",
+      "size": 129891
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/canonical_unit_data.m",
+      "sha256": "ad021454ea0799777f2051d453549eb99878bfecaf5735a4216d58eebd9ea986",
+      "size": 360823
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/class_group_direct_RR_checked_v4_fastfb.m",
+      "sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6",
+      "size": 5741
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/diamond5_data.m",
+      "sha256": "08cb2ce1f84c93d964f7c72bf8137c5ed3db23db30fc2b602f4d4c8b2d87b9be",
+      "size": 301
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/explicit5_isogenies.m",
+      "sha256": "2d4d94f812e316242f02a957588c90f45a32e035332379255bf316490fec04ee",
+      "size": 2686
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/finite_j_model_data.m",
+      "sha256": "41e50cfabfee36ca88a65230a7bc8da48dbb3060c57b91e15b6022790964edde",
+      "size": 5312
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/native_group_generators.m",
+      "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1",
+      "size": 1828
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/pole_degrees_sage_certificate.json",
+      "sha256": "23091198951fc3d63e374ddaae6c78d46248466701e6207a3dc1a6718bcc0a38",
+      "size": 3687
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/qbasis_data.m",
+      "sha256": "0c95e11b2e0fca8ff4b3c662dc5005414751d13cedb0c8e12e57b6cc4851822f",
+      "size": 302281
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/quadratic_cusp_arc_data.txt",
+      "sha256": "962c5c761cda1599b52682ab6954fcd2db46fab3d5308b037b6dcee93c031514",
+      "size": 18355
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/ring12_tensor.txt",
+      "sha256": "e10a9ae9e311eea87b3aca176e704ce2999be011f1a8aae7671d59367a42de61",
+      "size": 924724
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/ring24_data.m",
+      "sha256": "b026f6380b9ad05b91fbe4caa4caf9c01c09ddc6dd0f92c6c8cd6e7ded8e8027",
+      "size": 3814765
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs/ring24_tensor.txt",
+      "sha256": "1714dbd09448d2059caccbc176e929930fc4b908d7c7e7f40e145aa6cbbb38d4",
+      "size": 18776152
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/inputs_sha256.json",
+      "sha256": "917faba59fa2cf85aabc726648df51f3e1031cc44118a0b6515a9a999e5934a5",
+      "size": 1833
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/lifecycle_final.json",
+      "sha256": "4bffbb0470d73ba4d288e95d1f314ec2be0ff7e24b2ce2449a241913a38b4ea1",
+      "size": 18372
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/matched_levels.m",
+      "sha256": "e14edb35736527158408d250dcdd568d644cab45e5b0f10106c2d8780718f71c",
+      "size": 8128
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/noncuspidal_filter_v2_data.txt",
+      "sha256": "89774b879aa47c50910716cc81e099effaacf552d7f33d01f62ffceeaa514e4b",
+      "size": 69154
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/accepted_clean_proof.tex",
+      "sha256": "d23157904aaad84164c87c56d1e085ae1b621a661ae3731e6740d1a26a426a94",
+      "size": 7692
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/accepted_degree9_manifest.json",
+      "sha256": "9e34260c8821591c62137100fb6d4fecd261bd0a127311f91123f2190b602f30",
+      "size": 33224
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/accepted_point_normalizations.tex",
+      "sha256": "978c0c615d28c25771aeec1b20e642cfce7066a17b45366cf0e0945d99b2ba52",
+      "size": 1533
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/accepted_quotient_inputs.tex",
+      "sha256": "4056ed318fecf47e8a196d2f24335f69ac9dbbd2cf72aebf229001547f4d78e3",
+      "size": 5232
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/accepted_root_review.json",
+      "sha256": "676c42bdd4798e9204eddeb16b62da251dc504101f607c77700cbbcf2213095e",
+      "size": 739
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/old_genuine_jets_certificate.json",
+      "sha256": "06a84a7766bd05bbfa83aa328f006186772c7c112508937b8a92d7281e5b6d96",
+      "size": 1040
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/old_point_RR_certificate.json",
+      "sha256": "449cd53c7bfad1fa8fd426ac537f5b8cab5e3184b51bd09432837f5b7adbfc9a",
+      "size": 1362
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/old_quadratic_arc_certificate.json",
+      "sha256": "9662791e5fa192bc52271444ea91b90f2bc6000fa2def4a70733bf3c11834fa3",
+      "size": 403
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/proof_dependencies/winding57_data.m",
+      "sha256": "4c4f5be09870ed445de9c4a12a5fe3bb5b70492a14638878f747ac7da21406b5",
+      "size": 1318
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/quotient_frobenius2.txt",
+      "sha256": "5f29f1793ef09dad3da31be6f795909e2d87f357b5235e45deab9de8aa575e71",
+      "size": 100
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/resolution.tex",
+      "sha256": "0340633d79257a73f6ab1ebb6bfc798ef94984fe4be129e831e2a6b9599e9de9",
+      "size": 9284
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/ring_RR_all_sage_certificate.json",
+      "sha256": "d220686842df9cbe0d7e426cd91735446336d01190a19aebe4b17b650d915fcf",
+      "size": 2980
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/ring_RR_sage_certificate.json",
+      "sha256": "c82bc2a8fda8f7c760dea68baf5e45b97776fa5d5f48e5afde353577ba39ff1b",
+      "size": 2386
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/rr24_all_results.txt",
+      "sha256": "44311a8fff8dbf62699f306e5f862d7ccc5cab8e9aab92e87cfdc97a9ffd68c5",
+      "size": 13364
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/rr24_results.txt",
+      "sha256": "75deac57d7d7e1b64a1773e9c9d371629748bfd600275ad5cfcf2f4247d495ff",
+      "size": 10022
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/rr_all_divisors_data.txt",
+      "sha256": "45d2417f62525fc9635d42fbb837588c3ed4515de8ba003622cfabbae4245c28",
+      "size": 754
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/rr_all_divisors_sage_certificate.json",
+      "sha256": "d71791f9de6f7b77b4f90e12bc97b4bc3d948b79a81a02a3043d44e1e7113ed3",
+      "size": 4907402
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/rr_all_places_data.txt",
+      "sha256": "fdb6912c2c3d8d8ea6b492709d8718e81dc555b650eb00af05663503e55f5087",
+      "size": 15475715
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/rr_divisors_data.txt",
+      "sha256": "659d0c1971ba681a88d73263b10d174ce4ebcde5de5c61182ed5f6fd41fa3c8a",
+      "size": 564
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/rr_divisors_sage_certificate.json",
+      "sha256": "89f9b1526f987d4489d49c280d9f9a1348dcc56735c4718278d7eda6b72ca64d",
+      "size": 3680600
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/rr_places_data.txt",
+      "sha256": "ac7c8650dcf01b77a1adfb4cd68ac78ef9a3592dd21e57288ed8df7d6700c24b",
+      "size": 11606787
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/selected_levels.m",
+      "sha256": "ea901c71f8994c7464f2ad9b498b22d327117e79673611e66b96ab1ff836f107",
+      "size": 2279
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C57/source_coverage_verified.json",
+      "sha256": "2e7c1abc5d7d074b33cea735afdfcdbf7308dc8765477226436d10abdb0d4e7e",
+      "size": 6455
+    },
+    {
+      "path": "work/deg10/jobs/cont57_RR.log",
+      "sha256": "4ee5454fcab92711784990c3e22db5030f06677a2360f1d8a3c3da5614caf761",
+      "size": 1087
+    },
+    {
+      "path": "work/deg10/jobs/cont57_RR.status.json",
+      "sha256": "3a034dd74c3303ee7d803254877ff26be5a53326671757cfd3a1b68ae2235d94",
+      "size": 614
+    },
+    {
+      "path": "work/deg10/jobs/cont57_RR_v2.log",
+      "sha256": "b9271b5b7298c81ba965a00da2e09cb5acc66afba7b81668d22575a2d925b319",
+      "size": 1425
+    },
+    {
+      "path": "work/deg10/jobs/cont57_RR_v2.status.json",
+      "sha256": "306876b39b17405428902f4aee1faf8aeb022bcef80e413ef4571c634aecb4bf",
+      "size": 625
+    },
+    {
+      "path": "work/deg10/jobs/cont57_assemble_RR.log",
+      "sha256": "93a56f2c2a66ee1d926ae0a905f8bfe0bc841aff65652f2a3a30ca14c1016e56",
+      "size": 661
+    },
+    {
+      "path": "work/deg10/jobs/cont57_assemble_RR.status.json",
+      "sha256": "417157d2bced375ddc0062917578d114c07be43b58839d9bb759b24dad7bfeca",
+      "size": 653
+    },
+    {
+      "path": "work/deg10/jobs/cont57_assemble_RR_v2.log",
+      "sha256": "fbb91c23722254889c70e6d5b020a14694e4beb6f0d8ad367ca08f7277f3079e",
+      "size": 855
+    },
+    {
+      "path": "work/deg10/jobs/cont57_assemble_RR_v2.status.json",
+      "sha256": "10e3071b87a80f29bec48f88272f8804f4aabdf7da476daf8a0f2352b6edb385",
+      "size": 666
+    },
+    {
+      "path": "work/deg10/jobs/cont57_census10.log",
+      "sha256": "ac6e1ec37ff69d746f9ade061e613a3766013f44078ecbebec6f392c23e7a0b7",
+      "size": 153
+    },
+    {
+      "path": "work/deg10/jobs/cont57_census10.status.json",
+      "sha256": "83f56c01ed549923bced2d773373edb1f1c6a86007cc89d56be9a53bfa6e6064",
+      "size": 639
+    },
+    {
+      "path": "work/deg10/jobs/cont57_cusp_FI.log",
+      "sha256": "6fbaf07e33f648463b2f114b3bd8e637114455a7b31ae101178f7cbb7702b10e",
+      "size": 1645
+    },
+    {
+      "path": "work/deg10/jobs/cont57_cusp_FI.status.json",
+      "sha256": "f58fc0d300671347ea54af86513edbb8a0b3d3fc5d179e951e83d32cf6e07d88",
+      "size": 637
+    },
+    {
+      "path": "work/deg10/jobs/cont57_dual_match.log",
+      "sha256": "69cccb8b335ac5d08cb3a4da79555f40c15e0a5bcad1ea56afd39ed9e13c3825",
+      "size": 2705
+    },
+    {
+      "path": "work/deg10/jobs/cont57_dual_match.status.json",
+      "sha256": "5ba58d0b6bcaf42058615659763647eca3de9283410d447f677c79e94e6d3449",
+      "size": 648
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_1.log",
+      "sha256": "eb60653762f09c030bb735517daf19cd60464dafc65f93708792acc44226d8b6",
+      "size": 561
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_1.status.json",
+      "sha256": "9bd5ff276a4670b85528ea49c99d8928d2d29564171c0cfbbb235e7e94a09088",
+      "size": 638
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_2.log",
+      "sha256": "18836bf26650f857e8e52970157a2d60496d48fca91a2f773ede564d6e54da2e",
+      "size": 561
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_2.status.json",
+      "sha256": "eab437488b84086b0747807d9f576c3bf9321f0ca204dd18336e1d24f4562c7f",
+      "size": 638
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_3.log",
+      "sha256": "72798f6ea9b4617a8e115f42c9cc9498d845405d75406c47a4aaf488cfa806bd",
+      "size": 561
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_3.status.json",
+      "sha256": "8afe0989b016bef4f7a8d20782b0b41ffcf521853fc37556435deb2369803b6d",
+      "size": 638
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_4.log",
+      "sha256": "dfd4b86d99fe8738d70c5a7fa58e6d66b5702776b993c70a605d6eafa0e45526",
+      "size": 561
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_4.status.json",
+      "sha256": "76918749cc15339c388e6048eeff3aa5507e75c7f6c5cda0700a403ec591a465",
+      "size": 638
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_5.log",
+      "sha256": "bd86d9fcb2fc433a17d991e6bb439299580d04a0433b3f5bd45a78c2b4738dbb",
+      "size": 561
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_5.status.json",
+      "sha256": "38771f4e94cd1bf032a0f80fd713081617a46ef3258b15fa9481656b2d1072b2",
+      "size": 637
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_6.log",
+      "sha256": "6d5a80b9dc1997d9965cc8ac135906f9e1f5747dfa8f87e13fde236f88a6defe",
+      "size": 561
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_6.status.json",
+      "sha256": "4d556b6fb6589a3f9d896d3f839edf13ec06b6e84774a7b23d791fde898f8f5f",
+      "size": 639
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_7.log",
+      "sha256": "16840bbcd5c062036302c05e8eb3fd8f2afea22fdaea556f3df1dbbabd2e8bee",
+      "size": 560
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_7.status.json",
+      "sha256": "fbc59c92b275a1a1515192c8daee6aa5307b6b3f1d7c83dac262dc884e6eb5cd",
+      "size": 637
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_8.log",
+      "sha256": "8d919ac4b982730e93cbaedda3dc5fcf9807aa641c1191f7d925db49b81ffb67",
+      "size": 560
+    },
+    {
+      "path": "work/deg10/jobs/cont57_good10_8.status.json",
+      "sha256": "b3afc1cadd187af8635da1afc4e8f80d0dfcccb94ed3f79a86b2b36a57c776b3",
+      "size": 639
+    },
+    {
+      "path": "work/deg10/jobs/cont57_level_survey.log",
+      "sha256": "38b4c6408d1c23746c70e2721ed1b74d5ade6a7a93f0ffa4b7985393decfd279",
+      "size": 549
+    },
+    {
+      "path": "work/deg10/jobs/cont57_level_survey.status.json",
+      "sha256": "743e42620bed6d84406d22c2ac4389d3ce834367d37572a8bcffc9d881efa1ea",
+      "size": 656
+    },
+    {
+      "path": "work/deg10/jobs/cont57_quotient10.log",
+      "sha256": "e0fb57407bfa09bd3f2858a7e1ac6473817977973d4bbb62b4edb29d6bb5986e",
+      "size": 1139
+    },
+    {
+      "path": "work/deg10/jobs/cont57_quotient10.status.json",
+      "sha256": "86b9a59c3d1e19a33b1c295c2d50d54497dcfe36300d084ec9c42f939eebd125",
+      "size": 646
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_RR.log",
+      "sha256": "7df10a26d277630c314220e17d52deee1440cbada9d070f411061cc47d86e29e",
+      "size": 2492
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_RR.status.json",
+      "sha256": "126572c39f3878239f041b08281dea605fa48297a2bf7aec159fd9fc35c4a796",
+      "size": 646
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_RR_v2.log",
+      "sha256": "d4fd221406c2e03b67e6b96e5e7d6871a2a592d0c07144f5154fbf084fd82d4e",
+      "size": 3064
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_RR_v2.status.json",
+      "sha256": "3f54673f202fefca5118d4fde14cb903b7c2fa48509032a4d5e5ac58196940c0",
+      "size": 656
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_coverage.log",
+      "sha256": "fe7bdf2c88df1ea03ce535823a4dc038251e9ec3822ad1039c20a9499ee3d288",
+      "size": 1292
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_coverage.status.json",
+      "sha256": "87029c494c0d5b93fefdcef9bbdafbc48529415c6938e105684b6f187021a5e9",
+      "size": 669
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_jets.log",
+      "sha256": "ee94f48abb0d86994fe7cbc3a821e5404670e314b637102a10726b0fa1ac299a",
+      "size": 814
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_jets.status.json",
+      "sha256": "d7564c7d64c9d0a04db314fb1c347df12e2562e213cbbf351220b81ad8f513fd",
+      "size": 653
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_jets_v2.log",
+      "sha256": "5677ad67b72f11642020db3946da2609b6a5ae911488a9eac4f67d35ae5568da",
+      "size": 4758
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_jets_v2.status.json",
+      "sha256": "59f9e252fbdf24d51a19c9809e5a337f43386fe41bef1d785659f94641c73416",
+      "size": 664
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_jets_v3.log",
+      "sha256": "36137f366163fd53859d2b6b32065645862e7ac305ea533c66b08cfca68da78b",
+      "size": 6176
+    },
+    {
+      "path": "work/deg10/jobs/cont57_verify_jets_v3.status.json",
+      "sha256": "244f28f74efa6c8cf8e0e10ab1ad9563686e65971f59cd9567db1aaf7200ef75",
+      "size": 665
+    }
+  ],
+  "parent_mathematical_review": "PASS",
+  "parent_review_utc": "2026-10-30T19:30:19.429953+00:00"
+}

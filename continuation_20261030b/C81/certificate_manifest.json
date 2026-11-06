@@ -1,0 +1,1219 @@
+{
+  "status": "PASS",
+  "format": "C81 degree-10 computational certificate packet v1",
+  "summary_sha256": "f5d5a94c5cd037aa5f61b800a1ecc2f2feca538a4fd7731feca7eb72a8cc798a",
+  "file_count": 177,
+  "files": [
+    {
+      "path": "work/deg10/computations/b81_parent_rr_completions.m",
+      "sha256": "bcae3a9e1d683fc1f0a340019b02a1a14292254572568b8aea2c016bdc71d9e8",
+      "bytes": 7359
+    },
+    {
+      "path": "work/deg10/computations/b81_parent_rr_completions_v2.m",
+      "sha256": "7f1ac1836b3cfb538e34a75e3545df5662b0fdab262e7c60f890a15b7d85ea80",
+      "bytes": 7383
+    },
+    {
+      "path": "work/deg10/computations/b81_parent_two_torsion.py",
+      "sha256": "643ee284ce560bbef5ec4b80e9a7b368c756427ff934bdbb3f5ff36be72172f6",
+      "bytes": 644
+    },
+    {
+      "path": "work/deg10/computations/b81_parent_x0_filter.m",
+      "sha256": "c15643e82d5255f7c8bf149a2e4ab7332e5ef585f483d3834e2b97bd00b30204",
+      "bytes": 2459
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_case1.m",
+      "sha256": "41900b5da83482ca6ee26d6f80afc58fbef5f43a6a4b2743b2b3922e1a13082c",
+      "bytes": 69
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_case10.m",
+      "sha256": "860f4688961a33e2d2c949daa2e55e4099ae38944d059c80a7c134fd475c7657",
+      "bytes": 70
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_case2.m",
+      "sha256": "b0b19275e9b0abfb32e4c45709943309d9ecaaf4ea4a38c5154bfb28b8773c53",
+      "bytes": 69
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_case3.m",
+      "sha256": "55c2012fe0b76aa944bba2ab7b1124678094cf97ec66fdbc96308aa3bdd8477d",
+      "bytes": 69
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_case7.m",
+      "sha256": "e019570d9579b7f60d21331419b95b9da7a9ce21e891c70d31830776f99e48d0",
+      "bytes": 69
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_character_common.m",
+      "sha256": "66ecc97c55b94223757f58ae8c99f438c6e2a70a3a98caaf3820eaca7051596e",
+      "bytes": 7984
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_local_export_common.m",
+      "sha256": "6474aa145b60360bd238282425dc083a8ced377237ea0dcb52658083fd45897a",
+      "bytes": 6818
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_localmeta1.m",
+      "sha256": "8349f158914f35b0bc7cf416dd8853698d81a633d19bd50c9a91331b354c6c65",
+      "bytes": 72
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_localmeta10.m",
+      "sha256": "fdf28663da06c70a8504b4ba1aa44c33ec816dc53d08d8a3a7d5c730a6b02fc9",
+      "bytes": 73
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_localmeta2.m",
+      "sha256": "a5c2e2e764e172d62711dca550e7051937cd1101168fef80f06d093621b9b878",
+      "bytes": 72
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_localmeta3.m",
+      "sha256": "438f7039247e742af500c590dbe965228a5429cdf42a14cc269b952ce5d9904d",
+      "bytes": 72
+    },
+    {
+      "path": "work/deg10/computations/b81_rr_localmeta7.m",
+      "sha256": "236d6dbee432c1bab5175fdc5467bdbfac0b005628ed3389c73918d1bbbb665c",
+      "bytes": 72
+    },
+    {
+      "path": "work/deg10/computations/b81_sage_local_arcs.py",
+      "sha256": "934e37f080e93ae64754f6ba5c918d1960e7772ca7feac41dfb0e02ecf79e917",
+      "bytes": 7366
+    },
+    {
+      "path": "work/deg10/computations/b81_sage_local_arcs_v2.py",
+      "sha256": "1263da66b7172e82f8c2dca64191c22718f179f4b89ddc8f441f958e58ede756",
+      "bytes": 7422
+    },
+    {
+      "path": "work/deg10/computations/b81_sage_local_arcs_v3.py",
+      "sha256": "83f19b5fe4c50343ebff4bfb83277d79054dd1bf8f85c35ae34e0f861b7a47e2",
+      "bytes": 7440
+    },
+    {
+      "path": "work/deg10/computations/b81_source_census.m",
+      "sha256": "a540d910e4f861790adecc822e9b73da7fe405d5e9ffb55573bc1a6b764f132a",
+      "bytes": 2009
+    },
+    {
+      "path": "work/deg10/computations/b81_target_assessment.m",
+      "sha256": "42965873eca92d5a956814ae99bf6a66dc0c967ad5c192f84b513a98d15a2f70",
+      "bytes": 1016
+    },
+    {
+      "path": "work/deg10/computations/b81_target_gcd.m",
+      "sha256": "ec717e12d6dbf2c0885acb2fd1e6dbdf5df6ce77e6f32ebf0c277ecbbaa1512d",
+      "bytes": 560
+    },
+    {
+      "path": "work/deg10/computations/b81_x0_filter.m",
+      "sha256": "cf40a9bb2c4da74ea007eb674a00d9dc5c9599e8a7f4686dc4ce32334445e90b",
+      "bytes": 3388
+    },
+    {
+      "path": "work/deg10/computations/b81_x0_setup.m",
+      "sha256": "565208d4b2b6e6084cb807f256028e723bba32dc343aa19ae5eed60df25cad3d",
+      "bytes": 2065
+    },
+    {
+      "path": "work/deg10/computations/b81_y46_kummer_model.m",
+      "sha256": "8695dafe3d5c8f204fd1670a813bdfab4d08aaecdff36308906c063cc53f435a",
+      "bytes": 2672
+    },
+    {
+      "path": "work/deg10/computations/b81_y46_kummer_model_v2.m",
+      "sha256": "bb0ac8e6676d7e80a6ceb212bca72ac55833dc4d9f9cae6521784724ab27a28d",
+      "bytes": 2800
+    },
+    {
+      "path": "work/deg10/computations/b81_y46_model.m",
+      "sha256": "5db454b1a5a261e32576727d4e72d1b165e2deb53bdb1f6e9d6f6ba406359b40",
+      "bytes": 1949
+    },
+    {
+      "path": "work/deg10/computations/b81_y46_model_v2.m",
+      "sha256": "70fd4a053af91a7d190fffd6346043ed67fedc602261281a36a16e4b50b98603",
+      "bytes": 2368
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/README.md",
+      "sha256": "abdbb973bbfe4500d0f87e1d08cb3a3072569920026eb73c9625aeda6959553b",
+      "bytes": 7008
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/b81_parent_source_filter.py",
+      "sha256": "e23c0fdf5cd2641012c37a6e41765441bdca024084561b6aebba0262a1881ea1",
+      "bytes": 7260
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/build_manifest.py",
+      "sha256": "7152ddbaf8814fdc5e179a02a360b9f3cee23a5a46d653843e542b84acc341c2",
+      "bytes": 6974
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/certificate_summary.json",
+      "sha256": "f5d5a94c5cd037aa5f61b800a1ecc2f2feca538a4fd7731feca7eb72a8cc798a",
+      "bytes": 1380
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/deps/class_group_direct_RR_checked_v4_fastfb.m",
+      "sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6",
+      "bytes": 5741
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/deps/native_group_generators.m",
+      "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1",
+      "bytes": 1828
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/deps/pair_af_place_linear.m",
+      "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802",
+      "bytes": 1441
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/deps/portable_forward.m",
+      "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49",
+      "bytes": 5040
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/independent_sage_local_arcs.json",
+      "sha256": "00d71a7396e87d5406d1295bd027b3fc6c96ca20682d01b1ed1cdc0bc2b57fb2",
+      "bytes": 7815
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/inputs/all_curves.m",
+      "sha256": "80eb6b47b34451b886fefec11c6f246e2536c3ecc6b8faa3e69fa50f1ac210a3",
+      "bytes": 829172
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/inputs/exclusion_degree9.tex",
+      "sha256": "68b9e854d71ebe6fe206ae5cbfbbf76de6d5afc7a1f73502bf7068f03e88e878",
+      "bytes": 1898
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/inputs/hecke_finite_support_degree9.tex",
+      "sha256": "bca1dfc44b361cb4533ecebcd2d390e19f2c2bcfb6a8256b3b8e233a8e8d17bd",
+      "bytes": 2548
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/inputs/independent_point_counts.json",
+      "sha256": "0f719c333c4185f0092045d2f92af48594eff681fff5ab297b7b406454c2f44c",
+      "bytes": 5147
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/inputs/replay_two_torsion_81.py",
+      "sha256": "41400609cbcca7d22635b8a2591fdd437dc90d7910c4565c5c20f7e9ddcae97c",
+      "bytes": 2945
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/inputs/two_torsion_81_v2_matrices.m",
+      "sha256": "749e763cbf441f7bb28dc98548bc0ae6fee6fec1b3cc7bbee247f07a6327bc72",
+      "bytes": 1800133
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/parent_checks.json",
+      "sha256": "79aff47e8676d73b04f362b91e6645ed1666784df45fc6686c1e75fc36aa87b2",
+      "bytes": 9595
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/parent_independent_source_filter.json",
+      "sha256": "e98a8947c263067e91b0ae051d4c409262fe3e5a82304a1bb3936207b7a2fbe9",
+      "bytes": 9146
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/parent_native_completion_RR_v2.m",
+      "sha256": "6ca814e46c16778e7bbbeadeb4e24b916bdbd64fe2f4227e97290623384bcafb",
+      "bytes": 1267
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/parent_native_x0_filter.m",
+      "sha256": "8b98ff94f85fdecbda17032c645356c8d8e339ca1b3d99e9ddb7d517ac71e623",
+      "bytes": 33
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/parent_two_torsion_replay.json",
+      "sha256": "e42e3f652935ffb4afc726c51bc9e788635555f0f2570fda71bb7c33adfcc191",
+      "bytes": 490
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/resolution.tex",
+      "sha256": "03faa445c9ea40851eb30c31eafaa673861456d41c63759338f3155b5c52ccd0",
+      "bytes": 10802
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/reuse_manifest.json",
+      "sha256": "c2dd474861d29e25046ed151d43b45c175d2fe3ca4985c68f4c40fdabbf98a2f",
+      "bytes": 2665
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case10_cusp0.m",
+      "sha256": "741dd486dbc1225d6f8a6941356ac17aaec735acf5cc52fd58af321b1d4c0fe8",
+      "bytes": 340628
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case10_localmeta.m",
+      "sha256": "52a6aecd71b35537528dcc8cac57853dbef9df1cf2dc94d28d78f6a67183b9dc",
+      "bytes": 52446
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case10_summary.m",
+      "sha256": "907a51a7e47cef740b82a4bd47e124b9f201c3660515891a49c7f1ee500c25f5",
+      "bytes": 49
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_cusp1.m",
+      "sha256": "52c4c9eda8023c01f15b9ff139f4f29ba7583fa718a2eeaeff8355d190aa3ebc",
+      "bytes": 270138
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_cusp2.m",
+      "sha256": "e0c8c7c69edaca559dbb40d2b72e5fe751ee75458cd3bbc9ca10ec2eb4cda8b9",
+      "bytes": 273098
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_cusp3.m",
+      "sha256": "cf368d9e2f5dc7ede41043f2a57c5c35159d7c0c8ce310e7f0e26d7b8b186d7d",
+      "bytes": 272358
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_cusp4.m",
+      "sha256": "c0aea43b90c0071b2d97fcac3e2cdd8d640be42bbf372e36865e2a6dd8da199a",
+      "bytes": 270608
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_cusp5.m",
+      "sha256": "0370a6d88657bb4f36167abb75acd1460d000f3af3c18b997892294b15e5d19f",
+      "bytes": 270468
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_cusp6.m",
+      "sha256": "e9cef89ace23534c98539cebe2c17a93307be1cd2bb71b150912f9b80cba4c80",
+      "bytes": 271828
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_cusp7.m",
+      "sha256": "11ee4ff2fe24eedf6b1b6663235ff03e1a44c73ee16275619b47d88edc69f977",
+      "bytes": 271458
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_cusp8.m",
+      "sha256": "071fdb4bdcde2e3e38ed28ce970285ff13fce75c63ce22d1ec07c668433e399d",
+      "bytes": 270988
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_cusp9.m",
+      "sha256": "ea0e60e15aabc34359b8419655e9d7aeffd407112418bcab7b5e91bf6b34881b",
+      "bytes": 271068
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_localmeta.m",
+      "sha256": "c43ba1001ae45e80e939bc07ef05388e72a9cd30a4eeb40999ac745d8852381b",
+      "bytes": 44086
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case1_summary.m",
+      "sha256": "5bf63841c5d3faddd5c7956daf7c41a64c981f559af7d91c1d939cdd16c5d731",
+      "bytes": 392
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_cusp1.m",
+      "sha256": "41ca51089d8c3138cc27439eb79e21b1eca71b49d14f1be8b861a78f8d4568c1",
+      "bytes": 273248
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_cusp2.m",
+      "sha256": "a842f48a76b066fbed028eb0b6db1cd161a0bf81ad46634871d5bdb3a743b2de",
+      "bytes": 272808
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_cusp3.m",
+      "sha256": "35d8e6523abf5452de37b12d6a52e366d67d7d02f086b0c4bcdfcf25425b7a52",
+      "bytes": 275428
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_cusp4.m",
+      "sha256": "ba2f0791a02de415a7e4aeebb4dbfadc5123a31273231181cfa120ccde3a171b",
+      "bytes": 275178
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_cusp5.m",
+      "sha256": "b43845045360ed129c510a912f56fc8f954a31c1392db333e8115982e4b7e06f",
+      "bytes": 271658
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_cusp6.m",
+      "sha256": "cc12add15e3f47bf03772a83755b922f7b713928a2bfa276b6ca4acc2acdeb22",
+      "bytes": 275368
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_cusp7.m",
+      "sha256": "2d447998849dd6084db13d1f8cf404d93b15e057fae8ebbc94566afeb7198487",
+      "bytes": 272148
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_cusp8.m",
+      "sha256": "fcb007c28530cbbe6467513749d43707e9f715ba5c9b22e58e4c1c22bf3be380",
+      "bytes": 272668
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_cusp9.m",
+      "sha256": "468eec5a46d5d4800d263863d7dc4f2531b507940a0100e0e4f91b5779a76c87",
+      "bytes": 274798
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_localmeta.m",
+      "sha256": "a177bf7ca1a80410b2fe863bd78c0a95ff1738ace5c3dbf19afb6ce6a1ebe897",
+      "bytes": 44116
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case2_summary.m",
+      "sha256": "a23face926da4eb6e381a5a869c41dc1cc6f29bb375a2ab5e8135fe4c47fbee4",
+      "bytes": 392
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_cusp1.m",
+      "sha256": "b0cce4ae7afa6448c48c019222f72d3edceedd9163d607206f55aa10977ab582",
+      "bytes": 271128
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_cusp2.m",
+      "sha256": "cb5518b68939095ad7601ba752b33b942e7d9750efbf7fc85ad6630eebf740ee",
+      "bytes": 272988
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_cusp3.m",
+      "sha256": "11a646f23954a425b8bb6c4f57d41a125a0ef278eebfcc849b440a5381a8f54b",
+      "bytes": 273908
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_cusp4.m",
+      "sha256": "e48738ced5a734f004c62844d8a716cdaaa2047f82476d8afc851a6ac0b5b509",
+      "bytes": 271028
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_cusp5.m",
+      "sha256": "7176d4c2b54b3fc9028563f2d754da1ca0d4e2b7b23a1f40e41dc930411500a3",
+      "bytes": 274268
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_cusp6.m",
+      "sha256": "ae790f4c3920bbdb29f20cfb8b8a7b5b89c5996932437463e267a77e7ac23b4d",
+      "bytes": 272608
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_cusp7.m",
+      "sha256": "fe8ac93842b0260a1262af7d2d6ac0057fcdd2fe639c2735d0a60179b06d45a2",
+      "bytes": 272698
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_cusp8.m",
+      "sha256": "da11c8c9d7afbb728c267ee211de6728c5c376ae5e3c469afd1ce1e3b225b0dd",
+      "bytes": 275018
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_cusp9.m",
+      "sha256": "19ccb16e1118ca4272d66c78a84081e8681ebfb525c97b3e9a1831202d4f43ff",
+      "bytes": 270818
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_localmeta.m",
+      "sha256": "163d65d740b8bf35d3f545e381090a81d6265523ada6fa98d677439618072d93",
+      "bytes": 44106
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case3_summary.m",
+      "sha256": "727ef94092bac7baa18b606c72982f085f11da6b56ef68136c8f17449e6cbc6e",
+      "bytes": 392
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case7_cusp0.m",
+      "sha256": "4344395f0e3d5bf43de2868d1ed50d20fd639fe140658d46a733898647e2e62d",
+      "bytes": 346848
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case7_localmeta.m",
+      "sha256": "873219447759e3b917048064b0d9882e240956563b417a60d1708b036f19022d",
+      "bytes": 52485
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/rr_case7_summary.m",
+      "sha256": "ca9a11d668ab95dfddc6797273cbc7d8c4a51da0879c60c27487a1bdebbc7e38",
+      "bytes": 48
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/source81.m",
+      "sha256": "9e9d914fac748522731971076c8c221f9eada411cd4d3b60a95e69636f0c9135",
+      "bytes": 2101
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/target_assessment.m",
+      "sha256": "63e7bc0dd910a75574c79649256fa12f7bbb35e388c937520a38348b70437f08",
+      "bytes": 389
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/target_gcd_orders.m",
+      "sha256": "b582171677c48cc43c5ec6795dfdfff5bd2dcf1bf649ee072228e40ba0340a00",
+      "bytes": 88
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/x0_81_proven_picard.m",
+      "sha256": "95628f2e06e956a7d62996e38bb87267614e7b22b2d210b11fe2ffd173059861",
+      "bytes": 5255
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/x0_class_RR.log",
+      "sha256": "179f2d00ad4d830429ae0c4504b66cd725ff1bcb7a089480f723dc2a1bc8d0f8",
+      "bytes": 1045
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/x0_class_RR.log.witnesses.py",
+      "sha256": "aa5874d2dcee463512f5a684ed89d09eca7fa622a2a81b1b3eb40beefc9517ca",
+      "bytes": 3202
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/x0_filter.m",
+      "sha256": "68a64e54cda5b23ab456d464ac6c6a27fe157a0c0059e332e8f09a599498c8a2",
+      "bytes": 4765
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/x0_parent_witnesses.m",
+      "sha256": "994cf2dff1f874646210216ddd18f89c488bc267871307268421caf7f80c51de",
+      "bytes": 2617
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C81/y46_kummer_model.m",
+      "sha256": "bc5c145361590f0275ff627a67aa1891c4d6c6116828d7418e05f66951b34c22",
+      "bytes": 72651
+    },
+    {
+      "path": "work/deg10/jobs/b81_parent_rr_completions.log",
+      "sha256": "5f5a10b1876504effe4f408d0ba953854424bd9a43280ae0edacfea97a62ae6f",
+      "bytes": 349
+    },
+    {
+      "path": "work/deg10/jobs/b81_parent_rr_completions.status.json",
+      "sha256": "f4f5b8bf8e170dcc5c13c1bf0099a09eb74c9025242df6c67c7a3635335faddd",
+      "bytes": 649
+    },
+    {
+      "path": "work/deg10/jobs/b81_parent_rr_completions_v2.log",
+      "sha256": "4f7d8907708fff0f763d4a5ad839d1e4df33bd00c9bb7dda0644bf48981026fb",
+      "bytes": 1735
+    },
+    {
+      "path": "work/deg10/jobs/b81_parent_rr_completions_v2.status.json",
+      "sha256": "71d2c1911153f9dea4960eb5b676e21339460d5c08c20b4e131cb48af0fc304c",
+      "bytes": 662
+    },
+    {
+      "path": "work/deg10/jobs/b81_parent_source_filter.log",
+      "sha256": "b4e9c0e6f391121acaedb0cf3da6eaf9c9425c99e8272f92f25a88722a929e82",
+      "bytes": 80
+    },
+    {
+      "path": "work/deg10/jobs/b81_parent_source_filter.status.json",
+      "sha256": "31133b283138670f5a6e34a280475db480f64b957766d964e43fdd6a24688eff",
+      "bytes": 677
+    },
+    {
+      "path": "work/deg10/jobs/b81_parent_two_torsion.log",
+      "sha256": "034366843e2c88936178fc6e1bfa9f27f2912765f0b4f742678d5df741159356",
+      "bytes": 174
+    },
+    {
+      "path": "work/deg10/jobs/b81_parent_two_torsion.status.json",
+      "sha256": "db8fcd6f425c24017fb3bfaa9a5edeedc37fc9ed24b5bdb044540464488bdfa2",
+      "bytes": 642
+    },
+    {
+      "path": "work/deg10/jobs/b81_parent_x0_filter.log",
+      "sha256": "defd29122098cd8e7d9c9fd654442911e669e1b0d464640d822c47a8d21b6e8b",
+      "bytes": 68
+    },
+    {
+      "path": "work/deg10/jobs/b81_parent_x0_filter.status.json",
+      "sha256": "c2f015c5b991d69efb19307727f25f8059ce8822ffedb4c3d226a1f4594dda40",
+      "bytes": 632
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_case1.log",
+      "sha256": "fda9c1882715defab323b074ff3c675ecf127822de22923fd9ce97797263388b",
+      "bytes": 696
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_case1.status.json",
+      "sha256": "f9d1228b926d697f1de0c3090e67b3ca7fdae935fdafc3641a09b2cab5e0ca39",
+      "bytes": 598
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_case10.log",
+      "sha256": "ecc261e70f06c0685922f95178b709785808699025e109bd1d59eb619a0eb0ca",
+      "bytes": 228
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_case10.status.json",
+      "sha256": "94803c238db8a6375fb297a2a87b56cb5211329613a5f01f37ce77ae227ac5f0",
+      "bytes": 602
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_case2.log",
+      "sha256": "7f0cd1e4843e676b07c4e1fb8e9256139d22029ad97879886c24becd361cc39a",
+      "bytes": 696
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_case2.status.json",
+      "sha256": "ffcb5806c9f76401d9f105b4012bb14aa5c9abcd88fbf10622a2bf5d7bad0dbc",
+      "bytes": 598
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_case3.log",
+      "sha256": "b7f05c802a9b74ba18a34f4eef5e5f268dc1a554b10f81aaf163a074e929bd28",
+      "bytes": 696
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_case3.status.json",
+      "sha256": "726644860ea80c8607757fbefaa7baade7845e994aba24a6cd000c2fb3c247be",
+      "bytes": 598
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_case7.log",
+      "sha256": "c3e1dc610ff60b648ae2224f0c295719fab18c5af775af84568b141450e5dfdc",
+      "bytes": 225
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_case7.status.json",
+      "sha256": "89769a0a70d89eec692424eda7b3b49116a139d049e2238b3e27753767f929cc",
+      "bytes": 598
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_localmeta1.log",
+      "sha256": "4f6eff50ea07adc146a1fc368b05bfe70ac3a9c052369f77814d359f2b1ddda6",
+      "bytes": 171
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_localmeta1.status.json",
+      "sha256": "d8207886881d842da416efaa9f4e3ee2c825152396191ce2faa67d7ad9a14c51",
+      "bytes": 618
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_localmeta10.log",
+      "sha256": "bd22b38f669bc291b3e38e96440eb2a762987b07a71e9da86dec850e27d874f8",
+      "bytes": 174
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_localmeta10.status.json",
+      "sha256": "d249778b8294b7151426c27d8e775a231db4813c5a50fe4427f4183016251661",
+      "bytes": 622
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_localmeta2.log",
+      "sha256": "9941842ee5a7a60527ee3678a4ff11c6302f843352d4af3ec7fce86c42070aed",
+      "bytes": 171
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_localmeta2.status.json",
+      "sha256": "4d90b766cc7a2e65e86b418dd52e25662b557046793ce361a7213c7aba875b82",
+      "bytes": 618
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_localmeta3.log",
+      "sha256": "38b1fcd5ad37ec52df3ba15e343118ff50cfb89894c99d408a31a96105338180",
+      "bytes": 171
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_localmeta3.status.json",
+      "sha256": "6b74a8d139c01151c1c3bca6e982a2d4f106077313f8bd1fc5a4874579b60449",
+      "bytes": 618
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_localmeta7.log",
+      "sha256": "278e08b6f42b95944302e8aff2ae972e5c6aa0b5083689377621f7877dc918ed",
+      "bytes": 172
+    },
+    {
+      "path": "work/deg10/jobs/b81_rr_localmeta7.status.json",
+      "sha256": "6cc23338ec250283aef722ff0bcafbef7c17ea2d164a08c25af1028bec264f64",
+      "bytes": 618
+    },
+    {
+      "path": "work/deg10/jobs/b81_sage_local_arcs.log",
+      "sha256": "787590c9b359ac4c2eff35db965bbad47f688e75292df7471665be17f48f80e2",
+      "bytes": 1630
+    },
+    {
+      "path": "work/deg10/jobs/b81_sage_local_arcs.status.json",
+      "sha256": "9c7eb42a8209bd7649a702a5e3e8f9970796a7a91dea582b543250a97e8497ee",
+      "bytes": 629
+    },
+    {
+      "path": "work/deg10/jobs/b81_sage_local_arcs_v2.log",
+      "sha256": "86761885179bceb4df0d0683c373bc2cfcda2cafa6edf40e5a645fee9906d1f6",
+      "bytes": 4902
+    },
+    {
+      "path": "work/deg10/jobs/b81_sage_local_arcs_v2.status.json",
+      "sha256": "9168c49bd241ef66d80c708f1677993403a9a374bee982bcc76411e6edf7c11b",
+      "bytes": 642
+    },
+    {
+      "path": "work/deg10/jobs/b81_sage_local_arcs_v3.log",
+      "sha256": "48c83e8528f1cea0bd940b406c9f075d298cbabcc144c671ab4275863022884c",
+      "bytes": 1356
+    },
+    {
+      "path": "work/deg10/jobs/b81_sage_local_arcs_v3.status.json",
+      "sha256": "d65bca7aa9d50905d7ae40b069825cc9a981ea7f1ea15e0b7b38f6d566cd7ce3",
+      "bytes": 642
+    },
+    {
+      "path": "work/deg10/jobs/b81_source_census.log",
+      "sha256": "3fc6211327db9590720f5e7d56aa30d7e63955c4bc267f3640f486f343ab2462",
+      "bytes": 1642
+    },
+    {
+      "path": "work/deg10/jobs/b81_source_census.status.json",
+      "sha256": "07afe1f5ba96630966f6ae3b62f742decfdaf74b6da95b8352995a40472ca28a",
+      "bytes": 620
+    },
+    {
+      "path": "work/deg10/jobs/b81_target_assessment.log",
+      "sha256": "f19f059916ef9135b7e56c9d0dc28aa7e48fea657755b064ce63ec90ae394ea6",
+      "bytes": 355
+    },
+    {
+      "path": "work/deg10/jobs/b81_target_assessment.status.json",
+      "sha256": "44791b535f76d41e85aa4a076d92fb31ce3ed1b68e7d4cbebb8b658072d08d30",
+      "bytes": 635
+    },
+    {
+      "path": "work/deg10/jobs/b81_target_gcd.log",
+      "sha256": "786d3038c6eb93060f92861628971e14b4bf12ea436fc77c5e96e5e4cbea3452",
+      "bytes": 188
+    },
+    {
+      "path": "work/deg10/jobs/b81_target_gcd.status.json",
+      "sha256": "50d1f734417520cd55dd2dda8a9a1ca3b765b4f78d0c000fa098928099cb445c",
+      "bytes": 608
+    },
+    {
+      "path": "work/deg10/jobs/b81_x0_filter.log",
+      "sha256": "3ee06faca95ff7f8172848088075f86ea1cba0ca5782505112eeeb314f6ffb56",
+      "bytes": 699
+    },
+    {
+      "path": "work/deg10/jobs/b81_x0_filter.status.json",
+      "sha256": "d9a952c0e10cdb40055109e9431f7e32513e6972cd1c0ed79dc7d62464bfc2fd",
+      "bytes": 603
+    },
+    {
+      "path": "work/deg10/jobs/b81_x0_setup.log",
+      "sha256": "d42c9d314cc01948fcd2d7361f8cbf91f310e089876fbfba084cbfa848f336da",
+      "bytes": 159
+    },
+    {
+      "path": "work/deg10/jobs/b81_x0_setup.status.json",
+      "sha256": "ed4e502a30fe45c5ad19dc5f6ad8c7667c22f893e5a729a6f96c921da0c63204",
+      "bytes": 599
+    },
+    {
+      "path": "work/deg10/jobs/b81_y46_kummer_model.log",
+      "sha256": "7f23340b924777fc2ec79a42e5faeef64a85460ce106abddd769a9b469f4ec05",
+      "bytes": 398
+    },
+    {
+      "path": "work/deg10/jobs/b81_y46_kummer_model.status.json",
+      "sha256": "3cd9876830544527a3ca3e51f88fc8d19d67bd859177a8b98ed239e8e3501d22",
+      "bytes": 631
+    },
+    {
+      "path": "work/deg10/jobs/b81_y46_kummer_model_v2.log",
+      "sha256": "4bc901db9f7a4060c8d4c5dadbcd78992fc1ac53127ebd0411979a8009e28423",
+      "bytes": 170
+    },
+    {
+      "path": "work/deg10/jobs/b81_y46_kummer_model_v2.status.json",
+      "sha256": "3d925b74323d3683095046a3631f6da1e9cbe0bf4a58105ec302771c19bc9c38",
+      "bytes": 643
+    },
+    {
+      "path": "work/deg10/jobs/b81_y46_model.log",
+      "sha256": "b0e217d308302e4be98873f8caa545510064180adaea30590601cad3e15dc2f5",
+      "bytes": 199
+    },
+    {
+      "path": "work/deg10/jobs/b81_y46_model.status.json",
+      "sha256": "37411f36f9c6117c42503063eb5ce99325f4fd0dc87ac1c3a1c1262dd4d49d04",
+      "bytes": 603
+    },
+    {
+      "path": "work/deg10/jobs/b81_y46_model_v2.log",
+      "sha256": "2964773b6d71df7bac7dbe83e91ff9c00999113f5d5a10f006b67260b0717b2a",
+      "bytes": 528
+    },
+    {
+      "path": "work/deg10/jobs/b81_y46_model_v2.status.json",
+      "sha256": "388da91f0c8457a3f43415f7fe09aeb1f2987e7aec975801e7bdc81a2c6edfc7",
+      "bytes": 615
+    },
+    {
+      "path": "work/deg10/run_job.py",
+      "sha256": "92c5f1910c551f00bced7c3d4e3731634d8bdb6ee2a07b5a87178c1ea9aed8bc",
+      "bytes": 1995
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.m",
+      "sha256": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed",
+      "bytes": 287
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.sig",
+      "sha256": "52cf55c738cbd8b7783be68f5128f2e95f62b55b9aa8d284562473fec53b527a",
+      "bytes": 218
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/classgroups.m",
+      "sha256": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24",
+      "bytes": 484
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/classgroups.sig",
+      "sha256": "ba7204632ae38e30f96bded60753927e2ce3b07ae6db9df2952c0405d9cde169",
+      "bytes": 151
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/divisors.m",
+      "sha256": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7",
+      "bytes": 1491
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/divisors.sig",
+      "sha256": "61eb59cce8da8aa6c326ab3340121c9094328b1c325a4dfd48b06e3393839480",
+      "bytes": 512
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.m",
+      "sha256": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15",
+      "bytes": 1091
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.sig",
+      "sha256": "937d65a93d8b0559b4f951e8e78cfcd0959e4c9a63b2a2ee43e244ab06b9c033",
+      "bytes": 217
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/mdmagma.spec",
+      "sha256": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a",
+      "bytes": 81
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/mdmagma_internal.spec",
+      "sha256": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487",
+      "bytes": 282
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X0.m",
+      "sha256": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83",
+      "bytes": 883
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X0.sig",
+      "sha256": "ad7a0ac093106595596ab594b1502a9cd9ad9c11c37802f22be02e986e7afd6e",
+      "bytes": 518
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X1.m",
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f",
+      "bytes": 8226
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X1.sig",
+      "sha256": "a59ba44cf0beb2eb184866ff2d51be2b70b52beaacbf0ebe627567e79c6209e7",
+      "bytes": 4142
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X11.m",
+      "sha256": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9",
+      "bytes": 7602
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X11.sig",
+      "sha256": "1d42502ec4cd75897c53d7c6e7bc2c8ee20d3fbe74ab89b37c30481ba1fbc8f5",
+      "bytes": 2540
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.m",
+      "sha256": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e",
+      "bytes": 7298
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.sig",
+      "sha256": "ad3a9969c9bb6d2aec183a03facd64779e2e21c712111872067b99c1a3e317ba",
+      "bytes": 3835
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.m",
+      "sha256": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee",
+      "bytes": 904
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.sig",
+      "sha256": "bad67095a7ac630eae102c094c32d3e06d70018492b3ccbb6c20bbb7d4396978",
+      "bytes": 431
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.m",
+      "sha256": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14",
+      "bytes": 2167
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.sig",
+      "sha256": "146c4ddbd78b095c65f33f2b3488b6133bc791872db9baa0d87756b128e9aba5",
+      "bytes": 608
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/utils.m",
+      "sha256": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64",
+      "bytes": 1321
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/utils.sig",
+      "sha256": "3d059d073c8cee670e57109861b9e66d276a3432029d38fe294af14d91bbba4a",
+      "bytes": 538
+    }
+  ],
+  "jobs": [
+    {
+      "purpose": "b81_parent_rr_completions",
+      "category": "unsuccessful diagnostic, not certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": null,
+      "diagnostic": "Magma parser diagnostic; actual exit 0 is not a certificate",
+      "elapsed_seconds": 0.6649796962738037,
+      "script": "work/deg10/computations/b81_parent_rr_completions.m",
+      "status": "work/deg10/jobs/b81_parent_rr_completions.status.json",
+      "log": "work/deg10/jobs/b81_parent_rr_completions.log"
+    },
+    {
+      "purpose": "b81_parent_rr_completions_v2",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_PARENT_COMPLETION_RR_V2_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 9.479440212249756,
+      "script": "work/deg10/computations/b81_parent_rr_completions_v2.m",
+      "status": "work/deg10/jobs/b81_parent_rr_completions_v2.status.json",
+      "log": "work/deg10/jobs/b81_parent_rr_completions_v2.log"
+    },
+    {
+      "purpose": "b81_parent_source_filter",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_PARENT_INDEPENDENT_SOURCE_FILTER_PASS",
+      "diagnostic": null,
+      "elapsed_seconds": 5.873725414276123,
+      "script": "work/deg10/continuation_20261030b/C81/b81_parent_source_filter.py",
+      "status": "work/deg10/jobs/b81_parent_source_filter.status.json",
+      "log": "work/deg10/jobs/b81_parent_source_filter.log"
+    },
+    {
+      "purpose": "b81_parent_two_torsion",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_PARENT_RATIONAL_TWO_TORSION_ZERO_PASS",
+      "diagnostic": null,
+      "elapsed_seconds": 0.6147351264953613,
+      "script": "work/deg10/computations/b81_parent_two_torsion.py",
+      "status": "work/deg10/jobs/b81_parent_two_torsion.status.json",
+      "log": "work/deg10/jobs/b81_parent_two_torsion.log"
+    },
+    {
+      "purpose": "b81_parent_x0_filter",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_PARENT_NATIVE_X0_FILTER_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 0.06407928466796875,
+      "script": "work/deg10/computations/b81_parent_x0_filter.m",
+      "status": "work/deg10/jobs/b81_parent_x0_filter.status.json",
+      "log": "work/deg10/jobs/b81_parent_x0_filter.log"
+    },
+    {
+      "purpose": "b81_rr_case1",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_Y46_RR_JET_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 2.618040084838867,
+      "script": "work/deg10/computations/b81_rr_case1.m",
+      "status": "work/deg10/jobs/b81_rr_case1.status.json",
+      "log": "work/deg10/jobs/b81_rr_case1.log"
+    },
+    {
+      "purpose": "b81_rr_case10",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_Y46_RR_JET_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 1.1654386520385742,
+      "script": "work/deg10/computations/b81_rr_case10.m",
+      "status": "work/deg10/jobs/b81_rr_case10.status.json",
+      "log": "work/deg10/jobs/b81_rr_case10.log"
+    },
+    {
+      "purpose": "b81_rr_case2",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_Y46_RR_JET_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 2.6180691719055176,
+      "script": "work/deg10/computations/b81_rr_case2.m",
+      "status": "work/deg10/jobs/b81_rr_case2.status.json",
+      "log": "work/deg10/jobs/b81_rr_case2.log"
+    },
+    {
+      "purpose": "b81_rr_case3",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_Y46_RR_JET_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 2.617652654647827,
+      "script": "work/deg10/computations/b81_rr_case3.m",
+      "status": "work/deg10/jobs/b81_rr_case3.status.json",
+      "log": "work/deg10/jobs/b81_rr_case3.log"
+    },
+    {
+      "purpose": "b81_rr_case7",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_Y46_RR_JET_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 1.1156442165374756,
+      "script": "work/deg10/computations/b81_rr_case7.m",
+      "status": "work/deg10/jobs/b81_rr_case7.status.json",
+      "log": "work/deg10/jobs/b81_rr_case7.log"
+    },
+    {
+      "purpose": "b81_rr_localmeta1",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_RR_LOCAL_ABSOLUTE_META_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 0.7657761573791504,
+      "script": "work/deg10/computations/b81_rr_localmeta1.m",
+      "status": "work/deg10/jobs/b81_rr_localmeta1.status.json",
+      "log": "work/deg10/jobs/b81_rr_localmeta1.log"
+    },
+    {
+      "purpose": "b81_rr_localmeta10",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_RR_LOCAL_ABSOLUTE_META_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 0.7650232315063477,
+      "script": "work/deg10/computations/b81_rr_localmeta10.m",
+      "status": "work/deg10/jobs/b81_rr_localmeta10.status.json",
+      "log": "work/deg10/jobs/b81_rr_localmeta10.log"
+    },
+    {
+      "purpose": "b81_rr_localmeta2",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_RR_LOCAL_ABSOLUTE_META_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 0.7649750709533691,
+      "script": "work/deg10/computations/b81_rr_localmeta2.m",
+      "status": "work/deg10/jobs/b81_rr_localmeta2.status.json",
+      "log": "work/deg10/jobs/b81_rr_localmeta2.log"
+    },
+    {
+      "purpose": "b81_rr_localmeta3",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_RR_LOCAL_ABSOLUTE_META_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 0.7651307582855225,
+      "script": "work/deg10/computations/b81_rr_localmeta3.m",
+      "status": "work/deg10/jobs/b81_rr_localmeta3.status.json",
+      "log": "work/deg10/jobs/b81_rr_localmeta3.log"
+    },
+    {
+      "purpose": "b81_rr_localmeta7",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_RR_LOCAL_ABSOLUTE_META_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 0.7669470310211182,
+      "script": "work/deg10/computations/b81_rr_localmeta7.m",
+      "status": "work/deg10/jobs/b81_rr_localmeta7.status.json",
+      "log": "work/deg10/jobs/b81_rr_localmeta7.log"
+    },
+    {
+      "purpose": "b81_sage_local_arcs",
+      "category": "unsuccessful diagnostic, not certificate",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "expected_completion_marker": null,
+      "diagnostic": "Finite-field API diagnostic; exited 1; superseded by successful v3",
+      "elapsed_seconds": 0.5648503303527832,
+      "script": "work/deg10/computations/b81_sage_local_arcs.py",
+      "status": "work/deg10/jobs/b81_sage_local_arcs.status.json",
+      "log": "work/deg10/jobs/b81_sage_local_arcs.log"
+    },
+    {
+      "purpose": "b81_sage_local_arcs_v2",
+      "category": "unsuccessful diagnostic, not certificate",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "expected_completion_marker": null,
+      "diagnostic": "NTL Laurent-series coercion diagnostic; exited 1; superseded by successful v3",
+      "elapsed_seconds": 0.5647573471069336,
+      "script": "work/deg10/computations/b81_sage_local_arcs_v2.py",
+      "status": "work/deg10/jobs/b81_sage_local_arcs_v2.status.json",
+      "log": "work/deg10/jobs/b81_sage_local_arcs_v2.log"
+    },
+    {
+      "purpose": "b81_sage_local_arcs_v3",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_SAGE_LOCAL_ARCS_ALL_29_PASS",
+      "diagnostic": null,
+      "elapsed_seconds": 39.324965715408325,
+      "script": "work/deg10/computations/b81_sage_local_arcs_v3.py",
+      "status": "work/deg10/jobs/b81_sage_local_arcs_v3.status.json",
+      "log": "work/deg10/jobs/b81_sage_local_arcs_v3.log"
+    },
+    {
+      "purpose": "b81_source_census",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_DYADIC_SOURCE_CENSUS_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 0.31427454948425293,
+      "script": "work/deg10/computations/b81_source_census.m",
+      "status": "work/deg10/jobs/b81_source_census.status.json",
+      "log": "work/deg10/jobs/b81_source_census.log"
+    },
+    {
+      "purpose": "b81_target_assessment",
+      "category": "completed auxiliary assessment, not required for final proof",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": null,
+      "diagnostic": null,
+      "elapsed_seconds": 0.4143714904785156,
+      "script": "work/deg10/computations/b81_target_assessment.m",
+      "status": "work/deg10/jobs/b81_target_assessment.status.json",
+      "log": "work/deg10/jobs/b81_target_assessment.log"
+    },
+    {
+      "purpose": "b81_target_gcd",
+      "category": "completed auxiliary assessment, not required for final proof",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": null,
+      "diagnostic": null,
+      "elapsed_seconds": 0.21413850784301758,
+      "script": "work/deg10/computations/b81_target_gcd.m",
+      "status": "work/deg10/jobs/b81_target_gcd.status.json",
+      "log": "work/deg10/jobs/b81_target_gcd.log"
+    },
+    {
+      "purpose": "b81_x0_filter",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_X0_CLASS_FILTER_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 0.5646300315856934,
+      "script": "work/deg10/computations/b81_x0_filter.m",
+      "status": "work/deg10/jobs/b81_x0_filter.status.json",
+      "log": "work/deg10/jobs/b81_x0_filter.log"
+    },
+    {
+      "purpose": "b81_x0_setup",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_X0_PROVEN_PICARD_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 0.11416482925415039,
+      "script": "work/deg10/computations/b81_x0_setup.m",
+      "status": "work/deg10/jobs/b81_x0_setup.status.json",
+      "log": "work/deg10/jobs/b81_x0_setup.log"
+    },
+    {
+      "purpose": "b81_y46_kummer_model",
+      "category": "unsuccessful diagnostic, not certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": null,
+      "diagnostic": "Magma serialization/parser diagnostic; actual exit 0 is not a certificate",
+      "elapsed_seconds": 1.1657066345214844,
+      "script": "work/deg10/computations/b81_y46_kummer_model.m",
+      "status": "work/deg10/jobs/b81_y46_kummer_model.status.json",
+      "log": "work/deg10/jobs/b81_y46_kummer_model.log"
+    },
+    {
+      "purpose": "b81_y46_kummer_model_v2",
+      "category": "successful certificate",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "expected_completion_marker": "C81_Y46_KUMMER_MODEL_COMPLETE",
+      "diagnostic": null,
+      "elapsed_seconds": 1.2157506942749023,
+      "script": "work/deg10/computations/b81_y46_kummer_model_v2.m",
+      "status": "work/deg10/jobs/b81_y46_kummer_model_v2.status.json",
+      "log": "work/deg10/jobs/b81_y46_kummer_model_v2.log"
+    },
+    {
+      "purpose": "b81_y46_model",
+      "category": "unsuccessful diagnostic, not certificate",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "expected_completion_marker": null,
+      "diagnostic": "Absolute genus-46 normalization reached explicit memory bound; exited 1; replaced by compact Kummer/character method",
+      "elapsed_seconds": 113.74648594856262,
+      "script": "work/deg10/computations/b81_y46_model.m",
+      "status": "work/deg10/jobs/b81_y46_model.status.json",
+      "log": "work/deg10/jobs/b81_y46_model.log"
+    },
+    {
+      "purpose": "b81_y46_model_v2",
+      "category": "unsuccessful diagnostic, not certificate",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "expected_completion_marker": null,
+      "diagnostic": "Absolute genus-46 normalization reached explicit memory bound; exited 1; replaced by compact Kummer/character method",
+      "elapsed_seconds": 151.50488376617432,
+      "script": "work/deg10/computations/b81_y46_model_v2.m",
+      "status": "work/deg10/jobs/b81_y46_model_v2.status.json",
+      "log": "work/deg10/jobs/b81_y46_model_v2.log"
+    }
+  ]
+}

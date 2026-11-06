@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_final_Hecke7_v2_s0",
+  "script": "computations/d31b_m318_final_Hecke7_v2_s0.m",
+  "script_sha256": "2e2427586c983b25b651ca771ee4cb5b21ae64249bb64fce034fa8af3927438d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_final_Hecke7_v2_s0.m"
+  ],
+  "pid": 3629536,
+  "owner_uid": 1001,
+  "start_time_unix": 1793440630.2229712,
+  "state": "EXITED",
+  "time_limit_seconds": 1550,
+  "log": "jobs/d31b_m318_final_Hecke7_v2_s0.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.770803213119507
+}

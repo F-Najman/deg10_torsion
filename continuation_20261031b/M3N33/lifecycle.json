@@ -1,0 +1,228 @@
+{
+  "status": "PASS",
+  "all_owned_jobs_exited": true,
+  "jobs": [
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_analytic_jets.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_analytic_jets_v2.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_analytic_jets_v3.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_analytic_jets_v4.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_antih10_winding.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_base_completion_probe.status.json",
+      "actual_exit_code": 0,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_cover_preflight.status.json",
+      "actual_exit_code": -15,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_cover_preflight_v2.status.json",
+      "actual_exit_code": -14,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_cusp_jets_s0.status.json",
+      "actual_exit_code": -14,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_cusp_jets_s1.status.json",
+      "actual_exit_code": -14,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_high_primitive_series.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v2.status.json",
+      "actual_exit_code": -15,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v3_s0.status.json",
+      "actual_exit_code": -15,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v3_s1.status.json",
+      "actual_exit_code": -15,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v3_s2.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v3_s3.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v4_s0.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v4_s1.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v4_s2.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v4_s3.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v5_probe11.status.json",
+      "actual_exit_code": 0,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v5_s0.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v5_s1.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_analytic_v5_s3.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_genuine35.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_independent_ranks.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_kummer_cover.status.json",
+      "actual_exit_code": -15,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_kummer_cover_v2.status.json",
+      "actual_exit_code": -14,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_kummer_cover_v3.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_kummer_frame.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_native_frame_replay.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_parent_native.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_prefix_ranks.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_rational_trace_3isog_A5.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_rational_trace_A5.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m333_winding_independent.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n33_frob_preflight.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n33_physical_source.status.json",
+      "actual_exit_code": 0,
+      "accepted": true
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n33_quotient_A7.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n33_quotient_A7_v2.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n33_quotient_A7_v3.status.json",
+      "actual_exit_code": 1,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n33_quotient_A7_v4.status.json",
+      "actual_exit_code": 0,
+      "accepted": false
+    },
+    {
+      "status_path": "work/deg10/jobs/d31b_m3n33_quotient_B10_A7.status.json",
+      "actual_exit_code": 0,
+      "accepted": false
+    }
+  ],
+  "failed_or_retired_probes_not_completed_certificates": true,
+  "no_case_workers_supervisors_or_launchers_remain": true
+}

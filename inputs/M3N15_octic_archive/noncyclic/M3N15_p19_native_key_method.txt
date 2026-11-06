@@ -1,0 +1,37 @@
+Exact source coverage without the Magma residue-field cache failure
+
+For a degree-d closed point of X1(3,15), its canonical coordinates q,t
+generate its residue field: they give the specified universal E,P3,Q15,
+and separate its noncuspidal moduli points. For d=2,3,4 the proper
+subfields of F_(p^d) are nested. Hence q or t generates F_(p^d).
+Choose q if it does; otherwise choose t. A canonical key consists of
+this choice, the monic minimum polynomial of the chosen coordinate,
+and the coefficients of the other coordinate in its power basis.
+It determines the ordered pair up to Frobenius, and is unchanged by
+changing finite-field representation. Both assertions follow by
+sending the chosen primitive element to each root of its minimum
+polynomial. The code checks the power-basis reconstruction exactly.
+
+The fourth-prime source has 32076 quartic places. Native function-field
+enumeration is fast, but converting/evaluating all places in a single
+Magma process fills its global residue-field cache. Six fresh bounded
+processes each enumerate the whole native source and export a disjoint
+index interval of actual q,t keys. The aggregate is accepted only if
+all 32076 keys are distinct. Since every key is an actual place and
+the total agrees with the independently verified Frobenius count,
+this proves complete coverage even if place ordering differs between
+processes. No cross-run index identity is used.
+
+The next stage uses one fixed finite field. It reconstructs only each
+new orbit representative from its key, applies all 48 modular
+automorphisms, and checks every resulting key belongs to the complete
+source. Distinct orbits are checked disjoint and their union complete.
+Only representative places are then reconstructed by the common-zero
+inverse. Their exact degree and original key are checked individually.
+The first whole orbit is independently compared with the original
+modular inverse. The resulting arithmetic stage reduces only the
+first support; all second supports and cusp complements remain in it.
+
+Failed probes and bounded memory-limit logs are preserved. They supply
+no exclusion evidence. The accepted source must have all completion,
+key-coverage, original-inverse and arithmetic replay assertions pass.

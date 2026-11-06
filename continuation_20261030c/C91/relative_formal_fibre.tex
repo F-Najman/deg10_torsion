@@ -1,0 +1,54 @@
+\begin{lemma}\label{lem:decic91-relative-formal-fibre}
+Let $R=\mathbb Z_2$, and let $Y/R$ be a smooth proper modular curve of odd level.
+Let $\tau$ be a diamond automorphism of order $3$, put $Z=Y/\langle\tau\rangle$,
+and write $\pi:Y\longrightarrow Z$ for the quotient map.
+Assume that $Z/R$ is smooth.
+Suppose $(\tau-1)J_Y(\mathbb Q)$ is finite.
+Let $A$ be an effective rational divisor of degree $d$ on the generic fibre.
+Let $C$ be an effective divisor over $R$ with $\overline A=\overline C$, and suppose
+$(\tau-1)[C-dc_0]$ is torsion in $J_Y(\mathbb Q_2)$, where $c_0$ is a rational cusp.
+Write
+\[
+ C=C_0+\pi^*E,\qquad \deg E=k,
+\]
+and suppose the map $E'\mapsto C_0+\pi^*E'$ is a closed formal immersion
+at $\overline E$. If the restriction of
+\[
+ U=(\operatorname{Cartier}-1)(\tau^*-1)H^0(Y_{\mathbb F_2},\Omega^1)
+\]
+to $\overline C$ has rank $d-k$, then $A$ contains $C_0$ as a divisor over $\mathbb Q_2$.
+\end{lemma}
+\begin{proof}
+Put $\alpha=\tau-1$ and $M=T_2-\langle2\rangle$ on the full Jacobian $J_Y$.
+The class $\alpha[A-C]$ is torsion and has zero reduction.
+Lemma~\ref{lem:dyadic-formal-Hecke-kernel} gives $M\alpha[A-C]=0$.
+Thus $A$ belongs to the formal fibre through $C$ of
+\[
+ \Psi:Y^{(d)}\longrightarrow J_Y,\qquad
+ D\longmapsto M\alpha[D-dc_0].
+\]
+By Eichler--Shimura, the cotangent image of $\Psi$ is $U$;
+the invertible diamond factor does not change this image.
+
+Choose $d-k$ local coordinates of $J_Y$ whose pullbacks have independent
+differentials at $\overline C$.
+Their common fibre is formally smooth over $R$ of relative dimension $k$.
+The formal family $C_0+\pi^*Z^{(k)}$ lies in the full fibre of $\Psi$,
+since $(\tau-1)\pi^*=0$.
+Its tangent map to the chosen smooth fibre is an isomorphism between
+$k$-dimensional spaces. It is therefore a formal isomorphism.
+The full fibre equals this family, proving the assertion.
+\end{proof}
+
+We use the lemma only in the following two situations, where the stated
+closed immersion can be checked directly. At an unramified orbit of three
+cusps, subtract the minimum of their multiplicities. At least one residual
+multiplicity is zero, and the divisor at that point recovers the monic
+polynomial defining the moving divisor downstairs. The same argument applies
+to a cubic cusp whose three geometric points form one orbit.
+At a tame fixed quadratic point $P$, choose, after unramified base change,
+a parameter $z$ with $\tau z=\zeta_3z$. The quotient parameter is $z^3$.
+Near $P+\pi^*(\pi(P))=4P$, the family is given by
+$z(z^3-a)$, whose coefficient of $z$ recovers $a$.
+These descriptions give closed formal immersions over the split unramified
+extension, and hence over $R$ by descent.

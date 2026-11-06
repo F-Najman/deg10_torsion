@@ -1,0 +1,114 @@
+% DRAFT: the fresh Cartier export and its independent replay are still pending.
+% No statement in this file is entered in the accepted ledger until the final
+% certificate manifest marks all required stages complete.
+\subsection{Excluding a point of order $49$}
+\begin{proposition}\label{prop:decic-no49}
+An elliptic curve over a number field of degree $10$ has no point of order $49$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(49)$ and $J=J_1(49)$. By
+\cite[Theorems~3.1 and 4.13, and Table~2]{DEHMZ},
+\[
+ J(\mathbb Q)\simeq C_7\times C_{52367710906884085342}.
+\]
+In particular $J(\mathbb Q)[2^\infty]\simeq C_2$.
+The map $\pi:X\to X_0(49)$ has degree $21$ and diamond group
+$H\simeq C_{21}$. The latter acts trivially on the rational
+$2$-primary subgroup, so
+$\pi^*\pi_*t=\sum_{h\in H}ht=21t$ makes $\pi_*$ injective there.
+Similarly $\pi_*\pi^*=[21]$ makes pullback injective on
+$J_0(49)(\mathbb Q)[2^\infty]$, whose order is therefore at most two.
+The model
+\[
+ y^2+xy=x^3-x^2-2x-1
+\]
+for $J_0(49)$ has discriminant $-343$ and a point of order two
+$(2,-1)$, reducing to the nonzero point $(0,1)$ modulo $2$.
+Thus reduction is injective on the rational $2$-primary subgroup
+of $J_0(49)$, hence also on that of $J$. It is always injective on
+odd-order torsion. Therefore
+\[
+ J(\mathbb Q)\longrightarrow J(\mathbb F_2)
+\]
+is injective.
+
+Suppose that $D$ is a rational effective noncuspidal divisor of
+degree $10$ on $X$. Exhaustive enumeration over $\mathbb F_{2^f}$,
+$f\leq10$, shows that the only possible noncuspidal closed-point
+degrees are $9$ and $10$. There are respectively $42$ and $126$
+such points, forming two and six diamond orbits. For every orbit
+representative $P$, the degree-zero divisor
+\[
+ A_3P=(T_3-1-3\langle3\rangle)P
+\]
+is nonprincipal, by exact Riemann--Roch computations on the full
+genus-$69$ curve. Independent enumeration of all curves, twists
+and level structures verifies the completeness of these orbits.
+The four native $3$-isogenies at each of the eight representatives
+also reproduce the finite correspondence, including all closed
+point degrees and norm multiplicities.
+
+The operator $A_3$ kills $J(\mathbb Q)$, by Eichler--Shimura at $3$
+and injectivity of torsion reduction there. At a rational cusp $c$
+we have the literal identity $T_3c=c+3\langle3\rangle c$.
+It follows from the Tate parametrization at one rational cusp and
+then from diamond equivariance at all $21$ rational cusps.
+If the reduction of $D$ has noncuspidal support, it is therefore
+one degree-$10$ point or a degree-$9$ point plus a rational cusp.
+In either case the computed nonprincipality of $A_3P$ is a
+contradiction.
+
+The cusp degrees over $\mathbb Q$ and $\mathbb F_2$ are
+\[
+ 1^{21},6^3,21\qquad\text{and}\qquad1^{21},3^6,21.
+\]
+If the reduction of $D$ is supported on rational cusps, let $C$
+be its rational cuspidal lift. Injectivity of specialization gives
+$D\sim C$. Since
+\[
+ \operatorname{gon}_{\mathbb C}X
+ \geq \frac7{800}[\operatorname{PSL}_2(\mathbb Z):\overline{\Gamma_1(49)}]
+ =\frac7{800}\,1176=\frac{1029}{100}>10,
+\]
+we obtain $D=C$, a contradiction.
+
+It remains to exclude cuspidal reductions containing a cubic cusp.
+Put $U=(\mathcal C-1)H^0(X_{\mathbb F_2},\Omega^1)$, where
+$\mathcal C$ is Cartier. Its dimension is $68$. We verify that
+restriction from $U$ has rank $10$ at every effective cuspidal
+divisor of degree $10$ containing a cubic cusp, as follows.
+
+First use the existing common-basis jets at eighteen rational
+cusps, through multiplicity six, and at all six cubic cusps,
+through multiplicity three. The complete degree-$10$ replay checks
+\[
+ 6\left(\binom{24}{7}-18\right)
+ +\binom72\binom{21}{4}+\binom83\,18
+ =2203209
+\]
+divisors and finds rank $10$ in every case. This covers every
+mixed cuspidal divisor having at most six rational support points
+and rational multiplicities at most six: the diamond group acts
+regularly on the $21$ rational cusps, and at most $6\cdot3=18$
+of its $21$ elements send some support point to one of the three
+omitted cusps. Cartier commutes with diamonds.
+
+If there are seven rational support points, the divisor consists
+of seven distinct rational cusps and one cubic cusp. Fresh
+first-order jets at all $21$ rational and six cubic cusps check
+all $6\binom{21}{7}=697680$ such divisors. Finally, a rational
+multiplicity of seven forces the divisor to be $7c+Q$, with $Q$
+a cubic cusp. A diamond fixes the choice of $c$, leaving six
+checks, using fresh jets through order seven at that cusp.
+All these ranks are $10$. A separate calculation with Magma's
+built-in local completion verifies the restriction kernels through
+all seven rational orders and at a cubic cusp, including their
+combined degree-$10$ kernel. Binary linear algebra independently
+checks every exported projection and every stated rank.
+
+Lemma~\ref{lem:decic49-Cartier}, applied with the full Jacobian as
+target, now excludes the remaining cuspidal reductions. Each
+closed cubic cusp is lifted with its complete Frobenius orbit,
+so the entire cuspidal lift is a $\mathbb Q_2$-rational divisor.
+This completes the proof.
+\end{proof}

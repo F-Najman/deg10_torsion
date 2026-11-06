@@ -1,0 +1,10 @@
+Loading "work/deg10/continuation_20261031a/C54/inputs/native_group_generators.m\
+"
+Loading "work/deg10/computations/d31a_smalltarget_setup_common_v2.m"
+
+In file "work/deg10/computations/d31a_smalltarget_setup_common_v2.m", line 2, column 190:
+>> cs:=Cusps(Y);c0:=Support([o:o in os|Degree(o)eq 1][1])[1];A:=FunctionFieldD
+                           ^
+Runtime error in 'Support': Bad argument types
+Argument types given: PlcCrvElt
+

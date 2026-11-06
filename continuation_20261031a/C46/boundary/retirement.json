@@ -1,0 +1,9 @@
+{
+  "purpose": "Retire obsolete C46 Completion calculation after verified Varivoda TheoremD plus local torsion/base-change boundary proof",
+  "time_unix": 1793402447.4566665,
+  "job": "d31a_46_boundary_completion",
+  "recorded_state": "EXITED",
+  "script": "computations/d31a_46_boundary_completion.m",
+  "replacement_reference": "https://hexagonmath.org/pdf/2610.00219v1, Theorem D, gon_Q X1(46)=19; odd3 torsion injection and rational pole-divisor base change",
+  "actual_exit_code": -14
+}

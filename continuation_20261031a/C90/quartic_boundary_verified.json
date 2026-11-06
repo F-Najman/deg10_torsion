@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "tested_existing_degree10_patterns": 94420,
+  "rank_defects": [],
+  "filter": "All configurations containing at least one quartic cusp; other supports handled by global lift and gonality18",
+  "missing_pure_support_patterns": [
+    {
+      "cusp": 1,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 2,
+      "degree": 2,
+      "multiplicity": 5
+    },
+    {
+      "cusp": 3,
+      "degree": 2,
+      "multiplicity": 5
+    },
+    {
+      "cusp": 4,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 6,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 7,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 8,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 10,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 12,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 16,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 17,
+      "degree": 2,
+      "multiplicity": 5
+    },
+    {
+      "cusp": 18,
+      "degree": 2,
+      "multiplicity": 5
+    },
+    {
+      "cusp": 20,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 21,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 22,
+      "degree": 1,
+      "multiplicity": 10
+    },
+    {
+      "cusp": 23,
+      "degree": 1,
+      "multiplicity": 10
+    }
+  ],
+  "elapsed_seconds": 1.9645259380340576
+}

@@ -1,0 +1,62 @@
+\begin{lemma}\label{lem:decic-318-quartic-fibre}
+Let $F=\mathbb Q(\zeta_3)$ and $X=X_1(3,18)_F$.
+An effective noncuspidal $F$-rational divisor of degree $5$ on $X$
+cannot reduce at $7$ to a noncuspidal quartic in either of the
+orbits numbered $12$ and $17$ in the complete $27$-automorphism
+enumeration, together with a rational cusp.
+\end{lemma}
+\begin{proof}
+For a level structure $(E,P_3,Q_{18})$, let $T=9Q_{18}$ and
+let $\phi:E\to E'=E/\langle T\rangle$.
+Write $T'$ for the nonzero point in the kernel of the dual
+$2$-isogeny. The formula
+\[
+ \tau(E,P_3,Q_{18})=
+      (E',\phi P_3,2\phi Q_{18}+T')
+\]
+defines an $F$-rational involution of $X$.
+Indeed, the new point of order $18$ is the sum of a point of
+order $9$ and $T'$, and the Weil pairing is raised to the power
+$2\cdot2\equiv1\pmod3$. Applying the formula twice gives
+$(-P_3,-Q_{18})$, which is the original point of the modular curve.
+
+The quartic representatives $N_{12}$ and $N_{17}$ are fixed
+as closed places by $h_i=g_i^{-1}\tau g_i$, where
+\[
+ g_{12}(P,Q)=(P+12Q,Q),\qquad
+ g_{17}(P,Q)=(P+12Q,P+Q).
+\]
+In both cases $h_i$ acts on the quartic residue field as
+Frobenius squared. Thus the quotient $\pi_i:X\to Y_i=X/\langle h_i\rangle$
+is \'etale at $N_i$, and
+$N_i=\pi_i^*q_i$ for a quadratic place $q_i$ on the quotient.
+The anti-invariant differential space has dimension $6$.
+For every one of the $18$ rational cusps $c$, restriction of
+\[
+ (h_i^*-1)H^0(X_{\mathbb F_7},\Omega^1)
+       \longrightarrow H^0(N_i+c,\Omega^1)
+\]
+has rank $3$. All $36$ restrictions, including their exact
+Riemann--Roch kernels, are retained in the certificate.
+
+Suppose that $\overline D=N_i+c$.
+Let $R=\mathbb Z_7$, lift $c$ cuspidally, and lift $q_i$ to a
+quadratic trace divisor $E_2$ on $Y_i/R$.
+Put $\alpha=h_{i*}-1$ and $D_0=c+\pi_i^*E_2$.
+Rank zero of $J_X(F)$, Manin--Drinfeld, and
+$\alpha\pi_i^*=0$ show that $\alpha[D-D_0]$ is torsion.
+It has zero reduction, so the odd unramified formal group
+implies $\alpha[D-D_0]=0$.
+
+The formal family $c+\pi_i^*Y_i^{(2)}$ through $D_0$ is smooth
+of dimension $2$ and is a closed formal immersion into $X^{(5)}$.
+The moving support is disjoint from $c$, and $\pi_i$ is \'etale
+at the moving points, so the two moving coefficients can be
+recovered from their pullbacks.
+The rank-$3$ restriction gives three independent cotangent
+equations for the $\alpha$-Abel fibre in the smooth
+five-dimensional symmetric power. Their zero locus is smooth
+of dimension $2$, and contains the preceding family with the
+same tangent space. The formal implicit function theorem
+identifies them. Consequently $c\leq D$, a contradiction.
+\end{proof}

@@ -1,0 +1,18 @@
+{
+  "purpose": "next95111_independent_finite",
+  "script": "computations/next95111_independent_finite.py",
+  "script_sha256": "bf2ea6d5e45db165fffe5c2021d44e33454171545bd3253b17ca230e41eb8567",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next95111_independent_finite.py"
+  ],
+  "pid": 2086904,
+  "owner_uid": 1001,
+  "start_time_unix": 1793369043.3715472,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/next95111_independent_finite.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.2805142402648926
+}

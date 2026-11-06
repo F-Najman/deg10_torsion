@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "quotient_source_genus": 81,
+  "h10_invariant_quotient_genus": 41,
+  "anti_invariant_dimension": 40,
+  "components": [
+    {
+      "character_order": 10,
+      "dimension_over_character_field": 8,
+      "finite_prime": 11,
+      "full_Hecke_orbit_rank": 8
+    },
+    {
+      "character_order": 2,
+      "dimension_over_character_field": 8,
+      "finite_prime": 5,
+      "full_Hecke_orbit_rank": 8
+    }
+  ],
+  "twist_containment": "Quadratic character of conductor3 preserves nebentype and twists each level-dividing99 factor to level dividing99; Derickx-Sutherland Theorem4.1 proof (Atkin-Li). Hence all h10-minus factors and their -3 twists have analytic rank0.",
+  "seconds": 0.0163796148262918
+}

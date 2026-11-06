@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "group": [
+    1,
+    99
+  ],
+  "complete_exclusion": true,
+  "parent_mathematical_review": "PASS",
+  "source_closed_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    120
+  ],
+  "source_diamond_orbits": 4,
+  "initial_target_genus": 21,
+  "initial_A5_h0": [
+    0,
+    0,
+    1,
+    0
+  ],
+  "excluded_initial_orbits": [
+    1,
+    2,
+    4
+  ],
+  "final_target_genus": 29,
+  "final_operator": "(delta2-1)(T5-1-5delta5)",
+  "final_orbit": 3,
+  "final_h0": 0,
+  "signed_degrees": [
+    110,
+    110
+  ],
+  "fresh_native_prime_reference_checks": 23,
+  "independent_marked_5_and_11_isogenies": "PASS; every source/diamond/paired Hecke key and norm bound",
+  "all_recorded_jobs_exited": true,
+  "pure_cusp_argument": "finite diamond image, unramified2 torsion exponent2, gonality>40, nonintegral j excludes nontrivial projective stabilizers, free order15 cannot divide10",
+  "diagnostic_note": "A7 and extra3-isogeny X1(33) maps retained h0=1 and do not exclude residual3. Four initial Y29 model failures are not certificates. Only the final verified genus29 test closes residual3."
+}

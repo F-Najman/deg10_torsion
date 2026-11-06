@@ -1,0 +1,62 @@
+\begin{lemma}\label{lem:decic48cusp13}
+Let $X=X_1(48)_{\mathbf F_5}$, and put
+$A_{13}=T_{13}-1-13\langle13\rangle$.
+For every $\mathbf F_5$-rational cuspidal divisor $C$ on $X$, the divisor
+$A_{13}C$ is principal.
+\end{lemma}
+\begin{proof}
+We use primitive cusp labels $(a,b)\in(\mathbf Z/48\mathbf Z)^2$, modulo
+$(a,b)\sim\pm(a+nb,b)$. The arithmetic and diamond actions are
+\[
+ \sigma_u(a,b)=(ua,b),\qquad
+ \langle u\rangle(a,b)=(ua,u^{-1}b).
+\]
+There are $56$ geometric cusps. Their $\sigma_5$-orbits consist of
+$16$ rational cusps, $12$ quadratic cusps, and $4$ quartic cusps.
+On cusps one has
+\[
+ T_{13}=\sigma_{13}+13\langle13\rangle\sigma_{13}^{-1}.
+\]
+Applying this identity to the $32$ closed cusps shows that $A_{13}$ vanishes
+on all but four of them. These four form two pairs: the two quadratic
+cusps of width $2$, and the two quartic cusps of width $1$.
+If their differences are denoted by $C_2-C_2'$ and $C_4-C_4'$, respectively,
+the nonzero columns of $A_{13}$ are
+\[
+ \pm12(C_2-C_2'),\qquad \pm12(C_4-C_4').
+\]
+This calculation is a permutation calculation on primitive labels;
+\path{independent_cusp_A13_labels.json} records every column.
+
+Both displayed differences, multiplied by $12$, are principal. More
+precisely, the certificate \path{cusp_corrections_v2.m} gives the two
+prime pairs and rational functions $f_2,f_4$ in the degree-$19$
+function-field presentation of $X$, with
+\[
+ \operatorname{div}(f_i)=-12(C_i-C_i')\qquad(i=2,4).
+\]
+The primes are characterized by their degrees and their pole orders
+$2$ and $1$ for $j$, respectively. The identities were checked in both
+the finite and infinite maximal orders of a fresh copy of the function
+field; see \path{independent_cusp_principal.m}. This proves the claim.
+\end{proof}
+
+\begin{lemma}\label{lem:decic48NC13}
+Let $D$ be an effective rational divisor of degree $10$ on $X_1(48)$,
+and write its reduction at $5$ as $\overline D=N+C$, with $C$ cuspidal
+and $N$ supported away from the cusps. Then $A_{13}N$ is principal.
+If $C=0$, the same conclusion holds with $13$ replaced by $7$.
+\end{lemma}
+\begin{proof}
+The group $J_1(48)(\mathbf Q)$ is finite by DEHMZ, Theorem~3.1(2).
+At either good odd prime $\ell=7,13$, the Eichler--Shimura relation and
+injectivity of reduction on rational torsion give
+\[
+ (T_\ell-1-\ell\langle\ell\rangle)J_1(48)(\mathbf Q)=0.
+\]
+The same operator annihilates the degree part after subtracting a rational
+cusp. Such a cusp is annihilated as a divisor. Reducing at $5$ therefore
+gives $A_{13}(N+C)\sim0$. Lemma~\ref{lem:decic48cusp13} gives
+$A_{13}C\sim0$, so $A_{13}N\sim0$. If $C=0$, the argument applies
+directly to $A_7$.
+\end{proof}

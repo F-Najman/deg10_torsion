@@ -1,0 +1,16 @@
+Loading "work/deg10/continuation_20261030b/C77/noncuspidal_common_v2.m"
+Loading "work/deg10/continuation_20261030b/C77/geometry_common.m"
+NONIC77_X0_MODEL genus7=true modular_polynomial_verified=true cusp_widths=[ 11, 77, 1, 7 ] time=21.590
+Loading "work/deg10/continuation_20261030b/C77/inputs/AS_component.m"
+NONIC77_DIRECT_CUBIC_VERIFIED degree12=true genus19=true exact_base_embedding=true deck_order3=true time=37.590
+NONIC77_DIRECT_GENUS37_VERIFIED time=78.970
+NONIC77_GLOBAL_CUSPS_VERIFIED signature=[ 2, 1, 1, 2, 1, 1, 6, 3, 3, 1, 1, 2 ] width_degree_pairs=[ <7, 2>, <77, 1>, <77, 1>, <7, 2>, <77, 1>, <77, 1>, <1, 6>, <11, 3>, <11, 3>, <77, 1>, <77, 1>, <7, 2> ] jdegree576=true time=210.770
+NONIC77_DIRECT_GLOBAL_GENUS37_MODEL_DONE
+C77_DIAMONDS_VERIFIED delta2_cubic_exponent 2 delta3=delta2inverse
+C77_NC_INPUT_READY 3 286.790
+C77_NC_HEKCE_ORBIT 3 1 1 10 1 308.160
+C77_NC_HEKCE_ORBIT 3 2 3 30 1 332.970
+C77_NC_DELTA_TARGETS_CACHED 3 4 393.070
+
+Current total memory usage: 1303.2MB, failed memory request: 216409.4MB
+System Error: User memory limit has been reached

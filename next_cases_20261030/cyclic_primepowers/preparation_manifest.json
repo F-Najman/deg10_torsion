@@ -1,0 +1,20 @@
+{
+  "degree": 10,
+  "groups": [
+    "C49"
+  ],
+  "status": "PREPARED; NO JOBS STARTED",
+  "cartier_mixed_divisor_count": 3038879,
+  "files": {
+    "work/deg10/next_cases_20261030/cyclic_primepowers/deps/DT_GPL3_LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/deps/criterion_input.tex": "af67e7b286e74dc03c4f7b65267bc2e147d8742fd4e3bee32518a826098e0a67",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/deps/dt_expansions_local.m": "19efb89f63a7cb46a10d8497915d942263fa89b3a7b2513c7ea17f9095742309",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/deps/fast_hecke.m": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_cartier_export.m": "de9f52abed05660f5497cba06dd3f8607baa99521eafbb89da07882d8dc445d4",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_cusp_arithmetic.py": "c643467e2b18bcdb2ef47390b6669bcf16c0b1486009596953316777c5424c91",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_finite_controls.m": "16e62c08c7c26eea97c74bfe739edbe51345cf7c30c2d97a3739778dd30260c0",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_finite_controls_body.m": "d1d4fb8f5746ecd9c1143ce439c515b794d4b5b88d536ee99769095850c7e700",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_finite_sieve.m": "7fbb4fc1b24b3c4adb6894cb8a5b3f7c26aac36c7fa4257c32f50d4513857742",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_replay_cartier.py": "faafacdb977c3d29ccf0dd5c85c02c7e2790ae2129df5e6a54ada3feedb94125"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "all_twelve_source_classes_checked": true,
+  "independent_Velu5_isogenies": 72,
+  "complete_five_division_polynomials_recovered": 12,
+  "independent_Velu29_quotient_j_checks": 72,
+  "finite_moduli_coordinates_and_degrees_verified": 72,
+  "positive_norm_summands": 20,
+  "classes": [
+    [
+      9,
+      1,
+      1
+    ],
+    [
+      9,
+      2,
+      1
+    ],
+    [
+      9,
+      3,
+      1
+    ],
+    [
+      9,
+      4,
+      1
+    ],
+    [
+      10,
+      1,
+      2
+    ],
+    [
+      10,
+      2,
+      2
+    ],
+    [
+      10,
+      3,
+      2
+    ],
+    [
+      10,
+      4,
+      2
+    ],
+    [
+      10,
+      5,
+      2
+    ],
+    [
+      10,
+      6,
+      2
+    ],
+    [
+      10,
+      7,
+      2
+    ],
+    [
+      10,
+      8,
+      2
+    ]
+  ],
+  "input_sha256": {
+    "continuation_20261030b/C87/raw_hecke_isogenies.m": "8bc89d630e4b7d83697a4da8f1c07648cde5656bc5ce36aaaad7a2d26f9a217d",
+    "continuation_20261030b/C87/base_model.m": "89e6c4deb77a289236847e4295304184f2dae7a128fa4f6e359c56dcea74d46b",
+    "continuation_20261030b/C87/base_j_functions.m": "a40902391645be36e1afb70bd21baae3c678438a894dc8b5c36bbb1c5016ea4a"
+  },
+  "seconds": 9.148572778329253
+}

@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "p7_tests": 684,
+  "p13_tests": 1710,
+  "all_actual_h_stabilizers_verified": true,
+  "all_holomorphic_frames_verified": true,
+  "all_native_DifferentialSpace_kernels_match": true,
+  "all_relative_ranks": 4,
+  "method": "Fresh independent function-field and differential-space reconstruction; each p13 block uses an isolated process to avoid map-state reuse",
+  "jobs": [
+    {
+      "job": "d31b_m318_parent_relative_p7",
+      "degree5_restrictions": 684,
+      "actual_exit_code": 0
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13_block1",
+      "degree5_restrictions": 171,
+      "actual_exit_code": 0
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13_block2",
+      "degree5_restrictions": 171,
+      "actual_exit_code": 0
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13_block3",
+      "degree5_restrictions": 171,
+      "actual_exit_code": 0
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13_block4",
+      "degree5_restrictions": 171,
+      "actual_exit_code": 0
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13_block5",
+      "degree5_restrictions": 171,
+      "actual_exit_code": 0
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13_block6",
+      "degree5_restrictions": 171,
+      "actual_exit_code": 0
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13_block7",
+      "degree5_restrictions": 171,
+      "actual_exit_code": 0
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13_block8",
+      "degree5_restrictions": 171,
+      "actual_exit_code": 0
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13_block9",
+      "degree5_restrictions": 171,
+      "actual_exit_code": 0
+    },
+    {
+      "job": "d31b_m318_parent_relative_p13_block10",
+      "degree5_restrictions": 171,
+      "actual_exit_code": 0
+    }
+  ],
+  "files_sha256": {
+    "computations/d31b_m318_parent_relative_common.m": "ecb6ec92a2dc378a30225a086597e225f4d60e198a7a9e4ebc3aa92001a86b1e",
+    "computations/d31b_m318_parent_relative_isolated_common.m": "a6429dda43196da35b9ca348aefade62314460dc168f2d3462d76890ed5e2bea",
+    "computations/d31b_m318_parent_relative_p13_block1.m": "ee3f8df078d947dbb5487758e74f35a64e3440a0c116ff654f02cbd881032715",
+    "computations/d31b_m318_parent_relative_p13_block10.m": "db0e4d30c45b426427deb985530b6fc1e05d874eb5da979dceab11e7345aac55",
+    "computations/d31b_m318_parent_relative_p13_block2.m": "894f6f0905225814148d25148f575971f6bedd5d27362985d9b6b4bc8979f739",
+    "computations/d31b_m318_parent_relative_p13_block3.m": "80ea92fe3e81edffbae97c9e452796c8f9580235f8e4db6a8919a552d952a64d",
+    "computations/d31b_m318_parent_relative_p13_block4.m": "e1d8176de2bb980323e2a967a45f86a3215805ecdbab95ec58e2615c0f3e9b20",
+    "computations/d31b_m318_parent_relative_p13_block5.m": "7bd9e31f212913eebc431eec535984c92f0e8bf7833b19d5a0670b5ccfaa7005",
+    "computations/d31b_m318_parent_relative_p13_block6.m": "9865eb578e86327d854106aa62da32dc0e50b5d752f95518bc1e6e17565f93b1",
+    "computations/d31b_m318_parent_relative_p13_block7.m": "90d49196e7080bfac0c1ce87b8998608949c64ea2ccce20994e391b6680d3396",
+    "computations/d31b_m318_parent_relative_p13_block8.m": "4b045e39fcae123ed99b4162e1f49045d233bbcc3df1b3f023f5d5a7db97dc8e",
+    "computations/d31b_m318_parent_relative_p13_block9.m": "4af507aa7e9c2c2e8260f611a63def9d335d90925dedbcaebc7e153cd5bfde66",
+    "computations/d31b_m318_parent_relative_p7.m": "41436498bd0fe65510f6e9b29684b8b4099bf225b795bcb063b742f247a779af",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p13_block1.m": "662724d24833bf823343a90c475dc30a6ca6f597cf8b4d0216fec46f07ac59fc",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p13_block10.m": "77499255517acfe9d184dddfc3bf0283316a181b18f592f9749e0715ee1f5576",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p13_block2.m": "6e82fe4eb4a1c0c10cd5e316e90eddf714793e0ba9ece54687430df0d0ebb0cd",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p13_block3.m": "49ea53574b786756e36e4f179a1592ef4a3e0206b4c5bb140a1c7b9a98202e94",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p13_block4.m": "a2471182f9ad82163d838b31161efe027c72c69bbeee8110000ee8efcbf27156",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p13_block5.m": "721bc3f0564f6cf27647898e1680a5ed353ae12e89b22bb0a1c409f545424f72",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p13_block6.m": "aaadbf825707ed96cea3958994f4b5edd97d0357e4b44ccc75939752e3bb6e44",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p13_block7.m": "eb7837b68cb9889b92dd0f4ddd54a014288de3e8d5def40a27236c8d74d0079a",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p13_block8.m": "a31c4ce3bfa8e0d21600dd0b0c382418dee0de7caea7096444da385886ebb0c9",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p13_block9.m": "d2d1588d5f42c3e526420cbf5b7679eac9d29e58a68f3075b3bd773a7240833f",
+    "continuation_20261031b/M3N18/parent_relative_cubic_p7.m": "084535192ad30d8e05ba54a6711496145ef0d7d8da5b815e1ee8696b26189ed5",
+    "jobs/d31b_m318_parent_relative_p13_block1.log": "a6b1b3c5e175c0a2934c9e25f3aafb5af8537caf41683fa89e163b60040aea24",
+    "jobs/d31b_m318_parent_relative_p13_block1.status.json": "44c5602f191b89310f72a4c59c8ad67559b2f510092994e867b3a3e6e889cef7",
+    "jobs/d31b_m318_parent_relative_p13_block10.log": "81378a2fe1e02378027014629b2705ed0499fe30c221da763822b2355adec7ee",
+    "jobs/d31b_m318_parent_relative_p13_block10.status.json": "2d6a7af4f549e3baf0f406370965eebb6b245dc1b176dbc29915e6a6ad807137",
+    "jobs/d31b_m318_parent_relative_p13_block2.log": "06f36a374d1bd0f71f478b30919d82b0ae54f7f31f769484f3ad6ed19222775f",
+    "jobs/d31b_m318_parent_relative_p13_block2.status.json": "af23cc68f9b1f7e454bec4ab2291391070fd418fa3fb8e599bcd22ac9ed4d57c",
+    "jobs/d31b_m318_parent_relative_p13_block3.log": "4ab34d606af4adecd5632845045397691b9ee992fd6426213b880e66b3268fd0",
+    "jobs/d31b_m318_parent_relative_p13_block3.status.json": "4a048e7d3db6865bfc478fe0cb4fd7a765472b68c71ce548c7dd9ffd308c3a42",
+    "jobs/d31b_m318_parent_relative_p13_block4.log": "4fea68a3519ac2ff4da8279c439f72a7318886627ee53caba92f3f6e73a8afc4",
+    "jobs/d31b_m318_parent_relative_p13_block4.status.json": "35a3191bfdc2c09e3abace3488863d44488ba2c8141efb2f750e0b3f63ecda7a",
+    "jobs/d31b_m318_parent_relative_p13_block5.log": "5cdc5e184f312b1afa2d0b7c6b5c77a94c53a081f89267b56da3f40addfee3cf",
+    "jobs/d31b_m318_parent_relative_p13_block5.status.json": "8a96aebdf0d79430489d69d3e8e66de1a5d46ba079e039fbe8dc852044e46dd9",
+    "jobs/d31b_m318_parent_relative_p13_block6.log": "4392ec490e0596e2c3ea054121441a8b867d4d3ab403411eea9f134b6274a5ff",
+    "jobs/d31b_m318_parent_relative_p13_block6.status.json": "a615df3915a3935550f73430525c84694d2683f5a05fe7c8f41f79553bb3ecfc",
+    "jobs/d31b_m318_parent_relative_p13_block7.log": "42531c44a6957a5aa58a2bb0f2a57d8917ccb83d5e689dd5ddcd2106298435db",
+    "jobs/d31b_m318_parent_relative_p13_block7.status.json": "a53fddf25ee76cb6b03cc0f31254174739da645f843a6252842efc6c98a376e5",
+    "jobs/d31b_m318_parent_relative_p13_block8.log": "c28ad0cc49234cfc07dd685350d208157a049159c680ba652dc5926a5523899d",
+    "jobs/d31b_m318_parent_relative_p13_block8.status.json": "9e2d5fec52553e322f8ec6e357fd3d052dc8eeb3e74830faf0d64fe0de68047f",
+    "jobs/d31b_m318_parent_relative_p13_block9.log": "869a5e72cac7e19265eee907da413fe3cef2f642d85472d11b3c4dad800e45d7",
+    "jobs/d31b_m318_parent_relative_p13_block9.status.json": "c18d3ab27bf9449cbfe062f7dbf3471dc8ca187fcd69926eae7ec9eb87ec330d",
+    "jobs/d31b_m318_parent_relative_p7.log": "a0edc6b940c231687725068dc22159fc74ad1a672e08056c9fd81365320b7cf2",
+    "jobs/d31b_m318_parent_relative_p7.status.json": "db519e6bf9b88f0bf82249f6b73ae3966b723338987c6f2ba0df618d7238fcfc"
+  }
+}

@@ -1,0 +1,59 @@
+RELATION_BASIS_POSITIVE_DEGREES [12, 12, 14, 12, 12, 15, 12, 12, 14, 12, 12, 12, 12, 12, 14, 16, 16]
+[
+  {
+    "id": 30,
+    "g_on_rational_cusp_labels": {
+      "3": 2,
+      "-18": -14,
+      "1": 8,
+      "7": 4,
+      "2": 3,
+      "8": 1,
+      "-22": -6,
+      "6": 9,
+      "-10": -2,
+      "-2": -10,
+      "-6": -22,
+      "4": 7,
+      "5": 12,
+      "9": 6,
+      "12": 5,
+      "11": 10,
+      "10": 11,
+      "-14": -18
+    },
+    "g_fixed_rational_cusps": [],
+    "positive_part_g_invariant": true,
+    "negative_part_g_invariant": true,
+    "positive_degree": 12,
+    "negative_degree": 2
+  },
+  {
+    "id": 24,
+    "g_on_rational_cusp_labels": {
+      "3": 11,
+      "-18": 6,
+      "1": 5,
+      "7": 9,
+      "2": -6,
+      "8": -2,
+      "-22": 10,
+      "6": -18,
+      "-10": 12,
+      "-2": 8,
+      "-6": 2,
+      "4": -14,
+      "5": 1,
+      "9": 7,
+      "12": -10,
+      "11": 3,
+      "10": -22,
+      "-14": 4
+    },
+    "g_fixed_rational_cusps": [],
+    "positive_part_g_invariant": true,
+    "negative_part_g_invariant": true,
+    "positive_degree": 14,
+    "negative_degree": 4
+  }
+]

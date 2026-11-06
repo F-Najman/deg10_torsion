@@ -1,0 +1,251 @@
+{
+  "status": "PASS",
+  "cases": 4,
+  "unresolved": [],
+  "canonical_genus": 225,
+  "domain_dimension": 225,
+  "product_dimension": 672,
+  "residual_quotient_dimension": 447,
+  "source_diamond_orbits": 4,
+  "source_closed_points": 128,
+  "diamond_order": 32,
+  "point_diamond3_is_canonical_D3_inverse": true,
+  "point_diamond_labels": [
+    1,
+    42,
+    28,
+    14,
+    19,
+    33,
+    22,
+    11,
+    21,
+    32,
+    7,
+    39,
+    26,
+    13,
+    37,
+    24,
+    16,
+    8,
+    23,
+    31,
+    36,
+    18,
+    12,
+    6,
+    4,
+    2,
+    27,
+    29,
+    9,
+    38,
+    3,
+    41
+  ],
+  "all_support_multiplicities_aggregated": true,
+  "results": [
+    {
+      "source": 1,
+      "target_diamond_translate": 0,
+      "convention": 2,
+      "positive_degree": 80,
+      "positive_conditions_width": 80,
+      "negative_conditions_width": 80,
+      "positive_support": [
+        [
+          1,
+          1
+        ],
+        [
+          31,
+          3
+        ],
+        [
+          34,
+          1
+        ],
+        [
+          66,
+          1
+        ]
+      ],
+      "negative_support": [
+        [
+          2,
+          1
+        ],
+        [
+          32,
+          3
+        ],
+        [
+          33,
+          1
+        ],
+        [
+          65,
+          1
+        ]
+      ],
+      "rank": 225,
+      "F": "0x5c92cb733ad5d369fb33",
+      "H": [
+        "0x4417ac43abac3a456cc0ccc786391d0cc453a765b252128d46f75fcf"
+      ],
+      "columns": 527
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 0,
+      "convention": 2,
+      "positive_degree": 80,
+      "positive_conditions_width": 80,
+      "negative_conditions_width": 80,
+      "positive_support": [
+        [
+          97,
+          1
+        ],
+        [
+          127,
+          3
+        ],
+        [
+          130,
+          1
+        ],
+        [
+          162,
+          1
+        ]
+      ],
+      "negative_support": [
+        [
+          98,
+          1
+        ],
+        [
+          128,
+          3
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          161,
+          1
+        ]
+      ],
+      "rank": 225,
+      "F": "0x506325e6fb64fa520852",
+      "H": [
+        "0xf3bb395338aa27db3ae7905e2ae7345eee4448f1171ec7595c644564"
+      ],
+      "columns": 527
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 0,
+      "convention": 2,
+      "positive_degree": 80,
+      "positive_conditions_width": 80,
+      "negative_conditions_width": 80,
+      "positive_support": [
+        [
+          116,
+          1
+        ],
+        [
+          147,
+          3
+        ],
+        [
+          149,
+          1
+        ],
+        [
+          194,
+          1
+        ]
+      ],
+      "negative_support": [
+        [
+          115,
+          1
+        ],
+        [
+          148,
+          3
+        ],
+        [
+          150,
+          1
+        ],
+        [
+          193,
+          1
+        ]
+      ],
+      "rank": 225,
+      "F": "0xe3ca921073f37bd4a7ba",
+      "H": [
+        "0x1fa8dda0dabc0a61c00cfc415813bf9117f5dc5f737b550b0b73622d4"
+      ],
+      "columns": 527
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 0,
+      "convention": 2,
+      "positive_degree": 80,
+      "positive_conditions_width": 80,
+      "negative_conditions_width": 80,
+      "positive_support": [
+        [
+          21,
+          1
+        ],
+        [
+          46,
+          3
+        ],
+        [
+          48,
+          1
+        ],
+        [
+          226,
+          1
+        ]
+      ],
+      "negative_support": [
+        [
+          14,
+          1
+        ],
+        [
+          53,
+          3
+        ],
+        [
+          55,
+          1
+        ],
+        [
+          225,
+          1
+        ]
+      ],
+      "rank": 225,
+      "F": "0xbe44c90a7632e53eda56",
+      "H": [
+        "0xa483ab18dd77a0bd3f436c2f025d5da885aca366f6a8a0df1be739be"
+      ],
+      "columns": 527
+    }
+  ],
+  "elapsed_seconds": 1.6560048856772482
+}

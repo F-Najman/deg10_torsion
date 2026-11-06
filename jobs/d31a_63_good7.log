@@ -1,0 +1,25 @@
+Y63_NC_EXHAUSTIVE e=7 geometric_pairs=189 closed_places=27 diamond_orbits=3 time=0.020
+Y63_NC_REP index=1 fieldpoly=[ 1, 1, 0, 0, 0, 0, 0, 1 ] t=[ 0, 1, 1, 1, 0, 1, 1 ] x7=[ 0, 0, 0, 0, 0, 1, 0 ]
+Y63_NC_REP index=2 fieldpoly=[ 1, 1, 0, 0, 0, 0, 0, 1 ] t=[ 0, 0, 1, 1, 0, 1, 1 ] x7=[ 0, 0, 1, 1, 0, 0, 1 ]
+Y63_NC_REP index=3 fieldpoly=[ 1, 1, 0, 0, 0, 0, 0, 1 ] t=[ 0, 1, 1, 0, 1, 0, 1 ] x7=[ 0, 1, 1, 0, 1, 1, 1 ]
+Y63_MODEL genus=49 degree=24 maximal_order_ready=true time=30.910
+D31A_C63_NC_SETUP e=7 reps3=true bad_cubics3=true time=31.440
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=1 ci=1 cj=2 h0=0 time=40.420
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=1 ci=1 cj=3 h0=0 time=43.850
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=1 ci=2 cj=1 h0=0 time=49.370
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=1 ci=2 cj=3 h0=0 time=57.110
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=1 ci=3 cj=1 h0=0 time=61.750
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=1 ci=3 cj=2 h0=0 time=66.730
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=2 ci=1 cj=2 h0=0 time=75.560
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=2 ci=1 cj=3 h0=0 time=89.130
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=2 ci=2 cj=1 h0=0 time=100.400
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=2 ci=2 cj=3 h0=0 time=106.000
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=2 ci=3 cj=1 h0=0 time=109.250
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=2 ci=3 cj=2 h0=0 time=112.900
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=3 ci=1 cj=2 h0=0 time=124.520
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=3 ci=1 cj=3 h0=0 time=136.860
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=3 ci=2 cj=1 h0=0 time=144.640
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=3 ci=2 cj=3 h0=0 time=151.600
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=3 ci=3 cj=1 h0=0 time=155.050
+D31A_C63_NC7_CUBIC_NONPRINCIPAL index=3 ci=3 cj=2 h0=0 time=160.370
+D31A_C63_NC_COMPLETE e=7 reps=3 h0_all_zero=true time=160.480

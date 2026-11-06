@@ -1,0 +1,6 @@
+{
+  "original_path": "work/degree7/cyclic_sieves/N45_cartier_kernels.m",
+  "copied_path": "work/degree8/cyclic_sieves/N45_reference_RR_geometry_D7.m",
+  "sha256": "46628d1a5c445b11f4fe72dcf0fbe381a0598e07e648335c157329b74c935e3b",
+  "scope": "Degree-independent Cartier matrix and exact local differential-space kernels through multiplicity7 are used only as an independent geometric cross-check of fresh D8 completions. No earlier exclusion is imported."
+}

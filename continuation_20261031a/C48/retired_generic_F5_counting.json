@@ -1,0 +1,95 @@
+{
+  "retirements": [
+    {
+      "purpose": "d31a_even_p5_all_s0",
+      "pid": 2808213,
+      "owner_uid": 1001,
+      "verified_argv": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_even_p5_all_s0.m"
+      ],
+      "verified_start_unix": 1793402221.12,
+      "signal": "SIGTERM",
+      "reason": "Generic F5 curve point-count strategy abandoned after measured degree7 runtime makes complete degree10 census impractical; partial outputs are not complete certificates.",
+      "actual_exit_code": -15,
+      "state": "EXITED"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s1",
+      "pid": 2808079,
+      "owner_uid": 1001,
+      "verified_argv": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_even_p5_all_s1.m"
+      ],
+      "verified_start_unix": 1793402215.91,
+      "signal": "SIGTERM",
+      "reason": "Generic F5 curve point-count strategy abandoned after measured degree7 runtime makes complete degree10 census impractical; partial outputs are not complete certificates.",
+      "actual_exit_code": -15,
+      "state": "EXITED"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s2",
+      "pid": 2808110,
+      "owner_uid": 1001,
+      "verified_argv": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_even_p5_all_s2.m"
+      ],
+      "verified_start_unix": 1793402217.65,
+      "signal": "SIGTERM",
+      "reason": "Generic F5 curve point-count strategy abandoned after measured degree7 runtime makes complete degree10 census impractical; partial outputs are not complete certificates.",
+      "actual_exit_code": -15,
+      "state": "EXITED"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s3",
+      "pid": 2811502,
+      "owner_uid": 1001,
+      "verified_argv": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_even_p5_all_s3.m"
+      ],
+      "verified_start_unix": 1793402371.78,
+      "signal": "SIGTERM",
+      "reason": "Generic F5 curve point-count strategy abandoned after measured degree7 runtime makes complete degree10 census impractical; partial outputs are not complete certificates.",
+      "actual_exit_code": -15,
+      "state": "EXITED"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s4",
+      "pid": 2811558,
+      "owner_uid": 1001,
+      "verified_argv": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_even_p5_all_s4.m"
+      ],
+      "verified_start_unix": 1793402373.08,
+      "signal": "SIGTERM",
+      "reason": "Generic F5 curve point-count strategy abandoned after measured degree7 runtime makes complete degree10 census impractical; partial outputs are not complete certificates.",
+      "actual_exit_code": -15,
+      "state": "EXITED"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s5",
+      "pid": 2811552,
+      "owner_uid": 1001,
+      "verified_argv": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_even_p5_all_s5.m"
+      ],
+      "verified_start_unix": 1793402373.02,
+      "signal": "SIGTERM",
+      "reason": "Generic F5 curve point-count strategy abandoned after measured degree7 runtime makes complete degree10 census impractical; partial outputs are not complete certificates.",
+      "actual_exit_code": -15,
+      "state": "EXITED"
+    }
+  ],
+  "replacement": "torsion-first census with no elliptic curve point counts"
+}

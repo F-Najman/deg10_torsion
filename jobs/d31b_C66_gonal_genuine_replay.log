@@ -1,0 +1,6 @@
+D31B_C66_GONAL_CLASS_COVERAGE_COMPLETE 10 2
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_gonal_genuine_replay.py", line 23, in <module>
+    pd,m,d,e,pol,ep,rv,eq,vals,bs=rec;assert e==1;L=field(pol);z=L.gen();cv=lambda v:sum(L(c)*z**i for i,c in enumerate(v));E=EllipticCurve(L,[cv(v)for v in ep[0]]);P=E([cv(v)for v in ep[1]]);r=cv(rv);a1,a2,a3,a4,a6=E.a_invariants();S=E(r,-(a1*r+a3)/2);assert S.order()==2 and P.order()==33;source66=17*P+S;assert source66.order()==66 and degreejoint(xy(E,source66))==d*e
+                                             ^^^^
+AssertionError

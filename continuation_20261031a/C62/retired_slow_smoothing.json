@@ -1,0 +1,9 @@
+{
+  "pid": 2791946,
+  "owner_uid": 1001,
+  "start_time": 1793401469.39,
+  "command": "/opt/magma-2.30-1/magma.exe -b /home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C62_class_filter.m ",
+  "action": "SIGTERM",
+  "reason": "Verified replacement avoids duplicate projective RR sections; partial witnesses will be checked exactly by the completing producer",
+  "time": 1793402114.781075
+}

@@ -1,0 +1,18 @@
+{
+  "purpose": "resolve226_optimize_divisors",
+  "script": "computations/resolve226_optimize_divisors.py",
+  "script_sha256": "43dfcc3d41d48225348c2a32522ef9a8f4e7197dce1fd5595d4f6209eb2ab31e",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_optimize_divisors.py"
+  ],
+  "pid": 1562232,
+  "owner_uid": 1001,
+  "start_time_unix": 1793346814.780599,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/resolve226_optimize_divisors.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 26.25519561767578
+}

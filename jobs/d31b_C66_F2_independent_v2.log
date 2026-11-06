@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_F2_independent_v2.py", line 13, in <module>
+    seen=set();assert len({tuple(r[3])for r in rows})<=1
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

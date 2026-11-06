@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_C56_sieve_genuine_isogenies_v2",
+  "script": "continuation_20261031b/C56/d31b_C56_sieve_genuine_isogenies_v2.py",
+  "script_sha256": "67ebb1db049c2037fa0fa95a9f10cfa7185cdcb5c8a6cf5dfa914b310c61a4ba",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C56/d31b_C56_sieve_genuine_isogenies_v2.py"
+  ],
+  "pid": 3677952,
+  "owner_uid": 1001,
+  "start_time_unix": 1793442734.7831545,
+  "state": "EXITED",
+  "time_limit_seconds": 800,
+  "log": "jobs/d31b_C56_sieve_genuine_isogenies_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 4.573979616165161
+}

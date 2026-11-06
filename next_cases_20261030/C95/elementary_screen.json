@@ -1,0 +1,361 @@
+[
+  {
+    "N": 49,
+    "possible_reduction_degrees_and_orders": [
+      [
+        6,
+        [
+          49
+        ]
+      ],
+      [
+        9,
+        [
+          490
+        ]
+      ],
+      [
+        10,
+        [
+          1078,
+          980
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 51,
+    "possible_reduction_degrees_and_orders": [
+      [
+        9,
+        [
+          510
+        ]
+      ],
+      [
+        10,
+        [
+          1020
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 55,
+    "possible_reduction_degrees_and_orders": [
+      [
+        7,
+        [
+          110
+        ]
+      ],
+      [
+        9,
+        [
+          550
+        ]
+      ],
+      [
+        10,
+        [
+          990
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 57,
+    "possible_reduction_degrees_and_orders": [
+      [
+        6,
+        [
+          57
+        ]
+      ],
+      [
+        7,
+        [
+          114
+        ]
+      ],
+      [
+        8,
+        [
+          228
+        ]
+      ],
+      [
+        9,
+        [
+          513
+        ]
+      ],
+      [
+        10,
+        [
+          1026
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 63,
+    "possible_reduction_degrees_and_orders": [
+      [
+        7,
+        [
+          126
+        ]
+      ],
+      [
+        8,
+        [
+          252
+        ]
+      ],
+      [
+        9,
+        [
+          504
+        ]
+      ],
+      [
+        10,
+        [
+          1008
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 65,
+    "possible_reduction_degrees_and_orders": [
+      [
+        6,
+        [
+          65
+        ]
+      ],
+      [
+        7,
+        [
+          130
+        ]
+      ],
+      [
+        8,
+        [
+          260
+        ]
+      ],
+      [
+        9,
+        [
+          520
+        ]
+      ],
+      [
+        10,
+        [
+          1040
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 69,
+    "possible_reduction_degrees_and_orders": [
+      [
+        7,
+        [
+          138
+        ]
+      ],
+      [
+        8,
+        [
+          276
+        ]
+      ],
+      [
+        9,
+        [
+          552
+        ]
+      ],
+      [
+        10,
+        [
+          966
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 75,
+    "possible_reduction_degrees_and_orders": [
+      [
+        7,
+        [
+          150
+        ]
+      ],
+      [
+        8,
+        [
+          225
+        ]
+      ],
+      [
+        10,
+        [
+          1050
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 77,
+    "possible_reduction_degrees_and_orders": [
+      [
+        10,
+        [
+          1078
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 81,
+    "possible_reduction_degrees_and_orders": [
+      [
+        6,
+        [
+          81
+        ]
+      ],
+      [
+        9,
+        [
+          486
+        ]
+      ],
+      [
+        10,
+        [
+          972
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 85,
+    "possible_reduction_degrees_and_orders": [
+      [
+        9,
+        [
+          510
+        ]
+      ],
+      [
+        10,
+        [
+          1020
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 87,
+    "possible_reduction_degrees_and_orders": [
+      [
+        9,
+        [
+          522
+        ]
+      ],
+      [
+        10,
+        [
+          1044
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 91,
+    "possible_reduction_degrees_and_orders": [
+      [
+        8,
+        [
+          273
+        ]
+      ],
+      [
+        9,
+        [
+          546
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 93,
+    "possible_reduction_degrees_and_orders": [
+      [
+        9,
+        [
+          558
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 95,
+    "possible_reduction_degrees_and_orders": []
+  },
+  {
+    "N": 99,
+    "possible_reduction_degrees_and_orders": [
+      [
+        10,
+        [
+          1089,
+          990
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 105,
+    "possible_reduction_degrees_and_orders": [
+      [
+        10,
+        [
+          1050
+        ]
+      ]
+    ]
+  },
+  {
+    "N": 111,
+    "possible_reduction_degrees_and_orders": []
+  },
+  {
+    "N": 117,
+    "possible_reduction_degrees_and_orders": [
+      [
+        8,
+        [
+          234
+        ]
+      ],
+      [
+        9,
+        [
+          468
+        ]
+      ]
+    ]
+  }
+]

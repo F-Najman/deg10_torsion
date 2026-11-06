@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_Y228_Picard3_profile",
+  "script": "computations/d31b_Y228_Picard3_profile.m",
+  "script_sha256": "aca797d4e7fd0d67f204b6794b4b8524b5fbd5df15af8e075fef5f4c0c0ea467",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_Picard3_profile.m"
+  ],
+  "pid": 3563125,
+  "owner_uid": 1001,
+  "start_time_unix": 1793437839.6331675,
+  "state": "EXITED",
+  "time_limit_seconds": 620,
+  "log": "jobs/d31b_Y228_Picard3_profile.log",
+  "actual_exit_code": -14,
+  "termination_reason": null,
+  "elapsed_seconds": 570.0542845726013
+}

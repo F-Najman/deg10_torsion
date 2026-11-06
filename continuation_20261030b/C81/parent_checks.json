@@ -1,0 +1,252 @@
+{
+  "status": "PASS: independent parent numerical and local-geometric checks",
+  "source_normalized_orbits_verified": 10,
+  "manual_cyclic81_isogeny_modular_checks": 10,
+  "finite_Picard_two_order_identities": 10,
+  "remaining_normalized_ids": [
+    1,
+    2,
+    3,
+    7,
+    10
+  ],
+  "rational_two_torsion_dimension_bound": 0,
+  "integral_Betti_rank": 380,
+  "base_genus": 13,
+  "quotient_genus_by_tame_Riemann_Hurwitz": 46,
+  "rational_cuspidal_branch_points": 9,
+  "base_RR_spaces_rebuilt": 87,
+  "local_completions_rebuilt": 14,
+  "complete_RR_tests": 29,
+  "all_RR_dimensions": 1,
+  "degree9_character_dimensions": [
+    15,
+    11,
+    13
+  ],
+  "degree9_condition_matrix_shape": [
+    39,
+    54
+  ],
+  "degree9_rank": 38,
+  "degree10_character_dimensions": [
+    18,
+    12,
+    15
+  ],
+  "degree10_condition_matrix_shape": [
+    45,
+    60
+  ],
+  "degree10_rank": 44,
+  "genuine_arc_checks": "Fresh Completion maps at precision24; uniformizer valuation1 and residue-field binding to actual source81 and twice-source points. Every constant/first jet is recomputed without the producer rational-derivative formula. Actual Kummer roots selected through fresh finite3-isogeny. Every matrix entry matches. All base functions are members and linearly independent in fresh native RR spaces.",
+  "global_algebra_checks": "Tangent-line Kummer function, Cardano relation and cubic, exact divisor and nine branch points; tame Riemann-Hurwitz gives genus46. Rational two-torsion zero independently replayed on integral Betti matrices.",
+  "unused_parser_diagnostic": {
+    "job": "b81_parent_rr_completions",
+    "actual_exit_code": 0,
+    "success_marker_absent": true,
+    "not_a_completed_certificate": true
+  },
+  "evidence": [
+    {
+      "path": "continuation_20261030b/C81/b81_parent_source_filter.py",
+      "sha256": "e23c0fdf5cd2641012c37a6e41765441bdca024084561b6aebba0262a1881ea1"
+    },
+    {
+      "path": "jobs/b81_parent_source_filter.status.json",
+      "sha256": "31133b283138670f5a6e34a280475db480f64b957766d964e43fdd6a24688eff"
+    },
+    {
+      "path": "jobs/b81_parent_source_filter.log",
+      "sha256": "b4e9c0e6f391121acaedb0cf3da6eaf9c9425c99e8272f92f25a88722a929e82"
+    },
+    {
+      "path": "computations/b81_parent_x0_filter.m",
+      "sha256": "c15643e82d5255f7c8bf149a2e4ab7332e5ef585f483d3834e2b97bd00b30204"
+    },
+    {
+      "path": "jobs/b81_parent_x0_filter.status.json",
+      "sha256": "c2f015c5b991d69efb19307727f25f8059ce8822ffedb4c3d226a1f4594dda40"
+    },
+    {
+      "path": "jobs/b81_parent_x0_filter.log",
+      "sha256": "defd29122098cd8e7d9c9fd654442911e669e1b0d464640d822c47a8d21b6e8b"
+    },
+    {
+      "path": "computations/b81_parent_two_torsion.py",
+      "sha256": "643ee284ce560bbef5ec4b80e9a7b368c756427ff934bdbb3f5ff36be72172f6"
+    },
+    {
+      "path": "jobs/b81_parent_two_torsion.status.json",
+      "sha256": "db8fcd6f425c24017fb3bfaa9a5edeedc37fc9ed24b5bdb044540464488bdfa2"
+    },
+    {
+      "path": "jobs/b81_parent_two_torsion.log",
+      "sha256": "034366843e2c88936178fc6e1bfa9f27f2912765f0b4f742678d5df741159356"
+    },
+    {
+      "path": "computations/b81_parent_rr_completions_v2.m",
+      "sha256": "7f1ac1836b3cfb538e34a75e3545df5662b0fdab262e7c60f890a15b7d85ea80"
+    },
+    {
+      "path": "jobs/b81_parent_rr_completions_v2.status.json",
+      "sha256": "71d2c1911153f9dea4960eb5b676e21339460d5c08c20b4e131cb48af0fc304c"
+    },
+    {
+      "path": "jobs/b81_parent_rr_completions_v2.log",
+      "sha256": "4f7d8907708fff0f763d4a5ad839d1e4df33bd00c9bb7dda0644bf48981026fb"
+    },
+    {
+      "path": "continuation_20261030b/C81/parent_independent_source_filter.json",
+      "sha256": "e98a8947c263067e91b0ae051d4c409262fe3e5a82304a1bb3936207b7a2fbe9"
+    },
+    {
+      "path": "continuation_20261030b/C81/parent_native_x0_filter.m",
+      "sha256": "8b98ff94f85fdecbda17032c645356c8d8e339ca1b3d99e9ddb7d517ac71e623"
+    },
+    {
+      "path": "continuation_20261030b/C81/parent_two_torsion_replay.json",
+      "sha256": "e42e3f652935ffb4afc726c51bc9e788635555f0f2570fda71bb7c33adfcc191"
+    },
+    {
+      "path": "continuation_20261030b/C81/parent_native_completion_RR_v2.m",
+      "sha256": "6ca814e46c16778e7bbbeadeb4e24b916bdbd64fe2f4227e97290623384bcafb"
+    },
+    {
+      "path": "continuation_20261030b/C81/source81.m",
+      "sha256": "9e9d914fac748522731971076c8c221f9eada411cd4d3b60a95e69636f0c9135"
+    },
+    {
+      "path": "continuation_20261030b/C81/x0_filter.m",
+      "sha256": "68a64e54cda5b23ab456d464ac6c6a27fe157a0c0059e332e8f09a599498c8a2"
+    },
+    {
+      "path": "continuation_20261030b/C81/x0_81_proven_picard.m",
+      "sha256": "95628f2e06e956a7d62996e38bb87267614e7b22b2d210b11fe2ffd173059861"
+    },
+    {
+      "path": "continuation_20261030b/C81/x0_parent_witnesses.m",
+      "sha256": "994cf2dff1f874646210216ddd18f89c488bc267871307268421caf7f80c51de"
+    },
+    {
+      "path": "continuation_20261030b/C81/y46_kummer_model.m",
+      "sha256": "bc5c145361590f0275ff627a67aa1891c4d6c6116828d7418e05f66951b34c22"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case10_cusp0.m",
+      "sha256": "741dd486dbc1225d6f8a6941356ac17aaec735acf5cc52fd58af321b1d4c0fe8"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case1_cusp1.m",
+      "sha256": "52c4c9eda8023c01f15b9ff139f4f29ba7583fa718a2eeaeff8355d190aa3ebc"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case1_cusp2.m",
+      "sha256": "e0c8c7c69edaca559dbb40d2b72e5fe751ee75458cd3bbc9ca10ec2eb4cda8b9"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case1_cusp3.m",
+      "sha256": "cf368d9e2f5dc7ede41043f2a57c5c35159d7c0c8ce310e7f0e26d7b8b186d7d"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case1_cusp4.m",
+      "sha256": "c0aea43b90c0071b2d97fcac3e2cdd8d640be42bbf372e36865e2a6dd8da199a"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case1_cusp5.m",
+      "sha256": "0370a6d88657bb4f36167abb75acd1460d000f3af3c18b997892294b15e5d19f"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case1_cusp6.m",
+      "sha256": "e9cef89ace23534c98539cebe2c17a93307be1cd2bb71b150912f9b80cba4c80"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case1_cusp7.m",
+      "sha256": "11ee4ff2fe24eedf6b1b6663235ff03e1a44c73ee16275619b47d88edc69f977"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case1_cusp8.m",
+      "sha256": "071fdb4bdcde2e3e38ed28ce970285ff13fce75c63ce22d1ec07c668433e399d"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case1_cusp9.m",
+      "sha256": "ea0e60e15aabc34359b8419655e9d7aeffd407112418bcab7b5e91bf6b34881b"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case2_cusp1.m",
+      "sha256": "41ca51089d8c3138cc27439eb79e21b1eca71b49d14f1be8b861a78f8d4568c1"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case2_cusp2.m",
+      "sha256": "a842f48a76b066fbed028eb0b6db1cd161a0bf81ad46634871d5bdb3a743b2de"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case2_cusp3.m",
+      "sha256": "35d8e6523abf5452de37b12d6a52e366d67d7d02f086b0c4bcdfcf25425b7a52"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case2_cusp4.m",
+      "sha256": "ba2f0791a02de415a7e4aeebb4dbfadc5123a31273231181cfa120ccde3a171b"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case2_cusp5.m",
+      "sha256": "b43845045360ed129c510a912f56fc8f954a31c1392db333e8115982e4b7e06f"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case2_cusp6.m",
+      "sha256": "cc12add15e3f47bf03772a83755b922f7b713928a2bfa276b6ca4acc2acdeb22"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case2_cusp7.m",
+      "sha256": "2d447998849dd6084db13d1f8cf404d93b15e057fae8ebbc94566afeb7198487"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case2_cusp8.m",
+      "sha256": "fcb007c28530cbbe6467513749d43707e9f715ba5c9b22e58e4c1c22bf3be380"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case2_cusp9.m",
+      "sha256": "468eec5a46d5d4800d263863d7dc4f2531b507940a0100e0e4f91b5779a76c87"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case3_cusp1.m",
+      "sha256": "b0cce4ae7afa6448c48c019222f72d3edceedd9163d607206f55aa10977ab582"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case3_cusp2.m",
+      "sha256": "cb5518b68939095ad7601ba752b33b942e7d9750efbf7fc85ad6630eebf740ee"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case3_cusp3.m",
+      "sha256": "11a646f23954a425b8bb6c4f57d41a125a0ef278eebfcc849b440a5381a8f54b"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case3_cusp4.m",
+      "sha256": "e48738ced5a734f004c62844d8a716cdaaa2047f82476d8afc851a6ac0b5b509"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case3_cusp5.m",
+      "sha256": "7176d4c2b54b3fc9028563f2d754da1ca0d4e2b7b23a1f40e41dc930411500a3"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case3_cusp6.m",
+      "sha256": "ae790f4c3920bbdb29f20cfb8b8a7b5b89c5996932437463e267a77e7ac23b4d"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case3_cusp7.m",
+      "sha256": "fe8ac93842b0260a1262af7d2d6ac0057fcdd2fe639c2735d0a60179b06d45a2"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case3_cusp8.m",
+      "sha256": "da11c8c9d7afbb728c267ee211de6728c5c376ae5e3c469afd1ce1e3b225b0dd"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case3_cusp9.m",
+      "sha256": "19ccb16e1118ca4272d66c78a84081e8681ebfb525c97b3e9a1831202d4f43ff"
+    },
+    {
+      "path": "continuation_20261030b/C81/rr_case7_cusp0.m",
+      "sha256": "4344395f0e3d5bf43de2868d1ed50d20fd639fe140658d46a733898647e2e62d"
+    }
+  ]
+}

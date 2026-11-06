@@ -1,0 +1,18 @@
+{
+  "purpose": "pp49_replay_old_jets_degree10",
+  "script": "next_cases_20261030/cyclic_primepowers/pp49_replay_old_jets_degree10.py",
+  "script_sha256": "e3359c1d638cedb2c142bfb2bd0314bfd52e9aebb2bc351e90c5a1d93490156f",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_primepowers/pp49_replay_old_jets_degree10.py"
+  ],
+  "pid": 2103857,
+  "owner_uid": 1001,
+  "start_time_unix": 1793369837.8680491,
+  "state": "EXITED",
+  "time_limit_seconds": 60,
+  "log": "jobs/pp49_replay_old_jets_degree10.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.221132278442383
+}

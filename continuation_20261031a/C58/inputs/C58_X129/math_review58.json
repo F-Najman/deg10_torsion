@@ -1,0 +1,14 @@
+{
+  "degree": 9,
+  "group": [
+    1,
+    58
+  ],
+  "independent_review": "PASS",
+  "reviewer": "/root/degree9_noncyclic",
+  "projection_coverage": "Single rational2-root Pd of degree5..9, or inert cubic branch3P3; Hasse excludes quadratic branches",
+  "all_bad_step": "Uses only J1(29) rank0, gonality11, and intact cusp orbit partition1^14+14",
+  "source_J1_58_rank_zero_not_assumed": true,
+  "independent_exact_replay": "All3521 finitepoints bound to all11 idealbasisgenerators; 4440relationrows;2324exact tests;zero survivors",
+  "complete": true
+}

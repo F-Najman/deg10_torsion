@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "rational_cuspidal_invariants": [
+    2,
+    2,
+    4,
+    20,
+    40,
+    40
+  ],
+  "rational_cuspidal_order": 512000,
+  "index_bound_over_geometric_cuspidals": 2,
+  "Galois_invariant_cuspidal_classes_mod_rational_cuspidal_divisors": []
+}

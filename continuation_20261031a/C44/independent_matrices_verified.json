@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "stages": [
+    {
+      "stage": "newA5",
+      "cases": 956,
+      "rank105": 954,
+      "survivors": [
+        510,
+        511
+      ],
+      "degrees": [
+        30,
+        60
+      ],
+      "jet_sha256": "9ba6365af3ba147800a69291138f120bd359e2d4d33e49e9b7976d40949d976d",
+      "matrix_sha256": "88871fbd48550b60ac9b993fdaac2eaf0abd79423d4622817ee4f5e58af8cbc4"
+    },
+    {
+      "stage": "residualA7",
+      "cases": 2,
+      "rank105": 2,
+      "survivors": [],
+      "degrees": [
+        80
+      ],
+      "jet_sha256": "b87ae2a8090825db73270ac27e49c8cd7d93a83d2b4e534a5b547068d51220e1",
+      "matrix_sha256": "130fadef71b75a278e2705026c6d437ad2d89d0518c5814a794f765761e0806b"
+    },
+    {
+      "stage": "oldA5",
+      "cases": 226,
+      "rank105": 226,
+      "survivors": [],
+      "degrees": [
+        54
+      ],
+      "jet_sha256": "8516e8d456dd87051af044e68e79dafda86f43a0d4360967ec64680c04ab46ec",
+      "matrix_sha256": "d08787a5575c04cefa998d8b1ef23a283c281a0ff35d315e2a16d3e92953aa1c"
+    }
+  ],
+  "canonical_R2_dimension": 105,
+  "canonical_R4_dimension": 245,
+  "tensor_full_commutativity_checked": true,
+  "all_F_and_H_vanish_on_positive_restrictions": true,
+  "all_MF_ranks105_and_Q_ranks140": true,
+  "all_selected_product_and_quotient_identities_checked": true,
+  "all_saved_obstruction_matrices_reconstructed_entrywise": true,
+  "cache": "CacheInfo(hits=3380, misses=3796, maxsize=20000, currsize=3796)",
+  "elapsed_seconds": 111.42298682313412
+}

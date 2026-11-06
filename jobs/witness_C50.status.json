@@ -1,0 +1,18 @@
+{
+  "purpose": "witness_C50",
+  "script": "computations/witness_C50.m",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/witness_C50.m"
+  ],
+  "pid": 4185869,
+  "owner_uid": 1001,
+  "start_time_unix": 1793273837.530822,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/witness_C50.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.017850637435913086
+}

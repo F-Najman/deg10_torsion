@@ -1,0 +1,10 @@
+{
+  "action": "SIGTERM",
+  "reason": "Verified genus-23 Tate-7 quotient and complete relative-rank tests supersede this C4 fallback",
+  "pid": 2731020,
+  "uid": 1001,
+  "start_time": 1793398617.87,
+  "command": "/opt/magma-2.30-1/magma.exe -b /home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc91_quotient_differentials.m ",
+  "pgid": 2731020,
+  "time": 1793399283.792186
+}

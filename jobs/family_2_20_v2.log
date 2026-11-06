@@ -1,0 +1,3 @@
+DECIC_MODEL m=2 n=20 genus=9 base_degree=1 target_degree=10 time=0.200
+DECIC_GENUS_FAMILY m=2 n=20 relative_degree=10 absolute_degree=10 rational_cusp=true genus=9
+DECIC_GENUS_FAMILY_COMPLETE

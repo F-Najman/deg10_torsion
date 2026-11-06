@@ -1,0 +1,7 @@
+D31A_C63_NATIVE_CASE e=7 ci=1 tests=6 time=77.820
+D31A_C63_NATIVE_CASE e=7 ci=2 tests=6 time=127.590
+D31A_C63_NATIVE_CASE e=7 ci=3 tests=6 time=156.260
+D31A_C63_NATIVE_CASE e=10 ci=1 tests=1 time=157.530
+D31A_C63_NATIVE_CASE e=10 ci=2 tests=1 time=158.770
+D31A_C63_NATIVE_CASE e=10 ci=3 tests=1 time=160.040
+D31A_C63_NATIVE_REPLAY_COMPLETE tests=21 h0_all_zero=true two_generator_roundtrips=true time=160.140

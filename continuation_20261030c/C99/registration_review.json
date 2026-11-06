@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "group": [
+    1,
+    99
+  ],
+  "degree": 10,
+  "parent_mathematical_review": "PASS",
+  "frozen_manifest_sha256": "fd1e5a0313e4fb45fefb9938be4f176bf4d3d1123e237842a43db17637ed153a",
+  "method": "Finite diamond image and gonality exclude pure cusps; three A5 obstructions on rank-zero X1(33), and the final alpha2 A5 nonprincipality test on genus29 X1(9) x X0(11), with fresh native RR and exact marked-isogeny norm bindings",
+  "independent_arithmetic_checks": "PASS",
+  "classification_complete": false
+}

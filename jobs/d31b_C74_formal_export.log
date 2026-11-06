@@ -1,0 +1,8 @@
+Loading "work/deg10/continuation_20261031b/C74/inputs/dt_expansions_local.m"
+Loading "work/deg10/continuation_20261031b/C74/inputs/pair_af_place_linear.m"
+D31B_C74_FORMAL_MODEL_READY genus40=true U38=true actual_diamond_pullback=true time=32.720
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C74_formal_export.m", line 12, column 84:
+>> .17]];assert #Seqset(firsts)eq18;perm:=[];
+                               ^
+User error: bad syntax

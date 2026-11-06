@@ -1,0 +1,12 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(6*10^9);tt:=Cputime();AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");
+root:="work/deg10/continuation_20261030c/C99/";k:=GF(2);B<t>:=FunctionField(k);c:=t^2*(t-1);b:=c*(t^2-t+1);E9:=EllipticCurve([B|1-c,-b,-b,0,0]);P9:=E9![0,0];assert 9*P9 eq E9!0 and 3*P9 ne E9!0;assert c^2/(b-c) eq t;j9:=jInvariant(E9);
+C11:=SmallModularCurve(11);jr:=jInvariant(C11,11);C:=ChangeRing(C11,k);RC:=CoordinateRing(Ambient(C));jn:=RC!Numerator(jr);jd:=RC!Denominator(jr);Fc:=FunctionField(C);j0:=Fc!(jn/jd);ww:=[RC!v:v in DefiningPolynomials(AtkinLehnerInvolution(C11,11,11))];jw0:=Fc!(Evaluate(jn,ww)/Evaluate(jd,ww));F0,mp:=AlgorithmicFunctionField(Fc);F11:=RationalExtensionRepresentation(F0);assert Genus(F11) eq 1 and Degree(F11) eq 2;ff:=DefiningPolynomial(F11);jj:=F11!mp(j0);jw:=F11!mp(jw0);co:=Eltseq(jj);assert #co eq 2 and co[2] ne 0;
+R<X>:=PolynomialRing(B);FR:=FieldOfFractions(R);
+function RatSub(v)return FR!(R![B!a:a in Coefficients(Numerator(v))])/FR!(R![B!a:a in Coefficients(Denominator(v))]);end function;
+aa:=RatSub(co[1]);bb:=RatSub(co[2]);yy:=(FR!(R![j9])-aa)/bb;eqn:=&+[RatSub(Coefficient(ff,i))*yy^i:i in [0..Degree(ff)]];pol:=Numerator(eqn);pol/:=LeadingCoefficient(pol);fac:=Factorization(pol);print "C99_Y29_BASE_DATA",DefiningPolynomial(F11),j9,jj;print "C99_Y29_FIBRE_POLYNOMIAL",Degree(pol),[Degree(v[1]):v in fac],Cputime(tt);valid:=[v:v in fac|Degree(v[1]) eq 12];assert #valid eq 1 and valid[1][2] eq 1;pol:=valid[1][1];pol/:=LeadingCoefficient(pol);
+F<z>:=FunctionField(pol);assert Genus(F) eq 29;yz:=Evaluate(Numerator(yy),z)/Evaluate(Denominator(yy),z);
+function OFun(v)return Evaluate(R![B!a:a in Coefficients(Numerator(v))],z)/Evaluate(R![B!a:a in Coefficients(Denominator(v))],z);end function;
+assert &+[OFun(Coefficient(ff,i))*yz^i:i in[0..Degree(ff)]] eq 0;assert &+[OFun(co[i])*yz^(i-1):i in[1..#co]] eq F!j9;jwY:=&+[OFun(Eltseq(jw)[i])*yz^(i-1):i in[1..#Eltseq(jw)]];
+function ER(v)return [[Integers()!a:a in Coefficients(Numerator(v))],[Integers()!a:a in Coefficients(Denominator(v))]];end function;
+function EF(v)return [ER(a):a in Eltseq(F!v)];end function;
+out:=[*[ER(v):v in Coefficients(pol)],ER(j9),[ER(v):v in Coefficients(ff)],[[ER(v):v in Eltseq(jj)],[ER(v):v in Eltseq(jw)]],EF(F!B.1),EF(F.1),EF(yz),EF(jwY),[ER(v):v in aInvariants(E9)]*];Write(root cat "Y29_model.m",Sprint(out):Overwrite:=true);print "C99_Y29_MODEL_COMPLETE",Degree(F),Genus(F),Cputime(tt);quit;

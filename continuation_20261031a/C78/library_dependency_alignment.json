@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "identical_current_and_frozen_library_files": 209,
+  "current_extra_or_changed_files_snapshotted": [
+    "Magma/tracehash.sig",
+    "Magma/gl2base.sig",
+    "Magma/chars.sig",
+    "Magma/utils.sig",
+    "v2/utils.sig",
+    "v2/algebra/linear_algebra.sig",
+    "v2/modular_curves/X0.sig",
+    "v2/modular_curves/X11.sig",
+    "v2/modular_curves/rational_points.sig",
+    "v2/modular_curves/X1.sig",
+    "v2/modular_curves/base_curve.sig",
+    "v2/elliptic_curves/isogenies.sig",
+    "v2/modular_forms/modular_symbols.sig",
+    "v2/curves/divisors.sig",
+    "v2/curves/classgroups.sig"
+  ],
+  "full_field_model39_and_Tate_maps_identical": true
+}

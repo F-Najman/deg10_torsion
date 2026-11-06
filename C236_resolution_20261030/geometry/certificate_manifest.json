@@ -1,0 +1,561 @@
+{
+  "complete": true,
+  "degree": 10,
+  "excluded_groups": [
+    "C2 x C36",
+    "C72"
+  ],
+  "normalization_counts": [
+    135282,
+    1251,
+    208,
+    1,
+    0
+  ],
+  "finite_final_support": [
+    [
+      2198,
+      [
+        [
+          8,
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            3,
+            0,
+            4,
+            2,
+            1,
+            0,
+            4,
+            0,
+            2,
+            1,
+            2
+          ]
+        ]
+      ]
+    ]
+  ],
+  "finite_final_support_degree": 8,
+  "finite_final_cuspidal_complement_degree": 2,
+  "last_support_resolved_by": "oldN8_degree2_cusp_obstruction.tex; two quadratic fibres plus21 rational-cusp pairs, all character RR dimensions[1,0,0,0]",
+  "genus9_snapshot": "quotient9_proven_picard_v2.m",
+  "deprecated_serialization_note": "Original quotient9_proven_picard.m field13 uses subgroup coordinates; v2 repeats ambient finite cusp vectors. Fields1\u201312 identical and native frame reproved. All accepted sieve code uses v2.",
+  "parent_inputs_separately_pinned": [
+    "../enumeration/certificate_manifest.json",
+    "../cuspidal_boundary/proof.tex",
+    "parent second-native RR identity replay packets for g9 and X1(36)"
+  ],
+  "latex_status": "Proof fragment reviewed by parent; standalone terminal compiler unavailable. Parent will compile integrated main.",
+  "files": [
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/all_cusp2_quadratic_fibres_v2.m",
+      "bytes": 32126,
+      "sha256": "4b9d6b794d65055bc95134a338275daf904de8d790828cfa69ea3df935f64354"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cusp2_independent_replay.json",
+      "bytes": 727,
+      "sha256": "ef80dec241b796fff1d328ba626e06a2954dc7325e7784c8642660cdbde960b9"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cusp2_numeric_certificate.m",
+      "bytes": 1348,
+      "sha256": "26c76b0cfc20a6c9e0e76011c4093f891db24dad03367ba0da44860d859d278d"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_cusp_RR.log",
+      "bytes": 256,
+      "sha256": "bba841fb70b775277729744add8e3780bb24cd42a7cf25795b9f419ae5f151d7"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_cusp_RR.log.witnesses.py",
+      "bytes": 5337,
+      "sha256": "72c57f8545cef8d86be20beeedebc0fb080942bf4f6f695de29f0fc98c2f2bb1"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_independent_replay.json",
+      "bytes": 857,
+      "sha256": "4646d46ad2165f70d85b17735f7902551ecfc5983f4e4c510191fb05a577bc04"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_prefix_RR.log",
+      "bytes": 13599,
+      "sha256": "72d5624ed3db4b235f8beb3343da84a279fb59827a7a20a6e4158f8944e72363"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_prefix_RR.log.witnesses.py",
+      "bytes": 247043,
+      "sha256": "de07d2b78b86e71050e4689ffacdfe08f54811fb266495cdb0cb317ce1bb184f"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_prefix_arithmetic.m",
+      "bytes": 26995,
+      "sha256": "85d24453bf196f4c0f55410a79f840dfde4cf56b79edcdea4610e927e1431e28"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_prefix_ids.json",
+      "bytes": 1107,
+      "sha256": "e39da76fd19a49c31ced00d34bb1a0f585b16254c4e6637c12013c19521e1c9d"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_prefix_input.m",
+      "bytes": 125884,
+      "sha256": "5e15ed6891950f5a8d585194f253cb3673446b00cd317d860bee9ee5761f95b6"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_proven_picard.m",
+      "bytes": 3571385,
+      "sha256": "541f9e55a175eab2f96af4ccbff57cb5c459a783c83519a91b7e7fdd79d5c3cd"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_stage3_common.m",
+      "bytes": 3849,
+      "sha256": "cbb3145126d2e95e72948caeeffad76f67ad48543b2259acd2f12921eb15e606"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_tail_RR.log",
+      "bytes": 3508,
+      "sha256": "5f293ddb2d932265378aa7f67204e1ee6dae7e0ac7c7555406189c69db0c6e39"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_tail_RR.log.witnesses.py",
+      "bytes": 59119,
+      "sha256": "1f611a7d482383a7d94239f32416ddd835251930b045976f648d7a11dac501e7"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_tail_arithmetic.m",
+      "bytes": 26705,
+      "sha256": "2368ded93f4a7595350bc073be4eb406f266cfa2bf639c120b371b10fc55dd80"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/cyclic36_tail_input.m",
+      "bytes": 245508,
+      "sha256": "ba0933bdd10747e763e23090501896d9c1860f1d113f329f33b65ce0ab44813b"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/deps/class_group_direct_RR_checked_v4_fastfb.m",
+      "bytes": 5741,
+      "sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/deps/native_group_generators.m",
+      "bytes": 1828,
+      "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/deps/pair_af_place_linear.m",
+      "bytes": 1441,
+      "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/deps/portable_forward.m",
+      "bytes": 5040,
+      "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/genus9_independent_replay.json",
+      "bytes": 351,
+      "sha256": "eb19ee5c6fd508bd11d5ccdc2d9082b0cda3d7326469de551275fbc42a682121"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/genus9_stage2_RR.log",
+      "bytes": 122875,
+      "sha256": "30af868b3df9266165aa40368b28f0726a91e47e3026d21ba0ce0c09a0d3f13b"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/genus9_stage2_RR.log.witnesses.py",
+      "bytes": 3498118,
+      "sha256": "0831d8b2aed8c77c1b066441ece3c4254a847e7a1dbdb6bea649465823429cb9"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/genus9_stage2_arithmetic.m",
+      "bytes": 253761,
+      "sha256": "bf6b93f8cefad11402541a5b0b6dafffa997f543e2696b5da356618e17d040d1"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/genus9_stage2_common_v2.m",
+      "bytes": 3127,
+      "sha256": "ea0d2cc604335720fcdeaecc3ad4f7e20784107d4050142483f3f4f09bc424f1"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/inert_basepoint_values.m",
+      "bytes": 62,
+      "sha256": "3b73b4afcf7e3872e18df276be525865ee0209d919a40751e41ca1821eb92314"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/lifecycle_completion.json",
+      "bytes": 6443,
+      "sha256": "39d5c47a55ea52b229515984f5533429bd759eac0dbe6e2e2c6a265696a07937"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/oldN8_degree2_cusp_obstruction.tex",
+      "bytes": 4192,
+      "sha256": "40938d09ad040209c154a018b13584b6efd0835a3e3555e1a1de08f3f7d405df"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/finite_A7_hom_arithmetic.txt",
+      "bytes": 1934,
+      "sha256": "e5a0a852683206fdb223dc56ba3f4701d8fa17fb8eb7f2ddec9e98e89665db41"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/jacobian_kernel_full_control.log",
+      "bytes": 692,
+      "sha256": "edf0fe01b921f944fa7d56eb7c601fe332f2b7bf334cde809ed2ce4070165f3d"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/jacobian_kernel_full_control.m.archived.txt",
+      "bytes": 6537,
+      "sha256": "fc42a06b090df59d74818263965a0d8c97c7dd0f80a10114cd78c12d6ed5ca53"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/jacobian_kernel_fullcontrol_hecke_arithmetic.txt",
+      "bytes": 3281,
+      "sha256": "7c10b84568d03f516927fe813a1f19fb7164e07cc8d7cda5e119b674e6771be4"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator.log",
+      "bytes": 857,
+      "sha256": "234444fad1da67e35abf50193016710083e0a2a7e9d5b519b4e137650a6f84ac"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_completion.json",
+      "bytes": 89,
+      "sha256": "a8d87f048e980ed615e4d10ad812a38c39be2b15fd2d84c46670885b8bd6c1db"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_hecke_arithmetic.txt",
+      "bytes": 3269,
+      "sha256": "31d6487c6cb924c4fca1b3d356ed60787d8d0e512f57cad26cf416d20cf309d9"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_hom_arithmetic.txt",
+      "bytes": 1934,
+      "sha256": "e5a0a852683206fdb223dc56ba3f4701d8fa17fb8eb7f2ddec9e98e89665db41"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_kernel_arithmetic.txt",
+      "bytes": 1311,
+      "sha256": "b5dca278309172930ef6d0dbf16f7484f325f8fe2d2ceba61d6ead2196ce62e9"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_point_data.txt",
+      "bytes": 477,
+      "sha256": "1d880bc9fb982b162c1437aac0b25ea0cc41f12d706da748310801efbbd71105"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_principal_eight_A7_function.txt",
+      "bytes": 20777,
+      "sha256": "cffe32193029b6de285ce7a19f8cab355c225846c50a59a5241e65eca1390aa7"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_sage_certificate.json",
+      "bytes": 307,
+      "sha256": "6ab018b0396ef6f6803314a1dcf826ebe79e26e36cb67b258e243368ce428041"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/replay_proof_generator_sage.py.archived.txt",
+      "bytes": 1696,
+      "sha256": "f8d95a369a0748fd3aff0507ea73fbc40a367e11138a36bb76f3788af5c29263"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/reuse_manifest.json",
+      "bytes": 6380,
+      "sha256": "ebb42105ff1c18610262012b83f1fb626890417077d6568367fd9fae275244e8"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/tate_cusp_alignment.log",
+      "bytes": 505,
+      "sha256": "525dfa622213bc04e5f69c778b56158dd9d223ea1d552a143fe507fbf153a495"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/tate_cusp_alignment.py.archived.txt",
+      "bytes": 4708,
+      "sha256": "4af26928be8cec8d2002a5bfabd06cd8d6f322948a03cae63be7f1f9e39648f7"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_cusp_RR.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_cusp_RR.log.witnesses.py",
+      "bytes": 16,
+      "sha256": "c1df07fc24c42890e8c315793e424ba83d14707edab4670c543628194d286978"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_cusp_permutations.m",
+      "bytes": 208,
+      "sha256": "895a2805e59495fcd044c357c8e659327370644c345cc31737ca5e0b3406afac"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_cusp_units_model.m",
+      "bytes": 1285,
+      "sha256": "0b1d852cb16e1e88c87e2c1376a7e6407a071f53398e9fe47c29ded91fbe7daa"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_image_fullcontrol_arithmetic.m",
+      "bytes": 1311,
+      "sha256": "b5dca278309172930ef6d0dbf16f7484f325f8fe2d2ceba61d6ead2196ce62e9"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_model.m",
+      "bytes": 906,
+      "sha256": "9a42666c0974be71af486fbe133ff5e5f511e03cb59c9b86079e155ebb6d71b6"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_native_replay.m",
+      "bytes": 77,
+      "sha256": "62ff9a042565f29f0a18398fd76e0945ad987b4a246926f12c4e7c405032203c"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_projection_helpers.m",
+      "bytes": 1842,
+      "sha256": "2064c81a3d3a0a9c335cfbf27ea6ad5d3556da74e791f7932f8d796b208d6dc2"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_proven_picard.m",
+      "bytes": 2274406,
+      "sha256": "ffb487c963edab66cd3ac8420d21738ee8789c3cb207be2a4ddd7bbc0407b975"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_proven_picard_v2.m",
+      "bytes": 2286420,
+      "sha256": "dbc061a8aab468041912065fbbdda8027a0b195b1eed87657279462c25ba6f19"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_rational_image_upper_reused.tex",
+      "bytes": 3399,
+      "sha256": "2d96ccecb6c644fb805d293fdabcbf530ed9181d009fa64caeed7821a084cc37"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_reuse_manifest.json",
+      "bytes": 3995,
+      "sha256": "3601c1f38c3de1d6efa18e456a53e07a6f9c008bf31ed0dbf6b77ac30c715555"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/quotient9_tate_cusp_alignment.json",
+      "bytes": 700,
+      "sha256": "072ee19dbea3ffe4973b6579e84ea987d4bf485238f88be44780755be9fdce40"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/rational_pair_fibres_v2.m",
+      "bytes": 682,
+      "sha256": "b99a10926cee93a4ac1ee93ced3941341ecb40e97db75bb8b2618dd3b8e01154"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/replay_cusp2_v2.py",
+      "bytes": 4405,
+      "sha256": "44cdd3ff5f73f513fb096318560a309ff319334edc1ab4bd0e8913a8e2fce938"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/replay_cyclic36.py",
+      "bytes": 3852,
+      "sha256": "31e00c15d67fd9c3f3878c0451aa81c39db6994216b255ac5f674c1281340ad0"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/replay_genus9.py",
+      "bytes": 3228,
+      "sha256": "5c1546e0bf73cb7b0cac71ab513d897dfe8c2d210299d9c1cfac28c8ecd7ffc0"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/resolution.tex",
+      "bytes": 7351,
+      "sha256": "b52d5f8bd1c233c222484b6825a1a341a3991d2f2db4de5756862473fdaf3b72"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/reuse_manifest.json",
+      "bytes": 531,
+      "sha256": "8d5aad1766dc8d4671c859d6f36672d8986efa5bf012c6a65ebd7495ecc39417"
+    },
+    {
+      "path": "work/deg10/C236_resolution_20261030/geometry/source_support_data.m",
+      "bytes": 2377154,
+      "sha256": "b3f51bea677b9cfece1edb6f023913d3f64cfb609d18e432417bef242e984ba4"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_cusp2_numeric.m",
+      "bytes": 5269,
+      "sha256": "8a46f361aca1e3443dc3d7fcb45090f97983430f0bf886cc05b38332645b9f72"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_cusp2_replay_v2.py",
+      "bytes": 115,
+      "sha256": "7a2fa3db55b6f63c65450069edb7a81a1b40f6cb6b55aa1406f759f5f83c76bc"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_cyclic36_benchmark.m",
+      "bytes": 262,
+      "sha256": "7734db0e3eb51111b5eea2f82ee3b51e60a9e85b4b677bcdcffd27e7c35e1f22"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_cyclic36_prefix.m",
+      "bytes": 256,
+      "sha256": "e087d6ae071c64e2df00a2283522e523d3323f946e6986539da1a9c1992af46e"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_cyclic36_sage_replay.py",
+      "bytes": 115,
+      "sha256": "78804e74571bceeac42084e338bf933db967df84e3cd8af6972536f43fe69e56"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_cyclic36_setup.m",
+      "bytes": 3415,
+      "sha256": "1ae4f7f6b8b3b3a92f2a51e4196b50498adb04913d44aa860b54608a8b93d985"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_cyclic36_tail.m",
+      "bytes": 729,
+      "sha256": "fd0525209edb41413b3013e9fcd92c8432160b2317abc136021c8b8345d8793d"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_genus9_benchmark_v3.m",
+      "bytes": 777,
+      "sha256": "dc3c0d4125c88de078e0c5b3519cd763c1945e38095d06e19e2e4ea418406fb6"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_genus9_sage_replay.py",
+      "bytes": 113,
+      "sha256": "c47a2aa5f0d86bd85c77338fe8f3e5a91f38d8b40cc3220379ffe5d49c43b80a"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_genus9_stage2_v2.m",
+      "bytes": 260,
+      "sha256": "bd4aa6673b7fe3c25dc2a298fad44e22be04c4222f6fc50fc867f6dcbbf78723"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_quotient9_replay.m",
+      "bytes": 2923,
+      "sha256": "956584b01cff31bbe1c7e6cafa6e551f66a22e7ffe697c1ba04a3196da54ca30"
+    },
+    {
+      "path": "work/deg10/computations/new236_geom_quotient9_setup.m",
+      "bytes": 2545,
+      "sha256": "76fb2ac6894ef4ad2ee13a77a67881b195f1285b462ac1f91e9c613ca2e948af"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cusp2_numeric.log",
+      "bytes": 1829,
+      "sha256": "1947134e56fa1a9c02099ec5158e2aa3e3e70445810db8124bf47896eedeb3ee"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cusp2_numeric.status.json",
+      "bytes": 650,
+      "sha256": "9d761ccecd37506d270f62e050937f78df109f5fbd74de1fa82a3ced45e2465d"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cusp2_replay_v2.log",
+      "bytes": 591,
+      "sha256": "92b7f2c897319a03430b0f308e1e6f17c5f83c03669ea4492068771929670f2d"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cusp2_replay_v2.status.json",
+      "bytes": 662,
+      "sha256": "7c09b14ec8f7a52902873053d11555b9a416630ba7d869e28f63d4314274fda4"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cyclic36_benchmark.log",
+      "bytes": 428,
+      "sha256": "118a1ccf88ce8f1a09241e9f22a227f3aaa1c2a2155b6d999372fdd685dd7c05"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cyclic36_benchmark.status.json",
+      "bytes": 671,
+      "sha256": "70fedf889c987f34c46b3142f676299d2c65c59fb2f99504b5fe680801cece28"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cyclic36_prefix.log",
+      "bytes": 1255,
+      "sha256": "d39793372890101fcdd3f1b3fa2130ca67f99885cc4104aea951d5ea66e3634b"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cyclic36_prefix.status.json",
+      "bytes": 659,
+      "sha256": "5062cab2e9c901020c74749b3b04916f9f50fe38ae455d1f81694e89b2dc937f"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cyclic36_sage_replay.log",
+      "bytes": 739,
+      "sha256": "3eb9a72b6b365a3cfdc3f72718e42bcdc9bf5873dedee00c63913dddab113720"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cyclic36_sage_replay.status.json",
+      "bytes": 680,
+      "sha256": "8a18822edc3e7d5dabe76f08c1ef05f02e570da815f137e099e78befbae8170f"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cyclic36_setup.log",
+      "bytes": 1406,
+      "sha256": "714f327fa846267e3bf5cf364479a4d2e9ed520a941d1b1fbcb831e802f32381"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cyclic36_setup.status.json",
+      "bytes": 654,
+      "sha256": "2b555529ca53aff1b5de6afe8d5e33e1ab7a31b0cb1df2918af0d6c4b7c976ad"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cyclic36_tail.log",
+      "bytes": 1362,
+      "sha256": "06ee4be499e98601fd12f3c4d5076116a85b010a9ffa551c89b876267e62ede5"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_cyclic36_tail.status.json",
+      "bytes": 652,
+      "sha256": "e8d88b70ddaf1c546c887f6c2df0200bc43e0239dc0aa46ff114f5841da53dbb"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_genus9_benchmark_v3.log",
+      "bytes": 428,
+      "sha256": "70dceaaf93deb367de8afa2e4efbd74841578c197dcfd0acf6f693df255e2ac4"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_genus9_benchmark_v3.status.json",
+      "bytes": 675,
+      "sha256": "fc36ae8b95cfa45faa5f73ca58f3f8929755ae896caf1739cc7d826882c916fa"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_genus9_sage_replay.log",
+      "bytes": 379,
+      "sha256": "88f53eef28b8af29ac908e720d97fba35e477e09a7bbb4fe99c6d426ac652d16"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_genus9_sage_replay.status.json",
+      "bytes": 672,
+      "sha256": "3ffe39cb137b73b773588579207e82da8bff656309f2df6276c220773024fe2c"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_genus9_stage2_v2.log",
+      "bytes": 6319,
+      "sha256": "36316462a9c904dcc9109bb2fd11628b0f071a063e84f3607e2c8f193b306954"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_genus9_stage2_v2.status.json",
+      "bytes": 664,
+      "sha256": "fe5819b2198b9305af13822f120dbea9ded86b06431c0dac5fdb21d759a7c78d"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_quotient9_replay.log",
+      "bytes": 423,
+      "sha256": "6665676adb5a1fc99efefeb6dfc3ca68abe92790c76532ff8b6402e4bc6223f2"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_quotient9_replay.status.json",
+      "bytes": 662,
+      "sha256": "871f6160b611071a6e0193c856fbc0669f3f9058d35ab8d458af09f723600997"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_quotient9_setup.log",
+      "bytes": 606,
+      "sha256": "fc44b952adcca9ed2b6cb128697ee2e213cf468e8273379f3c4858f00415d1aa"
+    },
+    {
+      "path": "work/deg10/jobs/new236_geom_quotient9_setup.status.json",
+      "bytes": 658,
+      "sha256": "c67557247aaa1f99ad501397c0fbf60c6a5be6aa84a9cfcd7a938428de6f93b7"
+    }
+  ]
+}

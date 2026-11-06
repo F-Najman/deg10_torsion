@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m318_paired_three_relative_v2",
+  "script": "computations/d31b_m318_paired_three_relative_v2.py",
+  "script_sha256": "e2993c698f4d7b44e988bc37447a81ee41904d955dc48fb0eba277a86ca4febf",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_paired_three_relative_v2.py"
+  ],
+  "pid": 3622364,
+  "owner_uid": 1001,
+  "start_time_unix": 1793440383.9058933,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31b_m318_paired_three_relative_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 10.491485834121704
+}

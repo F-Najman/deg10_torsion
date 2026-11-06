@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_modsym_cuspidal_probe",
+  "script": "computations/d31b_m318_modsym_cuspidal_probe.m",
+  "script_sha256": "01d776475abd8e86ddcd7f59aaea72d9da5163a18c66abf98c8a47f0fa5e9307",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_modsym_cuspidal_probe.m"
+  ],
+  "pid": 3654702,
+  "owner_uid": 1001,
+  "start_time_unix": 1793441712.6588278,
+  "state": "EXITED",
+  "time_limit_seconds": 650,
+  "log": "jobs/d31b_m318_modsym_cuspidal_probe.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.16451525688171387
+}

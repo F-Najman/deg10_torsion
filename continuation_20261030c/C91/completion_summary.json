@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "level": 91,
+  "conclusion": "No entirely noncuspidal effective rational divisor of degree10 on X1(91); hence C91 excluded over degree10 fields",
+  "source_genus": 265,
+  "source_degree_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    144,
+    0
+  ],
+  "quotient": "X1(7) fibre product X0(13)",
+  "quotient_genus": 23,
+  "source_map_degree": 12,
+  "finite_image": "(<3>-1) J1(91)(Q), inducing (tau-1) JY(Q)",
+  "rank_zero_assumed": false,
+  "cotangent_space_dimension": 14,
+  "pure_cusp_patterns": 120,
+  "pure_cusp_ranks": "10-k; k=min(a1,a2,a3)+b; fixed residual cusp degree10-3k>0",
+  "CM_cases": 12,
+  "CM_rank": 8,
+  "ordinary_degree9_canonical_tests": 288,
+  "ordinary_matrix_shape": [
+    265,
+    590
+  ],
+  "ordinary_all_ranks": 265,
+  "primary_model_primes": 6,
+  "native_kernel_spaces": 45,
+  "parent_native_marker": "C91_PARENT_NATIVE_COMPLETE 6 45 120 12 4.450",
+  "proof": "resolution.tex",
+  "relative_criterion": "relative_formal_fibre.tex",
+  "independent_arithmetic": "independent_arithmetic_replay.json",
+  "inherited_rank_replay": "inherited_R1_rank_replay.json",
+  "CM_binding_manifest": "work/deg10/continuation_20261030c/C91_CM_control/level7_binding_manifest.json",
+  "diagnostic_exclusions": "C4 exploratory quotient, failed exporter v1, root parser v1/v2, and source full-canonical backup are preserved and are not proof dependencies"
+}

@@ -1,0 +1,221 @@
+{
+  "status": "PASS: full source torsion reduction injectivity follows",
+  "level": 55,
+  "source_Q_torsion_invariants": [
+    5,
+    550,
+    8972396739917886000
+  ],
+  "source_Q_2primary_invariants": [
+    2,
+    16
+  ],
+  "source_Q_2primary_order": 32,
+  "quotient_finite_Jacobian_invariants": [
+    5,
+    5,
+    10,
+    1200
+  ],
+  "quotient_finite_2primary_order": 32,
+  "quotient_global_cusp_image_invariants": [
+    5,
+    10,
+    1200
+  ],
+  "quotient_cusp_projected_2primary_generators": [
+    [
+      1,
+      6
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      1,
+      14
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "explicitly_generated_2primary_elements": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      0,
+      10
+    ],
+    [
+      0,
+      11
+    ],
+    [
+      0,
+      12
+    ],
+    [
+      0,
+      13
+    ],
+    [
+      0,
+      14
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      11
+    ],
+    [
+      1,
+      12
+    ],
+    [
+      1,
+      13
+    ],
+    [
+      1,
+      14
+    ],
+    [
+      1,
+      15
+    ]
+  ],
+  "quotient_cusp_2primary_image_order": 32,
+  "quotient_map_degree": 5,
+  "mathematical_steps": [
+    "Global rational cusp divisors on Y give torsion lifts of all finite cusp-image generators.",
+    "Since pi_* pi^*=[5], pi^* injects rational2-primary torsion of JY into JX. DEHMZ therefore bounds its order by32.",
+    "The finite cusp image has2-primary order32, so JY(Q)[2-infinity] has exactly order32 and reduction is injective on it.",
+    "The pullback pi^* has image of order32, exhausting JX(Q)[2-infinity]. If pi^*Q reduces to0, pushing forward gives5 redQ=0; injectivity on JY then givesQ=0.",
+    "Odd rational torsion always injects at the good prime2. Therefore all of JX(Q)_tors reduces injectively.",
+    "Every source finite cusp divisor lifts globally with unchanged degree. A degree10 entirely cuspidal reduction therefore gives D linearly equivalent to a rational degree10 cusp divisor.",
+    "The lower bound325*1440/32768=14625/1024>10 for source gonality forces equality of the two effective divisors, a contradiction."
+  ],
+  "primary_citation": "DEHMZ Theorems3.1 and4.13, Table2",
+  "accepted_degree_independent_quotient_evidence": "inputs/N55_quotient_injectivity_D9_v2.log plus inputs/N55_quotient_cusp_arithmetic.txt",
+  "evidence": [
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/DEHMZ_source.snapshot.tex",
+      "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_quotient_cusp_arithmetic.txt",
+      "sha256": "048692ecfcca7f52e52b4a07fa9f1b6300c34a6d91d4fcc1014e9e1ee764d539"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/inputs/N55_quotient_injectivity_D9_v2.log",
+      "sha256": "fe08d80b91dbd072403cfbf136d0b859c879e745cbd9c4a4cd180368d1e4c14d"
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C55/cusp_audit.json",
+      "sha256": "306b3eff49fff9bcea0cde0c95584a2f187d54b12a88a8c23339bdc9d249bf00"
+    }
+  ]
+}

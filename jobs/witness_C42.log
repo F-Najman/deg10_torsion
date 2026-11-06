@@ -1,0 +1,6 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/witness_C42.m", line 14, column 20:
+>>   Eq:=EllipticCurve([1-cq,-bq,-bq,0,0]);if Discriminant(Eq) eq 0 then conti
+                      ^
+Runtime error in 'EllipticCurve': Curve is singular
+

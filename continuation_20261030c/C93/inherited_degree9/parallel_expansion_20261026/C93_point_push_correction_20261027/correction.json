@@ -1,0 +1,9 @@
+{
+  "only_changes": "Correct the point-level Frobenius/Verschiebung normalization and identify B2 as necessary. All120 originally certified tests and every geometric/arithmetic datum are unchanged.",
+  "old_proof_sha256": "ac80fcbc6ad6dbeae85c483a75532255d164c08f214de4a802bda8744d1599cf",
+  "new_proof_sha256": "51a791c5976da97e369298cb22b2435912c4635a968b7b657845699c3a49610e",
+  "valid_source_sign": -1,
+  "valid_convention": 2,
+  "necessary_cases_already_verified": 30,
+  "base_manifest_sha256": "8fa44732203913f2c243ae4cd2fd662222ffcb9115905fc363d47ee856173f94"
+}

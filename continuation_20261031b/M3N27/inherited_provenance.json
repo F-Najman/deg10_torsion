@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "copied_files": [
+    {
+      "original": "work/deg10/shared/mdmagma/v2/utils.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/utils.m",
+      "sha256": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/mdmagma_internal.spec",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/mdmagma_internal.spec",
+      "sha256": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/mdmagma.spec",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/mdmagma.spec",
+      "sha256": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/utils.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/utils.sig",
+      "sha256": "3d059d073c8cee670e57109861b9e66d276a3432029d38fe294af14d91bbba4a"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/algebra/linear_algebra.sig",
+      "sha256": "52cf55c738cbd8b7783be68f5128f2e95f62b55b9aa8d284562473fec53b527a"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/algebra/linear_algebra.m",
+      "sha256": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X0.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X0.m",
+      "sha256": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X11.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X11.m",
+      "sha256": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/rational_points.m",
+      "sha256": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X0.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X0.sig",
+      "sha256": "ad7a0ac093106595596ab594b1502a9cd9ad9c11c37802f22be02e986e7afd6e"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X11.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X11.sig",
+      "sha256": "1d42502ec4cd75897c53d7c6e7bc2c8ee20d3fbe74ab89b37c30481ba1fbc8f5"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/rational_points.sig",
+      "sha256": "bad67095a7ac630eae102c094c32d3e06d70018492b3ccbb6c20bbb7d4396978"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X1.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X1.sig",
+      "sha256": "a59ba44cf0beb2eb184866ff2d51be2b70b52beaacbf0ebe627567e79c6209e7"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/base_curve.m",
+      "sha256": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/base_curve.sig",
+      "sha256": "ad3a9969c9bb6d2aec183a03facd64779e2e21c712111872067b99c1a3e317ba"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_curves/X1.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X1.m",
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/elliptic_curves/isogenies.m",
+      "sha256": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/elliptic_curves/isogenies.sig",
+      "sha256": "937d65a93d8b0559b4f951e8e78cfcd0959e4c9a63b2a2ee43e244ab06b9c033"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_forms/modular_symbols.sig",
+      "sha256": "146c4ddbd78b095c65f33f2b3488b6133bc791872db9baa0d87756b128e9aba5"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_forms/modular_symbols.m",
+      "sha256": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/curves/divisors.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/curves/divisors.sig",
+      "sha256": "61eb59cce8da8aa6c326ab3340121c9094328b1c325a4dfd48b06e3393839480"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/curves/classgroups.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/curves/classgroups.m",
+      "sha256": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/curves/divisors.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/curves/divisors.m",
+      "sha256": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/v2/curves/classgroups.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/curves/classgroups.sig",
+      "sha256": "ba7204632ae38e30f96bded60753927e2ce3b07ae6db9df2952c0405d9cde169"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/tracehash.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/tracehash.sig",
+      "sha256": "bf7d3d1472a98d46162a2d9998e594ce1313d617dd3e799ed5774214446ab961"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/gl2base.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/gl2base.m",
+      "sha256": "0dc6e1c47699ba10deb974f3138b8436dbc2c4cd0dcdcbb17bc5e4d8875dc783"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/gl2base.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/gl2base.sig",
+      "sha256": "3f0281d9a908e3d21bef234c4b2a1d1a9d35dd3a014814662ca4ec41788f6442"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/utils.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/utils.m",
+      "sha256": "491363cbaa93262296845247320d24f7a9983788f98015d68bb3dec579d7a1d5"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/magma.spec",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/magma.spec",
+      "sha256": "19eb16416c2febd41a09f10c2da05a5fb01db4974d3a6ce8d0b82f1256d85813"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/chars.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/chars.sig",
+      "sha256": "cde98e4c60fbfa668bfb9ff918959d63554d3fe0c56cd1c797d607a3a42ef13e"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/tracehash.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/tracehash.m",
+      "sha256": "53f9c1365d9298735fda7fd90aa4fc2b3e19ba36ace6d7927d90b3a523ccf817"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/README.md",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/README.md",
+      "sha256": "beeb11e76c433a0f8de01ca91e64356393195172e96bef46207c860e071ffa24"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/.gitignore",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/.gitignore",
+      "sha256": "a95b7aa6682dd779a966e7bb3856bfaca23270355838ee4bbe5b5cd1dea59959"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/LICENSE",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/LICENSE",
+      "sha256": "17d40e7907ede450b898ed8ccbc4d99e43b6c1708416827b3b530ba038a39cbf"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/chars.m",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/chars.m",
+      "sha256": "4ba0d71a2e5ec126c7b8443ff6819dffdc9400db5895622a1203c89cc6d7f65b"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/Magma/utils.sig",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/utils.sig",
+      "sha256": "4477561f4716f0f9a5738ad13f9c35978c38c14f4380a87379c36eda9d60b365"
+    },
+    {
+      "original": "work/deg10/shared/mdmagma/models_X1_n/FFFc27.txt",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/FFFc27.txt",
+      "sha256": "9fb26e8d45f28c59b4991ec30edd9a1122ee61ba338b868f8e04fde657134174"
+    },
+    {
+      "original": "work/deg10/next_cases_20261030/dyadic_local/independent_point_counts.json",
+      "snapshot": "work/deg10/continuation_20261031b/M3N27/inputs/independent_point_counts.json",
+      "sha256": "0f719c333c4185f0092045d2f92af48594eff681fff5ab297b7b406454c2f44c"
+    }
+  ]
+}

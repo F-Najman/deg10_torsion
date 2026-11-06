@@ -1,0 +1,19 @@
+{
+  "purpose": "new236_parent_ideal_genus9",
+  "script": "computations/new236_parent_ideal_genus9.m",
+  "script_sha256": "c69fe3bcf413f465638b97d0e9fdda6b6c6999b4dbed48b49d865f30da1629c9",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_parent_ideal_genus9.m"
+  ],
+  "pid": 1921711,
+  "owner_uid": 1001,
+  "start_time_unix": 1793361862.4640484,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/new236_parent_ideal_genus9.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 98.7780122756958
+}

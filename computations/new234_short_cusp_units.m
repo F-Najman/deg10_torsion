@@ -1,0 +1,3 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(3*10^9);tt:=Cputime();a:=eval Read("work/deg10/C234_resolution_20261030/rational_cusp_unit_lattice.m");B:=Matrix(Integers(),a);assert Rank(B) eq 23 and Ncols(B) eq 24;L:=LatticeWithBasis(B);ss:=ShortVectors(L,60);rows:=[* *];small:=[];
+for r in ss do v:=Eltseq(r[1]);norm:=r[2];assert &+v eq 0 and &+[x^2:x in v] eq norm and norm le 60;d:=&+[x:x in v|x gt 0];Append(~rows,[*v,norm,d*]);if d le 10 then Append(~small,#rows);end if;end for;
+Write("work/deg10/C234_resolution_20261030/short_cusp_units.m",Sprint([*rows,small*]):Overwrite:=true);print "C234_SHORT_CUSP_UNITS_COMPLETE",#rows,small,Cputime(tt);quit;

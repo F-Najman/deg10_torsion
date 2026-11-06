@@ -1,0 +1,27 @@
+{
+  "N": 93,
+  "status": "COMPLETE",
+  "identity": {
+    "pid": 2773356,
+    "start_ticks": 186231279
+  },
+  "args": [
+    "/usr/local/bin/magma",
+    "-b",
+    "N:=93",
+    "OutDir:=work/degree9/parallel_expansion_20261026/N93_source_units",
+    "work/degree9/parallel_expansion_20261026/N93_source_units/products.m"
+  ],
+  "nice": 10,
+  "native_memory_bytes": 4000000000,
+  "AS_bytes": 6442450944,
+  "CPU_limit_seconds": 1800,
+  "hard_CPU_seconds": 1810,
+  "wall_limit_seconds": 7200,
+  "started_utc": "2026-10-26T22:54:55.429302+00:00",
+  "source_sha256": "3edd57c45ac09349c7008cbf654cfe1869c25b276ec7a14e17e859e06cb67080",
+  "actual_exit_code": 0,
+  "completion_marker": true,
+  "elapsed_wall_seconds": 2.2542930650524795,
+  "log_sha256": "3ea1f276f54723814a8d8c19b5cabd5bdbdf6aae69bbc485a1e6dc400b4a91ea"
+}

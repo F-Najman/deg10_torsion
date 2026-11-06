@@ -1,0 +1,119 @@
+\begin{proposition}\label{prop:all-octic-39}
+Every rational effective divisor of degree $8$ on $X_1(39)$ supported
+away from the cusps is the closed octic divisor represented by the
+known CM point in the realization table. Consequently an elliptic
+curve over an octic number field with a point of order $39$ has full
+torsion $C_{39}$. In particular, $C_{78}$, $C_{117}$ and
+$C_3\times C_{39}$ do not belong to $\Phi(8)$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(39)$. By \cite[Theorem~3.1(2), Theorem~4.13 and
+Table~2]{DEHMZ}, its full rational Jacobian is rational cuspidal with
+invariants $[7,31122,3236688]$. In particular,
+$J_X(\mathbb Q)[2^\infty]\simeq C_2\times C_{16}$.
+The rational gonality of $X$ is $14$ by \cite[Table~1]{DvH}.
+
+We first prove that torsion specialization at $2$ is injective. Let
+$H=\langle\langle16\rangle\rangle$, of order $3$, and let
+$\pi:X\to Y=X/H$. The quotient has genus $9$ and good reduction at
+$2$. Indeed, the source has good reduction, and this is a tame
+quotient. The induced cyclic cover $Y\to X_0(39)$ has degree $4$
+and is etale. At an elliptic point the only possible nontrivial
+stabilizer has order $3$, which is contained in $H$; order $4$ would
+require a square root of $-1$ modulo $3$. Primitive cusp columns
+show that the full diamond group acts freely on the cusp fibres.
+The same argument applies in characteristic $2$.
+
+Here are independent exact checks of the special-fibre model.
+The standard model of $X_0(39)$ has genus $3$, a degree-$56$
+$j$-map, and four rational cusps of widths $1,3,13,39$.
+Its Picard group over $\mathbb F_2$ is $C_{28}\times\mathbb Z$.
+There is a unique character to $C_4$ with Frobenius exponents
+$(1,3,2,0)$ in that order, relative to the inverse of the usual
+diamond generator. Inverting all exponents leaves the defining
+kernel unchanged. The associated length-two Witt tower is converted
+to an explicit quartic with exact inverse maps. Its deck map has
+order $4$, and its square translates the quartic generator by $1$.
+Witt traces on generators of the full Picard group modulo $4$
+verify the character. The resulting curve has genus $9$ and a split
+rational cusp; Riemann--Hurwitz verifies that the cover is etale.
+Global class field theory therefore identifies it with
+$Y_{\mathbb F_2}$. The primitive-column computation gives identical
+rational and finite-field cusp-orbit degrees $1^4,2^2,4^2$.
+In particular every closed cusp used in the computation lifts to a
+rational cuspidal divisor.
+
+The exact Picard group of this model is
+$C_6\times C_{336}\times\mathbb Z$. The reductions of rational
+cuspidal classes generate its full degree-zero subgroup. Thus their
+$2$-primary image has order $32$. On the other hand, $\pi^*$ is
+injective on rational $2$-primary torsion, since
+$\pi_*\pi^*=[3]$. It follows that $J_Y(\mathbb Q)[2^\infty]$
+has order at most $32$, and the computed image attains this bound.
+Specialization is therefore injective on that subgroup.
+
+Every automorphism of $C_2\times C_{16}$ sends generators $e,f$ to
+$e+\epsilon8f$ and $\eta e+u f$, respectively, where
+$\epsilon,\eta\in\{0,1\}$ and $u$ is odd modulo $16$.
+Its automorphism group consequently has order $32$. Hence the
+order-three group $H$ acts trivially on $J_X(\mathbb Q)[2^\infty]$.
+The identity $\pi^*\pi_* = \sum_{h\in H}h=[3]$ makes $\pi_*$
+injective there. Compatibility with specialization and the preceding
+target injectivity prove source injectivity on rational $2$-primary
+torsion. The odd-primary torsion is automatically injective at $2$.
+This proves injectivity on all of $J_X(\mathbb Q)$.
+The actual Picard relation matrix and cusp vectors are exported;
+an independent integer Hermite normal form verifies the full cusp
+image. A separate enumeration verifies the order-$32$ automorphism
+group and all source and target cusp orbits.
+
+Let $D$ be a rational noncuspidal effective divisor of degree $8$.
+The source has the same rational and $\mathbb F_2$ cusp degrees
+$1^{12},2^6,12^2$. The modular-unit signatures separate the rational
+orbits, and primitive columns independently show that each remains
+irreducible. These signatures commute with reduction: the functions
+$b$ and $b^4/\Delta$ are units on the integral fine open modular
+curve, with divisors supported on its etale cuspidal boundary.
+Thus entirely cuspidal reduction lifts to a rational effective
+cuspidal divisor $C$ of degree $8$. Injectivity would give $D\sim C$,
+contradicting gonality $14>8$.
+
+The complete noncuspidal place counts in degrees one through eight are
+\[
+ (0,0,0,0,0,12,0,49).
+\]
+They are independently checked by Newton identities from the
+modular-symbol Frobenius polynomial. Hence a remaining reduction
+consists of a sextic place with a cuspidal complement of degree $2$,
+or of a single octic place. The exact Tate-coordinate diamond
+partition gives one sextic orbit and five octic orbits.
+All possible cuspidal complements lift to rational divisors.
+Put $A_5=T_5-1-5\langle5\rangle$. Eichler--Shimura and injectivity
+of torsion reduction at the odd prime $5$ give
+$A_5J_X(\mathbb Q)=0$. On each rational cuspidal divisor $C$,
+$T_5C=C+5\langle5\rangle C$, so $A_5C=0$ as a divisor.
+The fresh computation proves that $A_5P$ is nonprincipal for the
+sextic representative and for four octic representatives. The fifth
+octic representative is exactly the reduction of the known point.
+Its full finite diamond orbit is a singleton. Thus these five
+nonprincipality witnesses cover every unknown noncuspidal reduction.
+
+The known point has $j=0$ and is defined over the irreducible octic field
+\[
+ x^8-4x^7+10x^6-25x^5+37x^4-25x^3+10x^2-4x+1=0.
+\]
+Its universal Tate curve and second coordinate are given in the
+realization table. This polynomial remains irreducible modulo $2$,
+and its coordinate reduction is the surviving octic place $\overline E$.
+Consequently $\overline D=\overline E$. Injectivity gives $D\sim E$,
+and gonality $14>8$ gives $D=E$.
+
+The known curve has exact point order $39$ and good unramified
+reduction of order $39$ over $\mathbb F_{49}$, so its full torsion is
+$C_{39}$. Finally, apply the divisor classification to the rational
+degree-eight trace divisor of a moduli point over an octic field,
+with multiplicities if its field of definition is smaller. The
+divisor is forced to be closed octic. The fine moduli interpretation
+then identifies the elliptic curve over that field with the known
+model. This proves the asserted full-torsion classification.
+\end{proof}

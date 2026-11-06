@@ -1,0 +1,90 @@
+{
+  "replacement": "d31b_Y228_AF_cusp_probe, explicit complete marker/genus25/full cusp signature,jdegree576",
+  "terminated_workers": [
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_s0.status.json",
+      "pid": 3453103,
+      "owner_uid": 1001,
+      "start_time": 1793432838.28,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_s0.m"
+      ],
+      "cpu_seconds": 536.3,
+      "reason": "Verified AF j-pole replacement completed; slow curve-level cusp normalization superseded. No RR evidence obtained.",
+      "signal": "SIGTERM"
+    },
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_s1.status.json",
+      "pid": 3453088,
+      "owner_uid": 1001,
+      "start_time": 1793432838.04,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_s1.m"
+      ],
+      "cpu_seconds": 536.53,
+      "reason": "Verified AF j-pole replacement completed; slow curve-level cusp normalization superseded. No RR evidence obtained.",
+      "signal": "SIGTERM"
+    },
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_s2.status.json",
+      "pid": 3453082,
+      "owner_uid": 1001,
+      "start_time": 1793432837.94,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_s2.m"
+      ],
+      "cpu_seconds": 536.65,
+      "reason": "Verified AF j-pole replacement completed; slow curve-level cusp normalization superseded. No RR evidence obtained.",
+      "signal": "SIGTERM"
+    },
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_s3.status.json",
+      "pid": 3453111,
+      "owner_uid": 1001,
+      "start_time": 1793432838.43,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_s3.m"
+      ],
+      "cpu_seconds": 536.16,
+      "reason": "Verified AF j-pole replacement completed; slow curve-level cusp normalization superseded. No RR evidence obtained.",
+      "signal": "SIGTERM"
+    },
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_s4.status.json",
+      "pid": 3453076,
+      "owner_uid": 1001,
+      "start_time": 1793432837.69,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_s4.m"
+      ],
+      "cpu_seconds": 536.9100000000001,
+      "reason": "Verified AF j-pole replacement completed; slow curve-level cusp normalization superseded. No RR evidence obtained.",
+      "signal": "SIGTERM"
+    },
+    {
+      "status": "work/deg10/jobs/d31b_Y228_A5_s5.status.json",
+      "pid": 3453201,
+      "owner_uid": 1001,
+      "start_time": 1793432842.58,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_A5_s5.m"
+      ],
+      "cpu_seconds": 532.02,
+      "reason": "Verified AF j-pole replacement completed; slow curve-level cusp normalization superseded. No RR evidence obtained.",
+      "signal": "SIGTERM"
+    }
+  ],
+  "terminated_computations_are_not_certificates": true
+}

@@ -1,0 +1,50 @@
+\begin{proposition}\label{prop:octic45}
+No elliptic curve over an octic number field has a point of order $45$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(45)$. Its genus is $41$ and its rational Jacobian has rank
+zero by \cite[Theorem~3.1(2)]{DEHMZ}. Let $D$ be the rational effective
+divisor of degree $8$ obtained from a hypothetical octic moduli point,
+with multiplicities if its field of definition has smaller degree.
+
+The complete noncuspidal closed-place counts on $X_{\mathbb F_2}$
+through degree $8$ are
+\[
+ (0,0,0,0,0,0,0,60).
+\]
+They agree with an independent Frobenius similarity-class count.
+Thus any noncuspidal part of $\overline D$ is one octic place, with
+no cuspidal complement. The $60$ places have five diamond orbits.
+For each representative $P$, the fresh Hecke calculation finds a
+prime $q\in\{7,11,13,17,19\}$ for which
+\[
+ (T_q-1-q\langle q\rangle)P
+\]
+is nonprincipal. This contradicts Lemma~\ref{lem:octic-hecke}.
+
+It remains to consider entirely cuspidal reduction. The cusp degrees
+over $\mathbb F_2$ are $1^{12},2^4,4^5,6^2,12$.
+We apply Lemma~\ref{lem:quotient-Cartier} directly to $X$.
+The curve has good reduction at $2$, a rational cusp, an etale
+cyclotomic cusp scheme, and the usual Eichler--Shimura operators.
+The space
+\[
+ U=(\mathcal C-1)H^0(X_{\mathbb F_2},\Omega^1)
+\]
+has dimension $39$. The fresh degree-eight computation constructs all
+$124$ local restriction matrices at the $23$ cusps of degree at most
+$8$. On every one of the $148945$ effective cuspidal divisors of
+degree $8$, restriction from $U$ has rank $8$.
+
+The exporter records the original-basis local expansions and verifies
+their precision and holomorphy. At each cusp, division by one common
+local unit changes none of the restriction ranks. Independent binary
+linear algebra verifies the Cartier image, all $124$ projected
+restriction matrices, and the complete enumeration with zero rank
+exceptions. As a separate geometric check, all $103$ previously
+computed exact differential-space kernels within this precision
+range agree with the fresh expansions. These are local geometric
+data, not an exclusion imported from another degree. The formal
+immersion criterion excludes entirely cuspidal reduction and proves
+the proposition.
+\end{proof}

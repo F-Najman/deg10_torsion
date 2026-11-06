@@ -1,0 +1,43 @@
+[
+  {
+    "source": "work/degree9/noncyclic/deps/fast_hecke.m",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/deps/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  {
+    "source": "work/degree9/noncyclic/deps/fast_hecke_11.m",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/deps/fast_hecke_11.m",
+    "sha256": "a18f21189cba3d5d3a19888012729bde2a4ec0e1839dd770335b79b5149af9cb"
+  },
+  {
+    "source": "work/degree9/noncyclic/deps/fast_diamond_hash_m2.m",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/deps/fast_diamond_hash_m2.m",
+    "sha256": "ea1b244ee1fe9434653524bd4a944e0af38665e0a92b666226e77b3334982822"
+  },
+  {
+    "source": "work/deg10/C236_resolution_20261030/geometry/deps/native_group_generators.m",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/deps/native_group_generators.m",
+    "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1"
+  },
+  {
+    "source": "work/deg10/C236_resolution_20261030/geometry/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6"
+  },
+  {
+    "source": "work/deg10/C236_resolution_20261030/geometry/deps/portable_forward.m",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/deps/portable_forward.m",
+    "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49"
+  },
+  {
+    "source": "work/deg10/C236_resolution_20261030/geometry/deps/pair_af_place_linear.m",
+    "snapshot": "work/deg10/next_cases_20261030/C242/geometry/deps/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/genus5_quotient/filter_919/filter919.m",
+    "projection_helpers": "work/deg10/next_cases_20261030/C242/geometry/quotient5_helpers.m",
+    "source_sha256": "5e62ebb86fdbcaaa9f4fbf1ef8ea68872e43c53f79ba5eba8ef186ae7380084c",
+    "reuse": "Accepted genus5 model/projection/cusp branch definitions and exact A11 kernel construction, freshly recomputed; degree9 support loop discarded."
+  }
+]

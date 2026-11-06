@@ -1,0 +1,12 @@
+[
+  {
+    "source": "work/deg10/next_cases_20261030/dyadic_local/all_curves.m",
+    "copy": "work/deg10/continuation_20261030c/C99/independent_inputs/all_curves.m",
+    "sha256": "80eb6b47b34451b886fefec11c6f246e2536c3ecc6b8faa3e69fa50f1ac210a3"
+  },
+  {
+    "source": "work/deg10/next_cases_20261030/dyadic_local/independent_point_counts.json",
+    "copy": "work/deg10/continuation_20261030c/C99/independent_inputs/independent_point_counts.json",
+    "sha256": "0f719c333c4185f0092045d2f92af48594eff681fff5ab297b7b406454c2f44c"
+  }
+]

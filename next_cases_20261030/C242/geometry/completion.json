@@ -1,0 +1,77 @@
+{
+  "status": "PASS: C2 x C42 and C84 excluded in degree 10",
+  "finished_utc": "2026-10-30T18:44:04.495059+00:00",
+  "degree": 10,
+  "groups": [
+    "C2 x C42",
+    "C84"
+  ],
+  "source_genus": 61,
+  "source_geometric_gonality_lower_bound": 12,
+  "proof": "next_cases_20261030/C242/geometry/resolution.tex",
+  "support_pipeline": [
+    {
+      "stage": "complete normalized source census",
+      "patterns": 60971
+    },
+    {
+      "stage": "two genus4 quotients",
+      "patterns": 4647
+    },
+    {
+      "stage": "genus5 C3xC3 quotient",
+      "patterns": 752
+    },
+    {
+      "stage": "four X1(21) images",
+      "patterns": 111
+    },
+    {
+      "stage": "three order3 stabilizer exclusions",
+      "patterns": 108
+    },
+    {
+      "stage": "six X0(42) images",
+      "patterns": 10
+    },
+    {
+      "stage": "nine exact full X1(42) Hecke exclusions",
+      "patterns": 1
+    },
+    {
+      "stage": "final genus17 orbit-section obstruction",
+      "patterns": 0
+    }
+  ],
+  "small_quotient_supported_prime_images": 5346,
+  "small_quotient_exact_native_RR_identities": 5057,
+  "small_quotient_smooth_factorbase_controls": 289,
+  "unsupported_genus5_j0_rows_retained": 129,
+  "final_Hecke_source_summands": 16,
+  "final_Hecke_kernel_orbits": 78,
+  "final_Hecke_geometric_kernels": 240,
+  "final_Hecke_RR_zero_tests": 9,
+  "case26": {
+    "chosen_h": "(P+21Q,P+4Q)",
+    "h_Frobenius_phase": 2,
+    "old_genus17_generator": "h^2=(21Q,P+37Q)",
+    "old_generator_Frobenius_phase": 4,
+    "source_C4_options": 108,
+    "quotient_cusp_types": 12,
+    "quadratic_quotient_candidates": 2,
+    "RR_patterns": 24,
+    "character_spaces": 72,
+    "all_character_dimensions": [
+      1,
+      0,
+      0
+    ]
+  },
+  "proof_scope": "Arbitrary rational effective degree-10 divisors with entirely noncuspidal support; reducibility is allowed.",
+  "global_cuspidal_descent": "DEHMZ Theorems 3.1 and 4.13: global Galois-invariant cuspidal divisors generate J1(42)(Q). Finite cubic source cusps are never silently substituted for global rational divisors.",
+  "native_replays": [
+    "parent_native_replays.json",
+    "parent_final_checks.json"
+  ],
+  "lifecycle": "lifecycle_and_completion.json"
+}

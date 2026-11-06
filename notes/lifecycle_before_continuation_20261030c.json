@@ -1,0 +1,561 @@
+{
+  "status": "PASS",
+  "case": "C55, C57, C75, C77, C81 and C87 exclusions completed",
+  "time_unix": 1793393020.652325,
+  "degree_ten_workers_supervisors_launchers": [],
+  "all_recorded_jobs_exited": true,
+  "recorded_job_count": 820,
+  "new_job_count": 103,
+  "new_jobs": [
+    {
+      "purpose": "b81_parent_rr_completions",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_parent_rr_completions_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_parent_source_filter",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_parent_two_torsion",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_parent_x0_filter",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_rr_case1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_rr_case10",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_rr_case2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_rr_case3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_rr_case7",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_rr_localmeta1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_rr_localmeta10",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_rr_localmeta2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_rr_localmeta3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_rr_localmeta7",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_sage_local_arcs",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_sage_local_arcs_v2",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_sage_local_arcs_v3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_source_census",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_target_assessment",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_target_gcd",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_x0_filter",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_x0_setup",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_y46_kummer_model",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_y46_kummer_model_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_y46_model",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b81_y46_model_v2",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b87_base_geometry",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b87_base_test",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b87_base_test_v2",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b87_base_test_v3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b87_independent_moduli",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b87_independent_source_cusps",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b87_parent_native_control",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "b87_raw_hecke_control",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_RR",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_RR_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_assemble_RR",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_assemble_RR_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_census10",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_cusp_FI",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_dual_match",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_good10_1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_good10_2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_good10_3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_good10_4",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_good10_5",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_good10_6",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_good10_7",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_good10_8",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_level_survey",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_quotient10",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_verify_RR",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_verify_RR_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_verify_coverage",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_verify_jets",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_verify_jets_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont57_verify_jets_v3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_census10",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_high_cusps",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_nc10_job1",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_nc10_job1_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_nc10_job2",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_nc10_job2_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_nc10_job3",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_nc10_job3_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_parent_native",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_retained_FI",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_verify_cusps",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_verify_cusps_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_verify_finite",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "cont75_verify_finite_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb55_census",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb55_cusp_coupled",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb55_parent_native",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb55_sage_finite",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb55_sage_finite_v2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb55_source_case1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb55_source_case2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb55_source_case3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb55_source_case4",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb55_source_case5",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_absolute_model",
+      "actual_exit_code": -15,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_absolute_model_v3",
+      "actual_exit_code": -15,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_census",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_fi10",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_fi_native_controls",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case1",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case1_v2",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case1_v3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case2",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case2_v2",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case2_v3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case3",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case3_v2",
+      "actual_exit_code": 1,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case3_v3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_parent_moduli_binding",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_parent_native",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_projection_data",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_sage_census",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_sage_nc_case1",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_sage_nc_case2",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_sage_nc_case3",
+      "actual_exit_code": 0,
+      "termination_reason": null
+    }
+  ],
+  "new_automatic_launchers_created": 0,
+  "unrelated_magma_workers_preserved": [
+    {
+      "cmdline": [
+        "/opt/magma-2.29-4/magma.exe",
+        "-b",
+        "code/03_groups.m"
+      ],
+      "status": "running",
+      "name": "magma.exe",
+      "create_time": 1792133148.21,
+      "pid": 339824,
+      "username": "fnajman"
+    },
+    {
+      "cmdline": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-s",
+        "for_mordell.m"
+      ],
+      "status": "running",
+      "name": "magma.exe",
+      "create_time": 1793227423.6,
+      "pid": 3067704,
+      "username": "nadzaga"
+    }
+  ],
+  "host_cores": 32,
+  "new_case_active_cores": 0,
+  "native_alarm_or_failed_probes_are_not_completed_certificates": true,
+  "retirement_records": [
+    "continuation_20261030b/C77/absolute_fallback_retired.json",
+    "continuation_20261030b/C77/absolute_model_trial_retirement.json"
+  ],
+  "note": "All primary, replacement and independent computations have ended. Superseded absolute models and failed startup probes are retained as diagnostics and must not restart."
+}

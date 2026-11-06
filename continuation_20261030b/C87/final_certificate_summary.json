@@ -1,0 +1,121 @@
+{
+  "status": "COMPLETE; parent and independent mathematical audits PASS",
+  "degree": 10,
+  "group": [
+    1,
+    87
+  ],
+  "proof": "continuation_20261030b/C87/resolution.tex",
+  "source_genus": 225,
+  "base_genus": 9,
+  "source_noncuspidal_counts_through_degree10": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    112,
+    224
+  ],
+  "base_source_counts_by_degree": {
+    "9": 4,
+    "10": 8
+  },
+  "degree10_curve_groups": {
+    "C1044": 40,
+    "C3xC348": 10
+  },
+  "all_four_rational_three_subgroups_included_when_needed": true,
+  "source_and_finite_cusp_signature": {
+    "1": 28,
+    "2": 14,
+    "28": 2
+  },
+  "all_global_cusp_orbits_unchanged_at2": true,
+  "operator": "T5-6",
+  "all_twelve_Hecke_RR_dimensions_zero": true,
+  "native_kernel_checks": 72,
+  "manual_Velu5_checks": 72,
+  "manual_Velu29_modular_checks": 72,
+  "positive_norm_summands": 20,
+  "completed_jobs": [
+    {
+      "job": "b87_base_test_v3",
+      "marker": "B87_BASE_COMPLETE 12 0"
+    },
+    {
+      "job": "b87_raw_hecke_control",
+      "marker": "B87_ALL_RAW_KERNELS_COMPLETE 12 72"
+    },
+    {
+      "job": "b87_parent_native_control",
+      "marker": "B87_PARENT_NATIVE_COMPLETE 12 72"
+    },
+    {
+      "job": "b87_independent_moduli",
+      "marker": "B87_INDEPENDENT_VELU_MODULI_NORMS_PASS 72 20"
+    },
+    {
+      "job": "b87_independent_source_cusps",
+      "marker": "B87_INDEPENDENT_SOURCE_CUSPS_PASS"
+    },
+    {
+      "job": "b87_base_geometry",
+      "marker": "B87_MODULAR_CUSP_GEOMETRY_COMPLETE"
+    }
+  ],
+  "unused_failed_diagnostics": [
+    {
+      "purpose": "b87_base_test_v2",
+      "actual_exit_code": 1,
+      "not_used_as_completed_certificate": true
+    },
+    {
+      "purpose": "b87_base_test",
+      "actual_exit_code": 1,
+      "not_used_as_completed_certificate": true
+    }
+  ],
+  "active_workers_supervisors_launchers": [],
+  "automatic_launchers_created": 0,
+  "file_hashes": {
+    "computations/b87_base_geometry.m": "6adbff88171b36f1752a718c97af2eb4eac49b875ba89b548b183ec0c776158f",
+    "computations/b87_base_test_v3.m": "757fe86a6aaa6cf485a8badfd38669334ea40e26f048ff52751591ae5f3fd7e3",
+    "computations/b87_independent_moduli.py": "6ab28298e4f4356c0a9e41d7b2aae8379f8d42e24eae2a085d166dc71afefcd9",
+    "computations/b87_parent_native_control.m": "407ec9c1f82acbb0eca98195c4cd79153e3c217b0c8f1e2d928c646854e0e240",
+    "computations/b87_raw_hecke_control.m": "98f9c7cc51af3bcad6d4bacbf3af6731c835228a5523520d63cd4c00f798f13a",
+    "continuation_20261030b/C87/b87_independent_source_cusps.py": "6fb69ed18603e0a773364e69ed116e4955a3e888f568f8fc835846d493900ae7",
+    "continuation_20261030b/C87/base_cusp_geometry.m": "ca05283780dbd749b201b5f329e25065f993d0b9fcc159e199cebecde32dccb0",
+    "continuation_20261030b/C87/base_j_functions.m": "a40902391645be36e1afb70bd21baae3c678438a894dc8b5c36bbb1c5016ea4a",
+    "continuation_20261030b/C87/base_model.m": "89e6c4deb77a289236847e4295304184f2dae7a128fa4f6e359c56dcea74d46b",
+    "continuation_20261030b/C87/base_results.m": "662d24ee64e3b74e2925e0e66bc689777b37aa92407a9bebe11e69b0ee2c284d",
+    "continuation_20261030b/C87/certify87.py": "ca0ec4d3007be06c515667a243a7df193b414698135b2fe02d1aad47d3c84fdc",
+    "continuation_20261030b/C87/deps/DEHMZ_source.tex": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d",
+    "continuation_20261030b/C87/deps/fast_hecke.m": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7",
+    "continuation_20261030b/C87/global_glue_review.txt": "0afad609482ea83394d2b347b8e94e2d156fd513b4938b3cff3cf5f25d048342",
+    "continuation_20261030b/C87/independent_moduli_isogenies.json": "908e903ced757a27e06e52dab86faab9e9d131eb65ef08d387d223bf5685f59a",
+    "continuation_20261030b/C87/independent_source_cusps.json": "02210b2c07febb52a7d483922d323bdbcfbbf4f6b2a253d19b25b011e20bf5b4",
+    "continuation_20261030b/C87/initial_provenance.json": "3cdd4b46c1bdafe8461fafc26c7766c70a558dba86405edc41fe5f65752ce3a5",
+    "continuation_20261030b/C87/parent_native_norm_RR.m": "a785081ece13f0b4d4fefd9ad6b2a5d0abb43b924921445de6046885d2ae47d3",
+    "continuation_20261030b/C87/raw_hecke_isogenies.m": "8bc89d630e4b7d83697a4da8f1c07648cde5656bc5ce36aaaad7a2d26f9a217d",
+    "continuation_20261030b/C87/resolution.tex": "7a4c1acd024d393a999de2886b8cdd5a0798e5890f615acb09e2353ee5511a71",
+    "jobs/b87_base_geometry.log": "41d90f6b124c5837b3e8bdd32965a9c0baa6ed1523eb19e6729bc5756528a0d4",
+    "jobs/b87_base_geometry.status.json": "1c22ca1f654daa19fd34e832cef7080d843852cea7b0aaec28bdbe073da175dc",
+    "jobs/b87_base_test_v3.log": "0a85c9557e3a06d8e216a43659d28cf5619d3bbb8dd86d2e9cd4ac3f99313927",
+    "jobs/b87_base_test_v3.status.json": "7f7aa2173f6b5057d74d53107129913d3c35e6a6ea0682098f16a078e03d53c1",
+    "jobs/b87_independent_moduli.log": "7735dd996971c5d4b11cc39944caa68d251f4f4928aed04a443369e68add0afc",
+    "jobs/b87_independent_moduli.status.json": "474f2d5b4bd376b642abbf72ab0cd4af0cde1c1bb93118a0a5f297b4661d8a66",
+    "jobs/b87_independent_source_cusps.log": "e19be31c7caa7b48ddfa2f16dd7d39637d6e52f1f0dc2c0a1d316ad4e8252d69",
+    "jobs/b87_independent_source_cusps.status.json": "703f2e0f76fb6a638324a7f07e0257dc2ad3560dee2bdbbc7019be3b8825dd1d",
+    "jobs/b87_parent_native_control.log": "5afbd94a24906fff1e2f93cc9bd495ceaa189777b61dc106469186f2db895846",
+    "jobs/b87_parent_native_control.status.json": "f36cea0f566861527fc806f0b15d296bc4ea5db885e6727e5756a0d0dd97660c",
+    "jobs/b87_raw_hecke_control.log": "42d2f8530dbf4fe6d59795e823154bfb54271eadf3d9dcef533ae1f1dfa58652",
+    "jobs/b87_raw_hecke_control.status.json": "22b7eaee913035941005be9398e668e7f6d2d56a0dfec797ffeedf740c2bbde7",
+    "next_cases_20261030/dyadic_local/all_curves.m": "80eb6b47b34451b886fefec11c6f246e2536c3ecc6b8faa3e69fa50f1ac210a3",
+    "next_cases_20261030/dyadic_local/independent_point_counts.json": "0f719c333c4185f0092045d2f92af48594eff681fff5ab297b7b406454c2f44c",
+    "shared/mdmagma_manifest.json": "0e93dd2633f3ec4cdf4bb15e92bfb9b115a7875e84d301b1fafa6d2c31721518"
+  }
+}

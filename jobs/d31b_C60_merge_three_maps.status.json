@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_C60_merge_three_maps",
+  "script": "continuation_20261031b/C60/d31b_C60_merge_three_maps.py",
+  "script_sha256": "c175ff5db2ffa40f40c6287fa07dbebcb62c6c57f5b8f2190ef8a788797ea8b8",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C60/d31b_C60_merge_three_maps.py"
+  ],
+  "pid": 3453701,
+  "owner_uid": 1001,
+  "start_time_unix": 1793432863.0330272,
+  "state": "EXITED",
+  "time_limit_seconds": 90,
+  "log": "jobs/d31b_C60_merge_three_maps.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.0151684284210205
+}

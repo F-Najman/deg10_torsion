@@ -1,0 +1,78 @@
+[
+  {
+    "purpose": "resolve226_finite_p17",
+    "script": "computations/resolve226_finite_p17.m",
+    "script_sha256": "d705f82ce97dae7a21825ac792e5e6c7d7e520d6e86dcf10daa62b0f5f9867c0",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_finite_p17.m"
+    ],
+    "pid": 1571668,
+    "owner_uid": 1001,
+    "start_time_unix": 1793347240.2442966,
+    "state": "EXITED",
+    "time_limit_seconds": 180,
+    "log": "jobs/resolve226_finite_p17.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 8.727017879486084
+  },
+  {
+    "purpose": "resolve226_finite_p23",
+    "script": "computations/resolve226_finite_p23.m",
+    "script_sha256": "7e36d5d927a13c05b98a9f1b79ec13a84daa5735bb31be7f1cc91cb76f494748",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_finite_p23.m"
+    ],
+    "pid": 1571675,
+    "owner_uid": 1001,
+    "start_time_unix": 1793347240.5127058,
+    "state": "EXITED",
+    "time_limit_seconds": 180,
+    "log": "jobs/resolve226_finite_p23.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 8.677735328674316
+  },
+  {
+    "purpose": "resolve226_finite_p29",
+    "script": "computations/resolve226_finite_p29.m",
+    "script_sha256": "2c5c043a0b609f75bfd70310a61f483fa1916b962e5488a77f4d33bb8073bb2f",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_finite_p29.m"
+    ],
+    "pid": 1571703,
+    "owner_uid": 1001,
+    "start_time_unix": 1793347240.774833,
+    "state": "EXITED",
+    "time_limit_seconds": 180,
+    "log": "jobs/resolve226_finite_p29.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 8.829089879989624
+  },
+  {
+    "purpose": "resolve226_finite_p31",
+    "script": "computations/resolve226_finite_p31.m",
+    "script_sha256": "cae7f9a0afab2e40fc6fd7c801064d54b672ddcad8aae457c888e2144d078d5d",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_finite_p31.m"
+    ],
+    "pid": 1571715,
+    "owner_uid": 1001,
+    "start_time_unix": 1793347241.041254,
+    "state": "EXITED",
+    "time_limit_seconds": 180,
+    "log": "jobs/resolve226_finite_p31.log",
+    "actual_exit_code": 0,
+    "termination_reason": null,
+    "elapsed_seconds": 8.878692388534546
+  }
+]

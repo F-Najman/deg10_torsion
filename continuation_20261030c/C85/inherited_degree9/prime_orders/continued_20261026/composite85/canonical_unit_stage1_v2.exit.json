@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-26T22:22:24.606489+00:00",
+  "worker_pid": 2697097,
+  "worker_start_ticks": 186036199,
+  "owner_pid": 2697095,
+  "owner_startticks": 186036194,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/composite85/canonical_unit_stage1_v2.m"
+  ],
+  "actual_cmdline": [
+    "/opt/magma-2.30-1/magma.exe",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/composite85/canonical_unit_stage1_v2.m"
+  ],
+  "wall_seconds": 8.014369770186022,
+  "cpu_seconds": 6.95,
+  "state": "R",
+  "wall_cap_seconds": 7200,
+  "cpu_budget_seconds": 1800,
+  "hard_cpu_backstop_seconds": 7200,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T22:22:32.620881+00:00",
+  "termination_reason": null
+}

@@ -1,0 +1,6 @@
+Loading "work/deg10/computations/d31b_C56_parent_basis_common.m"
+
+In file "work/deg10/computations/d31b_C56_parent_basis_common.m", line 13, column 48:
+>>   den:=LCM([Denominator(c):g in bf,c in Eltseq(g)]);vv:=[[*Numerator(c*(B!d
+                                                  ^
+User error: Identifier 'g' has not been declared or assigned

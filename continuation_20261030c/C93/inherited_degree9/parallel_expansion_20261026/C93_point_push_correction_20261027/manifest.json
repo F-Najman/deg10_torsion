@@ -1,0 +1,22 @@
+{
+  "degree": 9,
+  "group": [
+    1,
+    93
+  ],
+  "proof": "parallel_expansion_20261026/C93_point_push_correction_20261027/exclusion93_corrected.tex",
+  "files": [
+    {
+      "path": "parallel_expansion_20261026/C93_point_push_correction_20261027/certify_correction.py",
+      "sha256": "23c88e9f027b07ca6988b1ce9d559e8ba5fbf87a557debd7316db4659c6c49c3"
+    },
+    {
+      "path": "parallel_expansion_20261026/C93_point_push_correction_20261027/correction.json",
+      "sha256": "21f7771445cf38ce7d80c2ff34318d042c7c7eac748cdef1427fd752f61c892e"
+    },
+    {
+      "path": "parallel_expansion_20261026/C93_point_push_correction_20261027/exclusion93_corrected.tex",
+      "sha256": "51a791c5976da97e369298cb22b2435912c4635a968b7b657845699c3a49610e"
+    }
+  ]
+}

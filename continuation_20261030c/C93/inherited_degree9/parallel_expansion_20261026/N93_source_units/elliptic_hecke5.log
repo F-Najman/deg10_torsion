@@ -1,0 +1,16 @@
+Loading "work/degree9/parallel_expansion_20261026/N93_source_units/canonical_unit_data.m"
+Loading "work/degree9/parallel_expansion_20261026/N93_f9/records.m"
+
+RecordPoint(
+    E: E,
+    P: (a^60 : a^230 : 1)
+)
+CanonicalJets(
+    E: E,
+    P: (a^60 : a^230 : 1),
+    z0: [ 1, a^219, a^287, a^483, a^431, a^424, a^191, a^325, a^219,...
+)
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/parallel_expansion_20261026/N93_source_units/elliptic_hecke5.m", line 24, column 62:
+>>  for n in[1..4]do xx+:=(Coefficient(Psi93(xx,a6),n)/der)*u^n;assert Valuati
+                                                                ^
+Runtime error in assert: Assertion failed

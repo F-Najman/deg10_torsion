@@ -1,0 +1,54 @@
+{
+  "C63_inputs/dyadic_criterion.tex": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/C63_inputs/dyadic_criterion.tex",
+    "sha256": "a34e7c0f8f7530aae1c6531a8de079950e0f47443540ca51bccb8312721c721f"
+  },
+  "N63_cartier_kernels_canonical.m": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/N63_cartier_kernels_canonical.m",
+    "sha256": "8a4e29b90303059a4d1d43fb60b794c47e0f99114468511f3df4b8c984e0cb81"
+  },
+  "N63_cartier_rr.log": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/N63_cartier_rr.log",
+    "sha256": "3d2a93913349c98c55eaec86d9824e037232a42e07a244181de975e3ac4c4a2a"
+  },
+  "N63_cartier_rr_reproduce.m": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/N63_cartier_rr_reproduce.m",
+    "sha256": "5757b91690c3fe257775192810a7c4e93031f1f3f397a965c7dbe3759216e5e1"
+  },
+  "N63_exclusion.tex": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/N63_exclusion.tex",
+    "sha256": "79f54271c706b9ab83de64691e2dd66cf9917c7fba03d672fa4bb845cfa2560c"
+  },
+  "cusp63_quotient.json": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/cusp63_quotient.json",
+    "sha256": "ca4507a965b0f8eb309ee9f638cb39721cacd026ed97de44356b790fe863c17e"
+  },
+  "cusp63_quotient.log": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/cusp63_quotient.log",
+    "sha256": "09d50190399fc44b471da36531f04842db640d0d9fbed66f9a679dcd6caa1498"
+  },
+  "cusp63_quotient.py": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/cusp63_quotient.py",
+    "sha256": "6b9c80122cbec0703a22947c5c85d8c82cc54f70ebecc29eb7094e724cebda53"
+  },
+  "sieve63_quotient_T5.m": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/sieve63_quotient_T5.m",
+    "sha256": "e061b8cdfba8c1a335dab4a3a103bdf1ebc41d978c971e94c9c763805c6b97a2"
+  },
+  "sieve63_quotient_T5_e7.log": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/sieve63_quotient_T5_e7.log",
+    "sha256": "594c7c4a915f3125ecae4b356d28629736bc30724eb35081d09d09e1a9eb4494"
+  },
+  "sieve63_quotient_T5_e8.log": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/sieve63_quotient_T5_e8.log",
+    "sha256": "c9ea9c82cd30add9c5a75b91ed4d282754456b0aa239a50449dd1c4350d663b0"
+  },
+  "winding63_quotient_rank.log": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/winding63_quotient_rank.log",
+    "sha256": "dfae24df85fec83f423b7e7f0e38d490d18565bf96911a2e2120ce4c49fe475a"
+  },
+  "winding63_quotient_rank.m": {
+    "source": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree8/large_levels/winding63_quotient_rank.m",
+    "sha256": "b5c99c9e61cbac940dc10a6b64ea78f03abe257f715897f299208847a3829700"
+  }
+}

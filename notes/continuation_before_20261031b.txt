@@ -1,0 +1,73 @@
+31 October 2026 — Phi(10), after ten further exclusions
+
+CURRENT COUNTS: 68 exact full groups occur; 99 minimal subgroup obstructions
+are excluded; 10 remain unresolved (6 cyclic, 4 noncyclic).
+The frontier still has109 groups. The classification is INCOMPLETE.
+Cyclic orders remaining: 48, 54, 56, 60, 66, 74.
+Noncyclic groups remaining: C3 x C18, C3 x C27, C3 x C33, C4 x C28.
+These are minimal proof tasks, not asserted occurrences or an exhaustive
+upper list. New occurrences can expose new minimal obstructions.
+
+NEW EXCLUSIONS: C44, C46, C58, C62, C63, C70, C78, C90, C117, C3 x C39.
+Complete proofs, exact local data and independent arithmetic replays are
+in continuation_20261031a/. All accepted evidence is immutable and pinned
+in certified_results.json. round_status.json records the ten groups.
+
+C63: The genus49 involution quotient retains rankzero. Exact degree10
+Hecke tests and non-global cubic cusp fragments cover the noncuspidal
+boundary; all239238 full-Jacobian Cartier restriction checks pass.
+C117: All degree8/9 reductions push to known closed points on X1(39),
+and the remaining complement forces a cusp by injectivity and gonality.
+C78 and C3 x C39: The complete finite sieve classifies every noncuspidal
+rational effective decic divisor on X1(39) as a diamond translate of
+known1.39.10.a. Its exact full torsionC39 excludes both larger groups.
+C90: Full rational torsion injectivity at2 and rational gonality18 force
+a rational2-isogeny to close, up to field automorphism and marked scalar1/2.
+Composing conjugates gives an impossible scalar on45-torsion. If the curve
+had a nontrivial K-endomorphism, ordinary reduction would force CM field
+-119 or-319. Their class numbers are10, incompatible with[K:L]=5.
+C44: Gon_Q15 closes the cusp boundary even for local cusp fragments.
+All956 new canonical R2 multiplication tests have rank105, with954 A5
+and2 A7 tests. The quintic cusp complement is annihilated literally
+because5=3^8 mod44. Independent full jet and marked-kernel controls pass.
+C46: Gon_Q19 closes the boundary. The X1(23) rational class quotientC23
+rejects986of1023 new supports. All37 exceptions haveA5h0zero, with292
+native prime references and324 independently constructed genuine kernels.
+C58: The X1(29) class filter leaves2of293 eligible decic orbits; both lift
+to known full-C29 curves. Good reductions of order29 rule out2-torsion.
+C62: All253 eligible decic X1(31) classes,4095quintic pairs and45doubled
+fibres miss the rational image. Five old nonic survivors force a global
+nonic trace plus a cusp, impossible by gon_Q12 and torsion injectivity.
+C70: The773source orbits are excluded on X1(35), genus25. Rational
+cuspidal generation makes A2 kill the full rational Jacobian without
+assuming reduction2 injectivity. The first map kills770cases; the second
+2-isogeny projection kills3. All776RRtests/3489prime references and2328
+physical kernels are independently checked. Source boundary usesrankzero
+and the geometric gonality bound378/25.
+Full details are in the individual resolution.tex and frozen manifests.
+
+BOUNDARY OBSERVATION: At an odd good prime, rankzero and Manin-Drinfeld
+make an entirely cuspidal trace reduction linearly equivalent overQp to
+its local cusp lift. Since the original divisor is rational, flat base
+change gives h0(D)>=2 overQ, contradicting gon_Q>10. The local cusp lift
+need not be globally rational. Varivoda's TheoremD gives gon_Q15,19,16
+for X1(44),X1(46),X1(48), respectively. This replaces unnecessary large
+cusp searches. It does not by itself prove dyadic torsion injectivity.
+
+CAUTIONS: Do not assume rational cuspidal saturation for C3 x C18.
+The relative quintic noncyclic exploration remains unresolved; timed-out
+CM factorization and insufficient torsion bounds are diagnostics only.
+Only literal rational cuspidal divisor generation allows the A2 torsion
+annihilation used for C70 without a reduction2 injectivity premise.
+All physical markings, residue norms and coincident targets are retained.
+
+LIFECYCLE: All 1034 recorded jobs have exited. No degree10 worker,
+supervisor, automatic launcher or obsolete paused job remains. The job
+statuses and retirement records give actual exits. Failed or terminated
+probes are not certificates. Unrelated workers were preserved, and two
+host CPU cores were reserved throughout.
+
+Earlier results are described in continuation_before_20261031a.txt.
+FINAL AUDIT: 8431 evidence hashes checked;
+25 protected earlier-degree files unchanged. The 88-page paper compiles
+without errors or overfull boxes. See validation.json and lifecycle_final.json.

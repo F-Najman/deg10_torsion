@@ -1,0 +1,46 @@
+\begin{proposition}\label{prop:no-full11}
+No elliptic curve over a number field of degree $10$ has full
+$11$-torsion.
+\end{proposition}
+\begin{proof}
+The Weil pairing forces the field to be $K=\mathbb Q(\zeta_{11})$.
+The curve $X_1(11)$ is isomorphic to
+\[
+ A:v^2+v=u^3-u^2.
+\]
+For the model $x^2y-xy^2+y-1=0$, the isomorphism on affine opens is
+$u=1/y$, $v=x/y-1$.
+
+We first prove that $A(K)$ has rank zero. The curve $A$ has conductor
+$11$ and is non-CM, since its rational $j$-invariant is not integral.
+Every twist of its newform by a character of
+$\operatorname{Gal}(K/\mathbb Q)$ is non-CM and has level dividing $121$.
+Indeed a nontrivial such character is tamely ramified only at $11$;
+twisting the Steinberg representation there gives conductor exponent~$2$.
+The complete archived newform lists of levels $1,11,121$ show that
+every non-CM form has a proved nonzero central $L$-value.
+Kato's rank-zero theorem, applied to these Dirichlet twists, therefore
+gives $\operatorname{rank}A(K)=0$.
+The positive-rank CM form of level $121$ does not contribute to these twists.
+
+The prime $23$ splits completely in $K$. Good reduction at a prime
+above $23$ gives $\#A(\mathbb F_{23})=25$, so $\#A(K)$ divides $25$.
+A cusp gives a point $Q$ with $25Q=0$ and $5Q\ne0$.
+Consequently $A(K)=\langle Q\rangle$ has exactly $25$ points.
+Of these, ten are cusps. At the other fifteen points, evaluation of
+the universal curve gives the three $j$-invariants
+\[
+ -121,\qquad-32768,\qquad-24729001.
+\]
+For each point, the certified universal equation has good reduction
+at the prime above $23$ specified by $\zeta_{11}\mapsto2$.
+The reduction orders are $22$ or $33$. Reduction is injective on
+$11$-torsion, whereas $121$ divides neither order. Hence none of the
+fifteen noncuspidal points represents a curve with full $11$-torsion.
+\end{proof}
+
+The certificate \path{full11_generator.json} preserves $Q$.
+A separate Sage computation checks its order, enumerates all $25$ points,
+evaluates the universal family, and recounts every reduction.
+The rank input and the complete non-CM newform list used in the argument
+are recorded in \path{full11_rank_input.json} and the archived cache.

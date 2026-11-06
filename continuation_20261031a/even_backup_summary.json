@@ -1,0 +1,465 @@
+{
+  "status": "PARTIAL BACKUP WORK; NO ADDITIONAL GROUP EXCLUSION CLAIMED",
+  "groups": [
+    48,
+    54,
+    56,
+    60,
+    66
+  ],
+  "complete_source_census_groups": [
+    48,
+    54,
+    56,
+    66
+  ],
+  "C54_proven_rational_gonality_lower_bound": 12,
+  "C54_pure_cusp_and_bad_dyadic_boundary_resolved": true,
+  "C56_fourmap_tested_patterns": 1229,
+  "C56_fourmap_remaining_patterns": 135,
+  "C56_independent_physical_maps": 3476,
+  "C56_remaining_pattern_types": [
+    [
+      [
+        6
+      ],
+      4,
+      2
+    ],
+    [
+      [
+        7
+      ],
+      3,
+      6
+    ],
+    [
+      [
+        8
+      ],
+      2,
+      11
+    ],
+    [
+      [
+        9
+      ],
+      1,
+      8
+    ],
+    [
+      [
+        10
+      ],
+      0,
+      48
+    ],
+    [
+      [
+        5,
+        5
+      ],
+      0,
+      60
+    ]
+  ],
+  "complete_C70_exclusion_separate_frozen_packet": true,
+  "lifecycle": {
+    "active_owned_workers": [],
+    "paused_workers": 0,
+    "automatic_launchers": 0,
+    "all_recorded_jobs_exited": true
+  },
+  "jobs": [
+    {
+      "purpose": "d31a_C54_cusp_completion",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C54_cusp_completion.m",
+      "log": "work/deg10/jobs/d31a_C54_cusp_completion.log",
+      "status": "work/deg10/jobs/d31a_C54_cusp_completion.status.json"
+    },
+    {
+      "purpose": "d31a_C54_low_actual",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_C54_low_actual.m",
+      "log": "work/deg10/jobs/d31a_C54_low_actual.log",
+      "status": "work/deg10/jobs/d31a_C54_low_actual.status.json"
+    },
+    {
+      "purpose": "d31a_C54_target27_setup",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C54_target27_setup.m",
+      "log": "work/deg10/jobs/d31a_C54_target27_setup.log",
+      "status": "work/deg10/jobs/d31a_C54_target27_setup.status.json"
+    },
+    {
+      "purpose": "d31a_C54_target27_setup_v2",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C54_target27_setup_v2.m",
+      "log": "work/deg10/jobs/d31a_C54_target27_setup_v2.log",
+      "status": "work/deg10/jobs/d31a_C54_target27_setup_v2.status.json"
+    },
+    {
+      "purpose": "d31a_C54_target27_setup_v3",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_C54_target27_setup_v3.m",
+      "log": "work/deg10/jobs/d31a_C54_target27_setup_v3.log",
+      "status": "work/deg10/jobs/d31a_C54_target27_setup_v3.status.json"
+    },
+    {
+      "purpose": "d31a_C56_A5_pure",
+      "state": "EXITED",
+      "actual_exit_code": -14,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C56_A5_pure.m",
+      "log": "work/deg10/jobs/d31a_C56_A5_pure.log",
+      "status": "work/deg10/jobs/d31a_C56_A5_pure.status.json"
+    },
+    {
+      "purpose": "d31a_C56_fourmap_filter",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C56_fourmap_filter.m",
+      "log": "work/deg10/jobs/d31a_C56_fourmap_filter.log",
+      "status": "work/deg10/jobs/d31a_C56_fourmap_filter.status.json"
+    },
+    {
+      "purpose": "d31a_C56_fourmap_filter_v2",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C56_fourmap_filter_v2.m",
+      "log": "work/deg10/jobs/d31a_C56_fourmap_filter_v2.log",
+      "status": "work/deg10/jobs/d31a_C56_fourmap_filter_v2.status.json"
+    },
+    {
+      "purpose": "d31a_C56_fourmap_filter_v3",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C56_fourmap_filter_v3.m",
+      "log": "work/deg10/jobs/d31a_C56_fourmap_filter_v3.log",
+      "status": "work/deg10/jobs/d31a_C56_fourmap_filter_v3.status.json"
+    },
+    {
+      "purpose": "d31a_C56_fourmap_filter_v4",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_C56_fourmap_filter_v4.m",
+      "log": "work/deg10/jobs/d31a_C56_fourmap_filter_v4.log",
+      "status": "work/deg10/jobs/d31a_C56_fourmap_filter_v4.status.json"
+    },
+    {
+      "purpose": "d31a_C56_independent_fourmap",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C56_independent_fourmap.py",
+      "log": "work/deg10/jobs/d31a_C56_independent_fourmap.log",
+      "status": "work/deg10/jobs/d31a_C56_independent_fourmap.status.json"
+    },
+    {
+      "purpose": "d31a_C56_independent_fourmap_v2",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C56_independent_fourmap_v2.py",
+      "log": "work/deg10/jobs/d31a_C56_independent_fourmap_v2.log",
+      "status": "work/deg10/jobs/d31a_C56_independent_fourmap_v2.status.json"
+    },
+    {
+      "purpose": "d31a_C56_independent_fourmap_v3",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_C56_independent_fourmap_v3.py",
+      "log": "work/deg10/jobs/d31a_C56_independent_fourmap_v3.log",
+      "status": "work/deg10/jobs/d31a_C56_independent_fourmap_v3.status.json"
+    },
+    {
+      "purpose": "d31a_C56_target28_setup",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_C56_target28_setup.m",
+      "log": "work/deg10/jobs/d31a_C56_target28_setup.log",
+      "status": "work/deg10/jobs/d31a_C56_target28_setup.status.json"
+    },
+    {
+      "purpose": "d31a_C66_low_actual",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_C66_low_actual.m",
+      "log": "work/deg10/jobs/d31a_C66_low_actual.log",
+      "status": "work/deg10/jobs/d31a_C66_low_actual.status.json"
+    },
+    {
+      "purpose": "d31a_C66_target33_setup",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C66_target33_setup.m",
+      "log": "work/deg10/jobs/d31a_C66_target33_setup.log",
+      "status": "work/deg10/jobs/d31a_C66_target33_setup.status.json"
+    },
+    {
+      "purpose": "d31a_C66_target33_setup_v2",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C66_target33_setup_v2.m",
+      "log": "work/deg10/jobs/d31a_C66_target33_setup_v2.log",
+      "status": "work/deg10/jobs/d31a_C66_target33_setup_v2.status.json"
+    },
+    {
+      "purpose": "d31a_C66_target33_setup_v3",
+      "state": "EXITED",
+      "actual_exit_code": -14,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_C66_target33_setup_v3.m",
+      "log": "work/deg10/jobs/d31a_C66_target33_setup_v3.log",
+      "status": "work/deg10/jobs/d31a_C66_target33_setup_v3.status.json"
+    },
+    {
+      "purpose": "d31a_even_p3_counts",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p3_counts.m",
+      "log": "work/deg10/jobs/d31a_even_p3_counts.log",
+      "status": "work/deg10/jobs/d31a_even_p3_counts.status.json"
+    },
+    {
+      "purpose": "d31a_even_p3_d10",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p3_d10.m",
+      "log": "work/deg10/jobs/d31a_even_p3_d10.log",
+      "status": "work/deg10/jobs/d31a_even_p3_d10.status.json"
+    },
+    {
+      "purpose": "d31a_even_p3_d8",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p3_d8.m",
+      "log": "work/deg10/jobs/d31a_even_p3_d8.log",
+      "status": "work/deg10/jobs/d31a_even_p3_d8.status.json"
+    },
+    {
+      "purpose": "d31a_even_p3_d9",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p3_d9.m",
+      "log": "work/deg10/jobs/d31a_even_p3_d9.log",
+      "status": "work/deg10/jobs/d31a_even_p3_d9.status.json"
+    },
+    {
+      "purpose": "d31a_even_p3_low",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p3_low.m",
+      "log": "work/deg10/jobs/d31a_even_p3_low.log",
+      "status": "work/deg10/jobs/d31a_even_p3_low.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s0",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_even_p5_all_s0.m",
+      "log": "work/deg10/jobs/d31a_even_p5_all_s0.log",
+      "status": "work/deg10/jobs/d31a_even_p5_all_s0.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s1",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_even_p5_all_s1.m",
+      "log": "work/deg10/jobs/d31a_even_p5_all_s1.log",
+      "status": "work/deg10/jobs/d31a_even_p5_all_s1.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s2",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_even_p5_all_s2.m",
+      "log": "work/deg10/jobs/d31a_even_p5_all_s2.log",
+      "status": "work/deg10/jobs/d31a_even_p5_all_s2.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s3",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_even_p5_all_s3.m",
+      "log": "work/deg10/jobs/d31a_even_p5_all_s3.log",
+      "status": "work/deg10/jobs/d31a_even_p5_all_s3.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s4",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_even_p5_all_s4.m",
+      "log": "work/deg10/jobs/d31a_even_p5_all_s4.log",
+      "status": "work/deg10/jobs/d31a_even_p5_all_s4.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_all_s5",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_even_p5_all_s5.m",
+      "log": "work/deg10/jobs/d31a_even_p5_all_s5.log",
+      "status": "work/deg10/jobs/d31a_even_p5_all_s5.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_counts",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p5_counts.m",
+      "log": "work/deg10/jobs/d31a_even_p5_counts.log",
+      "status": "work/deg10/jobs/d31a_even_p5_counts.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_profile",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_even_p5_profile.m",
+      "log": "work/deg10/jobs/d31a_even_p5_profile.log",
+      "status": "work/deg10/jobs/d31a_even_p5_profile.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_torsion_high_s0",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p5_torsion_high_s0.m",
+      "log": "work/deg10/jobs/d31a_even_p5_torsion_high_s0.log",
+      "status": "work/deg10/jobs/d31a_even_p5_torsion_high_s0.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_torsion_high_s1",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p5_torsion_high_s1.m",
+      "log": "work/deg10/jobs/d31a_even_p5_torsion_high_s1.log",
+      "status": "work/deg10/jobs/d31a_even_p5_torsion_high_s1.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_torsion_high_s2",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p5_torsion_high_s2.m",
+      "log": "work/deg10/jobs/d31a_even_p5_torsion_high_s2.log",
+      "status": "work/deg10/jobs/d31a_even_p5_torsion_high_s2.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_torsion_high_s3",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p5_torsion_high_s3.m",
+      "log": "work/deg10/jobs/d31a_even_p5_torsion_high_s3.log",
+      "status": "work/deg10/jobs/d31a_even_p5_torsion_high_s3.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_torsion_high_s4",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p5_torsion_high_s4.m",
+      "log": "work/deg10/jobs/d31a_even_p5_torsion_high_s4.log",
+      "status": "work/deg10/jobs/d31a_even_p5_torsion_high_s4.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_torsion_high_s5",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p5_torsion_high_s5.m",
+      "log": "work/deg10/jobs/d31a_even_p5_torsion_high_s5.log",
+      "status": "work/deg10/jobs/d31a_even_p5_torsion_high_s5.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_torsion_low",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": true,
+      "partial_or_diagnostic": false,
+      "script": "work/deg10/computations/d31a_even_p5_torsion_low.m",
+      "log": "work/deg10/jobs/d31a_even_p5_torsion_low.log",
+      "status": "work/deg10/jobs/d31a_even_p5_torsion_low.status.json"
+    },
+    {
+      "purpose": "d31a_even_p5_torsion_profile",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "complete_certificate": false,
+      "partial_or_diagnostic": true,
+      "script": "work/deg10/computations/d31a_even_p5_torsion_profile.m",
+      "log": "work/deg10/jobs/d31a_even_p5_torsion_profile.log",
+      "status": "work/deg10/jobs/d31a_even_p5_torsion_profile.status.json"
+    }
+  ]
+}

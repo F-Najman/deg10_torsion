@@ -1,0 +1,18 @@
+{
+  "purpose": "direct69_verify_input",
+  "script": "next_cases_20261030/C69/direct_full/direct69_verify_input.py",
+  "script_sha256": "7d9264ff2878751a6d72243e76b18ac8f61772ff8d60cec17ce05fa49cfca065",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/C69/direct_full/direct69_verify_input.py"
+  ],
+  "pid": 2412012,
+  "owner_uid": 1001,
+  "start_time_unix": 1793383489.4421706,
+  "state": "EXITED",
+  "time_limit_seconds": 60,
+  "log": "jobs/direct69_verify_input.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.03166341781616211
+}

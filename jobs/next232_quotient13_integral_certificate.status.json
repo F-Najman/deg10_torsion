@@ -1,0 +1,18 @@
+{
+  "purpose": "next232_quotient13_integral_certificate",
+  "script": "computations/next232_quotient13_integral_certificate.py",
+  "script_sha256": "6a3ac5e7ed7926ddc63eadff5d128efe9728905dbf908e127d6a4d1a2717d3a2",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_quotient13_integral_certificate.py"
+  ],
+  "pid": 1828760,
+  "owner_uid": 1001,
+  "start_time_unix": 1793358021.1990566,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next232_quotient13_integral_certificate.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.666618824005127
+}

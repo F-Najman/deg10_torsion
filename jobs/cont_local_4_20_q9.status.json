@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_local_4_20_q9",
+  "script": "computations/cont_local_4_20_q9.m",
+  "script_sha256": "55c0b449f15d71e3d7bff821fe55b4868dbc0f18b89752d689421583d31bdcf3",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_local_4_20_q9.m"
+  ],
+  "pid": 242330,
+  "owner_uid": 1001,
+  "start_time_unix": 1793284564.5128913,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/cont_local_4_20_q9.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 214.08918809890747
+}

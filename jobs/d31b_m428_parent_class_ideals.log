@@ -1,0 +1,7 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m428_parent_class_ideals.m", line 25, column 76:
+>> d v[2]eq 0 and m*q(Z!v[3])eq target;E:=SparseDiv(v[4]);R:=SparseDiv(v[5]);A
+                       ^
+Runtime error in '!': Illegal coercion
+LHS: GrpAb
+RHS: List

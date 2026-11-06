@@ -1,0 +1,18 @@
+{
+  "purpose": "d31a_C56_independent_fourmap_v3",
+  "script": "computations/d31a_C56_independent_fourmap_v3.py",
+  "script_sha256": "c8f57ccca6e3ebcd11889df7acfe24a50852bbc6d7dd6794131bf6bb6dc913d9",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C56_independent_fourmap_v3.py"
+  ],
+  "pid": 2861262,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404679.1580572,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/d31a_C56_independent_fourmap_v3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 14.035249948501587
+}

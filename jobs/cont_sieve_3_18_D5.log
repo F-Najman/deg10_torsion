@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_sieve_3_18_D5.m", line 10, column 44:
+>>  xs:=NoncuspidalPlaces(X,dd);rs,labels,keys:=PlacesUpToFullAutM3EighteenRoo
+                                              ^
+Runtime error in :=: Expected to assign 3 value(s) but only computed 2 value(s)

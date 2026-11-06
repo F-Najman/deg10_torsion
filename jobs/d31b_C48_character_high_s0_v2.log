@@ -1,0 +1,12 @@
+Loading "work/deg10/continuation_20261031b/C48/d31b_C48_character_high_common_v\
+2.m"
+Loading "work/deg10/continuation_20261031b/C48/inputs/portable_inputs.m"
+Loading "work/deg10/continuation_20261031b/C48/inputs/four_characters.m"
+Loading "work/deg10/continuation_20261031b/C48/inputs/two_isogeny_48_to_2_24.m"
+
+In file "work/deg10/continuation_20261031b/C48/d31b_C48_character_high_common_v2.m", line 2, column 256:
+>> ,[[x:x in row]:row in FilterCharacterRows]);KM:=Matrix(GF(2),[[x:x in row]:
+                                      ^
+Runtime error: Bad argument types
+Argument types given: ModMatFldElt[FldFin], ModTupFldElt[FldFin]
+

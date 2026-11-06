@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "independently_replayed_groups": [
+    [
+      2,
+      38
+    ],
+    [
+      2,
+      40
+    ]
+  ],
+  "cyclic_isogeny_consequences": [
+    [
+      1,
+      76
+    ],
+    [
+      1,
+      80
+    ]
+  ],
+  "C240_initial_supports": 781,
+  "C240_first_survivors": 288,
+  "C240_second_survivors": 118,
+  "C240_final_survivors": 0,
+  "C240_picard_images": 146,
+  "C240_exact_RR_witness_class_sums": 37,
+  "C238_initial_supports": 233,
+  "C238_low_genus_survivors": 35,
+  "C238_final_Hecke_survivors": 0,
+  "elapsed_seconds": 39.23270250670612
+}

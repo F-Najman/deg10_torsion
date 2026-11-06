@@ -1,0 +1,18 @@
+SetColumns(0);SetNthreads(1);SetQuitOnError(true);SetMemoryLimit(8*10^9);Alarm(600);tt:=Cputime();root:="work/deg10/continuation_20261031b/M3N18/";a:=eval Read(root cat"global_function_field_char0.m");k<z>:=CyclotomicField(3);PK:=PolynomialRing(k);B<u>:=FunctionField(k);R<Y>:=PolynomialRing(B);
+function DR(x)return (B!(PK![k!c:c in x[1]]))/(B!(PK![k!c:c in x[2]]));end function;
+F<v>:=FunctionField(R![DR(x):x in a[1]]);function DF(x)return F![DR(y):y in x];end function;
+pts:=[];for t in[k!0,k!-1,z,z^2]do pts cat:=Decomposition(F,Zeros(B!(u-t))[1]);print "M318_PARENT_DECOMP",t,Cputime(tt);end for;pts cat:=Decomposition(F,Poles(B!u)[1]);pts:=[P:P in Setseq(Seqset(pts))|Degree(P)eq 1];assert #pts eq 18;print "M318_PARENT_GLOBAL_CUSPS",#pts,Cputime(tt);
+a19:=eval Read(root cat"global_cusp_model_p19.m");kp:=GF(19);PP:=PolynomialRing(kp);Bp<s>:=FunctionField(kp);Rp<W>:=PolynomialRing(Bp);
+function DP(x)return (Bp!(PP!x[1]))/(Bp!(PP!x[2]));end function;
+Fp<w>:=FunctionField(Rp![DP(x):x in a19[2]]);function DFP(x)return Fp![DP(y):y in x];end function;
+roots:=[t:t in kp|t^2+t+1 eq 0];embedding:=[];
+for t in roots do red:=hom<k->kp|t>;ok:=true;for i in[1..#a[1]]do xx:=a[1][i];num:=PP![red(k!c):c in xx[1]];den:=PP![red(k!c):c in xx[2]];if (Bp!num)/(Bp!den)ne DP(a19[2][i])then ok:=false;break;end if;end for;if ok then Append(~embedding,t);end if;end for;
+assert #embedding eq 1;red:=hom<k->kp|embedding[1]>;
+function ReduceRF(x)return (Bp!(PP![red(c):c in Coefficients(Numerator(x))]))/(Bp!(PP![red(c):c in Coefficients(Denominator(x))]));end function;
+function ReduceFF(x)return Fp![ReduceRF(c):c in Eltseq(x)];end function;
+OP:=MaximalOrderFinite(Fp);OIP:=MaximalOrderInfinite(Fp);bs:=[* *];
+for pp in a19[3]do qs:=[];for pd in pp do OO:=pd[2]eq 1 select OP else OIP;I:=ideal<OO|[DFP(x):x in pd[3]]>;assert IsPrime(I);Append(~qs,Place(I));end for;Append(~bs,qs);end for;
+rep:=eval Read(root cat"endomorphism_gluing/short_cusp_divisors.m");globalPs:=[*0:i in[1..24]*];binding:=[* *];
+for P in pts do aa,bb:=TwoGenerators(P);O:=IsFinite(P)select OP else OIP;I:=ideal<O|ReduceFF(aa),ReduceFF(bb)>;assert IsPrime(I);q:=Place(I);matches:=[i:i in[1..24]|q in bs[i]];assert #matches eq 1;idx:=matches[1];assert rep[2][idx]eq 1 and Type(globalPs[idx])eq RngIntElt;globalPs[idx]:=P;Append(~binding,[idx,IsFinite(P)select 1 else 0]);end for;
+print "M318_PARENT_GLOBAL_CUSP_BINDING_COMPLETE",#binding,Cputime(tt);
+jf:=DF(a[3]);out:=[* *];for i in[1..24]do if rep[2][i]eq 1 then vj:=Valuation(jf,globalPs[i]);assert vj lt 0;Append(~out,[i,vj]);print "M318_GLOBAL_CUSP_WIDTH",i,vj,Cputime(tt);end if;end for;assert #out eq 18;Write(root cat "global_rational_cusp_widths.m",Sprint(out):Overwrite:=true);print "D31B_M318_GLOBAL_CUSP_WIDTHS_COMPLETE",#out,Cputime(tt);quit;

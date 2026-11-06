@@ -1,0 +1,6 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_pencil_classes.m", line 4, column 47:
+>>  g:=TateNormalForm_xy(E,a*P)[2];D:=PoleDivisor(g);assert Degree(D) eq 10;vs
+                                                 ^
+Runtime error in 'PoleDivisor': Parent of a must be definied by a monic polynomial.
+

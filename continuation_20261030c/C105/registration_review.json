@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "group": [
+    1,
+    105
+  ],
+  "degree": 10,
+  "parent_mathematical_review": "PASS",
+  "frozen_manifest_sha256": "b6460f9a2d75b7fc5b2daecde08180496a852c1bc064d3ebb61033290e779a2a",
+  "method": "Finite-image free order4 diamond and gonality exclude pure cusps; six exact A3 nonprincipality tests on rank-zero genus25 X1(35), independently replayed and bound to genuine marked Velu isogenies",
+  "independent_arithmetic_checks": "PASS",
+  "classification_complete": false
+}

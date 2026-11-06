@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m333_kummer_frame",
+  "script": "computations/d31b_m333_kummer_frame.m",
+  "script_sha256": "e3da177b00e755864d3cc4771579f61162f2df6078a9e72cba34ad0e6c27841c",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_kummer_frame.m"
+  ],
+  "pid": 3532745,
+  "owner_uid": 1001,
+  "start_time_unix": 1793436410.858954,
+  "state": "EXITED",
+  "time_limit_seconds": 950,
+  "log": "jobs/d31b_m333_kummer_frame.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 66.00894331932068
+}

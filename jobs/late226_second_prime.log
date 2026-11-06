@@ -1,0 +1,12 @@
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_second_prime.m", line 3, column 4:
+>> a:=eval Read("work/deg10/continuation_20261029b/C226/small_cusp_divisors.m"
+      ^
+
+In eval expression, line 1, column 77:
+>>  11, 10, -14], [[30, [2, 5, 1, 5, 19], [16, 2, 1, -1, -2, 0, -1, -2, -1, 0,
+                        ^
+    Located in file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_second_prime.m", at line 3, column 4:
+    >> a:=eval Read("work/deg10/continuation_20261029b/C226/small_cusp_divisors.m"
+          ^
+User error: Could not find a valid universe for the sequence
+

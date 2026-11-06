@@ -1,0 +1,12 @@
+C57_ALL_CUSP_FI_PREFIX_PASS 1 598417 seconds 2.8353790170513093
+C57_ALL_CUSP_FI_PREFIX_PASS 2 1165590 seconds 9.636643009725958
+C57_ALL_CUSP_FI_PREFIX_PASS 3 455634 seconds 12.782626844011247
+C57_ALL_CUSP_FI_PREFIX_PASS 4 124979 seconds 13.745724950917065
+C57_ALL_CUSP_FI_PREFIX_PASS 5 29835 seconds 14.001497943885624
+C57_ALL_CUSP_FI_PREFIX_PASS 6 6267 seconds 14.062438348773867
+C57_ALL_CUSP_FI_PREFIX_PASS 7 1122 seconds 14.075185620691627
+C57_ALL_CUSP_FI_PREFIX_PASS 8 162 seconds 14.077505055814981
+C57_ALL_CUSP_FI_PREFIX_PASS 9 17 seconds 14.077962677925825
+C57_ALL_CUSP_FI_PREFIX_PASS 10 1 seconds 14.078154353890568
+C57_DECIC_ALL_QUADRATIC_FI_PASS 1287
+C57_DECIC_ALL_GLOBAL_CUSP_DIVISORS_FI_PASS {"all_quadratic_configurations": 1287, "complete": true, "level": 57, "prime": 2, "genus": 85, "annihilating_differential_dimension": 82, "rational_cusps": 18, "quadratic_cusps": 9, "quadratic_tate_arc_verified": true, "all_normalized_configurations": 2383311, "by_maximum_rational_multiplicity": [{"max_rational_multiplicity": 1, "configurations": 598417}, {"max_rational_multiplicity": 2, "configurations": 1165590}, {"max_rational_multiplicity": 3, "configurations": 455634}, {"max_rational_multiplicity": 4, "configurations": 124979}, {"max_rational_multiplicity": 5, "configurations": 29835}, {"max_rational_multiplicity": 6, "configurations": 6267}, {"max_rational_multiplicity": 7, "configurations": 1122}, {"max_rational_multiplicity": 8, "configurations": 162}, {"max_rational_multiplicity": 9, "configurations": 17}, {"max_rational_multiplicity": 10, "configurations": 1}], "all_FI_ranks_equal10": true} seconds 14.079740297049284

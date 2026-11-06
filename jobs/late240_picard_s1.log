@@ -1,0 +1,25 @@
+Loading "work/deg10/continuation_20261029b/C240/filter_cyclic40_shard1.m"
+Loading "work/deg10/continuation_20261029b/deps/pair_af_place_linear.m"
+Loading "work/deg10/continuation_20261029b/C240/portable/portable_inputs.m"
+Loading "work/deg10/continuation_20261029b/C240/portable/portable_forward.m"
+C240_PORTABLE_PROVEN_GEOMETRY_READY 38.590
+C240_PORTABLE_PROVEN_CLASS_MAP_READY [ 2, 2, 2, 2, 2, 16, 68880, 895440, 0 ]
+[ 2, 2, 2, 8, 120, 895440 ]
+[ 1, 1, 5, 5, 15, 15, 35 ]
+39.130
+C240_PORTABLE_SEVEN_CASE 2 [* 1, 8, 2 *] false 129.450
+C240_PORTABLE_SEVEN_CASE 10 [* 1, 9, 29 *] false 202.530
+C240_PORTABLE_SEVEN_CASE 18 [* 1, 10, 90 *] false 226.940
+C240_PORTABLE_SEVEN_CASE 26 [* 1, 10, 142 *] false 245.160
+C240_PORTABLE_SEVEN_CASE 34 [* 1, 10, 187 *] false 360.250
+C240_PORTABLE_SEVEN_CASE 42 [* 2, 4, 1, 4, 5 *] false 361.380
+C240_PORTABLE_SEVEN_CASE 50 [* 2, 4, 1, 4, 20 *] false 361.920
+C240_PORTABLE_SEVEN_CASE 58 [* 2, 5, 1, 5, 13 *] false 363.110
+C240_PORTABLE_SEVEN_CASE 66 [* 2, 5, 1, 5, 32 *] false 363.750
+C240_PORTABLE_SEVEN_CASE 74 [* 2, 5, 1, 5, 65 *] false 364.360
+C240_PORTABLE_SEVEN_CASE 82 [* 2, 5, 1, 5, 80 *] false 364.930
+C240_PORTABLE_SEVEN_CASE 90 [* 2, 5, 2, 5, 9 *] false 366.150
+C240_PORTABLE_SEVEN_CASE 98 [* 2, 5, 2, 5, 78 *] false 366.770
+C240_PORTABLE_SEVEN_CASE 106 [* 2, 5, 3, 5, 18 *] false 368.060
+C240_PORTABLE_SEVEN_CASE 114 [* 2, 5, 3, 5, 63 *] false 368.670
+C240_D10_PORTABLE_CYCLIC40_SHARD1_DONE 15 0 complete=true 368.750

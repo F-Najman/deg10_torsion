@@ -1,0 +1,92 @@
+[
+  {
+    "source": "work/deg10/continuation_20261031a/C48/inputs/pair_af_place_linear.m",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C48/inputs/Varivoda_2610.00219v1.pdf",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/Varivoda_2610.00219v1.pdf",
+    "sha256": "246a8196fe7d15acee9322297c2d5d4f618ad6bcfed6e6b2e0a30c5f3f9ba481"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C48/inputs/accepted_quintic_paper.tex",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/accepted_quintic_paper.tex",
+    "sha256": "14f89d7b64bd2daa99f42323c0898a4b04fcfd9f429576da3d82b2fa6bb60fe6"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C48/inputs/DEHMZ.tex",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/DEHMZ.tex",
+    "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C48/inputs/fast_hecke.m",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C48/source48_p5.json",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/source48_p5.json",
+    "sha256": "1d1f5f5fbfb502fab462acf0bc3a03ce53ed6365e52cd58d80a65e309de7d098"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C48/source_census_verified.json",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/source_census_verified.json",
+    "sha256": "afb382997a0dcc607fe15d858fcee913ce089850647fedc1174ea585405ba53b"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C48/cusp_actions_p5.json",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/cusp_actions_p5.json",
+    "sha256": "937127066d7467ce53563ede63a237ad873620739fe1446e28497ebe8630938d"
+  },
+  {
+    "source": "work/deg10/continuation_20261031a/C48/boundary.tex",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/boundary.tex",
+    "sha256": "dc212d3676968c03b3175751145ea596472760810da10119c5f9d509f32651be"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C48/portable_inputs.m",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/portable_inputs.m",
+    "sha256": "17320456e6def129f2800c6e96f45477fd6f6f7b632a91e55baa14f79ab03413"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C48/character_filter9/functions.m",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/four_characters.m",
+    "sha256": "3274d7ebde6be8cadd2ef69214dd61c2e80ff512541f071a376b7a2c66238434"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C48/retained/two_isogeny_48_to_2_24.m",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/two_isogeny_48_to_2_24.m",
+    "sha256": "d3525c255395999128d6fcbc10621aa3dc742baf230648c9cf9c8355a5febac2"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C48/finite_characters_v2/run.log",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/old_character_validation.log",
+    "sha256": "3e69064c02d55c8e84b63041b1f946f749cb7f23912b68656cb6bdb5a05adab0"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C48/finite_characters_v2/function_data.py",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/old_character_data.py",
+    "sha256": "314deac6ae38659ec13c194e9c2c0bfdde44605f12747559f7e4b2b51296956f"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C48/finite_characters_v2/action_data.py",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/old_target_actions.py",
+    "sha256": "4fe97b8dc50d960549763bee1c7db2697816ad468771b990b06d5a81e3907e37"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C48/refs/integral_unit_blocks.tex",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/integral_unit_blocks.tex",
+    "sha256": "04bdb0f3953dce76e95c68faa2dd193e34c04e3c5fde632b89f06dffcd9bf749"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C48/refs/source_locators.json",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/old_source_locators.json",
+    "sha256": "6beace965787a880f709860cff7953b092f429f37f96700098bb56aa3d325f2b"
+  },
+  {
+    "source": "work/degree9/realizations/continuation/C48/class_filter9_method.tex",
+    "copy": "work/deg10/continuation_20261031b/C48/inputs/old_class_filter_method.tex",
+    "sha256": "11c7ccfd72d3d16491c1556b7d8d261bab74c5077632445e24ad89d5f93321bc"
+  }
+]

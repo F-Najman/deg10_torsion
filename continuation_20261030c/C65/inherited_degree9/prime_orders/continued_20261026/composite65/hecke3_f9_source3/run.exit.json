@@ -1,0 +1,28 @@
+{
+  "started_utc": "2026-10-26T23:45:35.588371+00:00",
+  "worker_pid": 2861048,
+  "worker_start_ticks": 186535297,
+  "owner_pid": 2861045,
+  "owner_startticks": 186535294,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/composite65/hecke3_f9_source3/run.m"
+  ],
+  "actual_cmdline": [
+    "/bin/sh",
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/composite65/hecke3_f9_source3/run.m"
+  ],
+  "wall_seconds": 1.0030067600309849,
+  "cpu_seconds": 0.0,
+  "state": "S",
+  "wall_cap_seconds": 7200,
+  "cpu_budget_seconds": 1800,
+  "hard_cpu_backstop_seconds": 7200,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T23:45:36.591400+00:00",
+  "termination_reason": null
+}

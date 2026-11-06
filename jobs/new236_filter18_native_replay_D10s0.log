@@ -1,0 +1,13 @@
+Loading "work/deg10/computations/new236_filter18_native_replay_common.m"
+In file "work/deg10/computations/new236_filter18_native_replay_common.m", line 13, column 67:
+>> data:=eval Read(root cat Sprintf("filter18_images_%o.m",TAG));ww:=eval Read
+                                                                     ^
+
+In eval expression, line 1, column 9:
+>> [[1, 0, [2, 31, 102, 0], [[41, 1], [49, 1], [56, 1]], [[14, 1], [31, 1], [5
+           ^
+    Located in file "work/deg10/computations/new236_filter18_native_replay_common.m", at line 13, column 67:
+    >> data:=eval Read(root cat Sprintf("filter18_images_%o.m",TAG));ww:=eval Read
+                                                                         ^
+User error: Could not find a valid universe for the sequence
+

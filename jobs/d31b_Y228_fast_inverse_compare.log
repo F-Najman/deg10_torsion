@@ -1,0 +1,15 @@
+Loading "work/deg10/continuation_20261031b/Y228_shared/fast_primitive_inverse.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/union_cases.m"
+Y228_FAST_MODEL_READY 15 false false 8.300
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_fast_inverse_compare.m", line 4, column 112:
+>> Y228_shared/fast_inverse_old_model_snapshot.m");oldrec:=eval Read("work/deg
+                                                           ^
+
+In eval expression, line 1, column 16:
+>> [8, 2, [[8, 1, [0, 0, 0, 0, 1, 0, 2, 2, 1, 2, 2, 0, 1, 0, 1, 2], [8, 1, [[[
+                  ^
+    Located in file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_fast_inverse_compare.m", at line 4, column 112:
+    >> Y228_shared/fast_inverse_old_model_snapshot.m");oldrec:=eval Read("work/deg
+                                                               ^
+User error: Could not find a valid universe for the sequence
+

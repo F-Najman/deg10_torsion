@@ -1,0 +1,17 @@
+M6N12_CHAR0_MODEL 9 5.170
+M6N12_CHAR0_WEIL 12.810
+M6N12_CHAR0_THREE_UNITS 12.890
+M6N12_CHAR0_CUSP_BLOCKS 24 [ 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1 ]
+18.000
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_char0_612_effective_probe.m", line 45, column 13:
+>>  effective:=eval Read("work/deg10/continuation_20261029/M6N12_effective_qui
+               ^
+
+In eval expression, line 1, column 9:
+>> [[2791, [0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 
+           ^
+    Located in file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_char0_612_effective_probe.m", at line 45, column 13:
+    >>  effective:=eval Read("work/deg10/continuation_20261029/M6N12_effective_qui
+                   ^
+User error: Could not find a valid universe for the sequence
+

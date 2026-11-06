@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_gonal_fibre_filter.m", line 2, column 256:
+>>  in[1..16]|GCD(a,33) eq 1];assert #units eq 10;gs:=[TateNormalForm_xy(E,a*P
+                                      ^
+Runtime error in assert: Assertion failed

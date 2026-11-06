@@ -1,0 +1,11 @@
+Loading "work/deg10/continuation_20261031a/C56/inputs/portable_forward.m"
+Loading "work/deg10/continuation_20261031a/C56/inputs/pair_af_place_linear.m"
+D31A_C56_FOURMAP_GROUP_READY [ 4, 4, 24, 936, 0 ]
+[ 2, 4, 12, 936 ]
+[ 1, 1, 1, 3, 3, 3 ]
+0.520
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C56_fourmap_filter_v2.m", line 14, column 116:
+>> *]);end for;records:=[* *];cache:=AssociativeArray();forward:=[* *];
+                                                               ^
+User error: bad syntax

@@ -1,0 +1,129 @@
+\subsection{Excluding \texorpdfstring{$C_4\times C_{20}$}{C4 x C20}}
+\begin{lemma}\label{lem:decic420-gonality}
+The gonality of $X_1(4,20)$ over $\mathbb F_9$ is at least $7$.
+\end{lemma}
+\begin{proof}
+The numbers of closed places in degrees one, two and three are
+$24$, $108$ and $320$. These counts agree with the Frobenius
+polynomial of $J_H(80)$, $H=\langle21\rangle$, after quadratic
+constant-field extension.
+A map to $\mathbb P^1$ of degree at most $6$ would have a rational
+fiber containing three distinct rational points: there are $24$
+rational points on the curve and only ten rational fibers.
+After adding rational points if necessary, we obtain an effective
+divisor $A+T$ of degree $6$, where $\deg A=3$ and $T$ consists
+of three distinct rational points, with $\ell(A+T)\ge2$.
+
+There are
+\[
+ \binom{26}{3}+108\cdot24+320=5512
+\]
+effective degree-three divisors $A$, and $\binom{24}{3}=2024$
+choices of $T$. We compute the canonical vanishing conditions
+for every $A$. Each space $H^0(K-A)$ has dimension $22$.
+The three additional jet conditions at the points of $T$ have
+rank three, including when $A$ and $T$ intersect. Hence
+$\ell(A+T)=1$ in all
+\[
+ 5512\cdot2024=11156288
+\]
+cases, a contradiction.
+The exported local differential matrices include every required
+multiplicity. Independent arithmetic over $\mathbb F_9$
+reconstructs all $5512$ kernels and their projected row spaces,
+and repeats every three-column rank test.
+\end{proof}
+
+\begin{lemma}\label{lem:decic-cusp-correction}
+Let $X/F$ have rank-zero Jacobian and $F$-gonality greater than
+$d+1$, where $d$ is odd. Let $v$ be an unramified odd prime
+of good reduction. Suppose that an effective noncuspidal
+$F$-rational divisor $D$ of degree $d$ has reduction $B+\bar c$,
+where $c$ is an $F$-rational cusp. If an $F$-defined involution
+$g$ preserves the cusp boundary, fixes $B$, and acts freely on
+the noncuspidal locus, then no such $D$ exists.
+\end{lemma}
+\begin{proof}
+The torsion class $[D-gD-c+gc]$ reduces to zero. Odd unramified
+torsion injectivity gives $D+gc\sim gD+c$.
+Both effective divisors have degree $d+1$, so the gonality
+hypothesis gives equality. Separating cuspidal and noncuspidal
+support yields $D=gD$. Freeness of the involution forces
+$\deg D$ to be even, a contradiction.
+\end{proof}
+
+\begin{proposition}\label{prop:decic420}
+No elliptic curve over a decic number field contains $C_4\times C_{20}$.
+\end{proposition}
+\begin{proof}
+Put $F=\Q(i)$, $X=X_1(4,20)$ and $J=\operatorname{Jac}(X)$.
+A proposed subgroup gives an effective noncuspidal $F$-rational
+divisor $D$ of degree $5$. The curve has genus $25$, and
+$J(F)$ has rank zero by \cite[Theorem~4.1]{DS}.
+Lemma~\ref{lem:decic420-gonality} and good reduction give
+$\operatorname{gon}_F X\ge7$.
+
+Reduce at $3$, whose residue field is $\mathbb F_9$.
+The cusp signature is $1^{24},2^{12}$, and the noncuspidal
+counts in degrees one through five are
+\[
+ (0,96,320,888,11904).
+\]
+Lemma~\ref{lem:decic-cuspidal-reduction} excludes entirely
+cuspidal reduction. All rational residue cusps are globally
+$F$-rational, as verified by the complete primitive Tate-cusp
+action. The other global cusp orbits have degree four.
+
+For a split prime $q$ write $A_q=T_q-1-q\langle q\rangle$.
+Eichler--Shimura and odd torsion injectivity give $A_qJ(F)=0$.
+The boundary formula shows that $A_{29}$ kills every closed
+cuspidal residue divisor, since $29\equiv9\pmod{20}$.
+The operators $A_{13}$ and $A_{17}$ kill every rational cusp.
+Thus the following principality tests cover all possible
+noncuspidal support patterns of the reduction.
+\[
+\begin{array}{c|r|l|r}
+\text{support degrees}&\text{representatives tested}&
+\text{Hecke primes}&\text{remaining supports}\\\hline
+{[2]}&2&29&0\\
+{[3]}&4&29&0\\
+{[4]}&12&29,13,17&2\\
+{[5]}&124&13&0\\
+{[2,2]}&192&29,13,17&2\\
+{[2,3]}&640&13&0
+\end{array}
+\]
+Here the full pairing-preserving level group is
+\[
+ G=(\operatorname{SL}_2(\mathbb Z/4\mathbb Z)
+       \times(\mathbb Z/5\mathbb Z)^*)/\langle(-I,-1)\rangle,
+ \qquad |G|=96.
+\]
+For a pair we normalize its quadratic support and retain every
+second support, including repeated quadratic places.
+All point counts and every orbit partition are checked
+independently. The twelve quintic jobs cover all $124$ orbits;
+the eight mixed-support jobs cover all $832$ pairs.
+
+Each remaining support has degree four, so its complement is
+one rational cusp. Write the level structure as $(P_4,Q_{20})$
+and put $Q_4=5Q_{20}$, $P_5=4Q_{20}$.
+For the two quartic supports the stabilizers have order eight
+and contain the involution with $4$-level matrix $-I$ and
+trivial $5$-component. For the two quadratic pairs the stabilizers
+have order four and contain, respectively, the involutions
+\[
+ \begin{pmatrix}3&2\\2&3\end{pmatrix},\qquad
+ \begin{pmatrix}1&2\\0&1\end{pmatrix}
+\]
+on $(P_4,Q_4)$, again with trivial $5$-component.
+The exact action of every element of $G$ verifies these stabilizers.
+
+All three involutions act freely on the noncuspidal locus.
+Indeed, they fix $P_5$, and an automorphism of an elliptic curve
+fixing a point of order five is the identity. Their nontrivial
+action on the full $4$-level structure therefore admits no fixed
+point. This also covers CM points.
+Lemma~\ref{lem:decic-cusp-correction}, with $d=5$, excludes all
+four remaining supports and proves the proposition.
+\end{proof}

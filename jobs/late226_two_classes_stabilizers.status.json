@@ -1,0 +1,18 @@
+{
+  "purpose": "late226_two_classes_stabilizers",
+  "script": "computations/late226_two_classes_stabilizers.py",
+  "script_sha256": "b1573cb06aa086e585ec329f1bc6b819c7c8062522a5a3b518c03c39e84d5298",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_two_classes_stabilizers.py"
+  ],
+  "pid": 988240,
+  "owner_uid": 1001,
+  "start_time_unix": 1793318600.7203035,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/late226_two_classes_stabilizers.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.6147656440734863
+}

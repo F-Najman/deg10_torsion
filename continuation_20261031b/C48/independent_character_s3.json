@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "shard": 3,
+  "shards": 4,
+  "limit": 0,
+  "source_orbits": 37377,
+  "admitted_orbits": 3138,
+  "actual_normalized_Velu_samples": 40,
+  "all_character_vectors_match_primary": true,
+  "conservatively_retained_poles": 1,
+  "method": "Actual point24P, manual two-point Velu coordinates, independently derived dual kernel and Derickx normalization, opposite-variable Horner evaluation of even-divisor functions and exact finite-field signs",
+  "elapsed_seconds": 220.93081650184467
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "contb77_absolute_model_v3",
+  "script": "computations/contb77_absolute_model_v3.m",
+  "script_sha256": "1563e3e150814402e111ad4930e03b270c3c068d07b6b067445d643c72593301",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_absolute_model_v3.m"
+  ],
+  "pid": 2582959,
+  "owner_uid": 1001,
+  "start_time_unix": 1793391534.837464,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/contb77_absolute_model_v3.log",
+  "actual_exit_code": -15,
+  "termination_reason": null,
+  "elapsed_seconds": 131.2768213748932
+}

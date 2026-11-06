@@ -1,0 +1,200 @@
+\begin{proposition}\label{prop:decic-no65}
+An elliptic curve over a number field of degree $10$ has no point of
+order $65$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(65)$. The curve has genus $121$ and good reduction at $2$.
+The exact winding calculation accounts for every constituent except
+the trivial-character elliptic factor $65\mathrm a$. Its Hecke
+eigenvalues at $2,3,7,11,17$ are
+\[
+                         -1,-2,-4,2,2.
+\]
+Consequently every diamond difference has finite image on
+$J_X(\mathbb Q)$. We do not assume that $J_X(\mathbb Q)$ has rank zero.
+
+Let $D$ be the rational trace divisor of a hypothetical level
+structure over a field of degree $10$. It is effective, entirely
+noncuspidal and of degree $10$, with repetitions allowed. The
+complete finite-field census gives
+\[
+\begin{array}{c|rrrrrrrrrr}
+ \text{degree}&1&2&3&4&5&6&7&8&9&10\\ \hline
+ \text{noncuspidal closed places}&0&0&0&0&0&2&48&48&72&108.
+\end{array}
+\]
+Thus a reduction with noncuspidal support has a single such place
+$P$, of degree $d\in\{6,7,8,9,10\}$ and multiplicity one.
+
+The global and finite cusp signatures are
+\[
+ 1^{24}4^6 12^2 24,\qquad 1^{24}4^6 6^4 12^2.
+\]
+In particular every cuspidal divisor of degree at most $4$ lifts to
+a rational cuspidal divisor. The complement of $P$ therefore has
+such a lift $C$, of degree $10-d$.
+
+We first exclude noncuspidal reduction. We work on the point-level
+model and write $\sigma=\langle3\rangle^{-1}$ and
+$\tau=\langle3\rangle$. The classes $[\sigma D-D]$ and
+$[\sigma C-C]$ are rational torsion: for the first, use the finite
+diamond-difference image and a rational cusp as base point; for the
+second, use Manin--Drinfeld. The point-level annihilator
+\[
+                           A_3=T_3-1-3\tau
+\]
+kills rational torsion, by Eichler--Shimura and injectivity of torsion
+reduction at the odd good prime $3$. Hence, putting $T=T_3P$, the
+divisor
+\[
+ B=\sigma T-T-\sigma P-2P+3\tau P                         \tag{65.1}
+\]
+must be principal. This uses cancellation of cuspidal Picard classes;
+no equality of cusp divisors is asserted.
+
+The degree-independent computations in degrees $6,7,8,9$ give
+nonprincipal divisors (65.1). We recall the data needed for their
+use here. In degree $6$ the unique eligible elliptic curve is
+supersingular, with cyclic group of order $65$; its diamond orbit
+contains both closed source points. The actual four cyclic
+$3$-kernels give two degree-$12$ targets with norm multiplicity $1$.
+The retained necessary divisor, equivalently the negative of its
+$h$-translate,
+\[
+                 hT-T+P+2hP-3h^2P,\qquad h=\langle3\rangle,
+\]
+has positive and negative degrees $36$. Its canonical multiplication
+test has rank $121$, so its Riemann--Roch space is zero. The ordinary
+places in degrees $7,8,9$ have respectively two, two and three
+diamond orbits, containing $48,48,72$ closed places. All $336$
+retained canonical multiplication matrices have rank $121$; their
+necessary divisors have positive degrees $49,56,63$.
+These statements concern fixed finite divisors and do not depend
+on the total degree of $D$. Their cuspidal cancellation remains
+valid: in the degree-$6$ case the complement may now contain a
+quartic cusp, but it is still a globally rational cuspidal divisor.
+The full old evidence, including exact marked isogenies, genuine
+jets and multiplication identities, is copied into
+\path{inherited_degree9/} and its hashes are pinned in
+\path{inherited_snapshots.json}.
+
+We perform a fresh computation in degree $10$. There are five
+diamond orbits, of lengths
+\[
+                           24,24,24,12,24.
+\]
+In particular one orbit has a stabilizer of order $2$; we do not
+assume that every diamond orbit is free. Independent enumeration
+identifies all $108$ places and binds every canonical source point
+to its original Tate $(b,c)$ key. The retained records are
+\path{source65.m} and \path{independent_source_binding.json}.
+
+For each representative all four cyclic $3$-kernels are computed.
+They form two orbits and give degree-$20$ targets with norm
+multiplicity $1$. Independent Sage isogenies from every monic
+linear kernel polynomial recover the same transported levels and
+modular-unit keys. Both the source points and the transported
+points have exact order $65$.
+
+We use the saturated canonical basis with $121$ expansions through
+$q^{1099}$. Its unit relations have section-degree bounds $293,294$
+and checked orders at least $1098$, so hold globally. For an ordinary
+equation $y^2+xy=x^3+a_2x^2+a_6$, deform $a_6$ to $a_6+t$ and
+lift the $65$-division equation and the elliptic equation. Their
+relevant derivatives are nonzero. The unit equations have rank
+$120$ at every retained source and target and recover the canonical
+jets through order $5$. All fifteen families have independently
+verified elliptic, division and unit equations and a nonzero
+canonical tangent. Since $j=1/(a_6+t)$, these are genuine local arcs.
+
+Put $R_i=H^0(X,iK_X)$. The $14641$ ordered canonical products span
+$R_2$, of dimension $360$; every identity is checked beyond the
+weight-$4$ Sturm bound $672$. For $B=B_+-B_-$ choose nonzero
+$F,H\in R_1$ vanishing on $B_+$. If $f\in\mathcal L(B)$, then
+$G=fF\in R_1$, $G$ vanishes on $B_-$, and $GH\in FR_1$.
+It suffices to check injectivity of
+\[
+ R_1\longrightarrow H^0(B_-,K_X|_{B_-})\oplus R_2/FR_1,
+ \qquad G\longmapsto(G|_{B_-},GH\bmod FR_1).
+\]
+We test all $24$ simultaneous target diamond translates for each
+of the five source representatives. We include both (65.1) and
+the additional coefficient arrangement
+$\sigma T-T+2P+\tau P-3\sigma P$.
+Equal closed places are identified before their signed
+multiplicities are added, including those in the orbit of length
+$12$. All $240$ divisors have positive and negative degrees $70$.
+Each sign contributes $70$ jet conditions, multiplication by $F$ has
+rank $121$, and every final $121\times309$ matrix has rank $121$.
+Thus $\mathcal L(B)=0$ in every necessary case, a contradiction.
+The complete construction and an independent Sage/M4RI replay are
+recorded in \path{canonical_R1_sieve_verified.json},
+\path{stage2_independent_verified.json},
+\path{hecke_transport_independent_verified.json} and
+\path{independent_m4ri.json}.
+
+It remains to exclude entirely cuspidal reduction. A divisor of
+degree $10$ is either globally intact, or contains one of the four
+non-global sextic cusps and a globally rational cuspidal complement
+of degree $4$. For the latter case we use the genus-$9$ quotient by
+the quadratic-character kernel in the projective diamond group,
+in the rational $q$-expansion convention. Normalize at a globally
+rational width-$1$ cusp $c_0$ and put $\alpha=\langle3\rangle-1$.
+The proven finite Jacobian and the subgroup generated by the
+$\alpha$-images of finite cusps are
+\[
+ J(\mathbb F_2)=[4,16,336],\qquad U=[4,8].
+\]
+The dual-convention annihilator is $T_3-\langle3\rangle-3$.
+Its kernel on $U$ is $K=[8]$. Each non-global sextic source cusp
+has norm $6$ to one of the two split width-$65$ residue cusps $c$,
+and both classes $6\alpha[c-c_0]$ lie outside $K$.
+The complement of degree $4$, including a possible quartic cusp,
+lifts globally; its normalized $\alpha$-class is rational cuspidal
+torsion and is annihilated by the same operator. Subtracting this
+class would force $6\alpha[c-c_0]\in K$, a contradiction. This
+argument uses the operator only on the cusp-generated subgroup $U$.
+The cusp orbits, all base corrections and both norm-$6$ tests are
+independently replayed in the copied quotient packet.
+
+Finally suppose that $\overline D$ is globally intact, with rational
+cuspidal lift $C$. We use the full integral canonical lattice in the
+rational $q$-expansion convention. For
+$n\in\{2,3,7,11,17\}$ and $\ell\in\{3,7,11,17\}$ put
+\[
+ \Phi_{n,\ell}=(T_n-a_n)(T_\ell-\langle\ell\rangle-\ell),
+\]
+where $a_n$ are the displayed eigenvalues of $65\mathrm a$.
+The first factor has finite rational image and the second kills
+rational torsion. Hence these operators annihilate $J_X(\mathbb Q)$.
+Their pulled-back differentials span a $106$-dimensional space
+over $\mathbb F_2$. This is a calculation on the full Jacobian;
+it uses no cotangent exactness for a quotient at $2$.
+
+The $24$ rational cusps have their canonical $q$-expansions. The
+six quartic cusps are obtained from the genuine Tate family
+$E(q^{13})$, $P=\zeta_5q$, and its diamond translates. All four
+conjugates are included. Since $10$ is not divisible by $4$,
+every global cusp divisor of degree $10$ has a rational support
+point. Translate one with maximal rational multiplicity to the
+first cusp, and call that multiplicity $n_0$. Every other rational
+multiplicity is at most $\min(n_0,5)$ and every quartic multiplicity
+is at most $2$. We test the corresponding differential prefixes,
+with all four residue-field components at each quartic cusp.
+For $n_0=1,\ldots,10$ the numbers of configurations are
+\[
+\begin{gathered}
+ 1019567,4152510,1521680,377867,80868,\\
+ 14956,2300,276,23,1.
+\end{gathered}
+\]
+All $7170048$ matrices have rank $10$. A separate implementation
+reconstructs the quartic restrictions using coordinate functionals
+over $\mathbb F_{16}$ and recomputes every full matrix rank at each
+leaf; it gives the same counts and ranks. Its certificate is
+\path{parent_prefix_replay.json}.
+Thus the product of the maps $\Phi_{n,\ell}$ is a formal immersion
+at every proposed global cuspidal reduction in $X^{(10)}$.
+The divisors $D$ and $C$ have the same image and the same reduction,
+so formal immersion gives $D=C$, a contradiction.
+\end{proof}

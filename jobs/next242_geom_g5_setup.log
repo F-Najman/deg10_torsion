@@ -1,0 +1,16 @@
+Loading "work/deg10/next_cases_20261030/C242/geometry/deps/native_group_generators.m"
+Loading "work/deg10/next_cases_20261030/C242/geometry/deps/class_group_direct_RR_checked_v4_fastfb.m"
+C242_GENUS5_TATE7_DESCENT_IDENTITIES_PASS p=5 cpu=0.000
+C242_G5_NEW_GENERATOR d=3 order=24 span=384 cpu=4.500
+C242_G5_NEW_GENERATOR d=3 order=48 span=1152 cpu=5.060
+C242_G5_NEW_GENERATOR d=3 order=48 span=3456 cpu=5.610
+C242_G5_LIFT_START i=1 d=3 cpu=5.610
+C242_G5_LIFT_PASS 1 5.610
+C242_G5_T11_GENERATOR i=1 d=3 class=24 A11=1 cpu=6.070
+C242_G5_LIFT_START i=2 d=3 cpu=6.070
+C242_G5_LIFT_PASS 2 6.070
+C242_G5_T11_GENERATOR i=2 d=3 class=48 A11=6 cpu=6.550
+C242_G5_LIFT_START i=3 d=3 cpu=6.550
+C242_G5_LIFT_PASS 3 6.550
+C242_G5_T11_GENERATOR i=3 d=3 class=48 A11=6 cpu=7.240
+C242_D10_QUOTIENT5_PROVEN_COMPLETE G=[ 2, 6, 6, 48, 0 ] K=[ 2, 2, 2, 24 ] index=18 comps=[ 1, 2, 2, 2, 2, 2, 2 ] FB=30 cpu=7.260

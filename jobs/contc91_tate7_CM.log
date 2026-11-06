@@ -1,0 +1,18 @@
+Loading "work/deg10/continuation_20261030c/C91/tate7_CM_filter.m"
+Loading "work/deg10/continuation_20261030c/C91/tate7_quotient_common.m"
+C91_TATE7_QUOTIENT_READY genus23=true degree14=true deck3=true time=0.410
+C91_TATE7_CUSPS_READY signature=[ <7, 1>, <91, 1>, <7, 1>, <91, 1>, <1, 3>, <13, 3>, <7, 1>, <91, 1> ] time=0.460
+C91_TATE7_DIFFERENTIALS_READY CartierRank=21 tauMinusRank=16 Udim=14 time=0.570
+C91_TATE7_CM_BLOCK CM=1 ratA=1 ratB=1 rank=8 expected8=true time=0.730
+C91_TATE7_CM_BLOCK CM=1 ratA=1 ratB=2 rank=8 expected8=true time=0.810
+C91_TATE7_CM_BLOCK CM=1 ratA=1 ratB=3 rank=8 expected8=true time=0.890
+C91_TATE7_CM_BLOCK CM=1 ratA=2 ratB=2 rank=8 expected8=true time=0.970
+C91_TATE7_CM_BLOCK CM=1 ratA=2 ratB=3 rank=8 expected8=true time=1.040
+C91_TATE7_CM_BLOCK CM=1 ratA=3 ratB=3 rank=8 expected8=true time=1.120
+C91_TATE7_CM_BLOCK CM=2 ratA=1 ratB=1 rank=8 expected8=true time=1.200
+C91_TATE7_CM_BLOCK CM=2 ratA=1 ratB=2 rank=8 expected8=true time=1.280
+C91_TATE7_CM_BLOCK CM=2 ratA=1 ratB=3 rank=8 expected8=true time=1.360
+C91_TATE7_CM_BLOCK CM=2 ratA=2 ratB=2 rank=8 expected8=true time=1.440
+C91_TATE7_CM_BLOCK CM=2 ratA=2 ratB=3 rank=8 expected8=true time=1.520
+C91_TATE7_CM_BLOCK CM=2 ratA=3 ratB=3 rank=8 expected8=true time=1.590
+C91_TATE7_CM_FILTER_COMPLETE tested=12 exceptions=[] time=1.600

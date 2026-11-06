@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C56_fourmap_filter_v3",
+  "script": "computations/d31a_C56_fourmap_filter_v3.m",
+  "script_sha256": "fc58c5cf08b06099abb7ef7c73f249528c80c894a32499e0e27330b4eed14313",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C56_fourmap_filter_v3.m"
+  ],
+  "pid": 2834751,
+  "owner_uid": 1001,
+  "start_time_unix": 1793403444.783639,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/d31a_C56_fourmap_filter_v3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5647988319396973
+}

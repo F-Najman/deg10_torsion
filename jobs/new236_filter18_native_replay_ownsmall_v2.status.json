@@ -1,0 +1,19 @@
+{
+  "purpose": "new236_filter18_native_replay_ownsmall_v2",
+  "script": "computations/new236_filter18_native_replay_ownsmall_v2.m",
+  "script_sha256": "38444c65d5b7874c884154b3dd68b07485eca3f974bf52ade47b745939541e31",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_filter18_native_replay_ownsmall_v2.m"
+  ],
+  "pid": 1917425,
+  "owner_uid": 1001,
+  "start_time_unix": 1793361684.0200248,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/new236_filter18_native_replay_ownsmall_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 8.677686214447021
+}

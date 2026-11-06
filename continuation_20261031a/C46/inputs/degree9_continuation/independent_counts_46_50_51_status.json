@@ -1,0 +1,18 @@
+{
+  "cmd": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/cyclic/continuation_20261026/independent_counts_46_50_51.m"
+  ],
+  "pid": 1689834,
+  "start_ticks": 181979509,
+  "started_utc": "2026-10-26T11:06:17.710113+00:00",
+  "cpu_limit": 7200,
+  "wall_limit": 21600,
+  "status": "EXITED",
+  "elapsed_wall_seconds": 1.0007939680945128,
+  "cpu_seconds": 0.0,
+  "last_log_lines": [],
+  "native_exit_code": 0,
+  "log_sha256": "05b28f495c2bef2172486e12e01bfa9e521054450d8457963088db690fdc69c0"
+}

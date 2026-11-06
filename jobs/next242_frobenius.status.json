@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_frobenius",
+  "script": "computations/next242_frobenius.m",
+  "script_sha256": "387d58b0d0ce4ffa2f65e0656226f32b571732928ef41057c4d7c80cd5c26a36",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_frobenius.m"
+  ],
+  "pid": 2355075,
+  "owner_uid": 1001,
+  "start_time_unix": 1793380912.6844075,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next242_frobenius.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.6148276329040527
+}

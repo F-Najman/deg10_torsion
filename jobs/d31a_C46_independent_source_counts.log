@@ -1,0 +1,3 @@
+Loading "work/deg10/continuation_20261031a/C46/independent_source_counts_job.m"
+D31A_C46_INDEPENDENT_COUNT m=1 n=46 p=3 genus=45 rational_point_counts=[ 0, 0, 0, 220, 220, 330, 1848, 6468, 17622, 63140 ] closed_place_counts=[ 0, 0, 0, 55, 44, 55, 264, 781, 1958, 6292 ] time=0.170
+D31A_C46_INDEPENDENT_COUNTS_DONE complete=true 0.170

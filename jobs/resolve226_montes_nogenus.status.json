@@ -1,0 +1,19 @@
+{
+  "purpose": "resolve226_montes_nogenus",
+  "script": "computations/resolve226_montes_nogenus.m",
+  "script_sha256": "b8d27a18bad8915023c0eca112505808f553688003970bfc1205d3cd15f0c1a3",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_montes_nogenus.m"
+  ],
+  "pid": 1542335,
+  "owner_uid": 1001,
+  "start_time_unix": 1793345879.4674816,
+  "state": "EXITED",
+  "time_limit_seconds": 1800,
+  "log": "jobs/resolve226_montes_nogenus.log",
+  "actual_exit_code": -15,
+  "termination_reason": null,
+  "elapsed_seconds": 955.5676538944244
+}

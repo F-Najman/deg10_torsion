@@ -1,0 +1,54 @@
+{
+  "reason": "Abandoned slow relative TwoGenerators export and default relative RR reduction after fresh v2 demonstrated internal Magma integer_power failure; v3 uses exact tower keys and Reduction=false with complete pre-RR snapshots",
+  "records": [
+    {
+      "stem": "d31b_C56_cover_A5_s0",
+      "pid": 3578066,
+      "owner_uid": 1001,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_cover_A5_s0.m"
+      ],
+      "verified_start_time": 1793438534.47,
+      "signal": "SIGTERM"
+    },
+    {
+      "stem": "d31b_C56_cover_A5_s1",
+      "pid": 3578345,
+      "owner_uid": 1001,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_cover_A5_s1.m"
+      ],
+      "verified_start_time": 1793438548.79,
+      "signal": "SIGTERM"
+    },
+    {
+      "stem": "d31b_C56_cover_A5_s2",
+      "pid": 3578417,
+      "owner_uid": 1001,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_cover_A5_s2.m"
+      ],
+      "verified_start_time": 1793438551.34,
+      "signal": "SIGTERM"
+    },
+    {
+      "stem": "d31b_C56_cover_A11_s0",
+      "pid": 3578463,
+      "owner_uid": 1001,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_cover_A11_s0.m"
+      ],
+      "verified_start_time": 1793438552.46,
+      "signal": "SIGTERM"
+    }
+  ],
+  "time": 1793439495.8275912
+}

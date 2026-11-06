@@ -1,0 +1,14 @@
+load "work/deg10/continuation_20261030b/C77/geometry_fast_nc.m";
+SetNthreads(1);tt:=Cputime();Yrel:=CY;F:=RationalExtensionRepresentation(Yrel);assert Degree(F) eq 24 and Genus(F) eq 37 and BaseField(F) cmpeq FB;
+coords:=[F!(Yrel!FB.1),F!(Yrel!E3.1),F!Yrel.1];assert &and[Yrel!(F!v) eq v:v in [Yrel!FB.1,Yrel!E3.1,Yrel.1]] and F!(Yrel!F.1) eq F.1;
+deck2:=hom<Yrel->Yrel|map<E3->Yrel|a:->Yrel!a>,Yrel.1+1>;deck3:=hom<Yrel->Yrel|map<E3->Yrel|a:->Yrel!tau(a)>,Yrel.1>;
+bb,cc:=Explode(TateNormalForm_bc(E7u,2*P7u));assert bb/cc eq (t+1)/t;
+deltagen:=F!deck2(deck3(deck3(Yrel!F.1)));rbase:=hom<FB->F|(coords[1]+1)/coords[1]>;delta:=hom<F->F|rbase,deltagen>;
+assert delta(coords[1]) eq (coords[1]+1)/coords[1] and delta(coords[2]) eq coords[2] and delta(coords[3]) eq coords[3]+1;
+for v in [F.1,coords[1]] do a:=v;for i in [1..6] do a:=delta(a);end for;assert a eq v;end for;
+function ER(v)return[[Integers()!c:c in Coefficients(Numerator(v))],[Integers()!c:c in Coefficients(Denominator(v))]];end function;
+function EF(v)return[ER(c):c in Eltseq(F!v)];end function;
+function E3S(v)return[ER(c):c in Eltseq(E3!v)];end function;
+function EYS(v)return[E3S(c):c in Eltseq(Yrel!v)];end function;
+packet:=[*[ER(c):c in Coefficients(DefiningPolynomial(F))],[EF(c):c in coords],EF(deltagen),[ER(c):c in Coefficients(DefiningPolynomial(E3))],[E3S(c):c in Coefficients(DefiningPolynomial(Yrel))],EYS(Yrel!F.1)*];
+Write("work/deg10/continuation_20261030b/C77/absolute_model.m",Sprint(packet):Overwrite:=true);print "C77_ABSOLUTE_MODEL_VERIFIED",Degree(F),Genus(F),Cputime(tt);quit;

@@ -1,0 +1,19 @@
+{
+  "purpose": "new236_source10_s1",
+  "script": "computations/new236_source10_s1.m",
+  "script_sha256": "b9c527d5921882f41f268f97db7a3ace5e605fce56cff283a99a60c4e9e98f8b",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_source10_s1.m"
+  ],
+  "pid": 1870499,
+  "owner_uid": 1001,
+  "start_time_unix": 1793359761.8088088,
+  "state": "EXITED",
+  "time_limit_seconds": 1800,
+  "log": "jobs/new236_source10_s1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 678.1387839317322
+}

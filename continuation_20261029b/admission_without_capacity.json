@@ -1,0 +1,7 @@
+{
+  "pending": "late240_isogeny",
+  "host_active_magma": 40,
+  "wait_seconds": 603.0,
+  "steps": [],
+  "state": "EXITED_WITHOUT_CAPACITY"
+}

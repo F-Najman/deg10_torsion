@@ -1,0 +1,93 @@
+\input{realizations/continuation/C63/formal_immersion63}
+\begin{proposition}\label{prop:nonic-no63}
+An elliptic curve over a number field of degree $9$ has no point of
+order $63$.
+\end{proposition}
+\begin{proof}
+Put $Y=X_1(63)/\langle8\rangle$. The diamond $8$ acts by different
+signs on the $9$- and $7$-components. This involution acts freely on
+the noncuspidal locus also in characteristic $2$: an automorphism
+fixing such a level structure would have square $1$, and hence
+would be $1$ or $-1$, neither of which induces these two signs.
+The primitive-column calculation verifies freeness at the cusps.
+Thus the quotient is etale and $Y$ has good reduction at $2$.
+Its genus is $49$.
+
+Every even character modulo $63$ which is trivial at $8$ has full
+winding submodule. The five character orbits have weighted dimension
+sum $49$. Hence $J(Y)(\mathbb Q)$ has rank zero.
+We use the direct model over $\mathbb F_2$ obtained from
+\[
+ E_9:y^2+(1-c)xy-by=x^3-bx^2,\qquad
+ c=t^2(t-1),\quad b=t^2(t-1)(t^2-t+1),
+\]
+by adjoining a root $u$ of $\psi_7(E_9)$.
+Here $(0,0)$ has exact order $9$, and $u=x(P_7)$ forgets the sign
+of the $7$-point. The polynomial is irreducible of degree $24$.
+Its function field has genus $49$, and its $j$-map has degree $864$.
+The closed cusps over $\mathbb F_2$ have degrees
+\[
+ 1^9 2^3 3^9 6.
+\]
+The global cusp degrees are $1^9 2^3 3^6 6\,9$.
+In particular every cusp of degree at most $2$ in the special
+fibre lifts to a global cusp of the same degree.
+The three cubic places arising from the global degree-$9$ cusp
+are retained in the calculation below.
+
+Suppose that $D_X$ is the rational noncuspidal degree-$9$ trace
+divisor associated to a point of order $63$, and let $D$ be its
+pushforward to $Y$. The exact source counts at $2$ give the numbers
+of noncuspidal closed places of degrees $1,\ldots,9$ as
+\[
+ (0,0,0,0,0,0,54,54,72).
+\]
+Thus a noncuspidal part in the reduction of $D_X$ has degree
+$7$, $8$, or $9$, with a cuspidal complement of degree at most $2$.
+
+We first exclude these three cases.
+Direct enumeration in the displayed model gives respectively
+$189$, $216$, and $324$ pairs $(t,u)$ over the fields of degrees
+$7$, $8$, and $9$ which lift to actual $63$-torsion structures.
+Their Frobenius orbits all have the indicated degree and give
+respectively $27$, $27$, and $36$ closed places on $Y$.
+They form respectively $3$, $3$, and $4$ orbits under the residual
+diamonds $2,5$.
+For a representative $P$ of each of these ten orbits, the exact
+divisor calculation gives
+\[
+ A_5 P:=T_5P-P-5\langle5\rangle P
+ \quad\text{nonprincipal}.
+\]
+The computation constructs all six $5$-isogenies, transports both
+torsion points, and recovers the pair $(t,u)$ by Tate normalization.
+Divisor multiplicities include the ratios of residue degrees.
+For the new degree-$9$ representatives, each Hecke image is a
+single place of degree $54$.
+
+However, $A_5$ kills $J(Y)(\mathbb Q)$ by Eichler--Shimura and
+injectivity of torsion reduction at the odd good prime $5$.
+For a rational unit-component cusp $c_0$, we have the literal
+identity $A_5c_0=0$.
+Any cuspidal complement $C$ of degree at most $2$ lifts globally,
+so $A_5(C-(\deg C)c_0)$ is principal.
+Applying $A_5$ to the rational class $[D-9c_0]$ and then reducing
+at $2$ would therefore make $A_5P$ principal. This contradicts
+the ten tests.
+
+It remains to exclude entirely cuspidal reduction.
+Put $U=(\mathcal C-1)H^0(Y_{\mathbb F_2},\Omega^1)$.
+The fresh Cartier computation gives $\dim U=45$.
+We compute all $121$ spaces
+\[
+ H^0\bigl(Y_{\mathbb F_2},\Omega^1(-mP)\bigr),\qquad
+ 1\leq m\leq\left\lfloor\frac9{\deg P}\right\rfloor,
+\]
+at the $22$ closed cusps. Their annihilators give compatible
+restriction matrices. Restriction from $U$ has rank $9$ at every
+one of the $105040$ effective cuspidal divisors of degree $9$.
+Independent binary linear algebra checks every kernel, projection,
+and restriction rank.
+Lemma~\ref{lem:nonic63-quotient-Cartier} now forces $D$ to be
+cuspidal, a contradiction.
+\end{proof}

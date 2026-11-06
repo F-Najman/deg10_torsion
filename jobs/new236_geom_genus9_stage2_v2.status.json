@@ -1,0 +1,19 @@
+{
+  "purpose": "new236_geom_genus9_stage2_v2",
+  "script": "computations/new236_geom_genus9_stage2_v2.m",
+  "script_sha256": "bd4aa6673b7fe3c25dc2a298fad44e22be04c4222f6fc50fc867f6dcbbf78723",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new236_geom_genus9_stage2_v2.m"
+  ],
+  "pid": 1908965,
+  "owner_uid": 1001,
+  "start_time_unix": 1793361352.4197788,
+  "state": "EXITED",
+  "time_limit_seconds": 1800,
+  "log": "jobs/new236_geom_genus9_stage2_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 339.50044798851013
+}

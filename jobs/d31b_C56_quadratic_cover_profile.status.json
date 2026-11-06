@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C56_quadratic_cover_profile",
+  "script": "computations/d31b_C56_quadratic_cover_profile.m",
+  "script_sha256": "fede4cfbdd7b7b9781eca89c95c04c8e0231c26bffd369907148b6a35eeaf26b",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_quadratic_cover_profile.m"
+  ],
+  "pid": 3573521,
+  "owner_uid": 1001,
+  "start_time_unix": 1793438316.6033127,
+  "state": "EXITED",
+  "time_limit_seconds": 350,
+  "log": "jobs/d31b_C56_quadratic_cover_profile.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 46.18863034248352
+}

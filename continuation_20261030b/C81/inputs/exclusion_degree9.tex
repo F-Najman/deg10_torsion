@@ -1,0 +1,48 @@
+\input{realizations/continuation/C81/hecke_finite_support}
+\begin{proposition}\label{prop:nonic-no81}
+An elliptic curve over a number field of degree $9$ has no point of
+order $81$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(81)$. The exact winding computation gives full winding
+submodule in every even-character component. The relative dimensions
+and coefficient-field degrees give
+\[
+ 4+18\cdot8+6\cdot6+2\cdot3=190=g(X).
+\]
+Thus $J_1(81)(\mathbb Q)$ has rank zero.
+
+We compute rational $2$-torsion on the integral homology of the exact
+Jacobian \texttt{JOne(81)}, with sign $0$. Its homology lattice has
+rank $380$. For $q=5,7$, the endomorphism
+\[
+ A_q=T_q-1-q\langle q\rangle
+\]
+kills rational $2$-torsion, by Eichler--Shimura and injectivity of
+torsion reduction at the odd good prime $q$.
+On this same integral lattice, the diamond matrix is recovered from
+$q\langle q\rangle=T_q^2-T_{q^2}$ before reduction modulo $2$.
+The kernel of $A_5$ over $\mathbb F_2$ has dimension $8$, and its
+intersection with the kernel of $A_7$ is zero. The exported integral
+matrices are independently checked by binary linear algebra, and
+a fresh native computation gives the same result. Hence
+\[
+ J_1(81)(\mathbb Q)[2]=0.
+\]
+
+The index of $\Gamma_1(81)$ in $\operatorname{PSL}_2(\mathbb Z)$
+is $2916$. Abramovich's bound~\cite{Abramovich} gives
+\[
+ \operatorname{gon}_{\mathbb C}X
+ \geq \frac{325}{32768}\,2916
+ =\frac{236925}{8192}>27.
+\]
+A point of order $81$ over a field of degree $9$ gives a rational
+effective noncuspidal divisor of degree $9$ on $X$. This contradicts
+Lemma~\ref{lem:nonic81-Hecke-finite-support} with $d=9$.
+\end{proof}
+
+% The argument does not use a classification of degree9 finite points,
+% equality of rational torsion with cuspidal torsion, or a CM exclusion.
+% Reproduce fresh_native.m; independently replay retained integral
+% matrices with retained/replay_two_torsion_81.py.

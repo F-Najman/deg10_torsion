@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "group": [
+    1,
+    117
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Full rational X1(39) Jacobian specialization injectivity and gonality14; finite117-compatible residue8/9 lifts force a cusp complement",
+  "frozen_summary_sha256": "8803a91d29491d572dd732d3cc84eda4d93e369d3428d3417e45d1f5a5b1b274",
+  "classification_complete": false
+}

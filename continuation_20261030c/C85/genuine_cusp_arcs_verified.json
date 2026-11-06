@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "arcs": [
+    {
+      "name": "q4",
+      "level": 85,
+      "point_level_Tate_width": 17,
+      "closed_degree": 4,
+      "retained_coefficients": 2,
+      "canonical_dimension": 225,
+      "Tate_series_precision": 500,
+      "primary_minor_valuation": 230,
+      "independent_minor_valuation": 225,
+      "all_retained_coefficients_identical": true,
+      "nonzero_projective_tangent_checked": true,
+      "primary_path": "work/deg10/continuation_20261030c/C85/cusp_arc_q4.m",
+      "control_path": "work/deg10/continuation_20261030c/C85/cusp_arc_q4_control.m",
+      "primary_sha256": "08941130d3a7423621f1ac2b65735193eaa085c22fa00af7ff74c955393fee56",
+      "control_sha256": "58c78ec259ea60e30cc0525b9c032edde9c33ff219b7cee9c7d4d9a574630588"
+    },
+    {
+      "name": "q8width5",
+      "level": 85,
+      "point_level_Tate_width": 5,
+      "closed_degree": 8,
+      "retained_coefficients": 1,
+      "canonical_dimension": 225,
+      "Tate_series_precision": 500,
+      "primary_minor_valuation": 5,
+      "independent_minor_valuation": 0,
+      "all_retained_coefficients_identical": true,
+      "nonzero_projective_tangent_checked": false,
+      "primary_path": "work/deg10/continuation_20261030c/C85/cusp_arc_q8width5.m",
+      "control_path": "work/deg10/continuation_20261030c/C85/cusp_arc_q8width5_control.m",
+      "primary_sha256": "c690e0746d7edf59997980fd03844c6b7c2a46aff8f2de43f308e930cc2602e8",
+      "control_sha256": "6584c4d2f4dd29cf6780baaaf2e11e4bc74eeb6a5c41dc9fe9e9dca0dfd24508"
+    },
+    {
+      "name": "q8width1",
+      "level": 85,
+      "point_level_Tate_width": 1,
+      "closed_degree": 8,
+      "retained_coefficients": 1,
+      "canonical_dimension": 225,
+      "Tate_series_precision": 500,
+      "primary_minor_valuation": 4,
+      "independent_minor_valuation": 4,
+      "all_retained_coefficients_identical": true,
+      "nonzero_projective_tangent_checked": false,
+      "primary_path": "work/deg10/continuation_20261030c/C85/cusp_arc_q8width1.m",
+      "control_path": "work/deg10/continuation_20261030c/C85/cusp_arc_q8width1_control.m",
+      "primary_sha256": "7c1a3ab716cd2725bd5f52b9b5a08089b7f74eb24eb37bf6f62eabc1ecb454b7",
+      "control_sha256": "f496702087d9fdd4392384d5f6a5d1a6b51ea7e14fbd4334fb920997e87f588d"
+    }
+  ],
+  "legacy_progress_labels_not_used_for_precision_claims": true
+}

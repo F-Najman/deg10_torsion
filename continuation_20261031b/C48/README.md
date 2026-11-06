@@ -1,0 +1,13 @@
+# C48 over degree-ten fields
+
+`resolution.tex` is the proof, with the finite cuspidal Hecke lemma in `cuspidal_hecke13.tex`. The exact target rational image uses **DEHMZ Proposition 4.16 and Table 3**, for the noncyclic curve X1(2,24). Its order is 921600; the finite quotient has invariants [2,2,24,48]. The integral cusp-block identification is copied into `inputs/`.
+
+The complete source census is pinned in `inputs/source48_p5.json`. The high single-support character sieve covers 149508 source diamond orbits, retaining 12604, including one conservative pole fallback. It gives 5619 target class queries; the lower and mixed supports give 3550 more. Exact native replays verify every smoothing identity in both maximal orders and all direct factorbase hits. Target automorphisms are undone before adding mixed summands.
+
+The full class filters leave 107 high cases and 243 lower/mixed cases. Simultaneous source diamonds reduce the latter to 201. All 308 final full-source degree-zero Hecke divisors have RR dimension zero: 107 use A7 with no cusp complement; 201 use A13. The A13 cusp action is zero in Picard because its four exceptional columns are ±12 times two explicitly principal cusp differences. Separate primitive-label and native-function controls verify this lemma.
+
+`parent_native_high_q*.m` and `parent_native_low_q*.m` are fresh full-source ideal/RR replays, with actual residue keys. Independent Sage files bind every marked source, diamond, and cyclic-kernel target to these native keys using a complete kernel census, exact Frobenius orbits, normalized isogenies, and separate pairwise Velu trace formulas. Four independent character shards check every high-source character vector using actual 24P, a different quotient formula, and opposite-variable Horner evaluation.
+
+Historical diagnostics remain. Character-profile v1 and diagnostic scripts exposed Sage's non-normalized isogeny representatives; v2 uses the normalized kernel map. Initial class-replay assertions misread a witness trial field; only v4 is accepted. The raw-BC v3 replay was explicitly terminated after the faster base-coordinate v4 completed the same 1405 queries; its actual exit is -15. One original low A13 shard reached its alarm after 37 complete cases. The remaining case 41265 was independently run to completion, and fresh native replay certifies all 151 A13 lower/mixed sums. The original -14 job is **not** a complete certificate. Failed and terminated jobs are never counted as successful evidence.
+
+All jobs are bounded and single threaded. The final manifest checks success markers and actual exits, records diagnostics, and verifies that no case worker or launcher remains active.

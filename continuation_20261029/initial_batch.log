@@ -1,0 +1,28 @@
+{"purpose": "cont_local_6_12_q7", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 13.647494792938232, "termination_reason": null}
+{"purpose": "cont_local_4_16_q5", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 13.73638367652893, "termination_reason": null}
+{"purpose": "cont_winding66", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.16559195518493652, "termination_reason": null}
+{"purpose": "cont_winding68", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.16400146484375, "termination_reason": null}
+{"purpose": "cont_winding69", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.16389679908752441, "termination_reason": null}
+{"purpose": "cont_winding70", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.16392159461975098, "termination_reason": null}
+{"purpose": "cont_winding72", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.16396117210388184, "termination_reason": null}
+{"purpose": "cont_winding74", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.16396570205688477, "termination_reason": null}
+{"purpose": "cont_winding76", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.16394734382629395, "termination_reason": null}
+{"purpose": "cont_winding78", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.16391491889953613, "termination_reason": null}
+{"purpose": "cont_winding80", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.21401047706604004, "termination_reason": null}
+{"purpose": "cont_winding81", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.1640911102294922, "termination_reason": null}
+{"purpose": "cont_winding84", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.2640364170074463, "termination_reason": null}
+{"purpose": "cont_winding87", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.2153007984161377, "termination_reason": null}
+{"purpose": "cont_winding90", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.31453824043273926, "termination_reason": null}
+{"purpose": "cont_winding93", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.2642679214477539, "termination_reason": null}
+{"purpose": "cont_winding99", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.2145092487335205, "termination_reason": null}
+{"purpose": "cont_winding100", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.2659318447113037, "termination_reason": null}
+{"purpose": "cont_winding105", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.36432576179504395, "termination_reason": null}
+{"purpose": "cont_winding135", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 0.41519999504089355, "termination_reason": null}
+{"purpose": "cont_local_3_18_q7", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 28.522634267807007, "termination_reason": null}
+{"purpose": "cont_local_3_21_q4", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 46.22712063789368, "termination_reason": null}
+{"purpose": "cont_local_3_24_q7", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 75.6572573184967, "termination_reason": null}
+{"purpose": "cont_local_4_24_q5", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 143.43744802474976, "termination_reason": null}
+{"purpose": "cont_local_4_20_q9", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 214.08918809890747, "termination_reason": null}
+{"purpose": "cont_local_3_27_q4", "state": "EXITED", "actual_exit_code": -15, "elapsed_seconds": 240.01607942581177, "termination_reason": "time limit; computation is not a completed certificate"}
+{"purpose": "cont_local_4_28_q9", "state": "EXITED", "actual_exit_code": -15, "elapsed_seconds": 240.00796580314636, "termination_reason": "time limit; computation is not a completed certificate"}
+INITIAL_BATCH_EXITED

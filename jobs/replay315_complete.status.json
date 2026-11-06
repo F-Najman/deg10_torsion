@@ -1,0 +1,18 @@
+{
+  "purpose": "replay315_complete",
+  "script": "computations/replay315_complete.py",
+  "script_sha256": "c1180a39e91d8f31659f3640c9897539b7ec9bdfc28402c84280969cc563b87b",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/replay315_complete.py"
+  ],
+  "pid": 142995,
+  "owner_uid": 1001,
+  "start_time_unix": 1793280764.7208421,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/replay315_complete.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 5.071969985961914
+}

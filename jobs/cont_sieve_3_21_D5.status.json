@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_sieve_3_21_D5",
+  "script": "computations/cont_sieve_3_21_D5.m",
+  "script_sha256": "24fb0cfef8c2befd9226a298baf97423ef4b51885ad624f9aefcf47772546121",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_sieve_3_21_D5.m"
+  ],
+  "pid": 252184,
+  "owner_uid": 1001,
+  "start_time_unix": 1793284972.3785615,
+  "state": "EXITED",
+  "time_limit_seconds": 360,
+  "log": "jobs/cont_sieve_3_21_D5.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 162.5174708366394
+}

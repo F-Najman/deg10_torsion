@@ -1,0 +1,28 @@
+\subsection{Isogeny reductions}
+\begin{lemma}\label{lem:decic-isogeny-transfer}
+Let $m\mid n$ and let $K$ contain $\mu_m$.
+If an elliptic curve over $K$ has a point of order $mn$, an elliptic
+curve in its $K$-isogeny class contains $C_m\times C_n$.
+\end{lemma}
+\begin{proof}
+Let $P$ have order $mn$, and let $\phi:E\to E'$ have kernel
+$\langle nP\rangle$. Its dual has kernel $\mu_m$, hence a cyclic
+group of $m$ rational points. The point $Q=\phi(P)$ has order $n$.
+The restriction of $\widehat\phi$ to $\langle Q\rangle$ is
+injective, since $\widehat\phi(Q)=mP$ also has order $n$.
+Thus $Q$ is independent of $\ker\widehat\phi$.
+\end{proof}
+In particular no cyclotomic hypothesis is needed when $m=2$.
+The lemma transfers an elliptic curve with a point of an order in the
+first row to a curve containing the corresponding group in the second:
+\[
+\begin{array}{c|rrrrrrrr}
+ \text{cyclic order}&52&64&68&72&76&80&84&100\\
+ \text{target }C_2\times C_n&26&32&34&36&38&40&42&50.
+\end{array}
+\]
+Excluding a target therefore excludes the corresponding cyclic order.
+Proposition~\ref{prop:decic238-240-250} proves the targets for cyclic
+orders $76,80,100$. The target $C_2\times C_{26}$ occurs; the additional
+analysis in Proposition~\ref{prop:decic52} excludes $C_{52}$. The four
+implications for orders $64,68,72,84$ remain available.

@@ -1,0 +1,176 @@
+{
+  "status": "COMPLETE: excludes C95 and C111 over decic fields",
+  "excluded_groups": [
+    [
+      1,
+      95
+    ],
+    [
+      1,
+      111
+    ]
+  ],
+  "comparison_divisor_degree": 40,
+  "diamond_orders": {
+    "95": 3,
+    "111": 3
+  },
+  "gonality_lower_bounds": {
+    "95": [
+      43875,
+      1024
+    ],
+    "111": [
+      55575,
+      1024
+    ]
+  },
+  "finite_difference_dimensions": {
+    "95": 192,
+    "111": 264
+  },
+  "all_residue_degrees_through": 10,
+  "complete_direct_finite_field_twist_counts_checked_independently": 4122,
+  "rational_cuspidal_lifts_exist_at_2": true,
+  "method": "All reductions are cuspidal; rational cusp lifts allow a finite diamond difference. The dyadic torsion kernel has exponent two, giving a degree40 comparison below gonality. Diamond invariance of order3 contradicts degree10.",
+  "primary_jobs": {
+    "next95_winding": "WINDING_CHARACTER_PROBE_DONE",
+    "next95111_finite_controls": "NEXT95111_FINITE_EXHAUSTION_COMPLETE",
+    "next95111_independent_finite": "NEXT95111_INDEPENDENT_FINITE_POINT_COUNTS_PASS"
+  },
+  "independent_tate_and_winding_replay": "cyclic_hecke/replay.log",
+  "evidence": [
+    {
+      "path": "computations/next95111_finite_controls.m",
+      "sha256": "d789201b9968e6a62f8f35c966a76eb88ada894f15e18dfe261909bc593229ea"
+    },
+    {
+      "path": "computations/next95111_independent_finite.py",
+      "sha256": "bf2ea6d5e45db165fffe5c2021d44e33454171545bd3253b17ca230e41eb8567"
+    },
+    {
+      "path": "computations/next95_winding.m",
+      "sha256": "dea16cffefd0d777b14d89da0717f4209d3f69a0b8b1f074eb55c12ada396a22"
+    },
+    {
+      "path": "jobs/next95111_finite_controls.log",
+      "sha256": "aed6031e9a44b830cca36303dedf5a2d5258eca368bb66d8b7587b2abc3a8291"
+    },
+    {
+      "path": "jobs/next95111_finite_controls.status.json",
+      "sha256": "67899f53249e82d3dd5bdb44dcdea25be79d5b1d427d4e5d0ef57aa34a408982"
+    },
+    {
+      "path": "jobs/next95111_independent_finite.log",
+      "sha256": "357f561b8b8e56e9e0faba4ba28696ab63851ee853402dda102e7e964395aed8"
+    },
+    {
+      "path": "jobs/next95111_independent_finite.status.json",
+      "sha256": "d9299090aec25b96e7c8bfb597c0de41be4d3922217b02e1276a46db1e1d5033"
+    },
+    {
+      "path": "jobs/next95_winding.log",
+      "sha256": "fe1caf8bf586a50c6ea5d1f091f903f56525358036042b504f7ab74ffb022737"
+    },
+    {
+      "path": "jobs/next95_winding.status.json",
+      "sha256": "2625f3d45cf475bf3dae374735c7e4697599b52430af36d2274f074cfbd8d5d1"
+    },
+    {
+      "path": "next_cases_20261030/C95/elementary_screen.json",
+      "sha256": "c874ba2ada6b999563a67d8bbbc04e8c7de4d491197e6f927efd3ec12a9a119a"
+    },
+    {
+      "path": "next_cases_20261030/C95/exclusion.tex",
+      "sha256": "6ca33d280cf58fd19c57a21773391037f78c4e2c5ac4432db949c85ff2a3a096"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/C111_exclusion.tex",
+      "sha256": "e203200f24607a6a059798d437d87eaa738fcb72af93c2e6ed10236b5c49608e"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/bibliography_additions.tex",
+      "sha256": "011442992d127e778d89492270c2c78fd80789e83ae3abe236c3a04ffd0ea4a8"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/certificate_manifest.json",
+      "sha256": "669da0a1648febb3f0b4cf3608ab5a802c2fcd05d71d467d129ac3e08092b8fc"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/dyadic_cuspidal_criterion.tex",
+      "sha256": "8ba3e280e91d8991cd3bbbfc1969b028643c88c97b30268fb2a1fbde22ec9c57"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/independent_replay.json",
+      "sha256": "5ce1228431c42f81f8af7c0e0b2d232c1896def61ebb0722409c612a42d49138"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/inputs/krylov_N111_chi2_order36.json",
+      "sha256": "862efc5082962d24fe0d28d434c1c73cbf69917eb964fb1a76997cee75aa42cc"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/inputs/krylov_N95_chi3_order36.json",
+      "sha256": "f7e7d00fd0d281010b67b6f198d2221417057c3e13e0f09b22483b46b871ad8a"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/inputs/reuse_manifest.json",
+      "sha256": "9a2e7b558a4ef2ee7437dbcd3c46b67a9104be514c63fc584bab3d1c77748b1e"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/inputs/winding111.log",
+      "sha256": "691188d2d81d0f85cd84690ab2d06dd48864ec9d6ad265325082da698243105a"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/inputs/winding111.m.archived.txt",
+      "sha256": "7b1f159ac47a5b33f3e3f96b34fc31a79544feccc28561bf69ddb03a77eebfad"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/inputs/winding111.status.json",
+      "sha256": "c5e9bfa50d68f3ffa99fd25fba522f1b6bb27781b80b1088850593167307bf2f"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/inputs/winding95.log",
+      "sha256": "fe1caf8bf586a50c6ea5d1f091f903f56525358036042b504f7ab74ffb022737"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/inputs/winding95.m.archived.txt",
+      "sha256": "dea16cffefd0d777b14d89da0717f4209d3f69a0b8b1f074eb55c12ada396a22"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/inputs/winding95.status.json",
+      "sha256": "2625f3d45cf475bf3dae374735c7e4697599b52430af36d2274f074cfbd8d5d1"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/primary_references.json",
+      "sha256": "d0d8584f94b73536d17b306483b33b1283e41e1dd82928538b2a02849fb88dbd"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/replay.log",
+      "sha256": "40e0160e00f584312bd44f3efd4b8867cbf0006a7da96f19dba9caa6fef792fc"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/replay.py",
+      "sha256": "6a1d47caca129ca01122c20f90cc2b10fc1505b41bbf2f0b07e24aca7b47ecaa"
+    },
+    {
+      "path": "next_cases_20261030/cyclic_hecke/resolution.tex",
+      "sha256": "d5c39901eec8e0b8e4a21f3094e3b77ecb584fb1b21481a94f9a12d26e943e91"
+    },
+    {
+      "path": "next_cases_20261030/dyadic_95111.tex",
+      "sha256": "1c2170560b33cb114098a35b23cc343905d2c8a7f0f85d347ad195b2dc15610b"
+    },
+    {
+      "path": "next_cases_20261030/dyadic_local/all_curves.m",
+      "sha256": "80eb6b47b34451b886fefec11c6f246e2536c3ecc6b8faa3e69fa50f1ac210a3"
+    },
+    {
+      "path": "next_cases_20261030/dyadic_local/independent_point_counts.json",
+      "sha256": "0f719c333c4185f0092045d2f92af48594eff681fff5ab297b7b406454c2f44c"
+    },
+    {
+      "path": "next_cases_20261030/reference_checks.json",
+      "sha256": "8b28f1e75251b13be4ab0c07b30571528cf123db72d43db42f65adc663379347"
+    }
+  ]
+}

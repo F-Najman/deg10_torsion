@@ -1,0 +1,17 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(3*10^9);
+AttachSpec("work/deg10/shared/mdmagma/Magma/magma.spec");
+N:=133;good:=[a:a in [2..N-2]|GCD(a,N) eq 1];
+M:=133;ii:=[j:j in [1..M-1]|GCD(j,M) eq 1 and ConreyCharacterOrbitLabel(M,j) eq "133.f"];assert #ii gt 0;
+good:=[a:a in good|&and[ConreyCharacterValue(M,j,a) eq 1:j in ii]];
+M:=133;ii:=[j:j in [1..M-1]|GCD(j,M) eq 1 and ConreyCharacterOrbitLabel(M,j) eq "133.s"];assert #ii gt 0;
+good:=[a:a in good|&and[ConreyCharacterValue(M,j,a) eq 1:j in ii]];
+orders:=[];for a in good do o:=1;while a^o mod N notin {1,N-1} do o+:=1;end while;Append(~orders,o);end for;
+printf "DECIC_CACHED_KERNEL N=%o genus=613 admissible=%o orders=%o\n",N,good,orders;
+N:=247;good:=[a:a in [2..N-2]|GCD(a,N) eq 1];
+M:=247;ii:=[j:j in [1..M-1]|GCD(j,M) eq 1 and ConreyCharacterOrbitLabel(M,j) eq "247.be"];assert #ii gt 0;
+good:=[a:a in good|&and[ConreyCharacterValue(M,j,a) eq 1:j in ii]];
+M:=247;ii:=[j:j in [1..M-1]|GCD(j,M) eq 1 and ConreyCharacterOrbitLabel(M,j) eq "247.be"];assert #ii gt 0;
+good:=[a:a in good|&and[ConreyCharacterValue(M,j,a) eq 1:j in ii]];
+orders:=[];for a in good do o:=1;while a^o mod N notin {1,N-1} do o+:=1;end while;Append(~orders,o);end for;
+printf "DECIC_CACHED_KERNEL N=%o genus=2305 admissible=%o orders=%o\n",N,good,orders;
+print "DECIC_CACHED_KERNELS_COMPLETE";quit;

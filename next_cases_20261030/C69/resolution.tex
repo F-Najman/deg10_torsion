@@ -1,0 +1,154 @@
+% Complete primary and fresh decoded native genus67 RR checks.
+\subsection{Excluding a point of order $69$}
+\begin{proposition}\label{prop:decic-no69}
+An elliptic curve over a number field of degree $10$ has no point of order $69$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(69)$, of genus $133$. By \cite[Theorem~3.1]{DEHMZ},
+$\operatorname{rank}J_1(69)(\mathbb Q)=0$.
+The gonality bound gives
+\[
+ \operatorname{gon}_{\overline{\mathbb Q}}X\geq
+ \frac{325\cdot2112}{32768}=\frac{10725}{512}>20.
+\]
+Suppose that a proposed torsion point gives a rational effective
+noncuspidal divisor $D$ of degree $10$ on $X$.
+
+The cusp signatures over $\mathbb Q$ and $\mathbb F_2$ are
+\[
+ 1^{22},2^{11},22^2\qquad\text{and}\qquad1^{22},2^{11},11^2,22.
+\]
+Every residue cusp of degree at most $10$ is therefore an intact
+global Galois orbit. If $\overline D$ is entirely cuspidal, its
+cuspidal lift $C$ is a rational effective divisor of degree $10$.
+The torsion kernel of reduction at $2$ has exponent two, so
+$2[D-C]=0$. Indeed, multiplication by two sends the first formal
+subgroup into the torsion-free second formal subgroup.
+Consequently $2D\sim2C$. The gonality bound forces $D=C$, a
+contradiction.
+
+The noncuspidal closed-point counts on $X_{\mathbb F_2}$ in
+degrees $1$ through $10$ are
+\[
+ (0,0,0,0,0,0,66,44,44,44).
+\]
+They are independently verified from every finite elliptic-curve
+isomorphism class and its level structures. Hence a reduction
+with noncuspidal support contains one point of degree
+$e\in\{7,8,9,10\}$ and a cuspidal complement of degree $10-e$.
+
+First use the quotient
+\[
+ Y=X/\ker\varepsilon,\qquad
+ \varepsilon(a)=\left(\frac{69}{a}\right).
+\]
+It is an unramified double cover of $X_0(69)$, of genus $13$.
+Both quotient Jacobians have rank zero. Since
+$\varepsilon(5)=1$, the operator $T_5-6$ kills their rational
+Jacobians. The base model is the normalization of
+$X_0(23)\times_{X(1)}X_0(3)$: over the genus-two field of
+$X_0(23)_{\mathbb F_2}$, with its exact $j$-map, adjoining a root of
+\[
+ v^4+v^3+1/j=0
+\]
+gives the genus-seven field of $X_0(69)$.
+The double cover is identified by its unramified quadratic
+character. The base Picard group is
+$C_{22}\times C_{44}\times\mathbb Z$.
+Its prescribed cusp Frobenius values leave two characters;
+requiring the three actual degree-seven source images to split
+leaves one. Exact field, cusp and Picard-generator checks identify
+this cover with $Y_{\mathbb F_2}$.
+
+The complete base and lifted Hecke tests give the following table.
+The lift column counts all choices above the base Hecke divisor,
+so it includes the actual correspondence.
+\[
+\begin{array}{c|r|r|r|r}
+ e&\text{base points}&\text{nonprincipal base tests}
+ &\text{lift choices tested}&\text{principal lift choices}\\\hline
+ 7&3&2&8&0\\
+ 8&2&2&0&0\\
+ 9&2&1&2&0\\
+ 10&2&0&8&2
+\end{array}
+\]
+All $27$ degree-zero divisor tests are replayed in fresh native
+maximal orders. Every serialized prime uses two generators,
+with equality of the generated ideal and exact function
+roundtrips. Independent explicit computations reproduce the
+$54$ underlying $5$-isogenies, the $23$-isogeny coordinates, and
+all norm multiplicities.
+The cuspidal complements contribute zero: they are sums of
+complete global cusp orbits of degrees one and two, and the
+cusp Hecke formula together with $\varepsilon(5)=1$ gives
+$T_5\pi_*C'=6\pi_*C'$.
+Thus only one degree-ten source diamond orbit remains.
+The two principal choices in the last row lie above that same
+orbit; they are not asserted to be the actual Hecke divisor.
+
+We resolve it by retaining the generator of the $23$-part.
+Let
+\[
+ Z=\operatorname{Norm}\bigl(X_1(23)\times_{X(1)}X_0(3)\bigr).
+\]
+This is the degree-two quotient $X/\langle\langle22\rangle\rangle$,
+of genus $67$, parametrizing $(E,\pm P_{23},C_3)$.
+Its Jacobian has rank zero, being a quotient of $J_1(69)$.
+Over $K=\mathbb F_2(X_1(23))$, of genus $12$, its field is
+\[
+ K(v),\qquad v^4+v^3+1/j=0.
+\]
+The quartic is irreducible and has genus $67$. The family
+$y^2+xy+vy=x^3$, with its point $(0,0)$ of order three, verifies
+the formula $j=1/(v^3(v+1))$ and hence the modular identification.
+At a rational base cusp, $v=1$ is a simple root of the reduced
+quartic: $f(1)=1/j$ has positive valuation and $f'(1)=1$.
+Hensel's lemma gives a rational place, proving that the exact
+constant field is $\mathbb F_2$.
+
+The remaining orbit has
+\[
+ j^{10}+j^8+j^7+j^6+j^5+j^4+j^3+j+1=0.
+\]
+The qualifying curve over $\mathbb F_{1024}$ has cyclic group of
+order $966$. Its subgroup of order $69$ is unique, so all its
+level structures form one diamond orbit. Fix a generator $P_{69}$.
+We construct its image on $Z$ from $(E,3P_{69})$ on $X_1(23)$.
+At this degree-ten base point, the quartic has exactly two
+irreducible factors, of degrees one and three. The unique linear
+factor therefore identifies the actual source image on $Z$.
+
+The six $5$-isogenies form two Frobenius orbits, with one and five
+members. Their images on $X_1(23)$ have degrees $10$ and $50$,
+equal to their $j$-degrees and their full $69$-level degrees.
+At each image the quartic again factors as $1+3$.
+Thus each actual Hecke image has a unique lift of the same
+degree to $Z$. This removes the ambiguity present in the
+smaller double cover. The norm weights are
+$10\cdot1/10=1$ and $10\cdot5/50=1$, so the resulting effective
+Hecke divisor $T$ has degree $60$.
+The image of $5P_{69}$ is constructed in the same way.
+All prime restrictions are checked with both generators of the
+base prime and a uniformizer. The proof packet records two
+actual generators of every prime, verifies their generated
+ideals and all serialization roundtrips, and reconstructs the
+source, diamond and Hecke divisors exactly.
+
+Write $P_Z$ for the degree-ten source image. Exact Riemann--Roch,
+independently repeated on the decoded packet in a fresh model,
+gives
+\[
+ h^0\bigl(T-P_Z-5\langle5\rangle P_Z\bigr)=0.
+\]
+In particular the degree-zero divisor is nonprincipal.
+On the other hand, Eichler--Shimura at $5$ and injectivity of
+rational torsion reduction at the good odd prime $5$ show that
+$T_5-1-5\langle5\rangle$ kills $J_Z(\mathbb Q)$.
+At the image $c$ of the standard rational Tate cusp,
+$T_5c=c+5\langle5\rangle c$ as a literal divisor.
+The image of $D$ on $Z$ would therefore give a principal divisor
+with exactly the displayed reduction, a contradiction.
+Hecke operators commute with diamonds, so this excludes the
+entire remaining source orbit and completes the proof.
+\end{proof}

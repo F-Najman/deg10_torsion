@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "group": "C3 x C18",
+  "absolute_field_degree": 10,
+  "relative_degree_over_Qzeta3": 5,
+  "absolute_generator_rescaling": "b=3*theta",
+  "absolute_polynomial_irreducible": true,
+  "relative_quintic_verified": true,
+  "primitive_relation_theta_equals_u_plus_zeta": true,
+  "both_global_curve_equations_and_RR_sections_vanish_exactly": true,
+  "both_independent_marked_3_and18_levels_verified_exactly": true,
+  "manual_and_Sage_Weil_pairings_primitive": true,
+  "normalized_actual_2isogeny_and_both_marked_images_checked": true,
+  "full_torsion_original": [
+    3,
+    18
+  ],
+  "full_torsion_2isogenous": [
+    3,
+    18
+  ],
+  "torsion_upper_bound_method": "Monic7-integral primitive polynomial squarefree mod7 implies unramified local degree2; good models have54points by exhaustive F49 count, so all global torsion injects and hasorder<=54",
+  "degree2_reductions": [
+    {
+      "factor_F7": [
+        1,
+        4,
+        1
+      ],
+      "residue_degree": 2,
+      "ramification_index": 1,
+      "good_reduction_both": true,
+      "exhaustive_cardinalities": [
+        54,
+        54
+      ]
+    },
+    {
+      "factor_F7": [
+        5,
+        5,
+        1
+      ],
+      "residue_degree": 2,
+      "ramification_index": 1,
+      "good_reduction_both": true,
+      "exhaustive_cardinalities": [
+        54,
+        54
+      ]
+    }
+  ],
+  "finite13_original_binding": {
+    "global_class": 13900,
+    "own_point_index": 106,
+    "q_t_exactly_equal": true
+  },
+  "finite13_partner_binding": {
+    "global_class": 14996,
+    "own_point_index": 1202,
+    "level_tuple_on_tau": [
+      1,
+      0,
+      2,
+      7
+    ],
+    "Frobenius_phase": 1,
+    "q_t_exactly_equal": true,
+    "independently_rebuilt_finite2isogeny": true
+  },
+  "finite13_zeta_value": 9,
+  "optional_j_minpolys_skipped": true,
+  "input_hashes": {
+    "endomorphism_gluing/global_point13900_absolute.m": "8e8695eebea6508ee0b32996f260017f94dcd9a254c7b38a518c4e5aeef5e43e",
+    "endomorphism_gluing/actual_target13_points.m": "cb959c68d66cb0f1951bc201aec9a7c162092d690963dd1611a813387abe1a99",
+    "global_function_field_char0.m": "e82e5d5bc6691a65ca976888537871e70b96237fc2ecdb54c0e129c33b8bb92a",
+    "global_RR_char0_reductionfalse.m": "f4826a6f8f07bed26c5fe273bb69c70f2a510808b2a635e50214399e577b4345"
+  },
+  "elapsed_seconds": 0.19276224495843053
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_native_small",
+  "script": "computations/next242_native_small.m",
+  "script_sha256": "6580a18f6ac779de626cf272fe1306927946f4eb717dd8da9c492088509c159f",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_native_small.m"
+  ],
+  "pid": 2363287,
+  "owner_uid": 1001,
+  "start_time_unix": 1793381278.3270328,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next242_native_small.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.8167974948883057
+}

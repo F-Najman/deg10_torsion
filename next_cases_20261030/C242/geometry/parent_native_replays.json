@@ -1,0 +1,154 @@
+{
+  "status": "PASS: independent native projected-prime and ideal-class controls; not a complete C242 exclusion",
+  "stages": [
+    {
+      "stage": "g5_s0",
+      "cache_rows": 1353,
+      "riemann_roch_identities": 1314,
+      "smooth_different_control": 0,
+      "unsupported_retained": 39
+    },
+    {
+      "stage": "g5_s1",
+      "cache_rows": 1362,
+      "riemann_roch_identities": 1321,
+      "smooth_different_control": 0,
+      "unsupported_retained": 41
+    },
+    {
+      "stage": "g5_s2",
+      "cache_rows": 1308,
+      "riemann_roch_identities": 1259,
+      "smooth_different_control": 0,
+      "unsupported_retained": 49
+    },
+    {
+      "stage": "cyclic21_full",
+      "cache_rows": 1241,
+      "riemann_roch_identities": 1023,
+      "smooth_different_control": 218,
+      "unsupported_retained": 0
+    },
+    {
+      "stage": "x0_42",
+      "cache_rows": 211,
+      "riemann_roch_identities": 140,
+      "smooth_different_control": 71,
+      "unsupported_retained": 0
+    }
+  ],
+  "actual_supported_prime_images": 5346,
+  "native_RR_identities_checked_in_both_orders": 5057,
+  "different_coprime_smooth_controls": 289,
+  "unsupported_j0_cache_rows_retained": 129,
+  "evidence": [
+    {
+      "path": "computations/cont242_parent_ideal_common.m",
+      "sha256": "40575314e71502e42e99626686c99365419347936100cbffd150eec172029105"
+    },
+    {
+      "path": "computations/cont242_parent_ideal_x042_common.m",
+      "sha256": "811eba7164a64d24ed983645f57d0d02f39dd82e3dff73cb3dd728296306f881"
+    },
+    {
+      "path": "computations/cont242_parent_ideal_g5_s0.m",
+      "sha256": "20c1e4c4897a08f678413e85b36e436708e80dbe4cd09c695cf337de64c41eae"
+    },
+    {
+      "path": "jobs/cont242_parent_ideal_g5_s0.status.json",
+      "sha256": "a29336a9e55a23ed4a935a4dbb2312084220020c315edcc955263fb7c1cfa442"
+    },
+    {
+      "path": "jobs/cont242_parent_ideal_g5_s0.log",
+      "sha256": "6da0f009e8cc2389d265fba26cc2564d031d699345c48e2c42adf289447934ad"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/parent_g5_s0_witnesses.m",
+      "sha256": "e1d99e6bfc58688071ee6ac988fec6e45320b1eb6ba11f754c710ba02064f4de"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/parent_g5_s0_ideal_replay.m",
+      "sha256": "1535783e4c2df68321c5192207b23f940c8eaf2f14b900e64f2d5d1565f81239"
+    },
+    {
+      "path": "computations/cont242_parent_ideal_g5_s1.m",
+      "sha256": "6cfcf92903382d56362e99dfbbfd61149411db20827b0b7f7f7caf0f42d62fd9"
+    },
+    {
+      "path": "jobs/cont242_parent_ideal_g5_s1.status.json",
+      "sha256": "d8da18eeb9ed3b9a19a62e13d425a9295c661c1937cd2972162ab064dff73c54"
+    },
+    {
+      "path": "jobs/cont242_parent_ideal_g5_s1.log",
+      "sha256": "3c2cbbfc76d85a4f47556479d917ca4916d947984dee9a5d2c076b7a7de4ec3d"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/parent_g5_s1_witnesses.m",
+      "sha256": "e05047185984bb1bb267b001bacf5b9414f80adcb0cde9816c85c23548a5dc9a"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/parent_g5_s1_ideal_replay.m",
+      "sha256": "41181e346de2833da4628cd56b378911e28f27871d25626818de2f22f7bf6d1f"
+    },
+    {
+      "path": "computations/cont242_parent_ideal_g5_s2.m",
+      "sha256": "39747948d85699a8c7737714d95eab0ad908e962d975b7053e141359b45dbf4e"
+    },
+    {
+      "path": "jobs/cont242_parent_ideal_g5_s2.status.json",
+      "sha256": "2e6842c8cc6a8de4ba6ebdbad3f0ccc3ab8c45ca420cbdd8f7c99b979ecda64c"
+    },
+    {
+      "path": "jobs/cont242_parent_ideal_g5_s2.log",
+      "sha256": "4de70ae17e87bc1a09e2c402359c0055eea104695908d8cdf0fb0df5e1bf5c91"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/parent_g5_s2_witnesses.m",
+      "sha256": "0ff5bde785c07cbda032d03105a1ff761956539af6bd8270648720004f9a4966"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/parent_g5_s2_ideal_replay.m",
+      "sha256": "2a5db91e262b04b8790d4f35852e201284bc6310de23ea5bd72852af2a114672"
+    },
+    {
+      "path": "computations/cont242_parent_ideal_cyclic21_full.m",
+      "sha256": "1e17c8840b58b16abf24b35292e2788df910a7ce882412616f067bcc58f35774"
+    },
+    {
+      "path": "jobs/cont242_parent_ideal_cyclic21_full.status.json",
+      "sha256": "4fabc4439bb924313a9dcc5f9be334b132153c28e73ca18e7410e04044eb78cc"
+    },
+    {
+      "path": "jobs/cont242_parent_ideal_cyclic21_full.log",
+      "sha256": "825a9cf6650a430223c745a9f0accdd59c5323f311733ac7945f390d97afe292"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/parent_cyclic21_full_witnesses.m",
+      "sha256": "a039b443f6e6190bab6d66a1482c0cd01ff11cd6f9e4be01fe68af418c5e0d09"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/parent_cyclic21_full_ideal_replay.m",
+      "sha256": "40ad131b773dfdf278b3f2d7d3912510195021a537b2e3fecafd42e88494e8b3"
+    },
+    {
+      "path": "computations/cont242_parent_ideal_x0_42.m",
+      "sha256": "befc4ee28c0dd7a093dc0bf1fd6d61650ad8ae4fbd1a08dcfde054f7a6790ce9"
+    },
+    {
+      "path": "jobs/cont242_parent_ideal_x0_42.status.json",
+      "sha256": "3c8b464967716850e202387f8276c9bdd875d282e9e9fdd999b8201219f76ff2"
+    },
+    {
+      "path": "jobs/cont242_parent_ideal_x0_42.log",
+      "sha256": "aad126ce5fec76db8a77693b336f822ad85f056ac5853cbea55ac6cff6e328d9"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/parent_x0_42_witnesses.m",
+      "sha256": "6ac983c971e56711592f1b8ed6deea3e16ebc063aced72e817b23b87d4d0a38a"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/parent_x0_42_ideal_replay.m",
+      "sha256": "d5d72e9caa1ba8d0d303ca802ab6babefc04c13348866ce88dcb36a6144aff14"
+    }
+  ]
+}

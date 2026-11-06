@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C60_independent_fibres",
+  "script": "continuation_20261031b/C60/d31b_C60_independent_fibres.m",
+  "script_sha256": "55461bb422f09d525f239ae62210d1374672d684988812ec36e8b27810fab524",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C60/d31b_C60_independent_fibres.m"
+  ],
+  "pid": 3469411,
+  "owner_uid": 1001,
+  "start_time_unix": 1793433608.6668968,
+  "state": "EXITED",
+  "time_limit_seconds": 800,
+  "log": "jobs/d31b_C60_independent_fibres.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 61.444631576538086
+}

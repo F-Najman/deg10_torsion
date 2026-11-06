@@ -1,0 +1,19 @@
+{
+  "purpose": "contc91_witt_differentials",
+  "script": "computations/contc91_witt_differentials.m",
+  "script_sha256": "dbe71d39a02bb418decab8eb3a96e64af0cecd84bfd96b6a8108cb9d9f3ebfe8",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc91_witt_differentials.m"
+  ],
+  "pid": 2733153,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398715.6935492,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/contc91_witt_differentials.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 250.09360694885254
+}

@@ -1,0 +1,716 @@
+{
+  "status": "PASS",
+  "active_source_points": 72,
+  "patterns_rejected": 24,
+  "original_marked_halving_lifts_verified": true,
+  "manual_order2_Velu_coordinates_verified": true,
+  "dual_composition_and_orders_verified": true,
+  "all_multiplicity_one_obstructions_verified": true,
+  "points": [
+    {
+      "pointID": 1,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 2,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 3,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 4,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 5,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 6,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 13,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 14,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 15,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 16,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 17,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 18,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 25,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 26,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 27,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 28,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 29,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 30,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 31,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 32,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 33,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 34,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 35,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 36,
+      "degree": 2,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 397,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 398,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 399,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 400,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 401,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 402,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 415,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 416,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 417,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 418,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 419,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 420,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 775,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 776,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 777,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 793,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 794,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 795,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 841,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 842,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 843,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 844,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 845,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 846,
+      "degree": 3,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 943,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 944,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 945,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 946,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 947,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 948,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 955,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 956,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 957,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 958,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 959,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 960,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 1288,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 1289,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 1290,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 1291,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 1292,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 1293,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 1294,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    },
+    {
+      "pointID": 1295,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 1296,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 1297,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 1298,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        2,
+        2
+      ],
+      "marked_lifts": 0
+    },
+    {
+      "pointID": 1299,
+      "degree": 4,
+      "half_quartic_factor_degrees": [
+        1,
+        1,
+        2
+      ],
+      "marked_lifts": 2
+    }
+  ],
+  "seconds": 0.6461945581249893
+}

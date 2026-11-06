@@ -1,0 +1,31 @@
+\begin{lemma}\label{lem:decic54-gonality}
+The curve $X_1(54)$ has rational gonality at least $12$.
+\end{lemma}
+\begin{proof}
+Put $X=X_1(54)$ and let $Y$ be the quotient by the order-$3$
+projective diamond $\langle17\rangle$.
+Then $g(X)=52$ and $g(Y)=10$.
+For completeness, the congruence subgroup of $Y$ has index $324$,
+no elliptic points, and $36$ cusps. Thus its genus is
+$1+324/12-36/2=10$.
+The cusp count can also be obtained directly: $X$ has $60$ geometric
+cusps, of which $24$ are fixed by $\langle17\rangle$, so the quotient
+has $(60+2\cdot24)/3=36$ cusps.
+The exact primitive-coset calculation is recorded in
+\path{parent_gonality_controls.json}.
+
+The analytic bound \cite[(2.1)]{NV} gives
+\[
+ \operatorname{gon}_{\mathbb C}(X)
+ \geq\frac{325\cdot972}{32768}>9.
+\]
+Suppose that $f:X\longrightarrow\mathbb P^1$ has degree
+$n\in\{10,11\}$. Since $[\mathbb Q(X):\mathbb Q(Y)]=3$ is prime,
+either $f$ factors through $Y$, or the two maps generate
+$\mathbb Q(X)$. The first alternative would imply $3\mid n$.
+In the second, Castelnuovo--Severi gives
+\[
+ 52=g(X)\leq 3g(Y)+(3-1)(n-1)\leq50,
+\]
+a contradiction. This excludes both remaining degrees.
+\end{proof}

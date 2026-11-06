@@ -1,0 +1,19 @@
+{
+  "purpose": "cont75_nc10_job1",
+  "script": "continuation_20261030b/C75/cont75_nc10_job1.m",
+  "script_sha256": "76cecf15fff6e661b479b91507f678bd7160cd9ff6cbf5e3d600f94ddf36c36a",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C75/cont75_nc10_job1.m"
+  ],
+  "pid": 2535767,
+  "owner_uid": 1001,
+  "start_time_unix": 1793389300.476226,
+  "state": "EXITED",
+  "time_limit_seconds": 360,
+  "log": "jobs/cont75_nc10_job1.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 24.494998931884766
+}

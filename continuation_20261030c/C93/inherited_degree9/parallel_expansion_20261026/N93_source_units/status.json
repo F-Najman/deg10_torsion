@@ -1,0 +1,27 @@
+{
+  "N": 93,
+  "status": "FAILED_OR_GUARDED",
+  "identity": {
+    "pid": 2733752,
+    "start_ticks": 186142172
+  },
+  "args": [
+    "/usr/local/bin/magma",
+    "-b",
+    "N:=93",
+    "OutDir:=work/degree9/parallel_expansion_20261026/N93_source_units",
+    "work/degree9/parallel_expansion_20261026/N93_source_units/geometry.m"
+  ],
+  "nice": 10,
+  "native_memory_bytes": 8000000000,
+  "AS_bytes": 12884901888,
+  "CPU_limit_seconds": 1800,
+  "hard_CPU_seconds": 1810,
+  "wall_limit_seconds": 7200,
+  "started_utc": "2026-10-26T22:40:04.356571+00:00",
+  "source_sha256": "4fc309328f433f7b1b2a1fc41a24b13bbb189c7ea5dafb49370d0ccb5abc174a",
+  "actual_exit_code": 1,
+  "completion_marker": false,
+  "elapsed_wall_seconds": 0.018389564007520676,
+  "log_sha256": "3495aa299b19e46460d915317ba1a7eb05233fb5550bb9ac90d64dc6433313f6"
+}

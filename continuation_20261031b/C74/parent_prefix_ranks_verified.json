@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "rational_cusp_patterns": 8436285,
+  "sextic_plus_cusp_patterns": 5985,
+  "rank": 10,
+  "rows": 38,
+  "method": "Full Gaussian rank at every leaf after independent invertible row-basis change",
+  "seconds": 0.7777400612831116,
+  "source_hashes": {
+    "rational_cusp_jets.m": "e498837d391565428c772ea7e7a98738c06e1243beb8052811a8379be2a7846f",
+    "sextic_restriction.m": "c7e3e8d5d8a76c2c7a649b6b92e57f86d3c1afc49bfd2f24780d08e04f228070",
+    "parent_prefix_ranks.cpp": "60fdbfa97d04584f28ed0b5b00892dcf0e42863df8772d67de266252d78fc21e",
+    "parent_prefix_rank_input.txt": "0d79bcba158e1ce3b32a2f381ea46680b117e57a5c7d9aba75e98efeadf47952",
+    "parent_prefix_ranks": "99b36f4341f535cfeb6ff80b25c1e93709e34ea806cb67c66811449569418778"
+  }
+}

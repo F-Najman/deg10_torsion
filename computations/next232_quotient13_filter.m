@@ -1,0 +1,24 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(4*10^9);tt:=Cputime();AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");
+load "work/deg10/C232_resolution_20261030/deps/portable_forward.m";
+a:=eval Read("work/deg10/C232_resolution_20261030/quotient13_proven_picard.m");k:=GF(3);PP:=PolynomialRing(k);B<t>:=FunctionField(k);RF<Y>:=PolynomialRing(B);
+function Rat(v) return B!(PP!v[1])/B!(PP!v[2]);end function;
+f:=RF![Rat(v):v in a[1]];f/:=LeadingCoefficient(f);F<y>:=FunctionField(f);assert Genus(F) eq 13;
+function GFUN(v) return F![Rat(w):w in v];end function;
+OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);
+function DP(s) OO:=s[1] eq 1 select OF else OI;I:=ideal<OO|[GFUN(v):v in s[3]]>;pl:=Place(I);assert Degree(pl) eq s[2];return pl;end function;
+fb:=[];for j in [1..#a[4]] do OO:=a[2][j] eq 1 select OF else OI;I:=ideal<OO|[GFUN(v):v in a[4][j]]>;pl:=Place(I);assert Degree(pl) eq a[3][j];Append(~fb,pl);end for;
+Z:=FreeAbelianGroup(#a[6][1]);G,q:=quo<Z|[Z!v:v in a[6]]>;fc:=[q(Z!v):v in a[5]];A0:=Divisor(fb[a[8]]);A:=Divisor(DP(a[12]));cs:=[DP(v):v in a[11]];cc:=[q(Z!v):v in a[10]];coords:=[GFUN(v):v in a[7]];b,c,w:=Explode(coords);
+E:=EllipticCurve([F|0,c,0,b*(1-b-c),0]);Q:=E![b,b];T:=8*Q;assert w^2 eq Q[1]-T[1];RZ<zz>:=PolynomialRing(F);L<z>:=FunctionField(zz^2-b);EL:=EllipticCurve([L!v:v in aInvariants(E)]);r0:=z;rT:=L!w;rU:=-L!b/(r0*rT);s1:=r0+rT+rU;s2:=r0*rT+rT*rU+rU*r0;S:=EL![L!b+s2,-L!b-s1*s2];assert 2*S eq EL![L!b,L!b];unit:=F!Norm(S[1]^3/S[2]^2);units:=[b,1-b-c,c^2-4*b*(1-b-c),w,unit];sigs:=[[Valuation(u,p):u in units]:p in cs];print "C232_QUOTIENT13_SIGNATURES",#Seqset(sigs),Cputime(tt);
+groups:=AssociativeArray();for i in [1..#cs] do if IsDefined(groups,sigs[i]) then Append(~groups[sigs[i]],i);else groups[sigs[i]]:=[i];end if;end for;blocks:=[groups[s]:s in Sort(Setseq(Keys(groups)))];hg:=[&+[cc[i]:i in bl]:bl in blocks];H:=sub<G|hg>;M:=0;orders:=[];
+for p in [3,5,7,11,13,17] do v:=Integers()!Evaluate(FrobeniusPolynomial(JH(64,[15]),p),1);Append(~orders,v);M:=GCD(M,v);end for;
+print "C232_QUOTIENT13_RATIONAL_CUSP_BOUND",Invariants(H),#H,M,M div #H,orders,Cputime(tt);assert M mod #H eq 0;
+phi,witness:=C240PortableDirectRR(F,fb,fc,G,A0,"work/deg10/C232_resolution_20261030/quotient13_filter_RR.log");
+src:=eval Read("work/deg10/C232_resolution_20261030/source6.m");ky:=(eval Read("work/deg10/C232_resolution_20261030/filterprobe6.m"))[3][1][3];K<aa>:=ext<k|PP!src[2]>;b32:=Evaluate(PP!ky[1..6],aa);c32:=Evaluate(PP!ky[7..12],aa);EX:=EllipticCurve([K|0,c32,0,b32*(1-b32-c32),0]);P:=EX![0,0];S:=EX![b32,b32];Q16:=2*S;T:=16*S;vals:=DerickxNormalForm_bc(EX,P,Q16);alpha:=Q16[1]/Q16[2];bt:=3*T[1]^2+2*c32*T[1]+b32*(1-b32-c32);ww:=alpha*((S[1]-T[1])^2-bt)/(2*S[2]);Append(~vals,ww);assert &and[v^27 eq v:v in vals];
+function Place3(vals)
+ e:=LCM([Degree(MinimalPolynomial(v,k)):v in vals]);assert e eq 3;gen:=vals[1];assert Degree(MinimalPolynomial(gen,k)) eq e;mat:=Matrix(k,[Eltseq(gen^i,k):i in [0..e-1]]);vs:=[Eltseq(Solution(mat,Vector(k,Eltseq(v,k)))):v in vals];pol:=MinimalPolynomial(gen,k);gg:=coords[1];fs:=[Evaluate(pol,gg)] cat [coords[j]-&+[F!vs[j][i+1]*gg^i:i in [0..e-1]]:j in [1..3]];I:=ideal<OF|fs>;fa:=Factorization(I);pp:=[Place(r[1]):r in fa|r[2] gt 0];assert #pp eq 1 and Degree(pp[1]) eq e;return pp[1];
+end function;
+npl:=Place3(vals);v:=phi(Divisor(npl)-3*A);r:=M div #H;tests:=[* *];remaining:=[];
+for i in [1..#cs] do if Degree(cs[i]) ne 2 then continue;end if;yes:=r*(v+cc[i]) in H;Append(~tests,[*i,Eltseq(v+cc[i]),yes*]);if yes then Append(~remaining,i);end if;end for;
+function ER(v) return [[Integers()!x:x in Coefficients(Numerator(v))],[Integers()!x:x in Coefficients(Denominator(v))]];end function;
+function EF(v) return [ER(x):x in Eltseq(F!v)];end function;
+out:=[*sigs,blocks,[Eltseq(x):x in hg],#H,M,orders,[EF(u):u in units],src[2],[[Integers()!x:x in Eltseq(v,k)]:v in vals],Eltseq(v),tests,remaining*];Write("work/deg10/C232_resolution_20261030/quotient13_filter.m",Sprint(out):Overwrite:=true);fprintf witness,"]\n";Flush(witness);print "C232_QUOTIENT13_FILTER_COMPLETE",#tests,remaining,Cputime(tt);quit;

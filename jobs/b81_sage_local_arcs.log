@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_sage_local_arcs.py", line 132, in <module>
+    locals_=[LocalArc(v) for v in meta[5]]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_sage_local_arcs.py", line 132, in <listcomp>
+    locals_=[LocalArc(v) for v in meta[5]]
+             ^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_sage_local_arcs.py", line 31, in __init__
+    self.binarybasis=matrix(F2,[list(v.vector()) for v in basis])
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b81_sage_local_arcs.py", line 31, in <listcomp>
+    self.binarybasis=matrix(F2,[list(v.vector()) for v in basis])
+                                     ^^^^^^^^
+  File "sage/structure/element.pyx", line 495, in sage.structure.element.Element.__getattr__ (build/cythonized/sage/structure/element.c:13068)
+  File "sage/structure/element.pyx", line 508, in sage.structure.element.Element.getattr_from_category (build/cythonized/sage/structure/element.c:13178)
+  File "sage/cpython/getattr.pyx", line 363, in sage.cpython.getattr.getattr_from_other_class (build/cythonized/sage/cpython/getattr.c:4677)
+AttributeError: 'sage.rings.finite_rings.element_ntl_gf2e.FiniteField_ntl_gf2eElement' object has no attribute 'vector'. Did you mean: '_vector_'?

@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "files": [
+    {
+      "source": "work/degree9/cyclic/continuation_20261027/C78_X139/independent_census_root/census39_F512.py",
+      "copy": "census_root/census39_F512.py",
+      "sha256": "b04b98ab72e2b8af4ef698f2e91a800b7284da0c389b2defb9b04cd85968eca2"
+    },
+    {
+      "source": "work/degree9/cyclic/continuation_20261027/C78_X139/independent_census_root/census39_F512.json",
+      "copy": "census_root/census39_F512.json",
+      "sha256": "e9a860837e5be7f7bd6fe0852477a00b56ebde81672c6dcf39ed72936566a2c7"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Loading "work/deg10/continuation_20261029b/C226/picard_template.m"
+Loading "work/deg10/continuation_20261029b/deps/pair_af_place_linear.m"
+Loading "work/deg10/continuation_20261029b/C240/portable/portable_forward.m"
+C226_PICARD_TEST 5 [ 1, 6, 4 ]
+false 49.080
+C226_PICARD_TEST 13 [ 1, 7, 5 ]
+false 65.240
+C226_PICARD_TEST 21 [ 1, 10, 9 ]
+false 94.830
+C226_PICARD_TEST 29 [ 2, 5, 1, 5, 15 ]
+false 114.420
+C226_PICARD_SHARD_COMPLETE 4 4 0 114.480

@@ -1,0 +1,19 @@
+{
+  "purpose": "contc85_arc_q8width1",
+  "script": "continuation_20261030c/C85/contc85_arc_q8width1.m",
+  "script_sha256": "6d206defd62c532b57887b40451a15768b6e9656aecf2858cc9a05c993eafefb",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C85/contc85_arc_q8width1.m"
+  ],
+  "pid": 2714547,
+  "owner_uid": 1001,
+  "start_time_unix": 1793397849.104776,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/contc85_arc_q8width1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 30.462321281433105
+}

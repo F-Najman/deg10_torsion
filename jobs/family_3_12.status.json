@@ -1,0 +1,18 @@
+{
+  "purpose": "family_3_12",
+  "script": "computations/family_3_12.m",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/family_3_12.m"
+  ],
+  "pid": 4183147,
+  "owner_uid": 1001,
+  "start_time_unix": 1793273711.38943,
+  "state": "EXITED",
+  "time_limit_seconds": 90,
+  "log": "jobs/family_3_12.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.01589369773864746
+}

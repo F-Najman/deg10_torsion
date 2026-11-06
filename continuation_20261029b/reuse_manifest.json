@@ -1,0 +1,116 @@
+[
+  {
+    "source": "work/degree9/noncyclic/C230/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "source_sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6",
+    "copy": "continuation_20261029b/deps/class_group_direct_RR_checked_v4_fastfb.m",
+    "sha256": "be01f21c7174d4eb33240968c3c194c48ae8981e98b57c255980ab9f1ea015d6"
+  },
+  {
+    "source": "work/degree9/noncyclic/C230/deps/native_group_generators.m",
+    "source_sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1",
+    "copy": "continuation_20261029b/deps/native_group_generators.m",
+    "sha256": "99b5c7688aeef6bb764345bfa56160261d545404037cd0452961ab5bb286fbc1"
+  },
+  {
+    "source": "work/degree9/noncyclic/C230/deps/pair_af_place_linear.m",
+    "source_sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802",
+    "copy": "continuation_20261029b/deps/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/deps/fast_hecke_cyclic_commonzero.m",
+    "source_sha256": "73e367f6849235036f3fecd9e31850927e93bec6a0afccf468b0770bc0fe8de4",
+    "copy": "continuation_20261029b/deps/fast_hecke_cyclic_commonzero.m",
+    "sha256": "73e367f6849235036f3fecd9e31850927e93bec6a0afccf468b0770bc0fe8de4"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/M2N40_D9_direct_full4_arithmetic.txt",
+    "source_sha256": "26b50b2450b8dce3a67c8ef4b855bd91062dbd0fc0311254ce888395a8fbc256",
+    "copy": "continuation_20261029b/C240/M2N40_D10_direct_full4_arithmetic.txt",
+    "sha256": "26b50b2450b8dce3a67c8ef4b855bd91062dbd0fc0311254ce888395a8fbc256"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/M2N40_D9_direct_full5_arithmetic.txt",
+    "source_sha256": "1a9c6b0b38d9c22b8d538abe84782578be326b3772a1edb322913ca5c61a94ef",
+    "copy": "continuation_20261029b/C240/M2N40_D10_direct_full5_arithmetic.txt",
+    "sha256": "1a9c6b0b38d9c22b8d538abe84782578be326b3772a1edb322913ca5c61a94ef"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/M2N40_D9_direct_full6_arithmetic.txt",
+    "source_sha256": "d3df82d18bec50d1783ee48e34ab8de9b2e7b4314e65260240995820750f5de9",
+    "copy": "continuation_20261029b/C240/M2N40_D10_direct_full6_arithmetic.txt",
+    "sha256": "d3df82d18bec50d1783ee48e34ab8de9b2e7b4314e65260240995820750f5de9"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/M2N40_D9_direct_full7_arithmetic.txt",
+    "source_sha256": "f5df0c5a09022693b1b115aa71efb28dbe161243bf3c2214f1a7169bdc8ae42d",
+    "copy": "continuation_20261029b/C240/M2N40_D10_direct_full7_arithmetic.txt",
+    "sha256": "f5df0c5a09022693b1b115aa71efb28dbe161243bf3c2214f1a7169bdc8ae42d"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/M2N40_D9_direct_full8_arithmetic.txt",
+    "source_sha256": "c505375e755176cdb175658cbc7329961e37e46eabc420be6e31eb78b394299d",
+    "copy": "continuation_20261029b/C240/M2N40_D10_direct_full8_arithmetic.txt",
+    "sha256": "c505375e755176cdb175658cbc7329961e37e46eabc420be6e31eb78b394299d"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/M2N40_D9_direct_full9_arithmetic.txt",
+    "source_sha256": "606c81c27925dedb289293eaf5b27ae42aad1894f1af3e03328152df022a20f4",
+    "copy": "continuation_20261029b/C240/M2N40_D10_direct_full9_arithmetic.txt",
+    "sha256": "606c81c27925dedb289293eaf5b27ae42aad1894f1af3e03328152df022a20f4"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/cusp_degrees.txt",
+    "source_sha256": "9f6d01ba848ddca9c00132976478da7c1b1752afb4fb44f28055d351a941004c",
+    "copy": "continuation_20261029b/C240/cusp_degrees.txt",
+    "sha256": "9f6d01ba848ddca9c00132976478da7c1b1752afb4fb44f28055d351a941004c"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/portable_inputs.m",
+    "source_sha256": "097fbcf7f642b5def671cf28179d908c4dfda688b2c9275c2201fbe3680f58de",
+    "copy": "continuation_20261029b/C240/portable/portable_inputs.m",
+    "sha256": "097fbcf7f642b5def671cf28179d908c4dfda688b2c9275c2201fbe3680f58de"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/portable_forward.m",
+    "source_sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49",
+    "copy": "continuation_20261029b/C240/portable/portable_forward.m",
+    "sha256": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/import_provenance.json",
+    "source_sha256": "0bad545838c312b606b0fbe5d6566731a95203fe970c996dbd30efcec24ef182",
+    "copy": "continuation_20261029b/C240/portable/import_provenance.json",
+    "sha256": "0bad545838c312b606b0fbe5d6566731a95203fe970c996dbd30efcec24ef182"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/imported/factorbase_geometry.py",
+    "source_sha256": "d026b0aad0ebada07f1738362bdf2a6e0d8317d9ba49aefd64029e95ac5d4f5d",
+    "copy": "continuation_20261029b/C240/portable/imported/factorbase_geometry.py",
+    "sha256": "d026b0aad0ebada07f1738362bdf2a6e0d8317d9ba49aefd64029e95ac5d4f5d"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/imported/function_field_bindings.py",
+    "source_sha256": "204ef61231d17eaef17fa091a242c9161cb55e85b01d86b394f3d5d3cd48a208",
+    "copy": "continuation_20261029b/C240/portable/imported/function_field_bindings.py",
+    "sha256": "204ef61231d17eaef17fa091a242c9161cb55e85b01d86b394f3d5d3cd48a208"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/imported/class_arithmetic_direct_RR.py",
+    "source_sha256": "cc573813580a939fb45f877062406e1ccdf74b979705cab970204a2930fb6084",
+    "copy": "continuation_20261029b/C240/portable/imported/class_arithmetic_direct_RR.py",
+    "sha256": "cc573813580a939fb45f877062406e1ccdf74b979705cab970204a2930fb6084"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/imported/diagnostics/proven_relation_state.py",
+    "source_sha256": "689fa8ab2a69dea54897b002cc9e59c1a597f6bfae60a941c6363dd5f29dcc0e",
+    "copy": "continuation_20261029b/C240/portable/imported/diagnostics/proven_relation_state.py",
+    "sha256": "689fa8ab2a69dea54897b002cc9e59c1a597f6bfae60a941c6363dd5f29dcc0e"
+  },
+  {
+    "source": "work/degree9/noncyclic/C240_completion_20261026/portable_proven_picard/imported/classification_manifest.json",
+    "source_sha256": "c337f6229296ec152a97b44d77bd03425ec371541bd901e4c83484847b0088d0",
+    "copy": "continuation_20261029b/C240/portable/imported/classification_manifest.json",
+    "sha256": "c337f6229296ec152a97b44d77bd03425ec371541bd901e4c83484847b0088d0"
+  }
+]

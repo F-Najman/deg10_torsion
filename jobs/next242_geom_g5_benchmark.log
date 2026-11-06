@@ -1,0 +1,16 @@
+Loading "work/deg10/next_cases_20261030/C242/geometry/quotient5_filter_common.m\
+"
+Loading "work/deg10/next_cases_20261030/C242/geometry/deps/portable_forward.m"
+Loading "work/deg10/next_cases_20261030/C242/geometry/quotient5_helpers.m"
+In file "work/deg10/next_cases_20261030/C242/geometry/quotient5_filter_common.m", line 4, column 4:
+>> a:=eval Read("work/deg10/next_cases_20261030/C242/geometry/quotient5_proven
+      ^
+
+In eval expression, line 10380, column 14:
+>> [* [* 9, 1, (u^9 + 4*u^8 + 3*u^7 + u^6 + 2*u^5 + 4*u^3 + 2*u^2 + 2*u + 4, F
+                ^
+    Located in file "work/deg10/next_cases_20261030/C242/geometry/quotient5_filter_common.m", at line 4, column 4:
+    >> a:=eval Read("work/deg10/next_cases_20261030/C242/geometry/quotient5_proven
+          ^
+User error: Identifier 'u' has not been declared or assigned
+

@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_sage_finite.py", line 2, in <module>
+    runpy.run_path("work/deg10/continuation_20261030b/C55/replay_finite_geometry.py",run_name="__main__")
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "work/deg10/continuation_20261030b/C55/replay_finite_geometry.py", line 51, in <module>
+    assert list(orbitkey([E.j_invariant()]))==jkey
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "work/deg10/continuation_20261030b/C55/replay_finite_geometry.py", line 19, in orbitkey
+    for i in range(n):out.append(tuple(int(c)for v in vs for c in (v**(2**i)).vector()))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "work/deg10/continuation_20261030b/C55/replay_finite_geometry.py", line 19, in <genexpr>
+    for i in range(n):out.append(tuple(int(c)for v in vs for c in (v**(2**i)).vector()))
+                                                                  ^^^^^^^^^^^^^^^^^^
+  File "sage/structure/element.pyx", line 495, in sage.structure.element.Element.__getattr__ (build/cythonized/sage/structure/element.c:13068)
+  File "sage/structure/element.pyx", line 508, in sage.structure.element.Element.getattr_from_category (build/cythonized/sage/structure/element.c:13178)
+  File "sage/cpython/getattr.pyx", line 363, in sage.cpython.getattr.getattr_from_other_class (build/cythonized/sage/cpython/getattr.c:4677)
+AttributeError: 'sage.rings.finite_rings.element_givaro.FiniteField_givaroElement' object has no attribute 'vector'. Did you mean: '_vector_'?

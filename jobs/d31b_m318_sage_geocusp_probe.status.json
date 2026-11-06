@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m318_sage_geocusp_probe",
+  "script": "computations/d31b_m318_sage_geocusp_probe.py",
+  "script_sha256": "ccc3820a7b708cc2f97eccd8c3d48dc25508c5a5a640e0614446a00b2b624b68",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_sage_geocusp_probe.py"
+  ],
+  "pid": 3656110,
+  "owner_uid": 1001,
+  "start_time_unix": 1793441770.5277827,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31b_m318_sage_geocusp_probe.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 1.073436975479126
+}

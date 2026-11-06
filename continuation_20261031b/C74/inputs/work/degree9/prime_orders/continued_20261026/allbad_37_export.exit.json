@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-10-26T11:23:56.680313+00:00",
+  "worker_pid": 1715854,
+  "worker_start_ticks": 182085406,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/allbad_37_export.m"
+  ],
+  "actual_cmdline": [
+    "/bin/sh",
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/allbad_37_export.m"
+  ],
+  "wall_seconds": 10.000928363995627,
+  "cpu_seconds": 0.0,
+  "state": "R",
+  "wall_cap_seconds": 3600,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T11:24:06.681244+00:00",
+  "termination_reason": null
+}

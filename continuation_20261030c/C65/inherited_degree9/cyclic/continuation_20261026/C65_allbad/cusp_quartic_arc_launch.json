@@ -1,0 +1,10 @@
+{
+  "supervisor_pid": 2907877,
+  "launcher_pid": 2907878,
+  "cpu_soft": 1770,
+  "cpu_hard": 1800,
+  "memory_budget": 12000000000,
+  "address_space_limit": 17179869184,
+  "wall_limit": 7200,
+  "nice": 10
+}

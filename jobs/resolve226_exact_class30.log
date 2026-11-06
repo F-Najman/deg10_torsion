@@ -1,0 +1,11 @@
+Loading "work/deg10/C226_resolution_20261030/exact_class_template.m"
+Q226_EXACT_POSITIVE_RR_START 30 12 4.210
+Q226_EXACT_POSITIVE_RR_READY 30 2 124.980
+Q226_EXACT_RR_DIMENSION 30 1 153.960
+Q226_EFFECTIVE_IDEALS_SAVED 30 159.820
+
+In file "work/deg10/C226_resolution_20261030/exact_class_template.m", line 25, column 79:
+>> fac:=Factorization(IE) cat Factorization(JE);pls:=[Place(r[1]):r in fac];mu
+                          ^
+Runtime error in 'cat': Incompatible sequences
+

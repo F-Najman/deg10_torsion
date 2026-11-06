@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "group": [
+    3,
+    27
+  ],
+  "degree": 10,
+  "relative_ground_field": "Q(zeta3)",
+  "relative_degree": 5,
+  "new_exclusion": true,
+  "rank_zero_input": "Derickx-Sutherland Theorem4.1 m3 n9",
+  "genus": 46,
+  "geometric_gonality_lower_bound": "78975/8192 >9",
+  "global_and_F4_cusp_signature": {
+    "1": 27,
+    "3": 6,
+    "9": 3
+  },
+  "Frobenius4_generates_full_relative_cusp_Galois_group": true,
+  "split37_Jacobian_order_odd": true,
+  "independent_Sage_modular_symbol_determinant_matches_native_Frobenius_order": true,
+  "source_NC_closed_counts_F4": [
+    0,
+    0,
+    0,
+    0,
+    162
+  ],
+  "cyclic27_image_places": 54,
+  "image_diamond_orbits": 6,
+  "RR_dimensions": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "independent_actual7kernels": 48,
+  "manual_Velu_checks": 48,
+  "parent_native_two_generator_prime_references": 36,
+  "GF4_constant_orientation_exactly_bound": true,
+  "cuspidal_saturation_assumed": false,
+  "workers_remaining": 0
+}

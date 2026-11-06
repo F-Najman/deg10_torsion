@@ -1,0 +1,25 @@
+D31B_C66_GONAL_CLASS_COVERAGE_COMPLETE 10 2
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_gonal_genuine_replay_v2.py", line 39, in <module>
+    out={'status':'PASS','global_gonal_classes':10,'diamond_orbits':2,'transported_pencil_classes':[list(v)for v in classes],'fibres':fib,'genuine_marked_2kernels':kernels,'distinct_source33_places':len(points),'source66_degrees_verified':True,'all_TwoGenerators_bound_to_actual_moduli':True,'all_paired_fibre_degrees_at_most':4,'details':details,'elapsed_seconds':time.monotonic()-start};(C/'gonal_genuine_independent.json').write_text(json.dumps(out,indent=2)+'\n');print('D31B_C66_GONAL_GENUINE_INDEPENDENT_COMPLETE',kernels,len(points),'maxdegree4',flush=True)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Integer is not JSON serializable

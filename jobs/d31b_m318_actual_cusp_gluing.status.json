@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m318_actual_cusp_gluing",
+  "script": "computations/d31b_m318_actual_cusp_gluing.py",
+  "script_sha256": "efa4087c34fd13f1951b2833a617880067a72d1ac002391cfadc3ac67d153ff3",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_actual_cusp_gluing.py"
+  ],
+  "pid": 3708885,
+  "owner_uid": 1001,
+  "start_time_unix": 1793444078.9035342,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/d31b_m318_actual_cusp_gluing.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.4739115238189697
+}

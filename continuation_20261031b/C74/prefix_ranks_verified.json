@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "algorithm": "incremental binary pivot basis along complete multiplicity recursion",
+  "reports": [
+    {
+      "case": "rational",
+      "patterns": 8436285,
+      "failures": 0,
+      "rank": 10,
+      "seconds": 0.5921088829636574,
+      "input_sha256": "08f0a9cd0335cee3fbe350abb5d37d937691a256363f1186a584ff2bde055aa9"
+    },
+    {
+      "case": "sextic",
+      "patterns": 5985,
+      "failures": 0,
+      "rank": 10,
+      "seconds": 0.0024656536988914013,
+      "input_sha256": "aa1417254d2415e34f34b26828297c709de7f01c3f3f1ca0581f0e03455e50c1"
+    }
+  ]
+}

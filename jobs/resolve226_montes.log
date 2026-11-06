@@ -1,0 +1,6 @@
+Q226_FUNCTION_FIELD_READY 12 1.100
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_montes.m", line 6, column 20:
+>> fac:=Factorization(&lcm[Denominator(a):a in Coefficients(f)]);D:=B!1;
+                      ^
+User error: Bad reduction operator

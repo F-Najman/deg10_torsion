@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C54_member_profile_classes",
+  "script": "continuation_20261031b/C54/d31b_C54_member_profile_classes.m",
+  "script_sha256": "cf0ecacb27ef3a42531daa63fa928ac04768758b438fd8fd29a2e74f16652247",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C54/d31b_C54_member_profile_classes.m"
+  ],
+  "pid": 3591675,
+  "owner_uid": 1001,
+  "start_time_unix": 1793439092.4549499,
+  "state": "EXITED",
+  "time_limit_seconds": 450,
+  "log": "jobs/d31b_C54_member_profile_classes.log",
+  "actual_exit_code": -15,
+  "termination_reason": null,
+  "elapsed_seconds": 18.645312070846558
+}

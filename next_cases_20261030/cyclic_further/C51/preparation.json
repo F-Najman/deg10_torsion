@@ -1,0 +1,13 @@
+{
+  "N": 51,
+  "degree": 10,
+  "old_jet_degree10_divisors": 9655880,
+  "missing_pattern_types": [
+    "9P+Q rational",
+    "10P rational",
+    "5R quadratic"
+  ],
+  "proof_status": "COMPLETE; independent parent review pending",
+  "proof": "resolution.tex",
+  "accepted_final_certificate": "final_certificate_summary.json"
+}

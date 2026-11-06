@@ -1,0 +1,18 @@
+{
+  "purpose": "cont_replay_hecke_cases",
+  "script": "computations/cont_replay_hecke_cases.py",
+  "script_sha256": "d3376be52ff0eecafc998c65f026d99fff916393f9cccbc5c9ac94294bf0e61b",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_replay_hecke_cases.py"
+  ],
+  "pid": 321825,
+  "owner_uid": 1001,
+  "start_time_unix": 1793287866.2863812,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/cont_replay_hecke_cases.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.3642606735229492
+}

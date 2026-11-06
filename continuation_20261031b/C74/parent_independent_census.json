@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "ordinary_isomorphism_classes_enumerated": 2046,
+  "supersingular_j0_excluded_by_complete_possible_trace_list": [
+    -64,
+    -32,
+    0,
+    32,
+    64
+  ],
+  "eligible_orders": {
+    "1036": 50,
+    "962": 5
+  },
+  "closed_marked_points": 99,
+  "every_closed_point_degree10": true,
+  "all99_native_prime_keys_match_independent_marked_curves": true,
+  "geometric_marked_points": 990,
+  "seconds": 1.9157721009105444
+}

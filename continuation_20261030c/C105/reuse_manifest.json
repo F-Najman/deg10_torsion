@@ -1,0 +1,47 @@
+[
+  {
+    "source": "work/deg10/next_cases_20261030/dyadic_local/all_curves.m",
+    "copy": "work/deg10/continuation_20261030c/C105/inputs/all_curves.m",
+    "sha256": "80eb6b47b34451b886fefec11c6f246e2536c3ecc6b8faa3e69fa50f1ac210a3"
+  },
+  {
+    "source": "work/deg10/next_cases_20261030/dyadic_local/independent_point_counts.json",
+    "copy": "work/deg10/continuation_20261030c/C105/inputs/independent_point_counts.json",
+    "sha256": "0f719c333c4185f0092045d2f92af48594eff681fff5ab297b7b406454c2f44c"
+  },
+  {
+    "source": "work/deg10/continuation_20261030c/parent_source_census.json",
+    "copy": "work/deg10/continuation_20261030c/C105/inputs/parent_source_census.json",
+    "sha256": "e42231931411ae23daacbb8addd516536d0e1649ca7fdb0dc1966f77836357e5"
+  },
+  {
+    "source": "work/degree9/shared/fast_hecke.m",
+    "copy": "work/deg10/continuation_20261030c/C105/inputs/fast_hecke.m",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  {
+    "source": "work/deg10/continuation_20261030b/C81/deps/pair_af_place_linear.m",
+    "copy": "work/deg10/continuation_20261030c/C105/inputs/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  },
+  {
+    "source": "work/degree8/large_levels/N105_exclusion.tex",
+    "copy": "work/deg10/continuation_20261030c/C105/inputs/N105_exclusion.tex",
+    "sha256": "dbe46070827778b3d65efde2cd9e3adfe6cc2af58d8fc9b06266b3374688eddb"
+  },
+  {
+    "source": "work/degree8/large_levels/N105_manifest.json",
+    "copy": "work/deg10/continuation_20261030c/C105/inputs/N105_manifest.json",
+    "sha256": "9291c37912ef77d3c3736ae8b1f7f0a97b67d5c26dc1af9d5fadf77e781798eb"
+  },
+  {
+    "source": "work/degree8/large_levels/N105_root_replay.json",
+    "copy": "work/deg10/continuation_20261030c/C105/inputs/N105_root_replay.json",
+    "sha256": "9291c37912ef77d3c3736ae8b1f7f0a97b67d5c26dc1af9d5fadf77e781798eb"
+  },
+  {
+    "source": "work/degree8/large_levels/winding105_octic.log",
+    "copy": "work/deg10/continuation_20261030c/C105/inputs/winding105_octic.log",
+    "sha256": "42a321a3689688988edf5e2d8875805f28a40617b6e029a563929678ebf9dea3"
+  }
+]

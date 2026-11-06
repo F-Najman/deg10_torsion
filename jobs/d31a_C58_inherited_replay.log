@@ -1,0 +1,16 @@
+C58_RELATIONS_AND_PRIMARY_IMAGES_PASS 4440
+C58_POINT_REPLAY 250 seconds 2.86
+C58_POINT_REPLAY 500 seconds 3.54
+C58_POINT_REPLAY 750 seconds 4.23
+C58_POINT_REPLAY 1000 seconds 4.94
+C58_POINT_REPLAY 1250 seconds 5.67
+C58_POINT_REPLAY 1500 seconds 6.9
+C58_POINT_REPLAY 1750 seconds 7.75
+C58_POINT_REPLAY 2000 seconds 8.64
+C58_POINT_REPLAY 2250 seconds 9.5
+C58_POINT_REPLAY 2500 seconds 10.36
+C58_POINT_REPLAY 2750 seconds 11.21
+C58_POINT_REPLAY 3000 seconds 12.06
+C58_POINT_REPLAY 3250 seconds 13.45
+C58_POINT_REPLAY 3500 seconds 14.34
+NONIC58_INDEPENDENT_REPLAY {"level": 29, "excluded_cyclic_order": 58, "degree": 9, "relations": 4440, "FB_places": 3535, "finite_points_verified": 3521, "field_and_all_ideal_basis_bindings": true, "distinct_Frobenius_orbits": 3521, "complete_target_and_source_counts": true, "primary_image_orders": [32768, 9], "rational_primary_image_orders": [64, 3], "rational_image_index": 1536, "eligible_counts": [0, 0, 14, 0, 0, 84, 168, 476, 1582], "tests": 2324, "survivors": 0, "supports_exclusion": true, "complete": true, "elapsed_seconds": 14.426}

@@ -1,0 +1,6 @@
+Loading "work/deg10/continuation_20261030b/C55/full_source_common.m"
+C55_SOURCE_A3_SETUP case=1 degree=10 cpu=295.730
+C55_SOURCE_A3_IMAGE case=1 image=1 obs=1 degree=10 norm=1 cpu=296.800
+C55_SOURCE_A3_IMAGE case=1 image=2 obs=3 degree=30 norm=1 cpu=299.190
+C55_SOURCE_A3_PACKET case=1 fielddegree=37 cpu=301.010
+C55_SOURCE_A3_COMPLETE case=1 h0=0 cpu=369.040

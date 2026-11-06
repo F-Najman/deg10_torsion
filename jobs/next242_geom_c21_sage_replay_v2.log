@@ -1,0 +1,1 @@
+C242_D10_CYCLIC21_INDEPENDENT_REPLAY_PASS {"complete": true, "degree": 10, "genus": 5, "finite_picard_order": 2184, "rational_image_index": 6, "input_supports": 752, "remaining": 111, "projection_images": 1241, "independent_velu2_images": 627, "cusp_complement_counts": [1, 1, 1, 2, 2, 2, 2]}

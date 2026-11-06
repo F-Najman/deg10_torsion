@@ -1,0 +1,10 @@
+Loading "work/deg10/C226_resolution_20261030/validate_reconstructed_template.m"
+Q226_EXACT_RECONSTRUCTED_SECTION_VALIDATED 30 dimension 1 cusp_values [ 1, 1 ]
+154.870
+Q226_EFFECTIVE_IDEALS_SAVED 30 161.020
+
+In file "work/deg10/C226_resolution_20261030/validate_reconstructed_template.m", line 26, column 79:
+>> fac:=Factorization(IE) cat Factorization(JE);pls:=[Place(r[1]):r in fac];mu
+                          ^
+Runtime error in 'cat': Incompatible sequences
+

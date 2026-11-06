@@ -1,0 +1,4 @@
+DECIC315_EXACT_LEVEL field_degree=10 relative_polynomial=t^5 + (13*z + 13)*t^4 + (-24*z - 22)*t^3 + (4*z + 4)*t^2 + (z + 4)*t + z + 1 j_minpoly=t^5 - 153081170/29791*t^4 + 704248771137/29791*t^3 - 1541884622223483/29791*t^2 + 1481534469616292091/29791*t - 484720601653955426759/29791 pairing=-z - 1
+DECIC315_GOOD_REDUCTION p=43 zeta_root=6 t_root=28 count=45 invariants=[ 3, 15 ] gcd_order=45 gcd_invariants=[3,15]
+DECIC315_FULL_TORSION_RESULT invariants_bound=[3,15] order_bound=45 exact_3x15=true time=0.000
+DECIC315_FULL_TORSION_VERIFIED

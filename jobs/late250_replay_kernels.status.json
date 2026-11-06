@@ -1,0 +1,18 @@
+{
+  "purpose": "late250_replay_kernels",
+  "script": "computations/late250_replay_kernels.py",
+  "script_sha256": "a5972d352b337ee6da663a5c7e24e5df62ae3f59e09091bf5aa939a0dbab139e",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late250_replay_kernels.py"
+  ],
+  "pid": 970956,
+  "owner_uid": 1001,
+  "start_time_unix": 1793317748.4679961,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/late250_replay_kernels.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.7650589942932129
+}

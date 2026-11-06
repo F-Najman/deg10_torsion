@@ -1,0 +1,19 @@
+{
+  "purpose": "cont57_good10_6",
+  "script": "continuation_20261030b/C57/cont57_good10_6.m",
+  "script_sha256": "681fc79726f77e14906be5a3a61f24469ff32bf93ee6cea78acc6f07b7106a58",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C57/cont57_good10_6.m"
+  ],
+  "pid": 2505067,
+  "owner_uid": 1001,
+  "start_time_unix": 1793387862.3616748,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/cont57_good10_6.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 44.728389739990234
+}

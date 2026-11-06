@@ -1,0 +1,19 @@
+{
+  "purpose": "contc99_independent_Y29_RR",
+  "script": "computations/contc99_independent_Y29_RR.m",
+  "script_sha256": "b8951e8fad3cc7e5fabf1b867a9f4ab51af26af125f578deaf47b3fdfc6c8e3f",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc99_independent_Y29_RR.m"
+  ],
+  "pid": 2744762,
+  "owner_uid": 1001,
+  "start_time_unix": 1793399267.583082,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/contc99_independent_Y29_RR.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 157.72337746620178
+}

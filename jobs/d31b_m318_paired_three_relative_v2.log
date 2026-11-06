@@ -1,0 +1,21 @@
+M318_SOURCE_COMPLETE 3622 242 5994
+{
+  "status": "PASS",
+  "full_target_quintics_included": true,
+  "source_patterns": 3622,
+  "source_after_split_Hecke": 242,
+  "split_Hecke_filter_applied": true,
+  "source_Aut_stable_three_multiple_keys": 5994,
+  "target_patterns": 20222,
+  "matched_target_patterns": 78,
+  "matched_pattern_types": {
+    "4": 48,
+    "5": 16,
+    "23": 14
+  },
+  "source_genus": 10,
+  "relative_degree": 5,
+  "cuspidal_saturation_assumed": false,
+  "elapsed_seconds": 9.531971468124539
+}
+D31B_M318_PAIRED_ARITHMETIC_COMPLETE True

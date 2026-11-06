@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_Y228_RR_speed_probe",
+  "script": "computations/d31b_Y228_RR_speed_probe.m",
+  "script_sha256": "82270aaa0817e6365821bcba51fdfe499518cb70bb130c1bb2a68a585981608d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_RR_speed_probe.m"
+  ],
+  "pid": 3501940,
+  "owner_uid": 1001,
+  "start_time_unix": 1793435055.8384614,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31b_Y228_RR_speed_probe.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 16.552940130233765
+}

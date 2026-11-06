@@ -1,0 +1,82 @@
+{
+  "N": 93,
+  "complete": true,
+  "operator_dimension": 248,
+  "rational_prefix_rows": 155,
+  "rational_prefix_rank": 150,
+  "rational_relation_dimension": 5,
+  "minimum_rational_prefix_cost": 30,
+  "minimum_cost_witness": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "rational_all_degree10_rank10": true,
+  "mixed_families": [
+    {
+      "label": "onequintic_plus_rat5",
+      "configurations": 278256,
+      "failures": []
+    },
+    {
+      "label": "doublequintic",
+      "configurations": 1,
+      "failures": []
+    },
+    {
+      "label": "twoquintics_1",
+      "configurations": 1,
+      "failures": []
+    },
+    {
+      "label": "twoquintics_2",
+      "configurations": 1,
+      "failures": []
+    },
+    {
+      "label": "twoquintics_3",
+      "configurations": 1,
+      "failures": []
+    },
+    {
+      "label": "twoquintics_4",
+      "configurations": 1,
+      "failures": []
+    },
+    {
+      "label": "twoquintics_5",
+      "configurations": 1,
+      "failures": []
+    }
+  ],
+  "mixed_failures": [],
+  "all_tested_ranks10": true,
+  "seconds": 0.4438446331769228
+}

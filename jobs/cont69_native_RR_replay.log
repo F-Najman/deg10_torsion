@@ -1,0 +1,8 @@
+
+BaseDiv(
+    rows: [* [* [* 1, 7, [ [ [ [ [ 1 ], [ 1 ] ], [ [], [ 1 ] ] ], [ [ ...
+)
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont69_native_RR_replay.m", line 13, column 102:
+>> ct OAF else OAI;J:=ideal<O|[DA(v):v in p[3]]>;assert IsPrime(J);Q:=Place(J)
+                                                 ^
+Runtime error in assert: Assertion failed

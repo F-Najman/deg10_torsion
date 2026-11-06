@@ -1,0 +1,9 @@
+DECIC_UNIT_START 6 12 genus 9 relative_degree 5
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/unit_6_12.py", line 9, in <module>
+    ok,v=has_modular_unit_of_degree(G,d,l2_step=2)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/shared/mdsage/mdsage/maartens_sage_functions.py", line 601, in has_modular_unit_of_degree
+    assert short_vectors[0].sage() < 2 * qfminim_bound
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

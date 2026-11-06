@@ -1,0 +1,501 @@
+{
+  "complete": true,
+  "field_degree": 10,
+  "all_physical_j_orbits": 6,
+  "all_physical_subgroup_orbits": 12,
+  "residual_dual_j_orbits": 3,
+  "required_physical_subgroup_orbits": 6,
+  "required_test_indices": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "retained_tests": 8,
+  "all_points_enumerated": true,
+  "independent_dual_j_by_3_then_19_isogenies": true,
+  "orbit_counts": [
+    {
+      "jpoly": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "primitive_points": 36,
+      "cyclic_subgroup_orbits": 1
+    },
+    {
+      "jpoly": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "primitive_points": 36,
+      "cyclic_subgroup_orbits": 1
+    },
+    {
+      "jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primitive_points": 36,
+      "cyclic_subgroup_orbits": 1
+    },
+    {
+      "jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "primitive_points": 36,
+      "cyclic_subgroup_orbits": 1
+    },
+    {
+      "jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "primitive_points": 144,
+      "cyclic_subgroup_orbits": 4
+    },
+    {
+      "jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "primitive_points": 144,
+      "cyclic_subgroup_orbits": 4
+    }
+  ],
+  "matches": [
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "passes_containing_j_filter": false,
+      "test_ids": [
+        1
+      ]
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "passes_containing_j_filter": false,
+      "test_ids": []
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "passes_containing_j_filter": true,
+      "test_ids": [
+        7
+      ]
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "passes_containing_j_filter": true,
+      "test_ids": [
+        2
+      ]
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "passes_containing_j_filter": true,
+      "test_ids": [
+        3
+      ]
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "passes_containing_j_filter": false,
+      "test_ids": [
+        6
+      ]
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "passes_containing_j_filter": true,
+      "test_ids": [
+        5
+      ]
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "passes_containing_j_filter": true,
+      "test_ids": [
+        4
+      ]
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "passes_containing_j_filter": false,
+      "test_ids": []
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "passes_containing_j_filter": false,
+      "test_ids": []
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "passes_containing_j_filter": true,
+      "test_ids": [
+        8
+      ]
+    },
+    {
+      "source_jpoly": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "dual_jpoly": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "passes_containing_j_filter": false,
+      "test_ids": []
+    }
+  ]
+}

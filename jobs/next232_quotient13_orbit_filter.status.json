@@ -1,0 +1,19 @@
+{
+  "purpose": "next232_quotient13_orbit_filter",
+  "script": "computations/next232_quotient13_orbit_filter.m",
+  "script_sha256": "50255b94fe14cf0fdbf80231d27a148d48e1ba3280e4317b289ccedec3f5a820",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_quotient13_orbit_filter.m"
+  ],
+  "pid": 1820845,
+  "owner_uid": 1001,
+  "start_time_unix": 1793357652.4118764,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next232_quotient13_orbit_filter.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.167361259460449
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "group": [
+    3,
+    39
+  ],
+  "parent_mathematical_review": "PASS",
+  "method": "The complete decic X1(39) classification identifies every curve with a point of order39 with a known full-C39 curve over its exact degree10 moduli field; hence no independent second3-point exists",
+  "frozen_summary_sha256": "ca1e402a8761940bcbf761ffd1e8d1d916828c53989b793152c0555b19a8ed1a",
+  "complete_exclusion": true,
+  "classification_complete": false
+}

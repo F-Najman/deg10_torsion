@@ -1,0 +1,8 @@
+{
+  "tool_session_exit": 0,
+  "tool_chunk_id": "8c441f",
+  "elapsed_wall_seconds": 0.453427316,
+  "completed_marker": "KNOWN31_BINDING_COMPLETE full_torsion=31 survivor_count=5",
+  "command": "nice -n 10 env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 timeout 600 bash -c ulimit_CPU300_AS4GiB_sage_verify_known31",
+  "scope": "Original completed verifier before switching identical data to immutable local copies"
+}

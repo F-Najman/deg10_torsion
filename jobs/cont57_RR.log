@@ -1,0 +1,7 @@
+DECIC57_SOURCE85_RR24_CORRECT_CASE case=10 index=1 degree=110 positive_rank=110 negative_rank=110 multiplication_rank252=true final_rank=252 H_trials=[ 252 ] time=3.040
+DECIC57_SOURCE85_RR24_CORRECT_CASE case=10 index=2 degree=110 positive_rank=110 negative_rank=110 multiplication_rank252=true final_rank=252 H_trials=[ 252 ] time=3.120
+DECIC57_SOURCE85_RR24_CORRECT_CASE case=10 index=3 degree=110 positive_rank=110 negative_rank=110 multiplication_rank252=true final_rank=252 H_trials=[ 252 ] time=3.180
+DECIC57_SOURCE85_RR24_CORRECT_CASE case=10 index=4 degree=110 positive_rank=110 negative_rank=110 multiplication_rank252=true final_rank=252 H_trials=[ 252 ] time=3.240
+DECIC57_SOURCE85_RR24_CORRECT_CASE case=10 index=5 degree=110 positive_rank=110 negative_rank=110 multiplication_rank252=true final_rank=252 H_trials=[ 252 ] time=3.300
+DECIC57_SOURCE85_RR24_CORRECT_CASE case=10 index=6 degree=110 positive_rank=110 negative_rank=110 multiplication_rank252=true final_rank=252 H_trials=[ 252 ] time=3.350
+DECIC57_SOURCE85_RR24_CORRECT_ALL_EXCLUSIONS_COMPLETE cases=6 time=3.390

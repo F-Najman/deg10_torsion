@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_46_parent_exceptional_native_s1",
+  "script": "computations/d31a_46_parent_exceptional_native_s1.m",
+  "script_sha256": "dabd3af09d83ee2882ccbad2c689084c2d87fcc0e38fb9ed4735940ff89dcf3d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_46_parent_exceptional_native_s1.m"
+  ],
+  "pid": 2858030,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404531.002224,
+  "state": "EXITED",
+  "time_limit_seconds": 1720,
+  "log": "jobs/d31a_46_parent_exceptional_native_s1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 48.54046893119812
+}

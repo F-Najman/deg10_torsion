@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C48_independent_cusp_principal",
+  "script": "continuation_20261031b/C48/d31b_C48_independent_cusp_principal.m",
+  "script_sha256": "9e85f6c40941604dbb73ec3cfe0e20f0b9044a8d76fb9c87638324ec33a1559f",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_independent_cusp_principal.m"
+  ],
+  "pid": 3567393,
+  "owner_uid": 1001,
+  "start_time_unix": 1793438037.1485512,
+  "state": "EXITED",
+  "time_limit_seconds": 450,
+  "log": "jobs/d31b_C48_independent_cusp_principal.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.015655040740966797
+}

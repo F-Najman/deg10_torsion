@@ -1,0 +1,17 @@
+\begin{lemma}\label{lem:nonic-point-hecke-annihilator}
+Let $q$ be an odd prime not dividing $N$, and use the point-level model of $X_1(N)$. Let $T_q$ transport a level point covariantly along every cyclic $q$-isogeny, and let $\tau_q$ be multiplication by $q$ on the level point. Then
+\[
+ T_q-1-q\tau_q
+\]
+annihilates rational torsion in the Jacobian, and the same assertion holds on a diamond quotient.
+\end{lemma}
+\begin{proof}
+On the ordinary locus in characteristic $q$, the connected kernel gives Frobenius, whereas the other component gives $q$ times Verschiebung with the level multiplied by $q$. Thus the point-level Eichler--Shimura relation is
+\[
+ T_q=\operatorname{Fr}_q+q\tau_q\operatorname{Fr}_q^{-1}.
+\]
+The relation extends to the Jacobian. The reduction of a rational torsion point is Frobenius-fixed, so its image under $T_q-1-q\tau_q$ is zero. Reduction on rational torsion is injective at the odd good prime $q$, proving the assertion. Diamond quotients commute with this relation.
+\end{proof}
+\begin{remark}
+On the geometric $\mu_N$-level model, covariant transport instead gives $T_q=\tau_q\operatorname{Fr}_q+q\operatorname{Fr}_q^{-1}$, so the corresponding annihilator is $T_q-\tau_q-q$. The corrected point-level proofs below use the first formula. Every obstruction matrix in the earlier packets is retained unchanged: both coefficient arrangements were tested, and the necessary point-level divisor is the family labeled $B_2$. The separate earlier Fricke-convention supplement for order $83$ is superseded and is not a premise of this correction.
+\end{remark}

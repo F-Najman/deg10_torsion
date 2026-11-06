@@ -1,0 +1,238 @@
+{
+  "status": "PASS",
+  "all24_base_cusps_and48_source_cusps_verified": true,
+  "source_closed_cusps": {
+    "1": 40,
+    "5": 8
+  },
+  "both_ideal_generators_and_uniformizers_verified": true,
+  "all82_function_series_reconstructed_to_native140precision_from_1000precision_primitives": true,
+  "all48_tame_Kummer_uniformizers_and_holomorphic_J_UJ_matrices_matched": true,
+  "original_four_v4_Horner_shards_all_completed": true,
+  "three_optimized_v5_shards_also_completed": true,
+  "reports_with_final_retained_numeric_outputs": [
+    "independent_analytic_v5_s0.json",
+    "independent_analytic_v5_s1.json",
+    "independent_analytic_v4_s2.json",
+    "independent_analytic_v5_s3.json"
+  ],
+  "note": "Individual shard source_cusps/verified_jet_matrices fields give the common global reference total48; actual verified scope is precisely their six checks and branch counts. Merged scope is all48. Optimized reports replace earlier same-path reports only before this packet was frozen; both sets of complete logs are retained.",
+  "checks": [
+    {
+      "base_index": 1,
+      "degree": 1,
+      "kummer_valuation": -27,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 2,
+      "degree": 1,
+      "kummer_valuation": 8,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 3,
+      "degree": 1,
+      "kummer_valuation": 8,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 4,
+      "degree": 1,
+      "kummer_valuation": -18,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 5,
+      "degree": 1,
+      "kummer_valuation": 11,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 6,
+      "degree": 1,
+      "kummer_valuation": 11,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 7,
+      "degree": 1,
+      "kummer_valuation": 11,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 8,
+      "degree": 1,
+      "kummer_valuation": 11,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 9,
+      "degree": 1,
+      "kummer_valuation": 0,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 10,
+      "degree": 1,
+      "kummer_valuation": 0,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 11,
+      "degree": 5,
+      "kummer_valuation": 1,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 12,
+      "degree": 5,
+      "kummer_valuation": 1,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 13,
+      "degree": 5,
+      "kummer_valuation": 0,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 14,
+      "degree": 5,
+      "kummer_valuation": 0,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 15,
+      "degree": 1,
+      "kummer_valuation": 0,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 16,
+      "degree": 1,
+      "kummer_valuation": 0,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 17,
+      "degree": 1,
+      "kummer_valuation": 11,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 18,
+      "degree": 1,
+      "kummer_valuation": 11,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 19,
+      "degree": 1,
+      "kummer_valuation": -1,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 20,
+      "degree": 1,
+      "kummer_valuation": -45,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 21,
+      "degree": 1,
+      "kummer_valuation": -1,
+      "branches": 1,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 22,
+      "degree": 1,
+      "kummer_valuation": 0,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 23,
+      "degree": 1,
+      "kummer_valuation": 0,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    },
+    {
+      "base_index": 24,
+      "degree": 1,
+      "kummer_valuation": 0,
+      "branches": 3,
+      "model_relation": true,
+      "both_prime_generators_uniformizer": true,
+      "all_function_series_bound": true
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "all_owned_workers_supervisors_and_launchers_exited": true,
+  "active_owned_magma": [],
+  "jobs": [
+    {
+      "stem": "contc91_character_probe",
+      "status_path": "work/deg10/jobs/contc91_character_probe.status.json",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "proof_producer": false,
+      "disposition": "completed exploratory quotient control"
+    },
+    {
+      "stem": "contc91_quotient_differentials",
+      "status_path": "work/deg10/jobs/contc91_quotient_differentials.status.json",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "proof_producer": false,
+      "disposition": "retired obsolete C4 fallback"
+    },
+    {
+      "stem": "contc91_witt_differentials",
+      "status_path": "work/deg10/jobs/contc91_witt_differentials.status.json",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "proof_producer": false,
+      "disposition": "completed exploratory quotient control"
+    },
+    {
+      "stem": "contc91_tate7_cusps",
+      "status_path": "work/deg10/jobs/contc91_tate7_cusps.status.json",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "proof_producer": true,
+      "disposition": "successful proof producer"
+    },
+    {
+      "stem": "contc91_tate7_CM",
+      "status_path": "work/deg10/jobs/contc91_tate7_CM.status.json",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "proof_producer": true,
+      "disposition": "successful proof producer"
+    },
+    {
+      "stem": "contc91_export_native",
+      "status_path": "work/deg10/jobs/contc91_export_native.status.json",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "proof_producer": false,
+      "disposition": "failed serializer preflight"
+    },
+    {
+      "stem": "contc91_export_native_v2",
+      "status_path": "work/deg10/jobs/contc91_export_native_v2.status.json",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "proof_producer": true,
+      "disposition": "successful proof producer"
+    }
+  ],
+  "retired_fallback_record": "work/deg10/continuation_20261030c/C91/retired_C4_fallback.json",
+  "failed_direct_preflight": {
+    "path": "work/deg10/continuation_20261030c/C91/tate7_cusp_audit.py",
+    "reason": "projective sign count corrected in v2; failed v1 is not a certificate"
+  }
+}

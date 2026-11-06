@@ -1,0 +1,9 @@
+DECIC_MODEL m=3 n=15 genus=9 base_degree=2 target_degree=5 time=2.790
+DECIC_PROJECTION_TRIAL_UNAVAILABLE
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/family_3_15_v2.m", line 22, column 68:
+>> os:=[Type(O) eq PlcCrvElt select Divisor(O) else O:O in CuspOrbitsQ(X)];
+                                                                      ^
+Runtime error in 'CuspOrbitsQ': Bad argument types
+Argument types given: MDCrvMod11
+

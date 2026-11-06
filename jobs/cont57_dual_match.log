@@ -1,0 +1,25 @@
+Loading "work/deg10/continuation_20261030b/C57/census10_records.m"
+DECIC57_POINT_GROUPS {*
+    [ 3, 342 ]^^20,
+    [ 1026 ]^^40
+*}
+Loading "work/deg10/continuation_20261030b/C57/selected_levels.m"
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1 ] dual=[ 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 ] needed=false prior_test=[ 1 ]
+DECIC57_SOURCE_LEVEL_ORBITS jpoly=[ 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1 ] group=[ 1026 ] primitive_points=36 diamond_orbits=1
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1 ] dual=[ 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 ] needed=false prior_test=[]
+DECIC57_SOURCE_LEVEL_ORBITS jpoly=[ 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1 ] group=[ 1026 ] primitive_points=36 diamond_orbits=1
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1 ] dual=[ 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ] needed=true prior_test=[]
+DECIC57_SOURCE_LEVEL_ORBITS jpoly=[ 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1 ] group=[ 1026 ] primitive_points=36 diamond_orbits=1
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1 ] dual=[ 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ] needed=true prior_test=[ 2 ]
+DECIC57_SOURCE_LEVEL_ORBITS jpoly=[ 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1 ] group=[ 1026 ] primitive_points=36 diamond_orbits=1
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ] dual=[ 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ] needed=true prior_test=[ 3 ]
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ] dual=[ 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1 ] needed=false prior_test=[ 6 ]
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ] dual=[ 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1 ] needed=true prior_test=[ 5 ]
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ] dual=[ 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ] needed=true prior_test=[ 4 ]
+DECIC57_SOURCE_LEVEL_ORBITS jpoly=[ 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 ] group=[ 3, 342 ] primitive_points=144 diamond_orbits=4
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 ] dual=[ 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 ] needed=false prior_test=[]
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 ] dual=[ 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 ] needed=false prior_test=[]
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 ] dual=[ 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1 ] needed=true prior_test=[]
+DECIC57_PHYSICAL_DUAL_J_MATCH source=[ 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 ] dual=[ 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1 ] needed=false prior_test=[]
+DECIC57_SOURCE_LEVEL_ORBITS jpoly=[ 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1 ] group=[ 3, 342 ] primitive_points=144 diamond_orbits=4
+DECIC57_PHYSICAL_DUAL_MATCH_COMPLETE cases=6 missing=2 time=0.120

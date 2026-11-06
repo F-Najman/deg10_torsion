@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "cases": 6,
+  "actual_kernel_orbits": 12,
+  "all_four_cyclic3_kernels_covered_per_case": true,
+  "manual_Velu_coordinates": true,
+  "exact_native_RR_prime_bindings": true,
+  "checks": [
+    {
+      "case": 1,
+      "kernel_orbit_degree": 1,
+      "target_closed_degree": 10,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 1,
+      "kernel_orbit_degree": 3,
+      "target_closed_degree": 30,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 2,
+      "kernel_orbit_degree": 1,
+      "target_closed_degree": 10,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 2,
+      "kernel_orbit_degree": 3,
+      "target_closed_degree": 30,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 3,
+      "kernel_orbit_degree": 1,
+      "target_closed_degree": 10,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 3,
+      "kernel_orbit_degree": 3,
+      "target_closed_degree": 30,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 4,
+      "kernel_orbit_degree": 1,
+      "target_closed_degree": 10,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 4,
+      "kernel_orbit_degree": 3,
+      "target_closed_degree": 30,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 5,
+      "kernel_orbit_degree": 1,
+      "target_closed_degree": 10,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 5,
+      "kernel_orbit_degree": 3,
+      "target_closed_degree": 30,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 6,
+      "kernel_orbit_degree": 1,
+      "target_closed_degree": 10,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    },
+    {
+      "case": 6,
+      "kernel_orbit_degree": 3,
+      "target_closed_degree": 30,
+      "norm": 1,
+      "exact_source_order": 105,
+      "Sage_isogeny_and_manual_Velu_coordinates_match": true,
+      "native_positive_prime_intrinsic_key_matches": true
+    }
+  ],
+  "elapsed_seconds": 0.3728184262290597
+}

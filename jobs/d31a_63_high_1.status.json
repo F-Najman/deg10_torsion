@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_63_high_1",
+  "script": "computations/d31a_63_high_1.m",
+  "script_sha256": "da36672f7e7e96c4f0d2989ed67a0b062e119f55d18ff43f2b485c4209348332",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_63_high_1.m"
+  ],
+  "pid": 2787503,
+  "owner_uid": 1001,
+  "start_time_unix": 1793401261.353025,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/d31a_63_high_1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 46.98993945121765
+}

@@ -1,0 +1,568 @@
+{
+  "status": "PASS",
+  "scope": "Complete C3xC27 decic exclusion: split37 odd torsion and intact cusp lifts close dyadic boundary; exhaustive relative-quintic images, all6 exact Hecke tests,48 genuine kernels, and36 fresh native prime references with explicit relativeF4 constants",
+  "files": [
+    {
+      "path": "work/deg10/computations/d31b_m327_cusp_parity_v2.py",
+      "bytes": 1730,
+      "sha256": "1d82cf294e99c9392e52bc1bfac270e4916054002b9d319f142e6f57487f3cbd"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m327_independent_genuine_v2.py",
+      "bytes": 5489,
+      "sha256": "ef2672e59742c5c7ac51854a8eb5672fdf06c753538e0b42ec82b8a2ff4cb8db"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m327_torsion_gcd.m",
+      "bytes": 610,
+      "sha256": "16c9e3b7f223f75a0f1153d700e5a60b95dd64de6a5c4e58e6bcbf19318c5020"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m3n27_frob_preflight.m",
+      "bytes": 920,
+      "sha256": "99368b767dfc598602b851801c79d90f14e6ad100c49c89440b5fd296182d74c"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m3n27_parent_native_v3.m",
+      "bytes": 2886,
+      "sha256": "f53324dbd20659112f2d8dff96411ce022ab360e990974ea486f98b17498c4a7"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m3n27_physical_source.m",
+      "bytes": 2213,
+      "sha256": "aaa36253111a406fdd86956f9d53e989716eaea03444e52b65577e2de4dff7a6"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m3n27_quotient_A7_v4.m",
+      "bytes": 3424,
+      "sha256": "5caf279c835efacfde80acf29cba7b28a94696ff08e4ec1e14fe5f3aff29c61f"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m3n27_quotient_A7_v5.m",
+      "bytes": 3471,
+      "sha256": "4587f7d63fc445a987aeca33fa1f6aa5a0e5135697f20ac99b30676c2077625b"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/completion_summary.json",
+      "bytes": 988,
+      "sha256": "e6002debfd3e808a49b6a75b69f99e4de16dad5d4f9190b7b3c93f56d44ea907"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/cusp_parity.json",
+      "bytes": 1743,
+      "sha256": "93810a0adfe313b0200dab409ca0db9f11a4049603e1575433518b9bdb099d6d"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/frob_preflight.m",
+      "bytes": 6748,
+      "sha256": "56e181f8f14b74d5fba08ec65c8645b58aa08539011d2ce40f64559a40a9d641"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/independent_genuine7.json",
+      "bytes": 3747,
+      "sha256": "4dfb7b8689a59c5637040be7a19f9898a5b7a876f264b655a5c006b06ff31dc1"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inherited_provenance.json",
+      "bytes": 10131,
+      "sha256": "d598928e20f07ed982d2021ad5bf763a11f14779129301d58f85b0ff6eeac0cb"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/Derickx_Sutherland_1608.07549.pdf",
+      "bytes": 211638,
+      "sha256": "295e42c02a45b673d4cb30965954439bfc9b7020ed8486f1ab6522d1ea7cf156"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/Derickx_Sutherland_1608.07549.txt",
+      "bytes": 45218,
+      "sha256": "61c7c05d4e212a6fabd2468331d9d8c8718f03cede97ce701e463926b423daab"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/FFFc27.txt",
+      "bytes": 699,
+      "sha256": "9fb26e8d45f28c59b4991ec30edd9a1122ee61ba338b868f8e04fde657134174"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/X1_3_27.txt",
+      "bytes": 83961,
+      "sha256": "a2e18f069c09dc7a250f4420aab534c07e043f185c79118d0497b9c7c28ac141"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/all_curves.m",
+      "bytes": 829172,
+      "sha256": "80eb6b47b34451b886fefec11c6f246e2536c3ecc6b8faa3e69fa50f1ac210a3"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/cusp_conditions_relative.py",
+      "bytes": 3016,
+      "sha256": "d42caf94009ac857c6d1d50fe234894edf9647c97f104523448bb05075393a47"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/cyclotomic_local_exclusions.tex",
+      "bytes": 4231,
+      "sha256": "f248490c38b1848ecc4443482ee3cc2dee052df807b1827d3943fa80cdb1ece7"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/dyadic_F4_criterion.tex",
+      "bytes": 3573,
+      "sha256": "d5c0d342a57492e591cc99eab4cd43f356df007924f4c76f3e7f387af70e4c7e"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/fast_hecke.m",
+      "bytes": 8266,
+      "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/fast_hecke.sig",
+      "bytes": 1196,
+      "sha256": "7825d52342582741eab41d5e414b493948013f3f212f81144c26a0eddca0dfd0"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/independent_point_counts.json",
+      "bytes": 5147,
+      "sha256": "0f719c333c4185f0092045d2f92af48594eff681fff5ab297b7b406454c2f44c"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/.gitignore",
+      "bytes": 6,
+      "sha256": "a95b7aa6682dd779a966e7bb3856bfaca23270355838ee4bbe5b5cd1dea59959"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/LICENSE",
+      "bytes": 1074,
+      "sha256": "17d40e7907ede450b898ed8ccbc4d99e43b6c1708416827b3b530ba038a39cbf"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/README.md",
+      "bytes": 668,
+      "sha256": "beeb11e76c433a0f8de01ca91e64356393195172e96bef46207c860e071ffa24"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/chars.m",
+      "bytes": 72624,
+      "sha256": "4ba0d71a2e5ec126c7b8443ff6819dffdc9400db5895622a1203c89cc6d7f65b"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/chars.sig",
+      "bytes": 31386,
+      "sha256": "cde98e4c60fbfa668bfb9ff918959d63554d3fe0c56cd1c797d607a3a42ef13e"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/gl2base.m",
+      "bytes": 298316,
+      "sha256": "0dc6e1c47699ba10deb974f3138b8436dbc2c4cd0dcdcbb17bc5e4d8875dc783"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/gl2base.sig",
+      "bytes": 55198,
+      "sha256": "3f0281d9a908e3d21bef234c4b2a1d1a9d35dd3a014814662ca4ec41788f6442"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/magma.spec",
+      "bytes": 58,
+      "sha256": "19eb16416c2febd41a09f10c2da05a5fb01db4974d3a6ce8d0b82f1256d85813"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/tracehash.m",
+      "bytes": 16346,
+      "sha256": "53f9c1365d9298735fda7fd90aa4fc2b3e19ba36ace6d7927d90b3a523ccf817"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/tracehash.sig",
+      "bytes": 4107,
+      "sha256": "bf7d3d1472a98d46162a2d9998e594ce1313d617dd3e799ed5774214446ab961"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/utils.m",
+      "bytes": 38029,
+      "sha256": "491363cbaa93262296845247320d24f7a9983788f98015d68bb3dec579d7a1d5"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/Magma/utils.sig",
+      "bytes": 14477,
+      "sha256": "4477561f4716f0f9a5738ad13f9c35978c38c14f4380a87379c36eda9d60b365"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/algebra/linear_algebra.m",
+      "bytes": 287,
+      "sha256": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/algebra/linear_algebra.sig",
+      "bytes": 218,
+      "sha256": "52cf55c738cbd8b7783be68f5128f2e95f62b55b9aa8d284562473fec53b527a"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/curves/classgroups.m",
+      "bytes": 484,
+      "sha256": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/curves/classgroups.sig",
+      "bytes": 151,
+      "sha256": "ba7204632ae38e30f96bded60753927e2ce3b07ae6db9df2952c0405d9cde169"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/curves/divisors.m",
+      "bytes": 1491,
+      "sha256": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/curves/divisors.sig",
+      "bytes": 512,
+      "sha256": "61eb59cce8da8aa6c326ab3340121c9094328b1c325a4dfd48b06e3393839480"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/elliptic_curves/isogenies.m",
+      "bytes": 1091,
+      "sha256": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/elliptic_curves/isogenies.sig",
+      "bytes": 217,
+      "sha256": "937d65a93d8b0559b4f951e8e78cfcd0959e4c9a63b2a2ee43e244ab06b9c033"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/mdmagma.spec",
+      "bytes": 81,
+      "sha256": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/mdmagma_internal.spec",
+      "bytes": 282,
+      "sha256": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X0.m",
+      "bytes": 883,
+      "sha256": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X0.sig",
+      "bytes": 518,
+      "sha256": "ad7a0ac093106595596ab594b1502a9cd9ad9c11c37802f22be02e986e7afd6e"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X1.m",
+      "bytes": 8226,
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X1.sig",
+      "bytes": 4142,
+      "sha256": "a59ba44cf0beb2eb184866ff2d51be2b70b52beaacbf0ebe627567e79c6209e7"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X11.m",
+      "bytes": 7602,
+      "sha256": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/X11.sig",
+      "bytes": 2540,
+      "sha256": "1d42502ec4cd75897c53d7c6e7bc2c8ee20d3fbe74ab89b37c30481ba1fbc8f5"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/base_curve.m",
+      "bytes": 7298,
+      "sha256": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/base_curve.sig",
+      "bytes": 3835,
+      "sha256": "ad3a9969c9bb6d2aec183a03facd64779e2e21c712111872067b99c1a3e317ba"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/rational_points.m",
+      "bytes": 904,
+      "sha256": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_curves/rational_points.sig",
+      "bytes": 431,
+      "sha256": "bad67095a7ac630eae102c094c32d3e06d70018492b3ccbb6c20bbb7d4396978"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_forms/modular_symbols.m",
+      "bytes": 2167,
+      "sha256": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/modular_forms/modular_symbols.sig",
+      "bytes": 608,
+      "sha256": "146c4ddbd78b095c65f33f2b3488b6133bc791872db9baa0d87756b128e9aba5"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/utils.m",
+      "bytes": 1321,
+      "sha256": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/mdmagma/v2/utils.sig",
+      "bytes": 538,
+      "sha256": "3d059d073c8cee670e57109861b9e66d276a3432029d38fe294af14d91bbba4a"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/lifecycle.json",
+      "bytes": 2333,
+      "sha256": "fd08a9f8819c75dbafd0c5a4cce45f305d7ee536acfacceb5e4032ae33d55c96"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/parent_native_replay_v3.m",
+      "bytes": 9257,
+      "sha256": "4d06b369ffe4ca7dba009e24eb4fc44f377cbf6dde549043c5746e5d9a068ea8"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/physical_source5.m",
+      "bytes": 19657,
+      "sha256": "a3f0cedc6918561afe3e5791466a71071e4bd5c0c83e07edad5075222b7443c8"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/prepare_completion.py",
+      "bytes": 4248,
+      "sha256": "7c9cd03e9a21e7aaca73c461d65c1d26362fa8c6133dd12801947448e0cbdf01"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/quotient_A7_RR.m",
+      "bytes": 18173,
+      "sha256": "0dc1acc191d6257d76b4de03e0e57ef4f488a83da0ca668cf6b8d88e6c327c9b"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/quotient_A7_v5_RR.m",
+      "bytes": 20117,
+      "sha256": "03806f82d8f92caa664b9ed6d5193ef5fd05c0927c26f4ea1412776bc2f3f310"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/quotient_model.m",
+      "bytes": 622,
+      "sha256": "c22284b8925b2df0a4e75a548776b0ee6fcad8b6ce4e54976d10fc12f0e8a9b2"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/quotient_model_v5.m",
+      "bytes": 622,
+      "sha256": "c22284b8925b2df0a4e75a548776b0ee6fcad8b6ce4e54976d10fc12f0e8a9b2"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/resolution.tex",
+      "bytes": 3879,
+      "sha256": "65418b39de461db25e3868d29c4fdee59616f40a2a4a3c8ac82dc97d7e2c8575"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/status.json",
+      "bytes": 988,
+      "sha256": "e6002debfd3e808a49b6a75b69f99e4de16dad5d4f9190b7b3c93f56d44ea907"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/torsion_gcd.m",
+      "bytes": 1158,
+      "sha256": "958b0c5ec7f3fb905638fe3e154deab7910852587a0e0ecf35ad7a9c168e4580"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m327_cusp_parity_v2.log",
+      "bytes": 123,
+      "sha256": "524d802992e5157a87289de0ab906433329f63a197cd4219e446818f14bdfe55"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m327_cusp_parity_v2.status.json",
+      "bytes": 650,
+      "sha256": "79c6f77830df528987340d7801875eadaa8adfd1801824960d0e2f079723c048"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m327_independent_genuine_v2.log",
+      "bytes": 765,
+      "sha256": "a2e743274bc31c8adfa641f2815ba86202b71c58cca592211bd75a46ca356a0c"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m327_independent_genuine_v2.status.json",
+      "bytes": 681,
+      "sha256": "9d68241473a3b0e9b135094e4e7e63cfb680acb79570b77b14cde682c899c829"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m327_torsion_gcd.log",
+      "bytes": 663,
+      "sha256": "7654eeb6fbadf9b15ae49fad64e328eb08f0543a5091349d38b954bd5d3ebb3d"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m327_torsion_gcd.status.json",
+      "bytes": 635,
+      "sha256": "181c64d27b34202a0f02f305e880d63f66364f2870db56154f796360218372e0"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_frob_preflight.log",
+      "bytes": 264,
+      "sha256": "bbcad0addfd32955f1f3e85003ceacafbbd6ae78588e767e523aca9e36aa65d4"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_frob_preflight.status.json",
+      "bytes": 651,
+      "sha256": "73f36f0237bce42964acf71be0aa3431b0bcff049830ce553619d074bb7c93d8"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_parent_native_v3.log",
+      "bytes": 255,
+      "sha256": "5bf3e171823785d6ce1141d57ce8c251dc0f572fb56cbc60906ded2b05df92a5"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_parent_native_v3.status.json",
+      "bytes": 660,
+      "sha256": "0103ddb9c298056e05d519292f85c9f1b72652d059407bf149fa99e048705404"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_physical_source.log",
+      "bytes": 626,
+      "sha256": "5c800f72807a27c332c7de64fa096adb45c63e35e4e2f68191af8dee23539e9e"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_physical_source.status.json",
+      "bytes": 655,
+      "sha256": "25cb1d77b1a1869e63d9a7eb069ad039ad75a5e8a4ff28a8defe487961554a07"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v4.log",
+      "bytes": 345,
+      "sha256": "62e38566e2ad6f02e787564aadfeed31bdfcc7af7f5459404fe2dfdb0222236a"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v4.status.json",
+      "bytes": 650,
+      "sha256": "8e3d232904fda48f578a9aa4124f645df856827aa8d80df510b2e470848aa130"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v5.log",
+      "bytes": 345,
+      "sha256": "091e7aa85a6819e17333326dc2838a597b9a982924c5d040a3b4f98affd5f171"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v5.status.json",
+      "bytes": 651,
+      "sha256": "c8909fbb6404ac4caff95bfa467d23651070486f39988eb39c9275698b51e993"
+    }
+  ],
+  "diagnostic_files": [
+    {
+      "path": "work/deg10/computations/d31b_m327_cusp_parity.py",
+      "bytes": 1346,
+      "sha256": "18458aca9ebe53135f01da18ccb89530a4f8ae291c5340d421972a6a69d3432d"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m327_independent_genuine.py",
+      "bytes": 5454,
+      "sha256": "535b1bc1e86c4aa920cf86ef9854bf7d438b8d7a7aa3fe401f80327fab64c2a5"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m3n27_parent_native.m",
+      "bytes": 2638,
+      "sha256": "49336dab1745a3d69d273aaab232bf1d39b166703bbecd5b585a1cb5af21118b"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m3n27_parent_native_v2.m",
+      "bytes": 2593,
+      "sha256": "155c846d38d33f72ad997a77d2467a54402c22061d6ad5cf552d92fce0e8bc2a"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m3n27_quotient_A7.m",
+      "bytes": 3413,
+      "sha256": "88b0de614a2448e82b2316da5c43325034347aa5e1e0dab746fe44cf2bfde609"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m3n27_quotient_A7_v2.m",
+      "bytes": 3414,
+      "sha256": "2d0f80247185cf5dcb2ba12933112e7330f1aa6b0eb705dc5d67bef15b616ffa"
+    },
+    {
+      "path": "work/deg10/computations/d31b_m3n27_quotient_A7_v3.m",
+      "bytes": 3425,
+      "sha256": "8bfaf0a361cfca7f58768d2b5240293519ffa4b80d9f0e6708c337c5fe68b79c"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/inputs/__pycache__/cusp_conditions_relative.cpython-311.pyc",
+      "bytes": 8829,
+      "sha256": "9a8206c04eed01f6149d14827a0ec6917408cbf98efaec2c589f75dde3101208"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/parent_native_replay_v2.m",
+      "bytes": 4481,
+      "sha256": "f89944f7516a30ef8187806500d3a83c685dccc1194d8f5965ba022c98eae4f7"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/quotient_A7_progress.m",
+      "bytes": 18173,
+      "sha256": "0dc1acc191d6257d76b4de03e0e57ef4f488a83da0ca668cf6b8d88e6c327c9b"
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N27/quotient_A7_v5_progress.m",
+      "bytes": 20117,
+      "sha256": "03806f82d8f92caa664b9ed6d5193ef5fd05c0927c26f4ea1412776bc2f3f310"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m327_cusp_parity.log",
+      "bytes": 354,
+      "sha256": "d82788ac0b704f9519f637edf01c73a5bb181447adcd4000fe266addbd0dd115"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m327_cusp_parity.status.json",
+      "bytes": 638,
+      "sha256": "b28805a883562c4de78a0949ddaab1141d2413f387cc772930e63974fd6c8f6b"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m327_independent_genuine.log",
+      "bytes": 368,
+      "sha256": "3e1d94a96549420368bd8d9747cf38bad84bb485eb4dc791aa17adf73e97e89e"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m327_independent_genuine.status.json",
+      "bytes": 670,
+      "sha256": "972f6bbb92164c528d69c92b2348edd8326ef7c52cb58bb961b9b61c9f6c4848"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_parent_native.log",
+      "bytes": 387,
+      "sha256": "4940277246927257aa96b13cfb05078db8b1550ac47b1c6bb3ceb57ee844029b"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_parent_native.status.json",
+      "bytes": 648,
+      "sha256": "3083a57a1103de4851b8093d256358767c120695177c5223d467b58838e076c1"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_parent_native_v2.log",
+      "bytes": 255,
+      "sha256": "a96445fab49ff6de002e669e2ef622a2696548d2662d0f855ab90354105442c7"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_parent_native_v2.status.json",
+      "bytes": 660,
+      "sha256": "c003a749016e642bad570d7ef1c7cc6f2db0b301a8f7daa8afed61199ee7d4b1"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_quotient_A7.log",
+      "bytes": 368,
+      "sha256": "3a4e8b49c2f3edfdb6c0ea39637f02e40fc70e39702a2eb834ac3ca0fc91cde5"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_quotient_A7.status.json",
+      "bytes": 640,
+      "sha256": "a6513e6732a92aca5b67b5e2d9b1d4f11238a17cd4cc4d4c5c2bbdb8e280388f"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v2.log",
+      "bytes": 430,
+      "sha256": "db72985e799e898882c1698adc84a7b3b14e8f1abf47123fcbf0b8c5379a9822"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v2.status.json",
+      "bytes": 651,
+      "sha256": "1017a54a46bb7c504b6661e873ac7cf274dbef63abc7985cde6de78a29fd907d"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v3.log",
+      "bytes": 517,
+      "sha256": "7822d817bfffdcb934aea8a351a8359033f87311a5365852124190c3b47500e1"
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m3n27_quotient_A7_v3.status.json",
+      "bytes": 652,
+      "sha256": "ac1aa5018d6f1552bc8a87b1baaa39b25df7947e13d97fce998a4cf69177eb7f"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_63_good10",
+  "script": "computations/d31a_63_good10.m",
+  "script_sha256": "eb026f9d40a278e341629c72a037204f32b096bc8987d8d82989cf6a7423e371",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_63_good10.m"
+  ],
+  "pid": 2792776,
+  "owner_uid": 1001,
+  "start_time_unix": 1793401506.2974901,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/d31a_63_good10.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 35.8206205368042
+}

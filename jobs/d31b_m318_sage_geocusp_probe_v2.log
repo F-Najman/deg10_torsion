@@ -1,0 +1,28 @@
+M318_SAGE_MODSYMS 55 0.03616255521774292
+M318_SAGE_CUSP_EIS 20 35
+M ['_ModularSymbolsAmbient__boundary_map', '_ModularSymbolsAmbient_wtk_gamma_h__boundary_space', '_ModularSymbolsAmbient_wtk_gamma_h__manin_symbols', '_manin_basis', '_manin_generators', '_manin_gens_to_basis', '_q_expansion_module_integral', 'boundary_map', 'boundary_space', 'cusps', 'integral_basis', 'integral_hecke_matrix', 'integral_period_mapping', 'integral_structure', 'manin_basis', 'manin_generators', 'manin_gens_to_basis', 'manin_symbol', 'manin_symbols', 'manin_symbols_basis', 'projection']
+C ['_q_expansion_module_integral', 'boundary_map', 'integral_basis', 'integral_hecke_matrix', 'integral_period_mapping', 'integral_structure', 'projection']
+E ['_q_expansion_module_integral', 'boundary_map', 'integral_basis', 'integral_hecke_matrix', 'integral_period_mapping', 'integral_structure', 'projection']
+M318_CUSPIDAL_LATTICE 20
+M318_RELATIVE_LATTICE 55
+LATTICE_SHAPES (20, 55) (55, 55) (55, 20)
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_sage_geocusp_probe_v2.py", line 10, in <module>
+    CL=L*pr;assert CL.is_square();P=ML*pr*CL.inverse();den=P.denominator();A=matrix(ZZ,den*P);H=matrix(ZZ,list(A.rows())+list(den*identity_matrix(ZZ,C.dimension()).rows()));S=H.row_module(ZZ).basis_matrix();index=den**C.dimension()/abs(S.det());invs=[int(den//v)for v in S.smith_form()[0].diagonal()if den//v>1];rep={'status':'PASS','GammaH':[54,[19]],'relative_dimension':M.dimension(),'cuspidal_dimension':C.dimension(),'geometric_cuspidal_order':int(index),'invariants':sorted(invs),'denominator':int(den),'elapsed_seconds':time.monotonic()-T};Path('work/deg10/continuation_20261031b/M3N18/sage_geometric_cuspidal_group.json').write_text(json.dumps(rep,indent=2)+'\n');print('D31B_M318_SAGE_GEOMETRIC_CUSPIDAL_COMPLETE',rep,flush=True)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Integer is not JSON serializable

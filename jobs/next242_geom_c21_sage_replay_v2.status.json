@@ -1,0 +1,18 @@
+{
+  "purpose": "next242_geom_c21_sage_replay_v2",
+  "script": "computations/next242_geom_c21_sage_replay_v2.py",
+  "script_sha256": "baf3b44d4b2a44eaeb915ca3417ee0dbaa79a3d0187b32b5a1adc6678a9b6ceb",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_c21_sage_replay_v2.py"
+  ],
+  "pid": 2393212,
+  "owner_uid": 1001,
+  "start_time_unix": 1793382621.8983266,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/next242_geom_c21_sage_replay_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 2.4179131984710693
+}

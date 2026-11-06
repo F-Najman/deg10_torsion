@@ -1,0 +1,18 @@
+{
+  "purpose": "contc65_verify_jets_v2",
+  "script": "computations/contc65_verify_jets_v2.py",
+  "script_sha256": "37fd111c2bf59dfbf5948392ad81c0e7ffc0a26d9e8197adee33d7d06432bf62",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc65_verify_jets_v2.py"
+  ],
+  "pid": 2718253,
+  "owner_uid": 1001,
+  "start_time_unix": 1793398023.1924324,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/contc65_verify_jets_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.3195691108703613
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "groups": [
+    [
+      4,
+      28
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Full-four-torsion residue parity, four X1(28) Picard tests, exact X1(2,28) Hecke tests and rational 2-isogeny quotients; independent marked Velu and native ideal/Riemann--Roch verification",
+  "frozen_summary_sha256": "6bb62cacec3a01e21e5ae13db258ae583c62461ce50d5d842c4e884500116077",
+  "classification_complete": false
+}

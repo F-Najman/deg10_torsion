@@ -1,0 +1,18 @@
+{
+  "purpose": "replay_units",
+  "script": "computations/replay_units.py",
+  "script_sha256": "28ff4493516e94c7ef1b8422882e52ce49e9db599594abc613f9c17716b18a88",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/replay_units.py"
+  ],
+  "pid": 15765,
+  "owner_uid": 1001,
+  "start_time_unix": 1793274953.774944,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/replay_units.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.068622589111328
+}

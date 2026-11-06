@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "known_quintic28_good_reduction_at3": true,
+  "full2_extension_residue_degree": 10,
+  "global_trace_reduces_to_union_case": 27,
+  "actual_automorphisms_matching_canonical_case": [
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      13
+    ]
+  ],
+  "canonical_F3_orbit_key_matches": true
+}

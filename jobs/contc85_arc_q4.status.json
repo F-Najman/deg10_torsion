@@ -1,0 +1,19 @@
+{
+  "purpose": "contc85_arc_q4",
+  "script": "continuation_20261030c/C85/contc85_arc_q4.m",
+  "script_sha256": "d799cd6352133aa1abbfffbd0eb223cb28896bddb76b8478501086ce71377752",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030c/C85/contc85_arc_q4.m"
+  ],
+  "pid": 2714541,
+  "owner_uid": 1001,
+  "start_time_unix": 1793397848.5205343,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/contc85_arc_q4.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 35.563464403152466
+}

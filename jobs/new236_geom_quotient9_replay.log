@@ -1,0 +1,6 @@
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/portable_forward.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/native_group_generators.m"
+C236_QUOTIENT9_PICARD_FRAME_REPROVED 172 [ 3, 3, 3, 24, 24, 192, 0 ]
+20.580
+Loading "work/deg10/C236_resolution_20261030/geometry/quotient9_projection_helpers.m"
+C236_D10_QUOTIENT9_NATIVE_REPLAY_COMPLETE factorbase=172 cusps=20 projected_degree=8 cpu=20.710

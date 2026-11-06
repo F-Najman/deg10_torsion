@@ -1,0 +1,6 @@
+Loading "work/deg10/continuation_20261029/deps/dt_fast_differential_expansions.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_gonality_4_20_q9_d6.m", line 37, column 122:
+>> Divisor(rat[i])+Divisor(rat[j])+Divisor(rat[k]);B:=HorizontalJoin([Horizont
+                                                                     ^
+Runtime error in sequence construction: No valid universe containing all elements

@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m3n33_physical_source",
+  "script": "computations/d31b_m3n33_physical_source.m",
+  "script_sha256": "99453638d8252d23df589525a57b0a85b5cd5b338ddff6c7b71da2114a7171c6",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m3n33_physical_source.m"
+  ],
+  "pid": 3434090,
+  "owner_uid": 1001,
+  "start_time_unix": 1793431990.1609228,
+  "state": "EXITED",
+  "time_limit_seconds": 550,
+  "log": "jobs/d31b_m3n33_physical_source.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.0656287670135498
+}

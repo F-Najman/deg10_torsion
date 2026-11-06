@@ -1,0 +1,19 @@
+{
+  "purpose": "quintic_full2_28",
+  "script": "computations/quintic_full2_28.m",
+  "script_sha256": "759e5807b0d19ed2030a636808414cd887f048df2d1192c17ba0c4e6753d0c22",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/quintic_full2_28.m"
+  ],
+  "pid": 12301,
+  "owner_uid": 1001,
+  "start_time_unix": 1793274794.721147,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/quintic_full2_28.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5680880546569824
+}

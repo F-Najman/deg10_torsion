@@ -1,0 +1,18 @@
+{
+  "purpose": "late226_stabilizer_replay",
+  "script": "computations/late226_stabilizer_replay.py",
+  "script_sha256": "0d174b992560fde2b883935d244da39bfe6c7c6da32b2f84ed76d515e487187e",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_stabilizer_replay.py"
+  ],
+  "pid": 982621,
+  "owner_uid": 1001,
+  "start_time_unix": 1793318327.2986724,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/late226_stabilizer_replay.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.5648128986358643
+}

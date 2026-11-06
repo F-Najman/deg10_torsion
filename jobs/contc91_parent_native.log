@@ -1,0 +1,6 @@
+Loading "work/deg10/continuation_20261030c/C91/native_packet.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc91_parent_native.m", line 18, column 3:
+>>   end try;
+     ^
+User error: bad syntax

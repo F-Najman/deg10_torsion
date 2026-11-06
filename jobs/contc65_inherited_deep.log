@@ -1,0 +1,10 @@
+C65_READ_ONLY_REPLAY_PASS certify_65_ordinary_readonly.py 13.68
+C65_READ_ONLY_REPLAY_PASS replay_supersingular_census_sage.py 1.01
+C65_READ_ONLY_REPLAY_PASS replay_cusps_and_classes.py 0.02
+C65_READ_ONLY_REPLAY_PASS replay_quartic_arc_sage.py 189.39
+C65_READ_ONLY_REPLAY_PASS replay_all_cusp_FI_sage.py 19.48
+C65_READ_ONLY_REPLAY_PASS replay_cm6_jets_sage.py 3.37
+C65_READ_ONLY_REPLAY_PASS assemble_RR_divisors_sage.py 1.12
+C65_READ_ONLY_REPLAY_PASS replay_ring_RR_sage.py 7.19
+C65_D9_COMPLETE_READ_ONLY_PACKET_PASS excluded=C65 native_new_actual_zero=9 ordinary_matrices=336 allbad_FI=2250325 CM_RR_rank=121 files=415
+C65_INHERITED_DEGREE_INDEPENDENT_EVIDENCE_ALL_PASS

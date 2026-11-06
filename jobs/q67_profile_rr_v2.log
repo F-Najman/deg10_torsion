@@ -1,0 +1,10 @@
+Q67_BASE_X123_READY genus=12 jdegree=264 time=0.220
+Q67_QUARTIC_MODEL_READY genus=67 irreducible=true time=182.530
+Q67_V2_CONSTANTS_HENSEL_VERIFIED rational_simple_cusp_root=true time=182.560
+Q67_V2_FINITE_ORDER_READY time=182.570
+Q67_V2_ACTUAL_INPUT_LIFT_READY base_case=2 degree10=true unique_linear_factor=true time=232.350
+Q67_HEKCE_ORBIT_RESTRICTED index=1 degree=10 full69degree=10 jdegree=10 geometric_observations=1 norm_weight=1 time=282.110
+Q67_HEKCE_ORBIT_RESTRICTED index=2 degree=50 full69degree=50 jdegree=50 geometric_observations=5 norm_weight=1 time=331.970
+Q67_A5_DIVISOR_READY degree=0 hecke_degree=60 diamond5_retained=true time=350.910
+Q67_V2_PROOF_PACKET_COMPLETE two_generators=true ideal_equalities=true function_roundtrips=true divisor_roundtrips=true time=368.410
+Q67_V2_A5_RR_COMPLETE base_case=2 principal=false unique_actual_lifts=true rr_time=301.910 total_time=484.470

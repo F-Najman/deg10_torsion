@@ -1,0 +1,18 @@
+{
+  "purpose": "d31a_C62_inherited_replay",
+  "script": "computations/d31a_C62_inherited_replay.py",
+  "script_sha256": "85b37affa5f13599f6a8fb8619a6490555cd27799bcfead253688b3b4924b874",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C62_inherited_replay.py"
+  ],
+  "pid": 2857882,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404522.861739,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31a_C62_inherited_replay.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 16.788708686828613
+}

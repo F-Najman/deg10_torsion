@@ -1,0 +1,39 @@
+{
+  "C49": {
+    "status": "COMPLETE; parent mathematical audit PASS",
+    "rational_jacobian": {
+      "rank": 0,
+      "invariants": [
+        7,
+        52367710906884085342
+      ],
+      "degree_independent_source": "degree9/prime_orders/continued_20261026/P49/exclusion.tex, DEHMZ Thms3.1,4.13 Table2"
+    },
+    "reduction_at_2": "injective by degree21 pushforward to X0(49), whose rational2torsion survives reduction",
+    "gonality_bound": {
+      "bound": "(7/800)*1176 = 10.29",
+      "sufficient_for_rational_cusp_degree10": true
+    },
+    "expected_reduction_patterns": [
+      "P9 + one rational cusp",
+      "P10",
+      "entirely cuspidal"
+    ],
+    "cuspidal_restrictions_to_check": 3038879,
+    "proof": "resolution.tex",
+    "certificate": "final_certificate_summary.json",
+    "remaining_reduction_branches": 0
+  },
+  "C81": {
+    "status": "not excluded; old argument misses required gonality threshold",
+    "rank": 0,
+    "rational_two_torsion": 0,
+    "genus": 190,
+    "gonality_lower_bound": "236925/8192 = 28.9215087890625",
+    "required_bound_for_Hecke_finite_support": ">30",
+    "literature_check": {
+      "source": "https://arxiv.org/abs/1307.5719",
+      "result": "Exact Q-gonalities are proved only through N40; the table for N81 supplies an upper bound, not the needed lower bound."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(4*10^9);tt:=Cputime();AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");
+load "work/deg10/C234_resolution_20261030/deps/native_group_generators.m";
+load "work/deg10/C234_resolution_20261030/deps/class_group_direct_RR_checked_v4_fastfb.m";
+X:=MDX1(34,GF(3));C:=Curve(X);assert Genus(C) eq 21;cs:=Cusps(X);os:=CuspOrbitsQ(X);c0:=Support([o:o in os|Degree(o) eq 1][1])[1];F0,mp:=AlgorithmicFunctionField(FunctionField(C));F:=RationalExtensionRepresentation(F0);base:=DivisorGroup(F)!FunctionFieldDivisor(Divisor(c0));
+ivs:=ClassGroupAbelianInvariants(F:ReductionDivisor:=base,Proof:=true);assert F`cld`proven;MDProvenClassGroupGenerators(F);G:=F`cld`Cl;ff:=F`cld`ZnToCl;Z:=Domain(ff);fb:=Reverse([a`place:a in F`cld`fb]);fc:=[ff(Z.j):j in [1..#fb]];
+GG,_,phi,witness:=MDClassGroupDirectRRCheckedV4FastFB(F,"work/deg10/C234_resolution_20261030/target_cusps_RR_v2.log");assert GG cmpeq G;
+hg:=[phi(DivisorGroup(F)!FunctionFieldDivisor(o-Degree(o)*Divisor(c0))):o in os];H:=sub<G|hg>;assert Invariants(H) eq [8760,595680];QH,qh:=quo<G|H>;assert #TorsionSubgroup(QH) eq 128;
+cc:=[phi(DivisorGroup(F)!FunctionFieldDivisor(Divisor(c)-Degree(c)*Divisor(c0))):c in cs];allowed:=[*{QH!0}*] cat [*{QH|}:d in [1..4]*];for i in [1..#cs] do w:=Degree(cs[i]);for d in [w..4] do allowed[d+1] join:={u+qh(cc[i]):u in allowed[d-w+1]};end for;end for;
+assert &and[c in H:c in cc];
+A:=F`cld`A1;pp,ee:=Support(A);assert #pp eq 1 and ee[1] eq 1;ai:=Index(fb,pp[1]);assert ai gt 0;
+function ER(v) return [[Integers()!a:a in Coefficients(Numerator(v))],[Integers()!a:a in Coefficients(Denominator(v))]];end function;
+function EF(v) return [ER(c):c in Eltseq(F!v)];end function;
+OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);flags:=[Order(Ideal(p)) eq OF select 1 else 0:p in fb];degs:=[Degree(p):p in fb];ideals:=[*[EF(v):v in Basis(Ideal(p))]:p in fb*];coords:=[EF(F!mp(FunctionField(C).i)):i in [1,2]];
+out:=[*[ER(v):v in Coefficients(DefiningPolynomial(F))],flags,degs,ideals,[Eltseq(v):v in fc],[Eltseq(v):v in Rows(RelationMatrix(G))],coords,ai,[Eltseq(v):v in hg],[Degree(c):c in cs],[Eltseq(v):v in cc],[[Eltseq(u):u in a]:a in allowed]*];Write("work/deg10/C234_resolution_20261030/target_proven_picard.m",Sprint(out):Overwrite:=true);fprintf witness,"]\n";Flush(witness);print "C234_TARGET_PROVEN_COMPLETE",Invariants(G),Invariants(H),[#a:a in allowed],#fb,Cputime(tt);quit;

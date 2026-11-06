@@ -1,0 +1,6 @@
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 0, 1, 2, 0, 0 ] Edegree=4 Rdegree=4 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 1, 0, 8, 30, 0 ] Edegree=4 Rdegree=4 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 0, 0, 2, 6, 0 ] Edegree=4 Rdegree=4 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 0, 1, 2, 0, 0 ] Edegree=4 Rdegree=4 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 1, 0, 8, 30, 0 ] Edegree=4 Rdegree=4 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 0, 0, 2, 6, 0 ] Edegree=4 Rdegree=4 both_orders_exact=true

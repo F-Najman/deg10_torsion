@@ -1,0 +1,102 @@
+\begin{proposition}\label{prop:nonic-no58}
+There is no point of order $58$ on an elliptic curve over a number
+field of degree $9$.
+\end{proposition}
+\begin{proof}
+Put $Y=X_1(29)$ and $J=J_1(29)$. The curve $Y$ has genus $22$ and
+$\operatorname{gon}_{\mathbb Q}(Y)=11$ \cite{DvH}. By
+\cite[Theorem~3.1(2), Theorem~4.13 and Table~2]{DEHMZ},
+\[
+ J(\mathbb Q)\simeq C_4^2\times C_{64427244}.
+\]
+In particular, $J(\mathbb Q)$ is finite. We use the forgetful map
+$\pi:X_1(58)\longrightarrow Y$. Over a noncuspidal point $(E,P_{29})$
+in characteristic $3$, its fibre is the degree-$3$ finite \'etale
+scheme $E[2]\setminus\{0\}$.
+
+Suppose $E/K$ has a point of order $58$, where $[K:\mathbb Q]=9$.
+Let $D$ be its trace divisor on $X_1(58)$ and put $D_Y=\pi_*D$.
+Both have degree $9$. The cusps of $Y$ have global signature
+$1^{14}14$, and the same orbit partition occurs over $\mathbb F_3$:
+the order of $3$ in $(\mathbb Z/29\mathbb Z)^\times/\{\pm1\}$ is $14$.
+Fix a rational cusp $c_0$. If $\overline D_Y$ were entirely cuspidal,
+its support would consist of rational cusps and would lift to a
+rational cuspidal divisor $C$ of degree $9$.
+The torsion class $[D_Y-C]\in J(\mathbb Q)$ would reduce to zero
+at $3$. Torsion reduction at this good odd prime is injective, so
+$D_Y\sim C$. These are distinct rational effective divisors of
+degree $9$, contrary to the gonality of $Y$.
+Thus $\overline D$ has a noncuspidal part.
+
+A noncuspidal point of $X_1(58)$ over $\mathbb F_{3^e}$ gives
+$58\mid\#E(\mathbb F_{3^e})$. The Hasse bound excludes $e\le4$;
+for $e=4$ the interval $[64,100]$ contains no multiple of $58$.
+Consequently the noncuspidal part of $\overline D$ is a single
+closed point $Q_e$ of degree $5\le e\le9$, with multiplicity $1$.
+Write $\pi(Q_e)=P_d$ and $f=[\kappa(Q_e):\kappa(P_d)]$, so that
+$e=fd$ and $f\in\{1,2,3\}$.
+If $f=2$, then $(d,e)=(3,6)$ or $(4,8)$.
+An elliptic curve with $29$-torsion over $\mathbb F_{27}$ or
+$\mathbb F_{81}$ has respectively $29$ or $87$ points, by the
+Hasse bound. Both numbers are odd. Its $2$-division polynomial
+is therefore an irreducible cubic, so the fibre cannot contain
+a point of relative degree $2$. This excludes $f=2$.
+If $f=3$, then $d=2$ or $3$; the Hasse bound excludes
+$29$-torsion over $\mathbb F_9$. Thus $d=3$ and
+$\pi_*Q_9=3P_3$.
+The remaining possibility is $f=1$, in which case $5\le d\le9$
+and the elliptic curve at $P_d$ has a rational nonzero $2$-torsion
+point.
+
+Put $G=J(\mathbb F_3)$ and $H=\operatorname{red}_3J(\mathbb Q)$.
+A proven divisor-class computation gives
+\[
+ G\simeq C_4^3\times C_8^2\times C_{386563464},\qquad
+ \#G=1583363948544,\qquad [G:H]=1536=2^9\cdot3.
+\]
+It uses all $3535$ closed places of degrees at most $9$, which
+attains the unconditional class-group generation bound $9$.
+The $4440$ principal relation rows and the factor-basis prime
+ideals are retained in the certificate. The group order and
+all closed-place counts agree with the Frobenius polynomial.
+The noncuspidal counts on $Y$ in degrees $1$ through $9$ are
+\[
+ (0,0,14,28,14,133,280,770,2282).
+\]
+The corresponding counts on $X_1(58)$ are
+\[
+ (0,0,0,0,0,140,224,756,2380).
+\]
+Independent finite-field arithmetic reconstructs every Tate
+normal form, verifies its point of order $29$, and binds it to
+all $11$ generators of its factor-basis ideal. Distinct
+Frobenius orbits and these counts certify completeness.
+Counting the rational roots of each $2$-division polynomial
+also recovers the source counts, including the inert cubic
+fibres over the $14$ degree-$3$ points.
+
+The cuspidal complement of $\pi_*Q_e$ has degree at most $4$,
+and hence consists of rational cusps. Its normalized class
+belongs to $H$. It is therefore necessary that
+\[
+ [P_d-dc_0]\in H\quad\text{or}\quad [3P_3-9c_0]\in H
+\]
+for the possibilities described above.
+The numbers of tests in degrees $3,5,6,7,8,9$ are respectively
+\[
+ 14,\quad0,\quad84,\quad168,\quad476,\quad1582.
+\]
+There are $2324$ tests in total.
+
+We test membership using homomorphisms to groups of exponent
+$8$ and $9$, obtained by annihilating the complete relation
+matrix and setting $c_0$ to zero. Their image orders are
+$32768$ and $9$, the orders of the full $2$- and $3$-primary
+parts of $G$. The $14$ rational cusps generate images of orders
+$64$ and $3$, the orders of the corresponding primary parts
+of $H$. Lemma~\ref{lem:nonic35-primary-characters} gives an exact
+membership test. Independent integer arithmetic verifies all
+relation identities, both image orders, both cuspidal image
+orders, and all $2324$ tests. None belongs to $H$.
+This contradiction proves the proposition.
+\end{proof}

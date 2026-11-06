@@ -1,0 +1,16 @@
+{
+  "degree": 10,
+  "source_order": 51,
+  "geometry_file_sha256": "dac58b2d2b6e306e7bd198620e09a4f73f3c8810db5a2a085ff76f7915d4c9cf",
+  "tested_divisors": 9655880,
+  "exceptions_count": 0,
+  "exceptions": [],
+  "new_missing_pattern_types": [
+    "9P+Q rational",
+    "10P rational",
+    "5R quadratic"
+  ],
+  "complete_enumeration": true,
+  "elapsed_seconds": 6.977459900081158,
+  "status": "FULL_RANK"
+}

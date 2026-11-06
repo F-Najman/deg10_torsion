@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "all_independent_jobs_exited": true,
+  "active_workers_supervisors_or_launchers": [],
+  "paused_workers": 0,
+  "automatic_launchers": 0,
+  "records": [
+    {
+      "purpose": "contc99_independent_Y29_RR",
+      "actual_exit_code": 0,
+      "state": "EXITED",
+      "successful_control": true,
+      "diagnostic_not_certificate": false,
+      "script": "computations/contc99_independent_Y29_RR.m",
+      "status": "work/deg10/jobs/contc99_independent_Y29_RR.status.json"
+    },
+    {
+      "purpose": "contc99_independent_Y29_binding",
+      "actual_exit_code": 0,
+      "state": "EXITED",
+      "successful_control": true,
+      "diagnostic_not_certificate": false,
+      "script": "computations/contc99_independent_Y29_binding.py",
+      "status": "work/deg10/jobs/contc99_independent_Y29_binding.status.json"
+    },
+    {
+      "purpose": "contc99_independent_Y29_genuine",
+      "actual_exit_code": 0,
+      "state": "EXITED",
+      "successful_control": true,
+      "diagnostic_not_certificate": false,
+      "script": "computations/contc99_independent_Y29_genuine.py",
+      "status": "work/deg10/jobs/contc99_independent_Y29_genuine.status.json"
+    },
+    {
+      "purpose": "contc99_independent_Y29_model",
+      "actual_exit_code": 1,
+      "state": "EXITED",
+      "successful_control": false,
+      "diagnostic_not_certificate": true,
+      "script": "computations/contc99_independent_Y29_model.m",
+      "status": "work/deg10/jobs/contc99_independent_Y29_model.status.json"
+    },
+    {
+      "purpose": "contc99_independent_Y29_model_v2",
+      "actual_exit_code": 1,
+      "state": "EXITED",
+      "successful_control": false,
+      "diagnostic_not_certificate": true,
+      "script": "computations/contc99_independent_Y29_model_v2.m",
+      "status": "work/deg10/jobs/contc99_independent_Y29_model_v2.status.json"
+    },
+    {
+      "purpose": "contc99_independent_Y29_model_v3",
+      "actual_exit_code": 1,
+      "state": "EXITED",
+      "successful_control": false,
+      "diagnostic_not_certificate": true,
+      "script": "computations/contc99_independent_Y29_model_v3.m",
+      "status": "work/deg10/jobs/contc99_independent_Y29_model_v3.status.json"
+    },
+    {
+      "purpose": "contc99_independent_Y29_model_v4",
+      "actual_exit_code": 1,
+      "state": "EXITED",
+      "successful_control": false,
+      "diagnostic_not_certificate": true,
+      "script": "computations/contc99_independent_Y29_model_v4.m",
+      "status": "work/deg10/jobs/contc99_independent_Y29_model_v4.status.json"
+    },
+    {
+      "purpose": "contc99_independent_Y29_model_v5",
+      "actual_exit_code": 0,
+      "state": "EXITED",
+      "successful_control": true,
+      "diagnostic_not_certificate": false,
+      "script": "computations/contc99_independent_Y29_model_v5.m",
+      "status": "work/deg10/jobs/contc99_independent_Y29_model_v5.status.json"
+    },
+    {
+      "purpose": "contc99_independent_genuine",
+      "actual_exit_code": 0,
+      "state": "EXITED",
+      "successful_control": true,
+      "diagnostic_not_certificate": false,
+      "script": "computations/contc99_independent_genuine.py",
+      "status": "work/deg10/jobs/contc99_independent_genuine.status.json"
+    },
+    {
+      "purpose": "contc99_independent_native_binding",
+      "actual_exit_code": 0,
+      "state": "EXITED",
+      "successful_control": true,
+      "diagnostic_not_certificate": false,
+      "script": "computations/contc99_independent_native_binding.py",
+      "status": "work/deg10/jobs/contc99_independent_native_binding.status.json"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "case_id": 8,
+  "source_degree": 8,
+  "actual_source_and_diamond_prime_ideals_equal_old_exact_packet": true,
+  "old_saved_Hecke_primes_rebuilt_and_prime_degrees_checked": true,
+  "aggregated_A5_divisor_equal_old_exact_packet_in_full_divisor_group": true,
+  "actual_A5_h0": 1,
+  "final_comparison_seconds": 13.37,
+  "all_returned_primes_bound_to_physical_BC_joint_key": true,
+  "guarded_exceptions": "C=1 or recovered t=0 are explicit assertion failures, not unverified fallbacks; q=1 is handled",
+  "accepted_files_sha256": {
+    "continuation_20261031b/Y228_shared/fast_primitive_inverse.m": "d7552a899b33929689fd00905f9910ea928ce843d133954b7b967a6eff0aefea",
+    "continuation_20261031b/Y228_shared/fast_inverse_old_case8_snapshot_v2.m": "21b824d24c651ba0f6f3983323b64e3d0ee1fb50b7459ccda0a8e110f8bc38d2",
+    "continuation_20261031b/Y228_shared/fast_inverse_old_model_snapshot.m": "91e6b9ca353ec53aaa9ab8c3226d5cd39fac2a3571af7c6ba802712c3ffe65e9",
+    "continuation_20261031b/Y228_shared/fast_inverse_old_snapshot_provenance.json": "671154169f3187db0723bb7ab1c2d0baf1dbead2674d3bc83a97e5a392581840",
+    "continuation_20261031b/Y228_shared/fast_inverse_profile_summary.m": "4e43c8d97cfd9585ab01b80de209ddc0f43e49580ac4a7b5eba6a6b654851b1a",
+    "jobs/d31b_Y228_fast_inverse_profile_v2.status.json": "e9299a74eafaac3cdc16d5fe00988112ac9e7ba397bee62a8aea9ec0839039a5",
+    "jobs/d31b_Y228_fast_inverse_profile_v2.log": "c49f1d6da09124c48ed91e3d21b720ee9d1acacb4984f07ae5dab8c4609b0d13",
+    "computations/d31b_Y228_fast_inverse_profile_v2.m": "c7abbae379de50403b7f958b6f512fd00b8f85fcb4fecba8aba569c45b1406a4",
+    "jobs/d31b_Y228_fast_inverse_compare_v2.status.json": "e9eac9d5eba3ca3d87d8c4245c936fd51c7b4bc458a9d8eac03b8598e08c06f7",
+    "jobs/d31b_Y228_fast_inverse_compare_v2.log": "795a2fc6b507daafb286e2e9ffff9f324dec87d401e9ab9bb4a6b6fff744335b",
+    "computations/d31b_Y228_fast_inverse_compare_v2.m": "2cef866fcc2b66d390331aa84bf307e431f464637e03e73df3c9841aef5e4393"
+  },
+  "failed_diagnostics": [
+    "d31b_Y228_fast_inverse_profile: completed operator and h0=1, then wrong expected-zero assertion; enclosing run not certificate",
+    "d31b_Y228_fast_inverse_compare: old snapshot sequence typing failed before inverse calculations"
+  ]
+}

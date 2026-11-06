@@ -1,0 +1,114 @@
+\subsection{Excluding $C_{74}$}
+
+
+\begin{proposition}\label{prop:decic74-exclusion}
+An elliptic curve over a number field of degree $10$ has no point of order $74$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(37)$, $J=J_1(37)$ and $\alpha=\langle2\rangle-1$.
+Suppose that $E/K$ has a point of order $74$, where $[K:\mathbb Q]=10$.
+The point of order $37$ gives a rational effective divisor $D$ of degree
+$10$ on $X$, supported away from the cusps, and a $K$-rational
+$2$-isogeny. We do not assume initially that the moduli point has degree $10$.
+By \cite[Proposition~5.2 and Table~2]{DSPrime}, every diamond-difference
+image on $J(\mathbb Q)$ is finite. The exact integral homology certificate
+for $X_1(37)$ gives $J(\mathbb Q)[2]=0$: the common binary kernel of
+$T_3-1-3\langle3\rangle$ and $T_5-1-5\langle5\rangle$ on the full
+rank-$80$ homology is zero. Since the rational torsion reduction kernel
+at $2$ is killed by $2$, reduction on $J(\mathbb Q)_{\mathrm{tors}}$ is
+injective. We use these degree-independent certificates from the
+$X_1(37)$ computation.
+
+The curve has genus $40$ and rational gonality $18$ by
+\cite[Theorem~1]{DvH}. Its cusp degrees modulo $2$ are $1^{18},18$;
+the eighteen rational cusps lift individually over $\mathbb Q$.
+In one global differential basis we compute the actual diamond-$2$
+pullback $M$, verify $M^{18}=1$, and put
+\[
+ U=\operatorname{Im}(M-1),\qquad \dim U=38.
+\]
+All statements about formal immersion below use the full Jacobian $J$
+as target. Canonical base change identifies its cotangent map with
+restriction of $U$; no quotient-cotangent exactness at $2$ is required.
+The new restriction computations give the following ranks:
+\[
+\begin{array}{c|r|c}
+\text{effective divisor modulo }2&\text{number of tests}&\text{rank}\\\hline
+\text{rational cuspidal, degree }10&8\,436\,285&10\\
+P_6+\text{rational cuspidal divisor of degree }4&5\,985&10\\
+\text{noncuspidal closed point of degree }10&99&10.
+\end{array}
+\]
+Here $P_6$ is one representative of the surviving sextic diamond orbit
+in the existing $X_1(37)$ sieve. The other two points are covered by
+diamond transport. The cusp jets through order $10$ are transported
+by the actual diamond action; their first coefficients identify all
+eighteen rational cusps. Two binary algorithms independently check
+all multiplicity patterns. Native differential-space calculations check $10c$ and $P_6+4c$.
+A fresh reconstruction verifies the actual diamond and Cartier matrices,
+all cusp prefix kernels, and the restrictions at $P_6$ and all $99$
+decic places.
+
+If $\overline D$ is entirely cuspidal, let $C$ be its global cuspidal
+lift. Then $\alpha[D-C]$ is rational torsion reducing to zero, hence
+is zero. The first row gives formal immersion of the $\alpha$-Abel
+map on $X^{(10)}$ at $\overline C$, so $D=C$, a contradiction.
+
+The complete noncuspidal place counts through degree $10$ are
+\[
+ (0,0,0,0,0,21,18,0,39,99).
+\]
+There is consequently at most one noncuspidal component of
+$\overline D$; every remaining component is a rational cusp.
+Put $A_3=T_3-1-3\langle3\rangle$.
+The existing full-source $\alpha A_3$ sieve applies without change:
+$A_3$ annihilates rational torsion and kills rational cusps as divisors.
+It excludes the septic orbit, one of the two sextic orbits, and two of
+the four nonic orbits.
+
+The surviving sextic orbit consists of reductions of three global
+sextic divisors above $j=-9317$, as verified by the retained division-
+polynomial and Tate-coordinate certificates. If
+$\overline D=P_6+C'$ with $\deg C'=4$, choose the corresponding sextic
+lift $S$ and the cuspidal lift $C$ of $C'$. Injectivity of torsion
+reduction gives $\alpha[D-S-C]=0$. The second row gives formal
+immersion at $P_6+C'$, so $D=S+C$, again a contradiction.
+
+For either surviving nonic orbit, its closed point $P_9$ is fixed by
+$h=\langle4\rangle$, of order $9$. Write $\overline D=P_9+\overline c$
+and lift $\overline c$ to a rational cusp $c$.
+The finite diamond-difference image and Manin--Drinfeld imply that
+the class of $(h-1)(D-c)$ is rational torsion. It reduces to zero, so
+\[
+ hD+c\sim D+hc.
+\]
+Both divisors have degree $11<18$, hence they are equal. Their
+noncuspidal parts give $hD=D$. Every geometric orbit of $\langle h\rangle$
+on the noncuspidal locus has size divisible by $3$: the projective
+automorphism group of an elliptic curve has order at most $3$.
+This contradicts $\deg D=10$.
+
+It remains that $\overline D=P_{10}$. In this case the moduli point has
+exact degree $10$, and $K$ has a unique prime above $2$, with residue
+degree $10$ and ramification index $1$. The curve has good ordinary
+reduction there. Indeed, an elliptic curve over $\mathbb F_{1024}$
+giving such a point has order $962$ or $1036$, and both traces are odd.
+The independent complete curve enumeration gives respectively $5$
+and $50$ isomorphism classes, accounting for all $99$ closed level
+points.
+
+Let $D'$ be the divisor of the quotient elliptic curve with the image
+of the marked $37$-torsion point. In characteristic $2$, the quotient
+by a rational subgroup of order $2$ is Frobenius or Verschiebung.
+Thus $\overline{D'}=P_{10}$ or $\langle2\rangle P_{10}$.
+In the first case $\alpha[D'-D]=0$, and in the second
+$\alpha[D'-\langle2\rangle D]=0$, by torsion reduction injectivity.
+The third row and formal immersion give respectively
+$D'=D$ or $D'=\langle2\rangle D$.
+Since $X_1(37)$ is a fine moduli curve, this equality gives a
+$K$-rational isogeny of degree $2$ from $E$ to $E^\sigma$ for some
+$\sigma\in\operatorname{Aut}(K)$. The unique prime above $2$ is fixed
+by $\sigma$. By \cite[Section~4.10]{CCRS}, a geometrically CM elliptic
+curve over a decic field cannot have a point of order $37$.
+Lemma~\ref{lem:decic-local-two-cycle} now gives a contradiction.
+\end{proof}

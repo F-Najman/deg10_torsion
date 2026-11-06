@@ -1,0 +1,35 @@
+{
+  "classification_status": "UNRESOLVED; exploratory inputs only",
+  "new_exclusion": false,
+  "number_field_CM_preflight": {
+    "model_genus": 10,
+    "function_field_degree": 7,
+    "completed_CM_divisor": false,
+    "actual_exit_code": -14,
+    "native_alarm_seconds": 500,
+    "restart_automatically": false
+  },
+  "finite_modular_Jacobian_order_probe": {
+    "JH": "JH(54,[19])",
+    "dimension": 10,
+    "gcd_of_split_and_inert_residue_orders": 1640558367,
+    "primes": [
+      5,
+      7,
+      11,
+      13,
+      19,
+      31
+    ],
+    "proof_use": "No saturation or exclusion inferred"
+  },
+  "previous_finite_cuspidal_image_order": 20253807,
+  "previous_finite_quotient_invariants": [
+    3,
+    3,
+    9
+  ],
+  "previous_split_Hecke_kernel_index_over_cusps": 27,
+  "cuspidal_saturation_proven": false,
+  "workers_remaining": 0
+}

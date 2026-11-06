@@ -1,0 +1,4 @@
+DATABASE_ELL_MODEL N=69 ell=23 genus=2 good_reduction=true j_degree=24 time=0.030
+X0_3ELL_MODEL N=69 genus=7 degree_over_X0ell=4 integral_coordinates_ready=true time=0.460
+CONT69_GENERATOR_PROBE 10 true true 4
+CONT69_GENERATOR_SERIALIZATION_PROBE_PASS

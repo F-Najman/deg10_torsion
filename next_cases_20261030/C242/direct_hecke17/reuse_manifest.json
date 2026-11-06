@@ -1,0 +1,12 @@
+[
+  {
+    "source": "work/degree9/noncyclic/C242_completion_20261026/cyclic42_A11_seven/test.m",
+    "copy": "work/deg10/next_cases_20261030/C242/direct_hecke17/deps/accepted_A11_template.m",
+    "sha256": "ea56d86d6e31a3123e12bff9ee32e8f102caf58e021bdde93383dc56c0bb44b0"
+  },
+  {
+    "source": "work/degree9/noncyclic/C230/deps/pair_af_place_linear.m",
+    "copy": "work/deg10/next_cases_20261030/C242/direct_hecke17/deps/pair_af_place_linear.m",
+    "sha256": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802"
+  }
+]

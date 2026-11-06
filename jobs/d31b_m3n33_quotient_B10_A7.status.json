@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m3n33_quotient_B10_A7",
+  "script": "computations/d31b_m3n33_quotient_B10_A7.m",
+  "script_sha256": "be4ebac9680913770c668641cfc7ece48f0f1a6be5bece84115ed157b25c5988",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m3n33_quotient_B10_A7.m"
+  ],
+  "pid": 3446453,
+  "owner_uid": 1001,
+  "start_time_unix": 1793432553.4042728,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/d31b_m3n33_quotient_B10_A7.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 29.358352422714233
+}

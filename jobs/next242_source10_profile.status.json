@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_source10_profile",
+  "script": "computations/next242_source10_profile.m",
+  "script_sha256": "87719721d4ac43c5b068880d6f3a80e333f72ece5940f23f59f955888fabe42e",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_source10_profile.m"
+  ],
+  "pid": 2355650,
+  "owner_uid": 1001,
+  "start_time_unix": 1793380932.446347,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/next242_source10_profile.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.015550136566162
+}

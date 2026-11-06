@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "path": "work/degree6/phi6_proof.tex",
+      "sha256": "a0af9fea54113a329191749bfadaae9b25bb92cdf6b974e2a196bf8c5858ff9e"
+    },
+    {
+      "path": "work/degree6/candidates.json",
+      "sha256": "363b0d6828e6c2c07b92bf5caaa2b9c6f4335483db45641d5c980e3feb34a67f"
+    },
+    {
+      "path": "work/degree6/validation.json",
+      "sha256": "49e2938e112fab7602c41208c63ce8b9147fd907c834bfc68315027531a37a81"
+    },
+    {
+      "path": "outputs/degree6/phi6_proof.pdf",
+      "sha256": "c49b605bda4683384f11c4085c8ee519199eb4ee516f329c255fcf5b334949dc"
+    },
+    {
+      "path": "work/degree7/phi7_proof.tex",
+      "sha256": "72692a4496152495ad69368a901a8d0773a1a423a8eae4d116c1e0a8d3187c57"
+    },
+    {
+      "path": "work/degree7/certified_results.json",
+      "sha256": "39bc9e5e9d92752837a26045a8c7840abdf4b64a5b0cf7e4710d5b1a2c0d5183"
+    },
+    {
+      "path": "work/degree7/candidates.json",
+      "sha256": "bdae0e5fdf987edaf9887e7940e9e34e37668a54589d1d64408ce503b8cb3a14"
+    },
+    {
+      "path": "work/degree7/counts.tex",
+      "sha256": "2fbe3a3ca62a7adc74d3fc99cdbda0f6ad04286e67e17e0424a73e855d1f1e84"
+    },
+    {
+      "path": "work/degree7/validation.json",
+      "sha256": "863982c49bd56e2bbe080ef4c6c586710c61446425dedbbd64a4d983ae29a16f"
+    },
+    {
+      "path": "outputs/degree7/phi7_progress.pdf",
+      "sha256": "d26c8bc4e5ffc4658008180bda8dec23f61cb342a8b7e5b2fa93e5745fdcd2f9"
+    },
+    {
+      "path": "outputs/degree7/phi7_proof.pdf",
+      "sha256": "d26c8bc4e5ffc4658008180bda8dec23f61cb342a8b7e5b2fa93e5745fdcd2f9"
+    },
+    {
+      "path": "work/degree8/phi8_proof.tex",
+      "sha256": "9826f4ea6631b0c5f11f9451d404a5e9743f7fac14c38b4377ce9575ef83afe4"
+    },
+    {
+      "path": "work/degree8/certified_results.json",
+      "sha256": "0f890cd072bf9e7306c87df8dd7b56c05d2ca7c69b8069c9714134d83ef133ba"
+    },
+    {
+      "path": "work/degree8/candidates.json",
+      "sha256": "168d19fa87c88cfd7a881189e3deb5569ddcdd86152a4d7096a936dd8d7e6190"
+    },
+    {
+      "path": "work/degree8/counts.tex",
+      "sha256": "9ab74926f5142ebd0a7f721c2fcfe765389b9fe5e0e14533c3ea5fb1c8163cf7"
+    },
+    {
+      "path": "work/degree8/validation.json",
+      "sha256": "3eb65077090026e8edb0a57e0c46a0df85f45ce4466f6126cae15ac660c72899"
+    },
+    {
+      "path": "outputs/degree8/phi8_progress.pdf",
+      "sha256": "66b1995dc7ac7d31e23dd03659e9788b69297c5ceb5de39372310b00b765e197"
+    },
+    {
+      "path": "outputs/degree8/phi8_proof.pdf",
+      "sha256": "66b1995dc7ac7d31e23dd03659e9788b69297c5ceb5de39372310b00b765e197"
+    },
+    {
+      "path": "work/degree9/phi9_classification.tex",
+      "sha256": "94bb89cbad8604ea24336d8c8acd0212ef345f8e9cf570884416f49d56b37dde"
+    },
+    {
+      "path": "work/degree9/certified_results.json",
+      "sha256": "e23acdebb9c6c5199da9f4759c5c3fd507d8cb66bf49c0a49c0223bf0f07c446"
+    },
+    {
+      "path": "work/degree9/candidates.json",
+      "sha256": "d88cb6c2d97d6b47e89d4e02914e7ce7b100b792bb67ce0b69fdafa1ec7471d1"
+    },
+    {
+      "path": "work/degree9/counts.tex",
+      "sha256": "a72fcff6e76b83156e7533cd2ef48f647b39390035c44cf56faad0ca5a805e8f"
+    },
+    {
+      "path": "work/degree9/validation.json",
+      "sha256": "c5a56fabd97fef56d319e513224a8673a0ee74bdae8b57dabf7ee73ef16c6099"
+    },
+    {
+      "path": "outputs/degree9/phi9_progress.pdf",
+      "sha256": "d71768a9d94fe5152a4907fbbcfeffc7169335aae2bee6f45cca065cc09aaebd"
+    },
+    {
+      "path": "outputs/degree9/phi9_classification.pdf",
+      "sha256": "d71768a9d94fe5152a4907fbbcfeffc7169335aae2bee6f45cca065cc09aaebd"
+    }
+  ]
+}

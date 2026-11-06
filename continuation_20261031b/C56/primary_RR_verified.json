@@ -1,0 +1,223 @@
+{
+  "status": "PASS",
+  "scope": "Primary exact Kummer Riemann-Roch computations only; independent controls and parent mathematical review are separate",
+  "degree": 10,
+  "source_level": 56,
+  "cases": [
+    {
+      "case": 65,
+      "hecke": 11,
+      "result": [
+        65,
+        11,
+        96,
+        72,
+        60,
+        192,
+        132,
+        0
+      ],
+      "job": "d31b_C56_kummer_cross65"
+    },
+    {
+      "case": 271,
+      "hecke": 5,
+      "result": [
+        271,
+        5,
+        60,
+        36,
+        24,
+        120,
+        60,
+        0
+      ],
+      "job": "d31b_C56_kummer_cross271"
+    },
+    {
+      "case": 327,
+      "hecke": 5,
+      "result": [
+        327,
+        5,
+        60,
+        36,
+        24,
+        120,
+        60,
+        0
+      ],
+      "job": "d31b_C56_kummer_cross327"
+    },
+    {
+      "case": 491,
+      "hecke": 5,
+      "result": [
+        491,
+        5,
+        60,
+        36,
+        24,
+        120,
+        60,
+        0
+      ],
+      "job": "d31b_C56_kummer_direct_case491_v3"
+    },
+    {
+      "case": 578,
+      "hecke": 5,
+      "result": [
+        578,
+        5,
+        60,
+        36,
+        24,
+        120,
+        60,
+        0
+      ],
+      "job": "d31b_C56_kummer_case578"
+    },
+    {
+      "case": 818,
+      "hecke": 5,
+      "result": [
+        818,
+        5,
+        60,
+        36,
+        24,
+        120,
+        60,
+        0
+      ],
+      "job": "d31b_C56_kummer_case818"
+    },
+    {
+      "case": 837,
+      "hecke": 5,
+      "result": [
+        837,
+        5,
+        60,
+        36,
+        24,
+        120,
+        60,
+        0
+      ],
+      "job": "d31b_C56_kummer_case837"
+    },
+    {
+      "case": 978,
+      "hecke": 5,
+      "result": [
+        978,
+        5,
+        60,
+        36,
+        24,
+        120,
+        60,
+        0
+      ],
+      "job": "d31b_C56_kummer_case978"
+    },
+    {
+      "case": 1009,
+      "hecke": 5,
+      "result": [
+        1009,
+        5,
+        60,
+        36,
+        24,
+        120,
+        60,
+        0
+      ],
+      "job": "d31b_C56_kummer_case1009"
+    }
+  ],
+  "all_nine_Riemann_Roch_dimensions_zero": true,
+  "all_nine_bounded_jobs_completed_successfully": true,
+  "global_known_quotient_cases_handled_separately": [
+    492,
+    737
+  ],
+  "files_sha256": {
+    "continuation_20261031b/C56/kummer_rr/direct_case65_A11_model_snapshot.m": "e8c619302bcda03fcdebe7b1798baac2bf6de58550e61174561e74e2deae48cc",
+    "continuation_20261031b/C56/kummer_rr/direct_case65_A11_operator_snapshot.m": "157a3d515e547e4673d611d33af59ca8bb57b323bd31dd77453e8e2f65068dd3",
+    "continuation_20261031b/C56/kummer_rr/direct_case65_A11_basis.m": "f8b0b9cacd4240a80ea8d4eb488d91d1a73537bddf8e801aa19279f34518d3b4",
+    "continuation_20261031b/C56/kummer_rr/direct_case65_A11_jet_tables.m": "ade6ab057188f5f13107db870c8030d6434494c929ea7c7791b2a18ad7d91124",
+    "continuation_20261031b/C56/kummer_rr/direct_case65_A11_result.m": "6e50e0139bf4fabffb17e1fc1442311535ed80e6077bad7851fd6dc3d71f1b0e",
+    "jobs/d31b_C56_kummer_cross65.status.json": "ca13892b5d5edeb532e1946e6f30d2ca2ed88d332170dc3a2446c84732e1aa21",
+    "jobs/d31b_C56_kummer_cross65.log": "67975ffafff23d5b444c9259e2857a0591c9aa3c5a3e9b4870f3f47efdc821c7",
+    "computations/d31b_C56_kummer_cross65.m": "8cd8639c7d2b244f8cf086a04ac1c0f2ccdfa19e8b3239371f2737cae168a3be",
+    "continuation_20261031b/C56/kummer_rr/direct_case271_A5_model_snapshot.m": "e8c619302bcda03fcdebe7b1798baac2bf6de58550e61174561e74e2deae48cc",
+    "continuation_20261031b/C56/kummer_rr/direct_case271_A5_operator_snapshot.m": "cefd88ac6d28a6f565babd9412024080f981fa8eee5d6b061a93461795074f61",
+    "continuation_20261031b/C56/kummer_rr/direct_case271_A5_basis.m": "bfc4047149a91802a898a4d5ac0a4dfe48a0873212d7a072a9b0865a1fc55f04",
+    "continuation_20261031b/C56/kummer_rr/direct_case271_A5_jet_tables.m": "83084eeca3685901ffbd2993e1ee3f0abce4e71c4a137af7fd31bc1dd7cc61fc",
+    "continuation_20261031b/C56/kummer_rr/direct_case271_A5_result.m": "67de7d1dbd0524d5f68b4e2f8bd61105329ae5a8460cbba2f0788c11ce4d531a",
+    "jobs/d31b_C56_kummer_cross271.status.json": "9886b49488f4a5122b2c392d37d73b0d271be9ff744bfbc7886c246165be9115",
+    "jobs/d31b_C56_kummer_cross271.log": "22c9d4f5ad18c0c917a8d06769520e72786491d1b147efa7c325a72c8952dec8",
+    "computations/d31b_C56_kummer_cross271.m": "95d35f64c5ee76b951e98cd0de70a571c3aa2c81e698dee53946122049150f40",
+    "continuation_20261031b/C56/kummer_rr/direct_case327_A5_model_snapshot.m": "e8c619302bcda03fcdebe7b1798baac2bf6de58550e61174561e74e2deae48cc",
+    "continuation_20261031b/C56/kummer_rr/direct_case327_A5_operator_snapshot.m": "8c8a07a4efc4b565316b09771dcb09f01438a5da2fba8f6d339236835dc21362",
+    "continuation_20261031b/C56/kummer_rr/direct_case327_A5_basis.m": "9096bdc52e29ae50aafda8644c17d8162895690e068825e12d7b81fdf2fa9e21",
+    "continuation_20261031b/C56/kummer_rr/direct_case327_A5_jet_tables.m": "7af48fc56c0ff1741709fc7fdbd6a893209081fcf54b4002672405cc5e867d10",
+    "continuation_20261031b/C56/kummer_rr/direct_case327_A5_result.m": "b95b5030d3e062ee5fe0c1a1255f32511d5dbedfe523f6401c347b0458658920",
+    "jobs/d31b_C56_kummer_cross327.status.json": "b9a121f1eb084f6ef21ed872e53fde0c4045c7ffcae182e79bc675e8820df941",
+    "jobs/d31b_C56_kummer_cross327.log": "8725cd69f6c6edb2c7f7a6b4a1eac4729b6688d88a6fb0b05b58a68042215d5e",
+    "computations/d31b_C56_kummer_cross327.m": "6c27a3eccc15fb732fbb47c0fab69c71e1d13384d506800eac486a85550afaf7",
+    "continuation_20261031b/C56/kummer_rr/direct_case491_A5_model_snapshot.m": "e8c619302bcda03fcdebe7b1798baac2bf6de58550e61174561e74e2deae48cc",
+    "continuation_20261031b/C56/kummer_rr/direct_case491_A5_operator_snapshot.m": "40a12c7f0eea9f190b7794f32a49a09ec6b3a66d6e25efd1eea3314062507139",
+    "continuation_20261031b/C56/kummer_rr/direct_case491_A5_basis.m": "736c5bcc3bb0658c5cd6d99ca47f00cc17678d2bd1a86d70fc16d4cdb3ead08d",
+    "continuation_20261031b/C56/kummer_rr/direct_case491_A5_jet_tables.m": "354c6606543ab7894f794caa13d2ad9ffaff74e53cee492ed9715fb33d7e4568",
+    "continuation_20261031b/C56/kummer_rr/direct_case491_A5_result.m": "3bb10211ae2f2a7e6e97d6b27e681ba64f90a23ef06acb9600cb5e0b477190aa",
+    "jobs/d31b_C56_kummer_direct_case491_v3.status.json": "a83a655732bfc003f12948727fcffef769a2b43f0911ddc677016ab1e374dae5",
+    "jobs/d31b_C56_kummer_direct_case491_v3.log": "38b3cefdb4a679d4466f877e4b63e543b808a0e08c4747522127632cad0a3935",
+    "computations/d31b_C56_kummer_direct_case491_v3.m": "b0343dd35158c5cf200fa2fd7fe1a8856165884b585f1fa92ff3143c5b8c5c8d",
+    "continuation_20261031b/C56/kummer_rr/direct_case578_A5_model_snapshot.m": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "continuation_20261031b/C56/kummer_rr/direct_case578_A5_operator_snapshot.m": "b902e576887d9e0832ae47011834cad8a488d23ac10c4452cbe183c12902e3ea",
+    "continuation_20261031b/C56/kummer_rr/direct_case578_A5_basis.m": "5d1a3e9f8309fed91dda921eb801d0f0f078e6444b0b430e8d2ac4048e91b8b7",
+    "continuation_20261031b/C56/kummer_rr/direct_case578_A5_jet_tables.m": "ac59f415be2d24f3c7bd54b8040df7e292f17a316857cede25a58bb24eb8e8b9",
+    "continuation_20261031b/C56/kummer_rr/direct_case578_A5_result.m": "9c3695f1a1ade12348331a5034415fdf56e2c6534d6f87835631bbf919f2f9bc",
+    "jobs/d31b_C56_kummer_case578.status.json": "a4f4df1904fed56e8eba03316417a71be5bc8c392aad46b6d835d995cd12774d",
+    "jobs/d31b_C56_kummer_case578.log": "a904201b1737101188a0b0d3d56cb27fecfe67fad9523618d47d8b3a82b476f9",
+    "computations/d31b_C56_kummer_case578.m": "3d48bc8bc645ff28546add768812b7bde67da5b85e046aa8638ec32b21088272",
+    "continuation_20261031b/C56/kummer_rr/direct_case818_A5_model_snapshot.m": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "continuation_20261031b/C56/kummer_rr/direct_case818_A5_operator_snapshot.m": "54fc6e85075da91d2282e5f713b4813a9e00bab16ffb2a2be41ce7aced639410",
+    "continuation_20261031b/C56/kummer_rr/direct_case818_A5_basis.m": "dbc4f9d874ef7cfc8609eabb8669b567ecc8f7742480a5a7528edf01c8a548df",
+    "continuation_20261031b/C56/kummer_rr/direct_case818_A5_jet_tables.m": "96e647d2f53b1be0b4b463707c79af11bdda44d4813cdc975942fedc37535e51",
+    "continuation_20261031b/C56/kummer_rr/direct_case818_A5_result.m": "6f660adb24f19438561ded65efbd6424227d339a05cccdb19e64aae05b62d5c2",
+    "jobs/d31b_C56_kummer_case818.status.json": "d618fc57be3eb559dc65c3dceff695b5f75570332761e410abfaf735e50bb750",
+    "jobs/d31b_C56_kummer_case818.log": "3ac89edf7d686d5d759b8d0fa457a2bc55abc8014885a253111ea8595dbdfe18",
+    "computations/d31b_C56_kummer_case818.m": "9618f207fe090625556eed56a2c5a3cc7ba68d7425b65554f73157454a00500b",
+    "continuation_20261031b/C56/kummer_rr/direct_case837_A5_model_snapshot.m": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "continuation_20261031b/C56/kummer_rr/direct_case837_A5_operator_snapshot.m": "a812a0f618b5b19c46880992e21fdaa4aa25176053ba856fba9726ce473d4773",
+    "continuation_20261031b/C56/kummer_rr/direct_case837_A5_basis.m": "34e7dcb9ae0e51b8e88f42d9f6e67b55851bcdfb2627974672cfd7fe8d14c466",
+    "continuation_20261031b/C56/kummer_rr/direct_case837_A5_jet_tables.m": "f488706d699a5e43cd42e57ee3d4621445c3f2260c9cfda52875c16019afcc56",
+    "continuation_20261031b/C56/kummer_rr/direct_case837_A5_result.m": "8686075363337c90c930e5306b2da0afbb13ac96be00878c5bf2e5ba34be9ec4",
+    "jobs/d31b_C56_kummer_case837.status.json": "19bfd8a4bb932521c8008ecb94a65928cfa678771401758daadd922e860efc7b",
+    "jobs/d31b_C56_kummer_case837.log": "86e978e4ac73bf4cb9a977494606c1000937feb72293ebfcb2d455ef40c36aaa",
+    "computations/d31b_C56_kummer_case837.m": "0698b91e2acad3146a4ba51ae54a82cd092e47421ceda999d02d3e13130a38b3",
+    "continuation_20261031b/C56/kummer_rr/direct_case978_A5_model_snapshot.m": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "continuation_20261031b/C56/kummer_rr/direct_case978_A5_operator_snapshot.m": "e05eed30a9a6a14cce84cd6e7c72ebf4c39b91c7ab8d97a7fbc3524c2d2b027f",
+    "continuation_20261031b/C56/kummer_rr/direct_case978_A5_basis.m": "536fe17f6a30cd57d7b5437b8176afaf9b8e90938bde7e5b1621da17b0da7031",
+    "continuation_20261031b/C56/kummer_rr/direct_case978_A5_jet_tables.m": "c932acdfae570b6bcfeb7c650d6ebab578cb052346e94368e802df57a5820a9b",
+    "continuation_20261031b/C56/kummer_rr/direct_case978_A5_result.m": "15c98d70e7c8c57c50400fc31b1002faf9a92d1054ae92249915e65ad4f46019",
+    "jobs/d31b_C56_kummer_case978.status.json": "d1ef4f1fc0ae61dacb7036b221db86a824a74ebb99407d0b06e21913ef9adbff",
+    "jobs/d31b_C56_kummer_case978.log": "ee3625065992a99fe0802f50924f680793d4464a4f1cb7bf9b1e8bcc4e01c8c9",
+    "computations/d31b_C56_kummer_case978.m": "e048b1873df6af3c763d637d2388b5243b13df78af65d531fc872229fc5e0216",
+    "continuation_20261031b/C56/kummer_rr/direct_case1009_A5_model_snapshot.m": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "continuation_20261031b/C56/kummer_rr/direct_case1009_A5_operator_snapshot.m": "bd178ce1c40e9c94f477a2005989365747331b8e880be0acaffd927f4fafcf4a",
+    "continuation_20261031b/C56/kummer_rr/direct_case1009_A5_basis.m": "536fe17f6a30cd57d7b5437b8176afaf9b8e90938bde7e5b1621da17b0da7031",
+    "continuation_20261031b/C56/kummer_rr/direct_case1009_A5_jet_tables.m": "ff4ae0e1f22bc8ede35099a64018c898877fbf240f1ad082ce379358c3e62a0e",
+    "continuation_20261031b/C56/kummer_rr/direct_case1009_A5_result.m": "8d60ad190f8889d2596cac577151db2bd89cd9ca891689ca59f2f1aee827737e",
+    "jobs/d31b_C56_kummer_case1009.status.json": "915458934dbc032010fb71e6eebefd00e7a2be43700860bd37d3e4acfd6de4cf",
+    "jobs/d31b_C56_kummer_case1009.log": "6f9b12677f1a80b0c12a98a2cb0c375020d77a1634bdbcad6cd590c6ad52223c",
+    "computations/d31b_C56_kummer_case1009.m": "d1b18d04bc961358013e19f08a0d87aa9c479e42203b62bbba8611384a715b74"
+  }
+}

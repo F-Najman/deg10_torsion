@@ -1,0 +1,38 @@
+\begin{lemma}\label{lem:octic-mixed2-unit-blocks}
+Let $N\geq5$ be even. On $X=X_1(2,N)$, write the universal
+elliptic curve over the open modular curve as
+\[
+ E:y^2=x^3+cx^2+dx,\qquad P_2=(0,0),\qquad Q=(b,b),
+ \qquad d=b(1-b-c).
+\]
+The functions
+\[
+ b,\quad d,\quad c^2-4d,\quad x(kQ)\quad(1\leq k\leq N/2)
+\]
+are units on the smooth integral modular curve over
+$\mathbb Z[1/(2N)]$. At a prime $p\nmid2N$, group the closed
+residue cusps by the vector of valuations of these functions.
+The sum of the cusps in each group has a canonical lift to a
+$\mathbb Q$-rational effective cuspidal divisor of the same degree.
+\end{lemma}
+\begin{proof}
+Translate $P_2$ to $(0,0)$ and complete the square. The sections
+$Q$ and $P_2$ are disjoint, and $Q$ is not a point of order $2$.
+Thus $x(Q)$ and $y(Q)$ are units. The change of scale
+$u=y(Q)/x(Q)$ is a unit and gives the displayed normalization.
+Its uniqueness makes $b,c,d$ global functions on the open
+modular curve. The discriminant is
+$16d^2(c^2-4d)$, a unit there; hence $d$ and $c^2-4d$ are units.
+The independence of $P_2$ and $Q$ implies
+$kQ\notin\{O,P_2\}$ for $1\leq k\leq N/2$.
+The divisor of $x$ on a smooth elliptic curve is
+$2(P_2)-2(O)$, so each $x(kQ)$ is a unit as well.
+
+The compactified modular curve has good reduction away from $2N$,
+and its cusp scheme is finite \emph{\'etale} there. The divisors of
+these units are therefore horizontal and supported on the cusps.
+Their valuation vectors commute with reduction and are constant
+on global Galois orbits. Each collection with a given vector is
+Galois-stable; its reduced divisor is exactly the sum of the
+closed residue cusps with that vector. This proves the assertion.
+\end{proof}

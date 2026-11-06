@@ -1,0 +1,47 @@
+{
+  "continuation_20261029/deps/fast_hecke.m": {
+    "source": "work/degree8/shared/fast_hecke.m",
+    "source_sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7",
+    "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7"
+  },
+  "continuation_20261029/deps/fast_hecke_11.m": {
+    "source": "work/degree8/shared/fast_hecke_11.m",
+    "source_sha256": "a18f21189cba3d5d3a19888012729bde2a4ec0e1839dd770335b79b5149af9cb",
+    "sha256": "a18f21189cba3d5d3a19888012729bde2a4ec0e1839dd770335b79b5149af9cb"
+  },
+  "continuation_20261029/deps/fast_full_aut_hash_m3_15.m": {
+    "source": "work/degree8/noncyclic/deps/fast_full_aut_hash_m3_15.m",
+    "source_sha256": "e2055a5f63362f4197a234822b150e6e4342e288a43b968707d63deab4cdb929",
+    "sha256": "e2055a5f63362f4197a234822b150e6e4342e288a43b968707d63deab4cdb929"
+  },
+  "continuation_20261029/deps/fast_full_aut_m3_21.m": {
+    "source": "work/degree8/noncyclic/deps/fast_full_aut_m3_21.m",
+    "source_sha256": "23f2a757a28ac63caede13ebfdeab7d61b13f1e8c632c487d7aa64c72aa6cfea",
+    "sha256": "23f2a757a28ac63caede13ebfdeab7d61b13f1e8c632c487d7aa64c72aa6cfea"
+  },
+  "continuation_20261029/deps/fast_full_aut_hash_m3_18_root.m": {
+    "source": "work/degree8/noncyclic/deps/fast_full_aut_hash_m3_18_root.m",
+    "source_sha256": "2ff25cf5762ecca1229fbc1070ca3ae46c09a4ae532b6186c7a18d5365cda4f6",
+    "sha256": "2ff25cf5762ecca1229fbc1070ca3ae46c09a4ae532b6186c7a18d5365cda4f6"
+  },
+  "continuation_20261029/deps/fast_full_aut_hash_m4_16_relative.m": {
+    "source": "work/degree8/noncyclic/deps/fast_full_aut_hash_m4_16_relative.m",
+    "source_sha256": "e09a25326393e8be7359583b9ffed25237a0a49e38d1487e7f32e9459af75061",
+    "sha256": "e09a25326393e8be7359583b9ffed25237a0a49e38d1487e7f32e9459af75061"
+  },
+  "continuation_20261029/deps/class_group_direct_RR_m3_18_root.m": {
+    "source": "work/degree8/noncyclic/deps/class_group_direct_RR_m3_18_root.m",
+    "source_sha256": "e373154cf33b2849d9eca35015f20d990d964738d2b51579c34d60356215cf22",
+    "sha256": "e373154cf33b2849d9eca35015f20d990d964738d2b51579c34d60356215cf22"
+  },
+  "continuation_20261029/deps/fast_diamond_hash_m2.m": {
+    "source": "work/degree8/noncyclic/deps/fast_diamond_hash_m2.m",
+    "source_sha256": "ea1b244ee1fe9434653524bd4a944e0af38665e0a92b666226e77b3334982822",
+    "sha256": "ea1b244ee1fe9434653524bd4a944e0af38665e0a92b666226e77b3334982822"
+  },
+  "continuation_20261029/deps/model_6_12.m": {
+    "source": "work/degree8/noncyclic/model_6_12_root.m",
+    "source_sha256": "2140ac9f2f215b13fe461718c67c7867f028d772457d5f0e8fd7144d2189e89a",
+    "sha256": "2bd45ed447e451fb6583e88488c3d6878d5a6280f71a949eecc93c71c6b57b85"
+  }
+}

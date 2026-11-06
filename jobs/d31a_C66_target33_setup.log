@@ -1,0 +1,6 @@
+Loading "work/deg10/computations/d31a_smalltarget_setup_common.m"
+
+In file "work/deg10/computations/d31a_smalltarget_setup_common.m", line 1, column 165:
+>> work/deg10/shared/mdmagma/v2/mdmagma.spec");load ROOT cat "inputs/native_gr
+                                                         ^
+User error: bad syntax

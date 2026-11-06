@@ -1,0 +1,18 @@
+{
+  "cmd": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/cyclic/continuation_20261026/N45_good9_and_pure9_control.m"
+  ],
+  "pid": 1694983,
+  "start_ticks": 182001671,
+  "started_utc": "2026-10-26T11:09:59.321260+00:00",
+  "cpu_limit": 7200,
+  "wall_limit": 21600,
+  "status": "EXITED",
+  "elapsed_wall_seconds": 1.0007972759194672,
+  "cpu_seconds": 0.0,
+  "last_log_lines": [],
+  "native_exit_code": 0,
+  "log_sha256": "d6e2fba8b40708a735def0d1504a5c2b8bd67cfd9d807e53c30541f88439ab09"
+}

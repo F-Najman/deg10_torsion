@@ -1,0 +1,8 @@
+Loading "work/deg10/C236_resolution_20261030/geometry/quotient9_cusp_units_model.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/quotient9_model.m"
+C236_DELTA13_QUOTIENT_CUBIC_FACTORS [ 1, 3 ]
+0.050
+Loading "work/deg10/C236_resolution_20261030/geometry/quotient9_cusp_permutations.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/native_group_generators.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/class_group_direct_RR_checked_v4_fastfb.m"
+C236_D10_QUOTIENT9_PROVEN_COMPLETE G=[ 3, 3, 3, 24, 24, 192, 0 ] H=[ 3, 3, 3, 24, 24, 24 ] index=8 factorbase=172 cpu=13.760

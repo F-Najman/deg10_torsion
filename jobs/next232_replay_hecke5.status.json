@@ -1,0 +1,18 @@
+{
+  "purpose": "next232_replay_hecke5",
+  "script": "computations/next232_replay_hecke5.py",
+  "script_sha256": "a447a3a33f88437bcb03948e8fab7212188ce7785966d87cef033ba2e7e1ed0b",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_replay_hecke5.py"
+  ],
+  "pid": 1785413,
+  "owner_uid": 1001,
+  "start_time_unix": 1793356118.1811893,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next232_replay_hecke5.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.6649396419525146
+}

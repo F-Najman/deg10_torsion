@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_final_replay.py", line 66, in <module>
+    tar=rd('target_proven_picard.m');TH=hermite_normal_form(Matrix([r[:-1] for r in tar[5]+tar[8]]).T);tn=TH.nrows()
+                                                                                                          ^^^^^^^^
+AttributeError: 'MutableDenseMatrix' object has no attribute 'nrows'. Did you mean: 'rows'?

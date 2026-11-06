@@ -1,0 +1,1 @@
+DIRECT69_SELECTED_INPUT_COMPLETE base_case=2 j_minpoly=T^10 + T^8 + T^7 + T^6 + T^5 + T^4 + T^3 + T + 1 cyclic_group=966 point_order=69 field_degree=10 exact_base_key=[ 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1 ] time=0.040

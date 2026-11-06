@@ -1,0 +1,411 @@
+{
+  "authorization": "User explicitly prioritized Phi(10) and authorized reducing degree-18 launcher concurrency while preserving useful computations.",
+  "state": "REBALANCED",
+  "records": [
+    {
+      "launcher": {
+        "pid": 840893,
+        "uid": 1001,
+        "state": "S",
+        "ppid": 840892,
+        "start_ticks": 211922605,
+        "wait_status": 0,
+        "command": "python work/degree18/large_order_batch.py "
+      },
+      "script": "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order_batch.py",
+      "before_sha256": "36d70d76f7450a15b783df7e2237f61023b54084a553b61ac84d19b479bfa9f3",
+      "old_concurrency": 16,
+      "new_concurrency": 6,
+      "children": [
+        {
+          "pid": 885112,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212096718,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130987 OrderToTest:=21831 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 885225,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212097282,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130987 OrderToTest:=65493 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 885794,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212099725,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=177 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 885969,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212100652,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=295 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886122,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212101213,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=354 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886174,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212101402,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=590 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886470,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212102463,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=885 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886481,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212102472,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=1770 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886610,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212103242,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=2183 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886714,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212103699,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=4366 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886763,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212103826,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=6549 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886910,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212104180,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=10915 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886928,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212104302,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=13098 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886993,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212104499,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=21830 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 887183,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212105416,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=32745 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 887482,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 840893,
+          "start_ticks": 212106882,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b P:=130981 OrderToTest:=65490 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/large_order.m ",
+          "actual_exit_code": 0
+        }
+      ],
+      "after_sha256": "a055d63b5e7a9dee67c270a816332ee3fb308ee0d797eae6e321ac722e8aaf28",
+      "retired_with": "SIGTERM after every captured child completed; SIGCONT delivered pending termination",
+      "replacement_supervisor_pid": 889027,
+      "replacement_status": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261029b/resource_handoff/large_order_batch.replacement.status.json"
+    },
+    {
+      "launcher": {
+        "pid": 850950,
+        "uid": 1001,
+        "state": "S",
+        "ppid": 850948,
+        "start_ticks": 211962040,
+        "wait_status": 0,
+        "command": "python work/degree18/run_new_ordinary.py "
+      },
+      "script": "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/run_new_ordinary.py",
+      "before_sha256": "202e53499229728567716e932be11def8aade11367c7484326e3873704a43210",
+      "old_concurrency": 12,
+      "new_concurrency": 4,
+      "children": [
+        {
+          "pid": 882256,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212085787,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=390 End:=397 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full127/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 884822,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212095751,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=406 End:=413 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full127/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 885740,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212099431,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=414 End:=421 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full127/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886130,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212101302,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=418 End:=425 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full113/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886604,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212103228,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=422 End:=429 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full103/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886667,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212103478,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=422 End:=429 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full107/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886696,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212103637,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=422 End:=429 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full127/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886705,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212103648,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=424 End:=431 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full109/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886880,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212104134,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=426 End:=433 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full113/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886898,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212104170,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=427 End:=434 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full89/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 887435,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212106750,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=428 End:=435 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full79/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 887546,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 850950,
+          "start_ticks": 212107041,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=430 End:=437 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full83/stage2_chunk.m ",
+          "actual_exit_code": 0
+        }
+      ],
+      "after_sha256": "0222d7be5724f53934371249b2ed88cb2a150a1bd1a1c1ca96970af5d638246f",
+      "retired_with": "SIGTERM after every captured child completed; SIGCONT delivered pending termination",
+      "replacement_supervisor_pid": 889028,
+      "replacement_status": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261029b/resource_handoff/run_new_ordinary.replacement.status.json"
+    },
+    {
+      "launcher": {
+        "pid": 868598,
+        "uid": 1001,
+        "state": "S",
+        "ppid": 868593,
+        "start_ticks": 212027814,
+        "wait_status": 0,
+        "command": "python work/degree18/run_ordinary131.py "
+      },
+      "script": "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/run_ordinary131.py",
+      "before_sha256": "d4e8d526f1d27894cce74aeee0c74ac2cda8bafe573ed932e8bef2388af15292",
+      "old_concurrency": 6,
+      "new_concurrency": 2,
+      "children": [
+        {
+          "pid": 885948,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 868598,
+          "start_ticks": 212100511,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=153 End:=160 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full131/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886326,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 868598,
+          "start_ticks": 212101902,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=161 End:=168 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full131/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886687,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 868598,
+          "start_ticks": 212103622,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=169 End:=176 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full131/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 886916,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 868598,
+          "start_ticks": 212104201,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=177 End:=184 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full131/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 887043,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 868598,
+          "start_ticks": 212104860,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=185 End:=192 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full131/stage2_chunk.m ",
+          "actual_exit_code": 0
+        },
+        {
+          "pid": 887385,
+          "uid": 1001,
+          "state": "EXITED",
+          "ppid": 868598,
+          "start_ticks": 212106527,
+          "wait_status": 0,
+          "command": "/opt/magma-2.30-1/magma.exe -b Start:=193 End:=200 /home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree18/full131/stage2_chunk.m ",
+          "actual_exit_code": 0
+        }
+      ],
+      "after_sha256": "15811a66fb7f1aa5b1ab9407fcd0eb6b9ddc8902d985d0f23cba457a8fd3db1d",
+      "retired_with": "SIGTERM after every captured child completed; SIGCONT delivered pending termination",
+      "replacement_supervisor_pid": 889029,
+      "replacement_status": "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261029b/resource_handoff/run_ordinary131.replacement.status.json"
+    }
+  ],
+  "degree18_concurrency_after": 14,
+  "unchanged_special_launcher_concurrency": 2
+}

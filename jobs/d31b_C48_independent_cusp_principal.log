@@ -1,0 +1,10 @@
+
+DR(
+    v: [ [ 0, 0, 1 ], [ 1 ] ]
+)
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_independent_cusp_principal.m", line 2, column 46:
+>> function DR(v)return (PolynomialRing(k)!v[1])(x)/(PolynomialRing(k)!v[2])(x
+                                                ^
+Runtime error: Bad argument types
+Argument types given: FldFunRatUElt[FldFin], RngUPolElt[FldFin]
+

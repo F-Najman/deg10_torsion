@@ -1,0 +1,46 @@
+WINDING_SPACE_READY N=1369 order=1 dimension=98 time=0.030
+WINDING N=1369 order=1 conductor=1 relative_dimension=98 winding_dimension=53 coefficient_degree=1 time=0.420
+WINDING_SPACE_READY N=1369 order=666 dimension=117 time=0.300
+WINDING_T2_READY N=1369 order=666 time=100.400
+WINDING_GOOD_PRIME p=1999 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1369 chi_index=2 order=666 path=work/deg10/exclusions/krylov_N1369_chi2_order666.json
+WINDING_KRYLOV N=1369 order=666 span_rank=117 dimension=117 verified=true time=101.930
+WINDING N=1369 order=666 conductor=1369 relative_dimension=117 winding_dimension=117 coefficient_degree=216 time=101.930
+WINDING_SPACE_READY N=1369 order=333 dimension=116 time=0.320
+WINDING_T2_READY N=1369 order=333 time=100.870
+WINDING_GOOD_PRIME p=1999 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1369 chi_index=3 order=333 path=work/deg10/exclusions/krylov_N1369_chi3_order333.json
+WINDING_KRYLOV N=1369 order=333 span_rank=116 dimension=116 verified=true time=102.550
+WINDING N=1369 order=333 conductor=1369 relative_dimension=116 winding_dimension=116 coefficient_degree=216 time=102.550
+WINDING_SPACE_READY N=1369 order=222 dimension=116 time=0.090
+WINDING_T2_READY N=1369 order=222 time=9.870
+WINDING_GOOD_PRIME p=1777 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1369 chi_index=4 order=222 path=work/deg10/exclusions/krylov_N1369_chi4_order222.json
+WINDING_KRYLOV N=1369 order=222 span_rank=116 dimension=116 verified=true time=10.530
+WINDING N=1369 order=222 conductor=1369 relative_dimension=116 winding_dimension=116 coefficient_degree=72 time=10.530
+WINDING_SPACE_READY N=1369 order=111 dimension=115 time=0.090
+WINDING_T2_READY N=1369 order=111 time=9.590
+WINDING_GOOD_PRIME p=223 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1369 chi_index=5 order=111 path=work/deg10/exclusions/krylov_N1369_chi5_order111.json
+WINDING_KRYLOV N=1369 order=111 span_rank=115 dimension=115 verified=true time=9.980
+WINDING N=1369 order=111 conductor=1369 relative_dimension=115 winding_dimension=115 coefficient_degree=72 time=9.980
+WINDING_SPACE_READY N=1369 order=74 dimension=116 time=0.060
+WINDING_T2_READY N=1369 order=74 time=2.690
+WINDING_GOOD_PRIME p=149 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=1369 chi_index=6 order=74 path=work/deg10/exclusions/krylov_N1369_chi6_order74.json
+WINDING_KRYLOV N=1369 order=74 span_rank=116 dimension=116 verified=true time=2.950
+WINDING N=1369 order=74 conductor=1369 relative_dimension=116 winding_dimension=116 coefficient_degree=36 time=2.950
+WINDING_SPACE_READY N=1369 order=37 dimension=115 time=0.070
+WINDING N=1369 order=37 conductor=1369 relative_dimension=115 winding_dimension=115 coefficient_degree=36 time=301.480
+WINDING_SPACE_READY N=1369 order=18 dimension=99 time=0.060
+WINDING N=1369 order=18 conductor=37 relative_dimension=99 winding_dimension=99 coefficient_degree=6 time=22.530
+WINDING_SPACE_READY N=1369 order=9 dimension=98 time=0.060
+WINDING N=1369 order=9 conductor=37 relative_dimension=98 winding_dimension=97 coefficient_degree=6 time=14.090
+WINDING_SPACE_READY N=1369 order=6 dimension=98 time=0.040
+WINDING N=1369 order=6 conductor=37 relative_dimension=98 winding_dimension=98 coefficient_degree=2 time=8.680
+WINDING_SPACE_READY N=1369 order=3 dimension=97 time=0.050
+WINDING N=1369 order=3 conductor=37 relative_dimension=97 winding_dimension=96 coefficient_degree=2 time=4.710
+WINDING_SPACE_READY N=1369 order=2 dimension=98 time=0.040
+WINDING N=1369 order=2 conductor=37 relative_dimension=98 winding_dimension=98 coefficient_degree=1 time=0.760
+WINDING_FINAL N=1369 genus=77044 total_dimension=77044 bad_orders=[ 1, 9, 3 ] admissible=[ 6, 31, 36, 38, 43, 68, 73, 75, 80, 105, 110, 112, 117, 142, 147, 149, 154, 179, 184, 186, 191, 216, 221, 223, 228, 253, 258, 260, 265, 290, 295, 297, 302, 327, 332, 334, 339, 364, 369, 371, 376, 401, 406, 408, 413, 438, 443, 445, 450, 475, 480, 482, 487, 512, 517, 519, 524, 549, 554, 556, 561, 586, 591, 593, 598, 623, 628, 630, 635, 660, 665, 667, 672, 697, 702, 704, 709, 734, 739, 741, 746, 771, 776, 778, 783, 808, 813, 815, 820, 845, 850, 852, 857, 882, 887, 889, 894, 919, 924, 926, 931, 956, 961, 963, 968, 993, 998, 1000, 1005, 1030, 1035, 1037, 1042, 1067, 1072, 1074, 1079, 1104, 1109, 1111, 1116, 1141, 1146, 1148, 1153, 1178, 1183, 1185, 1190, 1215, 1220, 1222, 1227, 1252, 1257, 1259, 1264, 1289, 1294, 1296, 1301, 1326, 1331, 1333, 1338, 1363 ]
+WINDING_CHARACTER_PROBE_DONE

@@ -1,0 +1,163 @@
+\begin{proposition}\label{prop:nonic57-exclusion}
+An elliptic curve over a number field of degree $9$ has no point
+of order $57$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(57)$. Its genus is $85$, and it has good reduction at
+$2$. A hypothetical level structure gives a noncuspidal closed
+trace divisor $D$ of degree $9$, since order $57$ does not occur
+in degree $1$ or $3$.
+We use the partial reduction of
+Proposition~\ref{prop:nonic57-quotient9-partial}.
+It excludes noncuspidal degree-$7$ and degree-$9$ supports and
+the two non-global nonic cusps at $2$.
+Thus an entirely cuspidal reduction is globally intact.
+Otherwise its noncuspidal part is a single degree-$6$ or
+degree-$8$ place, with a globally rational cuspidal complement.
+We treat these possibilities separately.
+
+The exact winding calculation shows that the only simple factor
+of $J_X$ not accounted for by the rank-zero winding quotient is
+the elliptic factor $57\mathrm a1$.
+Its Hecke eigenvalues at $2,5,7,11,13$ are
+\[
+ -2,-3,-5,1,2.
+\]
+In particular every diamond difference has finite rational image.
+For the rational $q$-expansion, or dual, model put
+\[
+ \Phi_{n,\ell}=(T_n-a_n)
+       (T_\ell-1-\ell\langle\ell\rangle),\qquad
+ n\in\{2,5,7,11,13\},\quad \ell\in\{5,7,11,13\}.
+\]
+The first factor has finite image on $J_X(\mathbb Q)$.
+The second kills rational torsion by Eichler--Shimura and
+injectivity at the odd good prime $\ell$.
+Hence every $\Phi_{n,\ell}$ annihilates $J_X(\mathbb Q)$.
+Their pullbacks of differentials span a space of dimension $82$
+over $\mathbb F_2$. The computation uses the full integral
+canonical lattice and does not assume that $J_X(\mathbb Q)$
+has rank zero.
+
+We first exclude entirely cuspidal reduction.
+The globally intact cusp places have signature $1^{18}2^9$.
+For a rational cuspidal divisor $C$ lifting the proposed
+reduction, apply the product of the maps $\Phi_{n,\ell}$ to
+$[D-C]$. Its value is zero.
+It suffices to prove formal immersion on $X^{(9)}$ at the
+reduction of $C$.
+
+We obtain the required cusp parameters directly.
+A saturated canonical basis is retained through $q^{1100}$.
+The rational cusp parameter is its usual expansion divided by
+$q$. For a quadratic cusp use the genuine Tate family
+\[
+ E(q^{19}),\qquad P=\zeta_3q.
+\]
+The two modular units $x,y$ have pole degrees $37,39$,
+verified independently at all $72$ geometric cusps.
+The $49$ and $47$ canonical unit identities are global:
+the corresponding section degrees are at most $205,207$,
+whereas their verified orders are at least $1098$.
+They recover the quadratic cusp arc through order $20$.
+An independent valuation-pivot calculation gives valuation $95$
+for the chosen integral $84\times84$ minor and verifies every
+coefficient of this arc. Its canonical tangent is nonzero.
+The diamond operator generates the $18$ rational cusps and the
+$9$ closed quadratic cusps. Its ninth power on the latter arc
+is coefficientwise Frobenius, as checked explicitly.
+
+Every degree-$9$ cuspidal divisor has a rational support point.
+Translate one of maximal rational multiplicity to the first cusp.
+If that multiplicity is $n_0$, the other rational multiplicities
+are at most $\min(n_0,4)$, and a quadratic multiplicity is at most
+$4$. We test the corresponding differential prefixes, using both
+$\mathbb F_2$-trace components at every quadratic cusp.
+There are exactly
+\[
+ 265729,370481,122514,29818,6267,1122,162,17,1
+\]
+normalized configurations for $n_0=1,\ldots,9$.
+All $796111$ matrices have rank $9$.
+This is an independent complete enumeration; its counts also
+agree with the respective generating-function coefficients.
+Thus the product map is a formal immersion at every proposed
+$C$. Since $D$ and $C$ have the same reduction and the same image,
+formal immersion gives $D=C$, a contradiction.
+
+It remains to treat noncuspidal reduction.
+We now work on the point-level model and put
+$\sigma=\langle5\rangle$ and $A_5=T_5-\sigma-5$.
+The class $[\sigma D-D]$ is rational torsion: its normalized
+class has finite diamond-difference image, and the remaining
+cusp difference is torsion by Manin--Drinfeld.
+Thus $A_5[\sigma D-D]=0$.
+For the cuspidal complement $C$, the class $[\sigma C-C]$
+is rational cuspidal torsion, since $C$ is globally rational.
+It is therefore also annihilated by $A_5$.
+Consequently, if $P$ is the noncuspidal residue place and
+$T=T_5P$, the degree-zero divisor
+\[
+ B=\sigma T-T-\sigma^2P-4\sigma P+5P
+\]
+must be principal.
+
+Complete twist enumeration leaves two supersingular elliptic
+models over $\mathbb F_{64}$, both of order $57$, and one
+Galois orbit of ordinary models over $\mathbb F_{256}$, of order
+$228$. Their $57$-primary groups are cyclic, so their level
+structures are covered by diamond translates of one point on
+each retained model. We check both supersingular representatives
+and one ordinary representative. Hecke operators and $\sigma$
+commute with every diamond, so these checks cover all levels.
+
+Every cyclic $5$-kernel and its actual level image is retained.
+For either degree-$6$ representative, $T_5P$ has closed degrees
+$18,9$ with norm multiplicities $1,2$.
+For the degree-$8$ representative the closed degrees are $24,24$,
+each with multiplicity $1$.
+Independent isogeny calculations verify the kernel polynomials,
+all actual point images and all norm multiplicities; the products
+of their norms are exactly the respective $5$-division polynomials.
+The points $P,5P,25P$ and both target levels are computed directly,
+so no unverified diamond convention enters $B$.
+Equal closed places are identified before adding signed
+multiplicities. The positive and negative degrees of $B$ are
+$42,42,88$ for the three retained representatives.
+
+We recover sections of $2K_X$ using its $215$ and $213$ unit
+identities. Their section degrees are at most $373,375$ and are
+again below the verified expansion orders.
+For an ordinary model we deform $a_6$ to $a_6+t$.
+For a supersingular model, where $a_1=0$ and $a_3\ne0$, we
+instead deform $a_1$ to $t$.
+The general $57$-division recurrence lifts the level point
+uniquely; its $x$-derivative and the elliptic equation's
+$y$-derivative are nonzero.
+The elliptic equation, division recurrence and unit identities
+are checked through order $16$.
+Independent recovery of the canonical coordinates verifies the
+same $2K_X$ arc and a nonzero tangent. These are therefore genuine
+local parameters, including at the supersingular points.
+
+Put $R_i=H^0(X,iK_X)$. Products of the canonical basis give
+$\dim R_2=252$, and products of this basis give $\dim R_4=588$.
+All $3655$ and $31878$ unordered product identities are checked
+through $q^{1100}$, beyond the respective Sturm bounds $480,960$.
+For $B=B_+-B_-$ choose nonzero $F,H\in R_2$ vanishing on $B_+$.
+If $f\in\mathcal L(B)$, then $G=fF$ vanishes on $B_-$ and
+$GH=F(fH)\in FR_2$.
+It therefore suffices to verify injectivity of
+\[
+ R_2\longrightarrow
+ H^0(B_-,2K_X|_{B_-})\oplus R_4/FR_2,
+ \qquad G\longmapsto(G|_{B_-},GH\bmod FR_2).
+\]
+Multiplication by $F$ has rank $252$.
+The vanishing-condition ranks are exactly $42,42,88$.
+All three final matrices have rank $252$, and one section $H$
+suffices in each case. Independent Sage calculations reconstruct
+the entire canonical multiplication table and every final matrix.
+Thus $\mathcal L(B)=0$ for every remaining support, contradicting
+principality. This excludes order $57$.
+\end{proof}

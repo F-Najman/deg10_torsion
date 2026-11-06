@@ -1,0 +1,102 @@
+{
+  "degree": 9,
+  "status": "CONVENTION-SAFE POINT-HECKE PROOF CORRECTION",
+  "point_operator": "Tq-1-q*point_diamond_q",
+  "mu_operator": "Tq-mu_diamond_q-q",
+  "necessary_existing_convention": 2,
+  "source_manifests": [
+    {
+      "path": "prime_orders/continued_20261026/P83/manifest.json",
+      "sha256": "7d089ece84e98c2f5441e765664c03cdf599741f40e73b6de69a5997122d6a4d"
+    },
+    {
+      "path": "prime_orders/continued_20261026/P83/pole_bound_supplement/manifest.json",
+      "sha256": "bfd139a08d45c23592f5670847737eb24022107b53d05f428a92a73bec6bb9e9"
+    },
+    {
+      "path": "prime_orders/continued_20261026/composite85/manifest.json",
+      "sha256": "7e818891b25795fb1748ab25506aef4254a845d9b91335b8655bcd8c3e1fa3db"
+    },
+    {
+      "path": "prime_orders/continued_20261026/composite85/portability_supplement/manifest.json",
+      "sha256": "adb9fb0a356af3f1a8ba471e8af71d49a5eef7c2635660ed7359b750e5a9c389"
+    },
+    {
+      "path": "prime_orders/continued_20261026/composite85/portability_supplement/launcher_manifest.json",
+      "sha256": "16d975873cf41eb451d843542a8b4f0d7f296e9abba8646ca524b8e2d0c24226"
+    },
+    {
+      "path": "prime_orders/continued_20261026/composite91/manifest.json",
+      "sha256": "a54411b8cbee50f372b5c95d0c15a176ca8b11f6776a8e8aa485117d03781022"
+    },
+    {
+      "path": "prime_orders/continued_20261026/composite65/ordinary_manifest.json",
+      "sha256": "819088e6576329931d614fb1bb0ca43d9779c9ae98dd44c065eebd203d56172b"
+    }
+  ],
+  "proofs": {
+    "83": "prime_orders/continued_20261026/point_convention_correction_20261027/reviewed83.tex",
+    "85": "prime_orders/continued_20261026/point_convention_correction_20261027/reviewed85.tex",
+    "91": "prime_orders/continued_20261026/point_convention_correction_20261027/reviewed91.tex",
+    "65_ordinary": "prime_orders/continued_20261026/point_convention_correction_20261027/reviewed65_ordinary.tex"
+  },
+  "independent_checker": "prime_orders/continued_20261026/point_convention_correction_20261027/certify_conventions_readonly.py",
+  "files": [
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/case85_corrected.tex",
+      "sha256": "7cfb0cbad2beb0ff09f31fea26c22a4d8ffd7c7ac280af23042301a1c790890c"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/case65_ordinary_corrected.tex",
+      "sha256": "005b8fc2631e4b0639ac16cbc2a84ca7a49545dae65ef61159791b3699fb741d"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/case91_corrected.tex",
+      "sha256": "d8cf6837fc2f88abacf35635fd79c94c417404f93a2db6ed43a22ae5643c3818"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/reviewed85.tex",
+      "sha256": "7eebb155164a3785b3a41b059417d406952ce8a921e84556bc1c1d0cc6e36b83"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/reviewed91.tex",
+      "sha256": "722057120a9695848c1c095f77a8fe48bc9e30571ba25dd7bd4810b7cdacbb34"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/point_hecke_lemma.tex",
+      "sha256": "3f9d4ef954528dc69a2d61283cc3365676b36c50d2eb66e8c8de83ee53d981bc"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/certify_conventions_readonly.py",
+      "sha256": "c3320374dd029da8c932e9ee04d6a1b9dc1e432a214b30f05cde68e938d60b83"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/reviewed65_ordinary.tex",
+      "sha256": "5ad52b4ef2533d5053145c33eaaab9441c1b219adce8212b61ef054431d0b40f"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/case83_corrected.tex",
+      "sha256": "813c3da036072cff053b2ac217eb7cd429d5456eceb630a10871a608b436961f"
+    },
+    {
+      "path": "prime_orders/continued_20261026/point_convention_correction_20261027/reviewed83.tex",
+      "sha256": "fe2cae1ea83bc2bd9b07bca097f4cac02f6187261bff398705fa932bd1b0d06e"
+    },
+    {
+      "path": "prime_orders/continued_20261026/P83/pole_bound_supplement/pole_degrees.tex",
+      "sha256": "d732e9abbc7af71e3a7456c4b0faf90b51ff456d82a6a78210d58b54b68cc93c"
+    },
+    {
+      "path": "prime_orders/continued_20261026/P83/pole_bound_supplement/formal_immersion_clarification.tex",
+      "sha256": "fa6f5e60f9535a223dcf111c88d848ea250a525b689389f57b6a94778f037758"
+    },
+    {
+      "path": "prime_orders/continued_20261026/composite85/provenance.tex",
+      "sha256": "d0aa0672d3733e50afda75dffeb785943fd1359086ee5c15ad963516c3b33b62"
+    },
+    {
+      "path": "prime_orders/continued_20261026/composite91/provenance.tex",
+      "sha256": "138dc9a2bc6aa2527c7110a7a93d287d2cd0805f5a6a566746b0b74d551c92b7"
+    }
+  ]
+}

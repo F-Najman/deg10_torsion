@@ -1,0 +1,27 @@
+{
+  "N": 33,
+  "status": "COMPLETE",
+  "identity": {
+    "pid": 2935547,
+    "start_ticks": 186838098
+  },
+  "args": [
+    "/usr/local/bin/magma",
+    "-b",
+    "N:=33",
+    "OutDir:=work/degree9/cyclic/continuation_20261026/C66_quotient17/source33/F5_root",
+    "work/degree9/cyclic/continuation_20261026/C66_quotient17/source33/F5_root/build33.m"
+  ],
+  "nice": 10,
+  "native_memory_bytes": 4000000000,
+  "AS_bytes": 6442450944,
+  "CPU_limit_seconds": 1800,
+  "hard_CPU_seconds": 1810,
+  "wall_limit_seconds": 7200,
+  "started_utc": "2026-10-27T00:36:03.612055+00:00",
+  "source_sha256": "9cde49b4fa706edc9e6ee2ea3fd4e8c309f1cd895836cfc1c7b283415578e718",
+  "actual_exit_code": 0,
+  "completion_marker": true,
+  "elapsed_wall_seconds": 33.828859598143026,
+  "log_sha256": "bc8904ea92c486f70f3cd711045ab3c23855c46268322756c364be15b0a8e0a3"
+}

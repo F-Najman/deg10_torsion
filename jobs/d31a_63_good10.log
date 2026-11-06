@@ -1,0 +1,10 @@
+Y63_NC_EXHAUSTIVE e=10 geometric_pairs=270 closed_places=27 diamond_orbits=3 time=0.550
+Y63_NC_REP index=1 fieldpoly=[ 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1 ] t=[ 1, 0, 0, 0, 1, 0, 0, 1, 0, 1 ] x7=[ 0, 1, 0, 0, 1, 1, 1, 1, 1, 0 ]
+Y63_NC_REP index=2 fieldpoly=[ 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1 ] t=[ 0, 1, 1, 1, 1, 1, 0, 1, 0, 0 ] x7=[ 1, 0, 0, 0, 1, 1, 0, 0, 0, 1 ]
+Y63_NC_REP index=3 fieldpoly=[ 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1 ] t=[ 0, 0, 0, 1, 1, 0, 0, 0, 1, 1 ] x7=[ 0, 1, 1, 1, 1, 0, 1, 1, 1, 0 ]
+Y63_MODEL genus=49 degree=24 maximal_order_ready=true time=30.810
+D31A_C63_NC_SETUP e=10 reps3=true bad_cubics3=true time=31.360
+D31A_C63_NC10_NONPRINCIPAL index=1 h0=0 hecke_degree=60 time=32.830
+D31A_C63_NC10_NONPRINCIPAL index=2 h0=0 hecke_degree=60 time=34.220
+D31A_C63_NC10_NONPRINCIPAL index=3 h0=0 hecke_degree=60 time=35.650
+D31A_C63_NC_COMPLETE e=10 reps=3 h0_all_zero=true time=35.740

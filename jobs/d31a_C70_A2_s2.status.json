@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C70_A2_s2",
+  "script": "computations/d31a_C70_A2_s2.m",
+  "script_sha256": "cf2b34bb55a869de6125e87b876eb8115929427c5ebb8357aae7192c30695cc8",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C70_A2_s2.m"
+  ],
+  "pid": 2803185,
+  "owner_uid": 1001,
+  "start_time_unix": 1793401994.00037,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/d31a_C70_A2_s2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 297.99686312675476
+}

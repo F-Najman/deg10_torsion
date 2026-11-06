@@ -1,0 +1,192 @@
+\begin{proposition}\label{prop:decic75-exclusion}
+There is no elliptic curve over a number field of degree $10$
+with a point of order $75$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(75)$, of genus $145$. By \cite[Theorem~3.1]{DEHMZ},
+$\operatorname{rank}J_X(\mathbb Q)=0$.
+A hypothetical level structure gives a rational effective
+trace divisor $D$ of degree $10$ on $X$, with noncuspidal support.
+
+We use the quotient $\pi:X\to Y=X/\langle\delta_{26}\rangle$,
+which parametrizes a point of order $25$ and a cyclic subgroup
+of order $3$. The involution fixes the $25$-point, so has no
+noncuspidal fixed point. Its action on the $112$ geometric cusps
+is also free, including in characteristic $2$. Thus $\pi$ is
+etale over $\mathbb Z_2$, and $Y$ has genus $73$ and good
+reduction at $2$. Its rational Jacobian has rank zero by
+pushforward. Write $\delta_u$ for the induced diamonds on $Y$.
+
+The explicit reduced model is constructed over $X_1(25)$.
+An exact modular unit gives a separable degree-$5$ presentation
+$L/\mathbb F_2(t)$ of that genus-$12$ curve, with inverse
+coordinates verified. For the universal $25$-point family put
+$j=j_{25}$. In canonical ordinary coordinates, a cyclic
+$3$-subgroup has common nonzero $x$-coordinate $w$ satisfying
+\[
+ w^4+w^3+1/j=0.
+\]
+This identity is verified directly from the division polynomial.
+The quartic is irreducible, and its function field $M/L$ has
+genus $73$. Thus this constructs the required quotient without
+normalizing a genus-$145$ source model.
+
+The full source Frobenius polynomial gives noncuspidal
+closed-point counts
+\[
+ (0,0,0,0,0,0,20,0,0,120)
+\]
+in degrees $1$ through $10$. Consequently the noncuspidal part
+of $\overline D$, if nonempty, is either one degree-$7$ place
+with a cuspidal complement of degree $3$, or one degree-$10$
+place. The cusps of degree at most $3$ are globally intact and
+fixed by cyclotomic $7$.
+Put $A_7=T_7-1-7\delta_7$, using the point-level geometric
+isogeny correspondence. Eichler--Shimura and odd-prime torsion
+injectivity give $A_7J_Y(\mathbb Q)=0$. At a standard rational
+cusp $c_0$, the exact boundary formula gives $A_7c_0=0$.
+It also gives $A_7C=0$ for the image of every possible degree-$3$
+source cuspidal complement. Applying $A_7$ to
+$[\pi_*D-10c_0]$ therefore forces the $A_7$-image of the
+noncuspidal residual component to be principal.
+
+There is one diamond orbit of degree-$7$ source points. The
+retained exact computation on $Y$ gives
+\[
+ h^0(T_7P-P-7\delta_7P)=0,
+\]
+where $T_7P$ has four closed degree-$14$ terms, each with
+multiplicity one. This computation is independent of the total
+degree of $D$. Its boundary hypothesis remains valid for the
+present degree-$3$ cuspidal complement, so excludes this branch.
+
+In degree $10$ a fresh exhaustive census checks all $2053$
+twists over $\mathbb F_{1024}$. Exactly $60$ have exponent
+divisible by $75$. Their $j$-invariants form six Galois orbits
+of degree $10$, and each curve has group $C_{1050}$. Indeed the
+smaller invariant factor divides $1023$, and its square divides
+$1050$, so it is $1$. There is consequently a unique cyclic
+$75$-subgroup on each curve. Its generators, modulo sign, give
+$20$ closed source points per $j$-orbit. The resulting $120$
+points agree with the complete source Frobenius count.
+They give six diamond orbits, and their images on $Y$ have
+degree $10$, since their $j$-invariants already have that degree.
+
+For one representative of each orbit we compute every actual
+$7$-isogeny and carry both the $25$-point and the $3$-point.
+The latter is used only through its cyclic subgroup on $Y$.
+The kernel orbits have lengths $1,1,3,3$ over the source field;
+the corresponding target places have degrees $10,10,30,30$,
+with norm multiplicity $1$ in every case. Thus $T_7P$ has degree
+$80$. The residue fields and ideal generators are checked
+exactly. All six degree-zero divisors
+\[
+ B=T_7P-P-7\delta_7P
+\]
+have $h^0(B)=0$. A second native calculation rebuilds the
+shared model and the $36$ prime ideals from their exact two
+generators, checks the operator and norm multiplicities, and
+repeats all six Riemann--Roch tests. Independent Sage calculations
+also verify all $84$ actual moduli records, enumerate all $48$
+geometric $7$-kernels, and check every actual level image by
+Velu isogenies. In comparing geometric kernels with closed
+places, the norm factors are applied individually; there is no
+assumption that all kernel orbits have the same length.
+This excludes noncuspidal reduction.
+
+It remains to consider entirely cuspidal reduction. Here the
+source and quotient cusp fields must be distinguished. The
+source signatures over $\mathbb Q$ and $\mathbb F_2$ are
+\[
+ 1^{20}2^{10}4^4 8^2 20^2,\qquad
+ 1^{20}2^{10}4^8 20^2.
+\]
+Some global octic cusps split into quartic places. On $Y$,
+however, all cusp orbits are globally intact, with signature
+$1^{20}4^4 10^2$. The complete primitive Tate labels verify
+this descent as well as the following (degree,width) data:
+\[
+ (1,25)^{10},\quad(1,75)^{10},\quad
+ (4,5)^2,\quad(4,15)^2,\quad(10,1),\quad(10,3).
+\]
+The source residue-degree factor is $2$ at the width-$25$
+rational cusps and at both degree-$10$ cusps, and is $1$
+elsewhere. Thus the width-$25$ multiplicities in
+$\pi_*\overline D$ are even, and the degree-$10$ target cusps
+cannot occur: their minimum source contribution has degree
+$20$. The number of admissible images is
+\[
+ [t^{10}](1-t)^{-10}(1-t^2)^{-10}(1-t^4)^{-4}=871630.
+\]
+
+Let $\Omega=H^0(Y_{\mathbb F_2},\Omega^1)$ and let
+$\mathcal C$ denote Cartier. The full-Jacobian endomorphism
+$T_2-\delta_2$ has cotangent image
+\[
+ U=(\mathcal C-1)\Omega,\qquad \dim U=71.
+\]
+The Cartier matrix has rank $69$. The diamond $\delta_2$ has
+order $10$, commutes with Cartier, and acts transitively on
+each of the two sets of ten rational cusps. Its remaining
+relevant cusp orbits have lengths $2,2$. These permutations are
+independently matched with the complete Tate-label action.
+
+The accepted common-basis packet contains genuine local
+restriction kernels through weighted multiplicity $8$, together
+with all diamond transports. A fresh complete binary enumeration
+checks every admissible degree-$10$ divisor whose individual
+weighted multiplicities are at most $8$: all $871520$
+restriction matrices from $U$ have rank $10$. The omitted
+$110$ configurations are $10c$ at a rational cusp, and $9c+r$
+for distinct width-$75$ rational cusps $c,r$.
+
+We compute these remaining ranks in a fresh single geometric
+basis. The following direct ideal construction avoids a costly
+cusp decomposition. Choose a finite rational cusp $p$ of $L$
+with $v_p(j)=-25$, and let $I_B=\mathfrak p\mathcal O_M$.
+The quartic has one unramified branch at $w=1$. The other
+Newton slope is $-25/3$, so the remaining branch is totally
+ramified of degree $3$, with residue field $\mathbb F_2$.
+Denote the corresponding width-$25$ and width-$75$ cusps by
+$c_{25},c_{75}$. Then
+\[
+ \pi_L^*p=c_{25}+3c_{75}.
+\]
+Globally the prime ideal of the first branch is obtained by
+\[
+ I_{25}=(I_B+(w-1)\mathcal O_M)\cap\mathcal O_M.
+\]
+The intersection removes unrelated poles of $w-1$. Native checks
+verify primality, degree $1$, unramified restriction to $p$, and
+$j$-width $25$. The integral ideal $I_B/I_{25}$ therefore
+represents $3c_{75}$ directly.
+
+In this fresh basis we verify the actual diamond pullback and
+its commutation with Cartier. Exact differential spaces give
+\[
+ \begin{split}
+ \operatorname{rank}(U|_{12c_{75}})&=12,\\
+ \operatorname{rank}(U|_{10c_{25}})&=10,\\
+ \operatorname{rank}(U|_{12c_{75}+3\delta_2^k c_{75}})&=15
+       \qquad(1\leq k\leq9).
+ \end{split}
+\]
+Surjectivity of restriction to an effective divisor implies
+surjectivity on every effective subdivisor. These ranks imply
+rank $10$ at $10c_{75}$ and at every
+$9c_{75}+\delta_2^k c_{75}$. Diamond transitivity covers all
+$110$ omitted configurations. Independent binary algebra checks
+the fresh kernels, Cartier image, actual diamond matrix, and
+all nine intersections. No matrices from different geometric
+exports are combined.
+
+Finally let $C$ be the rational cuspidal divisor on $Y$ lifting
+$\pi_*\overline D$. The class $[\pi_*D-C]$ is rational torsion
+and reduces to zero. The dyadic formal-group kernel lemma for
+the full Jacobian shows that $T_2-\delta_2$ kills this class.
+The rank-$10$ restriction tests above show that its Abel--Jacobi
+composition on $Y^{(10)}$ is a formal immersion at $\overline C$.
+It follows that $\pi_*D=C$, contradicting its noncuspidal
+support. This uses the full Jacobian cotangent space and no
+quotient-cotangent exactness assertion at $2$.
+\end{proof}

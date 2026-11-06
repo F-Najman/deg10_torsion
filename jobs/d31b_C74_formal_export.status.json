@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C74_formal_export",
+  "script": "computations/d31b_C74_formal_export.m",
+  "script_sha256": "fd51956b6c96df5c6e545c90965e76ba43489a19194bea8bc32e46d83f6e4ec4",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C74_formal_export.m"
+  ],
+  "pid": 3443747,
+  "owner_uid": 1001,
+  "start_time_unix": 1793432426.855315,
+  "state": "EXITED",
+  "time_limit_seconds": 710,
+  "log": "jobs/d31b_C74_formal_export.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 52.293445110321045
+}

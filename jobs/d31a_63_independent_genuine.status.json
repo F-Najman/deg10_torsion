@@ -1,0 +1,18 @@
+{
+  "purpose": "d31a_63_independent_genuine",
+  "script": "computations/d31a_63_independent_genuine.py",
+  "script_sha256": "48560c2f0f4abbda8c08d6ada0c32689df4f0caa758c9099433576baf79f0d39",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_63_independent_genuine.py"
+  ],
+  "pid": 2798887,
+  "owner_uid": 1001,
+  "start_time_unix": 1793401793.4370396,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/d31a_63_independent_genuine.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 26.702624082565308
+}

@@ -1,0 +1,22 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(4*10^9);tt:=Cputime();root:="work/deg10/continuation_20261030b/C81/";AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");load "work/deg10/continuation_20261030b/C81/deps/portable_forward.m";a:=eval Read(root cat "x0_81_proven_picard.m");k:=GF(2);PP:=PolynomialRing(k);B<t>:=FunctionField(k);RF<Y>:=PolynomialRing(B);
+function Rat(v) return B!(PP!v[1])/B!(PP!v[2]);end function;
+f:=RF![Rat(v):v in a[1]];f/:=LeadingCoefficient(f);F<y>:=FunctionField(f);assert Genus(F) eq 4;
+function GFUN(v) return F![Rat(w):w in v];end function;
+OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);fb:=[];
+for j in [1..#a[4]] do OO:=a[2][j] eq 1 select OF else OI;I:=ideal<OO|[GFUN(v):v in a[4][j]]>;pl:=Place(I);assert Degree(pl) eq a[3][j];Append(~fb,pl);end for;
+Z:=FreeAbelianGroup(#a[6][1]);G,q:=quo<Z|[Z!v:v in a[6]]>;fc:=[q(Z!v):v in a[5]];A:=Divisor(fb[a[8]]);coords:=[GFUN(v):v in a[7]];H:=sub<G|[q(Z!v):v in a[9]]>;assert Invariants(G) eq [3,18,0] and Invariants(H) eq [3,9];phi,witness:=C240PortableDirectRR(F,fb,fc,G,A,root cat "x0_class_RR.log");
+function Candidates(vals,D)
+ K:=Parent(vals[1]);e:=LCM([Degree(MinimalPolynomial(v,k)):v in vals]);found:=false;
+ for bits in [[1,0],[0,1],[1,1]] do gen:=&+[K!bits[i]*vals[i]:i in [1,2]];pol:=MinimalPolynomial(gen,k);if Degree(pol) eq e then chosen:=bits;found:=true;break;end if;end for;assert found;
+ M:=Matrix(k,[Eltseq(gen^i,k):i in [0..e-1]]);assert Rank(M) eq e;cs:=[Eltseq(Solution(M,Vector(k,Eltseq(v,k)))):v in vals];gg:=&+[F!chosen[i]*coords[i]:i in [1,2]];fs:=[Evaluate(pol,gg)] cat [coords[j]-&+[F!cs[j][i+1]*gg^i:i in [0..e-1]]:j in [1,2]];ps:=[];
+ for OO in [OF,OI] do I:=ideal<OO|fs>;fa:=Factorization(I);for z in fa do if z[2] le 0 then continue;end if;pl:=Place(z[1]);if D mod Degree(pl) eq 0 and &and[g eq 0 or Valuation(g,pl) gt 0:g in fs] and not pl in ps then Append(~ps,pl);end if;end for;end for;
+ assert #ps gt 0;return ps;
+end function;
+function ER(v) return [[Integers()!a:a in Coefficients(Numerator(v))],[Integers()!a:a in Coefficients(Denominator(v))]];end function;
+function EF(v) return [ER(c):c in Eltseq(F!v)];end function;
+data:=eval Read(root cat "source81.m");fields:=AssociativeArray();for r in data[1] do fields[r[1]]:=ext<k|PP!r[2]>;end for;tests:=[* *];remaining:=[* *];
+for ci in [1..#data[3]] do d,ky:=Explode(data[3][ci]);K:=fields[d];z:=K.1;b:=Evaluate(PP!ky[1..d],z);c:=Evaluate(PP!ky[d+1..2*d],z);E:=EllipticCurve([K|1-c,-b,-b,0,0]);P:=E![0,0];assert 81*P eq E!0 and 27*P ne E!0;RK<X>:=PolynomialRing(K);ker:=&*[X-(u*P)[1]:u in [1..40]];assert Degree(ker) eq 40 and IsSquarefree(ker);EG,iso:=IsogenyFromKernel(E,ker);vals:=[jInvariant(E),jInvariant(EG)];ps:=Candidates(vals,d);rows:=[* *];passed:=false;
+ for pl in ps do e:=Degree(pl);w:=d div e;cl:=w*phi(Divisor(pl)-e*A);yes:=cl in H;passed or:=yes;Append(~rows,[*e,w,Eltseq(cl),yes,Order(Ideal(pl)) eq OF select 1 else 0,[EF(v):v in Basis(Ideal(pl))]*]);end for;
+ Append(~tests,[*ci,d,ky,[[Integers()!v:v in Eltseq(z,k)]:z in vals],rows,passed*]);if passed then Append(~remaining,ci);end if;print "C81_X0_CASE_CLASS",ci,d,#ps,[r[3]:r in rows],passed,Cputime(tt);
+end for;
+Write(root cat "x0_filter.m",Sprint([*data[1],tests,remaining*]):Overwrite:=true);fprintf witness,"]\n";Flush(witness);print "C81_X0_CLASS_FILTER_COMPLETE",#tests,#remaining,remaining,Cputime(tt);quit;

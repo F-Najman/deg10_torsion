@@ -1,0 +1,85 @@
+\begin{proposition}\label{prop:nonic117-exclusion}
+An elliptic curve over a number field of degree $9$ has no point of order $117$.
+\end{proposition}
+\begin{proof}
+Suppose that $E/K$ has such a point, where $[K:\mathbb Q]=9$.
+Multiplication by $3$ gives a point of order $39$.
+Let $D$ be its rational trace divisor of degree $9$ on $X=X_1(39)$, with multiplicities if the moduli field is smaller than $K$.
+It is effective and supported away from the cusps.
+
+The degree-independent $X_1(39)$ certificate, using \cite[Theorem~3.1(2), Theorem~4.13 and Table~2]{DEHMZ} and \cite[Table~1]{DvH}, gives
+\[
+ J_X(\mathbb Q)=[7,31122,3236688],\qquad
+ J_X(\mathbb Q)[2^\infty]=[2,16],
+\]
+injectivity of specialization at $2$, and rational gonality $14$.
+For completeness, injectivity is proved using the order-$3$ quotient
+$\pi:X\to Y$ by $\langle\langle16\rangle\rangle$.
+The quotient has genus $9$, finite Picard group $[6,336]\times\mathbb Z$, and a rational cuspidal specialization image whose $2$-primary order is $32$.
+Since $\pi^*$ is injective on rational $2$-primary torsion, this attains the source upper bound $32$ and proves target injectivity.
+The order-$3$ diamond subgroup acts trivially on $[2,16]$, whose automorphism group has order $32$.
+Thus $\pi^*\pi_*=[3]$ proves source injectivity on the rational $2$-primary torsion.
+Odd torsion is automatically injective at $2$.
+The explicit genus-$9$ quotient, its full Picard character, the actual relation lattice and all cusp orbits are independently certified.
+
+The global and finite source cusp signatures agree:
+\[
+ 1^{12}2^6 12^2.
+\]
+Every finite cuspidal divisor of degree at most $9$ therefore lifts to a rational cuspidal divisor.
+If $\overline D$ is entirely cuspidal, denote its lift by $C$.
+Injectivity gives $D\sim C$, and gonality $14>9$ gives $D=C$, a contradiction.
+
+The complete noncuspidal residue counts through degree $8$ are
+\[
+ (0,0,0,0,0,12,0,49).
+\]
+A lower-degree residue case is therefore $P+C$, where $P$ has degree $6$ or $8$ and $C$ is a globally rational cuspidal divisor of degree $3$ or $1$.
+Use the point-level correspondence which transports the level point along each cyclic $5$-isogeny, and put
+\[
+ A_5=T_5-1-5\langle5\rangle.
+\]
+It annihilates $J_X(\mathbb Q)$ by Eichler--Shimura and injectivity at the odd good prime $5$.
+On the cuspidal boundary, the cyclotomic Galois action $\operatorname{Fr}_5$ gives
+$T_5=\operatorname{Fr}_5+5\langle5\rangle\operatorname{Fr}_5^{-1}$.
+Every complete rational cusp block is fixed by this action.
+Hence $A_5C=0$, also for the chosen rational base cusp, and $A_5P$ must be principal.
+The previously certified tests exclude the sextic diamond orbit and four of the five octic diamond orbits.
+The remaining octic orbit is the reduction of the known closed octic divisor $D_8$.
+In this case injectivity and gonality give $D=D_8+C$, contradicting noncuspidal support.
+Thus $\overline D$ is a single noncuspidal degree-$9$ place.
+This forces the moduli field to be $K$: a trace with a nontrivial multiplicity could not have this specialization.
+There is a unique prime above $2$, with ramification index $1$ and residue degree $9$.
+
+Since this reduction is noncuspidal, the fine level-$39$ model gives good reduction of $E$ at the corresponding prime over $2$.
+Its residue field is $\mathbb F_{512}$.
+The point of order $117$ is prime to the residue characteristic and retains its order, so
+\[
+ 117\mid\#E(\mathbb F_{512}).
+\]
+The only multiple of $117$ in the Hasse interval $[468,558]$ is $468$.
+
+An independent enumeration of all $511$ ordinary $j$-invariants and both twists over $\mathbb F_{512}$ gives exactly three curves of order $468$.
+Their $j$-invariants form one degree-$3$ Frobenius orbit.
+All other curves with a point of order $39$ have order $546$ and are excluded by the preceding divisibility.
+The supersingular orders are $481,513,545$, none divisible by $39$.
+The ordinary census is computed by an exact Walsh transform and checked again by direct character sums for every qualified curve.
+
+For a curve of order $468$, its rational $39$-torsion is cyclic since $\gcd(39,511)=1$.
+There are $\varphi(39)/2=12$ marked level-$39$ points for each of the three eligible curves.
+Thus there are exactly $36$ geometric level points over $\mathbb F_{512}$ of this type.
+The known nonic curve has four distinct closed degree-$9$ diamond translates, giving all $36$ points.
+Independent exact finite-field arithmetic identifies their $j$-invariants with the three eligible census entries and verifies their level points and distinct Frobenius orbits.
+Consequently $\overline D=\overline {hD_0}$ for a rational diamond $h$, where $D_0$ is the known closed nonic divisor.
+
+Specialization injectivity gives $D\sim hD_0$, and gonality gives $D=hD_0$.
+In particular $D$ is closed of degree $9$, so its residue field is $K$.
+The fine moduli interpretation identifies $E/K$ with the known curve, up to the corresponding number-field isomorphism.
+That curve has an exact point of order $39$ and good unramified linear reduction at $29$ given by
+\[
+ y^2+3xy+12y=x^3+12x^2,
+ \qquad \Delta=1,\qquad \#E(\mathbb F_{29})=39.
+\]
+The local field is $\mathbb Q_{29}$, so reduction is injective on all torsion.
+Its full torsion is therefore $C_{39}$, contradicting the point of order $117$.
+\end{proof}

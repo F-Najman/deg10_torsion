@@ -1,0 +1,7 @@
+M3N27_PARENT_NATIVE_CASE 1 0 0.150
+M3N27_PARENT_NATIVE_CASE 2 0 0.190
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m3n27_parent_native.m", line 19, column 144:
+>> ey4([Evaluate(v,T):v in coords]);assert kt eq Key4([Evaluate(P2!v,a):v in h
+                                    ^
+Runtime error in assert: Assertion failed

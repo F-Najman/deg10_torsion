@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "excluded_groups": [
+    [
+      4,
+      28
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "method": "Full-four-torsion residue parity, four X1(28) Picard tests, exact X1(2,28) Hecke tests and rational 2-isogeny quotients; independent marked Velu and native ideal/Riemann--Roch verification",
+  "files_sha256": {
+    "computations/d31b_Y228_A5_common_v5.m": "5b6489c306bdb54ea0cafc6ef62be7ccd8dd34faaa230977995de0e22998a31a",
+    "computations/d31b_Y228_A5_v5_s0.m": "586b23e42a781af9049a8a8c4b02a8645e22ba73de04e56e4d625c98548eecf0",
+    "computations/d31b_Y228_A5_v5_s1.m": "125fccf82720922c712b400f6f8e8fed5d1ed2a09c4c29ab21b33d903b6eba2e",
+    "computations/d31b_Y228_A5_v5_s2.m": "6ae6f3592d094e87c3b3d3a0feecdbe60ff60eee045e0b02bd747f4ea91da481",
+    "computations/d31b_Y228_A5_v5_s3.m": "1b04b92bfcd40900634925f5b318c9df3095c9b6e2629a0929da132cc26d1716",
+    "computations/d31b_Y228_A5_v5_s4.m": "5588143ed573e61b4ea87be7035f3bfaa6cde297dfa3d56830db20267d805f7d",
+    "computations/d31b_Y228_A5_v5_s5.m": "978a0d466dcb74501013eb5c347a286e4442015beb9de69cfec50cb6cbb4643e",
+    "computations/d31b_Y228_independent_genuine_common_v2.py": "a16f459a5fd148f7ca07a6db926ed2ad42047be29b049eb4a6199ad7e263cd4d",
+    "computations/d31b_Y228_independent_genuine_v2_s0.py": "4a88fdbb6fbde04c51bf680436cdde29098b879478d2fb21e795e3c26f3408d7",
+    "computations/d31b_Y228_independent_genuine_v2_s1.py": "c5562b080c66c6aae8eeaa82a9829e32278794bd6ba1a14d316fa925acd516d2",
+    "computations/d31b_Y228_parent_native_v2.m": "ac73cf0d36e2a01c53da03e26491b93f580ff95cdc4327c69077dec3a6df117e",
+    "computations/d31b_Y228_prepare_union.py": "8c33123c69adb436bfac596fd89a54206e475dede086fd9fa1a3c499e45362db",
+    "computations/d31b_m428_Y_fourmap.m": "89cc2f9e656c9b6f0512cb36409de7d908205b890bf245dc961ce669a92d1c79",
+    "computations/d31b_m428_independent_fourmap_v3.py": "f653a0c3abe973770b01d25e55c5631fe55958a32e1ad504d632c45fe626df50",
+    "computations/d31b_m428_independent_union.py": "97dc7c43a0c2396788f2896be5c5d47bddb6cd33b71df67d7925f412999179bd",
+    "computations/d31b_m428_neighbors_A5.m": "839897778e671cc9bf575f1c2ed8fd8d4276069f8daa33669b6dfff2b46c12e4",
+    "computations/d31b_m428_parent_class_ideals_v2.m": "21cea5d7930bdce38de0b7449b522aa4bc8676caac80431bb4e95bffde13019b",
+    "continuation_20261031b/C56/projected_Y28.m": "af8d2c77e785f9a3b1393ded53e367accbde87a0502c753ef8fe78cae7d95514",
+    "continuation_20261031b/M4N28/build_manifest.py": "61d282785a5828c1e055fd213a9c30834876482a3f4d0399ca0ac1e140702f1b",
+    "continuation_20261031b/M4N28/certify.py": "9278ec4de782ee0aad7788cfd741fc175bf98f34a3912cf472086a88cd48638b",
+    "continuation_20261031b/M4N28/fourmap_Y28.m": "4e22056a205a1daa01aa38d8309e40b3c7f0b1002b6acbe0550d1d565e4b7510",
+    "continuation_20261031b/M4N28/fourmap_class_witnesses_v2.m": "50bb4a4d9bbd8df744daf61622b4fe27405042cbacb8aff59798443d4e2bc4e6",
+    "continuation_20261031b/M4N28/fourmap_native_class.log": "2b8b22a284ba8fa3e033d2071f3e1393a4b1176e59b93adab2886177fb1c5618",
+    "continuation_20261031b/M4N28/fourmap_native_class.log.witnesses.py": "949b6407aae4b37b910a0432df6488c51c7d45d8cd96ade7c3e867d8fe7bf44b",
+    "continuation_20261031b/M4N28/inputs/fast_diamond_hash_m2.m": "ea1b244ee1fe9434653524bd4a944e0af38665e0a92b666226e77b3334982822",
+    "continuation_20261031b/M4N28/inputs/fast_diamond_hash_m2.sig": "bb0d98b9a6f591cc37490e161f23a34dd182127c5014c31560f96b5fd2d6eaf5",
+    "continuation_20261031b/M4N28/inputs/fast_full_aut_hash_m2_28.m": "d7eeefb92116035d272cca5e19538f2b9f8768d9df63ffa772a6018ac16d5fb9",
+    "continuation_20261031b/M4N28/inputs/fast_full_aut_hash_m2_28.sig": "478befaa9d8f82f16cad9a65f1bea1cf7d5f9c0e8eba3e77874615f5ede90994",
+    "continuation_20261031b/M4N28/inputs/pair_af_place_linear.m": "a29c0c3b591797b7e0793c1c09ead9b3c38e85227d190da8d46dc9f66bafb802",
+    "continuation_20261031b/M4N28/inputs/portable_forward.m": "7731f0b3cab5b31beb4060937387ea9a743c709863579d7ba91c8ab7578d1b49",
+    "continuation_20261031b/M4N28/inputs/target28_proven_picard.m": "7be8ec4116cf5c5cc1d10c5da649763e6495169e3c4326942d206151fcd33d98",
+    "continuation_20261031b/M4N28/mathematical_review.json": "7739fb9826844c9afcf7dd78c199043a94d471e628e76e5711393f679b7ade34",
+    "continuation_20261031b/M4N28/parent_independent_fourmap_v3.json": "0d877bc29a1245900bf2dcee47bc3a51d586efa30b2423e610ad86328ef09633",
+    "continuation_20261031b/M4N28/parent_independent_union.json": "98c9d511e2024530bd1114c0cbeac2f2e0963cdd0f47284fc315009ff107cb94",
+    "continuation_20261031b/M4N28/parent_native_class_ideals_v2.m": "23071be75d06130b121d84f22fc032daea11a348f16cce99d34ea76a997dc524",
+    "continuation_20261031b/M4N28/resolution.tex": "d2bf1ab48332f8d13491ef7bd4c3395f068e12473fd01e1d598cf2d955ece27b",
+    "continuation_20261031b/Y228_shared/A5_v5_s0.m": "af4710dbfab804d7ff06264472543b0d0ae04e3d03628416fedacef31d6bb782",
+    "continuation_20261031b/Y228_shared/A5_v5_s1.m": "67a1e6cda3262716f504d89ff6e11044da7e90fb60b8818b30efeaa7d9dcfa10",
+    "continuation_20261031b/Y228_shared/A5_v5_s2.m": "d214a5aea498640150ac87963670745350d6631a38afa68effb70f890f8ae194",
+    "continuation_20261031b/Y228_shared/A5_v5_s3.m": "66310055a83be420b9fd4f53d4bc7b0e7480a0500c0bcf1302db61a6af9bc7b2",
+    "continuation_20261031b/Y228_shared/A5_v5_s4.m": "12c72978918f2796a9ddccf9bcc8557a347f24d0efb094058c8be6945cb08887",
+    "continuation_20261031b/Y228_shared/A5_v5_s5.m": "e1a282b6fb247c8e3de179bbfacaed5f18554e7f470dedc2670e1cd76c2c5dca",
+    "continuation_20261031b/Y228_shared/A5_v5_summary.json": "d733d39ab5819289ced25e9fcc4dafcec00be63094f2d0fa3e4a9245d9307fae",
+    "continuation_20261031b/Y228_shared/fast_hecke_11.m": "a18f21189cba3d5d3a19888012729bde2a4ec0e1839dd770335b79b5149af9cb",
+    "continuation_20261031b/Y228_shared/fast_hecke_11.sig": "80c78c6d0c9c0a4470fef04f8215bd90491fc34c886eace7a42e8fcb2af124e3",
+    "continuation_20261031b/Y228_shared/fast_primitive_inverse.m": "d7552a899b33929689fd00905f9910ea928ce843d133954b7b967a6eff0aefea",
+    "continuation_20261031b/Y228_shared/independent_genuine_v2_s0.json": "6bf41e4e0458f152e7eeef69e2b3f5a6716c0b6453bc06b1d381e8f78b92f4b1",
+    "continuation_20261031b/Y228_shared/independent_genuine_v2_s1.json": "a69031eb13b2543d362e1fdc932c271c041d6a6aaed3abe1be96aad7048d5d0c",
+    "continuation_20261031b/Y228_shared/m428_neighbor_A5.m": "4a2af8927608f26cdd4777aa690e922e448e4c821aa18619d9a0bb6afc8de0bf",
+    "continuation_20261031b/Y228_shared/model_m428_neighbors.m": "91e6b9ca353ec53aaa9ab8c3226d5cd39fac2a3571af7c6ba802712c3ffe65e9",
+    "continuation_20261031b/Y228_shared/model_v5_s0.m": "91e6b9ca353ec53aaa9ab8c3226d5cd39fac2a3571af7c6ba802712c3ffe65e9",
+    "continuation_20261031b/Y228_shared/model_v5_s1.m": "91e6b9ca353ec53aaa9ab8c3226d5cd39fac2a3571af7c6ba802712c3ffe65e9",
+    "continuation_20261031b/Y228_shared/model_v5_s2.m": "91e6b9ca353ec53aaa9ab8c3226d5cd39fac2a3571af7c6ba802712c3ffe65e9",
+    "continuation_20261031b/Y228_shared/model_v5_s3.m": "91e6b9ca353ec53aaa9ab8c3226d5cd39fac2a3571af7c6ba802712c3ffe65e9",
+    "continuation_20261031b/Y228_shared/model_v5_s4.m": "91e6b9ca353ec53aaa9ab8c3226d5cd39fac2a3571af7c6ba802712c3ffe65e9",
+    "continuation_20261031b/Y228_shared/model_v5_s5.m": "91e6b9ca353ec53aaa9ab8c3226d5cd39fac2a3571af7c6ba802712c3ffe65e9",
+    "continuation_20261031b/Y228_shared/parent_native_all45_and_neighbors_v2.m": "1fd0766dbaa6d8e3956b643dd817447152735d5b437f805648ffa5e04e7952ba",
+    "continuation_20261031b/Y228_shared/union_cases.m": "5c15813adf5e6a987b47fcdf7ff561813adb4cbbf8343c035f8904b984072418",
+    "continuation_20261031b/Y228_shared/union_normalization.json": "105188bd919066f374071bdce3e6f08914e5a87ea6dea150ed6afd7f940bec5b",
+    "jobs/d31b_Y228_A5_v5_s0.log": "954583df93e6cee3ff87872c5a811e76e63e73f30a2afb7d0aa85415471f9829",
+    "jobs/d31b_Y228_A5_v5_s0.status.json": "ff28ccfad279f621c2eed95e9c513418b03252913e01a65222c710020827828e",
+    "jobs/d31b_Y228_A5_v5_s1.log": "4340d1c72b33cbdbbffe92178f76c92fc1d0b711abf32810e52c826eb9a25c5f",
+    "jobs/d31b_Y228_A5_v5_s1.status.json": "f9cab15a8617bc6db0428525b65dddbb033d564d1f3c4e99a0df198a0499ed75",
+    "jobs/d31b_Y228_A5_v5_s2.log": "b81a3a80926a41bef130db47bddbaac32a72673eb5606c8d0d04dd0d26ca8778",
+    "jobs/d31b_Y228_A5_v5_s2.status.json": "084a24b22d4b4c6c84c2fb23f347bf014d6d763969f3969113ccdf0a41d281e3",
+    "jobs/d31b_Y228_A5_v5_s3.log": "d8df978fd76b8702b077dbb03c374cd7da3f428417a5f6da57d3bffcfca01192",
+    "jobs/d31b_Y228_A5_v5_s3.status.json": "bacce8a388b3215624ca7d7a73d2b27c8c033cdcc75fe5183234c813944a53a1",
+    "jobs/d31b_Y228_A5_v5_s4.log": "866a212e392feb4a1a9e0486a752495a75c8fb4c7dbcc3a9438a8cb05030fcaf",
+    "jobs/d31b_Y228_A5_v5_s4.status.json": "a9a5585ec65b481df74e4ec7d38bf81f3a530835b5edf8ce9e6de88601f3d1b0",
+    "jobs/d31b_Y228_A5_v5_s5.log": "f99aea3cc2a78c552816a00c3289f613d94fcd22bce9fc396f7c729eda54e67c",
+    "jobs/d31b_Y228_A5_v5_s5.status.json": "ade8e41729ccf6e761358a35e21a8a202359e9a5b9f842858cc786d202486920",
+    "jobs/d31b_Y228_independent_genuine_v2_s0.log": "a6f8cd8643a1fb4ae44e2911710ee0bf23bf410d25d2e9adc6ba3dc8acd6a756",
+    "jobs/d31b_Y228_independent_genuine_v2_s0.status.json": "14853062d3857d3dccc51d591d0668a2bb91d39e0c65dcb0937d0075972c4596",
+    "jobs/d31b_Y228_independent_genuine_v2_s1.log": "88e8eb441303f1db9a741d659233c41339ab311aa4823e5c9296586e7365e920",
+    "jobs/d31b_Y228_independent_genuine_v2_s1.status.json": "854b563025b5f60ad2eb8c93fd78579782234e08027640eacf9e6099e118c3e1",
+    "jobs/d31b_Y228_parent_native_v2.log": "4b34ef17326c6c343c5debb1eee12865e85b7181ef8eee3846c60994e40af22a",
+    "jobs/d31b_Y228_parent_native_v2.status.json": "32e059dca847d380bdf96cc9dad1420783bb75e84f6196edf10d48635fd93e64",
+    "jobs/d31b_Y228_prepare_union.log": "009414e87f6cf2a2f7e554a1da03ee4cc8b04f4686cc01c912884af9dcfc5d21",
+    "jobs/d31b_Y228_prepare_union.status.json": "2ff5f6113a8622ff81035c74e2054b889d5b1dad93165cfe2c8cd460928e6776",
+    "jobs/d31b_m428_Y_fourmap.log": "c96fef35698118b52cabae8a5f4588b4e4a37fe54d1a6229a59817832c552823",
+    "jobs/d31b_m428_Y_fourmap.status.json": "97abe92c3371d7e6cc296bab9bba32dc7ce4effa823a9c04988de179426b0739",
+    "jobs/d31b_m428_independent_fourmap_v3.log": "89102e82b9e5a0ef8cccf95a0d0373310c378497f1306c1e538201ca60104dc6",
+    "jobs/d31b_m428_independent_fourmap_v3.status.json": "3d5eac31fde64d60ae577ab2589c268cbd79f4968ba62a980e3192d8a5bcf06f",
+    "jobs/d31b_m428_independent_union.log": "472fddaf23dbad19984ea505ec349f5ffe9b6ca619d51825ae3fd9ee0528303f",
+    "jobs/d31b_m428_independent_union.status.json": "25f3bff0d0ab11750206064f5ae34a68f9034c0522df7990e9b5d4c99d97a124",
+    "jobs/d31b_m428_neighbors_A5.log": "c21ae9f2beb12ca3b8c389cb58c40f2a3c43b53d71b96d5fdbc5e59dd1a7cb7f",
+    "jobs/d31b_m428_neighbors_A5.status.json": "8879ee5ec6e1decb1f3d4ae57676f3f385dbb4108f595b078aef1fa50bacdebb",
+    "jobs/d31b_m428_parent_class_ideals_v2.log": "bc7258fb612b89ee8ac4f9e7ecf70d262f53321d22af9a71347a2dc5cc72da40",
+    "jobs/d31b_m428_parent_class_ideals_v2.status.json": "dae2efdad1b674a47e5cf0c5e3e184a8aa79bcdbc9501a25a806e11bb85ffc46",
+    "run_job.py": "92c5f1910c551f00bced7c3d4e3731634d8bdb6ee2a07b5a87178c1ea9aed8bc",
+    "shared/mdmagma/v2/algebra/linear_algebra.m": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed",
+    "shared/mdmagma/v2/curves/classgroups.m": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24",
+    "shared/mdmagma/v2/curves/divisors.m": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7",
+    "shared/mdmagma/v2/elliptic_curves/isogenies.m": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15",
+    "shared/mdmagma/v2/mdmagma.spec": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a",
+    "shared/mdmagma/v2/mdmagma_internal.spec": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487",
+    "shared/mdmagma/v2/modular_curves/X0.m": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83",
+    "shared/mdmagma/v2/modular_curves/X1.m": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f",
+    "shared/mdmagma/v2/modular_curves/X11.m": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9",
+    "shared/mdmagma/v2/modular_curves/base_curve.m": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e",
+    "shared/mdmagma/v2/modular_curves/rational_points.m": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee",
+    "shared/mdmagma/v2/modular_forms/modular_symbols.m": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14",
+    "shared/mdmagma/v2/utils.m": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64"
+  },
+  "jobs": [
+    {
+      "status_path": "jobs/d31b_m428_Y_fourmap.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_M428_Y_FOURMAP_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_Y228_prepare_union.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_Y228_UNION_NORMALIZED"
+    },
+    {
+      "status_path": "jobs/d31b_m428_parent_class_ideals_v2.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_M428_NATIVE_IDEAL_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_m428_independent_fourmap_v3.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_M428_INDEPENDENT_FOURMAP_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_m428_independent_union.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_M428_INDEPENDENT_UNION_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_Y228_parent_native_v2.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_Y228_PARENT_NATIVE_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_m428_neighbors_A5.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_M428_NEIGHBOR_A5_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_Y228_independent_genuine_v2_s0.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_Y228_INDEPENDENT_GENUINE_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_Y228_independent_genuine_v2_s1.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_Y228_INDEPENDENT_GENUINE_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_Y228_A5_v5_s0.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_Y228_A5_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_Y228_A5_v5_s1.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_Y228_A5_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_Y228_A5_v5_s2.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_Y228_A5_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_Y228_A5_v5_s3.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_Y228_A5_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_Y228_A5_v5_s4.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_Y228_A5_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_Y228_A5_v5_s5.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_Y228_A5_COMPLETE"
+    }
+  ],
+  "diagnostics_are_not_certificates": true
+}

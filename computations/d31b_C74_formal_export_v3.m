@@ -1,0 +1,23 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(12*10^9);Alarm(650);tt:=Cputime();root:="work/deg10/continuation_20261031b/C74/";
+AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");load "work/deg10/continuation_20261031b/C74/inputs/dt_expansions_local.m";load "work/deg10/continuation_20261031b/C74/inputs/pair_af_place_linear.m";
+X:=MDX1(37,GF(2));FF:=FunctionField(Curve(X));AF,am:=AlgorithmicFunctionField(FF);assert Genus(AF) eq 40;u:=am(X`_coordinates_xy[1]);v:=am(X`_coordinates_xy[2]);K:=BaseRing(AF);assert u eq AF!K.1 and v eq AF.1;
+E:=EllipticCurve([am(z):z in X`_E]);P:=E![AF!0,AF!0];assert 37*P eq E!0 and P ne E!0;xy:=TateNormalForm_xy(E,2*P);sig0:=hom<K->AF|xy[1]>;dg:=hom<AF->AF|sig0,xy[2]>;
+Om,om:=SpaceOfHolomorphicDifferentials(AF);B:=[om(w):w in Basis(Om)];eta:=Differential(u);deta:=Differential(dg(u));MD:=Matrix(GF(2),[Eltseq((dg(w/eta)*deta)@@om):w in B]);CM:=Matrix(GF(2),[Eltseq(Cartier(w)@@om):w in B]);I:=IdentityMatrix(GF(2),40);assert MD^18 eq I and MD*CM eq CM*MD;U:=RowSpace(MD-I);assert Dimension(U) eq 38 and U eq RowSpace((CM-I)*(MD-I));
+function ER(f)return [[Integers()!z:z in Coefficients(Numerator(f))],[Integers()!z:z in Coefficients(Denominator(f))]];end function;
+function EF(f)return [ER(z):z in Eltseq(AF!f)];end function;
+function MM(A)return [*Nrows(A),Ncols(A),[Integers()!z:z in Eltseq(A)]*];end function;
+function PD(p)g,h:=TwoGenerators(p);OO:=IsFinite(p) select MaximalOrderFinite(AF) else MaximalOrderInfinite(AF);assert ideal<OO|g,h> eq Ideal(p);return[*Degree(p),IsFinite(p) select 1 else 0,[EF(g),EF(h)]*];end function;
+model:=[*[ER(z):z in Coefficients(DefiningPolynomial(AF))],[EF(w/eta):w in B],MM(MD),MM(CM),MM(BasisMatrix(U)),[EF(dg(u)),EF(dg(v))]*];Write(root cat "formal_model.m",Sprint(model):Overwrite:=true);printf "D31B_C74_FORMAL_MODEL_READY genus40=true U38=true actual_diamond_pullback=true time=%o\n",Cputime(tt);
+b:=am(X`_coordinates[1]);c:=am(X`_coordinates[2]);j:=(1+c)^12/(b^3*(b+c*(c+1)^3));assert Degree(j) eq 684;cs:=Poles(j);assert {*Degree(q):q in cs*}eq{*1^^18,18*};rats:=[q:q in cs|Degree(q)eq 1];A0:=HorizontalJoin(DifferentialExpansionMatrices(B,rats[1],10));assert Nrows(A0)eq 40 and Ncols(A0)eq 10;
+firsts:=[Eltseq((MD^k)*ColumnSubmatrix(A0,1,1)):k in[0..17]];assert #Seqset(firsts)eq 18;perm:=[];
+for q in rats do A:=HorizontalJoin(DifferentialExpansionMatrices(B,q,1));ii:=Index(firsts,Eltseq(A));assert ii gt 0;Append(~perm,ii);end for;assert Seqset(perm)eq{1..18};
+CJ:=[*MM(BasisMatrix(U)*(MD^k)*A0):k in[0..17]*];Write(root cat "rational_cusp_jets.m",Sprint([*MM(A0),perm,CJ,[PD(q):q in rats]*]):Overwrite:=true);
+VO:=VectorSpace(GF(2),40);VV,vm:=DifferentialSpace(10*Divisor(rats[1]));W:=sub<VO|[VO!Eltseq(vm(w)@@om):w in Basis(VV)]>;assert 38-Dimension(U meet W)eq 10;printf "D31B_C74_CUSP_JETS_COMPLETE native_cap10_rank10=true transported18=true time=%o\n",Cputime(tt);
+load "work/deg10/continuation_20261031b/C74/inputs/work/degree9/prime_orders/continued_20261026/P37/input_records.m";rec:=Inputs[1];assert rec[1]eq 6 and rec[2]eq 1;PF:=PolynomialRing(GF(2));L<z>:=ext<GF(2)|PF!rec[3]>;EE:=EllipticCurve([L!PF!w:w in rec[4]]);PN:=EE![L!PF!w:w in rec[5]];vals:=TateNormalForm_xy(EE,PN);P6:=C48PairAFPlaceLinear([u,v],vals);assert Degree(P6)eq 6;A6:=HorizontalJoin(DifferentialExpansionMatrices(B,P6,1));assert Rank(BasisMatrix(U)*A6)eq 6;
+VV,vm:=DifferentialSpace(Divisor(P6)+4*Divisor(rats[1]));W:=sub<VO|[VO!Eltseq(vm(w)@@om):w in Basis(VV)]>;assert 38-Dimension(U meet W)eq 10;Write(root cat "sextic_restriction.m",Sprint([*PD(P6),MM(A6),MM(BasisMatrix(U)*A6),MM(BasisMatrix(W))*]):Overwrite:=true);printf "D31B_C74_SEXTIC_RESTRICTION_COMPLETE native_6plus4_rank10=true time=%o\n",Cputime(tt);
+ps:=NoncuspidalPlaces(X,10);printf "D31B_C74_NC10_COUNT actual=%o\n",#ps;assert #ps eq 99;out:=[* *];
+for ii in[1..#ps] do
+ pp:=ps[ii];vals:=[Evaluate(f,pp):f in X`_coordinates_xy];q:=C48PairAFPlaceLinear([u,v],vals);assert Degree(q)eq 10;A:=HorizontalJoin(DifferentialExpansionMatrices(B,q,1));rr:=Rank(BasisMatrix(U)*A);assert rr eq 10;Append(~out,[*PD(q),MM(A),rr*]);
+ Write(root cat "decic_restrictions_progress.m",Sprint(out):Overwrite:=true);if ii mod10 eq 0 then printf "D31B_C74_DECIC_FORMAL_RANK index=%o/99 rank10=true time=%o\n",ii,Cputime(tt);end if;
+end for;
+Write(root cat "decic_restrictions.m",Sprint(out):Overwrite:=true);printf "D31B_C74_FORMAL_EXPORT_COMPLETE NC10=99 all_rank10=true time=%o\n",Cputime(tt);quit;

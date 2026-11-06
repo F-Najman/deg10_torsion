@@ -1,0 +1,7 @@
+D31A_C62_INDEPENDENT_POINTS 1000 11.77
+D31A_C62_INDEPENDENT_POINTS 2000 21.11
+D31A_C62_INDEPENDENT_POINTS 3000 29.46
+D31A_C62_INDEPENDENT_POINTS 4000 37.48
+D31A_C62_INDEPENDENT_POINTS 5000 44.01
+D31A_C62_INDEPENDENT_ORBITS 379
+D31A_C62_INDEPENDENT_REPLAY_COMPLETE {'status': 'PASS', 'target_degree10_places': 5685, 'source_degree10_places': 5910, 'diamond_orbits': 379, 'eligible_class_tests': 253, 'survivors': [], 'known_nonic31_binding_points': 5, 'new_degree5_pair_tests': 4095, 'new_quadratic_fibre_tests': 45, 'seconds': 50.44511628616601, 'complete_marked_point_and_2division_census': True, 'all_diamond_orbits_reconstructed': True, 'all_primary_sums_and_memberships_verified': True, 'native_ideal_identities_separately_replayed': True}

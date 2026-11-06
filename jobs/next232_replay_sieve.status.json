@@ -1,0 +1,18 @@
+{
+  "purpose": "next232_replay_sieve",
+  "script": "computations/next232_replay_sieve.py",
+  "script_sha256": "9a8bd0a4c6755972227ff6b970cafcfd430dbdcb3325640a4fe9f1f51c08ff56",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_replay_sieve.py"
+  ],
+  "pid": 1739243,
+  "owner_uid": 1001,
+  "start_time_unix": 1793354063.879866,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/next232_replay_sieve.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 2.217313766479492
+}

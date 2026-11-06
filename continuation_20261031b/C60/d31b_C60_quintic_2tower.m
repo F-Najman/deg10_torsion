@@ -1,0 +1,6 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(4*10^9);Alarm(180);tt:=Cputime();R<t>:=PolynomialRing(Rationals());F<a>:=NumberField(R![1,3,0,-3,1,1]);S<x>:=PolynomialRing(F);rows:=[*[*[-9118,-14321,20475,-1917,-6378],[-162,-257,366,-34,-114]*],[*[295,238,-382,-38,190],[28,9,-36,13,7]*]*];es:=[* *];facts:=[* *];
+for z in rows do b:=Evaluate(R!z[1],a);c:=Evaluate(R!z[2],a);E:=EllipticCurve([1-c,-b,-b,0,0]);P:=E![0,0];assert Order(P)eq 30;Append(~es,[*E,P*]);a1,a2,a3,a4,a6:=Explode(aInvariants(E));b2,b4,b6,b8:=Explode(bInvariants(E));halves:=x^4-b4*x^2-2*b6*x-b8-P[1]*(4*x^3+b2*x^2+2*b4*x+b6);ff:=Factorization(halves);assert #ff eq 1 and Degree(ff[1][1])eq 4;
+ hs:=[q[1]:q in Factorization(DivisionPolynomial(E,2))|Degree(q[1])eq 2];assert #hs eq 1;h:=hs[1];D:=Discriminant(h);hasi:=IsSquare(-D);assert not hasi;Append(~facts,[*[Eltseq(v):v in Coefficients(h)],false,[Degree(q[1]):q in ff]*]);print "D31B_C60_QUINTIC_2TOWER_CASE",#facts,hasi,[Degree(q[1]):q in ff],Cputime(tt);
+end for;
+for i in[1,2]do E,P:=Explode(es[i]);T:=15*P;EE,phi:=IsogenyFromKernel(E,x-T[1]);ok:=IsIsomorphic(EE,es[3-i][1]);assert ok;end for;
+Write("work/deg10/continuation_20261031b/C60/quintic_2tower.m",Sprint(facts):Overwrite:=true);print "D31B_C60_QUINTIC_2TOWER_COMPLETE",Cputime(tt);quit;

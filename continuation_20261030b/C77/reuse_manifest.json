@@ -1,0 +1,240 @@
+{
+  "scope": "Immutable accepted C77 genus37 geometry, finite-image criterion and exact basis controls; no degree9 exclusion transferred",
+  "files": [
+    {
+      "source": "work/degree9/realizations/continuation/C77/finite_trace_certificate.json",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/finite_trace_certificate.json",
+      "sha256": "bf269f1173b2ba567c648bf1dab000e5c3b3671e9f0e0395ad480e0b227e3f9b"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/finite_trace77.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/finite_trace77.log",
+      "sha256": "f9e7f6ba9e6391c7963290cbe51b03f63c1bdb3cfb77962f379e535f24c4f443"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/model_deck.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/model_deck.log",
+      "sha256": "ab3a7ac939b6c1d8c6e41507970c0f37a1cce50d3a5fd56f5e5c306b2392f365"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/validate_modular_cover.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/validate_modular_cover.m",
+      "sha256": "3f84ded32f54cd0cc09e6baddeb362d19fe63cd38e69953d8e8cf29d10efd449"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/replay_fi9.py",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/replay_fi9.py",
+      "sha256": "70fa06f740643636a534e079f04b1279ed4886a693ea5b187397ce119a29a230"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/native_exit_supplement.json",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/native_exit_supplement.json",
+      "sha256": "56e95abf3f3995205b2c7786fe4f30af733e142c0f483063ec9dcad630974f31"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained_degree_independent_kernels.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained_degree_independent_kernels.m",
+      "sha256": "279f1ed1254a90dd2f17225a1b72853e657caa312d3f52bf048352d21c703177"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/replay_fi9.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/replay_fi9.log",
+      "sha256": "e9ee4b8b241854a26c5606d64a1b799f49808d2257a2614d7db8b9208a2fb1e1"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/exclusion77.tex",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/exclusion77.tex",
+      "sha256": "e535ede56a23025a9efc71cb8d1025e9331a29699b28688142f810213f3eb36c"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/AS_component.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/AS_component.m",
+      "sha256": "27c54a54b574a5b75efe91987f072956eb1d02f176c7242e37098a36aa4beceb"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/root_readonly.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/root_readonly.log",
+      "sha256": "c36dda614729c3495fdc7275f5a31db910d4f3d352e70574e71641535514755f"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/finite_image_criterion77.tex",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/finite_image_criterion77.tex",
+      "sha256": "fe65b9df178f53595c510172ed1c7a6a747392b05123b5ddc0c7f79224216b1c"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/winding77_exit_recheck.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/winding77_exit_recheck.log",
+      "sha256": "3ea98e8095efd5d472bb110700216f7bb1d9116ada0a4a67d32fa726f9084007"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/build_model_deck.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/build_model_deck.m",
+      "sha256": "79f159a5714b4a52ee6453971618df6fc51a0ec3b33f1987718e52bcbf7ab174"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/manifest77.json",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/manifest77.json",
+      "sha256": "fa35bf2742f51b0ebe49876d154db672fe6cbb55700324039e37dfd580ba49dc"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/basis_alignment_preflight.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/basis_alignment_preflight.log",
+      "sha256": "32298aebd8ff0144d169598c8fffb8be814f80cd2de4fb9da8dba2c790548873"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/certify77.py",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/certify77.py",
+      "sha256": "de9e1ef3dcdb285a010429d52d02d0050f36e296a1929828b6b48959f041011d"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/basis_alignment_preflight.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/basis_alignment_preflight.m",
+      "sha256": "30411d07a8952087fcf9697bb951d6cb843d72dd2ac771fdc69bfd125bfbc768"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/rr9_continue.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/rr9_continue.m",
+      "sha256": "c18c72e9ffee00a2bd0bcaf6306dc0c22a3b4fa0dd2d143bbbb7ca02ebea9f47"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/certify77.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/certify77.log",
+      "sha256": "c36dda614729c3495fdc7275f5a31db910d4f3d352e70574e71641535514755f"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/validate_modular_cover.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/validate_modular_cover.log",
+      "sha256": "b3d441b3671a5adeb2adfe24fbd8bfc63d6e98cc9a4beaad3106bbad3864ddf3"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/finite_trace77.py",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/finite_trace77.py",
+      "sha256": "ad1e15624ad8bc3a952f36325c6d8bbd0011843891d2a8e20541e961e0cc965e"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/winding77.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/winding77.log",
+      "sha256": "f66b719908e2028a3630b6ef2e241a39d5039c4cf0cde6a5f480a2417069d305"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/fi9_data.json",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/fi9_data.json",
+      "sha256": "0ca6710acdf2d797c4f08655ac84fa8d69f2bc59d4fd21293881a08484cc6cc3"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/winding77.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/winding77.m",
+      "sha256": "22a3db3e8bcfd7919ff9575a0c0d83745e80dfe18eb2ded23702d0615e1c1701"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained_provenance.json",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained_provenance.json",
+      "sha256": "eaadf1116f6bde5beb09898ebc43b86348c9f04766c2c0b9c0db3d4e88ff2236"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/winding77_hecke2_certificate.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/winding77_hecke2_certificate.log",
+      "sha256": "b3df3902bbca9f9a482e5de69febf1b8255ac57bbde48af25ad97769647c02da"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_validate_AS.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_validate_AS.log",
+      "sha256": "0e6235bc4b0c43efb9d2f568fff0102008ad2b98ae2ce87a951a8167a5df9272"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_root_fresh_deck.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_root_fresh_deck.log",
+      "sha256": "c4b517e138549848f8f846f83688e61f15d8dce24c86d14ced4b30767c53a43f"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/cusps_order5_quotients.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/cusps_order5_quotients.log",
+      "sha256": "df14a923f5f2e55cf8d865e913826618969b302b7e9e7d4c4d2fc68e4d77463e"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_fast_reproduce.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_fast_reproduce.log",
+      "sha256": "a18d2833ffed70c4330dd2241aa3a76bd358fec4113ff9dd02cfb1b3812aadf7"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_deck_reproduce.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_deck_reproduce.m",
+      "sha256": "b72344514ab178d285989c47834aff0077a813aad7a20f1bc0db0292797b1681"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/cusps_order5_quotients.json",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/cusps_order5_quotients.json",
+      "sha256": "3cc06ffe63d934668cecaa2518ebb77f25e13e5863f0da68f134a50f68b10af0"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_root_fresh_deck_kernels.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_root_fresh_deck_kernels.m",
+      "sha256": "279f1ed1254a90dd2f17225a1b72853e657caa312d3f52bf048352d21c703177"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/winding77_hecke2_certificate.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/winding77_hecke2_certificate.m",
+      "sha256": "db7cd8438893bf329ef3d5cc52032eb041fe789f425d4ca58d23e39dc6b6dc90"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_fast_reproduce.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_fast_reproduce.m",
+      "sha256": "34974ae2703142ae63f6db75e5c73b781a8217835d7612e84e137efcf4fc5d5a"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_AS_component.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_AS_component.m",
+      "sha256": "27c54a54b574a5b75efe91987f072956eb1d02f176c7242e37098a36aa4beceb"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_validate_AS.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_validate_AS.m",
+      "sha256": "cf05bb6238646a1ac7f836de64b5d5edb0d48cee215fe107dc5ab8ad07fd2789"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/cusps_order5_quotients.py",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/cusps_order5_quotients.py",
+      "sha256": "69f0601297057d51919a057cc5db1e84a7a6a2c384f152754b314d4119bd986b"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_full_control_comparison.log",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_full_control_comparison.log",
+      "sha256": "beb8550c7263c496fc82ccde26d040f496331d210632d394d02fecb4d9dc513a"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_full_RR_kernels.m",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_full_RR_kernels.m",
+      "sha256": "671b958844752e52782658dd9091cf3dfa6ba69524efdd21e4655f2d827bb2c4"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_inputs/compare_full_RR.py",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_inputs/compare_full_RR.py",
+      "sha256": "8b10a7bf657ae1a78b7defcb09f77df78b489bb43f8a3b6a06877efad613b725"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_inputs/replay_fi_jets.py",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_inputs/replay_fi_jets.py",
+      "sha256": "beb52ee3b46d2a2aa224f86c96c005b1d1aff26df90ac67ce6fd33da0cb46207"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_inputs/replay_deck_transport.py",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_inputs/replay_deck_transport.py",
+      "sha256": "bc5e1f58c53cfe24d33de5f1b4f0a538b2fbc2f70ec2097cfdbb411253007dcb"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_inputs/replay_rr_kernels.py",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_inputs/replay_rr_kernels.py",
+      "sha256": "12209415ba5a9d201cf6210ea7a25e7c27e69f3f90913ce979715ada16342d44"
+    },
+    {
+      "source": "work/degree9/realizations/continuation/C77/retained/C77_inputs/replay_hecke_cartier_projection.py",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/retained/C77_inputs/replay_hecke_cartier_projection.py",
+      "sha256": "79b05a19b4e342e66ca1bfcca9db88299a448ba5a27cf048deb2460aa1d0367c"
+    },
+    {
+      "source": "work/deg10/continuation_20261030b/C55/inputs/DEHMZ_source.snapshot.tex",
+      "snapshot": "work/deg10/continuation_20261030b/C77/inputs/DEHMZ_source.snapshot.tex",
+      "sha256": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+    }
+  ]
+}

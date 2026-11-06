@@ -1,0 +1,14 @@
+{
+  "degree": 9,
+  "group": [
+    1,
+    62
+  ],
+  "independent_review": "PASS",
+  "reviewer": "/root/degree9_noncyclic",
+  "projection_coverage": "Single rational2-root Pd of degree5..9; no cubic branch because targetNCdegree3count0; quadraticbranchorders31/93odd",
+  "all_bad_step": "Uses only J1(31) rank0,gonality12,intactcusp1^15+15",
+  "source_J1_62_rank_zero_not_assumed": true,
+  "positive_survivors": "Allfive P9 exactly known global fullC31 diamonddivisors; rigidity bytorsioninjectionat3 andgonality12; fineY1(31) givesKisomorphism,no twist ambiguity; good83degree1 order93excludes2tor",
+  "complete": true
+}

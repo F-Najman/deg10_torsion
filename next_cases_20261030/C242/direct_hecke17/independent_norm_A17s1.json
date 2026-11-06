@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "tag": "A17s1",
+  "ell": 17,
+  "selected_cases": [
+    35341,
+    35601
+  ],
+  "source_summands": 4,
+  "kernel_orbits": 12,
+  "geometric_kernel_count": 72,
+  "all_Velu_maps_and_level_images_checked": true,
+  "all_division_polynomial_factors_exhausted": true,
+  "all_residue_norm_weights_checked": true,
+  "source_reports": [
+    {
+      "record_index_zero_based": 0,
+      "map": 1,
+      "source_degree": 4,
+      "kernel_orbits": 4,
+      "geometric_kernels": 18
+    },
+    {
+      "record_index_zero_based": 1,
+      "map": 1,
+      "source_degree": 4,
+      "kernel_orbits": 4,
+      "geometric_kernels": 18
+    },
+    {
+      "record_index_zero_based": 2,
+      "map": 1,
+      "source_degree": 4,
+      "kernel_orbits": 2,
+      "geometric_kernels": 18
+    },
+    {
+      "record_index_zero_based": 3,
+      "map": 1,
+      "source_degree": 4,
+      "kernel_orbits": 2,
+      "geometric_kernels": 18
+    }
+  ],
+  "seconds": 0.9981630682013929,
+  "sha256": {
+    "work/deg10/next_cases_20261030/C242/direct_hecke17/A17s1/explicit_hecke_data.m": "dc7bc9cebd959855ab09bb60746cdc0ffa551045e1ead4549e120801bd258720"
+  }
+}

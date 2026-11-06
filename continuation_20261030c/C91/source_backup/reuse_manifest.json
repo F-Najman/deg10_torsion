@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "source": "work/degree9/prime_orders/continued_20261026/composite91/canonical_unit_stage1_data.m",
+      "snapshot": "work/deg10/continuation_20261030c/C91/source_backup/inputs/canonical_unit_stage1_data.m",
+      "sha256": "88ff18b1fac5ed6d5d36370b090199b378080c5c5e62d267356ed91c5e9d7d71"
+    }
+  ],
+  "sample_source": {
+    "source": "work/degree9/prime_orders/continued_20261026/composite91/elliptic_hecke_jets_stage2_data.m",
+    "source_sha256": "4049f2cfaa0d793dace562bf731375d465a350b445de5337f069e61e91971c37",
+    "source_record": 1,
+    "fields_1based": [
+      1,
+      3,
+      4
+    ],
+    "snapshot": "work/deg10/continuation_20261030c/C91/source_backup/inputs/sample_point.m",
+    "snapshot_sha256": "26546c579b4676261c2e7c8e394facfc4e7657ff2232b570da2e888b4415c263"
+  }
+}

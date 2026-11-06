@@ -1,0 +1,18 @@
+{
+  "purpose": "cont_replay612_complete",
+  "script": "computations/cont_replay612_complete.py",
+  "script_sha256": "42368c44682091dfaf27217a5cfa4cd42513087976c4fab3285fb85e265e2471",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_replay612_complete.py"
+  ],
+  "pid": 547793,
+  "owner_uid": 1001,
+  "start_time_unix": 1793298161.7803805,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/cont_replay612_complete.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 11.232271194458008
+}

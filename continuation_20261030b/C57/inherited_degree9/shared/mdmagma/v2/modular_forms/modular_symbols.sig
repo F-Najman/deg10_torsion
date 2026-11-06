@@ -1,0 +1,3 @@
+179,0
+S,MDCongruenceSubgroup,Return the congruence subgroup that was used to define the ambient space of this modular symbols space,0,1,0,0,0,0,0,0,0,ModSym,,GrpPSL2,Null,Null,Null,Null,Null
+S,MDDiagonalALBasis,Given a decomposition of the modular symbols of weight k for some group Gamma0(N) it gives a corresponding basis of the modular in S_k(Gamma0(N)) respecting this decomposition such that further more the Atkin-Lehner operators act diagonally. The second return value are the Atkin-Lehner eigenvalues on this basis,1,0,1,SeqEnum,0,ModSym,1,0,0,0,0,0,0,0,SeqEnum,,SeqEnum,SeqEnum,Null,Null,Null,Null

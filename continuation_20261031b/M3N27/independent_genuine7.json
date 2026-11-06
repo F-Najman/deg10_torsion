@@ -1,0 +1,261 @@
+{
+  "status": "PASS",
+  "source_NC_closed_counts_F4": [
+    0,
+    0,
+    0,
+    0,
+    162
+  ],
+  "actual_source_keys": 162,
+  "cyclic_projection_keys": 54,
+  "cyclic_diamond_orbits": 6,
+  "eligible_curve_models_checked": 31,
+  "geometric7kernels_checked": 48,
+  "manual_Velu_checks": 48,
+  "constant_field_orientation_explicit": true,
+  "v4_v5_all_prime_and_divisor_records_identical": true,
+  "cases": [
+    {
+      "case": 1,
+      "geometric_kernels": 8,
+      "kernel_orbits": [
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          1,
+          1,
+          5
+        ]
+      ],
+      "source_GF4_constant": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_GF4_keys_match": true,
+      "manual_Velu_checks": 8
+    },
+    {
+      "case": 2,
+      "geometric_kernels": 8,
+      "kernel_orbits": [
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          1,
+          1,
+          5
+        ]
+      ],
+      "source_GF4_constant": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_GF4_keys_match": true,
+      "manual_Velu_checks": 8
+    },
+    {
+      "case": 3,
+      "geometric_kernels": 8,
+      "kernel_orbits": [
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          1,
+          1,
+          5
+        ]
+      ],
+      "source_GF4_constant": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_GF4_keys_match": true,
+      "manual_Velu_checks": 8
+    },
+    {
+      "case": 4,
+      "geometric_kernels": 8,
+      "kernel_orbits": [
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          1,
+          1,
+          5
+        ]
+      ],
+      "source_GF4_constant": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_GF4_keys_match": true,
+      "manual_Velu_checks": 8
+    },
+    {
+      "case": 5,
+      "geometric_kernels": 8,
+      "kernel_orbits": [
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          1,
+          1,
+          5
+        ]
+      ],
+      "source_GF4_constant": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_GF4_keys_match": true,
+      "manual_Velu_checks": 8
+    },
+    {
+      "case": 6,
+      "geometric_kernels": 8,
+      "kernel_orbits": [
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          1,
+          1,
+          5
+        ]
+      ],
+      "source_GF4_constant": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_GF4_keys_match": true,
+      "manual_Velu_checks": 8
+    }
+  ],
+  "elapsed_seconds": 13.846276483964175
+}

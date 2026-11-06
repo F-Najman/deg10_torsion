@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "case": "C2 x C32 and C64 exclusions completed",
+  "degree_ten_magma_workers": [],
+  "all_case_jobs_exited": true,
+  "all_case_job_count": 45,
+  "obsolete_jobs_terminated": [
+    "next232_source_picard",
+    "next232_source_hecke11"
+  ],
+  "termination_reports": [
+    "C232_resolution_20261030/retired_source_picard.json",
+    "C232_resolution_20261030/retired_slow_inversion.json"
+  ],
+  "case_automatic_launchers_created": 0,
+  "unrelated_magma_workers_preserved": [
+    {
+      "owner": "fnajman",
+      "pid": 339824,
+      "start_time_unix": 1792133148.21,
+      "command": [
+        "/opt/magma-2.29-4/magma.exe",
+        "-b",
+        "code/03_groups.m"
+      ]
+    },
+    {
+      "owner": "fnajman",
+      "pid": 1842106,
+      "start_time_unix": 1793358623.55,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "work/degree20/census_sources.m"
+      ]
+    },
+    {
+      "owner": "nadzaga",
+      "pid": 1845333,
+      "start_time_unix": 1793358753.88,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-s",
+        "computations/X0_187star/qc_p37_mws.m"
+      ]
+    },
+    {
+      "owner": "nadzaga",
+      "pid": 1845342,
+      "start_time_unix": 1793358753.92,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-s",
+        "computations/X0_430star/qc_p47_mws.m"
+      ]
+    },
+    {
+      "owner": "fnajman",
+      "pid": 1846604,
+      "start_time_unix": 1793358806.83,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=104711",
+        "OrderToTest:=10471",
+        "SparseOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p104711_n10471_sparse.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/export_large_sparse.m"
+      ]
+    },
+    {
+      "owner": "fnajman",
+      "pid": 1846620,
+      "start_time_unix": 1793358807.19,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "P:=104711",
+        "OrderToTest:=52355",
+        "SparseOut:=/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/large_orders/p104711_n52355_sparse.txt",
+        "/home/fnajman/Documents/Codex/2026-10-28/on-this-computer-there-are-a/work/degree20/export_large_sparse.m"
+      ]
+    },
+    {
+      "owner": "fnajman",
+      "pid": 1846933,
+      "start_time_unix": 1793358816.66,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-b",
+        "work/degree20/anti167.m"
+      ]
+    },
+    {
+      "owner": "nadzaga",
+      "pid": 3067704,
+      "start_time_unix": 1793227423.6,
+      "command": [
+        "/opt/magma-2.30-1/magma.exe",
+        "-s",
+        "for_mordell.m"
+      ]
+    }
+  ],
+  "host_cpu_count": 32,
+  "scheduling_rule": "Leave two host CPU cores idle; every new Magma worker used one thread.",
+  "checked_time_unix": 1793358817.7931683
+}

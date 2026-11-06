@@ -1,0 +1,14 @@
+{
+  "pid": 2582959,
+  "owner_uid": 1001,
+  "command": [
+    "/opt/magma-2.30-1/magma.exe",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_absolute_model_v3.m"
+  ],
+  "start_ticks": 219855222,
+  "signal": "SIGTERM",
+  "reason": "The explicit nonreducing relative Basis method has completed4of4 required tests in case1, and root will independently replay all24 in the relative model. Absolute conversion is no longer needed.",
+  "recorded_unix": 1793391666.0388968,
+  "not_a_certificate": true
+}

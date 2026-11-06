@@ -1,0 +1,65 @@
+\subsection{Excluding order $91$}
+\begin{proposition}\label{prop:nonic91-exclusion}
+An elliptic curve over a number field of degree $9$ has no point of order $91$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(91)$ and $J=J_1(91)$. A hypothetical point gives a noncuspidal closed point of exact degree $9$: degrees $1$ and $3$ are excluded by the known torsion classifications, see \cite{DEHMZ}. Write $D$ for its trace divisor. The genus is $265$ and
+\[
+ \operatorname{gon}_{\mathbb C}(X)\geq\frac{325\cdot4032}{32768}
+ =\frac{20475}{512}>36.
+\]
+The exact source winding calculation shows that the character of every winding-zero constituent is trivial on $3$. Consequently $(\langle3\rangle-1)J(\mathbb Q)$ is finite. This also holds for $h-1$, where $h=\langle27\rangle$ is an involution.
+
+We first exclude entirely cuspidal reduction at $2$. Every cusp is defined over a cyclotomic field of odd conductor dividing $91$, hence lifts over the maximal unramified extension of $\mathbb Q_2$. Choose a $\mathbb Q_2$-rational cuspidal divisor $C$ with $\overline C=\overline D$. Choose also a rational cusp $c_0$. The class
+\[
+ y=[hD-D-hC+C]\in J(\mathbb Q_2)
+\]
+is torsion: $(h-1)[D-9c_0]$ is rational torsion, and the remaining terms are cuspidal torsion. Its reduction is zero. The torsion kernel of reduction over the unramified field $\mathbb Q_2$ is killed by $2$, as in \cite[proof of Proposition~3.4]{DKSS}. Thus
+\[
+ 2hD+2C\sim2D+2hC.
+\]
+Both sides have degree $36$, below the geometric gonality; this bound is unchanged under algebraically closed characteristic-zero base extension. The divisors are equal. Separating cuspidal and noncuspidal support gives $hD=D$.
+
+The involution $h$ has no noncuspidal fixed point in characteristic zero. Indeed, a fixed point would give an elliptic automorphism $u$ with $uP=27P$, where $P$ has order $91$. Since $27^2=1\pmod {91}$, we would have $(u^2-1)P=0$. A nonzero endomorphism $u^2-1$ of this form has degree at most $4$, so it cannot kill $P$. Hence $u=\pm1$, contradicting $27\not\equiv\pm1\pmod {91}$. All noncuspidal $h$-orbits have length $2$, contrary to $\deg D=9$.
+
+Complete enumeration over $\mathbb F_{2^f}$, $6\leq f\leq9$, leaves only noncuspidal degrees $8$ and $9$; degrees at most $5$ are excluded by the Hasse bound. In degree $8$ there are exactly three closed points, all with $j=0$. They come from two twists over $\mathbb F_{256}$, each with cyclic group of order $273$. For each twist we enumerate all $36$ projective generators of its cyclic $91$-torsion. The exact modular-unit coordinates have degree $8$ and give precisely three Frobenius-invariant closed-point keys. The inverse unit formulas are regular at every retained point and recover its unique Tate normal form exactly, so these keys identify the actual smooth modular points. Multiplication by $27$ fixes every one of these keys.
+
+Suppose $\overline D=P_8+\overline c$, where $P_8$ is one of these degree-$8$ points and $c$ is a rational cusp. Then $[hD-D-hc+c]$ is rational torsion with zero reduction. Doubling it gives
+\[
+ 2hD+2c\sim2D+2hc.
+\]
+These divisors have degree $20$, so they are equal. It follows that $hc=c$. The cusp calculation shows that $h$ is free on the $36$ rational cusps. This excludes the degree-$8$ branch.
+
+We are left with ordinary degree-$9$ reduction. The eligible curves over $\mathbb F_{512}$ have $546$ points and trace $-33$; there are four closed $j$-orbits, all of degree $9$. Their rational $91$-torsion is cyclic. The $36$ projective generators therefore give four free diamond orbits of length $36$, consisting of $144$ closed points.
+
+Work on the point-level model and put $\sigma=\langle3\rangle^{-1}$, of order $6$, and $\tau=\langle3\rangle=\sigma^{-1}$. The class $[\sigma D-D]$ is rational torsion. The Fricke-transported point-level operator $A_3=T_3-\tau-3$ kills rational torsion: on the dual level model Eichler--Shimura gives $T_3^{\rm dual}-1-3d_3$, while the Weil pairing gives $F T_3^{\rm point}=d_3^{-1}T_3^{\rm dual}F$ and $F\tau=d_3^{-1}F$. Transporting and multiplying by $\tau$ gives the displayed operator. Thus, writing $P=\overline D$ and $T=T_3P$, we obtain the necessary principal divisor
+\[
+ B=\sigma T-T+2P+\tau P-3\sigma P.
+\]
+
+A saturated integral canonical basis gives $265$ expansions through $q^{1799}$, including all oldform degeneracies from levels $7$ and $13$. Its binary rank is $265$ through the weight-$2$ Sturm bound $672$. The standard units $x=f_7/f_8$, $y=f_8/f_9$ have pole degrees $106,110$, independently certified by Tate expansions at all $144$ geometric cusps. These units and their normal-form formulas are as in \cite[Sections~2 and~2.1]{DvH}. There are $160$ identities $B_i=xA_i$ and $156$ identities $D_j=yC_j$ between canonical linear forms. Their zero orders are at least $1798$, exceeding $528+106=634$ and $528+110=638$, so they hold globally.
+
+The expansions of the units use $E(q^{91})$ with Tate point $u=q$ and the dual-level canonical expansions. At each retained source and target the unit equations have rank $264$, recovering the actual canonical point. The canonical matrices for diamonds $2$ and $3$ have orders $12$ and $6$, with $M_2^6=M_3^3$, and generate the full group of order $36$. Their identification with point diamonds $2^{-1}$ and $3^{-1}$ is certified globally by substituting the Tate points $u=q^2,q^3$ into the inverse-transformed canonical forms and checking the unit equations beyond the section-degree bound.
+
+For each of the four source representatives all four cyclic $3$-kernels are enumerated and the actual point of order $91$ is transported. There are two closed targets of degree $9$ and one of degree $18$, each with norm multiplicity $1$. Independent Sage V\'elu isogenies rebuild all sixteen geometric transports with matching unit coordinates. The formal parameters come from genuine ordinary families
+\[
+ E_t:y^2+xy=x^3+a_2x^2+a_6+t.
+\]
+The standard characteristic-$2$ division recurrence gives $\psi_{91}$. Its $x$-derivative is nonzero at every retained level point, and Hensel lifting recovers that point through order $5$. The unit equations then recover the canonical jets. All elliptic equations, division recurrences, unit equations and nonzero canonical tangents are independently checked. Since $j=1/(a_6+t)$, this is a local parameter.
+
+We retain every simultaneous target diamond translate and both conventions
+\[
+ \begin{split}
+ B_1&=\sigma T-T+2P+\tau P-3\sigma P,\\
+ B_2&=\sigma T-T-\sigma P-2P+3\tau P.
+ \end{split}
+\]
+This gives $4\cdot36\cdot2=288$ tests including every necessary divisor. Coincident closed points are identified and their multiplicities are added first. Both positive and negative degrees are $63$, and the largest multiplicity is $3$.
+
+Put $R_i=H^0(X,iK_X)$. The $70225$ ordered products of the $265$ canonical forms span $R_2$, of dimension $792$. Their identities are verified using $1800$ terms, beyond the weight-$4$ Sturm bound $1344$. For each divisor $B=B^+-B^-$ choose nonzero $F,H\in R_1$ vanishing on $B^+$. If $f\in\mathcal L(B)$, then $G=fF$ vanishes on $B^-$ and satisfies $GH\in FR_1$. It is therefore enough to show injectivity of
+\[
+ R_1\longrightarrow H^0(B^-,K_X|_{B^-})\oplus R_2/FR_1,
+ \qquad G\longmapsto(G|_{B^-},GH\bmod FR_1).
+\]
+Multiplication by $F$ has rank $265$, giving quotient dimension $527$. Every resulting $265\times590$ matrix has rank $265$. All $288$ matrices and chosen sections are retained, reconstructed by a read-only replay, and independently checked with Sage's M4RI implementation. Thus no necessary divisor is principal, proving the proposition. All selected native producers finish with actual exit code $0$.
+\end{proof}

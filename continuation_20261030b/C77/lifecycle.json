@@ -1,0 +1,302 @@
+{
+  "status": "PASS",
+  "finished_utc": "2026-10-30T20:42:22.833368+00:00",
+  "owned_job_records": [
+    {
+      "purpose": "contb77_absolute_model",
+      "role": "retired obsolete preflight or fallback; not a certificate",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "pid": 2580923,
+      "owner_uid": 1001,
+      "start_time_unix": 1793391438.12672,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_absolute_model.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_absolute_model_v3",
+      "role": "retired obsolete preflight or fallback; not a certificate",
+      "state": "EXITED",
+      "actual_exit_code": -15,
+      "pid": 2582959,
+      "owner_uid": 1001,
+      "start_time_unix": 1793391534.837464,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_absolute_model_v3.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_census",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2536457,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389333.2705786,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_census.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_fi10",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2537632,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389389.0578442,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_fi10.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_fi_native_controls",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2557898,
+      "owner_uid": 1001,
+      "start_time_unix": 1793390346.6721332,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_fi_native_controls.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case1",
+      "role": "superseded serialization preflight; not a certificate",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "pid": 2542628,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389618.9676557,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_nc_case1.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case1_v2",
+      "role": "memory-capped default RR trial; not a certificate",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "pid": 2553758,
+      "owner_uid": 1001,
+      "start_time_unix": 1793390154.1792102,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_nc_case1_v2.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case1_v3",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2568938,
+      "owner_uid": 1001,
+      "start_time_unix": 1793390878.9620047,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_nc_case1_v3.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case2",
+      "role": "superseded serialization preflight; not a certificate",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "pid": 2542670,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389619.4420416,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_nc_case2.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case2_v2",
+      "role": "memory-capped default RR trial; not a certificate",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "pid": 2553772,
+      "owner_uid": 1001,
+      "start_time_unix": 1793390155.4207935,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_nc_case2_v2.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case2_v3",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2568891,
+      "owner_uid": 1001,
+      "start_time_unix": 1793390877.3001049,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_nc_case2_v3.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case3",
+      "role": "superseded serialization preflight; not a certificate",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "pid": 2542664,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389619.2953308,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_nc_case3.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case3_v2",
+      "role": "memory-capped default RR trial; not a certificate",
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "pid": 2553780,
+      "owner_uid": 1001,
+      "start_time_unix": 1793390155.4999278,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_nc_case3_v2.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_nc_case3_v3",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2568915,
+      "owner_uid": 1001,
+      "start_time_unix": 1793390878.0210238,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_nc_case3_v3.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_projection_data",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2546200,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389787.6109936,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_projection_data.m"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_sage_census",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2548441,
+      "owner_uid": 1001,
+      "start_time_unix": 1793389893.4813437,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_sage_census.py"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_sage_nc_case1",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2585243,
+      "owner_uid": 1001,
+      "start_time_unix": 1793391646.0269606,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_sage_nc_case1.py"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_sage_nc_case2",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2589872,
+      "owner_uid": 1001,
+      "start_time_unix": 1793391872.0211804,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_sage_nc_case2.py"
+      ],
+      "termination_reason": null
+    },
+    {
+      "purpose": "contb77_sage_nc_case3",
+      "role": "accepted",
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "pid": 2585194,
+      "owner_uid": 1001,
+      "start_time_unix": 1793391643.1203232,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_sage_nc_case3.py"
+      ],
+      "termination_reason": null
+    }
+  ],
+  "owned_status_count": 19,
+  "accepted_status_count": 11,
+  "all_owned_jobs_exited": true,
+  "active_owned_processes": [],
+  "paused_owned_workers": 0,
+  "automatic_launchers": 0,
+  "unregistered_failed_launcher": "absolute_model_v2_launcher_failure.json",
+  "absolute_fallback_retirements": [
+    "absolute_model_trial_retirement.json",
+    "absolute_fallback_retired.json"
+  ],
+  "parent_native_jobs_all_exited0": [
+    "contb77_parent_native",
+    "contb77_parent_moduli_binding"
+  ]
+}

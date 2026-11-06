@@ -1,0 +1,19 @@
+{
+  "purpose": "contc91_independent_CM_level7_binding",
+  "script": "computations/contc91_independent_CM_level7_binding.m",
+  "script_sha256": "72318b227a3114283efd0d5d57887c074d00d3d67d2682fd1297c44928eba910",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc91_independent_CM_level7_binding.m"
+  ],
+  "pid": 2744862,
+  "owner_uid": 1001,
+  "start_time_unix": 1793399270.9170945,
+  "state": "EXITED",
+  "time_limit_seconds": 60,
+  "log": "jobs/contc91_independent_CM_level7_binding.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.031899213790893555
+}

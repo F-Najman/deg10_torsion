@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_effective_cusp_p19_v3.m", line 18, column 27:
+>>   P:=ps[j];isc:=P in allc;assert not isc;vals:=[Evaluate(v,P):v in qt];qq,t
+                             ^
+Runtime error in assert: Assertion failed

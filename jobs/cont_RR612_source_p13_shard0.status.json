@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_RR612_source_p13_shard0",
+  "script": "computations/cont_RR612_source_p13_shard0.m",
+  "script_sha256": "98be425284ff18bc92a7ed4ddc1aa22039b49685c5600e2e04f875a3af690a3d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_RR612_source_p13_shard0.m"
+  ],
+  "pid": 458016,
+  "owner_uid": 1001,
+  "start_time_unix": 1793293996.3557742,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/cont_RR612_source_p13_shard0.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 600.464857339859
+}

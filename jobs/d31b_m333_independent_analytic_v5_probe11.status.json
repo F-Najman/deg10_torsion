@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m333_independent_analytic_v5_probe11",
+  "script": "computations/d31b_m333_independent_analytic_v5_probe11.py",
+  "script_sha256": "a16f26fbe42f8beaf19d4206ec26a733c7c83f612c04fc79896cf7d33d7550ac",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_independent_analytic_v5_probe11.py"
+  ],
+  "pid": 3667832,
+  "owner_uid": 1001,
+  "start_time_unix": 1793442290.3730288,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/d31b_m333_independent_analytic_v5_probe11.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 74.7133858203888
+}

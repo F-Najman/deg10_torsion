@@ -1,0 +1,60 @@
+{
+  "complete": true,
+  "finite_rational_image_index": 214272,
+  "cusp_complement_counts": [
+    1,
+    7,
+    27,
+    77,
+    181,
+    273,
+    279,
+    279
+  ],
+  "stages": [
+    {
+      "stage": "prefix",
+      "tested": 98,
+      "remaining": 1,
+      "images": 106,
+      "independent_velu2_images": 2
+    },
+    {
+      "stage": "tail",
+      "tested": 110,
+      "remaining": 0,
+      "images": 134,
+      "independent_velu2_images": 0
+    }
+  ],
+  "genus9_survivors": 208,
+  "tested": 208,
+  "remaining": [
+    [
+      2198,
+      [
+        [
+          8,
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            3,
+            0,
+            4,
+            2,
+            1,
+            0,
+            4,
+            0,
+            2,
+            1,
+            2
+          ]
+        ]
+      ]
+    ]
+  ]
+}

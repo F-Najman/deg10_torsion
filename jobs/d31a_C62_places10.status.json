@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C62_places10",
+  "script": "computations/d31a_C62_places10.m",
+  "script_sha256": "97aceb0dc1dcf9489562c33ef26f26fb3c10ca4e1e13a8c9dda939f72f1bb6ab",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C62_places10.m"
+  ],
+  "pid": 2788088,
+  "owner_uid": 1001,
+  "start_time_unix": 1793401287.400539,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/d31a_C62_places10.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 51.6944534778595
+}

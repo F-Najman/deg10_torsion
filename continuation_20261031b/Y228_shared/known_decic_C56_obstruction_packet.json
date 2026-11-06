@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "shared_Y228_orbit": 27,
+  "C56_original_case_ids": [
+    492,
+    737
+  ],
+  "global_lift_identified_by_rank0_and_gonality12": true,
+  "independent_finite_binding": true,
+  "four_marking_cosets_nonsquare": true,
+  "prime": 43,
+  "parent_review": "PASS",
+  "files_sha256": {
+    "continuation_20261031b/Y228_shared/known_decic_reduction_at3.m": "ce45789ef6f4aef6dbb357d0453efa6f1afb3e141d5505568691794e23151af5",
+    "continuation_20261031b/Y228_shared/known_decic_2descent.m": "092f649d76ee6ad12e5f226d155bfefa9ce91273ad71f8b83736c74b72cc5e68",
+    "continuation_20261031b/Y228_shared/known_decic_nonsquare_witnesses.json": "56228cf2c14e80018cfcb78d00df7823cfdf3d63b50876cbb2af4bc96c640d46",
+    "continuation_20261031b/Y228_shared/known_decic_binding_independent.json": "03274f1607782b0e635632b47a80a0dc634847494a59b2c87d452e1420509df8",
+    "continuation_20261031b/Y228_shared/known_decic_C56_obstruction.tex": "0fd131fce76b36508a695c35a095b3659eb65ac0fab33c7c74099c721a2f091f",
+    "continuation_20261031b/Y228_shared/union_cases.m": "5c15813adf5e6a987b47fcdf7ff561813adb4cbbf8343c035f8904b984072418",
+    "jobs/d31b_Y228_known_decic_reduction_v2.status.json": "46269c4ca511f752aaabe94900bc20cc65782c1d8e020361e6e5c6e0fcd9f22f",
+    "jobs/d31b_Y228_known_decic_reduction_v2.log": "b4eb99907032b435fe437e6628a534ef613d126b903bbdc3170247048a63bc74",
+    "computations/d31b_Y228_known_decic_reduction_v2.m": "7373c7bf28d8f14fbf0b3b6b387da3a8e72d19517b334f6618ee14f70bf9f8d7",
+    "jobs/d31b_Y228_known_decic_2descent.status.json": "78a9f1f435099172274c37b9079cbb5d21e636a3849aba80950df6f970db3b04",
+    "jobs/d31b_Y228_known_decic_2descent.log": "69e986469a1c13b78b8ce1507226edc529a8700818ab5f18cd673be6cce02059",
+    "computations/d31b_Y228_known_decic_2descent.m": "19c7b83851dd05a1919e94be9e25db3dd4c90573bec02dc76c7a78f45811fe40",
+    "jobs/d31b_Y228_known_decic_nonsquare.status.json": "4b77c9394dfd14f118bbe26bf1f9c5933c9fc20191360fce6cc0522344472e8b",
+    "jobs/d31b_Y228_known_decic_nonsquare.log": "b09e11d2fc0951d1dc86f9a056a168a886a6c8f5103c2b9e4e298677984bc044",
+    "computations/d31b_Y228_known_decic_nonsquare.py": "79043e35c6fe75857abf8275a5f6fd4a0c2699d3fe578430a8415f486eac503b",
+    "jobs/d31b_Y228_known_decic_binding_sage.status.json": "4624fc66365d50b3323db96d4927b96e50357d230706ba4543fd91b86928fe73",
+    "jobs/d31b_Y228_known_decic_binding_sage.log": "4ae83d31baf71b2c9fee442384d4bd241db5a6451ca14329f2b1d83b159852c3",
+    "computations/d31b_Y228_known_decic_binding_sage.py": "328838be89a8da92e3e7cae0fbd50912d61517f835130b132535c2938a293f46",
+    "computations/quintic_full2_28_v2.m": "428d9727e57d766ed559d85e03f210dcd0d617a6533850c4119c4e4106a291eb",
+    "jobs/quintic_full2_28_v2.log": "d1af89144826a8101926b19e3fd16aa16b6e50d9ec6751349cc2d93036bdf7c8",
+    "jobs/quintic_full2_28_v2.status.json": "116a73736f33cfe9cd61cec6266b0f00c4ba3b84c8baf24341e28b6d49d0548a"
+  }
+}

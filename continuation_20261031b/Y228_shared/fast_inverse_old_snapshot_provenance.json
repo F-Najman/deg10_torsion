@@ -1,0 +1,8 @@
+{
+  "old_case_source": "work/deg10/continuation_20261031b/Y228_shared/A5_v3_s1_progress.m",
+  "source_sha256_at_snapshot": "56a1548fbf75c65888993d4a0ad2b88a1330f890f9c2c4ddfbce3eb78ed741c1",
+  "case_id": 8,
+  "model_source": "work/deg10/continuation_20261031b/Y228_shared/model_v3_s1.m",
+  "model_sha256": "91e6b9ca353ec53aaa9ab8c3226d5cd39fac2a3571af7c6ba802712c3ffe65e9",
+  "scope": "completed case8 prefix, enclosing shared producer not promoted"
+}

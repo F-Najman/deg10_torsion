@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_parent_nf_reductions",
+  "script": "computations/d31b_m318_parent_nf_reductions.m",
+  "script_sha256": "a718ad795af09fcb2720c15de9bb11211b83eaef8423da4402f642423a5aa44d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_parent_nf_reductions.m"
+  ],
+  "pid": 3749934,
+  "owner_uid": 1001,
+  "start_time_unix": 1793445873.5628812,
+  "state": "EXITED",
+  "time_limit_seconds": 140,
+  "log": "jobs/d31b_m318_parent_nf_reductions.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.06404280662536621
+}

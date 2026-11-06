@@ -1,0 +1,19 @@
+{
+  "purpose": "winding1073",
+  "script": "computations/winding1073.m",
+  "script_sha256": "dcd9b6e81906782dcfa620c4e660a851598c5c78a301e990afc07d8946a517a7",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/winding1073.m"
+  ],
+  "pid": 9475,
+  "owner_uid": 1001,
+  "start_time_unix": 1793274658.1990938,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/winding1073.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 330.4522588253021
+}

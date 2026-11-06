@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C54_Y10_orders",
+  "script": "continuation_20261031b/C54/d31b_C54_Y10_orders.m",
+  "script_sha256": "87983e12310a23aef24b1be932320ae374a2ad8fad666d69059b0850740a6e62",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C54/d31b_C54_Y10_orders.m"
+  ],
+  "pid": 3549078,
+  "owner_uid": 1001,
+  "start_time_unix": 1793437180.1979153,
+  "state": "EXITED",
+  "time_limit_seconds": 130,
+  "log": "jobs/d31b_C54_Y10_orders.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.21404480934143066
+}

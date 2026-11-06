@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "level": 65,
+  "prime": 2,
+  "genus": 121,
+  "annihilating_differential_dimension": 106,
+  "rational_cusps": 24,
+  "quartic_cusps": 6,
+  "genuine_quartic_Tate_arc": true,
+  "all_normalized_configurations": 1521680,
+  "by_maximum_rational_multiplicity": [
+    {
+      "max_rational_multiplicity": 3,
+      "configurations": 1521680
+    }
+  ],
+  "all_FI_ranks_equal10": true
+}

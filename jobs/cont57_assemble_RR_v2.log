@@ -1,0 +1,9 @@
+C57_NECESSARY_RR_DIVISOR 10 1 positive_degree 110 signed_multiplicities [1, 4, -5, -1, 1, -1, 1]
+C57_NECESSARY_RR_DIVISOR 10 2 positive_degree 110 signed_multiplicities [1, 4, -5, -1, 1, -1, 1]
+C57_NECESSARY_RR_DIVISOR 10 3 positive_degree 110 signed_multiplicities [1, 4, -5, -1, 1, -1, 1]
+C57_NECESSARY_RR_DIVISOR 10 4 positive_degree 110 signed_multiplicities [1, 4, -5, -1, 1, -1, 1]
+C57_NECESSARY_RR_DIVISOR 10 5 positive_degree 110 signed_multiplicities [1, 4, -5, -1, 1, -1, 1]
+C57_NECESSARY_RR_DIVISOR 10 6 positive_degree 110 signed_multiplicities [1, 4, -5, -1, 1, -1, 1]
+C57_NECESSARY_RR_DIVISOR 10 7 positive_degree 110 signed_multiplicities [1, 4, -5, -1, 1, -1, 1]
+C57_NECESSARY_RR_DIVISOR 10 8 positive_degree 110 signed_multiplicities [1, 4, -5, -1, 1, -1, 1]
+C57_DECIC_NECESSARY_POINT_RR_DIVISORS_ASSEMBLED 8 56 seconds 10.48439292004332

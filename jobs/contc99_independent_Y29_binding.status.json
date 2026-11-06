@@ -1,0 +1,18 @@
+{
+  "purpose": "contc99_independent_Y29_binding",
+  "script": "computations/contc99_independent_Y29_binding.py",
+  "script_sha256": "98434cb931fdf22f7703f16716d2287ef6122d26c4ee6f0c29538df38a4163dc",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc99_independent_Y29_binding.py"
+  ],
+  "pid": 2757249,
+  "owner_uid": 1001,
+  "start_time_unix": 1793399831.0558634,
+  "state": "EXITED",
+  "time_limit_seconds": 60,
+  "log": "jobs/contc99_independent_Y29_binding.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.03186297416687012
+}

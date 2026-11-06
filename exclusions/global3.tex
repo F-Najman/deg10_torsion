@@ -1,0 +1,85 @@
+\begin{proposition}\label{prop:global3}
+No elliptic curve over a decic field has a point of any order listed
+in Table~\ref{tab:global3}.
+\end{proposition}
+\begin{proof}
+Write $I_N=[\operatorname{PSL}_2(\mathbb Z):\overline{\Gamma_1(N)}]$.
+The gonality bound of Abramovich with the Kim--Sarnak constant gives
+$\operatorname{gon}_{\mathbb C}X_1(N)>325I_N/32768$.
+The global Hecke criterion of \cite[Proposition~4.4]{DN}, at $q=3$,
+applies when $10k_3<325I_N/32768$.
+If $J_1(N)(\mathbb Q)$ is finite, take $k_3=4$; there is then no
+noncuspidal effective rational divisor of degree $10$.
+Otherwise take $k_3=7$ for $a=3$ or $3^{-1}$, and $k_3=8$ otherwise.
+
+For every remaining row we verify that
+$(\langle a\rangle-1)J_1(N)(\mathbb Q)$ is finite.
+The complete newform lists include every oldform multiplicity;
+every positive-rank character is trivial at $a$.
+Alternatively, the complete exact winding computation has the full
+genus as its weighted dimension sum, and every character component
+without a full winding submodule is trivial at $a$.
+Kato's theorem gives the required finiteness assertion.
+Full-rank modular Krylov matrices certify many winding components;
+partial Krylov spans are only diagnostics, and their characteristic-zero
+winding computations are used instead. The independent replay distinguishes
+these two cases.
+
+The table verifies the degree-$10$ inequality, excludes CM points,
+and gives diamond order not dividing $10$. A hypothetical trace divisor
+must be diamond invariant by the global criterion. Every diamond orbit
+in its non-CM support has the displayed length, which must divide $10$.
+This is a contradiction. Each inequality has been recomputed for degree
+$10$; no earlier-degree exclusion is transferred as such.
+\end{proof}
+\begin{longtable}{r|r|r|r|r|r}
+\caption{Global exclusions at $3$. At $N=119$ the full Jacobian has rank
+zero, and the orbit and CM columns are unnecessary.}\label{tab:global3}\\
+$N$&$a$&$\operatorname{ord}\langle a\rangle$&$k_3$&$I_N$&$d_{\rm CM}$\\\hline
+\endfirsthead
+$N$&$a$&$\operatorname{ord}\langle a\rangle$&$k_3$&$I_N$&$d_{\rm CM}$\\\hline
+\endhead
+119&3&48&4&6912&96\\
+125&3&50&7&7500&50\\
+133&27&3&8&8640&36\\
+143&67&12&8&10080&120\\
+145&3&14&7&10080&56\\
+161&3&66&7&12672&132\\
+169&3&39&7&14196&52\\
+175&18&12&8&14400&120\\
+185&2&18&8&16416&72\\
+187&122&16&8&17280&160\\
+203&6&7&8&20160&168\\
+209&34&18&8&21600&180\\
+217&3&15&7&23040&60\\
+221&3&48&7&24192&96\\
+247&12&3&8&30240&72\\
+253&3&55&7&31680&220\\
+259&3&9&7&32832&72\\
+289&3&136&7&41616&136\\
+299&3&33&7&44352&264\\
+319&3&140&7&50400&280\\
+323&101&18&8&51840&288\\
+361&3&171&7&64980&114\\
+377&5&28&8&70560&168\\
+391&3&176&7&76032&352\\
+407&10&6&8&82080&360\\
+437&3&198&7&95040&396\\
+481&3&18&7&114912&144\\
+493&3&112&7&120960&224\\
+527&3&240&7&138240&480\\
+529&3&253&7&139656&506\\
+551&12&12&8&151200&504\\
+589&3&45&7&172800&180\\
+629&6&16&8&196992&288\\
+667&3&308&7&221760&616\\
+703&3&9&7&246240&216\\
+713&2&55&8&253440&660\\
+841&12&58&8&353220&406\\
+851&3&198&7&361152&792\\
+899&3&420&7&403200&1680\\
+961&3&465&7&461280&310\\
+1073&3&252&7&574560&504\\
+1147&3&45&7&656640&360\\
+1369&6&74&8&936396&444\\
+\end{longtable}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS: C55 excluded over degree10 number fields",
+  "finished_utc": "2026-10-30T19:31:04.096377+00:00",
+  "source_genus": 81,
+  "source_projective_index": 1440,
+  "source_rank_Q": 0,
+  "source_closed_NC_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    20,
+    0,
+    40,
+    100
+  ],
+  "source_diamond_orbits_by_degree": {
+    "7": 1,
+    "9": 2,
+    "10": 5
+  },
+  "accepted_degree_independent_A3_tests_reused": 3,
+  "fresh_degree10_A3_tests": 5,
+  "all_fresh_h0": 0,
+  "independent_new_marked_cyclic3_kernels": 20,
+  "independent_norm_orbits": 12,
+  "source_model_absolute_degree_over_F2x": 37,
+  "source_prime_serialization": "TwoGenerators, with generated-ideal equality and exact function roundtrips",
+  "fresh_native_replayed_tests": 5,
+  "all_native_h0": 0,
+  "source_Q_2primary_invariants": [
+    2,
+    16
+  ],
+  "quotient_global_cusp_2primary_image_order": 32,
+  "quotient_degree": 5,
+  "full_source_torsion_reduction_at2_injective": true,
+  "source_global_and_F2_cusp_signature": {
+    "1": 20,
+    "4": 5,
+    "10": 2,
+    "20": 1
+  },
+  "every_source_cusp_globally_intact_at2": true,
+  "pure_cusp_proof": "Rational torsion reduction injectivity gives D~C; gonality>=14625/1024>10 forces D=C.",
+  "proof_scope": "Arbitrary rational effective degree10 divisors with entirely noncuspidal support; reducibility is allowed.",
+  "corroborating_cusp_calculation": {
+    "patterns": 382,
+    "Cartier_exceptions": 32,
+    "all_exception_h0": 1,
+    "remaining": 0,
+    "used_in_final_proof": false
+  }
+}

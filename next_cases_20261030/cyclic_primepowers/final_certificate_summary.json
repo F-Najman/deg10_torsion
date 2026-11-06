@@ -1,0 +1,287 @@
+{
+  "degree": 10,
+  "groups_excluded": [
+    "C49"
+  ],
+  "claim": "No elliptic curve over a degree10 number field has a point of order49",
+  "status": "COMPLETE; parent mathematical audit PASS",
+  "proof": "work/deg10/next_cases_20261030/cyclic_primepowers/resolution.tex",
+  "proof_dependencies": [
+    "work/deg10/next_cases_20261030/dyadic_formal_kernel.tex"
+  ],
+  "noncuspidal_reduction_counts": {
+    "degree9": {
+      "points": 42,
+      "diamond_orbits": 2
+    },
+    "degree10": {
+      "points": 126,
+      "diamond_orbits": 6
+    }
+  },
+  "Cartier_ranks": {
+    "old_selected18_checks": 2203209,
+    "seven_distinct_support_checks": 697680,
+    "sevenfold_base_cusp_checks": 6,
+    "total_checks": 2900895,
+    "all_rank": 10
+  },
+  "successful_jobs": [
+    {
+      "stem": "pp49_finite_sieve",
+      "marker": "DECIC_C49_GOOD_BRANCHES_COMPLETED",
+      "status": {
+        "purpose": "pp49_finite_sieve",
+        "script": "next_cases_20261030/cyclic_primepowers/pp49_finite_sieve.m",
+        "script_sha256": "7fbb4fc1b24b3c4adb6894cb8a5b3f7c26aac36c7fa4257c32f50d4513857742",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_primepowers/pp49_finite_sieve.m"
+        ],
+        "pid": 2072333,
+        "owner_uid": 1001,
+        "start_time_unix": 1793368376.2067606,
+        "state": "EXITED",
+        "time_limit_seconds": 600,
+        "log": "jobs/pp49_finite_sieve.log",
+        "actual_exit_code": 0,
+        "termination_reason": null,
+        "elapsed_seconds": 278.1045219898224
+      }
+    },
+    {
+      "stem": "pp49_finite_controls",
+      "marker": "DECIC_FINITE_AND_HECKE_CONTROLS_COMPLETE",
+      "status": {
+        "purpose": "pp49_finite_controls",
+        "script": "next_cases_20261030/cyclic_primepowers/pp49_finite_controls.m",
+        "script_sha256": "17b38ff2f0e1e4f117a2e7bdcc2e3ac99b3a35ba99d630794d2dbce796ce5aae",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_primepowers/pp49_finite_controls.m"
+        ],
+        "pid": 2079167,
+        "owner_uid": 1001,
+        "start_time_unix": 1793368697.6331594,
+        "state": "EXITED",
+        "time_limit_seconds": 600,
+        "log": "jobs/pp49_finite_controls.log",
+        "actual_exit_code": 0,
+        "termination_reason": null,
+        "elapsed_seconds": 1.716675043106079
+      }
+    },
+    {
+      "stem": "pp49_replay_old_jets_degree10",
+      "marker": "DECIC_C49_OLD_JETS_DEGREE10_REPLAY_COMPLETE",
+      "status": {
+        "purpose": "pp49_replay_old_jets_degree10",
+        "script": "next_cases_20261030/cyclic_primepowers/pp49_replay_old_jets_degree10.py",
+        "script_sha256": "e3359c1d638cedb2c142bfb2bd0314bfd52e9aebb2bc351e90c5a1d93490156f",
+        "command": [
+          "/opt/sage/envs/sage/bin/python3",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_primepowers/pp49_replay_old_jets_degree10.py"
+        ],
+        "pid": 2103857,
+        "owner_uid": 1001,
+        "start_time_unix": 1793369837.8680491,
+        "state": "EXITED",
+        "time_limit_seconds": 60,
+        "log": "jobs/pp49_replay_old_jets_degree10.log",
+        "actual_exit_code": 0,
+        "termination_reason": null,
+        "elapsed_seconds": 2.221132278442383
+      }
+    },
+    {
+      "stem": "pp49_native_matrix_replay",
+      "marker": "DECIC_C49_CARTIER_TRANSPORT_REPLAY_COMPLETE",
+      "status": {
+        "purpose": "pp49_native_matrix_replay",
+        "script": "next_cases_20261030/cyclic_primepowers/pp49_native_matrix_replay.py",
+        "script_sha256": "fd6ef46daeed0b51d2dde9cbc4983d84672331c11709d29ec7329c38ca2f08a9",
+        "command": [
+          "/opt/sage/envs/sage/bin/python3",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_primepowers/pp49_native_matrix_replay.py"
+        ],
+        "pid": 2115914,
+        "owner_uid": 1001,
+        "start_time_unix": 1793370404.2169452,
+        "state": "EXITED",
+        "time_limit_seconds": 60,
+        "log": "jobs/pp49_native_matrix_replay.log",
+        "actual_exit_code": 0,
+        "termination_reason": null,
+        "elapsed_seconds": 1.5673325061798096
+      }
+    }
+  ],
+  "terminated_jobs_with_explicit_scopes": [
+    {
+      "stem": "pp49_fast_cartier_export",
+      "whole_job_is_complete_certificate": false,
+      "accepted_completed_subcalculation": "only the completed order-seven first-rational-cusp block and basis alignment data; the full export is not a completed certificate",
+      "marker": "DECIC_C49_FAST_CARTIER_JET_DONE i=1 ",
+      "status": {
+        "purpose": "pp49_fast_cartier_export",
+        "script": "next_cases_20261030/cyclic_primepowers/pp49_fast_cartier_export.m",
+        "script_sha256": "84d7fb2ab5b39656d7688420caf4acd8b9e1d64f495d30fd9fb201ad4a1cd239",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_primepowers/pp49_fast_cartier_export.m"
+        ],
+        "pid": 2082910,
+        "owner_uid": 1001,
+        "start_time_unix": 1793368864.2537482,
+        "state": "EXITED",
+        "time_limit_seconds": 600,
+        "log": "jobs/pp49_fast_cartier_export.log",
+        "actual_exit_code": -15,
+        "termination_reason": "time limit; computation is not a completed certificate",
+        "elapsed_seconds": 600.1142256259918
+      }
+    },
+    {
+      "stem": "pp49_completion_control",
+      "whole_job_is_complete_certificate": false,
+      "accepted_completed_subcalculation": "only the completed seven rational restriction-kernel comparisons with native Completion; the cubic and combined checks did not complete",
+      "marker": "DECIC_C49_COMPLETION_RATIONAL_ALL_SEVEN_KERNELS_AGREE",
+      "status": {
+        "purpose": "pp49_completion_control",
+        "script": "next_cases_20261030/cyclic_primepowers/pp49_completion_control.m",
+        "script_sha256": "76b5763dbf47db82735917e52bd9ae698b594a1a64014f9be458e78cc712165d",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_primepowers/pp49_completion_control.m"
+        ],
+        "pid": 2093434,
+        "owner_uid": 1001,
+        "start_time_unix": 1793369351.2215898,
+        "state": "EXITED",
+        "time_limit_seconds": 600,
+        "log": "jobs/pp49_completion_control.log",
+        "actual_exit_code": -15,
+        "termination_reason": "time limit; computation is not a completed certificate",
+        "elapsed_seconds": 600.1648869514465
+      }
+    },
+    {
+      "stem": "pp49_cusp_permutation",
+      "whole_job_is_complete_certificate": false,
+      "accepted_completed_subcalculation": "no output used",
+      "marker": null,
+      "status": {
+        "purpose": "pp49_cusp_permutation",
+        "script": "next_cases_20261030/cyclic_primepowers/pp49_cusp_permutation.m",
+        "script_sha256": "13dcd64ec12a5399d171a358a37c6b3283a800953290a1c489d04e6731b32f79",
+        "command": [
+          "/usr/local/bin/magma",
+          "-b",
+          "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_primepowers/pp49_cusp_permutation.m"
+        ],
+        "pid": 2101887,
+        "owner_uid": 1001,
+        "start_time_unix": 1793369747.3732836,
+        "state": "EXITED",
+        "time_limit_seconds": 300,
+        "log": "jobs/pp49_cusp_permutation.log",
+        "actual_exit_code": -15,
+        "termination_reason": "time limit; computation is not a completed certificate",
+        "elapsed_seconds": 300.11538529396057
+      }
+    }
+  ],
+  "completed_old_native_matrix_subcalculation": {
+    "source_job_is_complete_certificate": false,
+    "source_native_exit_code": 1,
+    "later_failure": "heterogeneous matrix-sequence concatenation after matrix export",
+    "accepted_completed_subcalculation": "all69 actual differential pullbacks via dg(w/du)*d(dg(u)), exact coordinates via the inverse native differential map, followed by order21/Cartier/U checks and export",
+    "basis_invariance_verified": "the exported diamond equals an explicit polynomial in the common cyclic Cartier matrix",
+    "actual_source_formula": "MD:=Matrix(GF(2),[Eltseq((dg(w/eta)*deta)@@om):w in B])"
+  },
+  "lifecycle": {
+    "all_new_C49_jobs_exited": true,
+    "new_job_count": 7,
+    "successful_jobs": [
+      "pp49_finite_sieve",
+      "pp49_finite_controls",
+      "pp49_replay_old_jets_degree10",
+      "pp49_native_matrix_replay"
+    ],
+    "terminated_jobs": [
+      "pp49_fast_cartier_export",
+      "pp49_completion_control",
+      "pp49_cusp_permutation"
+    ],
+    "active_workers_supervisors_launchers": [],
+    "paused_workers": [],
+    "automatic_launchers_created": false,
+    "no_new_C49_job_is_to_be_restarted_without_a_new_purpose": true
+  },
+  "file_hashes": {
+    "work/deg10/jobs/pp49_completion_control.log": "bc3e43c78722193462172d84cdce19079a0e0b7405a0a29994b6f87dc8f4746f",
+    "work/deg10/jobs/pp49_completion_control.status.json": "6aca70e678839c6498f8c88ef626a9bf38b0d0360fac0f540aadd16277190473",
+    "work/deg10/jobs/pp49_cusp_permutation.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "work/deg10/jobs/pp49_cusp_permutation.status.json": "5f5cfe0d9d44479c0bb86b6ca7c0520614adac7dd62a39b11b2ce74d04d6545b",
+    "work/deg10/jobs/pp49_fast_cartier_export.log": "5d96421ba1a7e246cedaae00316b5244ba08b55bdf1e3c9783fb4d496f3634dc",
+    "work/deg10/jobs/pp49_fast_cartier_export.status.json": "85142c87e6fa88eb7d30741946436221a4af28d78f83bf55d6124e37cf0754ef",
+    "work/deg10/jobs/pp49_finite_controls.log": "69186d5eca1dbb79daaf483c34ab85c3e72f1f3a9e16afa49218af7c8d94f0a8",
+    "work/deg10/jobs/pp49_finite_controls.status.json": "1f58fb6c1b8e55e3dbfd9f7665d90c8ce93f48f4ae3e9cd2b133d6795406697f",
+    "work/deg10/jobs/pp49_finite_sieve.log": "9063d81ce4996ac59ed1d76dbbf3f9e087c884c2b103074d7af18fa4fd73598a",
+    "work/deg10/jobs/pp49_finite_sieve.status.json": "42d56365b216f6282f080829fad633c6cbde3818aa476236e2735ab00dc99895",
+    "work/deg10/jobs/pp49_native_matrix_replay.log": "2722377587a105c098b2bed02867967a7382ddac9ebedbd00dde87118d950bc2",
+    "work/deg10/jobs/pp49_native_matrix_replay.status.json": "875a6ec6e02f00c08da0f978bce83091467203f0614dd64f117b6cc3479a5292",
+    "work/deg10/jobs/pp49_replay_old_jets_degree10.log": "9bd453872e77a8798cd60065088daeb7a5ea7bd2664728308f0060c2660161af",
+    "work/deg10/jobs/pp49_replay_old_jets_degree10.status.json": "ce91be07a42bee027d575f3ecdf313ff8517926ae2e337ce267fb3562afbb74b",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/assessment.json": "44920cff5996736c08496fbd607c140d19f6ee6a2203fb513e6287a8fe5b5572",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/c49_cartier_transport_verified.json": "281809e9e00416ca452c7586790be1923c132665aff6b98422d1f82ff83e0012",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/c49_cusp_arithmetic_verified.json": "ab94dac436129f69419b241ffc37ff12a8420d3e2a90211a17620239302032e6",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/c49_fast_cartier_jets.m": "9fb060bb3249ed2a2c7698d1ce03a0856355c4bcc985bbc1fbad14ea08529e68",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/c49_finite_inputs.m": "152a6c9806c0f5639e384db288270f3c5cbb6f823bf7fa01b9089248ce05cd06",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/c49_old_jets_degree10_verified.json": "f371822b4b0dda9ea163a069797c3389cabc98534051144cf477e24f2bbdfcea",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/c49_recovered_diamond_matrix.json": "625c2668435db4b233582f4fdddaf2d600436744411d23be67caa27215600fe0",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/certify_c49.py": "c7ee85c566aec430caaf4fcff8a8441c8f723b786a9c48b4e1a4abbabce19639",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/deps/DT_GPL3_LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/deps/criterion_input.tex": "af67e7b286e74dc03c4f7b65267bc2e147d8742fd4e3bee32518a826098e0a67",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/deps/dt_expansions_local.m": "19efb89f63a7cb46a10d8497915d942263fa89b3a7b2513c7ea17f9095742309",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/deps/fast_hecke.m": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/deps/fast_hecke.sig": "7825d52342582741eab41d5e414b493948013f3f212f81144c26a0eddca0dfd0",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/dyadic_cartier_criterion.tex": "14137bf8056516ec8d66f5dc2cadbc2b8c5101241ba99c90c30419485e1f8d4c",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/lifecycle_final.json": "5c4437324ffbedbfa52366caf029cf3b2bee6091bd4d5e7076e22f152eedd5a9",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_cartier_export.m": "de9f52abed05660f5497cba06dd3f8607baa99521eafbb89da07882d8dc445d4",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_cartier_transport_replay.py": "1a3efa7c069b4f875ebf8631e3e833dff051b3ed9c38c650d8ae09b70032596e",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_completion_control.m": "76b5763dbf47db82735917e52bd9ae698b594a1a64014f9be458e78cc712165d",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_cusp_arithmetic.py": "c643467e2b18bcdb2ef47390b6669bcf16c0b1486009596953316777c5424c91",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_cusp_permutation.m": "13dcd64ec12a5399d171a358a37c6b3283a800953290a1c489d04e6731b32f79",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_fast_cartier_export.m": "84d7fb2ab5b39656d7688420caf4acd8b9e1d64f495d30fd9fb201ad4a1cd239",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_finite_controls.m": "17b38ff2f0e1e4f117a2e7bdcc2e3ac99b3a35ba99d630794d2dbce796ce5aae",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_finite_controls_body.m": "d1d4fb8f5746ecd9c1143ce439c515b794d4b5b88d536ee99769095850c7e700",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_finite_sieve.m": "7fbb4fc1b24b3c4adb6894cb8a5b3f7c26aac36c7fa4257c32f50d4513857742",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_native_RR_control.m": "84b139c4d80ada6792a13afce05d80c53c93c6af6a615cdcdb2d4e2e6fc9e89a",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_native_matrix_replay.py": "fd6ef46daeed0b51d2dde9cbc4983d84672331c11709d29ec7329c38ca2f08a9",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_replay_cartier.py": "1a83e7ba4e02f6ef4098eb71bd281fe66c6f7f739875807a9d230240cfd798dc",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_replay_fast_jets.py": "a98528021e9829c9ad125ef637483f312059269b392b2f684506d548baa74e0c",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/pp49_replay_old_jets_degree10.py": "e3359c1d638cedb2c142bfb2bd0314bfd52e9aebb2bc351e90c5a1d93490156f",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/preparation_manifest.json": "24768a371070effa4f962318de7f4e6e989f8810976de46e218c5e155334b397",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/resolution.tex": "3ace609a833b9c7f8aaf646a8e795d4136c35b397ceec10a6c6a154c760b067b",
+    "work/deg10/next_cases_20261030/cyclic_primepowers/resolution_draft.tex": "197e86d10c6d9b3e909245f03f164e3ba20d314aae88f8a7fd3d86d2dc424366",
+    "work/deg10/next_cases_20261030/dyadic_formal_kernel.tex": "a3cdae435898f20cbcd29a709799e8cd8a54890c1e91388b563e0e13e05a9c4b",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_export.exit.json": "abe9346353683c8af5a5dc57d26d52524a1a8fb4e1812de3d85e70f20c8cfd84",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_export.log": "8de5bdfd1923371dac524d5fed81e8d755f33252cb11f1980baaed82685bcb1d",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_export.m": "1e93f1a218280649b0e0e6dc382c03935241f20a640eea8991e1c4ad1b7b574b",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_export.status.json": "abe9346353683c8af5a5dc57d26d52524a1a8fb4e1812de3d85e70f20c8cfd84",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_mixed9_jets.m": "8eb9eff4283c65c0389512c5800b59b509198e7475932d79bfb3e147c0740147",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_export.exit.json": "65d82fdef544ed45bf346e864d4c8e32a9ec65db6cd3d44a4bf59353cc3c351c",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_export.log": "1532c254c185bca2d1f395c70c14538c4e0651ee3dba0a852395e8a01e207da5",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_export.m": "6142619439f1f8cfec5366e720481a1188cfac19d9011a6ef2dfb83338e53276",
+    "work/degree9/prime_orders/continued_20261026/P49/cartier_transport_jets.m": "f0b6689a6996b901c4fba53de3a12503e153e55717347a1f51d56dbed5bcd382",
+    "work/degree9/prime_orders/continued_20261026/P49/mixed9_RR_control.log": "ed9c62d3623d268036a58b39852da4d6384049cf893df2047e578c34e57f0892",
+    "work/degree9/prime_orders/continued_20261026/P49/mixed9_RR_control.m": "3fbd740ceaed66c219ecfc5dcb6a8e05fd245c8f75d60eb4149bf029b0374195",
+    "work/degree9/prime_orders/continued_20261026/P49/refs/DEHMZ_source.tex": "84b0eb2aa420a9e27e01d54772d1d2f2e61b06ea233a4489fd7f67a787a2f59d"
+  },
+  "C81": "NOT EXCLUDED; rank0 and rational2torsion0 known, but the previous Hecke argument needs gonality>30 and the verified analytic bound is only236925/8192"
+}

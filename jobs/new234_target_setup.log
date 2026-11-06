@@ -1,0 +1,9 @@
+Loading "work/deg10/C234_resolution_20261030/deps/native_group_generators.m"
+Loading "work/deg10/C234_resolution_20261030/deps/class_group_direct_RR_checked_v4_fastfb.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/new234_target_setup.m", line 4, column 96:
+>> =Cusps(X);os:=CuspOrbitsQ(X);c0:=Support([o:o in os|Degree(o) eq 1][1])[1];
+                                           ^
+Runtime error in 'Support': Bad argument types
+Argument types given: PlcCrvElt
+

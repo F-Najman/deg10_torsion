@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m333_parent_native",
+  "script": "computations/d31b_m333_parent_native.m",
+  "script_sha256": "669ce5fa9bb26c21ff2516a430c82c3f429ff3ebd1f94ee4fbbe7f41a55bec49",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_parent_native.m"
+  ],
+  "pid": 3551353,
+  "owner_uid": 1001,
+  "start_time_unix": 1793437285.8652883,
+  "state": "EXITED",
+  "time_limit_seconds": 860,
+  "log": "jobs/d31b_m333_parent_native.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 5.320536136627197
+}

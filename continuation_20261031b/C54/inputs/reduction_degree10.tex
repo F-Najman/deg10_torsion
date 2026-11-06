@@ -1,0 +1,46 @@
+\begin{lemma}\label{lem:decic54-good-ordinary2}
+If $E/K$ has a point of order $54$ and $[K:\mathbb Q]=10$,
+then $E$ has good ordinary reduction at some prime above $2$.
+At every good prime above $2$ the ramification index is $1$ and
+the residue degree is between $6$ and $10$.
+\end{lemma}
+\begin{proof}
+The rational Jacobian $J_1(54)(\mathbb Q)$ has rank zero
+\cite[Theorem~3.1(2)]{DEHMZ}. Its rational cuspidal subgroup has
+invariants $[3,3,3,9,9,1102437,1529080119]$ and index dividing $3$
+\cite[Theorem~4.13 and Table~2]{DEHMZ}; hence the whole group has
+odd order.
+At $2$, the regular semistable model consists of two copies of
+$X_1(27)_{\mathbb F_2}$, with completed strict local equations
+$xy-2$. The auxiliary $27$-structure removes automorphisms.
+The cuspidal boundary is smooth and finite etale, with the same
+$60$ geometric points in the generic and special fibres.
+Its global cusp signature is $1^{18}2^6 6^2 9^2$.
+Since $2$ generates $(\mathbb Z/27\mathbb Z)^\times$, all its
+closed special cusp orbits lift to rational cuspidal divisors of
+the same degrees.
+
+Suppose that every prime above $2$ were bad. The point of order
+$27$ excludes additive reduction. The degree-$10$ trace divisor
+$D$ on $X_1(54)$ would therefore specialize to the smooth cuspidal
+boundary. Lift it to a rational cusp divisor $C$ of degree $10$.
+The Abel map on the smooth locus extends to the Neron model,
+and $[D-C]$ reduces to zero in its entire special fibre.
+That kernel is pro-$2$, whereas $J_1(54)(\mathbb Q)$ has odd order.
+Thus $D\sim C$, contradicting Lemma~\ref{lem:decic54-gonality}.
+
+At a good prime the point of order $27$ survives. The exact
+noncuspidal closed-place counts on $X_1(27)_{\mathbb F_2}$ vanish
+through degree $5$, so its residue degree $f$ is at least $6$.
+From $ef\leq10$ we obtain $e=1$.
+If the reduction were supersingular, a rational point of order
+$2$ would lie in the formal group. In an integral Weierstrass
+model $a_1$ is even, and
+\[
+ [2](T)=2T-a_1T^2+O(T^3).
+\]
+For a nonzero $T$ over an unramified $2$-adic field,
+$v_2(T)\geq1$. The first displayed term has strictly smaller
+valuation than every other term, so $[2](T)\ne0$.
+This contradiction proves ordinarity.
+\end{proof}

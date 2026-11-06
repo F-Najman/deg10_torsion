@@ -1,0 +1,359 @@
+Loading "work/deg10/continuation_20261031b/M4N28/inputs/portable_forward.m"
+Loading "work/deg10/continuation_20261031b/M4N28/inputs/pair_af_place_linear.m"
+D31B_M428_FOURMAP_GROUP_READY [ 4, 4, 24, 936, 0 ]
+[ 2, 4, 12, 936 ]
+[ 1, 1, 1, 3, 3, 3 ]
+0.500
+D31B_M428_Y_FOURMAP_CASE 5 1 1 [ true, false, false, false ]
+8.780
+D31B_M428_Y_FOURMAP_CASE 5 2 2 [ false, false, true, true ]
+8.800
+D31B_M428_Y_FOURMAP_DEGREE 5 48 2 2 8.800
+D31B_M428_Y_FOURMAP_CASE 6 3 3 [ true, false, true, true ]
+9.610
+D31B_M428_Y_FOURMAP_CASE 6 4 4 [ true, false, false, false ]
+9.630
+D31B_M428_Y_FOURMAP_CASE 6 5 5 [ true, true, false, true ]
+9.640
+D31B_M428_Y_FOURMAP_DEGREE 6 64 5 3 9.640
+D31B_M428_Y_FOURMAP_CASE 8 2 6 [ false, false, false, false ]
+15.500
+D31B_M428_Y_FOURMAP_CASE 8 7 7 [ false, false, false, false ]
+15.680
+D31B_M428_Y_FOURMAP_CASE 8 11 8 [ false, false, true, false ]
+15.790
+D31B_M428_Y_FOURMAP_CASE 8 13 9 [ false, false, false, false ]
+15.930
+D31B_M428_Y_FOURMAP_CASE 8 16 10 [ false, true, false, false ]
+16.080
+D31B_M428_Y_FOURMAP_CASE 8 19 11 [ false, false, true, false ]
+16.220
+D31B_M428_Y_FOURMAP_CASE 8 20 12 [ false, false, true, false ]
+16.390
+D31B_M428_Y_FOURMAP_CASE 8 24 13 [ true, true, true, true ]
+16.510
+D31B_M428_Y_FOURMAP_CASE 8 26 14 [ false, false, true, true ]
+16.590
+D31B_M428_Y_FOURMAP_CASE 8 28 15 [ true, true, true, true ]
+16.730
+D31B_M428_Y_FOURMAP_CASE 8 29 16 [ true, true, true, true ]
+16.800
+D31B_M428_Y_FOURMAP_DEGREE 8 606 29 11 16.800
+D31B_M428_Y_FOURMAP_CASE 10 5 17 [ false, false, true, false ]
+74.850
+D31B_M428_Y_FOURMAP_CASE 10 7 18 [ false, true, false, false ]
+75.050
+D31B_M428_Y_FOURMAP_CASE 10 9 19 [ false, false, true, false ]
+75.220
+D31B_M428_Y_FOURMAP_CASE 10 10 20 [ true, false, false, false ]
+75.440
+D31B_M428_Y_FOURMAP_CASE 10 13 21 [ false, false, false, false ]
+75.600
+D31B_M428_Y_FOURMAP_CASE 10 14 22 [ false, false, false, true ]
+75.770
+D31B_M428_Y_FOURMAP_CASE 10 16 23 [ false, false, true, false ]
+75.930
+D31B_M428_Y_FOURMAP_CASE 10 19 24 [ false, false, true, false ]
+76.090
+D31B_M428_Y_FOURMAP_CASE 10 21 25 [ false, false, true, true ]
+76.260
+D31B_M428_Y_FOURMAP_CASE 10 22 26 [ false, false, false, false ]
+76.440
+D31B_M428_Y_FOURMAP_CASE 10 25 27 [ false, false, false, true ]
+76.530
+D31B_M428_Y_FOURMAP_CASE 10 27 28 [ false, false, false, false ]
+76.730
+D31B_M428_Y_FOURMAP_CASE 10 28 29 [ false, false, false, false ]
+76.880
+D31B_M428_Y_FOURMAP_CASE 10 30 30 [ false, false, false, false ]
+77.040
+D31B_M428_Y_FOURMAP_CASE 10 32 31 [ false, false, false, true ]
+77.240
+D31B_M428_Y_FOURMAP_CASE 10 35 32 [ false, true, false, false ]
+77.430
+D31B_M428_Y_FOURMAP_CASE 10 36 33 [ false, false, false, false ]
+77.600
+D31B_M428_Y_FOURMAP_CASE 10 37 34 [ true, false, false, false ]
+77.790
+D31B_M428_Y_FOURMAP_CASE 10 38 35 [ true, false, false, false ]
+77.960
+D31B_M428_Y_FOURMAP_CASE 10 41 36 [ true, true, true, true ]
+78.110
+D31B_M428_Y_FOURMAP_CASE 10 44 37 [ false, true, false, false ]
+78.320
+D31B_M428_Y_FOURMAP_CASE 10 47 38 [ true, false, false, false ]
+78.490
+D31B_M428_Y_FOURMAP_CASE 10 48 39 [ false, false, false, false ]
+78.680
+D31B_M428_Y_FOURMAP_CASE 10 50 40 [ false, false, false, false ]
+78.870
+D31B_M428_Y_FOURMAP_CASE 10 51 41 [ false, false, false, false ]
+79.050
+D31B_M428_Y_FOURMAP_CASE 10 53 42 [ false, false, false, false ]
+79.230
+D31B_M428_Y_FOURMAP_CASE 10 54 43 [ false, false, false, false ]
+79.410
+D31B_M428_Y_FOURMAP_CASE 10 55 44 [ false, false, true, true ]
+79.600
+D31B_M428_Y_FOURMAP_CASE 10 57 45 [ false, false, true, true ]
+79.780
+D31B_M428_Y_FOURMAP_CASE 10 58 46 [ true, false, false, false ]
+79.940
+D31B_M428_Y_FOURMAP_CASE 10 60 47 [ false, false, true, false ]
+80.100
+D31B_M428_Y_FOURMAP_CASE 10 62 48 [ false, true, false, false ]
+80.300
+D31B_M428_Y_FOURMAP_CASE 10 64 49 [ false, true, false, false ]
+80.390
+D31B_M428_Y_FOURMAP_CASE 10 65 50 [ false, false, false, true ]
+80.590
+D31B_M428_Y_FOURMAP_CASE 10 66 51 [ true, true, true, true ]
+80.780
+D31B_M428_Y_FOURMAP_CASE 10 69 52 [ false, false, true, false ]
+80.960
+D31B_M428_Y_FOURMAP_CASE 10 70 53 [ false, false, false, true ]
+81.160
+D31B_M428_Y_FOURMAP_CASE 10 71 54 [ false, false, true, true ]
+81.330
+D31B_M428_Y_FOURMAP_CASE 10 72 55 [ false, false, false, true ]
+81.510
+D31B_M428_Y_FOURMAP_CASE 10 74 56 [ false, false, true, false ]
+81.670
+D31B_M428_Y_FOURMAP_CASE 10 76 57 [ true, true, true, true ]
+81.830
+D31B_M428_Y_FOURMAP_CASE 10 79 58 [ true, true, true, true ]
+81.910
+D31B_M428_Y_FOURMAP_CASE 10 81 59 [ false, false, false, true ]
+82.080
+D31B_M428_Y_FOURMAP_CASE 10 82 60 [ false, true, false, false ]
+82.230
+D31B_M428_Y_FOURMAP_CASE 10 85 61 [ false, false, false, false ]
+82.400
+D31B_M428_Y_FOURMAP_CASE 10 87 62 [ false, false, false, true ]
+82.550
+D31B_M428_Y_FOURMAP_CASE 10 90 63 [ true, true, true, true ]
+82.720
+D31B_M428_Y_FOURMAP_CASE 10 91 64 [ false, false, false, true ]
+82.900
+D31B_M428_Y_FOURMAP_CASE 10 92 65 [ false, true, false, false ]
+83.100
+D31B_M428_Y_FOURMAP_CASE 10 93 66 [ false, false, false, false ]
+83.270
+D31B_M428_Y_FOURMAP_CASE 10 94 67 [ false, false, false, false ]
+83.460
+D31B_M428_Y_FOURMAP_CASE 10 98 68 [ false, true, false, false ]
+83.650
+D31B_M428_Y_FOURMAP_CASE 10 100 69 [ false, false, false, false ]
+83.840
+D31B_M428_Y_FOURMAP_CASE 10 101 70 [ false, false, true, false ]
+83.970
+D31B_M428_Y_FOURMAP_CASE 10 103 71 [ false, false, false, false ]
+84.170
+D31B_M428_Y_FOURMAP_CASE 10 106 72 [ true, false, false, false ]
+84.370
+D31B_M428_Y_FOURMAP_CASE 10 107 73 [ true, true, true, true ]
+84.540
+D31B_M428_Y_FOURMAP_CASE 10 108 74 [ false, false, false, false ]
+84.730
+D31B_M428_Y_FOURMAP_CASE 10 109 75 [ true, true, true, true ]
+84.840
+D31B_M428_Y_FOURMAP_CASE 10 110 76 [ false, true, false, false ]
+85.030
+D31B_M428_Y_FOURMAP_CASE 10 111 77 [ false, false, true, true ]
+85.230
+D31B_M428_Y_FOURMAP_CASE 10 113 78 [ false, false, true, true ]
+85.420
+D31B_M428_Y_FOURMAP_CASE 10 114 79 [ false, true, false, false ]
+85.570
+D31B_M428_Y_FOURMAP_CASE 10 116 80 [ false, true, false, false ]
+85.730
+D31B_M428_Y_FOURMAP_CASE 10 118 81 [ true, false, false, false ]
+85.890
+D31B_M428_Y_FOURMAP_CASE 10 119 82 [ false, false, true, false ]
+86.040
+D31B_M428_Y_FOURMAP_CASE 10 120 83 [ false, false, false, false ]
+86.200
+D31B_M428_Y_FOURMAP_CASE 10 122 84 [ true, false, false, false ]
+86.370
+D31B_M428_Y_FOURMAP_CASE 10 124 85 [ false, false, false, true ]
+86.540
+D31B_M428_Y_FOURMAP_CASE 10 126 86 [ false, false, false, true ]
+86.700
+D31B_M428_Y_FOURMAP_CASE 10 128 87 [ false, true, false, false ]
+86.880
+D31B_M428_Y_FOURMAP_CASE 10 131 88 [ false, false, false, false ]
+87.000
+D31B_M428_Y_FOURMAP_CASE 10 133 89 [ false, false, true, true ]
+87.160
+D31B_M428_Y_FOURMAP_CASE 10 135 90 [ true, false, false, false ]
+87.330
+D31B_M428_Y_FOURMAP_CASE 10 137 91 [ false, false, false, false ]
+87.510
+D31B_M428_Y_FOURMAP_CASE 10 138 92 [ true, false, false, false ]
+87.700
+D31B_M428_Y_FOURMAP_CASE 10 141 93 [ false, true, false, false ]
+87.880
+D31B_M428_Y_FOURMAP_CASE 10 142 94 [ false, false, false, false ]
+88.050
+D31B_M428_Y_FOURMAP_CASE 10 143 95 [ true, false, false, false ]
+88.260
+D31B_M428_Y_FOURMAP_CASE 10 144 96 [ false, false, false, false ]
+88.420
+D31B_M428_Y_FOURMAP_CASE 10 145 97 [ true, false, false, false ]
+88.580
+D31B_M428_Y_FOURMAP_CASE 10 146 98 [ false, true, false, false ]
+88.730
+D31B_M428_Y_FOURMAP_CASE 10 148 99 [ false, true, false, false ]
+88.890
+D31B_M428_Y_FOURMAP_CASE 10 149 100 [ false, false, false, true ]
+89.050
+D31B_M428_Y_FOURMAP_CASE 10 151 101 [ true, false, false, false ]
+89.250
+D31B_M428_Y_FOURMAP_CASE 10 152 102 [ false, true, false, false ]
+89.460
+D31B_M428_Y_FOURMAP_CASE 10 157 103 [ false, true, false, false ]
+89.650
+D31B_M428_Y_FOURMAP_CASE 10 159 104 [ true, true, true, true ]
+89.780
+D31B_M428_Y_FOURMAP_CASE 10 160 105 [ false, false, true, false ]
+89.970
+D31B_M428_Y_FOURMAP_CASE 10 161 106 [ false, false, true, false ]
+90.160
+D31B_M428_Y_FOURMAP_CASE 10 164 107 [ false, true, false, false ]
+90.340
+D31B_M428_Y_FOURMAP_CASE 10 165 108 [ false, true, false, false ]
+90.460
+D31B_M428_Y_FOURMAP_CASE 10 166 109 [ true, false, false, false ]
+90.610
+D31B_M428_Y_FOURMAP_CASE 10 167 110 [ false, true, false, false ]
+90.740
+D31B_M428_Y_FOURMAP_CASE 10 168 111 [ false, false, false, false ]
+90.910
+D31B_M428_Y_FOURMAP_CASE 10 171 112 [ true, false, false, false ]
+91.080
+D31B_M428_Y_FOURMAP_CASE 10 173 113 [ true, false, false, false ]
+91.270
+D31B_M428_Y_FOURMAP_CASE 10 174 114 [ false, false, false, true ]
+91.460
+D31B_M428_Y_FOURMAP_CASE 10 175 115 [ false, false, false, false ]
+91.680
+D31B_M428_Y_FOURMAP_CASE 10 176 116 [ false, false, true, false ]
+91.850
+D31B_M428_Y_FOURMAP_CASE 10 177 117 [ false, false, true, false ]
+91.970
+D31B_M428_Y_FOURMAP_CASE 10 179 118 [ false, false, false, false ]
+92.170
+D31B_M428_Y_FOURMAP_CASE 10 180 119 [ true, true, true, true ]
+92.340
+D31B_M428_Y_FOURMAP_CASE 10 181 120 [ false, false, false, false ]
+92.530
+D31B_M428_Y_FOURMAP_CASE 10 185 121 [ false, false, true, false ]
+92.740
+D31B_M428_Y_FOURMAP_CASE 10 186 122 [ true, false, false, false ]
+92.880
+D31B_M428_Y_FOURMAP_CASE 10 188 123 [ true, false, false, false ]
+93.060
+D31B_M428_Y_FOURMAP_CASE 10 189 124 [ true, false, false, false ]
+93.250
+D31B_M428_Y_FOURMAP_CASE 10 192 125 [ false, true, false, false ]
+93.430
+D31B_M428_Y_FOURMAP_CASE 10 193 126 [ false, false, true, false ]
+93.600
+D31B_M428_Y_FOURMAP_CASE 10 201 127 [ false, false, false, true ]
+93.790
+D31B_M428_Y_FOURMAP_CASE 10 202 128 [ false, false, true, false ]
+93.980
+D31B_M428_Y_FOURMAP_CASE 10 203 129 [ true, true, true, true ]
+94.090
+D31B_M428_Y_FOURMAP_CASE 10 208 130 [ true, false, false, false ]
+94.220
+D31B_M428_Y_FOURMAP_CASE 10 209 131 [ false, false, false, false ]
+94.340
+D31B_M428_Y_FOURMAP_CASE 10 210 132 [ true, true, true, true ]
+94.510
+D31B_M428_Y_FOURMAP_CASE 10 212 133 [ false, true, false, false ]
+94.690
+D31B_M428_Y_FOURMAP_CASE 10 213 134 [ false, false, false, true ]
+94.820
+D31B_M428_Y_FOURMAP_CASE 10 215 135 [ false, false, false, false ]
+95.010
+D31B_M428_Y_FOURMAP_CASE 10 217 136 [ true, true, true, true ]
+95.170
+D31B_M428_Y_FOURMAP_CASE 10 218 137 [ false, false, false, true ]
+95.360
+D31B_M428_Y_FOURMAP_CASE 10 219 138 [ false, false, true, false ]
+95.530
+D31B_M428_Y_FOURMAP_CASE 10 221 139 [ true, false, false, false ]
+95.720
+D31B_M428_Y_FOURMAP_CASE 10 222 140 [ true, false, false, false ]
+95.880
+D31B_M428_Y_FOURMAP_CASE 10 223 141 [ false, true, false, false ]
+96.040
+D31B_M428_Y_FOURMAP_CASE 10 224 142 [ false, false, false, false ]
+96.240
+D31B_M428_Y_FOURMAP_CASE 10 227 143 [ true, true, true, true ]
+96.450
+D31B_M428_Y_FOURMAP_CASE 10 228 144 [ false, true, false, false ]
+96.600
+D31B_M428_Y_FOURMAP_CASE 10 229 145 [ false, false, false, true ]
+96.810
+D31B_M428_Y_FOURMAP_CASE 10 230 146 [ false, false, false, false ]
+96.970
+D31B_M428_Y_FOURMAP_CASE 10 232 147 [ false, false, false, false ]
+97.120
+D31B_M428_Y_FOURMAP_CASE 10 233 148 [ false, true, false, false ]
+97.300
+D31B_M428_Y_FOURMAP_CASE 10 234 149 [ false, false, false, false ]
+97.480
+D31B_M428_Y_FOURMAP_CASE 10 236 150 [ false, false, false, true ]
+97.570
+D31B_M428_Y_FOURMAP_CASE 10 237 151 [ false, true, false, false ]
+97.760
+D31B_M428_Y_FOURMAP_CASE 10 239 152 [ true, false, false, false ]
+97.930
+D31B_M428_Y_FOURMAP_CASE 10 240 153 [ true, true, true, true ]
+98.020
+D31B_M428_Y_FOURMAP_CASE 10 241 154 [ true, false, false, false ]
+98.230
+D31B_M428_Y_FOURMAP_CASE 10 242 155 [ false, false, false, true ]
+98.390
+D31B_M428_Y_FOURMAP_CASE 10 243 156 [ true, false, false, false ]
+98.550
+D31B_M428_Y_FOURMAP_CASE 10 245 157 [ false, false, false, true ]
+98.730
+D31B_M428_Y_FOURMAP_CASE 10 246 158 [ true, true, true, true ]
+98.880
+D31B_M428_Y_FOURMAP_CASE 10 248 159 [ false, false, false, true ]
+99.060
+D31B_M428_Y_FOURMAP_CASE 10 249 160 [ false, false, false, false ]
+99.180
+D31B_M428_Y_FOURMAP_CASE 10 250 161 [ false, true, false, false ]
+99.330
+D31B_M428_Y_FOURMAP_CASE 10 252 162 [ false, false, false, false ]
+99.500
+D31B_M428_Y_FOURMAP_CASE 10 255 163 [ false, true, false, false ]
+99.690
+D31B_M428_Y_FOURMAP_CASE 10 256 164 [ false, false, false, false ]
+99.880
+D31B_M428_Y_FOURMAP_CASE 10 257 165 [ false, true, false, false ]
+100.030
+D31B_M428_Y_FOURMAP_CASE 10 259 166 [ false, false, false, true ]
+100.080
+D31B_M428_Y_FOURMAP_CASE 10 260 167 [ true, false, false, false ]
+100.260
+D31B_M428_Y_FOURMAP_CASE 10 263 168 [ false, false, true, true ]
+100.350
+D31B_M428_Y_FOURMAP_CASE 10 265 169 [ true, false, false, false ]
+100.530
+D31B_M428_Y_FOURMAP_CASE 10 266 170 [ true, false, false, false ]
+100.650
+D31B_M428_Y_FOURMAP_CASE 10 267 171 [ true, false, false, false ]
+100.820
+D31B_M428_Y_FOURMAP_CASE 10 270 172 [ false, true, false, false ]
+100.980
+D31B_M428_Y_FOURMAP_CASE 10 271 173 [ false, false, false, false ]
+101.170
+D31B_M428_Y_FOURMAP_CASE 10 272 174 [ true, true, true, true ]
+101.240
+D31B_M428_Y_FOURMAP_DEGREE 10 6384 272 158 101.240
+D31B_M428_Y_FOURMAP_COMPLETE 174 19 [* [* 5, 48, 2, 2 *], [* 6, 64, 5, 3 *], [* 8, 606, 29, 11 *], [* 10, 6384, 272, 158 *] *] 101.360

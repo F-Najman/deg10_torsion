@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m318_tau_cusp_class_relation",
+  "script": "computations/d31b_m318_tau_cusp_class_relation.py",
+  "script_sha256": "43bf27fe9fadd9889b7f180b66483c7c1a3c54762244e4c8e6c1509f264420de",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_tau_cusp_class_relation.py"
+  ],
+  "pid": 3746276,
+  "owner_uid": 1001,
+  "start_time_unix": 1793445716.556159,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/d31b_m318_tau_cusp_class_relation.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.023822784423828
+}

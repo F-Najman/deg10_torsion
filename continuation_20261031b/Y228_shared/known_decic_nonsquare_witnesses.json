@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "criterion": "A point lies in the dual rational2-isogeny image only if x(Q)-x(P2) is a square; normalized Derickx B differs by a square",
+  "marking_cosets": 4,
+  "independent_prime_nonsquare_witnesses": [
+    {
+      "p": 43,
+      "quintic_root": 37,
+      "quadratic_root": 13,
+      "P2_shift": 0,
+      "Q_shift": 0,
+      "x_difference": 30,
+      "Legendre_symbol": 42
+    },
+    {
+      "p": 43,
+      "quintic_root": 37,
+      "quadratic_root": 22,
+      "P2_shift": 0,
+      "Q_shift": 1,
+      "x_difference": 39,
+      "Legendre_symbol": 42
+    },
+    {
+      "p": 43,
+      "quintic_root": 37,
+      "quadratic_root": 22,
+      "P2_shift": 1,
+      "Q_shift": 0,
+      "x_difference": 30,
+      "Legendre_symbol": 42
+    },
+    {
+      "p": 43,
+      "quintic_root": 37,
+      "quadratic_root": 22,
+      "P2_shift": 1,
+      "Q_shift": 1,
+      "x_difference": 27,
+      "Legendre_symbol": 42
+    }
+  ],
+  "elapsed_seconds": 0.02375673083588481
+}

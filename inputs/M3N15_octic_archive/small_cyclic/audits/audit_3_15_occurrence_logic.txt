@@ -1,0 +1,101 @@
+Independent mathematical audit of the proposed octic C3 x C15 result
+
+Read-only inputs: noncyclic/exact_3_15_D4_specialization.tex,
+cusp_image_3_15_D4.tex, octic_3_15_classification_DRAFT.tex, and the
+characteristic-zero cubic v9 reconstruction source. No input was edited.
+This note audits the logic. It does not certify an unfinished v9 export.
+
+1. The exact-specialization reduction is sound.
+Rank zero over F=Q(zeta3), together with injectivity at the split good
+odd primes7,13,19, bounds #J(F) by3 times the explicitly identified
+cuspidal order1990656. Odd-prime injectivity also proves that the
+cuspidal group itself has exactly that order. Its2-primary order is8192.
+The same-sized explicit cuspidal image over F4 proves injectivity on its
+2-primary part; the quotient J(F)/C has odd order dividing3, so this is
+the whole2-primary part of J(F). Odd torsion injects at2 automatically.
+Thus reduction on ALL J(F) is injective, without assuming J(F)=C.
+
+The multiplied two-prime test uses3J(F) subset C correctly. Once each
+possible F4 class lies in the explicit image of C, full dyadic
+injectivity shows that the original global class belongs to C.
+The subsequent unmultiplied diagonal test then gives the12 actual
+global signed cusp classes. This avoids dividing a finite class by3
+or assuming full cuspidal generation. Repetitions and mixed finite
+support patterns are included in the stated5102/6264 enumerations.
+
+2. The characteristic-zero modular model and cusp identifications agree.
+Over F, a curve with a rational order3 point has mod3 Galois image
+inside the unipotent order3 stabilizer in SL2(F3). Removing its x=0
+root leaves the cubic3-division factor. Irreducibility gives the
+degree3 extension parametrizing an independent3-point, with its sign
+selected by the fixed primitive Weil pairing. The order and pairing
+assertions therefore identify the intended component of X1(3,15).
+The canonical scaling at the flex P is integral away15: x(Q),y(Q)
+and y(Q)/x(Q)^2 are units, since Q is neither O nor +/-P.
+The same independence argument excludes zeros of the other selected
+section coordinates and x(Q)-x(Q+P). The discriminant identity makes
+a1^3-27a3 a unit. Hence the integral modular-unit valuations commute
+with good reduction. Three signature coordinates distinguish all20
+global cusp blocks, so they unambiguously match the six rational
+cusps in L=7B1+B18-B7-B9-B12-B17. Its degree is7+1-4=4.
+
+3. Existence and specialization require no characteristic-zero factoring.
+A single nonzero exact function b in L(L) gives an effective divisor
+D=L+div(b) of degree4 over F. Gon_F(X)>4 implies h0(L)<=1, so this
+already proves h0(L)=1. To verify the exported witness independently,
+it suffices to reconstruct b and require I_L*(b O_finite) and
+J_L*(b O_infinite) integral in both maximal orders. Factoring div(b)
+or the resulting effective divisor is unnecessary.
+
+At31 and43, equality h0generic=h0special=1 gives base change for the
+rank-one section lattice. Scale b primitively at the prime. Its
+nonzero reduction spans the finite RR space, so D specializes to the
+computed unique finite effective divisor. The two noncuspidal
+quadratic places at31 rule out every global cuspidal component.
+
+The primary quartic classification is Derickx--Najman, Theorem1.1,
+arXiv2412.16016v2, https://arxiv.org/html/2412.16016v2 . None of its
+allowed groups CONTAINS C3 x C15. It therefore excludes noncuspidal
+points on X of F-degree2. It excludes F-degree1 as well, since an
+elliptic curve over F could be extended to an absolute quartic field
+while retaining its subgroup. Every noncuspidal support point of D
+thus has F-degree at least3. A noncuspidal effective degree4 divisor
+can only be a single closed degree4 point: a3+1 decomposition is
+excluded along with all decompositions involving degrees1 or2.
+Its residue field K consequently has absolute degree8.
+
+4. The full-torsion bound at43 is rigorous.
+The four distinct rational special points imply that the horizontal
+degree4 divisor is finite etale over the chosen local ring of F at43.
+Indeed its special fibre is reduced etale and its section has no
+vertical component; finite flatness and the differential criterion
+give etaleness. Thus K is unramified and splits into four residue
+degree-one primes there. Noncuspidality gives good reduction of the
+universal elliptic curve. Torsion injects at the unramified odd prime,
+including possible43-primary torsion. Each group has order45 and
+already contains the full displayed C3 x C15, so the global full
+torsion is exactly C3 x C15.
+
+5. The12-class orbit proves completeness, not merely occurrence.
+Write Q3=5Q and Q5=3Q, so Q=2Q3+2Q5. The given SL2(F3) matrices
+change the ordered symplectic3-basis, and u in{1,2} represents the
+5-units modulo simultaneous negation. Each of the48 maps is F-defined
+and changes ONLY the level structure on the SAME elliptic curve.
+It preserves exact orders and the primitive pairing. Its action on
+normalized degree4 classes includes the stated affine base-cusp shift.
+
+Transitivity of these maps on the12 global classes, with gon_F>4,
+implies that once D exists, every possible effective noncuspidal
+degree4 divisor is an automorphism image of D. The underlying elliptic
+curve and its full torsion are preserved by these level changes.
+For an arbitrary octic curve, the Weil pairing embeds F into its
+field; choose the sign of P to use the fixed component. The trace
+divisor has degree4 even if the moduli point initially descends.
+Since it equals a closed degree4 orbit divisor, descent to a smaller
+field is impossible. Fine moduli prevent an extra twisting ambiguity.
+
+Conclusion: occurrence and full-torsion completeness follow from the
+proposed exact witness and the stated finite RR/12-class certificates.
+In particular C3 x C30 is excluded. There is no mathematical gap in
+the argument; completing and binding the characteristic-zero witness
+and its independent integrality check remain computational requirements.

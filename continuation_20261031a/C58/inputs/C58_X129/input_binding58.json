@@ -1,0 +1,12 @@
+{
+  "native_export_sha256": "87cc5daddb8dde1daa652b6a56ea06dedd69ee4b495263c3ec71509e841565c2",
+  "literal_input_sha256": "c37ba9f88f4fa7f013d28b37ff9fbe0fb25eca1d090ff6639ee1fa93aab106eb",
+  "byte_exact_regeneration": true,
+  "fields": [
+    "field_polynomial",
+    "modular_coordinates",
+    "relations",
+    "factor_basis"
+  ],
+  "complete": true
+}

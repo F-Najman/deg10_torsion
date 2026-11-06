@@ -1,0 +1,113 @@
+\begin{proposition}\label{prop:decic-no428}
+An elliptic curve over a number field of degree $10$ has no
+subgroup isomorphic to $C_4\times C_{28}$.
+\end{proposition}
+\begin{proof}
+Suppose that $E/K$ has such a subgroup. The Weil pairing gives
+$\mathbb Q(i)\subset K$. Put $Y=X_1(2,28)$ and choose
+$P_2,Q_{28}\in E(K)$ with $P_2\notin\langle Q_{28}\rangle$.
+Their trace, with its residue-field multiplicity, is an effective
+rational divisor $D$ of degree $10$ on $Y$.
+By \cite[Theorem~3.1]{DEHMZ}, $\operatorname{Jac}(Y)(\mathbb Q)$
+has rank zero, and \cite[Table~1]{NV} gives
+$\operatorname{gon}_{\mathbb Q}Y\geq12$.
+
+Entirely cuspidal reduction at $3$ is impossible.
+Indeed, the cuspidal boundary is finite \'etale at $3$, so a
+cuspidal reduction has a cuspidal lift $C$ of the same degree
+over $\mathbb Q_3$. The class $[D-C]$ is torsion, by rank zero
+and Manin--Drinfeld, and reduces to zero. The kernel of
+reduction on the Jacobian over $\mathbb Q_3$ is torsion-free.
+Thus $D\sim C$, giving $h^0(D)\geq2$ over $\mathbb Q_3$ and,
+by base change, over $\mathbb Q$. This contradicts the gonality
+bound.
+
+The noncuspidal places of $Y_{\mathbb F_3}$ have degree at
+least $5$. Since $3$ is inert in $\mathbb Q(i)$, the residue
+degree of every prime of $K$ above $3$ is even. Consequently
+the noncuspidal part of $\overline D$ is one place of degree
+$6$, $8$ or $10$, or twice one place of degree $5$.
+The remaining cuspidal degree is respectively $4$, $2$, $0$
+or $0$. Full $4$-torsion survives at each noncuspidal place.
+For a place of even degree, this is checked by requiring all
+three differences of the roots of the $2$-division polynomial
+to be squares. In degree $5$ we allow every place, since the
+residue field of $K$ may be its quadratic extension.
+
+We first use four maps to $X_1(28)$:
+\[
+ (E,P_2,Q)\longmapsto(E,Q),\quad(E,P_2+Q),\quad
+ (E/\langle P_2\rangle,\phi Q),\quad
+ (E/\langle P_2+14Q\rangle,\psi Q).
+\]
+Here the two quotient maps have degree $2$, and all four
+marked image points have order $28$.
+The complete rational cuspidal group of
+$\operatorname{Jac}(X_1(28))(\mathbb Q)$ is
+$[2,4,12,936]$, by \cite[Theorem~4.13]{DEHMZ}.
+Its reduction at $3$ has index $4$ in the finite Jacobian.
+Membership in this subgroup, allowing every possible
+cuspidal complement, is therefore necessary for each image.
+
+The exact finite calculation is as follows. The rational
+order-$24$ automorphism group of $Y$ acts by
+\[
+ (P_2,Q)\longmapsto(P_2+14bQ,cP_2+aQ),
+ \qquad b,c\in\{0,1\},\quad
+ a\in\{1,3,5,9,11,13\}.
+\]
+The eligible orbit counts in degrees $5,6,8,10$ are
+$2,3,11,158$. Of these $174$ cases, exactly $19$ pass all
+four necessary class tests. All residue-field norms are
+retained; in particular a degree-$5$ place contributes twice.
+The finite Picard presentation is proved, and an independent
+replay checks all $656$ image classes, including their exact
+principal-divisor witnesses.
+
+Write $A_5=T_5-1-5\langle5\rangle$ on $Y$.
+It kills the rational Jacobian by Eichler--Shimura and rank
+zero, and kills a rational base cusp. Hence
+$A_5\overline D$ must be principal.
+For cuspidal complements of degree at most $2$, $A_5$ vanishes
+on each closed cusp. For complements of degree $4$, the two
+pairs of cubic cusps give precisely the seventeen possible
+corrections recorded in the certificate. Testing these
+corrections leaves four cases among the preceding $19$:
+\[
+                         27,\quad42,\quad43,\quad45.
+\]
+These labels refer to \texttt{union\_cases.m}; each is one
+noncuspidal place of degree $10$. The orbit reduction uses
+simultaneous rational automorphisms and closed-point
+Frobenius, and preserves full $4$-torsion.
+
+We now use the additional $4$-torsion. After applying the
+chosen rational automorphism, write the reduced curve in
+Derickx normal form, with $P_2=(0,0)$ and $Q=(B,B)$.
+Choose $U\in E(K)$ with $2U=P_2$, and let
+$\phi:E\to E'=E/\langle P_2\rangle$.
+Then
+\[
+                   P'_2=\phi(U),\qquad Q'_{28}=\phi(Q)
+\]
+define another point of $Y(K)$: $P'_2$ has order $2$ and is
+independent of $14Q'_{28}$. Indeed, the dual isogeny sends $\phi(U)$ to $2U=P_2\ne0$,
+whereas it kills $14Q'_{28}=\phi(14Q)$, the nonzero point in
+its kernel. All four halves of $P_2$ are rational, so $U$ may be
+chosen to reduce to the half used in the finite calculation.
+Equivalently, changing the half replaces $P'_2$ by
+$P'_2+14Q'_{28}$, a rational automorphism of $Y$.
+
+For each of the four remaining cases, the exact calculation
+on this new marked curve gives
+\[
+ \ell\bigl(A_5\operatorname{Tr}(E',P'_2,Q'_{28})\bigr)=0
+                       \quad\text{over }\mathbb F_3.
+\]
+This degree-zero divisor must instead be principal, and hence
+have a nonzero section, a contradiction. The calculation uses
+all six genuine cyclic $5$-kernels, the marked quotient maps
+and the residue-field norms. Fresh native ideal and
+Riemann--Roch checks and independent marked V\'elu calculations
+verify the four decisive tests.
+\end{proof}

@@ -1,0 +1,4 @@
+NONIC_GLOBAL_PACKET_READONLY_PASS exclusions=31 modular_Krylov_replays=11 complete=true
+NONIC_C841_READONLY_PASS genus=28834 full_Krylov_ranks=72,71 diamond_order=58 complete=true
+NONIC_LARGEST_ADDENDUM_READONLY_PASS N=899 genus=32761 matrices=7 complete=true
+NONIC_LARGEST_ADDENDUM_READONLY_PASS N=961 genus=37751 matrices=3 complete=true

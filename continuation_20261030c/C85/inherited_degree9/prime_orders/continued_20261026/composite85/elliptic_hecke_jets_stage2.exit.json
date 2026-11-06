@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-26T22:59:12.358587+00:00",
+  "worker_pid": 2781987,
+  "worker_start_ticks": 186256974,
+  "owner_pid": 2781985,
+  "owner_startticks": 186256969,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/composite85/elliptic_hecke_jets_stage2.m"
+  ],
+  "actual_cmdline": [
+    "/opt/magma-2.30-1/magma.exe",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/composite85/elliptic_hecke_jets_stage2.m"
+  ],
+  "wall_seconds": 15.030407762154937,
+  "cpu_seconds": 13.8,
+  "state": "R",
+  "wall_cap_seconds": 7200,
+  "cpu_budget_seconds": 1800,
+  "hard_cpu_backstop_seconds": 7200,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T22:59:27.389017+00:00",
+  "termination_reason": null
+}

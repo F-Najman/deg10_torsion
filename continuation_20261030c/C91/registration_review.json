@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "group": [
+    1,
+    91
+  ],
+  "degree": 10,
+  "parent_mathematical_review": "PASS",
+  "frozen_manifest_sha256": "3abff8947b6c73a59e575c70f1a4bfba32fee148f1adf2d68dce26e475fb2015",
+  "method": "Relative full-Jacobian dyadic formal fibres on genus23 X1(7) x X0(13); all120 cusp ranks and12 CM ranks equal the expected codimension of the embedded pullback family, forcing a fixed cusp; corrected inherited ordinary Hecke obstructions independently rechecked",
+  "independent_arithmetic_checks": "PASS",
+  "classification_complete": false
+}

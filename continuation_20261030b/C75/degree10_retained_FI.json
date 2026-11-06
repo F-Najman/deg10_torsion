@@ -1,0 +1,12 @@
+{
+  "degree": 10,
+  "level": 75,
+  "genus": 73,
+  "image_dimension": 71,
+  "tested_divisors": 871520,
+  "exceptions_count": 0,
+  "exceptions": [],
+  "missing_new_high_multiplicity": 110,
+  "all_admissible_degree9_divisors": 871630,
+  "complete_enumeration_for_retained_precision": true
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_replay_hecke5.py", line 1, in <module>
+    PRIMES=[5];TAG="5";exec(open("work/deg10/computations/next232_replay_hecke_common.py").read())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 21, in <module>
+AssertionError

@@ -1,0 +1,1742 @@
+{
+  "status": "PASS",
+  "matrices": 288,
+  "shape": [
+    265,
+    590
+  ],
+  "all_ranks": 265,
+  "method": "Independent integer-bit Gaussian elimination",
+  "input_sha256": "d5d5830d30131d92675f7064ca66d98832fd2b09dcb9a52626bbdd8af0bd1543",
+  "records": [
+    {
+      "source": 1,
+      "target_diamond_translate": 0,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 0,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 1,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 1,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 2,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 2,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 3,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 3,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 4,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 4,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 5,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 5,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 6,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 6,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 7,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 7,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 8,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 8,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 9,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 9,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 10,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 10,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 11,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 11,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 12,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 12,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 13,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 13,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 14,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 14,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 15,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 15,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 16,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 16,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 17,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 17,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 18,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 18,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 19,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 19,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 20,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 20,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 21,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 21,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 22,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 22,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 23,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 23,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 24,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 24,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 25,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 25,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 26,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 26,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 27,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 27,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 28,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 28,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 29,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 29,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 30,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 30,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 31,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 31,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 32,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 32,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 33,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 33,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 34,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 34,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 35,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 1,
+      "target_diamond_translate": 35,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 0,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 0,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 1,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 1,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 2,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 2,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 3,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 3,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 4,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 4,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 5,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 5,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 6,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 6,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 7,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 7,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 8,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 8,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 9,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 9,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 10,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 10,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 11,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 11,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 12,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 12,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 13,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 13,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 14,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 14,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 15,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 15,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 16,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 16,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 17,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 17,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 18,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 18,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 19,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 19,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 20,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 20,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 21,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 21,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 22,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 22,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 23,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 23,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 24,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 24,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 25,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 25,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 26,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 26,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 27,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 27,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 28,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 28,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 29,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 29,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 30,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 30,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 31,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 31,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 32,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 32,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 33,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 33,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 34,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 34,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 35,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 2,
+      "target_diamond_translate": 35,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 0,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 0,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 1,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 1,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 2,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 2,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 3,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 3,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 4,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 4,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 5,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 5,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 6,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 6,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 7,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 7,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 8,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 8,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 9,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 9,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 10,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 10,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 11,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 11,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 12,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 12,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 13,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 13,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 14,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 14,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 15,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 15,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 16,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 16,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 17,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 17,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 18,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 18,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 19,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 19,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 20,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 20,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 21,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 21,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 22,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 22,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 23,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 23,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 24,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 24,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 25,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 25,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 26,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 26,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 27,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 27,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 28,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 28,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 29,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 29,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 30,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 30,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 31,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 31,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 32,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 32,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 33,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 33,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 34,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 34,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 35,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 3,
+      "target_diamond_translate": 35,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 0,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 0,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 1,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 1,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 2,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 2,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 3,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 3,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 4,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 4,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 5,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 5,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 6,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 6,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 7,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 7,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 8,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 8,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 9,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 9,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 10,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 10,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 11,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 11,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 12,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 12,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 13,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 13,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 14,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 14,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 15,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 15,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 16,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 16,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 17,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 17,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 18,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 18,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 19,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 19,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 20,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 20,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 21,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 21,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 22,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 22,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 23,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 23,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 24,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 24,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 25,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 25,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 26,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 26,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 27,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 27,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 28,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 28,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 29,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 29,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 30,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 30,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 31,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 31,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 32,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 32,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 33,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 33,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 34,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 34,
+      "convention": 2,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 35,
+      "convention": 1,
+      "rank": 265
+    },
+    {
+      "source": 4,
+      "target_diamond_translate": 35,
+      "convention": 2,
+      "rank": 265
+    }
+  ],
+  "seconds": 0.5811746120452881
+}

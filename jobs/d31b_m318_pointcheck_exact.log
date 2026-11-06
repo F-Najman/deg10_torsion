@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/M3N18/d31b_m318_pointcheck_exact.py", line 23, in <module>
+    wp,ws=levels(E,A,Q);assert val(a[10])in[wp,ws,1/wp]
+          ^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/M3N18/d31b_m318_pointcheck_exact.py", line 20, in levels
+    try:ws=A.weil_pairing(B,3);assert ws in[wp,1/wp]
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/schemes/elliptic_curves/ell_point.py", line 2207, in weil_pairing
+    return ((-1)**n.test_bit(0))*(P._miller_(Q, n)/Q._miller_(P, n))
+                  ^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'test_bit'

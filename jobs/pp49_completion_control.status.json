@@ -1,0 +1,19 @@
+{
+  "purpose": "pp49_completion_control",
+  "script": "next_cases_20261030/cyclic_primepowers/pp49_completion_control.m",
+  "script_sha256": "76b5763dbf47db82735917e52bd9ae698b594a1a64014f9be458e78cc712165d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_primepowers/pp49_completion_control.m"
+  ],
+  "pid": 2093434,
+  "owner_uid": 1001,
+  "start_time_unix": 1793369351.2215898,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/pp49_completion_control.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 600.1648869514465
+}

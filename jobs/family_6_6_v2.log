@@ -1,0 +1,22 @@
+
+MDX11(
+    N: 6,
+    M: 6,
+    base_ring: base_ring
+)
+_InitMDCrvMod11(
+    X: The modular curve X_1(...[RngIntElt], ...[RngIntElt]) over ....,
+    M: 6,
+    N: 6,
+    base_ring: base_ring
+)
+_equation_X11(
+    m: 6,
+    n: 6,
+    base_ring: base_ring
+)
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/shared/mdmagma/v2/modular_curves/X11.m", line 176, column 17:
+>>     data := Read(file_name);
+                   ^
+Runtime error in 'Read': Cannot open file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/shared/mdmagma/v2/modular_curves/base_curve.m" (No such file or directory)
+

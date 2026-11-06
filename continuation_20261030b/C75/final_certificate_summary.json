@@ -1,0 +1,465 @@
+{
+  "degree": 10,
+  "excluded_groups": [
+    [
+      1,
+      75
+    ]
+  ],
+  "complete_exclusion": true,
+  "proof": "resolution.tex",
+  "proof_status": "complete; independent arithmetic PASS; parent second native RR PASS; parent mathematical review PASS",
+  "source_genus": 145,
+  "source_rank_zero": true,
+  "quotient_genus": 73,
+  "reduction_prime": 2,
+  "degree10_source_j_orbits": 6,
+  "degree10_source_diamond_orbits": 6,
+  "native_RR_h0": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "necessary_operator": "T7-1-7delta7",
+  "degree10_Hecke_positive_degree": 80,
+  "Hecke_target_degrees": [
+    10,
+    10,
+    30,
+    30
+  ],
+  "Hecke_norm_weights": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "independently_verified_geometric_7_kernels": 48,
+  "independent_parent_native_primes": 36,
+  "total_cusp_images": 871630,
+  "retained_cusp_images": 871520,
+  "new_high_cusp_images": 110,
+  "all_cusp_restriction_ranks10": true,
+  "new_native_high_cusp_ranks": {
+    "width25pure10": 10,
+    "width75cap12": 12,
+    "mixed_cap12plus3": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15
+    ]
+  },
+  "source_global_cusps_intact": false,
+  "quotient_global_cusps_intact": true,
+  "no_cross_export_basis_alignment": true,
+  "inherited_files_unchanged": 588,
+  "all_jobs_exited": true,
+  "tracked_jobs": 14,
+  "failed_noncertificate_jobs": [
+    "cont75_nc10_job1",
+    "cont75_nc10_job2",
+    "cont75_nc10_job3",
+    "cont75_verify_cusps",
+    "cont75_verify_finite"
+  ],
+  "created_utc": "2026-10-30T19:53:45.650779+00:00",
+  "files": [
+    {
+      "path": "work/deg10/computations/cont75_parent_native.m",
+      "sha256": "6a1877246de42fb86868e9956b8ade7b365c34598514422031b262155daeb785",
+      "size": 2466
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/README.txt",
+      "sha256": "06ce3fc43124c710229d1da7211c531ee67e232c485a984b563e393cc21a4dd2",
+      "size": 2117
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/census10_records.m",
+      "sha256": "63b708622d24d82627550bee6b51bda4d54b4ae76bc0eb07e7c37bbebfe177bc",
+      "size": 20239
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/certify75.py",
+      "sha256": "55a42f1646ea7d727d5ededc36eff096b0f552d123030fce222b792687ef9ca0",
+      "size": 3457
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_census10.m",
+      "sha256": "12eaa394ec0b4ece61b0c9a078c031fe98b141b6472e4d54bf3eb73807e85a6b",
+      "size": 1729
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_high_cusps.m",
+      "sha256": "8378961389c19a367f67d9ecea2f75cb81b3088bef157ca82084fcbe562731c1",
+      "size": 5794
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_nc10_job1.m",
+      "sha256": "76cecf15fff6e661b479b91507f678bd7160cd9ff6cbf5e3d600f94ddf36c36a",
+      "size": 8553
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_nc10_job1_v2.m",
+      "sha256": "6167575523803541c97c0c6c34e3b818c07e5d776ae935a1c7df937f62e0241e",
+      "size": 8610
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_nc10_job2.m",
+      "sha256": "9df5f556db5797d27f1bb8af639d317c35add3da189812e5f920139bcdc27023",
+      "size": 8553
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_nc10_job2_v2.m",
+      "sha256": "de20066b63d8dda7d15a9987eea6a58bffefa37275d446dc530917bcb623a1bd",
+      "size": 8610
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_nc10_job3.m",
+      "sha256": "52297a665cc54baee67baba24c81082af58ae32ac2068f0c2f31f2a9b4c018e3",
+      "size": 8553
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_nc10_job3_v2.m",
+      "sha256": "9301e0c0c1b95277e14885a19d02d21c5aea83624ab83495518af5bded551193",
+      "size": 8610
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_retained_FI.py",
+      "sha256": "479a77b7cfc9dfbd3c7529119be10d1158494b4cedeb22a150d997409ff36dec",
+      "size": 5321
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_verify_cusps.py",
+      "sha256": "6f0f26c3ec6da0c53ca68e72f796c4126956a06287d77ff21f3d353922ae4b46",
+      "size": 3558
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_verify_cusps_v2.py",
+      "sha256": "e83996d6909988d61b76553d60e0e2b12c391bd6bff4558d63e2f0654809f99b",
+      "size": 3563
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_verify_finite.py",
+      "sha256": "d44385943171de7c5b44f2dfd182e7353ee416611955bc45072474b9acb927e0",
+      "size": 5165
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cont75_verify_finite_v2.py",
+      "sha256": "4fcc844912228a1c57b7f43f2f59cc44fcb6fef9c6e66b08b769c2569692a1f6",
+      "size": 5169
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/cusp_degree10_verified.json",
+      "sha256": "2afd74a2cd27af93b7e32f1b7a3d730a4f22278367edead8fb6391efbc7c1548",
+      "size": 841
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/degree10_retained_FI.json",
+      "sha256": "5c333ce6347f519d22b95328b6cf9c7da69b446d56d1c413817e1b48e764e1de",
+      "size": 288
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/finite_degree10_verified.json",
+      "sha256": "ed475cb2ad31d96ed0fd52c84040cd823323391b5668fff7604c679c80f5cd1f",
+      "size": 3109
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/high_cusp_matrices.m",
+      "sha256": "05e3957c4dedbfefa1150b5c072c3f701654e76c1d09a3761082d9929550caa3",
+      "size": 90278
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/inherited_evidence_verified.json",
+      "sha256": "34a251ff837529cff95ed58657ac8b5199444efd0cf4b6a7ead35ec5a79c02ee",
+      "size": 123548
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/input_origins.json",
+      "sha256": "c45e8f59d754789e4a4ca413fd280e2ef0bb994bc000c93d45ae67651d80107f",
+      "size": 1755
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/inputs/fast_hecke.m",
+      "sha256": "0fd610f20bbf5afed9f44e20243cf12375c20d14a0e1b39c8e0d26383f6951a7",
+      "size": 8266
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/inputs/fast_hecke.sig",
+      "sha256": "7825d52342582741eab41d5e414b493948013f3f212f81144c26a0eddca0dfd0",
+      "size": 1196
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/inputs/fast_hecke_11.m",
+      "sha256": "a18f21189cba3d5d3a19888012729bde2a4ec0e1839dd770335b79b5149af9cb",
+      "size": 12251
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/inputs/fast_hecke_11.sig",
+      "sha256": "80c78c6d0c9c0a4470fef04f8215bd90491fc34c886eace7a42e8fcb2af124e3",
+      "size": 2349
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/inputs/old_kernels.m",
+      "sha256": "05029a1c580cd8d6785003eb728ebdbda7136981ed8113ff50826e98dbaf5d5b",
+      "size": 2431799
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/inputs/old_matrices.m",
+      "sha256": "3aff88c240fba4b45b4302d527af926dd9ef793e986f28494fcf7521a10a2a9d",
+      "size": 47636
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/inputs/source_frobenius_arithmetic.txt",
+      "sha256": "72781423b79c0c7ba444d7659680f354da2335ff81cacdc1b8061322e46c017e",
+      "size": 9662
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/inputs/tate_parities.json",
+      "sha256": "6dceb57f70bac5c96155a6af626530c0e1a2b66c0da08b062d7d668ff1a0a142",
+      "size": 5492
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/lifecycle_final.json",
+      "sha256": "9c54579c6158acc66c41d74ca6184035c1c8776140131588c138972eee31b794",
+      "size": 11379
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/moduli_job1_v2.txt",
+      "sha256": "ed5a646423d7328909260069d32311a6be2d77090f43a595271b5c7dea70d15f",
+      "size": 5409
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/moduli_job2_v2.txt",
+      "sha256": "64ba3a83728d6ebb6570fbfcf6b9dfc4bb87d349d5931a59bf879d7ed7850f25",
+      "size": 5437
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/moduli_job3_v2.txt",
+      "sha256": "a41ce3cf2446d3fb679555525888a75e630bedc93a5076e5858dc8396b87cb5d",
+      "size": 5421
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/parent_native_replay.m",
+      "sha256": "4dad55dd6105f1eab6f26107914f3a1da8df126d37a089ad493d9bb1e4cfced7",
+      "size": 149
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_cusp_kernels_certificate.json",
+      "sha256": "b5a03fbe6ba0969a9e2f7d997be160773df1c8bae083f506525a30c35b37ff6d",
+      "size": 257
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_degree9_proof.tex",
+      "sha256": "d729b30240276a9997850bc1cabe0a33490a6db018d5ac188aa15c25824b4b28",
+      "size": 6444
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_good7_certificate.json",
+      "sha256": "cb2fd60298ccfab268e830d3c7ded75cb6933ee4944c6213ce1f515a52fc2fb4",
+      "size": 340
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_good7_native.log",
+      "sha256": "50d56588b46aa4dc1b232acb7b4b4d95c26929e1e7b28579137a84c4c58deb44",
+      "size": 2266
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_packet75.json",
+      "sha256": "54cb3221f12dd834f87b0a48cd8751f1cbab98440ca87c5113005c1ebb5ce161",
+      "size": 104033
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_dependencies/accepted_rank0.log",
+      "sha256": "7ac180a860eb700b488402d1913b0b71d9f95636bf2a2247b89526843dcdccc1",
+      "size": 587
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_packet_case1.m",
+      "sha256": "765578ed92d1744767e4d6972537d3aaaf4f2f48c5f15e0de67b4b279cf851ac",
+      "size": 79436
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_packet_case2.m",
+      "sha256": "143ff050e4baf24a6d25d0f52f60fce94a55b85284aaeb3d6dfe668becc22623",
+      "size": 79154
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_packet_case3.m",
+      "sha256": "708d4ca6a08035acb20d47a388a6ad48f415a010c055f86e2f89214e7dc3e8b8",
+      "size": 79562
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_packet_case4.m",
+      "sha256": "24c78b42c35c895daa1c7daec1e8f12f5065e73775015f62821964344795787d",
+      "size": 78884
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_packet_case5.m",
+      "sha256": "6c65661c3e57b45fed7aefb2799a25b94469d9b040d118892abd1ddbf6f9873e",
+      "size": 80030
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/proof_packet_case6.m",
+      "sha256": "a7bb1ad9229b76b06a72ee572905571361fcc94d95bfc304bfb2e767c425e8bf",
+      "size": 79412
+    },
+    {
+      "path": "work/deg10/continuation_20261030b/C75/resolution.tex",
+      "sha256": "4c0bb2c5018882377ae435041044ab74b9447dd6ce00088f82f7c1939aee3d98",
+      "size": 8585
+    },
+    {
+      "path": "work/deg10/jobs/cont75_census10.log",
+      "sha256": "85d60f234391dc95fe7690bd55641d52d7189d6ee20e82ae22bb4e70416245b9",
+      "size": 153
+    },
+    {
+      "path": "work/deg10/jobs/cont75_census10.status.json",
+      "sha256": "38a5b9494b5fa1f3b827162c843579a5b95542c05bd07d2ad9147888959db522",
+      "size": 639
+    },
+    {
+      "path": "work/deg10/jobs/cont75_high_cusps.log",
+      "sha256": "aa9c684cd2d7f2cb721c90ebd1209faf7c080d6a989062f1c3a98806de4a1b3c",
+      "size": 829
+    },
+    {
+      "path": "work/deg10/jobs/cont75_high_cusps.status.json",
+      "sha256": "2c4c52d8bfc5a878460094f2acdcfb2aefcac823e38d71ca1474f4c07d82b062",
+      "size": 647
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job1.log",
+      "sha256": "31af2ea40e58a858cf34598761f75a696738773ea4c404b7d4ec9ab036f61b17",
+      "size": 898
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job1.status.json",
+      "sha256": "8f214c2e50b373ba0fc37b90b9ca32f46d8799cb126133274968549c29b0625c",
+      "size": 642
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job1_v2.log",
+      "sha256": "a9cc7a3a1f61db2298cafa8171979fd1ed10e8785b74f24bea8ddc150c75e8fb",
+      "size": 3137
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job1_v2.status.json",
+      "sha256": "eb498167758955c7157624088d911485fd7fceae9a23a2d06db308e1228c6d43",
+      "size": 655
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job2.log",
+      "sha256": "8e50fde644301c35b8c87a50b7a53ca9374368030f12ba651b1376aaee83f447",
+      "size": 898
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job2.status.json",
+      "sha256": "597082f02f5476997b51ea3b58f49975f980e1d7ea31b54f9758822dfe3a0f33",
+      "size": 642
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job2_v2.log",
+      "sha256": "6cfd6dce955f269a135c7d321be6dad32aba24a9a977731d6b2d2d5234e2e412",
+      "size": 3137
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job2_v2.status.json",
+      "sha256": "fc541751a3242f5015cf2594fed73e1609405af21fb55c954341dfde78afda25",
+      "size": 654
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job3.log",
+      "sha256": "44cd69874e1145b6c10c1ea8fc8ee10fd9c909b03bccd1782eaff99d876e76dd",
+      "size": 898
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job3.status.json",
+      "sha256": "63ceb76db7c70f0d4df3e124b9149b183ed3691cdbe80b82e5ae4096bcc97ec5",
+      "size": 642
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job3_v2.log",
+      "sha256": "8de013c4c4196989cb3e67b6c999635827405d86d25b257f9c051163113ee47f",
+      "size": 3137
+    },
+    {
+      "path": "work/deg10/jobs/cont75_nc10_job3_v2.status.json",
+      "sha256": "fd6f5850a30d3b4c81be131e01179991acdcf86a068a8e4ce2b341ce59d04733",
+      "size": 654
+    },
+    {
+      "path": "work/deg10/jobs/cont75_parent_native.log",
+      "sha256": "dbd9371122235089dfbea633c225c9b9eb0cc292b2f09142b5e7e490aa8a7537",
+      "size": 286
+    },
+    {
+      "path": "work/deg10/jobs/cont75_parent_native.status.json",
+      "sha256": "5025b90cdb7c2042b230f771db0ed3b3dbaf4753187ba33eaba8db192c35b2bb",
+      "size": 630
+    },
+    {
+      "path": "work/deg10/jobs/cont75_retained_FI.log",
+      "sha256": "4132c3d8da95cdf86ffb37f7358eaf2ac2afc6f729befdb3c48305e5393de0ee",
+      "size": 295
+    },
+    {
+      "path": "work/deg10/jobs/cont75_retained_FI.status.json",
+      "sha256": "ad9090d1766b14937b34a1b2ae5ad259c7c39fc2c7bd3fceb7bdbfa167be298c",
+      "size": 653
+    },
+    {
+      "path": "work/deg10/jobs/cont75_verify_cusps.log",
+      "sha256": "dd2efdb1692e56a2a8d2a22fc61e487c65ce968ce81c50b256ebafc4c16ce462",
+      "size": 1312
+    },
+    {
+      "path": "work/deg10/jobs/cont75_verify_cusps.status.json",
+      "sha256": "7f504e3951e70e34966325cd2fe7b2b8408d49083c8947874c0b5a602616963f",
+      "size": 658
+    },
+    {
+      "path": "work/deg10/jobs/cont75_verify_cusps_v2.log",
+      "sha256": "77e34e97a018ed7ebe11df7e6be20396d1b95bb5514f945a1bf449ded75b7ee7",
+      "size": 84
+    },
+    {
+      "path": "work/deg10/jobs/cont75_verify_cusps_v2.status.json",
+      "sha256": "45c0e65bda0ce2eb6b8ad1086ff9f7b122a13ab50ba160c3a978d4370494a276",
+      "size": 670
+    },
+    {
+      "path": "work/deg10/jobs/cont75_verify_finite.log",
+      "sha256": "7f457d0ce4b2359dc02a234f9ad8a3bfde65ef002aadbf2d8e27f93064f4a74c",
+      "size": 1470
+    },
+    {
+      "path": "work/deg10/jobs/cont75_verify_finite.status.json",
+      "sha256": "cf0f0da9d46ae56d3b3d79f655b4ee9ee2b3196d0f50ca2195b8e8e806bcd9e6",
+      "size": 662
+    },
+    {
+      "path": "work/deg10/jobs/cont75_verify_finite_v2.log",
+      "sha256": "43e2e4a576c342537f78ab60ce0b499620e68503ab9ef9ce40af163e9a72a76f",
+      "size": 558
+    },
+    {
+      "path": "work/deg10/jobs/cont75_verify_finite_v2.status.json",
+      "sha256": "bc761a87eed45c794435ee0dba53f09155916cbdde77af75fd3ebca14fbad9da",
+      "size": 674
+    }
+  ],
+  "parent_mathematical_review": "PASS",
+  "source_rank_zero_input": "DEHMZ Theorem3.1; frozen legacy winding computation retained as corroboration",
+  "parent_review_utc": "2026-10-30T20:09:01.905878+00:00"
+}

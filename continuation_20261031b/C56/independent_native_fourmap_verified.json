@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "actual_target_image_classes": 2560,
+  "non_direct_ideal_witnesses": 2490,
+  "direct_factorbase_classes": 70,
+  "actual_two_order_divisor_identities": true,
+  "actual_residue_norms": true,
+  "fresh_native_target_genus": 10,
+  "marker": "D31B_C56_NATIVE_IDEAL_COMPLETE",
+  "status_path": "jobs/d31b_C56_independent_class_ideals.status.json",
+  "files_sha256": {
+    "jobs/d31b_C56_independent_class_ideals.status.json": "fc3c43db5fea8a810bcf6068512cc60fc37acbf524fca4297a2acf4808674176",
+    "jobs/d31b_C56_independent_class_ideals.log": "0d1d9bef7744ae9e09f00a0e651a7ba87164c658baf39b8442c3b932db1b183d",
+    "computations/d31b_C56_independent_class_ideals.m": "815e9d4690f659bca3f3c1d1e37a314e4c1016e3ef90b25f02502956a4043c2c",
+    "continuation_20261031b/C56/independent_native_fourmap_ideals.m": "d1596d3a914ca766dee2fe7c6582a5c028d58c5e3adf68b1a39c576c9b86d4d2",
+    "continuation_20261031b/C56/fourmap_class_witnesses.m": "e8f0b2d049455f92d45f968c0911a775ccf652561385dfdb3f99c89ba942d0b0",
+    "continuation_20261031b/C56/fourmap_witness_snapshot.json": "9da07856be98b95bc4ae811ef325f4fc8a547107c7304d97aa90aa6b3a9160fd"
+  }
+}

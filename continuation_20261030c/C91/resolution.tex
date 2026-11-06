@@ -1,0 +1,159 @@
+\subsection{Excluding order $91$}\label{sec:decic91}
+We prove that $X_1(91)$ has no noncuspidal effective rational divisor of degree $10$.
+Put $X=X_1(91)$. The exact winding calculation shows that the character of
+every winding-zero constituent is trivial on $3$. The winding-quotient
+argument therefore gives
+\[
+ (\langle3\rangle-1)J_1(91)(\mathbb Q)\quad\text{finite}.
+\]
+We do not assume that $J_1(91)(\mathbb Q)$ has rank zero.
+
+We use the normalization
+\[
+ Y=X_1(7)\mathbin{\times}_{X(1)}X_0(13),\qquad
+ Z=X_0(91).
+\]
+The map $X\longrightarrow Y$ sends $(E,P)$ to
+$(E,13P,\langle7P\rangle)$ and has degree $12$.
+The curve $Y$ has genus $23$. Its diamond group over $Z$ has order $3$;
+write $\tau$ for a generator and $\pi:Y\longrightarrow Z$ for the quotient.
+Since $\langle3\rangle$ induces a generator on $Y$, the group
+$(\tau-1)J_Y(\mathbb Q)$ is finite.
+All these curves have good reduction at $2$.
+
+\input{../continuation_20261030c/C91/relative_formal_fibre.tex}
+
+We give an explicit model for the computations. Over $\mathbb F_2(t)$ put
+\[
+ b=t^3-t^2,\quad c=t^2-t,\quad
+ E_t:y^2+(1-c)xy-by=x^3-bx^2.
+\]
+The point $(0,0)$ has order $7$. Put $j_7(t)=j(E_t)$ and
+\[
+ j_{13}(s)=
+ \frac{(s^2+5s+13)(s^4+7s^3+20s^2+19s+1)^3}{s}.
+\]
+The normalization of $j_{13}(s)=j_7(t)$ is $Y_{\mathbb F_2}$.
+Its function field has degree $14$ over $\mathbb F_2(t)$ and genus $23$.
+A generator acts by $\tau(t)=1/(t+1)$ and $\tau(s)=s$.
+The matrices of Cartier and $\tau^*$ have ranks
+\[
+ \operatorname{rank}(\operatorname{Cartier})=21,\qquad
+ \operatorname{rank}(\tau^*-1)=16,\qquad \dim U=14.
+\]
+These statements are checked in the native function field, together with
+$\tau^3=1$ and commutation with Cartier.
+
+\begin{proposition}\label{prop:decic91-exclusion}
+An elliptic curve over a number field of degree $10$ has no point of order $91$.
+\end{proposition}
+\begin{proof}
+Suppose $D$ is a noncuspidal effective rational divisor of degree $10$ on $X$.
+The complete census at $2$ gives no noncuspidal closed point of degree at most $7$,
+three of degree $8$, $144$ of degree $9$, and none of degree $10$.
+Thus the noncuspidal part of $\overline D$ is empty, one degree-$8$ point,
+or one degree-$9$ point.
+Write $A$ for the pushforward of $D$ to $Y$; it is entirely noncuspidal and has degree $10$.
+
+Suppose first that $\overline D$ is entirely cuspidal.
+The source cusp signatures over $\mathbb Q$ and $\mathbb F_2$ are respectively
+\[
+ 1^{36}6^6 12^3 36,
+ \qquad 1^{36}3^{12}12^6.
+\]
+Their possible degree-$10$ pushforwards to $Y$ are supported on three rational
+cusps $c_1,c_2,c_3$ of width $91$ and one cubic cusp $q$ of width $13$.
+All four closed cusps are globally intact at $2$.
+The automorphism $\tau$ cycles the three rational cusps and acts transitively
+on the geometric points of $q$.
+The primitive-column calculation verifies every source cusp norm and the
+complete list of $120$ vectors
+\[
+ C=a_1c_1+a_2c_2+a_3c_3+bq,
+ \qquad a_1+a_2+a_3+3b=10.
+\]
+Put $m=\min(a_1,a_2,a_3)$ and $k=m+b$.
+The maximal pullback part of $C$ is
+\[
+ \pi^*E=m(c_1+c_2+c_3)+bq,
+ \qquad \deg E=k.
+\]
+Hence $C_0=C-\pi^*E$ has degree $10-3k>0$ and is cuspidal.
+For every one of the $120$ vectors, the exact restriction rank of $U$ is
+\[
+ \operatorname{rank}(U|_C)=10-k.
+\]
+The quotient is unramified at these cusps. Lemma~\ref{lem:decic91-relative-formal-fibre}
+therefore implies that $A$ contains $C_0$, a contradiction.
+
+Next suppose $\overline D=P_8+R_2$.
+The three possible $P_8$ have $j=0$ and come from two twists over $\mathbb F_{256}$,
+each with cyclic group of order $273$.
+The order-$3$ elliptic automorphism sends $P$ to $16P$ for the retained
+order-$91$ generator. It therefore sends $13P$ to $2(13P)$ and preserves
+$\langle7P\rangle$. Thus the image on $Y$ is geometrically fixed by $\tau$.
+The fixed locus on $Y_{\mathbb F_2}$ consists of two quadratic points;
+consequently the image of $P_8$ is $4p$, for one of these points $p$.
+The complement $R_2$ pushes forward to an effective degree-$2$ divisor
+on $\{c_1,c_2,c_3\}$.
+
+At each $p$, the tangent eigenvalue of $\tau$ has order $3$.
+The fixed locus therefore gives a unique unramified quadratic lift $P$
+over $\mathbb Z_2$, with $\tau P=P$.
+Put $C=4P+R_2$. The class $(\tau-1)[C-10c_0]$ is cuspidal torsion.
+The maximal pullback part is $3P=\pi^*\pi(P)$; its degree downstairs is $2$.
+For both choices of $p$ and all six possibilities for $R_2$, the exact rank is
+\[
+ \operatorname{rank}(U|_{4p+\overline R_2})=8=10-2.
+\]
+The tame fixed-point case of Lemma~\ref{lem:decic91-relative-formal-fibre}
+implies that $A$ contains $P+R_2$. In particular it contains a cusp, a contradiction.
+
+It remains to exclude $\overline D=P_9+\overline c$, where $c$ is a rational cusp on $X$.
+Put $\sigma=\langle3\rangle^{-1}$ and $A_3=T_3-1-3\langle3\rangle$.
+The operator $A_3$ kills rational torsion. Moreover, for every rational cusp $c$,
+\[
+ T_3c=c+3\langle3\rangle c,
+\]
+so $A_3c=0$ as a divisor.
+Applying $A_3(\sigma-1)$ to $[D-10c_0]$ gives the necessary principal divisor
+\[
+ B=\sigma T_3P_9-T_3P_9-\sigma P_9-2P_9+3\langle3\rangle P_9.
+\]
+This test is independent of the total degree of $D$ once the rational cusp
+complement has been annihilated.
+
+The corrected canonical-ring certificate for $X_1(91)$ checks these same
+$144$ degree-$9$ closed points. It retains four source representatives,
+all $36$ simultaneous target diamond translates and both point conventions,
+giving $288$ tests that include every necessary $B$.
+The canonical space has dimension $265$, and its ordered products span
+$H^0(X,2K_X)$ of dimension $792$.
+For each $B=B^+-B^-$, nonzero canonical sections $F,H$ vanish on $B^+$.
+If $f\in\mathcal L(B)$, then $G=fF$ vanishes on $B^-$ and satisfies
+$GH\in FH^0(X,K_X)$.
+The resulting map
+\[
+ H^0(X,K_X)\longrightarrow
+ H^0(B^-,K_X|_{B^-})\oplus
+ H^0(X,2K_X)/FH^0(X,K_X)
+\]
+is injective in every test: all retained $265\times590$ matrices have rank $265$.
+The source and target points, marked isogenies, canonical identities and jets
+are part of the exact certificate, with independent finite-field and binary
+matrix checks. Hence $B$ is not principal. This excludes the last case.
+\end{proof}
+
+The degree-$10$ evidence is stored in
+\path{continuation_20261030c/C91}.
+The native packet contains the defining field, exact two-generator prime ideals,
+Cartier and diamond matrices, $33$ individual cusp restriction kernels,
+and $12$ mixed CM restriction kernels.
+Independent binary elimination checks all $120$ relative cusp ranks,
+all $12$ CM ranks and all $288$ inherited canonical ranks.
+A second native replay reconstructs the field, all six prime ideals and all
+$45$ differential kernels. It also checks
+$\Phi_{13}(j_{13}(s),j_{13}(1/s))=0$, recomputes Cartier and the diamond action,
+and verifies all relative ranks.
+The inherited canonical-ring data are copied with their source hashes;
+only their degree-$9$ nonprincipality statement is used here.

@@ -1,0 +1,5706 @@
+{
+  "status": "PASS",
+  "input_cases": 111,
+  "removed": 3,
+  "remaining": 108,
+  "removed_case_ids": [
+    1777,
+    1780,
+    1783
+  ],
+  "remaining_case_ids": [
+    5,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    62,
+    7665,
+    7688,
+    7690,
+    7695,
+    7700,
+    14471,
+    14474,
+    14479,
+    14488,
+    14505,
+    21424,
+    21432,
+    21446,
+    21454,
+    21457,
+    24678,
+    25066,
+    27105,
+    28110,
+    28112,
+    28126,
+    28137,
+    28138,
+    28152,
+    28154,
+    28156,
+    28173,
+    32088,
+    33192,
+    33546,
+    34316,
+    35064,
+    35065,
+    35150,
+    35176,
+    35341,
+    35344,
+    35354,
+    35430,
+    35483,
+    35512,
+    35550,
+    35555,
+    35559,
+    35560,
+    35562,
+    35563,
+    35566,
+    35575,
+    35579,
+    35581,
+    35599,
+    35601,
+    35605,
+    35621,
+    35633,
+    35636,
+    35660,
+    35663,
+    37223,
+    37424,
+    37552,
+    39104,
+    39594,
+    39662,
+    39669,
+    39947,
+    40023,
+    40155,
+    40559,
+    49673,
+    50064,
+    50556,
+    50672,
+    50707,
+    51243,
+    51512,
+    52037,
+    52248,
+    52581,
+    52947,
+    53510,
+    53527,
+    53598,
+    54157,
+    54657,
+    55398,
+    55993,
+    56700,
+    56937,
+    57261,
+    57517,
+    57921,
+    59016,
+    59070,
+    59166,
+    60205,
+    60695
+  ],
+  "geometric_cusps": 72,
+  "rational_cusps_at5": 18,
+  "reports": [
+    {
+      "case_id": 5,
+      "noncuspidal_degrees": [
+        4
+      ],
+      "cusp_degree": 6,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 24,
+      "noncuspidal_degrees": [
+        6
+      ],
+      "cusp_degree": 4,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            1,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            0,
+            2,
+            6
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            0,
+            10,
+            6
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 25,
+      "noncuspidal_degrees": [
+        6
+      ],
+      "cusp_degree": 4,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            1,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            2,
+            1,
+            4,
+            6
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            2,
+            1,
+            5,
+            6
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 26,
+      "noncuspidal_degrees": [
+        6
+      ],
+      "cusp_degree": 4,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            1,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            2,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            2,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            2,
+            0,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            2,
+            0,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 27,
+      "noncuspidal_degrees": [
+        6
+      ],
+      "cusp_degree": 4,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            1,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 28,
+      "noncuspidal_degrees": [
+        6
+      ],
+      "cusp_degree": 4,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            1,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 29,
+      "noncuspidal_degrees": [
+        6
+      ],
+      "cusp_degree": 4,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            1,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            0,
+            2,
+            6
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            0,
+            10,
+            6
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 30,
+      "noncuspidal_degrees": [
+        6
+      ],
+      "cusp_degree": 4,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            1,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 31,
+      "noncuspidal_degrees": [
+        6
+      ],
+      "cusp_degree": 4,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            1,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            2,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ]
+        },
+        {
+          "h": [
+            0,
+            2,
+            4,
+            6
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            2,
+            5,
+            6
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 62,
+      "noncuspidal_degrees": [
+        6
+      ],
+      "cusp_degree": 4,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 1777,
+      "noncuspidal_degrees": [
+        9
+      ],
+      "cusp_degree": 1,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            2,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            2,
+            0,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": [
+        {
+          "h": [
+            1,
+            2,
+            4,
+            3
+          ],
+          "reason": "3-primary stabilizer; gonality and no low-degree CM j0 points"
+        },
+        {
+          "h": [
+            2,
+            0,
+            5,
+            3
+          ],
+          "reason": "3-primary stabilizer; gonality and no low-degree CM j0 points"
+        }
+      ]
+    },
+    {
+      "case_id": 1780,
+      "noncuspidal_degrees": [
+        9
+      ],
+      "cusp_degree": 1,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            2,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            2,
+            0,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": [
+        {
+          "h": [
+            1,
+            2,
+            5,
+            3
+          ],
+          "reason": "3-primary stabilizer; gonality and no low-degree CM j0 points"
+        },
+        {
+          "h": [
+            2,
+            0,
+            4,
+            3
+          ],
+          "reason": "3-primary stabilizer; gonality and no low-degree CM j0 points"
+        }
+      ]
+    },
+    {
+      "case_id": 1783,
+      "noncuspidal_degrees": [
+        9
+      ],
+      "cusp_degree": 1,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            2,
+            5,
+            3
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            2,
+            0,
+            4,
+            3
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": [
+        {
+          "h": [
+            1,
+            2,
+            5,
+            3
+          ],
+          "reason": "3-primary stabilizer; gonality and no low-degree CM j0 points"
+        },
+        {
+          "h": [
+            2,
+            0,
+            4,
+            3
+          ],
+          "reason": "3-primary stabilizer; gonality and no low-degree CM j0 points"
+        }
+      ]
+    },
+    {
+      "case_id": 7665,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            2,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 7688,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 7690,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 7695,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 7700,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 14471,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 14474,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 14479,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 14488,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 14505,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 21424,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 21432,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 21446,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 21454,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 21457,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 24678,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 25066,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 27105,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 28110,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 28112,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 28126,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 28137,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 28138,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            2,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 28152,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 28154,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 28156,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 28173,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 32088,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 33192,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 33546,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 34316,
+      "noncuspidal_degrees": [
+        10
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35064,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35065,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35150,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35176,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35341,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35344,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35354,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35430,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            2,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35483,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            2,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ]
+        },
+        {
+          "h": [
+            0,
+            2,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35512,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            2,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35550,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35555,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35559,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35560,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35562,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35563,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35566,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35575,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35579,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            2,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35581,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35599,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35601,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35605,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35621,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35633,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35636,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35660,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 35663,
+      "noncuspidal_degrees": [
+        4,
+        4
+      ],
+      "cusp_degree": 2,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        },
+        {
+          "h": [
+            0,
+            2,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ]
+        },
+        {
+          "h": [
+            0,
+            2,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 37223,
+      "noncuspidal_degrees": [
+        4,
+        5
+      ],
+      "cusp_degree": 1,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 37424,
+      "noncuspidal_degrees": [
+        4,
+        5
+      ],
+      "cusp_degree": 1,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 37552,
+      "noncuspidal_degrees": [
+        4,
+        5
+      ],
+      "cusp_degree": 1,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 39104,
+      "noncuspidal_degrees": [
+        4,
+        6
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 39594,
+      "noncuspidal_degrees": [
+        4,
+        6
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 39662,
+      "noncuspidal_degrees": [
+        4,
+        6
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 39669,
+      "noncuspidal_degrees": [
+        4,
+        6
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 39947,
+      "noncuspidal_degrees": [
+        4,
+        6
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 40023,
+      "noncuspidal_degrees": [
+        4,
+        6
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 40155,
+      "noncuspidal_degrees": [
+        4,
+        6
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 40559,
+      "noncuspidal_degrees": [
+        4,
+        6
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 49673,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 50064,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 50556,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 50672,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 50707,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 51243,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 51512,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 52037,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 52248,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 52581,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 52947,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 53510,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 53527,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 53598,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 54157,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 54657,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 55398,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 55993,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 56700,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 56937,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 57261,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 57517,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            2,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 57921,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 59016,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 59070,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "fixed_rational_cusps": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11
+          ]
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 59166,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 60205,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    },
+    {
+      "case_id": 60695,
+      "noncuspidal_degrees": [
+        5,
+        5
+      ],
+      "cusp_degree": 0,
+      "stabilizers": [
+        {
+          "h": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "fixed_rational_cusps": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13,
+            16,
+            20,
+            23,
+            28,
+            30
+          ]
+        },
+        {
+          "h": [
+            0,
+            1,
+            8,
+            2
+          ],
+          "fixed_rational_cusps": []
+        }
+      ],
+      "cheap_exclusion": []
+    }
+  ],
+  "seconds": 0.8802872528322041
+}

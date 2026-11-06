@@ -1,0 +1,10 @@
+Loading "work/deg10/continuation_20261031b/C66/inputs/F5_rr/input33.m"
+Loading "work/deg10/continuation_20261031b/C66/gonal_cusp_input.m"
+D31B_C66_GONAL_MODEL_READY functions10degree10=true time=21.120
+D31B_C66_GONAL_FIBRE a=0 cuspmass=10 maxNCpairmass=0 time=21.410
+D31B_C66_GONAL_FIBRE a=1 cuspmass=10 maxNCpairmass=0 time=21.800
+D31B_C66_GONAL_FIBRE a=2 cuspmass=0 maxNCpairmass=0 time=22.140
+D31B_C66_GONAL_FIBRE a=3 cuspmass=0 maxNCpairmass=0 time=22.450
+D31B_C66_GONAL_FIBRE a=4 cuspmass=0 maxNCpairmass=0 time=22.760
+D31B_C66_GONAL_FIBRE a=5 cuspmass=10 maxNCpairmass=0 time=23.030
+D31B_C66_GONAL_FIBRE_FILTER_COMPLETE maxima=[ 0, 0, 0, 0, 0, 0 ] time=23.030

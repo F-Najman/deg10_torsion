@@ -1,0 +1,102 @@
+% DRAFT: fresh native jets and finite-sieve completion remain pending.
+% Input work/deg10/next_cases_20261030/dyadic_formal_kernel.tex beforehand.
+\subsection{Excluding a point of order $51$}
+\begin{proposition}\label{prop:decic-no51}
+An elliptic curve over a number field of degree $10$ has no point of order $51$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(51)$ and $J=J_1(51)$. The curve has genus $65$, good
+reduction at $2$, and $\operatorname{rank}J(\mathbb Q)=0$ by
+\cite[Theorem~3.1(2)]{DEHMZ}.
+A proposed torsion point gives a rational effective noncuspidal
+divisor $D$ of degree $10$ on $X$, taking its trace with
+multiplicity if its moduli point is defined over a proper subfield.
+
+Independent exhaustive enumeration of all elliptic curves,
+twists and level structures over $\mathbb F_{2^f}$, $f\leq10$,
+shows that the only noncuspidal closed-point degrees in this
+range are $9$ and $10$. There are respectively $80$ and $64$
+points, forming five and four diamond orbits.
+For every representative $P$, exact Riemann--Roch on the full
+curve gives that
+\[
+ (T_5-1-5\langle5\rangle)P
+\]
+is nonprincipal. The six untouched native $5$-isogenies at
+each representative independently reproduce the finite
+correspondence, including its closed-point degrees and norm
+multiplicities.
+
+The operator $A_5=T_5-1-5\langle5\rangle$ kills $J(\mathbb Q)$,
+by rank zero, Eichler--Shimura at $5$, and injectivity of rational
+torsion reduction at $5$. It kills each rational cusp as a
+literal divisor, by the Tate parametrization and diamond
+transitivity. A degree-$10$ reduction with noncuspidal support
+is one degree-$10$ point or a degree-$9$ point plus a rational
+cusp. Either possibility contradicts the computed
+nonprincipality. Thus $\overline D$ is entirely cuspidal.
+
+The cusp signature at $2$ is $1^{16},2^8,8^4$; the $j$-map has
+degree $1152$. Put
+\[
+ U=(\mathcal C-1)H^0(X_{\mathbb F_2},\Omega^1),\qquad\dim U=62.
+\]
+We verify that restriction from $U$ has rank $10$ at every
+cuspidal effective divisor of degree $10$.
+The existing common-basis native completion data provide jets
+through multiplicities $8$, $4$, and $1$ at the rational,
+quadratic, and octic cusps respectively. These restrictions are
+independent of the total degree of the divisor.
+An independent binary replay checks all $9655880$ degree-$10$
+divisors satisfying these individual bounds, and every rank is $10$.
+The omitted divisors are exactly
+\[
+ 10P,\qquad9P+Q\ (P\ne Q),\qquad5R,
+\]
+with $P,Q$ rational cusps and $R$ quadratic. There are
+$16+16\cdot15+8=264$ of them.
+
+The diamond $\langle5\rangle$ is transitive on the $16$ rational
+cusps and on the eight quadratic cusps, as checked on primitive
+Tate cusp labels. Thus it suffices to fix $P$ and check $10P$,
+the fifteen divisors $9P+Q$, and one divisor $5R$.
+Fresh exact native completions give the restrictions through
+order ten at $P$ and order five at $R$, with enough precision
+for every coefficient used. The ranks for $10P$ and $5R$ are $10$.
+
+To combine the new ninth-order jet with the recorded first-order
+jets at the other rational cusps, we identify the differential
+bases explicitly. Let $C_{\rm old},C_{\rm new}$ be the two Cartier
+matrices, and let $W_{\rm old},W_{\rm new}$ be the kernels of
+restriction at $8P$. The equations
+\[
+ C_{\rm old}T=TC_{\rm new},\qquad
+ W_{\rm old}T\subseteq W_{\rm new}
+\]
+have a one-dimensional solution space over $\mathbb F_2$.
+Its nonzero matrix $T$ is invertible and takes the old Cartier
+image to the new one. A geometric solution exists after a
+diamond identifies the two choices of rational base cusp.
+Uniqueness therefore proves that the computed transition is
+correct up to that diamond. It transports the complete set of
+rational first-order restrictions, so all fifteen mixed ranks
+are checked in a single basis. Each is $10$.
+An independent binary calculation checks the dimension-one
+intertwiner space, its invertibility, the anchor and Cartier-image
+identities, every transported restriction, and all seventeen
+new ranks. Hence all
+\[
+ [t^{10}](1-t)^{-16}(1-t^2)^{-8}(1-t^8)^{-4}=9656144
+\]
+cuspidal divisors satisfy the formal-immersion condition.
+
+Apply Corollary~\ref{cor:dyadic-Cartier-formal-immersion} to the
+endomorphism $T_2-\langle2\rangle$ of the full Jacobian.
+The etale cuspidal lift $C$ of $\overline D$ is a
+$\mathbb Q_2$-rational divisor, lifting every closed cusp with
+its full Frobenius orbit. The classes $[D-10c_0]$ and
+$[C-10c_0]$ are torsion by rank zero over $\mathbb Q$ and
+Manin--Drinfeld, respectively. Thus $[D-C]\in J(\mathbb Q_2)$
+is torsion and reduces to zero. The verified rank condition
+forces $D=C$, a contradiction.
+\end{proof}

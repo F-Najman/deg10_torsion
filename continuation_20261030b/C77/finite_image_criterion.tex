@@ -1,0 +1,43 @@
+\begin{lemma}\label{lem:decic77-finite-image-Cartier}
+Let $Y/\mathbb Q$ be an odd-level modular curve or diamond quotient,
+with good reduction at $2$, finite etale cyclotomic cuspidal
+boundary, and a rational cusp $c_0$.
+Suppose that $T_2$ and $\delta=\langle2\rangle$ descend to its
+Jacobian $J$, satisfy Eichler--Shimura, and $T_2J(\mathbb Q)$ is
+finite. Put
+\[
+ U=\mathcal C(\mathcal C-1)H^0(Y_{\mathbb F_2},\Omega^1).
+\]
+If restriction from $U$ has rank $d$ at an effective cuspidal
+divisor $\overline C$ of degree $d$, no rational noncuspidal
+effective divisor of degree $d$ on $Y$ reduces to $\overline C$.
+\end{lemma}
+\begin{proof}
+Let $C$ be the etale cuspidal lift of $\overline C$.
+Each closed residue cusp is lifted by its unramified local trace,
+so $C$ is a divisor over $\mathbb Q_2$ even when its individual
+geometric cusps are not rational over $\mathbb Q_2$.
+Suppose that $D$ is a proposed rational divisor.
+The class
+\[
+ T_2[D-C]=T_2[D-dc_0]-T_2[C-dc_0]
+\]
+is torsion by the finite-image hypothesis and Manin--Drinfeld.
+It belongs to $J(\mathbb Q_2)$ and reduces to zero.
+Lemma~\ref{lem:dyadic-formal-Hecke-kernel} gives
+\[
+ (T_2-\delta)T_2[D-C]=0.
+\]
+The morphism from $Y^{(d)}$ to the full Jacobian, given by
+$E\mapsto(T_2-\delta)T_2[E-dc_0]$, therefore has the same value
+at $D$ and $C$.
+On the special fibre its cotangent image is
+\[
+ (\delta^*)^2\mathcal C(\mathcal C-1)H^0(\Omega^1)=U.
+\]
+Here Frobenius has zero differential, Verschiebung pulls back
+as Cartier, and the invertible map $\delta^*$ commutes with Cartier.
+The restriction condition gives formal immersion at $\overline C$.
+Thus the two local sections coincide, contradicting the
+noncuspidal support of $D$.
+\end{proof}

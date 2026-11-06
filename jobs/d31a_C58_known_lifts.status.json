@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C58_known_lifts",
+  "script": "computations/d31a_C58_known_lifts.m",
+  "script_sha256": "076f9180f428375afc9e953b80b24dc0a1d0e853779b322edc42c30834158706",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C58_known_lifts.m"
+  ],
+  "pid": 2818259,
+  "owner_uid": 1001,
+  "start_time_unix": 1793402692.1243978,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31a_C58_known_lifts.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.06380200386047363
+}

@@ -1,0 +1,161 @@
+{
+  "source": "Read-only degree8 software snapshot, independent degree9 copy for Frobenius similarity-class counts",
+  "files": [
+    {
+      "path": "shared/sutherland-magma-current/.gitignore",
+      "sha256": "2163a46411ad81cb25bf2494d0702d316bfe4028883ed9faf755f9acb0d506a2"
+    },
+    {
+      "path": "shared/sutherland-magma-current/LICENSE",
+      "sha256": "17d40e7907ede450b898ed8ccbc4d99e43b6c1708416827b3b530ba038a39cbf"
+    },
+    {
+      "path": "shared/sutherland-magma-current/README.md",
+      "sha256": "977d96bb37e98ffee630fe49cdc6b18b7376d57d5e030733dd583c4472fd5876"
+    },
+    {
+      "path": "shared/sutherland-magma-current/chars.m",
+      "sha256": "b38aa570240f66e2c8473433a1b81677848fd635df7435b74ab187118c4fe2bd"
+    },
+    {
+      "path": "shared/sutherland-magma-current/chars.sig",
+      "sha256": "f0e5f088f9c77b1977e3d45f740af5a3ad1f4ad789a844a9b29fc0d7af025968"
+    },
+    {
+      "path": "shared/sutherland-magma-current/genus1.m",
+      "sha256": "0a9379c44b9e1d1138e90dec3db05db9013c1487aab42a8a1d86c6806a81fce1"
+    },
+    {
+      "path": "shared/sutherland-magma-current/genus1.sig",
+      "sha256": "ff679e3e2a88c8cf14bce7a95ae480732e98de463c5b2b9a82a86bf46e102ade"
+    },
+    {
+      "path": "shared/sutherland-magma-current/genus2euler.m",
+      "sha256": "e33e8fe4811e6e4c791b7900094bce9364f47c00bff83ef8a2a272a1714eda2a"
+    },
+    {
+      "path": "shared/sutherland-magma-current/genus2euler.sig",
+      "sha256": "c74d178b43e9b98596c96369ccbb1251b931dd18d8eb53e9dde7d7313a8843b6"
+    },
+    {
+      "path": "shared/sutherland-magma-current/gl2base.m",
+      "sha256": "b2712b3550883b6108cbfa8fd1a5b45326da30ba5f0ad3baa6deb1bb4a7eb85a"
+    },
+    {
+      "path": "shared/sutherland-magma-current/gl2base.sig",
+      "sha256": "300c75a8d32ccb7bc259cb474b9102145903327dbbf8b072b9708b0360fbe4e5"
+    },
+    {
+      "path": "shared/sutherland-magma-current/gl2points.m",
+      "sha256": "85fa066b8761da083b6c7a02aed64341c08db5aec01d0065b5e3b8f950936b9d"
+    },
+    {
+      "path": "shared/sutherland-magma-current/gl2points.sig",
+      "sha256": "030dccb78853afa47228d6288e287d937b788675b81e40dc1944239e2f890e99"
+    },
+    {
+      "path": "shared/sutherland-magma-current/gl2tab.m",
+      "sha256": "acf2c9de21ff22475f6a3a89d540190882260bf22c1f4959d09b07999a84bb49"
+    },
+    {
+      "path": "shared/sutherland-magma-current/gl2tab.sig",
+      "sha256": "877946aaef21a27ca9d4b370e2483fbad5a6675d7a82961c38bc897521250855"
+    },
+    {
+      "path": "shared/sutherland-magma-current/magma.spec",
+      "sha256": "1ff264abbb7bc209fbfb4ee6873317bc8910d53d9156d9f6c316ad8ca522b9f0"
+    },
+    {
+      "path": "shared/sutherland-magma-current/mfdims.m",
+      "sha256": "aa079e94a10a5c4c883f7c745a6e33af7370a73ecbdbf780de9418df8a69678d"
+    },
+    {
+      "path": "shared/sutherland-magma-current/mfdims.sig",
+      "sha256": "c4ab2bc0afa7bfd05e02a4a3332660c45754cb2e475205a8fe29be0bd22b7bca"
+    },
+    {
+      "path": "shared/sutherland-magma-current/mfutils.m",
+      "sha256": "78462f6f61b3fbb45fae593e0730388503a794187bd9a6081b6c301dea8589f1"
+    },
+    {
+      "path": "shared/sutherland-magma-current/mfutils.sig",
+      "sha256": "3cf0944ebc76dc929c1221a253f46a251ffa44550150b3a04cb3e13b0e13b8d4"
+    },
+    {
+      "path": "shared/sutherland-magma-current/polredabs.m",
+      "sha256": "c1a5fdd3619731db45b9894856999bd6ba02254cfd9feaa316d8ec0f193e0228"
+    },
+    {
+      "path": "shared/sutherland-magma-current/polredabs.sig",
+      "sha256": "807aeb185378abdbe5c00eab517c647454360834f2725c0e8b50847d47ed208a"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/README.md",
+      "sha256": "aa908666d8f516925e02620828021cb0be48a00e8041ef4b20227cdd5aaf94e2"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/run_tests.sh",
+      "sha256": "4fbb2ce2dbf0d5231509921668a0d7c18853f3ed83505018441524c689d530db"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_chars.m",
+      "sha256": "160307692374e586c8ead8e77a388b1a459ba6d3287d1cfd058f9f70a8fec210"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_genus1.m",
+      "sha256": "a3b2b182aa4443da8afb70e9f5ad3807fa4b4954d5d5ed6fe69e04bf1a1b1f30"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_genus2euler.m",
+      "sha256": "5437d24a504384f46bb30857364b6f2e99c581de8b51989ec0b514321d46a114"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_gl2base.m",
+      "sha256": "2b074b545a056a72dada08a3ec034b8b422440fc28f9f8f75bc3c60edcaa4c0c"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_gl2points.m",
+      "sha256": "3efc84b1e90152038cd40738c8681b2d3094649074fc7d082a1f4e597a3f9f35"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_gl2tab.m",
+      "sha256": "d21d2c28152478675b5c0fc1a74e4b33a7643f22bcdee6d1a16889b07f52daf5"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_mfdims.m",
+      "sha256": "5747b45783b4df087eba89ad421cf6923a912964d61176c255a0376f37e00273"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_mfutils.m",
+      "sha256": "6d331175aa471b11284f89abf318ad88dd9bb7bbc90924a81e533f0953f193d0"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_polredabs.m",
+      "sha256": "c23d715e0279ab8e6c05fce6393fb0945369314fcbf65a397d35005f58b17daa"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_tracehash.m",
+      "sha256": "0235cc7e244490be534a9743428c2d82ba4150577906f0ee51e25a2c671e7a44"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tests/test_utils.m",
+      "sha256": "b41691879b1a65182ef2a5024ed0859d6236b88f0ec48f9c1e13dbb917f8037a"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tracehash.m",
+      "sha256": "c3210aae7bb294a11be4b5858a142046cc54cb15de4101452329fccbd0584aa1"
+    },
+    {
+      "path": "shared/sutherland-magma-current/tracehash.sig",
+      "sha256": "709a7dc2bd525d26d20af10bf3b6d14cf111af5820fec4a11ec3cc604f81f325"
+    },
+    {
+      "path": "shared/sutherland-magma-current/utils.m",
+      "sha256": "93dff63b9acef78eac08d07a3769f48d9697c7bfe0c2303d0b3bb4cb56480f73"
+    },
+    {
+      "path": "shared/sutherland-magma-current/utils.sig",
+      "sha256": "567c35ed655c6c1027f7bff5bd6c44409af7d7ea9b4f78c4ffb54a3c2921aa20"
+    }
+  ]
+}

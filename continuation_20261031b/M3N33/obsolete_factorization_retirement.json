@@ -1,0 +1,50 @@
+{
+  "purpose": "Retire redundant positive-genus cubic factorization; modular degree proves irreducibility and replacement has constructed the same cubic field with Check=false",
+  "status_before": {
+    "purpose": "d31b_m333_cover_preflight",
+    "script": "computations/d31b_m333_cover_preflight.m",
+    "script_sha256": "94616c7c513682018c94601ffd807089572f59de6bdebbc8829952dc2af9a33e",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_cover_preflight.m"
+    ],
+    "pid": 3477354,
+    "owner_uid": 1001,
+    "start_time_unix": 1793433984.7417533,
+    "state": "RUNNING",
+    "time_limit_seconds": 750,
+    "log": "jobs/d31b_m333_cover_preflight.log"
+  },
+  "verified_identity": {
+    "pid": 3477354,
+    "uid": 1001,
+    "start_time_unix": 1793433984.13,
+    "command": [
+      "/opt/magma-2.30-1/magma.exe",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_cover_preflight.m"
+    ],
+    "exe": "/opt/magma-2.30-1/magma.avx2.exe"
+  },
+  "actual_exit_code": -15,
+  "status_after": {
+    "purpose": "d31b_m333_cover_preflight",
+    "script": "computations/d31b_m333_cover_preflight.m",
+    "script_sha256": "94616c7c513682018c94601ffd807089572f59de6bdebbc8829952dc2af9a33e",
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_cover_preflight.m"
+    ],
+    "pid": 3477354,
+    "owner_uid": 1001,
+    "start_time_unix": 1793433984.7417533,
+    "state": "EXITED",
+    "time_limit_seconds": 750,
+    "log": "jobs/d31b_m333_cover_preflight.log",
+    "actual_exit_code": -15,
+    "termination_reason": null,
+    "elapsed_seconds": 340.91290402412415
+  }
+}

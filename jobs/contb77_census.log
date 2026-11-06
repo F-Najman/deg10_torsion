@@ -1,0 +1,13 @@
+C77_CENSUS_DEGREE d=1 qualifying=0 jorbits=0 NCclosed=0 groups={@ @} cpu=0.000
+C77_CENSUS_DEGREE d=2 qualifying=0 jorbits=0 NCclosed=0 groups={@ @} cpu=0.000
+C77_CENSUS_DEGREE d=3 qualifying=0 jorbits=0 NCclosed=0 groups={@ @} cpu=0.000
+C77_CENSUS_DEGREE d=4 qualifying=0 jorbits=0 NCclosed=0 groups={@ @} cpu=0.000
+C77_CENSUS_DEGREE d=5 qualifying=0 jorbits=0 NCclosed=0 groups={@ @} cpu=0.000
+C77_CENSUS_DEGREE d=6 qualifying=0 jorbits=0 NCclosed=0 groups={@ @} cpu=0.010
+C77_CENSUS_DEGREE d=7 qualifying=0 jorbits=0 NCclosed=0 groups={@ @} cpu=0.030
+C77_CENSUS_DEGREE d=8 qualifying=0 jorbits=0 NCclosed=0 groups={@ @} cpu=0.090
+C77_CENSUS_DEGREE d=9 qualifying=0 jorbits=0 NCclosed=0 groups={@ @} cpu=0.360
+C77_CENSUS_DEGREE d=10 qualifying=30 jorbits=3 NCclosed=90 groups={@
+[ 1078 ]
+@} cpu=1.380
+C77_CENSUS_COMPLETE counts=[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 90 ] records=3 cpu=1.380

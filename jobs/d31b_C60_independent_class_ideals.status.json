@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C60_independent_class_ideals",
+  "script": "continuation_20261031b/C60/d31b_C60_independent_class_ideals.m",
+  "script_sha256": "756a4cb3b9b467d6c233078e2041d514d1c768b7b503df96630c0796bb7f9d9a",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C60/d31b_C60_independent_class_ideals.m"
+  ],
+  "pid": 3503475,
+  "owner_uid": 1001,
+  "start_time_unix": 1793435128.5641448,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/d31b_C60_independent_class_ideals.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 222.47345662117004
+}

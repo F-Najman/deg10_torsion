@@ -1,0 +1,80 @@
+% Standalone fragment for the degree-ten X_1(2,42) argument.
+% This proof uses no finite-field enumeration or computational certificate.
+\begin{lemma}\label{lem:decic242-no-j0}
+Let $K$ be a number field, and let $E/K$ be an elliptic curve
+with $j(E)=0$. If $E(K)$ contains a subgroup isomorphic to
+$C_2\times C_{42}$, then $[K:\mathbb Q]\geq12$.
+\end{lemma}
+\begin{proof}
+Suppose that $[K:\mathbb Q]<12$ and that such a subgroup exists.
+Choose $Q\in E(K)$ of order $42$. Write $E$ as $y^2=x^3+B$, where $B\in K^*$.
+Full rational $2$-torsion makes the discriminant $-27B^2$ of
+$x^3+B$ a square in $K$. Hence
+\[
+ M=\mathbb Q(\sqrt{-3})\subseteq K,
+ \qquad [K:M]\leq5.
+\]
+Put $\zeta=(-1+\sqrt{-3})/2$. The automorphism
+$(x,y)\mapsto(\zeta x,y)$ is defined over $K$, and all
+endomorphisms in $\mathbb Z[\zeta]$ are therefore defined over $K$.
+
+We first show that $E$ has good reduction at every prime of $K$
+above $7$. Multiplicative reduction is impossible, since $j(E)=0$
+is integral. If the reduction were additive, prime-to-$7$ torsion
+would inject into the geometric component group, whose order is
+at most $4$. This contradicts the point $7Q$ of order $6$.
+Thus the reduction is good.
+
+In $\mathbb Z[\zeta]$ we have
+\[
+ 7=\lambda\overline\lambda,
+ \qquad \lambda=3+\zeta,
+ \qquad \overline\lambda=3+\zeta^2,
+ \qquad \lambda+\overline\lambda=5.
+\]
+The ideals $(\lambda)$ and $(\overline\lambda)$ are distinct
+primes of $M$ above $7$. Put $S=6Q$, which has order $7$.
+At least one of $\lambda S$ and $\overline\lambda S$ is nonzero,
+since their sum is $5S$. Choose
+$\alpha\in\{\lambda,\overline\lambda\}$ such that
+\[
+ R=\overline\alpha S\ne0.
+\]
+Then $R\in E[\alpha](K)$ has order $7$.
+
+Both primes of $M$ above $7$ have primes above them in $K$.
+Hence we may choose a prime $v$ of $K$ above $(\alpha)$,
+whichever nonzero component $R$ was chosen. Put $L=K_v$.
+We normalize its valuation by $v_L(L^*)=\mathbb Z$, and write
+$e=v_L(7)$. Since $7$ splits in $M$,
+\[
+ e\leq[L:\mathbb Q_7]\leq[K:M]\leq5.
+\]
+The isogeny $[\alpha]$ has degree $7$. Its reduction also has
+degree $7$, and its differential is zero, since its multiplier
+on invariant differentials is $\alpha$. Hence its reduction is
+purely inseparable. It follows that $R$ reduces to the identity
+and belongs to the formal group of $E/L$.
+The conjugate isogeny $[\overline\alpha]$ has unit differential
+at $v$. Its reduction is separable of degree $7$, so the good
+reduction is ordinary.
+
+Let $t$ be the formal parameter of $R$. Then $t\ne0$ and
+$s=v_L(t)$ is a positive integer. For the ordinary formal group,
+write
+\[
+ [7](T)=7T+a_2T^2+\cdots+a_6T^6+a_7T^7+\cdots.
+\]
+Here $a_i\in7\mathcal O_L$ for $2\leq i\leq6$, and
+$a_7\in\mathcal O_L^*$.
+Indeed, the identity $[7]^*\omega=7\omega$ for an integral
+invariant differential gives $[7]^{\prime}(T)\in7\mathcal O_L[[T]]$.
+This proves the divisibility of $a_2,\ldots,a_6$; the unit
+condition on $a_7$ is the height-one condition.
+In the equality $[7](t)=0$, the only terms which can have minimal
+valuation are $7t$ and $a_7t^7$. Consequently
+\[
+ e+s=7s,\qquad e=6s\geq6.
+\]
+This contradicts $e\leq5$.
+\end{proof}

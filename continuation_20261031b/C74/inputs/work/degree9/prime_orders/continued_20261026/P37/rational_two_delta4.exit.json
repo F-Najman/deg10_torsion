@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-10-26T11:31:01.702817+00:00",
+  "worker_pid": 1728000,
+  "worker_start_ticks": 182127909,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "N:=37",
+    "Qs:=3,5,7,11",
+    "Power:=2",
+    "DiamondOrder:=9",
+    "MatrixFile:=work/degree9/prime_orders/continued_20261026/P37/rational_two_delta4_matrices.m",
+    "work/degree9/prime_orders/continued_20261026/deck/rational_two_diamond.m"
+  ],
+  "actual_cmdline": [
+    "/bin/sh",
+    "/usr/local/bin/magma",
+    "-b",
+    "N:=37",
+    "Qs:=3,5,7,11",
+    "Power:=2",
+    "DiamondOrder:=9",
+    "MatrixFile:=work/degree9/prime_orders/continued_20261026/P37/rational_two_delta4_matrices.m",
+    "work/degree9/prime_orders/continued_20261026/deck/rational_two_diamond.m"
+  ],
+  "wall_seconds": 10.000852104043588,
+  "cpu_seconds": 0.0,
+  "state": "R",
+  "wall_cap_seconds": 3600,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T11:31:11.703673+00:00",
+  "termination_reason": null
+}

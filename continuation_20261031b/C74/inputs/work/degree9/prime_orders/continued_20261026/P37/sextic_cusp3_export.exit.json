@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-26T11:42:25.676375+00:00",
+  "worker_pid": 1745432,
+  "worker_start_ticks": 182196306,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P37/sextic_cusp3_export.m"
+  ],
+  "actual_cmdline": [
+    "/opt/magma-2.30-1/magma.exe",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P37/sextic_cusp3_export.m"
+  ],
+  "wall_seconds": 320.09833473106846,
+  "cpu_seconds": 177.64,
+  "state": "R",
+  "wall_cap_seconds": 10800,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T11:47:45.774712+00:00",
+  "termination_reason": null
+}

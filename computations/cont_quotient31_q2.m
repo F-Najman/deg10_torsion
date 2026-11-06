@@ -1,0 +1,15 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(5*10^9);tt:=Cputime();
+AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");
+k:=GF(2);X:=MDX1(31,k);C:=Curve(X);assert Genus(C) eq 26;FF:=FunctionField(C);E:=EllipticCurve(X`_E);P:=E!X`_P;
+xy2:=TateNormalForm_xy(E,2*P);xy16:=TateNormalForm_xy(E,16*P);
+phi:=iso<C->C|[xy2[1],xy2[2],FF!1],[xy16[1],xy16[2],FF!1]:Check:=false>;
+G:=AutomorphismGroup(C,[phi]);assert #G eq 5;print "DECIC_Y31_AUT",Cputime(tt);
+Y,pi:=CurveQuotient(G);assert Degree(pi) eq 5 and Genus(Y) eq 6;
+print "DECIC_Y31_MODEL",2,DefiningEquations(Y),Cputime(tt);
+cs:={};for c in Cusps(X) do pp:=Support(Pushforward(pi,Divisor(c)));assert #pp eq 1;Include(~cs,pp[1]);end for;
+cs:=Setseq(cs);print "DECIC_Y31_CUSPS",2,[Degree(c):c in cs],Cputime(tt);
+places:=[Places(Y,d):d in [1,2]];print "DECIC_Y31_PLACE_COUNTS",2,[#ps:ps in places],Cputime(tt);
+c0:=[c:c in cs|Degree(c) eq 1][1];A:=AlgorithmicFunctionField(FunctionField(Y));H,_,mp:=ClassGroup(A:ReductionDivisor:=FunctionFieldDivisor(Divisor(c0)),Proof:=true);
+print "DECIC_Y31_CLASSGROUP",2,Invariants(H),Cputime(tt);
+Write("work/deg10/continuation_20261029/quotient31_q2_model.txt",Sprint([*DefiningEquations(Y),[Degree(c):c in cs],Invariants(H)*]));
+print "DECIC_Y31_QUOTIENT_COMPLETE",2,Cputime(tt);quit;

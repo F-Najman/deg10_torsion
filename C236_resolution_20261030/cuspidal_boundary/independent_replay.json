@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "period_kernel_rebuilt": true,
+  "rank": 35,
+  "geometric_cusps": 64,
+  "prime": 5,
+  "norm_bound": 104,
+  "PARI_short_vector_pairs": 24552,
+  "positive_degree_histogram": {
+    "20": 240,
+    "18": 148,
+    "24": 2886,
+    "16": 15,
+    "28": 4158,
+    "32": 2277,
+    "34": 864,
+    "26": 2988,
+    "30": 3120,
+    "36": 264,
+    "31": 1152,
+    "33": 768,
+    "22": 552,
+    "29": 2016,
+    "27": 1600,
+    "23": 384,
+    "21": 496,
+    "25": 528,
+    "38": 48,
+    "35": 48
+  },
+  "positive_degree_10_vectors": 0,
+  "two_fibre_norm_bounds": [
+    104,
+    92,
+    82,
+    74,
+    68,
+    78,
+    76
+  ]
+}

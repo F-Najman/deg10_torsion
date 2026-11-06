@@ -1,0 +1,11 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C56_fourmap_filter_v3.m", line 1, column 144:
+>> shared/mdmagma/v2/mdmagma.spec");load "work/deg10/continuation_20261031a/C5
+                                    ^
+User error: Could not open file "work/deg10/continuation_20261031a/C56/inputs/portable_images.m" (No such file or directory)
+Loading "work/deg10/continuation_20261031a/C56/inputs/pair_af_place_linear.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C56_fourmap_filter_v3.m", line 8, column 247:
+>> v):v in a[7]];ph,witness:=C240PortableDirectRR(F,fb,fc,G,A,root cat "fourma
+                             ^
+User error: Identifier 'C240PortableDirectRR' has not been declared or assigned

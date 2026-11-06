@@ -1,0 +1,350 @@
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=33 degree=0 class=[ 0, 2, 0, 0, 1, 0, 6, 2, 26, 72, 105, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=18 degree=0 class=[ 2, 1, 1, 1, 1, 2, 6, 7, 3, 30, 165, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=24 degree=0 class=[ 0, 2, 1, 2, 1, 2, 5, 7, 36, 51, 273, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=23 degree=0 class=[ 2, 1, 2, 2, 0, 1, 5, 2, 31, 89, 290, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_RETRY trials=50 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=51 degree=0 class=[ 1, 0, 2, 0, 2, 2, 4, 4, 54, 102, 314, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=34 degree=0 class=[ 2, 1, 0, 0, 0, 0, 3, 8, 39, 108, 280, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=7 degree=0 class=[ 0, 1, 1, 2, 0, 1, 1, 6, 61, 95, 262, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=35 degree=0 class=[ 2, 0, 2, 2, 0, 1, 4, 1, 47, 42, 294, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 2, 0, 1, 2, 1, 1, 2, 7, 40, 7, 205, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=33 degree=0 class=[ 2, 2, 2, 1, 2, 0, 4, 2, 22, 24, 156, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=24 degree=0 class=[ 0, 1, 0, 2, 0, 2, 1, 4, 39, 80, 331, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=24 degree=0 class=[ 2, 1, 0, 1, 2, 2, 3, 2, 21, 97, 267, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 0, 1, 1, 0, 2, 0, 1, 4, 7, 48, 251, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=17 degree=0 class=[ 2, 2, 2, 0, 2, 1, 2, 4, 40, 121, 188, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_RETRY trials=50 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=57 degree=0 class=[ 1, 0, 0, 0, 2, 0, 0, 0, 17, 27, 37, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 2, 1, 2, 2, 2, 1, 4, 8, 61, 36, 23, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=19 degree=0 class=[ 2, 2, 2, 0, 0, 2, 5, 6, 43, 71, 214, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 2, 2, 0, 1, 2, 0, 7, 0, 41, 111, 92, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=6 degree=0 class=[ 0, 0, 2, 1, 2, 2, 5, 4, 1, 14, 147, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 2, 1, 1, 0, 0, 1, 8, 1, 23, 19, 194, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=4 degree=0 class=[ 0, 1, 2, 1, 2, 2, 1, 8, 26, 120, 372, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=12 degree=0 class=[ 0, 0, 0, 2, 1, 0, 2, 0, 40, 121, 188, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=12 degree=0 class=[ 2, 0, 0, 2, 1, 1, 6, 0, 50, 100, 295, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=33 degree=0 class=[ 0, 1, 0, 0, 1, 0, 2, 7, 35, 121, 92, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=5 degree=0 class=[ 1, 2, 1, 2, 1, 2, 7, 1, 22, 10, 25, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=28 degree=0 class=[ 0, 2, 1, 1, 2, 1, 0, 8, 13, 109, 130, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_RETRY trials=50 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=53 degree=0 class=[ 0, 2, 2, 2, 2, 2, 8, 0, 4, 17, 133, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=35 degree=0 class=[ 1, 1, 2, 0, 1, 0, 4, 2, 40, 116, 294, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=21 degree=0 class=[ 1, 0, 2, 1, 0, 2, 0, 4, 9, 17, 184, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=37 degree=0 class=[ 2, 0, 1, 0, 1, 0, 8, 7, 50, 52, 319, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 0, 2, 0, 0, 0, 2, 3, 2, 21, 67, 216, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=6 degree=0 class=[ 0, 1, 0, 0, 2, 1, 1, 3, 57, 18, 78, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=15 degree=0 class=[ 0, 0, 1, 0, 1, 0, 1, 6, 4, 123, 167, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=18 degree=0 class=[ 0, 1, 1, 1, 2, 2, 7, 0, 16, 74, 58, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=11 degree=0 class=[ 1, 0, 0, 2, 1, 0, 6, 0, 35, 80, 229, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=23 degree=0 class=[ 1, 2, 2, 2, 2, 0, 5, 0, 34, 88, 287, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=9 degree=0 class=[ 2, 1, 0, 1, 1, 2, 4, 7, 21, 5, 168, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=10 degree=0 class=[ 1, 1, 2, 0, 2, 1, 5, 5, 16, 21, 266, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=15 degree=0 class=[ 2, 1, 1, 1, 1, 2, 2, 3, 56, 118, 8, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=8 degree=0 class=[ 1, 0, 1, 1, 1, 0, 3, 5, 61, 111, 228, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=12 degree=0 class=[ 1, 1, 1, 2, 1, 1, 0, 2, 48, 62, 373, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 2, 0, 1, 1, 1, 1, 8, 2, 16, 74, 110, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=7 degree=0 class=[ 1, 1, 2, 2, 2, 1, 1, 0, 54, 13, 295, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=33 degree=0 class=[ 1, 0, 2, 2, 1, 2, 7, 0, 19, 120, 345, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=8 degree=0 class=[ 0, 0, 2, 0, 2, 2, 3, 7, 25, 13, 254, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_RETRY trials=50 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=58 degree=0 class=[ 0, 1, 1, 0, 1, 2, 8, 4, 18, 117, 308, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=14 degree=0 class=[ 0, 2, 0, 1, 2, 2, 7, 6, 6, 41, 281, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 0, 1, 1, 1, 0, 2, 2, 1, 57, 47, 277, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=23 degree=0 class=[ 2, 0, 2, 1, 0, 0, 6, 1, 31, 31, 115, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=9 degree=0 class=[ 0, 1, 1, 0, 1, 0, 0, 7, 20, 2, 47, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=9 degree=0 class=[ 2, 2, 2, 1, 2, 0, 4, 7, 54, 54, 206, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=12 degree=0 class=[ 1, 1, 2, 2, 2, 1, 4, 0, 2, 30, 318, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=29 degree=0 class=[ 1, 1, 0, 2, 0, 1, 2, 1, 53, 111, 247, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=7 degree=0 class=[ 2, 1, 0, 1, 2, 1, 3, 0, 5, 33, 32, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=31 degree=0 class=[ 2, 2, 1, 0, 2, 0, 4, 0, 48, 70, 296, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 2, 2, 0, 2, 0, 1, 6, 1, 54, 73, 0, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=9 degree=0 class=[ 2, 1, 1, 0, 0, 0, 5, 2, 2, 89, 201, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=11 degree=0 class=[ 2, 0, 1, 2, 0, 2, 0, 1, 23, 89, 291, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=12 degree=0 class=[ 2, 1, 1, 2, 0, 2, 8, 2, 23, 94, 64, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 1, 1, 2, 2, 2, 1, 0, 6, 37, 96, 248, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 1, 1, 0, 0, 2, 1, 4, 0, 56, 46, 103, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=4 degree=0 class=[ 1, 0, 2, 2, 2, 2, 6, 7, 50, 115, 289, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=28 degree=0 class=[ 1, 1, 0, 1, 0, 1, 5, 2, 27, 13, 107, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=31 degree=0 class=[ 1, 0, 0, 2, 1, 1, 8, 0, 10, 74, 265, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=48 degree=0 class=[ 1, 1, 0, 0, 2, 2, 7, 6, 10, 59, 135, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=35 degree=0 class=[ 0, 0, 1, 0, 1, 0, 2, 6, 16, 78, 121, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 2, 2, 1, 0, 2, 2, 8, 7, 37, 67, 257, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 0, 1, 0, 2, 2, 1, 1, 7, 9, 58, 360, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_RETRY trials=50 both_orders_exact=true
+DIRECT_RR_RETRY trials=60 both_orders_exact=true
+DIRECT_RR_RETRY trials=70 both_orders_exact=true
+DIRECT_RR_RETRY trials=80 both_orders_exact=true
+DIRECT_RR_RETRY trials=90 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=100 degree=0 class=[ 2, 1, 1, 1, 0, 2, 0, 1, 26, 38, 63, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=12 degree=0 class=[ 0, 2, 2, 0, 1, 2, 7, 7, 50, 44, 139, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=18 degree=0 class=[ 2, 0, 0, 2, 0, 2, 5, 8, 1, 62, 87, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=7 degree=0 class=[ 1, 2, 0, 1, 2, 0, 3, 5, 22, 104, 336, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=26 degree=0 class=[ 2, 0, 2, 0, 1, 2, 7, 1, 61, 67, 181, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=8 degree=0 class=[ 2, 2, 0, 2, 1, 2, 2, 4, 23, 113, 120, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 0, 0, 0, 0, 1, 1, 6, 1, 34, 29, 333, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=15 degree=0 class=[ 0, 2, 0, 1, 2, 2, 4, 0, 36, 7, 169, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=7 degree=0 class=[ 1, 0, 0, 2, 1, 0, 1, 2, 42, 37, 308, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=25 degree=0 class=[ 1, 2, 0, 2, 1, 0, 2, 6, 53, 41, 182, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=6 degree=0 class=[ 0, 0, 0, 0, 2, 2, 3, 5, 13, 91, 225, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=6 degree=0 class=[ 0, 0, 2, 1, 0, 0, 7, 0, 15, 87, 181, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 0, 0, 0, 1, 0, 0, 4, 1, 2, 5, 310, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=9 degree=0 class=[ 1, 0, 0, 0, 2, 0, 5, 2, 33, 11, 334, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=23 degree=0 class=[ 2, 0, 1, 2, 2, 0, 6, 2, 38, 118, 53, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=31 degree=0 class=[ 1, 0, 2, 1, 1, 1, 7, 2, 6, 62, 338, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=4 degree=0 class=[ 2, 0, 2, 0, 1, 0, 5, 5, 42, 74, 248, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=4 degree=0 class=[ 1, 1, 1, 0, 0, 0, 8, 2, 16, 68, 110, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=4 degree=0 class=[ 1, 1, 1, 1, 1, 2, 0, 5, 59, 23, 287, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=28 degree=0 class=[ 0, 1, 1, 2, 2, 0, 1, 5, 17, 49, 274, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=34 degree=0 class=[ 2, 1, 2, 2, 0, 0, 6, 0, 57, 68, 183, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 0, 1, 0, 2, 0, 1, 2, 4, 11, 67, 49, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=10 degree=0 class=[ 2, 0, 2, 1, 0, 2, 2, 8, 24, 101, 101, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 0, 2, 0, 2, 0, 2, 8, 5, 8, 46, 123, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 0, 2, 2, 0, 0, 1, 7, 3, 43, 28, 151, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 1, 1, 2, 1, 0, 0, 6, 5, 44, 2, 35, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=6 degree=0 class=[ 2, 0, 1, 1, 2, 1, 3, 0, 21, 100, 264, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=9 degree=0 class=[ 1, 2, 0, 0, 2, 0, 4, 2, 4, 119, 122, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 1, 0, 1, 2, 2, 1, 5, 4, 3, 13, 351, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=5 degree=0 class=[ 0, 2, 0, 0, 0, 0, 7, 1, 55, 48, 246, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=49 degree=0 class=[ 0, 0, 2, 0, 1, 1, 0, 1, 51, 41, 140, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=9 degree=0 class=[ 2, 0, 1, 2, 1, 1, 4, 6, 32, 82, 225, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=27 degree=0 class=[ 1, 0, 1, 1, 0, 1, 7, 6, 24, 34, 265, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=11 degree=0 class=[ 2, 0, 1, 1, 2, 2, 5, 6, 41, 33, 126, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=21 degree=0 class=[ 1, 2, 0, 2, 0, 0, 5, 1, 56, 58, 209, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=17 degree=0 class=[ 1, 1, 0, 2, 2, 0, 7, 7, 19, 76, 368, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=19 degree=0 class=[ 2, 1, 0, 2, 0, 2, 0, 1, 6, 75, 268, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=21 degree=0 class=[ 2, 1, 1, 1, 1, 1, 5, 3, 39, 26, 220, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=32 degree=0 class=[ 2, 0, 0, 0, 2, 0, 3, 3, 14, 2, 255, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=8 degree=0 class=[ 2, 1, 1, 0, 1, 1, 7, 2, 37, 122, 42, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 0, 0, 2, 0, 0, 1, 5, 8, 61, 62, 290, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=34 degree=0 class=[ 0, 2, 2, 1, 1, 1, 4, 6, 18, 46, 367, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=26 degree=0 class=[ 1, 0, 1, 1, 1, 2, 3, 2, 58, 88, 289, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_RETRY trials=50 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=59 degree=0 class=[ 2, 1, 0, 1, 2, 2, 3, 3, 2, 108, 155, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=11 degree=0 class=[ 1, 0, 2, 1, 1, 1, 3, 6, 29, 33, 90, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=14 degree=0 class=[ 2, 1, 1, 0, 1, 0, 4, 1, 35, 21, 185, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 1, 0, 0, 0, 0, 2, 1, 1, 48, 52, 77, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 2, 2, 2, 0, 0, 0, 0, 3, 55, 64, 372, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=9 degree=0 class=[ 1, 2, 0, 1, 0, 0, 2, 6, 17, 26, 128, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 0, 1, 0, 1, 1, 2, 3, 5, 29, 53, 195, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=6 degree=0 class=[ 1, 2, 2, 0, 0, 0, 3, 7, 33, 116, 52, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=8 degree=0 class=[ 0, 0, 2, 2, 0, 0, 1, 4, 50, 74, 209, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=18 degree=0 class=[ 1, 2, 0, 2, 1, 0, 6, 0, 60, 85, 319, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=15 degree=0 class=[ 1, 2, 2, 0, 0, 0, 2, 0, 7, 40, 127, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=29 degree=0 class=[ 2, 1, 1, 2, 1, 2, 0, 3, 35, 48, 260, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 0, 0, 0, 0, 2, 0, 2, 1, 59, 115, 207, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=33 degree=0 class=[ 0, 0, 0, 1, 0, 2, 1, 2, 9, 123, 116, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=23 degree=0 class=[ 1, 0, 2, 0, 2, 1, 1, 0, 58, 59, 356, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=28 degree=0 class=[ 0, 2, 0, 0, 2, 1, 3, 4, 27, 75, 179, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=28 degree=0 class=[ 2, 0, 1, 1, 2, 2, 6, 7, 36, 65, 362, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_RETRY trials=50 both_orders_exact=true
+DIRECT_RR_RETRY trials=60 both_orders_exact=true
+DIRECT_RR_RETRY trials=70 both_orders_exact=true
+DIRECT_RR_RETRY trials=80 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=83 degree=0 class=[ 2, 1, 2, 0, 1, 2, 6, 8, 9, 11, 190, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=15 degree=0 class=[ 0, 1, 2, 1, 2, 1, 3, 4, 49, 66, 149, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=8 degree=0 class=[ 2, 0, 1, 2, 2, 0, 6, 5, 43, 108, 148, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=8 degree=0 class=[ 2, 2, 1, 1, 2, 2, 5, 1, 35, 0, 310, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=22 degree=0 class=[ 1, 0, 2, 0, 0, 2, 1, 1, 16, 109, 141, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=5 degree=0 class=[ 1, 0, 2, 0, 2, 1, 1, 0, 39, 69, 278, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=11 degree=0 class=[ 0, 1, 0, 2, 2, 2, 8, 1, 23, 100, 220, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 0, 1, 2, 2, 1, 0, 7, 1, 42, 125, 159, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=16 degree=0 class=[ 1, 0, 2, 2, 0, 0, 2, 5, 47, 124, 103, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 1, 1, 1, 2, 0, 2, 7, 3, 15, 32, 83, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 2, 0, 2, 0, 0, 2, 8, 5, 35, 57, 350, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=29 degree=0 class=[ 1, 0, 1, 2, 1, 1, 2, 5, 44, 29, 46, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=3 degree=0 class=[ 1, 2, 1, 1, 0, 2, 0, 2, 39, 68, 165, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=43 degree=0 class=[ 1, 0, 0, 0, 2, 2, 3, 3, 30, 97, 366, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=9 degree=0 class=[ 1, 0, 1, 2, 1, 1, 6, 5, 42, 52, 25, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=32 degree=0 class=[ 0, 1, 2, 1, 1, 2, 5, 0, 49, 25, 339, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=23 degree=0 class=[ 2, 1, 1, 2, 2, 1, 3, 5, 3, 16, 110, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=2 degree=0 class=[ 1, 0, 0, 2, 0, 1, 3, 1, 14, 77, 228, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=11 degree=0 class=[ 1, 0, 0, 0, 1, 2, 4, 1, 22, 55, 365, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_RETRY trials=30 both_orders_exact=true
+DIRECT_RR_RETRY trials=40 both_orders_exact=true
+DIRECT_RR_RETRY trials=50 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=58 degree=0 class=[ 1, 1, 1, 1, 0, 1, 5, 1, 33, 34, 309, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=20 degree=0 class=[ 2, 0, 2, 2, 2, 0, 8, 4, 52, 123, 357, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=9 degree=0 class=[ 0, 2, 1, 2, 0, 0, 2, 8, 47, 35, 100, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=22 degree=0 class=[ 1, 1, 2, 0, 2, 1, 2, 2, 38, 82, 108, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=25 degree=0 class=[ 1, 0, 0, 0, 2, 0, 7, 5, 49, 20, 158, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=1 degree=0 class=[ 1, 0, 1, 1, 1, 2, 2, 7, 29, 50, 351, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=10 degree=0 class=[ 0, 0, 0, 0, 0, 2, 1, 4, 23, 99, 159, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=10 both_orders_exact=true
+DIRECT_RR_RETRY trials=20 both_orders_exact=true
+DIRECT_RR_CLASS_IDENTITY trials=29 degree=0 class=[ 1, 1, 1, 0, 2, 2, 7, 0, 25, 14, 326, 0 ] Edegree=10 Rdegree=10 both_orders_exact=true

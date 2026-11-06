@@ -1,0 +1,29 @@
+\begin{proposition}\label{prop:nonic-no899}
+An elliptic curve over a number field of degree $9$ has no point of order $899$.
+\end{proposition}
+\begin{proof}
+The complete winding computation for $J_1(899)$ has total dimension
+$32761=g(X_1(899))$. All character components have full winding submodule
+except possibly characters with orders in
+$\{1\}$.
+The diamond $\langle3\rangle$ has projective order $420$, coprime
+to every nontrivial exceptional character order. Thus each exceptional
+character is trivial at $3$, and Kato's theorem gives that
+$(\langle3\rangle-1)J_1(899)(\mathbb Q)$ is finite.
+The high-order character components are certified by full-rank $T_2$
+Krylov matrices modulo splitting primes. Every coefficient denominator
+is invertible at the chosen prime; hence full rank holds in characteristic zero.
+The complete dimension sum, the character evaluations, and every serialized
+Krylov matrix are checked independently in the accompanying certificate.
+
+Apply \cite[Proposition~4.4]{DN} at $q=3$, with $k_3=7$.
+The exact modular index is $I_{899}=403200$, and
+\[
+ 9k_3=63<\frac{325\cdot403200}{32768}
+       \leq\operatorname{gon}_{\mathbb C}X_1(899).
+\]
+The least degree of a CM point is $1680>9$.
+The trace divisor of a hypothetical degree-nine torsion point therefore
+has non-CM support and is stable under this diamond.
+Its free action would force $420\mid9$, a contradiction.
+\end{proof}

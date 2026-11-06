@@ -1,0 +1,53 @@
+{
+  "level": 85,
+  "only_possible_positive_factors": [
+    {
+      "dimension": 2,
+      "newlevel": 85,
+      "T2_characteristic": [
+        -1,
+        2,
+        1
+      ],
+      "T3_characteristic": [
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "dimension": 2,
+      "newlevel": 85,
+      "T2_characteristic": [
+        1,
+        2,
+        1
+      ],
+      "T3_characteristic": [
+        2,
+        2,
+        1
+      ]
+    }
+  ],
+  "k2": [
+    -1,
+    0,
+    4,
+    4,
+    1
+  ],
+  "k3": [
+    4,
+    12,
+    12,
+    6,
+    1
+  ],
+  "mu_dyadic_operator": "T2mu-1",
+  "mod2_operators": [
+    "(T2-1)(T2^4+1)",
+    "(T2-1)T3^4"
+  ],
+  "frozen_source": "inputs/FI_positive_data.m"
+}

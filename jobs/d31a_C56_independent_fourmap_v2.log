@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C56_independent_fourmap_v2.py", line 20, in <module>
+    R=PolynomialRing(K,'X');X=R.gen();T2=28*P;phi=E.isogeny(X-T2[0]);EE=phi.codomain();Q=phi(P);assert isok(EE,Q)and(Q[0],Q[1])==(P[0]+(P+T2)[0]-T2[0],P[1]+(P+T2)[1]-T2[1]);dual=phi.dual();assert dual(Q)==2*P
+                                                                                                                                                                                  ^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/schemes/elliptic_curves/ell_curve_isogeny.py", line 3266, in dual
+    raise NotImplementedError("computation of dual isogenies not yet implemented in characteristics 2 and 3")
+NotImplementedError: computation of dual isogenies not yet implemented in characteristics 2 and 3

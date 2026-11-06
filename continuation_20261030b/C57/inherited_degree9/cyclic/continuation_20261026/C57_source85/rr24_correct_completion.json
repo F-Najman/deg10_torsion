@@ -1,0 +1,9 @@
+{
+  "actual_exit_code": 0,
+  "wall_seconds": 1.231173972133547,
+  "wall_limit": 7200,
+  "wall_timeout": false,
+  "cpu_hard": 1800,
+  "memory_budget": 4000000000,
+  "complete": true
+}

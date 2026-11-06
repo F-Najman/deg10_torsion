@@ -1,0 +1,9 @@
+Loading "work/deg10/C236_resolution_20261030/geometry/genus9_stage2_common.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/deps/portable_forward.m"
+Loading "work/deg10/C236_resolution_20261030/geometry/quotient9_projection_helpers.m"
+
+In file "work/deg10/C236_resolution_20261030/geometry/genus9_stage2_common.m", line 11, column 172:
+>> Divisor(DP(a[12]));coords:=[GFUN(v):v in a[7]];H:=sub<G|[q(Zn!v):v in a[13]
+                                                                ^
+Runtime error in '!': Sequence argument length (6) should be 7 to be coerced into a matrix or vector
+

@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_46_boundary_completion",
+  "script": "computations/d31a_46_boundary_completion.m",
+  "script_sha256": "3a0f9f5e4bf240871f5a21198a887d0b4c51bdd7cbadae3379e0b962debfd1a0",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_46_boundary_completion.m"
+  ],
+  "pid": 2798095,
+  "owner_uid": 1001,
+  "start_time_unix": 1793401756.2970898,
+  "state": "EXITED",
+  "time_limit_seconds": 780,
+  "log": "jobs/d31a_46_boundary_completion.log",
+  "actual_exit_code": -14,
+  "termination_reason": null,
+  "elapsed_seconds": 650.0591795444489
+}

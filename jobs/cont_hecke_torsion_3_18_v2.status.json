@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_hecke_torsion_3_18_v2",
+  "script": "computations/cont_hecke_torsion_3_18_v2.m",
+  "script_sha256": "21047c1c92a4499bd8ff79e4c544eef2189f8f3a3da8efb642d7eec847f64fd2",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_hecke_torsion_3_18_v2.m"
+  ],
+  "pid": 378070,
+  "owner_uid": 1001,
+  "start_time_unix": 1793290264.749339,
+  "state": "EXITED",
+  "time_limit_seconds": 360,
+  "log": "jobs/cont_hecke_torsion_3_18_v2.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 51.134870529174805
+}

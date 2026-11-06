@@ -1,0 +1,92 @@
+[
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/proof_generator_principal_eight_A7_function.txt",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_principal_eight_A7_function.txt",
+    "sha256": "cffe32193029b6de285ce7a19f8cab355c225846c50a59a5241e65eca1390aa7",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/proof_generator_point_data.txt",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_point_data.txt",
+    "sha256": "1d880bc9fb982b162c1437aac0b25ea0cc41f12d706da748310801efbbd71105",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/proof_generator_hom_arithmetic.txt",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_hom_arithmetic.txt",
+    "sha256": "e5a0a852683206fdb223dc56ba3f4701d8fa17fb8eb7f2ddec9e98e89665db41",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/proof_generator_hecke_arithmetic.txt",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_hecke_arithmetic.txt",
+    "sha256": "31d6487c6cb924c4fca1b3d356ed60787d8d0e512f57cad26cf416d20cf309d9",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/proof_generator_kernel_arithmetic.txt",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_kernel_arithmetic.txt",
+    "sha256": "b5dca278309172930ef6d0dbf16f7484f325f8fe2d2ceba61d6ead2196ce62e9",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/proof_generator_completion.json",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_completion.json",
+    "sha256": "a8d87f048e980ed615e4d10ad812a38c39be2b15fd2d84c46670885b8bd6c1db",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/proof_generator_sage_certificate.json",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator_sage_certificate.json",
+    "sha256": "6ab018b0396ef6f6803314a1dcf826ebe79e26e36cb67b258e243368ce428041",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/proof_generator.log",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/proof_generator.log",
+    "sha256": "234444fad1da67e35abf50193016710083e0a2a7e9d5b519b4e137650a6f84ac",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/replay_proof_generator_sage.py",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/replay_proof_generator_sage.py.archived.txt",
+    "sha256": "f8d95a369a0748fd3aff0507ea73fbc40a367e11138a36bb76f3788af5c29263",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/tate_cusp_alignment.py",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/tate_cusp_alignment.py.archived.txt",
+    "sha256": "4af26928be8cec8d2002a5bfabd06cd8d6f322948a03cae63be7f1f9e39648f7",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/tate_cusp_alignment.log",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/tate_cusp_alignment.log",
+    "sha256": "525dfa622213bc04e5f69c778b56158dd9d223ea1d552a143fe507fbf153a495",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/jacobian_kernel_full_control.m",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/jacobian_kernel_full_control.m.archived.txt",
+    "sha256": "fc42a06b090df59d74818263965a0d8c97c7dd0f80a10114cd78c12d6ed5ca53",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/jacobian_kernel_full_control.log",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/jacobian_kernel_full_control.log",
+    "sha256": "edf0fe01b921f944fa7d56eb7c601fe332f2b7bf334cde809ed2ce4070165f3d",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/jacobian_kernel_fullcontrol_hecke_arithmetic.txt",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/jacobian_kernel_fullcontrol_hecke_arithmetic.txt",
+    "sha256": "7c10b84568d03f516927fe813a1f19fb7164e07cc8d7cda5e119b674e6771be4",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  },
+  {
+    "source": "work/degree9/noncyclic/C236_completion_20261026/diagonal_quotient/finite_A7_hom_arithmetic.txt",
+    "snapshot": "work/deg10/C236_resolution_20261030/geometry/quotient9_accepted_evidence/finite_A7_hom_arithmetic.txt",
+    "sha256": "e5a0a852683206fdb223dc56ba3f4701d8fa17fb8eb7f2ddec9e98e89665db41",
+    "mode": "verbatim accepted archived evidence; source scripts are read-only snapshots"
+  }
+]

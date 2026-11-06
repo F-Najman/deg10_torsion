@@ -1,0 +1,7 @@
+DATABASE_ELL_MODEL N=87 ell=29 genus=2 good_reduction=true j_degree=30 time=0.040
+X0_3ELL_MODEL N=87 genus=9 degree_over_X0ell=4 integral_coordinates_ready=true time=0.740
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b87_base_test_v2.m", line 95, column 98:
+>> lianGroup(E);iv:=Invariants(G);if iv[#iv] mod87 ne0 then continue;end if;
+                                             ^
+User error: bad syntax

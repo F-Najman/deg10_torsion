@@ -1,0 +1,9 @@
+C232_INDEPENDENT_SIEVE_DEGREE 6 192 8 1.4917429946362972
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_replay_sieve.py", line 43, in <module>
+    s=read('source'+str(d)+'.m');assert s[0]==d and s[2];K=GF(3**d,'z',modulus=R(s[1]));z=K.gen();seen=set();total=Counter();n=0
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next232_replay_sieve.py", line 8, in read
+    def read(n):return ast.literal_eval((P/n).read_text().replace('[*','[').replace('*]',']').replace('true','True').replace('false','False'))
+                                         ~^~
+TypeError: unsupported operand type(s) for /: 'EllipticCurvePoint_finite_field' and 'str'

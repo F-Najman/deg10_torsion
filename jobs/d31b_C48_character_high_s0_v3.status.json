@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C48_character_high_s0_v3",
+  "script": "continuation_20261031b/C48/d31b_C48_character_high_s0_v3.m",
+  "script_sha256": "4dd895c1681588c18414e32970083165915e93acdcd296b22ec1fec046b4dead",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_character_high_s0_v3.m"
+  ],
+  "pid": 3472327,
+  "owner_uid": 1001,
+  "start_time_unix": 1793433742.414221,
+  "state": "EXITED",
+  "time_limit_seconds": 1050,
+  "log": "jobs/d31b_C48_character_high_s0_v3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 43.47609329223633
+}

@@ -1,0 +1,144 @@
+{
+  "status": "PASS: all final native checks",
+  "full_X142_Hecke_divisors_with_h0_zero": 9,
+  "case26_quotient_quadratic_candidates": 2,
+  "case26_patterns": 24,
+  "case26_character_spaces_replayed": 72,
+  "case26_all_character_dimensions": [
+    1,
+    0,
+    0
+  ],
+  "native_checks": "Rebuild all function fields and maximal orders. Reconstruct prime ideals and divisors. Check all finite and infinite saved module bases against native bases by both integral transition matrices. Recompute every Riemann--Roch dimension. Independently recompute Kummer resolvent and character divisors.",
+  "mathematical_audit": "The residual C3 cover is obtained from the level7 cubic after adjoining zeta3, with w^3=(A+3(zeta-zeta^2)D)/2, A^2-4D^3=-27D^2, and 3v-s=w+D/w. Character decomposition gives the three recorded spaces. Unique section on the degree18 pullback and odd-prime torsion injectivity force hD=D and hC=C, contradicting the free action on a degree4 cusp divisor.",
+  "evidence": [
+    {
+      "path": "computations/cont242_final_native_common.m",
+      "sha256": "1b70a6a4698ef28d3c40e31b936211dd978a0d175fe18f8c672aa7e10aa7ca4b"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/selected_native_replay_cases.m",
+      "sha256": "f2dc18e4f11dbb415b455b6f61a87b2dd8eda0aa8c643623c66b1c3db5375e9c"
+    },
+    {
+      "path": "computations/cont242_final_native_A11pure.m",
+      "sha256": "9fe10f8c3eac9f5a00dbbbf9857886e0d55ea79e348c3922bed6a9acc2c39e08"
+    },
+    {
+      "path": "jobs/cont242_final_native_A11pure.status.json",
+      "sha256": "1a895732a7dd2a0484b0a5f55657cff3373e0f22a5371750b0078bfac07726b3"
+    },
+    {
+      "path": "jobs/cont242_final_native_A11pure.log",
+      "sha256": "56691ff0cbf45eeed205c470fc7a38f5049de38615c9f29e0b40814b7570e2c0"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A11pure/parent_native_RR_replay.m",
+      "sha256": "3a07af9e69412378f7f651f781ce1259aca480a49ec59014b1db2319b37f8cfa"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A11pure/model_bases.m",
+      "sha256": "68760c78d2691ce8659e7e65a4bff5488bb90dfdd0eed4414c4153b01f808ff0"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A11pure/ideal_basis_case33546_map1.m",
+      "sha256": "5e2027622f764bc5c55233ae944d6e7ee3f7511e44583dceca86892600ec60f3"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A11pure/ideal_basis_case39662_map1.m",
+      "sha256": "f20bb34fcd5f7d1fa020e4f9161f7c4d3ecddc579fe570ca7555182b647c4abe"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A11pure/ideal_basis_case39669_map1.m",
+      "sha256": "670e12f8a30fcd0d80d25817a0049add0f85925a2b8513dd831d0a4f9d87c815"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A11pure/ideal_basis_case56937_map1.m",
+      "sha256": "6ff302c575b0158fcc481ded5fcd65acaebbfb20002e9253ffa91ec6a631c485"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A11pure/ideal_basis_case59070_map1.m",
+      "sha256": "79a14e65fd22ad773333ae84a0f55f23aa238aee2c2fd8bf054ab72b6d18dbdd"
+    },
+    {
+      "path": "computations/cont242_final_native_A17s0.m",
+      "sha256": "3515c56dcf10cdf4ae6ddbd856ccbe73896273feb299ab294bc4b00df2e0c3ed"
+    },
+    {
+      "path": "jobs/cont242_final_native_A17s0.status.json",
+      "sha256": "9b72c4fad007242011a7dcac1c4f2b360d42909f753cccb355aa08fa1cac32ac"
+    },
+    {
+      "path": "jobs/cont242_final_native_A17s0.log",
+      "sha256": "4af32c08f3bbebbeb0c0197049f18f94823ceb7bb0fb8e0c64c9f7242bf87be7"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A17s0/parent_native_RR_replay.m",
+      "sha256": "5c8b6a01d3be07f11a49c87eacb501b8863d988ffb1131582df6590ae05d4aca"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A17s0/model_bases.m",
+      "sha256": "68760c78d2691ce8659e7e65a4bff5488bb90dfdd0eed4414c4153b01f808ff0"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A17s0/ideal_basis_case35579_map2.m",
+      "sha256": "f367a63cc92faf56bad6b88216a83a0f109b81dfbab5e0af870f399aa98304ec"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A17s0/ideal_basis_case35633_map1.m",
+      "sha256": "bd4c9fa039fd9224f253e8a1e00b0cb24a2e0d8604ebc107a7022cd9aa64cd13"
+    },
+    {
+      "path": "computations/cont242_final_native_A17s1.m",
+      "sha256": "cff35c022ea4af8de757a94e548121509cc8a790e4c4cb6aa6c256bc7a29a558"
+    },
+    {
+      "path": "jobs/cont242_final_native_A17s1.status.json",
+      "sha256": "169741721385308b8914b5628d5fe7954307e41a885c96cc7522aa5b2a3fdf5a"
+    },
+    {
+      "path": "jobs/cont242_final_native_A17s1.log",
+      "sha256": "aa4e7654bea0c2054e5f0bffaac9dcfdd58ff23829fa13c2a4e9e1415ad091ec"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A17s1/parent_native_RR_replay.m",
+      "sha256": "4546ee75dd25db2fb51ab474b63dcaeb1bad159de4405cbe65fa91e964dce712"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A17s1/model_bases.m",
+      "sha256": "68760c78d2691ce8659e7e65a4bff5488bb90dfdd0eed4414c4153b01f808ff0"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A17s1/ideal_basis_case35341_map1.m",
+      "sha256": "1d2234b0a8d341394ec151d33eadf05b1aadb2ab5fa44e5a18dc47315235984f"
+    },
+    {
+      "path": "next_cases_20261030/C242/direct_hecke17/A17s1/ideal_basis_case35601_map1.m",
+      "sha256": "70ae8d120625ab3093625bc2ee062611ae0fe05e386a457c8d24b1f063ec6522"
+    },
+    {
+      "path": "computations/cont242_case26_parent_native.m",
+      "sha256": "24f4c6b63c7240f5757282b0a02a03e128bb2ca0faa751cab39fdbf7cfdabbad"
+    },
+    {
+      "path": "jobs/cont242_case26_parent_native.status.json",
+      "sha256": "08070050c46617be78fec9eafc78b0eac5f7c41288202f06365bc29d923245c2"
+    },
+    {
+      "path": "jobs/cont242_case26_parent_native.log",
+      "sha256": "1dba649eddae8e04a3e7b00198763ca71ddec963988d58a286debae605433186"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/case26_section_model.m",
+      "sha256": "b90d812fd8a5950771363daf91df6c9fbc8ff2c4fe05e6d21dd1e112a6d27781"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/case26_section_RR.m",
+      "sha256": "14d29b394c96900b3d79e01e576b304b2af9ee5250e7bef9111e1433bbc90a99"
+    },
+    {
+      "path": "next_cases_20261030/C242/geometry/case26_parent_native_replay.m",
+      "sha256": "944d2fc46dd1ec1e32543df55717dcfd96aa160cb1321b26856b65602f4a97be"
+    }
+  ]
+}

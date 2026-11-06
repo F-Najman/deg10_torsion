@@ -1,0 +1,58 @@
+[
+  {
+    "descriptor": [
+      1,
+      10,
+      54
+    ],
+    "stabilizers_ts_i_ts_j_14kQ": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        5
+      ]
+    ],
+    "first_forgetful_images": [
+      [
+        10,
+        1
+      ]
+    ]
+  },
+  {
+    "descriptor": [
+      2,
+      5,
+      1,
+      5,
+      19
+    ],
+    "stabilizers_ts_i_ts_j_14kQ": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        5
+      ]
+    ],
+    "first_forgetful_images": [
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ]
+  }
+]

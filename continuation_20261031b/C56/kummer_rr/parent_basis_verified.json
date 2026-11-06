@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "cases": [
+    [
+      65,
+      11,
+      96,
+      72,
+      60,
+      72,
+      60
+    ],
+    [
+      271,
+      5,
+      60,
+      36,
+      24,
+      36,
+      24
+    ],
+    [
+      327,
+      5,
+      60,
+      36,
+      24,
+      36,
+      24
+    ],
+    [
+      491,
+      5,
+      60,
+      36,
+      24,
+      36,
+      24
+    ],
+    [
+      578,
+      5,
+      60,
+      36,
+      24,
+      36,
+      24
+    ],
+    [
+      818,
+      5,
+      60,
+      36,
+      24,
+      36,
+      24
+    ],
+    [
+      837,
+      5,
+      60,
+      36,
+      24,
+      36,
+      24
+    ],
+    [
+      978,
+      5,
+      60,
+      36,
+      24,
+      36,
+      24
+    ],
+    [
+      1009,
+      5,
+      60,
+      36,
+      24,
+      36,
+      24
+    ]
+  ],
+  "all_base_primes_exact": true,
+  "all_functions_satisfy_both_order_pole_bounds": true,
+  "all_bases_independent_over_F3": true,
+  "complete_dimensions_verified_by_Riemann_Roch_and_canonical_degree_zero_test": true,
+  "jobs": [
+    {
+      "status_path": "jobs/d31b_C56_parent_basis_v3_s0.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C56_PARENT_BASE_BASIS_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_C56_parent_basis_v3_s1.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C56_PARENT_BASE_BASIS_COMPLETE"
+    },
+    {
+      "status_path": "jobs/d31b_C56_parent_basis_v3_s2.status.json",
+      "actual_exit_code": 0,
+      "accepted_completion_marker": "D31B_C56_PARENT_BASE_BASIS_COMPLETE"
+    }
+  ],
+  "files_sha256": {
+    "computations/d31b_C56_parent_basis_common_v3.m": "aceec467baa129ee5baed0ef2f08ebc743e3c632849d04bade858a93d087dbad",
+    "computations/d31b_C56_parent_basis_v3_s0.m": "57894cabaa5d533ade9e354f37d429b8a9fa5f6e665fcaef26cd819ec5fed463",
+    "computations/d31b_C56_parent_basis_v3_s1.m": "203d86735a5a05ac93d750d4aba6f55b72db38e6411ad1c60058e8b8b2377046",
+    "computations/d31b_C56_parent_basis_v3_s2.m": "89419d865d48a75a4b0e780b5f9a089c62529002510c0c870355185153ba0ec0",
+    "continuation_20261031b/C56/kummer_rr/direct_case1009_A5_basis.m": "536fe17f6a30cd57d7b5437b8176afaf9b8e90938bde7e5b1621da17b0da7031",
+    "continuation_20261031b/C56/kummer_rr/direct_case1009_A5_model_snapshot.m": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "continuation_20261031b/C56/kummer_rr/direct_case1009_A5_result.m": "8d60ad190f8889d2596cac577151db2bd89cd9ca891689ca59f2f1aee827737e",
+    "continuation_20261031b/C56/kummer_rr/direct_case271_A5_basis.m": "bfc4047149a91802a898a4d5ac0a4dfe48a0873212d7a072a9b0865a1fc55f04",
+    "continuation_20261031b/C56/kummer_rr/direct_case271_A5_model_snapshot.m": "e8c619302bcda03fcdebe7b1798baac2bf6de58550e61174561e74e2deae48cc",
+    "continuation_20261031b/C56/kummer_rr/direct_case271_A5_result.m": "67de7d1dbd0524d5f68b4e2f8bd61105329ae5a8460cbba2f0788c11ce4d531a",
+    "continuation_20261031b/C56/kummer_rr/direct_case327_A5_basis.m": "9096bdc52e29ae50aafda8644c17d8162895690e068825e12d7b81fdf2fa9e21",
+    "continuation_20261031b/C56/kummer_rr/direct_case327_A5_model_snapshot.m": "e8c619302bcda03fcdebe7b1798baac2bf6de58550e61174561e74e2deae48cc",
+    "continuation_20261031b/C56/kummer_rr/direct_case327_A5_result.m": "b95b5030d3e062ee5fe0c1a1255f32511d5dbedfe523f6401c347b0458658920",
+    "continuation_20261031b/C56/kummer_rr/direct_case491_A5_basis.m": "736c5bcc3bb0658c5cd6d99ca47f00cc17678d2bd1a86d70fc16d4cdb3ead08d",
+    "continuation_20261031b/C56/kummer_rr/direct_case491_A5_model_snapshot.m": "e8c619302bcda03fcdebe7b1798baac2bf6de58550e61174561e74e2deae48cc",
+    "continuation_20261031b/C56/kummer_rr/direct_case491_A5_result.m": "3bb10211ae2f2a7e6e97d6b27e681ba64f90a23ef06acb9600cb5e0b477190aa",
+    "continuation_20261031b/C56/kummer_rr/direct_case578_A5_basis.m": "5d1a3e9f8309fed91dda921eb801d0f0f078e6444b0b430e8d2ac4048e91b8b7",
+    "continuation_20261031b/C56/kummer_rr/direct_case578_A5_model_snapshot.m": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "continuation_20261031b/C56/kummer_rr/direct_case578_A5_result.m": "9c3695f1a1ade12348331a5034415fdf56e2c6534d6f87835631bbf919f2f9bc",
+    "continuation_20261031b/C56/kummer_rr/direct_case65_A11_basis.m": "f8b0b9cacd4240a80ea8d4eb488d91d1a73537bddf8e801aa19279f34518d3b4",
+    "continuation_20261031b/C56/kummer_rr/direct_case65_A11_model_snapshot.m": "e8c619302bcda03fcdebe7b1798baac2bf6de58550e61174561e74e2deae48cc",
+    "continuation_20261031b/C56/kummer_rr/direct_case65_A11_result.m": "6e50e0139bf4fabffb17e1fc1442311535ed80e6077bad7851fd6dc3d71f1b0e",
+    "continuation_20261031b/C56/kummer_rr/direct_case818_A5_basis.m": "dbc4f9d874ef7cfc8609eabb8669b567ecc8f7742480a5a7528edf01c8a548df",
+    "continuation_20261031b/C56/kummer_rr/direct_case818_A5_model_snapshot.m": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "continuation_20261031b/C56/kummer_rr/direct_case818_A5_result.m": "6f660adb24f19438561ded65efbd6424227d339a05cccdb19e64aae05b62d5c2",
+    "continuation_20261031b/C56/kummer_rr/direct_case837_A5_basis.m": "34e7dcb9ae0e51b8e88f42d9f6e67b55851bcdfb2627974672cfd7fe8d14c466",
+    "continuation_20261031b/C56/kummer_rr/direct_case837_A5_model_snapshot.m": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "continuation_20261031b/C56/kummer_rr/direct_case837_A5_result.m": "8686075363337c90c930e5306b2da0afbb13ac96be00878c5bf2e5ba34be9ec4",
+    "continuation_20261031b/C56/kummer_rr/direct_case978_A5_basis.m": "536fe17f6a30cd57d7b5437b8176afaf9b8e90938bde7e5b1621da17b0da7031",
+    "continuation_20261031b/C56/kummer_rr/direct_case978_A5_model_snapshot.m": "faac0ee1cf57b6ff80d0f78f0cf244607f4f6af162b6e94381bd12a6e9e944ed",
+    "continuation_20261031b/C56/kummer_rr/direct_case978_A5_result.m": "15c98d70e7c8c57c50400fc31b1002faf9a92d1054ae92249915e65ad4f46019",
+    "continuation_20261031b/C56/kummer_rr/parent_basis_poles_v3_s0.m": "45c85a9100568e39662e542a4b94d1cf7f0d95e3e2ea354a1ea201486733486d",
+    "continuation_20261031b/C56/kummer_rr/parent_basis_poles_v3_s1.m": "b7421738b41f255ff45c9c68728b263828e2cf85977843317aceeb14a4ed9233",
+    "continuation_20261031b/C56/kummer_rr/parent_basis_poles_v3_s2.m": "bdc4757d8a0e9a525e93c1c724f17c1c5f0a69e92d3f71a64219b69c18d18eb8",
+    "jobs/d31b_C56_parent_basis_v3_s0.log": "047b06fdf30c0bd98b9f79370c996461c9b2ed57f6e614df583e692bd8b05098",
+    "jobs/d31b_C56_parent_basis_v3_s0.status.json": "52080969e9768ebd33877f00fb397b7df909d78712d7025e7711bb49d7b8c7d5",
+    "jobs/d31b_C56_parent_basis_v3_s1.log": "8bc49c097fd5015ebd4bc756be6cddb9b8eac2f7ae53bfaa447a2d49f9c35965",
+    "jobs/d31b_C56_parent_basis_v3_s1.status.json": "e8c8a84ee03d4507c920df60821145050d56125d6ad6fd61afa8b3a69c03e9b6",
+    "jobs/d31b_C56_parent_basis_v3_s2.log": "81ca2d4bb12491aceefbb677b1a2ce8e8c311361ea19165fd51ee5f7ea88940c",
+    "jobs/d31b_C56_parent_basis_v3_s2.status.json": "6a741d67dd65ed1f8d605348e3dec2dabfe058ba3f8cd7e803a1a5670ae67d5a"
+  }
+}

@@ -1,0 +1,152 @@
+% Input work/deg10/next_cases_20261030/dyadic_formal_kernel.tex before this file.
+\subsection{Excluding a point of order $49$}
+\begin{proposition}\label{prop:decic-no49}
+An elliptic curve over a number field of degree $10$ has no point of order $49$.
+\end{proposition}
+\begin{proof}
+Put $X=X_1(49)$ and $J=J_1(49)$. By
+\cite[Theorems~3.1 and 4.13, and Table~2]{DEHMZ},
+\[
+ J(\mathbb Q)\simeq C_7\times C_{52367710906884085342}.
+\]
+In particular $J(\mathbb Q)[2^\infty]\simeq C_2$.
+The map $\pi:X\to X_0(49)$ has degree $21$ and diamond group
+$H\simeq C_{21}$. The latter acts trivially on the rational
+$2$-primary subgroup, so
+$\pi^*\pi_*t=\sum_{h\in H}ht=21t$ makes $\pi_*$ injective there.
+Similarly $\pi_*\pi^*=[21]$ makes pullback injective on
+$J_0(49)(\mathbb Q)[2^\infty]$, whose order is therefore at most two.
+The model
+\[
+ y^2+xy=x^3-x^2-2x-1
+\]
+for $J_0(49)$ has discriminant $-343$ and a point of order two
+$(2,-1)$, reducing to the nonzero point $(0,1)$ modulo $2$.
+Thus reduction is injective on the rational $2$-primary subgroup
+of $J_0(49)$, hence also on that of $J$. It is always injective on
+odd-order torsion. Therefore
+\[
+ J(\mathbb Q)\longrightarrow J(\mathbb F_2)
+\]
+is injective.
+
+Suppose that $D$ is a rational effective noncuspidal divisor of
+degree $10$ on $X$. Exhaustive enumeration over $\mathbb F_{2^f}$,
+$f\leq10$, shows that the only possible noncuspidal closed-point
+degrees are $9$ and $10$. There are respectively $42$ and $126$
+such points, forming two and six diamond orbits. For every orbit
+representative $P$, the degree-zero divisor
+\[
+ A_3P=(T_3-1-3\langle3\rangle)P
+\]
+is nonprincipal, by exact Riemann--Roch computations on the full
+genus-$69$ curve. Independent enumeration of all curves, twists
+and level structures verifies the completeness of these orbits.
+The four native $3$-isogenies at each of the eight representatives
+also reproduce the finite correspondence, including all closed
+point degrees and norm multiplicities.
+
+The operator $A_3$ kills $J(\mathbb Q)$, by Eichler--Shimura at $3$
+and injectivity of torsion reduction there. At a rational cusp $c$
+we have the literal identity $T_3c=c+3\langle3\rangle c$.
+It follows from the Tate parametrization at one rational cusp and
+then from diamond equivariance at all $21$ rational cusps.
+If the reduction of $D$ has noncuspidal support, it is therefore
+one degree-$10$ point or a degree-$9$ point plus a rational cusp.
+In either case the computed nonprincipality of $A_3P$ is a
+contradiction.
+
+The cusp degrees over $\mathbb Q$ and $\mathbb F_2$ are
+\[
+ 1^{21},6^3,21\qquad\text{and}\qquad1^{21},3^6,21.
+\]
+If the reduction of $D$ is supported on rational cusps, let $C$
+be its rational cuspidal lift. Injectivity of specialization gives
+$D\sim C$. Since
+\[
+ \operatorname{gon}_{\mathbb C}X
+ \geq \frac7{800}[\operatorname{PSL}_2(\mathbb Z):\overline{\Gamma_1(49)}]
+ =\frac7{800}\,1176=\frac{1029}{100}>10,
+\]
+we obtain $D=C$, a contradiction.
+
+It remains to exclude cuspidal reductions containing a cubic cusp.
+Put $U=(\mathcal C-1)H^0(X_{\mathbb F_2},\Omega^1)$, where
+$\mathcal C$ is Cartier. Its dimension is $68$. We verify that
+restriction from $U$ has rank $10$ at every effective cuspidal
+divisor of degree $10$ containing a cubic cusp, as follows.
+
+First use the existing common-basis jets at eighteen rational
+cusps, through multiplicity six, and at all six cubic cusps,
+through multiplicity three. The complete degree-$10$ replay checks
+\[
+ 6\left(\binom{24}{7}-18\right)
+ +\binom72\binom{21}{4}+\binom83\,18
+ =2203209
+\]
+divisors and finds rank $10$ in every case. This covers every
+mixed cuspidal divisor having at most six rational support points
+and rational multiplicities at most six: the diamond group acts
+regularly on the $21$ rational cusps, and at most $6\cdot3=18$
+of its $21$ elements send some support point to one of the three
+omitted cusps. Cartier commutes with diamonds.
+
+If there are seven rational support points, the divisor consists
+of seven distinct rational cusps and one cubic cusp. A rational
+multiplicity of seven instead forces the divisor to be $7c+Q$,
+where $Q$ is cubic. Diamond transitivity fixes the choice of $c$,
+so the latter case requires six checks.
+
+We obtain the remaining jets as follows. Let $\mathsf C$ be the
+$69\times69$ Cartier matrix in the existing differential basis.
+An exact native calculation of the pullback by $\langle2\rangle$
+gives a matrix $\mathsf D$. It has order $21$, commutes with
+$\mathsf C$, and belongs to $\mathbb F_2[\mathsf C]$.
+The minimal polynomial of $\mathsf C$ has degree $69$.
+Thus the native matrix $\mathsf D$ remains valid under any change
+of basis preserving the Cartier matrix. Indeed, such a change
+commutes with every polynomial in $\mathsf C$.
+The orbit under $\mathsf D$ of one rational-cusp evaluation
+column $a_0$, based at a cusp $c_0$, consists of $21$ distinct columns and contains all
+$18$ previously recorded rational-cusp columns. It therefore
+recovers the three missing first-order restrictions. The verifier
+also checks the covariance of all six cubic restriction subspaces
+through orders one, two and three.
+
+For the seventh-order restriction at a rational cusp we use a
+fresh native jet. Its Cartier matrix agrees with $\mathsf C$,
+and its first-order column is $a_0$. At a rational cusp over
+$\mathbb F_2$, the nonzero cotangent trivialization is unique. The columns
+$a_0,\mathsf C a_0,\ldots,\mathsf C^{68}a_0$ span all $69$
+dimensions. This verifies the required basis compatibility,
+without an assumption on the ordering of the native cusps.
+To see this, let $S$ be the change of differential basis and write
+the fresh base cusp as $\langle2\rangle^h c_0$. Then
+$S\mathsf C=\mathsf C S$ and
+\[
+ a_0=S\mathsf D^h a_0.
+\]
+Since $\mathsf D$ is a polynomial in $\mathsf C$ and $a_0$ is
+cyclic for $\mathsf C$, we obtain $S\mathsf D^h=I$.
+Thus $S$ is a diamond power. It permutes the six cubic restriction
+subspaces, while changes of local parameters and differential
+units apply invertible operations to the restriction matrices.
+Testing all six cubic cusps therefore makes the fresh
+seventh-order jet compatible with the existing cubic data.
+Magma's built-in local completion independently verifies all seven
+rational-cusp restriction kernels.
+
+The independent verifier checks all
+$6\binom{21}{7}=697680$ seven-distinct-rational-cusp divisors and
+all six divisors $7c_0+Q$. Every restriction has rank $10$.
+It also verifies $\mathsf D\in\mathbb F_2[\mathsf C]$, the exact
+order and Cartier commutation, all $18$ known rational evaluators,
+and all cubic covariance identities. Hence every mixed cuspidal
+divisor of degree $10$ has the required restriction rank.
+
+Corollary~\ref{cor:dyadic-Cartier-formal-immersion}, applied with the full Jacobian as
+target, now excludes the remaining cuspidal reductions. Each
+closed cubic cusp is lifted with its complete Frobenius orbit,
+so the entire cuspidal lift is a $\mathbb Q_2$-rational divisor.
+This completes the proof.
+\end{proof}

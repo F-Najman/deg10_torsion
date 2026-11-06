@@ -1,0 +1,73 @@
+% Local statements restated from work/degree6/dyadic_hecke_kernel.tex,
+% Lemma lem:dyadic-Hecke, and work/degree6/quotient_cartier_criterion.tex,
+% Lemma lem:quotient-Cartier. The target below is the full Jacobian.
+\begin{lemma}\label{lem:decic49-dyadic-kernel}
+Let $A/\mathbb Z_2$ be an abelian scheme, and let $T,\delta$ be
+endomorphisms satisfying $T_{\mathbb F_2}=F+\delta_{\mathbb F_2}V$.
+Then $T-\delta$ kills the torsion kernel of reduction in $A(\mathbb Q_2)$.
+\end{lemma}
+\begin{proof}
+The torsion kernel has exponent two. Indeed, multiplication by two
+in the formal group sends parameters in $2\mathbb Z_2$ into
+$4\mathbb Z_2$, and the latter subgroup is torsion free by the
+formal logarithm.
+Let $z$ be a nonzero point in this kernel. The schematic closure
+of $\{0,z\}$ in $A[2]$ is finite flat of rank two with connected
+special fibre. It is $\mu_2$: in the rank-two Tate--Oort description
+\cite{TO}, the parameters satisfy $ac=2$; connected special fibre
+forces $a\in2\mathbb Z_2$, so $c$ is a unit, giving $\mu_2$ after
+rescaling. Write $\iota:\mu_2\hookrightarrow A[2]$ for its inclusion.
+Naturality and $F_{\mu_2}=0$, $V_{\mu_2}=1$ show that
+$(T-\delta)\overline\iota=0$ on the special fibre.
+Reduction on $\operatorname{Hom}_{\mathbb Z_2}(\mu_2,A[2])$ is injective.
+By Cartier duality, this is the corresponding assertion for maps
+from $A^\vee[2]$ to the constant etale group $\mathbb Z/2\mathbb Z$.
+Their open and closed fibres are determined by their special
+fibres over the henselian ring $\mathbb Z_2$.
+Thus $(T-\delta)\iota=0$, proving the assertion.
+\end{proof}
+
+\begin{lemma}\label{lem:decic49-Cartier}
+Let $Y/\mathbb Q$ be a modular curve of odd level with good
+reduction at $2$, rational cusp $c_0$, and Jacobian $J$ of rank zero
+over $\mathbb Q$. Suppose that its cusp scheme is etale at $2$
+and that $T_2=F+\delta V$ on the special fibre, where
+$\delta=\langle2\rangle$. Put
+$U=(\mathcal C-1)H^0(Y_{\mathbb F_2},\Omega^1)$.
+If restriction from $U$ to an effective cuspidal divisor
+$\overline C$ of degree $d$ is surjective, then no noncuspidal
+rational effective divisor of degree $d$ reduces to $\overline C$.
+\end{lemma}
+\begin{proof}
+Let $C$ be the unique cuspidal lift of $\overline C$ over
+$\mathbb Z_2$. This is a $\mathbb Q_2$-rational divisor: a closed
+cusp is lifted together with its entire Frobenius orbit.
+Suppose that $D$ is a noncuspidal rational effective divisor
+reducing to $\overline C$. The classes $[D-dc_0]$ and $[C-dc_0]$
+are torsion, respectively by rank zero over $\mathbb Q$ and
+Manin--Drinfeld. Consequently $[D-C]\in J(\mathbb Q_2)$ is
+torsion and reduces to zero. Lemma~\ref{lem:decic49-dyadic-kernel}
+gives $(T_2-\delta)[D-C]=0$.
+
+Use the full Jacobian as target in
+\[
+ f:Y^{(d)}\longrightarrow J,\qquad
+ E\longmapsto(T_2-\delta)[E-dc_0].
+\]
+The cotangent space of $J_{\mathbb F_2}$ is canonically
+$H^0(Y_{\mathbb F_2},\Omega^1)$. On it, Frobenius pulls back to
+zero and Verschiebung pulls back to Cartier. Hence
+\[
+ (T_2-\delta)^*=\delta^*(\mathcal C-1),
+\]
+whose image is $U$, since diamonds commute with Cartier.
+The Abel--Jacobi cotangent map at $\overline C$ is restriction to
+$H^0(\overline C,\Omega^1|_{\overline C})$, including when
+$\overline C$ is nonreduced. Thus the stated rank condition makes
+$f$ a formal immersion there. This uses the full Jacobian and its
+canonical cotangent identification; no cotangent exact sequence
+for a quotient in characteristic two is needed.
+Both $D$ and $C$ give $\mathbb Z_2$-sections, with the same
+reduction and the same image under $f$. Formal immersion implies
+$D=C$, a contradiction.
+\end{proof}

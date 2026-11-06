@@ -1,0 +1,13 @@
+{
+  "degree": 9,
+  "group": [
+    1,
+    57
+  ],
+  "accepted_utc": "2026-10-27T00:19:24.638214+00:00",
+  "mathematical_review": "PASS: genus9 finite-image reduction, all796111 full-rank cusp configurations, independently recovered quadratic cusp arc, genuine SS/ordinary57-torsion jets, all18 actual5kernels, and both arrangements of allthree finalRRdivisors rank252. CleanproofusespointT5\u22121\u22125sigma.",
+  "root_deep_readonly_actual_exit_code": 0,
+  "manifest_sha256": "9e34260c8821591c62137100fb6d4fecd261bd0a127311f91123f2190b602f30",
+  "rendering_change": "Only two input path prefixes; frozen mathematical fragments untouched.",
+  "original_wrapper_sha256": "e537618cb8ac4d24177357f544a392c237e86b97e76eaef539944ed6a92734c0"
+}

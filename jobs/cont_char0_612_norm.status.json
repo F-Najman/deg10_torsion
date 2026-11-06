@@ -1,0 +1,19 @@
+{
+  "purpose": "cont_char0_612_norm",
+  "script": "computations/cont_char0_612_norm.m",
+  "script_sha256": "db4d735aac1a1d80f00527539a8d6644359704b2a421dd3dd4becb304fa3116e",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_char0_612_norm.m"
+  ],
+  "pid": 520858,
+  "owner_uid": 1001,
+  "start_time_unix": 1793296820.0057335,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/cont_char0_612_norm.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 21.24631905555725
+}

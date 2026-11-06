@@ -1,0 +1,12 @@
+C57_GENUINE_R1_R2_JETS_PASS 10/1/P ambient 10 closed 10 rank 84 seconds 1.81
+C57_GENUINE_R1_R2_JETS_PASS 10/1/5P ambient 10 closed 10 rank 84 seconds 2.03
+C57_GENUINE_R1_R2_JETS_PASS 10/1/25P ambient 10 closed 10 rank 84 seconds 2.26
+C57_GENUINE_R1_R2_JETS_PASS 10/1/T1 ambient 10 closed 10 rank 84 seconds 2.5
+C57_GENUINE_R1_R2_JETS_PASS 10/1/5T1 ambient 10 closed 10 rank 84 seconds 2.72
+C57_GENUINE_R1_R2_JETS_PASS 10/1/T2 ambient 50 closed 50 rank 84 seconds 3.42
+C57_GENUINE_R1_R2_JETS_PASS 10/1/5T2 ambient 50 closed 50 rank 84 seconds 4.12
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261030b/C57/cont57_verify_jets.py", line 77, in <module>
+    assert mp is not None
+           ^^^^^^^^^^^^^^
+AssertionError

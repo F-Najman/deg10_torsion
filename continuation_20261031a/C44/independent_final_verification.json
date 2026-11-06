@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "new_A5_cases": 956,
+  "new_A5_rejections": 954,
+  "A5_surviving_cases_refined_by_A7": [
+    510,
+    511
+  ],
+  "new_A7_rejections": 2,
+  "old_A5_rejections_independently_replayed": 226,
+  "all_entrywise_canonical_matrices_and_quotient_product_identities_verified": true,
+  "all_saved_higher_jet_geometry_verified": true,
+  "distinct_marked_source_points": 650,
+  "operator_source_pairs_checked": 652,
+  "unique_genuine_geometric_kernels": 3916,
+  "manual_Velu_coordinate_checks_unique": 3916,
+  "all_positive_and_negative_divisor_norm_multiplicities_bound": true,
+  "source_degree10_closed_places_covered": 5854,
+  "source_degree5_closed_places_covered": 60,
+  "degree5_pair_patterns": 360,
+  "all_six_diagonal_pairs_included": true,
+  "quintic_cusp_complements_killed_by_A5": "5=3^8mod44, so Galois5 fixes every closedF3cusp orbit",
+  "shards": [
+    {
+      "shard": 0,
+      "case_count": 160,
+      "unique_operator_source_pairs": 161,
+      "seconds": 267.2020865473896
+    },
+    {
+      "shard": 1,
+      "case_count": 160,
+      "unique_operator_source_pairs": 159,
+      "seconds": 241.9742779317312
+    },
+    {
+      "shard": 2,
+      "case_count": 159,
+      "unique_operator_source_pairs": 158,
+      "seconds": 261.13479036372155
+    },
+    {
+      "shard": 3,
+      "case_count": 159,
+      "unique_operator_source_pairs": 158,
+      "seconds": 249.62857407145202
+    },
+    {
+      "shard": 4,
+      "case_count": 159,
+      "unique_operator_source_pairs": 158,
+      "seconds": 260.39372374210507
+    },
+    {
+      "shard": 5,
+      "case_count": 159,
+      "unique_operator_source_pairs": 158,
+      "seconds": 253.7388445227407
+    }
+  ],
+  "audit_files_sha256": {
+    "continuation_20261031a/C44/independent_genuine_shard0_v2.json": "f4066383e01dbc53a4dec5e6cd7549622799c33593d817cc5ecbdac7ebda66a0",
+    "continuation_20261031a/C44/independent_genuine_shard0_v2.checkpoint.jsonl": "a193e8c0e645d2a948783055f354f9ff2850f95736cceaaf389edb64e915fbc8",
+    "jobs/d31a_C44_independent_isogenies_shard0_v2.status.json": "7a4aec30bae616fa32cc6d3609a6760ffa7962cda02e2395a2db0e9f460dcb1d",
+    "jobs/d31a_C44_independent_isogenies_shard0_v2.log": "2ee72390d7eff9abaa636fe3ff8842c9b060d3d81d6be20600bef740069879d8",
+    "computations/d31a_C44_independent_isogenies_shard0_v2.py": "8bc80d9c44ea9acc5ca9c67171eb52036f6b79504186e41007be829f4f2dcd75",
+    "continuation_20261031a/C44/independent_genuine_shard1_v2.json": "e627b79d89e5cb02b8088e133430a9680d15c32251112816d90513c3a03ac140",
+    "continuation_20261031a/C44/independent_genuine_shard1_v2.checkpoint.jsonl": "5cd65efdd5255305a9a91d5c45b5a275ffc15b706cd8c84c6d69bf0bcf364f76",
+    "jobs/d31a_C44_independent_isogenies_shard1_v2.status.json": "c1bdb61cc7170f260446acb7656ca72ac6bdc2cc5a5a4486661c679a3246b26e",
+    "jobs/d31a_C44_independent_isogenies_shard1_v2.log": "6b3839c37d4e9ca5ea3ad5dc9fb7be1ab4512791f84b8553cca0d1683b31d243",
+    "computations/d31a_C44_independent_isogenies_shard1_v2.py": "e38e1aa909b3e1c2b3d98b7fb62bbd404872bfc3c77a40231c3ba4d5392574e9",
+    "continuation_20261031a/C44/independent_genuine_shard2_v2.json": "a6b31de15ba3d796262f7347377c09583479def8e8c2aba09b4142bdb0012039",
+    "continuation_20261031a/C44/independent_genuine_shard2_v2.checkpoint.jsonl": "88e1c2c238ca49298df22dedf17c8374c88d2d0a888e1787e55243be50e18bf2",
+    "jobs/d31a_C44_independent_isogenies_shard2_v2.status.json": "3d320404e94bfddafde3bce09eab6f0099f9641c71bf236fb4fded71a1a05071",
+    "jobs/d31a_C44_independent_isogenies_shard2_v2.log": "3f04e6e33c48e1fc3ba2a1d878f51b529a06c36dedd54c044213b22bb1fa40aa",
+    "computations/d31a_C44_independent_isogenies_shard2_v2.py": "c22a5dfe165159befe42e137168ef5c165e49e2fa8cecce623b254ff22ae292e",
+    "continuation_20261031a/C44/independent_genuine_shard3_v2.json": "de605e2ef9638f9d59e461f12f9442f8a474872f9f89e595880efd29bc2fbbae",
+    "continuation_20261031a/C44/independent_genuine_shard3_v2.checkpoint.jsonl": "c7074c9e468e47ebdd844bcdc4e58fc12da38c4fa7397a119e89220fc93c0e1f",
+    "jobs/d31a_C44_independent_isogenies_shard3_v2.status.json": "ce114e01d981fd950dab4ae7cd55adae6b0f03eaf529283d239e6938fcbf71b3",
+    "jobs/d31a_C44_independent_isogenies_shard3_v2.log": "e3f848bba051874d0d204b386f7ffb63f5c0ec5f6d07d64501de724653305f3f",
+    "computations/d31a_C44_independent_isogenies_shard3_v2.py": "5bb3e22c641eb8a580b7134dbd4d263d0c28667fd6be6aace6aa402456850e08",
+    "continuation_20261031a/C44/independent_genuine_shard4_v2.json": "ce4a6b658d7255837c63db7c3fa84f637a01880b2a5e545f6f1e1119a49d4139",
+    "continuation_20261031a/C44/independent_genuine_shard4_v2.checkpoint.jsonl": "9ff6a5144b524f5b74bb1cb464a16dd4ddef450bcf2273fe466e9d7b840f658e",
+    "jobs/d31a_C44_independent_isogenies_shard4_v2.status.json": "325f1db3a429dddff828eb5dc3bb4eb878f87175e889cda5c4750522e4b75fe6",
+    "jobs/d31a_C44_independent_isogenies_shard4_v2.log": "1fd2f1402ff24ac51e0c110871104d25bb7c9257e5f4b25c702b488e7cf3e42c",
+    "computations/d31a_C44_independent_isogenies_shard4_v2.py": "47851f239eb1aa40d999e2825016e1492c6541ff1ef61ee9a29a8e75a15ea0af",
+    "continuation_20261031a/C44/independent_genuine_shard5_v2.json": "1051f3fe366d352a38d46cd9462b9ee06cd2341ac5458cf2cb5b956055f1224a",
+    "continuation_20261031a/C44/independent_genuine_shard5_v2.checkpoint.jsonl": "3dbe571e59e47129f86d92d8d3495104cfc99d30130e688d5d74cbbd25f8bd62",
+    "jobs/d31a_C44_independent_isogenies_shard5_v2.status.json": "26ba00e4538f52553444b91872f60c66928c07e929137bf05d3b563a2dccef4d",
+    "jobs/d31a_C44_independent_isogenies_shard5_v2.log": "17348a152d03ee5d7df5c6fd19d95f74ac7a128c9516332f8dcae986b433df71",
+    "computations/d31a_C44_independent_isogenies_shard5_v2.py": "499ca73751e2e426f166b49d63c0009c1234d4ab6939aa8a20235590c96e3221"
+  },
+  "elapsed_seconds": 0.07197654573246837
+}

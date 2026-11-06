@@ -1,0 +1,18 @@
+{
+  "purpose": "d31a_C44_independent_jet_geometry",
+  "script": "computations/d31a_C44_independent_jet_geometry.py",
+  "script_sha256": "fbd612d5e459830f92e54d5f37a7202e22a93fd04c2edc6163117d29a4927bb6",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C44_independent_jet_geometry.py"
+  ],
+  "pid": 2856608,
+  "owner_uid": 1001,
+  "start_time_unix": 1793404463.064352,
+  "state": "EXITED",
+  "time_limit_seconds": 1500,
+  "log": "jobs/d31a_C44_independent_jet_geometry.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 121.09857845306396
+}

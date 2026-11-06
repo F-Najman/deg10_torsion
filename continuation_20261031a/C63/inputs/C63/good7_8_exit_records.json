@@ -1,0 +1,24 @@
+[
+  {
+    "e": 7,
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "e:=7",
+      "work/degree9/realizations/continuation/C63/good9_T5.m"
+    ],
+    "actual_exit_code": 0,
+    "log_sha256": "a5d17dedd6eb0f122db4c0ddb715cac44bcff82f2b4204cc51fca49e4b2a875d"
+  },
+  {
+    "e": 8,
+    "command": [
+      "/usr/local/bin/magma",
+      "-b",
+      "e:=8",
+      "work/degree9/realizations/continuation/C63/good9_T5.m"
+    ],
+    "actual_exit_code": 0,
+    "log_sha256": "4a1d1af086b1b45184cca2cf8786964f24a8719bbefbd2f6faa985400b201e7e"
+  }
+]

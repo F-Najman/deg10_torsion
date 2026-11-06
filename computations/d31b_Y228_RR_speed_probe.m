@@ -1,0 +1,5 @@
+SetColumns(0);SetNthreads(1);SetQuitOnError(true);Alarm(230);tt:=Cputime();root:="work/deg10/continuation_20261031b/Y228_shared/";md:=eval Read(root cat"model_v3_s1.m");rows:=eval Read(root cat"A5_v3_s1_progress.m");row:=[v:v in rows|v[1]eq 8][1];k:=GF(3);PK:=PolynomialRing(k);K<t>:=FunctionField(k);R<Z>:=PolynomialRing(K);
+function DR(a)return K!(PK!a[1])/(K!(PK!a[2]));end function;F<u>:=FunctionField(R![DR(v):v in md[1]]);assert Genus(F)eq 25;OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);
+function DF(a)return F![DR(v):v in a];end function;
+function Prime(pd)O:=pd[2]eq 1 select OF else OI;I:=ideal<O|[DF(v):v in pd[3]]>;assert IsPrime(I);P:=Place(I);assert Degree(P)eq pd[1];return P;end function;
+D:=DivisorGroup(F)!0;for c in row[3]do e,m,ky,pp,dd,hec:=Explode(c);D-:=m*(Divisor(Prime(pp))+5*Divisor(Prime(dd)));for h in hec do D+:=m*h[2]*Divisor(Prime(h[3]));end for;end for;assert Degree(D)eq 0;print "Y228_PROFILE_IDEALS_RESTORED",Cputime(tt);bb:=Basis(D);assert #bb eq 1;print "D31B_Y228_DEFAULT_RR_PROFILE_COMPLETE",#bb,Cputime(tt);quit;

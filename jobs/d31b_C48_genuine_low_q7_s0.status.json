@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_C48_genuine_low_q7_s0",
+  "script": "continuation_20261031b/C48/d31b_C48_genuine_low_q7_s0.py",
+  "script_sha256": "171000f63d8b1ba807b0df0c510264b339a92e64cd4e1edebf982550947fd5b5",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_genuine_low_q7_s0.py"
+  ],
+  "pid": 3638543,
+  "owner_uid": 1001,
+  "start_time_unix": 1793441010.43727,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/d31b_C48_genuine_low_q7_s0.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 35.371156215667725
+}

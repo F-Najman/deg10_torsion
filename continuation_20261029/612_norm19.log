@@ -1,0 +1,9 @@
+{"purpose": "cont_RR612_norm19_shard3", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 4.719934701919556}
+{"purpose": "cont_RR612_norm19_shard7", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 4.720804452896118}
+{"purpose": "cont_RR612_norm19_shard2", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 4.721733093261719}
+{"purpose": "cont_RR612_norm19_shard6", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 4.821437358856201}
+{"purpose": "cont_RR612_norm19_shard4", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 5.020453453063965}
+{"purpose": "cont_RR612_norm19_shard1", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 5.069862127304077}
+{"purpose": "cont_RR612_norm19_shard5", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 5.070719242095947}
+{"purpose": "cont_RR612_norm19_shard0", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 5.1724629402160645}
+DECIC612_NORM19_FINISHED 8

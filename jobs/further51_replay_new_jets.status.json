@@ -1,0 +1,18 @@
+{
+  "purpose": "further51_replay_new_jets",
+  "script": "next_cases_20261030/cyclic_further/C51/further51_replay_new_jets.py",
+  "script_sha256": "ab0fdb5b8bfa194781ed08a0098a7d33a6b3a9827c22b8892b83daada060ca0d",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_further/C51/further51_replay_new_jets.py"
+  ],
+  "pid": 2375227,
+  "owner_uid": 1001,
+  "start_time_unix": 1793381807.6070287,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/further51_replay_new_jets.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.26431846618652344
+}

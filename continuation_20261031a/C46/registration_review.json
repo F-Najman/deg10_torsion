@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "groups": [
+    [
+      1,
+      46
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Rank-zero odd-prime cusp lifting and rational gonality19; complete finite source support enumeration; exact X1(23) rational class quotientC23 and independently reconstructed marked A5 nonprincipality tests on the37 residual supports",
+  "frozen_summary_sha256": "293d18c10a624a6bc18c2ddc6751bc97733c3e97d3d2e3b2cd3d51fa7cc0cbd5",
+  "classification_complete": false
+}

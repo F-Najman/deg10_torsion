@@ -1,0 +1,50 @@
+\begin{lemma}\label{lem:nonic83-pole-degrees-direct}
+The modular units $x,y$ used in the order-$83$ canonical recovery
+have pole degrees $90,95$, respectively, on $X_1(83)_{\mathbb F_2}$.
+These degrees can be certified independently of a plane equation
+and of the canonical unit relations.
+\end{lemma}
+\begin{proof}
+The unique Tate normal form and the birational changes
+\[
+ r=b/c,\quad s=c^2/(b-c),\quad
+ x=(s-r)/(rs-2r+1),\quad y=(rs-2r+1)/(s^2-s-r+1)
+\]
+are given in \cite[Sections~2 and~2.1]{DvH}.
+Their rational inverses are checked identically over $\mathbb Q$.
+In the notation of that paper, $x=f_7/f_8$ and $y=f_8/f_9$.
+These are modular units at level $83$: the vanishing equations for
+orders $7,8,9$ cannot hold for a smooth point of exact order $83$.
+The same argument applies in characteristic $2$, since the
+prime-to-$2$ level point still has exact order $83$.
+Thus only cusp valuations enter their pole degrees.
+
+There are $41$ geometric cusps of width $83$, represented by
+$E(q^{83})$ with Tate point $u=q^a$, $1\leq a\leq41$.
+Exact expansions through precision $1200$, with explicit retained
+precision after every rational operation, give
+\[
+ \sum_{a=1}^{41}\max\{0,-v_a(x)\}=90,\qquad
+ \sum_{a=1}^{41}\max\{0,-v_a(y)\}=95.
+\]
+All $41$ pairs of orders are retained and replayed.
+The elliptic equation is checked at every Tate point before the
+normal-form changes are applied.
+
+The other $41$ geometric cusps have width $1$ and are represented
+by $E(q)$ with $u=\zeta_{83}$, modulo inversion.
+Since $2$ has order $82$ modulo $83$, they form one Frobenius orbit
+modulo inversion. Work exactly in
+$\mathbb F_{2^{82}}=\mathbb F_2[z]/(1+z+\cdots+z^{82})$.
+At $q=0$ the Tate point has coordinates
+\[
+ x_P=\frac{z}{(1+z)^2},\qquad
+ y_P=\frac{z^2}{(1+z)^3}.
+\]
+Substituting these into the normal-form formulas gives finite,
+nonzero values for both units. These values are fixed by
+$z\mapsto z^{2^{41}}$, as required by inversion.
+Every width-$1$ valuation is therefore zero.
+This proves the asserted pole degrees without using a plane model
+or a canonical relation.
+\end{proof}

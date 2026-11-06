@@ -1,0 +1,18 @@
+{
+  "purpose": "cont_replay416_v4",
+  "script": "computations/cont_replay416_v4.py",
+  "script_sha256": "af0adaa35be62be0055563e3c77ba3694f801c630e0a5bc79a938484cc658b64",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_replay416_v4.py"
+  ],
+  "pid": 376457,
+  "owner_uid": 1001,
+  "start_time_unix": 1793290190.717351,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/cont_replay416_v4.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 6.026072978973389
+}

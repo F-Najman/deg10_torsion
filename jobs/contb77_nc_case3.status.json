@@ -1,0 +1,19 @@
+{
+  "purpose": "contb77_nc_case3",
+  "script": "computations/contb77_nc_case3.m",
+  "script_sha256": "ac7199eb72b10b8d7d5b4c274bdb2b922834aeae7d3e8e588bde3d8c4c7e06ec",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_nc_case3.m"
+  ],
+  "pid": 2542664,
+  "owner_uid": 1001,
+  "start_time_unix": 1793389619.2953308,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/contb77_nc_case3.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 312.32638597488403
+}

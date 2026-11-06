@@ -1,0 +1,19 @@
+{
+  "purpose": "quintic_halves_30a",
+  "script": "computations/quintic_halves_30a.m",
+  "script_sha256": "0805a396573c939941f2505399ced573b733f4565efe9168b5a5195dbeed5532",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/quintic_halves_30a.m"
+  ],
+  "pid": 12322,
+  "owner_uid": 1001,
+  "start_time_unix": 1793274794.9221582,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/quintic_halves_30a.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.16417860984802246
+}

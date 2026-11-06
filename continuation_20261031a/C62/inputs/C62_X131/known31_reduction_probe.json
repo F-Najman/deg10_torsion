@@ -1,0 +1,9 @@
+{
+  "known_example_index": 2,
+  "p": 3,
+  "field_polynomial_mod3_irreducible_degree": 9,
+  "P31_order_verified": true,
+  "rational_nonzero_2torsion_points_in_residue_field": 3,
+  "consequence": "Some P9 class tests must survive, because this known global nonic31 divisor reduces to one eligible P9. Exclusion of62 will need exact positive-divisor lifting and gonality rigidity, followed by the already verified full rational torsion31 over the known number field.",
+  "not_an_exclusion": true
+}

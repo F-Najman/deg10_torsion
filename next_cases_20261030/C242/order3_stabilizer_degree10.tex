@@ -1,0 +1,89 @@
+% Companion to CM_j0_degree10.tex. No odd-degree parity argument is used.
+\begin{lemma}\label{lem:decic242-order3-stabilizers}
+Put $X=X_1(2,42)$. Let $\overline N$ be a noncuspidal effective
+divisor of degree $9$ on $X_{\mathbb F_5}$, fixed by a rational
+level automorphism $h$ of order $3$.
+There is no effective divisor $D$ on $X$, defined over $\mathbb Q$,
+of degree $10$, with entirely noncuspidal support and reduction
+$\overline N+\overline c$, where $\overline c$ is a cusp.
+\end{lemma}
+\begin{proof}
+The rational Jacobian of $X$ has rank zero by
+\cite[Theorem~3.1]{DEHMZ}.
+Its projective index is $1152$, so the bound in
+\cite[(2.1)]{NV} gives
+\[
+ \operatorname{gon}_{\overline{\mathbb Q}}X
+ \geq\frac{325\cdot1152}{32768}>11.
+\]
+Suppose that $D$ exists. Lift $\overline c$ to a cusp $c$ over
+an extension unramified at $5$.
+The class
+\[
+ [hD-D-hc+c]
+\]
+is torsion by rank zero and Manin--Drinfeld. Its reduction is
+zero, since $h\overline N=\overline N$.
+Injectivity of torsion reduction over an unramified extension of
+$\mathbb Q_5$ gives
+\[
+ hD+c\sim D+hc.
+\]
+These are effective divisors of degree $11$, below geometric
+gonality. Hence they are equal.
+Comparing their noncuspidal parts gives $hD=D$.
+
+A geometric fixed point of $h$ would give an elliptic
+automorphism of order $3$ or $6$ and would therefore have
+$j$-invariant $0$.
+Every closed point in the support of $D$ has degree at most $10$.
+Lemma~\ref{lem:decic242-no-j0} excludes such a point with
+$j$-invariant $0$. Thus $h$ acts freely on the geometric support
+of $D$. Its orbits have length $3$, and $hD=D$ makes the
+multiplicities constant on each orbit. It follows that $3$
+divides $\deg D=10$, a contradiction.
+\end{proof}
+
+\noindent\emph{Application to the three degree-$9$ supports.}
+Let
+\[
+ k=\mathbb F_5[\alpha]/(\alpha^9+2\alpha^3+\alpha+3).
+\]
+For $B=\sum_{i=0}^8B_i\alpha^i$ and
+$C=\sum_{i=0}^8C_i\alpha^i$, use the level structure
+\[
+ E:\ y^2=x^3+Cx^2+B(1-B-C)x,
+ \qquad P=(0,0),\quad Q=(B,B).
+\]
+The three remaining degree-$9$ supports have coefficient vectors
+\[
+\begin{array}{c|c|c}
+\text{case}&(B_i)&(C_i)\\ \hline
+1777&(0,0,0,0,2,0,2,1,4)&(4,4,3,1,0,0,4,2,2)\\
+1780&(0,0,1,0,1,3,4,1,2)&(3,4,1,0,4,1,1,4,4)\\
+1783&(0,0,0,1,0,1,0,2,3)&(4,2,3,2,3,3,0,2,1).
+\end{array}
+\]
+Put
+\[
+ h_1(P,Q)=(21Q,P+25Q),\qquad
+ h_2(P,Q)=(P+21Q,P+4Q).
+\]
+Both have order $3$. On case $1777$, $h_1$ agrees with the
+third power of Frobenius. On cases $1780$ and $1783$, $h_2$
+agrees with the third and sixth powers of Frobenius,
+respectively. Each closed degree-$9$ divisor is therefore fixed
+by the indicated automorphism, and
+Lemma~\ref{lem:decic242-order3-stabilizers} excludes all three.
+
+The complete automorphism and cusp-action enumeration is in
+\path{next242_cheap_stabilizers.py}; it checks all $36$ level
+automorphisms on all $111$ input supports and all $72$ geometric
+cusps. It removes exactly these three cases.
+The three displayed Frobenius identities and the exact order-$3$
+level identities are independently verified in Magma by
+\path{next242_order3_phases.m}; the output is
+\path{degree9_order3_native_phases.m}.
+The remaining $108$ supports, with their original case IDs and
+field polynomials, are stored in
+\path{after_cheap_stabilizers_unified.m}.

@@ -1,0 +1,19 @@
+{
+  "purpose": "pp49_cusp_permutation",
+  "script": "next_cases_20261030/cyclic_primepowers/pp49_cusp_permutation.m",
+  "script_sha256": "13dcd64ec12a5399d171a358a37c6b3283a800953290a1c489d04e6731b32f79",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/cyclic_primepowers/pp49_cusp_permutation.m"
+  ],
+  "pid": 2101887,
+  "owner_uid": 1001,
+  "start_time_unix": 1793369747.3732836,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/pp49_cusp_permutation.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 300.11538529396057
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_m318_tau_cosets_p19",
+  "script": "computations/d31b_m318_tau_cosets_p19.m",
+  "script_sha256": "090ec1de791f36921b69d0fce96594b92431b43cbb4a1a79c213cd9d1fce4f16",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_tau_cosets_p19.m"
+  ],
+  "pid": 3725163,
+  "owner_uid": 1001,
+  "start_time_unix": 1793444791.1743176,
+  "state": "EXITED",
+  "time_limit_seconds": 460,
+  "log": "jobs/d31b_m318_tau_cosets_p19.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.0657799243927002
+}

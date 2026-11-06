@@ -1,0 +1,19 @@
+{
+  "purpose": "function_4_8",
+  "script": "computations/function_4_8.m",
+  "script_sha256": "20e777bbe2f523013fd7442ca250bb200e164ee7f7f05ee0745da93229acface",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/function_4_8.m"
+  ],
+  "pid": 5520,
+  "owner_uid": 1001,
+  "start_time_unix": 1793274467.541197,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/function_4_8.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.1640622615814209
+}

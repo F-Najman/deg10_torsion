@@ -1,0 +1,19 @@
+{
+  "purpose": "late226_picard_s1",
+  "script": "computations/late226_picard_s1.m",
+  "script_sha256": "91ad21f599b203f60a191b88ae7967c03015b2a2770ee422ba897fe9571c5a5a",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_picard_s1.m"
+  ],
+  "pid": 966138,
+  "owner_uid": 1001,
+  "start_time_unix": 1793317515.4222648,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/late226_picard_s1.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 109.28602123260498
+}

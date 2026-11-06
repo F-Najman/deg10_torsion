@@ -1,0 +1,19 @@
+{
+  "purpose": "resolve226_positive_RR",
+  "script": "computations/resolve226_positive_RR.m",
+  "script_sha256": "bcee4f066c118e2dc3ee38c89f2bc687a0a9770d75294a776eb267e487b29fbb",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_positive_RR.m"
+  ],
+  "pid": 1573054,
+  "owner_uid": 1001,
+  "start_time_unix": 1793347306.50979,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/resolve226_positive_RR.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 1200.0319318771362
+}

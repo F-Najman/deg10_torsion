@@ -1,0 +1,6 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/C69/direct_full/direct69_select_input.m", line 17, column 31:
+>> for i in [1,2] do assert BX!(S!jcode[i][1])/(BX!(S!jcode[i][2])) eq Eltseq(
+                                 ^
+Runtime error in '!': Cannot coerce sequence element 1 into the coefficient ring
+

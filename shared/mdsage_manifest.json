@@ -1,0 +1,20 @@
+{
+  "source": "https://github.com/koffie/mdsage",
+  "commit": "602242974e6edc01e7466c46949d40ff589a6fbf",
+  "files": {
+    "mdsage/maartens_sage_functions.py": "69958741bfc56f8a6dfb40222152c29c2dd12832c60f3c7a74d76f3194641a88",
+    "mdsage/modular_unit_divisors.py": "f076166c7e531a1e5624c3ba503e863ebb189d300a5b8ebe43b5735cf8111f0c",
+    "mdsage/quadratic_class_numbers.py": "aa8d1002dcfb7cd806598513d738c3ef76db9086c253840c928977d92af538ec",
+    "mdsage/canonical_rings.py": "2391405a2e3a92378e8a49dc2f0193a50e0082745e59cb47593264efee9513bc",
+    "mdsage/ramification.py": "568650db4a76c3b73d222bc7375ea0dea5fc1e0c0d22707c8711676143ddec64",
+    "mdsage/congruence_subgroups.py": "1ab3c4bcfcbc7df0c3b254a36c873b9e862ab9b80f8799940a0f8619bda6426e",
+    "mdsage/__init__.py": "7d5dec18832ebf0e2ecdbda8376c224bbd9987ee7e4bc0139b3a2b48f4053da2",
+    "mdsage/kamiennys_criterion.py": "785510bb6a399b5e3faa9ca5fbdb8d1950bae2a884d1f28c31fe1fbe0b00cb29",
+    "mdsage/ultimate_question.py": "31866059316d7b9a1a62840c345bb1f6646afc37fa69e67942869b42b595275c",
+    "mdsage/utilities.py": "6692354d869107551dac9cbee0878aec15f9397f6cc7bae0f5360204d8bb7f03",
+    "mdsage/sage_bugs.py": "f37d42dd6012e11584f634c5b6a9ed23e59562170f3ceb1013f96dc41ac0f966",
+    "mdsage/cuspidal_classgroup.py": "81fa28045a10812d9efd76117ef1838996d8a2869c3e896b26e86f52012e983d",
+    "mdsage/automorphisms_modsym.py": "889fb154800717d7452406237994b2c09200f421460c5cb9ece5cb34c46c1111",
+    "mdsage/modular_degrees_oldforms.py": "f0f53d7bf72841292319adc18bdaf0dc55295277975b921f2d3b6ff6091cbb80"
+  }
+}

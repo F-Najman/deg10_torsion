@@ -1,0 +1,19 @@
+{
+  "purpose": "late226_F5_RR",
+  "script": "computations/late226_F5_RR.m",
+  "script_sha256": "4a47108523f0712f3ceefbfc786c91dabf0f6d681889b035e63b1f36acc58638",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_F5_RR.m"
+  ],
+  "pid": 985039,
+  "owner_uid": 1001,
+  "start_time_unix": 1793318443.6545863,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/late226_F5_RR.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 13.887409925460815
+}

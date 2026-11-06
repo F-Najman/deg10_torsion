@@ -1,0 +1,64 @@
+\begin{lemma}\label{lem:nonic81-Hecke-finite-support}
+Let $N\geq5$ be odd, and suppose that $J_1(N)(\mathbb Q)$ is finite
+and $J_1(N)(\mathbb Q)[2]=0$. If
+\[
+ \operatorname{gon}_{\mathbb C}X_1(N)>3d,
+\]
+then $X_1(N)$ has no rational effective noncuspidal divisor of degree
+at most $d$.
+\end{lemma}
+\begin{proof}
+Put $X=X_1(N)$, $J=J_1(N)$, and write $\delta=\langle2\rangle$.
+We use the correspondence convention
+\[
+ T_2(E,P)=\sum_{C\subset E,\,\#C=2}(E/C,\phi_C(P)).
+\]
+Reduction at $2$ is injective on $J(\mathbb Q)$.
+Indeed, the kernel on torsion is killed by $2$: in the formal group
+at the identity, multiplication by $2$ maps parameters in
+$2\mathbb Z_2$ to $4\mathbb Z_2$, and the latter subgroup is
+torsion-free by the formal logarithm. The assumption on rational
+$2$-torsion therefore gives injectivity.
+
+The Eichler--Shimura relation on the special fibre is
+\[
+ F^2-T_2F+2\delta=0.
+\]
+On $J(\mathbb F_2)$, Frobenius acts as the identity. Consequently
+$A=T_2-1-2\delta$ kills the reduction of $J(\mathbb Q)$, and injectivity
+gives $A J(\mathbb Q)=0$.
+
+Let $c$ be the rational cusp with Tate level structure
+$(\operatorname{Tate}(q),q^{1/N})$. We have the literal divisor identity
+\[
+ T_2c=c+2\delta c.                                      \tag{*}
+\]
+To see this, quotienting the Tate curve by $\mu_2$ sends
+$(q,z)$ to $(q^2,z^2)$ and preserves the component label $1/N$.
+The other two cyclic subgroups give a Tate parameter $q'$ with
+$(q')^2=q$ and preserve $z$. Their component label is $2/N$,
+so both specialize to $\delta c$. This also fixes the diamond
+convention in the Eichler--Shimura relation above.
+
+Suppose that $D$ is a rational effective noncuspidal divisor of
+degree $e\leq d$. Applying $A$ to $[D-ec]$ and using $(*)$, we obtain
+\[
+ T_2D\sim D+2\delta D.
+\]
+Both divisors are effective of degree $3e$. If their difference were
+nonzero, a function with this divisor would have degree at most
+$3e<\operatorname{gon}_{\mathbb C}X$. Hence
+\[
+ T_2D=D+2\delta D                                      \tag{**}
+\]
+as divisors.
+
+The finite set of $j$-invariants in the support of $D$ is therefore
+closed under every cyclic $2$-isogeny. This is impossible.
+For an elliptic curve $E_\tau=\mathbb C/(\mathbb Z+\tau\mathbb Z)$,
+with $\operatorname{Im}(\tau)>0$, multiplication by $2$ induces a
+cyclic $2$-isogeny $E_\tau\longrightarrow E_{2\tau}$.
+Iterating gives $j(2^k\tau)$ in the same finite set. However,
+$j(2^k\tau)$ is unbounded as $k\to\infty$, by the expansion
+$j(q)=q^{-1}+744+O(q)$. This contradicts $(**)$.\qedhere
+\end{proof}

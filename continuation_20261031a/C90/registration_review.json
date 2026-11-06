@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "groups": [
+    [
+      1,
+      90
+    ]
+  ],
+  "parent_mathematical_review": "PASS",
+  "complete_exclusion": true,
+  "method": "Full rational X1(45) dyadic injection and good-reduction 2-isogeny rigidity; marked45-level excludes even automorphism cycles, with exact CM class-field exception control",
+  "frozen_summary_sha256": "283fa07bc718ee8f29f11dc7c7bf6b11801ebadb26c7bbb345457bf8438420ea",
+  "classification_complete": false
+}

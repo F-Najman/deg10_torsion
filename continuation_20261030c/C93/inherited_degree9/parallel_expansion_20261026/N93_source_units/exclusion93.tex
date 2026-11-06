@@ -1,0 +1,129 @@
+\subsection{Excluding order $93$}
+\begin{lemma}\label{lem:nonic93-allbad}
+A noncuspidal effective rational divisor of degree $9$ on $X_1(93)$
+does not have entirely cuspidal reduction at $2$.
+\end{lemma}
+\begin{proof}
+Put $X=X_1(93)$, $h=\langle4\rangle$ and $\alpha=h-1$.
+The exact winding calculation has a single winding-zero constituent,
+of dimension $2$ and trivial character. Every other constituent has
+nonzero winding. The winding quotient and rank-zero criterion of
+\cite[Section~3]{DEHMZ} show that $\alpha J(\mathbb Q)$ is finite.
+No rank-zero assertion for the full Jacobian is needed.
+
+Suppose that $\overline D$ is cuspidal. All cusps are defined over
+$\mathbb Q(\zeta_{93})$, unramified at $2$. Over a finite unramified
+extension $U/\mathbb Q_2$, lift the geometric cusps of $\overline D$
+with their multiplicities to a cuspidal divisor $C$. For a rational
+cusp $c$, the class
+\[
+ \alpha[D-C]=\alpha[D-9c]-\alpha[C-9c]
+\]
+is torsion: the first term has finite rational image, and the second
+is cuspidal torsion by Manin--Drinfeld. It specializes to zero.
+The reduction kernel on torsion over an unramified $2$-adic field is
+killed by $2$, as in \cite[proof of Proposition~3.4]{DKSS}. Thus
+\[
+ 2hD+2C\sim2D+2hC.
+\]
+These divisors have degree $36$. The projective index is $3840$, so
+\cite[(2.1)]{NV} gives
+\[
+ \operatorname{gon}_{\mathbb C}X>
+ \frac{325\cdot3840}{32768}=\frac{4875}{128}>36.
+\]
+The divisors are equal, and their noncuspidal parts give $hD=D$.
+But $h$ has order $5$ and acts freely on the geometric noncuspidal
+points: a fixed point would give an elliptic automorphism of order
+$5$ in characteristic zero. Therefore $5$ divides $9$, a contradiction.
+The divisor $C$ need not be defined over $\mathbb Q$.
+\end{proof}
+
+\begin{proposition}\label{prop:nonic93-exclusion}
+An elliptic curve over a number field of degree $9$ has no point of
+order $93$.
+\end{proposition}
+\begin{proof}
+A hypothetical point gives a closed point of exact degree $9$ on $X$,
+since order $31$ is impossible in degrees $1$ and $3$.
+Let $D$ be its trace divisor. Lemma~\ref{lem:nonic93-allbad} excludes
+entirely cuspidal reduction at $2$.
+The Hasse bound excludes noncuspidal degrees at most $6$.
+Complete enumeration of every curve and twist over
+$\mathbb F_{2^7}$ and $\mathbb F_{2^8}$ gives no point of order $93$.
+Over $\mathbb F_{512}$ there is one closed $j$-orbit, of degree $3$.
+Its curves have $558$ points and trace $-45$. Their rational groups
+are cyclic, since $\gcd(558,511)=1$. The $30$ projective generators
+in each fiber give exactly ten closed degree-$9$ points.
+The diamond $\sigma=\langle2\rangle^{-1}$ acts transitively on them;
+the saved canonical keys also verify this orbit directly.
+Hence $\overline D=P$ for a representative and its diamond translates.
+
+The winding calculation gives $(\sigma-1)J(\mathbb Q)$ finite.
+Manin--Drinfeld then implies that $[\sigma D-D]$ is rational torsion.
+Put $\tau=\langle5\rangle$ in the point-level convention.
+The operator $A_5=T_5-\tau-5$ kills rational torsion.
+Indeed, Cartier duality changes the transported dual level by
+$5^{-1}$; transporting the dual-level Eichler--Shimura annihilator
+$T_5-1-5\langle5\rangle$ gives the displayed operator.
+Writing $T=T_5P$, the divisor
+\[
+ B=\sigma T-T-\sigma\tau P+\tau P-5\sigma P+5P
+\]
+must therefore be principal. The six actual cyclic $5$-isogenies
+transport the level point to three closed degree-$18$ targets, each
+of norm multiplicity $1$. Independent Sage V\'elu isogenies rebuild
+all six transports and give the same modular-unit keys.
+
+Here is the exact canonical certificate. The genus is $261$.
+A saturated integral basis gives $261$ independent canonical
+expansions through $q^{1799}$, beyond the weight-$2$ Sturm bound $640$;
+all old degeneracies are included. The standard units $x=f_7/f_8$ and
+$y=f_8/f_9$ have pole degrees $100,105$, computed independently by
+Tate expansions at all $120$ cusps. There are $162$ independent
+identities involving $x$ and $157$ involving $y$, between canonical
+linear forms. Their zero orders are at least $1798$, exceeding the
+section-degree bounds $620,625$. Thus all $319$ identities hold globally.
+At the source and three targets their linear equations have rank $260$
+and recover the canonical point.
+
+The canonical matrices $M_2,M_5$ have orders $10,6$, satisfy
+$M_5^3=M_2^5$, and generate the projective diamond group of order $30$.
+Substitution of the Tate points $u=q^2,q^5$ identifies them globally
+with the inverse point diamonds. The independently verified zero
+orders are $1797,1797,1794,1794$, all exceeding $625$.
+After an isomorphism the ordinary elliptic curves have equation
+$y^2+xy=x^3+a_2x^2+a_6$. Deforming $a_6$ to $a_6+t$, the standard
+$\psi_{93}$ recurrence, with nonzero $x$-derivative, lifts the exact
+$93$-torsion point. The elliptic and unit equations recover canonical
+jets through $t^4$. Independent arithmetic verifies these equations
+and a nonzero tangent. Since $j=1/(a_6+t)$, this is a local parameter.
+
+We test all $30$ simultaneous target diamond translates, both $\tau$
+and $\tau^{-1}$, and both coefficient arrangements
+\[
+ (\sigma-1)(T-\tau P-5P),\qquad
+ (\sigma-1)(T-P-5\tau P).
+\]
+The valid necessary divisor is among these $120$ tests. Coincident
+closed points are identified before adding signed multiplicities.
+Each positive and negative part has degree $108$.
+
+Put $R_i=H^0(X,iK_X)$. The canonical products span $R_2$ of dimension
+$780$. All $68121$ ordered products are reconstructed through
+$q^{1799}$, beyond the weight-$4$ Sturm bound $1280$.
+For $B=B^+-B^-$ choose nonzero $F,H\in R_1$ vanishing on $B^+$.
+If $f\in\mathcal L(B)$, then $G=fF$ vanishes on $B^-$ and
+$GH=F(fH)\in FR_1$. It suffices to check injectivity of
+\[
+ R_1\longrightarrow H^0(B^-,K_X|_{B^-})\oplus R_2/FR_1,
+ \qquad G\longmapsto(G|_{B^-},GH\bmod FR_1).
+\]
+Multiplication by $F$ has rank $261$, giving quotient dimension $519$.
+All $120$ resulting $261\times627$ matrices have rank $261$.
+The saved sections and matrices are reconstructed by a read-only
+replay and checked independently by Sage's M4RI implementation.
+No necessary divisor is principal, proving the proposition.
+All native computations used in this certificate finish with actual
+exit code $0$.
+\end{proof}

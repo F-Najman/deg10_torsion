@@ -1,0 +1,13 @@
+Loading "work/deg10/C226_resolution_20261030/finite_unit_template.m"
+In file "work/deg10/C226_resolution_20261030/finite_unit_template.m", line 9, column 5:
+>> ci:=eval Read("work/deg10/C226_resolution_20261030/Q_cusp_ideals.m");cs:=[]
+       ^
+
+In eval expression, line 52828, column 1:
+>> [* [* 9, 0,
+   ^
+    Located in file "work/deg10/C226_resolution_20261030/finite_unit_template.m", at line 9, column 5:
+    >> ci:=eval Read("work/deg10/C226_resolution_20261030/Q_cusp_ideals.m");cs:=[]
+           ^
+User error: bad syntax
+

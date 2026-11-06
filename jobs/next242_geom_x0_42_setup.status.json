@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_geom_x0_42_setup",
+  "script": "computations/next242_geom_x0_42_setup.m",
+  "script_sha256": "743c86dcfc8e0e8e9dabffd6ec44e205a9733df1b5cec7634a93df5e5a678a40",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_x0_42_setup.m"
+  ],
+  "pid": 2398341,
+  "owner_uid": 1001,
+  "start_time_unix": 1793382855.5240588,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/next242_geom_x0_42_setup.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.9671356678009033
+}

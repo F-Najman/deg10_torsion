@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_C48_independent_moduli_cache",
+  "script": "continuation_20261031b/C48/d31b_C48_independent_moduli_cache.py",
+  "script_sha256": "621119cefbf803d08bab7c3478ca12685c686b36ddd497cfca6b2c463ca2a296",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C48/d31b_C48_independent_moduli_cache.py"
+  ],
+  "pid": 3657961,
+  "owner_uid": 1001,
+  "start_time_unix": 1793441848.1699452,
+  "state": "EXITED",
+  "time_limit_seconds": 900,
+  "log": "jobs/d31b_C48_independent_moduli_cache.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 289.26517057418823
+}

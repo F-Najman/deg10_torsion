@@ -1,0 +1,19 @@
+{
+  "purpose": "contb77_fi_native_controls",
+  "script": "computations/contb77_fi_native_controls.m",
+  "script_sha256": "4728242017f51931daf66f963ac636cb4e06f5a41f86fd07b87e860e50dd3adc",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb77_fi_native_controls.m"
+  ],
+  "pid": 2557898,
+  "owner_uid": 1001,
+  "start_time_unix": 1793390346.6721332,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/contb77_fi_native_controls.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 405.3027753829956
+}

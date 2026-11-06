@@ -1,0 +1,19 @@
+{
+  "purpose": "b87_base_geometry",
+  "script": "computations/b87_base_geometry.m",
+  "script_sha256": "6adbff88171b36f1752a718c97af2eb4eac49b875ba89b548b183ec0c776158f",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/b87_base_geometry.m"
+  ],
+  "pid": 2515720,
+  "owner_uid": 1001,
+  "start_time_unix": 1793388373.5283804,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/b87_base_geometry.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.616473913192749
+}

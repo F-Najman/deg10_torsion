@@ -1,0 +1,1 @@
+DEGREES:=[1..10];SHARD:=4;NSHARDS:=7;LIMIT:=0;load "work/deg10/computations/d31a_even_p5_census_common.m";

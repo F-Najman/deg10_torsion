@@ -1,0 +1,7 @@
+{
+  "native_pid": 2873427,
+  "start_ticks": 186586516,
+  "command": "/opt/magma-2.30-1/magma.exe -b /home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/cyclic/continuation_20261026/C65_quotient9/model65.m ",
+  "memory_budget": 4000000000,
+  "cpu_hard": 1800
+}

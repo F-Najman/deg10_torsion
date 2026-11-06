@@ -1,0 +1,5 @@
+Loading "work/deg10/continuation_20261029b/C250/hecke_template.m"
+Loading "work/deg10/continuation_20261029b/deps/pair_af_place_linear.m"
+C250_HECKE_TEST 2 [ 1, 8, 5 ]
+1 7 false 181.520
+C250_HECKE_SHARD_COMPLETE 1 1 0 181.560

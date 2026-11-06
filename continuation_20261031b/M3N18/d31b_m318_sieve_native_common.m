@@ -1,0 +1,14 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(6*10^9);Alarm(850);tt:=Cputime();AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");root:="work/deg10/continuation_20261031b/M3N18/";k:=GF(13);PK:=PolynomialRing(k);X:=MDX11(3,18,k);F,mp:=AlgorithmicFunctionField(FunctionField(Curve(X)));assert Genus(F)eq 10 and Degree(F)eq 7;B:=BaseField(F);O:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);
+function RR(v)return B!(PK!v[1])/B!(PK!v[2]);end function;
+function FF(v)return F![RR(z):z in v];end function;
+function FX(v)KK:=ext<k|PK!v[1]>;vals:=[Evaluate(PK!z,KK.1):z in v[2]];return vals;end function;
+function Key(vals)
+ KK:=Parent(vals[1]);d:=LCM([Degree(MinimalPolynomial(v,k)):v in vals]);found:=false;for zz in[[1,0],[0,1]]cat[[1,n]:n in[1..12]]do gen:=zz[1]*vals[1]+zz[2]*vals[2];pol:=MinimalPolynomial(gen,k);if Degree(pol)eq d then bits:=zz;found:=true;break;end if;end for;assert found;M:=Matrix(k,[Eltseq(gen^i,k):i in[0..d-1]]);co:=[Eltseq(Solution(M,Vector(k,Eltseq(v,k)))):v in vals];return[*d,bits,[Integers()!z:z in Coefficients(pol)],[[Integers()!z:z in w]:w in co]*];
+end function;
+function DP(v)OO:=v[2]eq 1 select O else OI;gs:=[FF(z):z in v[3]];assert #gs eq 2;II:=ideal<OO|gs>;assert IsPrime(II);p:=Place(II);assert Degree(p)eq v[1];return p;end function;
+packets:=[eval Read(root cat Sprintf("final_Hecke7_v2_s%o.m",i)):i in[0..2]];coords:=[F!mp(z):z in X`_coordinates];for p in packets do assert Coefficients(DefiningPolynomial(F))eq[RR(v):v in p[1]]and coords eq[FF(v):v in p[2]];end for;rows:=[* *];for p in packets do for r in p[3]do if r[5]eq 0 then Append(~rows,r);end if;end for;end for;assert #rows eq 43;out:=[* *];refs:=0;
+for ii in[SHARD+1..#rows by NSHARDS]do row:=rows[ii];assert row[3]eq 7;D:=DivisorGroup(F)!0;obs:=[* *];
+ for s in row[4]do P:=DP(s[1]);Pd:=DP(s[3]);vs:=FX(s[2]);vd:=FX(s[4]);ks:=Key([Evaluate(z,P):z in coords]);kd:=Key([Evaluate(z,Pd):z in coords]);assert ks eq Key(vs[1..2])and kd eq Key(vd[1..2])and Degree(P)eq Degree(Pd);dq:=Degree(P);q0,t0:=Explode(vs[1..2]);assert vs[3..7]eq[q0*t0-q0+t0+2,Parent(q0)!0,q0*t0^2-q0*t0+t0,Parent(q0)!0,Parent(q0)!0]and vs[8..11]eq[Parent(q0)!0,Parent(q0)!0,-t0,t0^2];D-:=Divisor(P)+7*Divisor(Pd);targets:=[* *];refs+:=2;
+  for h in s[5]do T:=DP(h[1]);ww:=FX(h[4]);kk:=Key([Evaluate(z,T):z in coords]);assert kk eq Key(ww[1..2])and dq*h[3]eq h[2]*Degree(T);D+:=h[2]*Divisor(T);Append(~targets,[*h[3],h[2],kk*]);refs+:=1;end for;assert &+[v[1]:v in targets]eq 8;Append(~obs,[*dq,ks,kd,targets*]);
+ end for;assert Degree(D)eq 0;h:=#Basis(D);assert h eq 0;Append(~out,[*row[1],row[2],obs,h*]);print "D31B_M318_SIEVE_NATIVE_CASE_PASS",row[1],#out,refs,Cputime(tt);
+end for;Write(root cat Sprintf("sieve_native_A7_s%o.m",SHARD),Sprint([*out,[#out,refs]*]):Overwrite:=true);print "D31B_M318_SIEVE_NATIVE_COMPLETE",SHARD,#out,refs,Cputime(tt);quit;

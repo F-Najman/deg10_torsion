@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "degree": 10,
+  "source_cusp_norm_patterns": 4992,
+  "ordinary_patterns": 4989,
+  "special_5Q_patterns": 3,
+  "Cartier_image_dimension": 32,
+  "retained_geometric_RR_blocks": 60,
+  "full_restriction_blocks": 69,
+  "all_ranks": 10,
+  "fresh_native_geometric_controls": [
+    [
+      10,
+      27,
+      10
+    ],
+    [
+      10,
+      27,
+      10
+    ]
+  ],
+  "binary_and_native_replays_pass": true
+}

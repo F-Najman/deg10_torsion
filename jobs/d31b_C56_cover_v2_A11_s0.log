@@ -1,0 +1,31 @@
+Loading "work/deg10/computations/d31b_C56_cover_hecke_common_v2.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/fast_primitive_inverse.m"
+C56_COVER_MODEL_READY 11 0 23.810
+C56_COVER_GET 11 0 8 8 13.980 37.810
+C56_COVER_GET 11 0 8 8 14.510 52.320
+C56_COVER_GET 11 0 24 24 24.020 76.370
+C56_COVER_GET 11 0 24 24 26.480 102.850
+C56_COVER_GET 11 0 24 24 33.500 136.360
+C56_COVER_GET 11 0 24 24 22.370 158.730
+C56_COVER_RR_START 11 65 158.730
+
+
+Magma: Internal error
+
+Please report this issue with the entire run [*** WITH THE DETAILS BELOW ***] at:
+    https://github.com/Magma-Maths/Magma/issues
+or by email to:
+    magma-bugs@maths.usyd.edu.au
+
+You may check if the issue has been resolved by upgrading to the latest version of Magma or trying the online calculator: https://magma.maths.usyd.edu.au/calc/
+
+You can print the entire input by entering:
+%P
+
+Version: 2.30-1
+Binary variant: avx2-linux
+Initial seed: 1321314219
+Time to this point: 250.23
+Memory usage: 152.97MB
+denial "n < 0" failed in integer_power() at integer/power.c, line 17
+

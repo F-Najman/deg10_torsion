@@ -1,0 +1,6 @@
+D31B_C66_UNITS [ 1, 2, 4, 5, 7, 8, 10, 13, 14, 16 ]
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_gonal_fibre_filter_v5.m", line 2, column 256:
+>> !([(KK!Coefficient(pol0,i))*lc^(nd-1-i):i in[0..nd-1]] cat [KK!1]));hh:=hom
+                                      ^
+Runtime error in assert: Assertion failed

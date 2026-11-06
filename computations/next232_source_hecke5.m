@@ -1,0 +1,20 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(6*10^9);tt:=Cputime();
+AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");Attach("work/deg10/C232_resolution_20261030/deps/certified_kernel_isogenies.m");
+load "work/deg10/C232_resolution_20261030/deps/pair_af_place_linear.m";
+load "work/deg10/C232_resolution_20261030/deps/plane_pair.m";
+k:=GF(3);R:=PolynomialRing(k);s:=eval Read("work/deg10/C232_resolution_20261030/source6.m");ky:=(eval Read("work/deg10/C232_resolution_20261030/filterprobe6.m"))[3][1][3];K<z>:=ext<k|R!s[2]>;b:=Evaluate(R!ky[1..6],z);c:=Evaluate(R!ky[7..12],z);E:=EllipticCurve([K|0,c,0,b*(1-b-c),0]);P:=E![0,0];Q:=E![b,b];assert Order(Q) eq 32;
+isogs:=MDCertifiedIsogenies(E,Q,5);assert &+[r[3]:r in isogs] eq 6;print "C232_HECKE_KERNELS_READY",[r[3]:r in isogs],Cputime(tt);
+X:=MDX11(2,32,k);C:=Curve(X);assert Genus(C) eq 37;F0,mp:=AlgorithmicFunctionField(FunctionField(C));F:=RationalExtensionRepresentation(F0);coords:=[F!mp(v):v in X`_coordinates];uvcoords:=[F!mp(FunctionField(C).i):i in [1,2]];OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);
+function ER(v) return [[Integers()!c:c in Coefficients(Numerator(v))],[Integers()!c:c in Coefficients(Denominator(v))]];end function;
+function EF(v) return [ER(c):c in Eltseq(F!v)];end function;
+function EP(pl) I:=Ideal(pl);return [*Order(I) eq OF select 1 else 0,Degree(pl),[EF(v):v in Basis(I)]*];end function;
+function Code(v) return [Integers()!a:a in Eltseq(v,k)];end function;
+npl:=C48PairAFPlaceLinear(uvcoords,C232PlanePair(C,[b,c]));assert Degree(npl) eq 6;N:=Divisor(npl);delta:=DerickxNormalForm_bc(E,P,5*Q);dpl:=C48PairAFPlaceLinear(uvcoords,C232PlanePair(C,delta));assert Degree(dpl) eq 6;DN:=Divisor(dpl);T:=DivisorGroup(F)!0;rows:=[* *];
+for rec in isogs do
+ EG,U,e,g,UL,kg,Ng:=Explode(rec);EL:=Curve(Parent(UL));EE,ph:=IsogenyFromKernel(EL,g);assert EE eq EG and ph(UL) eq U;V:=ph(EL![0,0]);assert Order(V) eq 2 and V ne 16*U and Order(U) eq 32;bc:=DerickxNormalForm_bc(EG,V,U);L:=BaseRing(EG);pl:=C48PairAFPlaceLinear(uvcoords,C232PlanePair(C,bc));de:=Degree(pl);assert (6*e) mod de eq 0;w:=(6*e) div de;T+:=w*Divisor(pl);
+ Append(~rows,[*e,[Integers()!x:x in Coefficients(DefiningPolynomial(L,k))],Code(kg),[Code(x):x in Coefficients(g)],[Code(x):x in aInvariants(EG)],[Code(U[1]),Code(U[2])],[Code(V[1]),Code(V[2])],[Code(x):x in bc],de,w,EP(pl),[Code(x):x in Coefficients(Ng)]*]);
+ print "C232_HECKE_IMAGE",e,de,w,Cputime(tt);
+end for;
+assert Degree(T) eq 36;A:=T-N-5*DN;assert Degree(A) eq 0;
+geometry:=[*[ER(v):v in Coefficients(DefiningPolynomial(F))],[EF(v):v in coords],s[2],ky,EP(npl),EP(dpl),rows*];Write("work/deg10/C232_resolution_20261030/hecke5_geometry.m",Sprint(geometry):Overwrite:=true);print "C232_HECKE_GEOMETRY_SAVED",Cputime(tt);
+V:=Basis(A:Reduction:=false,Simplification:="None");print "C232_HECKE5_PRINCIPAL",#V gt 0,Cputime(tt);Write("work/deg10/C232_resolution_20261030/hecke5_result.m",Sprint([*#V,#V gt 0*]):Overwrite:=true);print "C232_HECKE5_COMPLETE",#V,Cputime(tt);quit;

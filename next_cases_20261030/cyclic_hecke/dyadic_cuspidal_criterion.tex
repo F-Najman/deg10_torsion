@@ -1,0 +1,36 @@
+\begin{lemma}\label{lem:dyadic-cuspidal-diamond}
+Let $N\geq5$ be odd, put $X=X_1(N)$ and $J=J_1(N)$, and let
+$d\geq1$. Suppose that the following conditions hold:
+\begin{enumerate}
+\item $Y_1(N)(\mathbb F_{2^f})=\emptyset$ for $1\leq f\leq d$.
+\item Every closed cusp of $X_{\mathbb F_2}$ of degree at most $d$
+is the reduction of a rational cuspidal divisor of the same degree.
+\item There is a diamond $h=\langle a\rangle$ of order $r$ such that
+$(h-1)J(\mathbb Q)$ is finite and $r\nmid d$.
+\item $\operatorname{gon}_{\mathbb C}(X)>4d$.
+\end{enumerate}
+Then there is no effective rational divisor of degree $d$ on $X$
+with entirely noncuspidal support. In particular, no elliptic curve
+over a degree-$d$ field has a point of order $N$.
+\end{lemma}
+\begin{proof}
+Suppose that $D$ is such a divisor.
+By (1), its reduction at $2$ is entirely cuspidal.
+By (2), it has a rational cuspidal lift $C$ of degree $d$.
+The point $y=(h-1)[D-C]$ is rational torsion and reduces to zero.
+The torsion kernel of reduction at $2$ is killed by $2$; see the
+proof of \cite[Proposition~3.4]{DKSS}.
+Thus
+\[
+ 2hD+2C\sim2D+2hC.
+\]
+Both sides have degree $4d$.
+By (4), they are equal as divisors.
+Separating their cuspidal and noncuspidal parts gives $hD=D$.
+
+Every point in the support of $D$ has cuspidal reduction, so its
+$j$-invariant has negative valuation at a place above $2$.
+A CM $j$-invariant is an algebraic integer. Hence these points are
+non-CM, and every geometric orbit under $h$ has length $r$.
+It follows that $r\mid\deg D=d$, contradicting (3).
+\end{proof}

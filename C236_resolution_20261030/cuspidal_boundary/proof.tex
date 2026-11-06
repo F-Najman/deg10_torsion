@@ -1,0 +1,50 @@
+\begin{lemma}\label{lem:decic236-cuspidal-pencil}
+Every degree-$10$ morphism
+$X_1(2,36)_{\mathbb F_5}\to\mathbb P^1$
+has a rational fibre whose support is not entirely cuspidal.
+\end{lemma}
+\begin{proof}
+The source has $24$ rational points, all cuspidal, and its cusp
+signature is $1^{24},2^8,6^4$. Suppose that all six rational
+fibres are cuspidal. Let $n_1\geq\cdots\geq n_6$ count the
+distinct rational cusps in these fibres. Then
+\[
+ \sum_i n_i=24,\qquad n_1\geq4,\qquad
+ n_2\geq\left\lceil\frac{24-n_1}{5}\right\rceil.
+\]
+Let $A_1,A_2$ be the two fibres with largest rational support.
+For a cuspidal divisor $A=\sum_c m_c c$, use the geometric
+coefficient norm
+\[
+ \|A\|^2=\sum_c \deg(c)m_c^2.
+\]
+If $\deg A=10$ and it contains $n$ distinct rational cusps,
+then $\|A\|^2\leq(11-n)^2+n-1$.
+The fibres have disjoint support. Checking $4\leq n_1\leq10$
+and the displayed lower bound on $n_2$ gives
+\[
+ \|A_1-A_2\|^2\leq104.
+\]
+The positive and negative parts both have degree $10$.
+
+Lift the cusps over a cyclotomic extension unramified at $5$.
+Their difference is torsion by Manin--Drinfeld and reduces to a
+principal class. Torsion injectivity over this unramified odd local
+field makes the lifted difference principal. Its coefficient vector
+therefore lies in the full geometric cuspidal modular-unit lattice
+and is fixed by Frobenius $5$.
+
+We compute this lattice from the integral period map for
+$\Gamma_\Delta(72)$, where $\Delta=\{\pm1,\pm35\}$.
+There are $64$ geometric cusps and $36$ Frobenius orbits.
+Intersecting the complete principal-divisor lattice with the
+Frobenius-fixed cusp-divisor lattice gives a rank-$35$ lattice
+in $\mathbb Z^{64}$. Ordinary Euclidean norm in these coordinates
+is exactly the weighted norm above.
+
+Complete short-vector enumeration gives $24552$ pairs of nonzero
+vectors of squared norm at most $104$. None has positive part of
+degree $10$. An independent calculation reconstructs the full
+period kernel and obtains the same enumeration using PARI.
+This contradicts the vector $A_1-A_2$.
+\end{proof}

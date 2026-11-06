@@ -1,0 +1,14 @@
+WINDING_SPACE_READY N=69 order=1 dimension=7 time=0.020
+WINDING N=69 order=1 conductor=1 relative_dimension=7 winding_dimension=7 coefficient_degree=1 time=0.030
+WINDING_SPACE_READY N=69 order=22 dimension=6 time=0.010
+WINDING_T2_READY N=69 order=22 time=0.010
+WINDING_GOOD_PRIME p=67 all_denominators_invertible=true
+WINDING_KRYLOV_MATRIX N=69 chi_index=2 order=22 path=work/deg10/continuation_20261029/krylov_N69_chi2_order22.json
+WINDING_KRYLOV N=69 order=22 span_rank=6 dimension=6 verified=true time=0.010
+WINDING N=69 order=22 conductor=69 relative_dimension=6 winding_dimension=6 coefficient_degree=10 time=0.010
+WINDING_SPACE_READY N=69 order=11 dimension=6 time=0.010
+WINDING N=69 order=11 conductor=23 relative_dimension=6 winding_dimension=6 coefficient_degree=10 time=0.020
+WINDING_SPACE_READY N=69 order=2 dimension=6 time=0.010
+WINDING N=69 order=2 conductor=69 relative_dimension=6 winding_dimension=6 coefficient_degree=1 time=0.010
+WINDING_FINAL N=69 genus=133 total_dimension=133 bad_orders=[] admissible=[ 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, 19, 20, 22, 25, 26, 28, 29, 31, 32, 34, 35, 37, 38, 40, 41, 43, 44, 47, 49, 50, 52, 53, 55, 56, 58, 59, 61, 62, 64, 65, 67 ]
+WINDING_CHARACTER_PROBE_DONE

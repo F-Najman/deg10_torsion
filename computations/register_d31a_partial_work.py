@@ -1,0 +1,10 @@
+from pathlib import Path
+import json,hashlib
+H=Path(__file__).resolve().parents[1];ROOT=H.parent.parent;R=H/'continuation_20261031a';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+mf=R/'even_backup_manifest.json';assert sha(mf)=='cf78b08ca8b577b739238fa94ab5d9d9eaaff204efb99adc65cfd289b4cfb9c0';d=json.loads(mf.read_text());assert d['status']=='PASS; PARTIAL MATHEMATICAL WORK';ev={}
+for e in d['files']:
+ p=ROOT/e['path'];assert p.is_relative_to(H)and sha(p)==e['sha256'],p;ev[str(p.relative_to(H))]=e['sha256']
+r=R/'partial_parent_review.json';assert not r.exists();r.write_text(json.dumps({'status':'PASS','parent_mathematical_review':'PASS','no_additional_group_exclusion':True,'verified_partial_results':['Complete finite source censuses retained for unresolved even cases','gon_Q X1(54)>=12, independently proved by exact coset genera, retained spectral bound and Castelnuovo-Severi','The independently verified four-map finite C56 sieve retains135of1229patterns; these residuals are unresolved'],'diagnostic_limitations':'The timed-out C56/C66 full-model and Picard attempts provide no missing Riemann-Roch or class-presentation proof; no cuspidal saturation is inferred for unresolved noncyclic cases','frozen_manifest_sha256':sha(mf),'classification_complete':False},indent=2)+'\n')
+for p in[mf,r]:ev[str(p.relative_to(H))]=sha(p)
+p=H/'certified_results.json';L=json.loads(p.read_text());name='decic_unresolved_even_case_partial_work_20261031a';assert not any(x['name']==name for x in L['auxiliary_results'])
+L['auxiliary_results'].append({'name':name,'verified':True,'statement':'Verified partial work only: complete finite source censuses, gon_Q X1(54)>=12, and an independently checked C56 four-map finite sieve leaving135residual patterns. No further torsion group is excluded by this packet. Failed or capped probes are diagnostics only.','evidence':[{'path':p,'sha256':s}for p,s in sorted(ev.items())]});p.write_text(json.dumps(L,indent=2)+'\n');print('REGISTERED_PARTIAL_WORK_NO_NEW_EXCLUSION',len(ev))

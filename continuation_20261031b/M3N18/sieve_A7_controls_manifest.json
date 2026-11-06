@@ -1,0 +1,266 @@
+{
+  "status": "PASS",
+  "group": "C3 x C18",
+  "scope": "43 negative A7 support tests only",
+  "summary_sha256": "ef56f1bdbad5cef3fc0f701803b13c295abfdb71e1e80b7ad67352ea7c268bd4",
+  "files": [
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/d31b_m318_sieve_build_A7_controls.py",
+      "sha256": "82f8171b22bd1ac0a0c7ba3f21e60ca8f962e7e397694e0eedf6b0ccb631b106",
+      "bytes": 4055
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/d31b_m318_sieve_genuine_A7.py",
+      "sha256": "0ab02f022e1aa82a3c5b1655b31578a20dd3b60ee871f45eb13d5be6d9b6d563",
+      "bytes": 6629
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/d31b_m318_sieve_native_common.m",
+      "sha256": "286a0a3808114400c0db2b997f52d1ed0df924fb10b844d53fd354264659117b",
+      "bytes": 2856
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/d31b_m318_sieve_native_s0.m",
+      "sha256": "9cc84a04a1ba583bc8f4960f52f42bc3a512589279c03161d5906b3c3e92ba42",
+      "bytes": 100
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/d31b_m318_sieve_native_s1.m",
+      "sha256": "0ec4b94a4b41b5237c1e84f6c422bd6d084f045678d0fa8226f8b12064258791",
+      "bytes": 100
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/final_Hecke7_v2_s0.m",
+      "sha256": "53faa3f32c76374cf49780d797d64154082e6edcd97433d9b28d415c8acc91e8",
+      "bytes": 108548
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/final_Hecke7_v2_s1.m",
+      "sha256": "5a8b4caaac35db12634b12b3948289f2283fde07561bc51051bbbf30bd931278",
+      "bytes": 105497
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/final_Hecke7_v2_s2.m",
+      "sha256": "59d9dc02a04394e001da798603f1cdb2dfecd5b878b9b0507dccaef1af137c2e",
+      "bytes": 96521
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/final_Hecke_common_v2.m",
+      "sha256": "5860fbd7bf935d19ee2db2ba023c431f14069386dc44c0672a26feb01f733499",
+      "bytes": 3229
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/inputs/fast_full_aut_hash_m3_18_root.m",
+      "sha256": "2ff25cf5762ecca1229fbc1070ca3ae46c09a4ae532b6186c7a18d5365cda4f6",
+      "bytes": 3798
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/isogenies_witness.m",
+      "sha256": "94efcb1a716e05fb6b2d16bbd159de3360b03b4ea7603d10ab6d0752c09b4788",
+      "bytes": 3007
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/paired_final_Hecke_inputs_v2.m",
+      "sha256": "acf399deb60081f18a183cffa7e01f45279ee864872b99b7026940c13878710a",
+      "bytes": 3805
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/sieve_A7_controls_summary.json",
+      "sha256": "ef56f1bdbad5cef3fc0f701803b13c295abfdb71e1e80b7ad67352ea7c268bd4",
+      "bytes": 878
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/sieve_independent_genuine_A7.json",
+      "sha256": "c771b15fd9c56eb35dba09ef0ac1d3b79bb69b46184914a8c3fc9a715e86de40",
+      "bytes": 238056
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/sieve_native_A7_s0.m",
+      "sha256": "3718b560684bbb06d55d979064593be31e44587af3b48f3fcc3f483b79c6909a",
+      "bytes": 16827
+    },
+    {
+      "path": "work/deg10/continuation_20261031b/M3N18/sieve_native_A7_s1.m",
+      "sha256": "1df94ac9f279892643c50ec1c9c5d39faef80a6d3df719be9e21ee49d2c73cec",
+      "bytes": 17137
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m318_sieve_genuine_A7.log",
+      "sha256": "c3f1adb2456daf5e87ae4db358c86253e0b8603085d41ff268f39653869819aa",
+      "bytes": 2805
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m318_sieve_genuine_A7.status.json",
+      "sha256": "bdf8a11a54fb569249976b5500dc7494acd9a2d046e51278f0c73728cbb29ca4",
+      "bytes": 687
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m318_sieve_native_s0.log",
+      "sha256": "0f152331e730551b6e1b61d05de3d8ce88f4cf086200cf81b7d7528eaee7a68c",
+      "bytes": 1179
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m318_sieve_native_s0.status.json",
+      "sha256": "7167bd1b9652200adbbd7029819eafc553df26e0d4e4cf44b930e3584c5c77a3",
+      "bytes": 681
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m318_sieve_native_s1.log",
+      "sha256": "8443f49ade39e85d4c072a7cdc6e3b4c42fc102d79cd2d9f2f44782ea5539cbe",
+      "bytes": 1132
+    },
+    {
+      "path": "work/deg10/jobs/d31b_m318_sieve_native_s1.status.json",
+      "sha256": "efbdde39044f9167e9d5b596538f9e59e2488383aa4191ab2900ba77528793ca",
+      "bytes": 682
+    },
+    {
+      "path": "work/deg10/run_job.py",
+      "sha256": "92c5f1910c551f00bced7c3d4e3731634d8bdb6ee2a07b5a87178c1ea9aed8bc",
+      "bytes": 1995
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.m",
+      "sha256": "125cc6d6b9d418b771b97cb211b39804a7f5b651df413d9a3d5737c6995cd2ed",
+      "bytes": 287
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/algebra/linear_algebra.sig",
+      "sha256": "52cf55c738cbd8b7783be68f5128f2e95f62b55b9aa8d284562473fec53b527a",
+      "bytes": 218
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/classgroups.m",
+      "sha256": "a8c7b73d3dd6f65d608cc4b630a7d266eeccf9334a7a97aac3b16bf7342ceb24",
+      "bytes": 484
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/classgroups.sig",
+      "sha256": "ba7204632ae38e30f96bded60753927e2ce3b07ae6db9df2952c0405d9cde169",
+      "bytes": 151
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/divisors.m",
+      "sha256": "089eb458ff30c26b72a220db2029e890806175cb67ed25c6a9c2d524e03c53e7",
+      "bytes": 1491
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/curves/divisors.sig",
+      "sha256": "61eb59cce8da8aa6c326ab3340121c9094328b1c325a4dfd48b06e3393839480",
+      "bytes": 512
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.m",
+      "sha256": "bbf697101d04a9b6a230204cd11e658e09f280a99077589539509e5d3b860f15",
+      "bytes": 1091
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/elliptic_curves/isogenies.sig",
+      "sha256": "937d65a93d8b0559b4f951e8e78cfcd0959e4c9a63b2a2ee43e244ab06b9c033",
+      "bytes": 217
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/mdmagma.spec",
+      "sha256": "71dfa75aac69d36258e9a31f5f86ff15b2fb4c177e668bb3d8f3bc66a38a4a7a",
+      "bytes": 81
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/mdmagma_internal.spec",
+      "sha256": "6df83fbd9e5390bb1f9848dd6cb1692f9a082a8190e6ca9a3433209b1fea7487",
+      "bytes": 282
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X0.m",
+      "sha256": "82ddf65e716485b9c0b63f5dba81e727cb00623eb424ca99f0764237b5313d83",
+      "bytes": 883
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X0.sig",
+      "sha256": "ad7a0ac093106595596ab594b1502a9cd9ad9c11c37802f22be02e986e7afd6e",
+      "bytes": 518
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X1.m",
+      "sha256": "3b4ed1b2fb00f170fd03dfaa59218fc09dcd0243d415ae4bd8ac8c024c94ba7f",
+      "bytes": 8226
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X1.sig",
+      "sha256": "a59ba44cf0beb2eb184866ff2d51be2b70b52beaacbf0ebe627567e79c6209e7",
+      "bytes": 4142
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X11.m",
+      "sha256": "84e9ac7f56e58a9bb4f4a45bf5d190f6ecabacb71fa744245ed3ff93417186d9",
+      "bytes": 7602
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/X11.sig",
+      "sha256": "1d42502ec4cd75897c53d7c6e7bc2c8ee20d3fbe74ab89b37c30481ba1fbc8f5",
+      "bytes": 2540
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.m",
+      "sha256": "1967cc292ab653bd0861136867eabf72a1384b293382ea4aca0101441d46650e",
+      "bytes": 7298
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/base_curve.sig",
+      "sha256": "ad3a9969c9bb6d2aec183a03facd64779e2e21c712111872067b99c1a3e317ba",
+      "bytes": 3835
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.m",
+      "sha256": "e929787f0dfa48018ce420f7529e7b8b9a330a08f43ea98b78f637ed014857ee",
+      "bytes": 904
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_curves/rational_points.sig",
+      "sha256": "bad67095a7ac630eae102c094c32d3e06d70018492b3ccbb6c20bbb7d4396978",
+      "bytes": 431
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.m",
+      "sha256": "6c1bffd4d4bd069a63df0cee743bdeecfd016305fa02b4ce89c9e1f6a30cfc14",
+      "bytes": 2167
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/modular_forms/modular_symbols.sig",
+      "sha256": "146c4ddbd78b095c65f33f2b3488b6133bc791872db9baa0d87756b128e9aba5",
+      "bytes": 608
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/utils.m",
+      "sha256": "0bebdd923143482f68e37aed673f54b445781598497c2efb27d4e7e8cb96da64",
+      "bytes": 1321
+    },
+    {
+      "path": "work/deg10/shared/mdmagma/v2/utils.sig",
+      "sha256": "3d059d073c8cee670e57109861b9e66d276a3432029d38fe294af14d91bbba4a",
+      "bytes": 538
+    }
+  ],
+  "jobs": [
+    {
+      "purpose": "d31b_m318_sieve_native_s0",
+      "script": "work/deg10/continuation_20261031b/M3N18/d31b_m318_sieve_native_s0.m",
+      "log": "work/deg10/jobs/d31b_m318_sieve_native_s0.log",
+      "status": "work/deg10/jobs/d31b_m318_sieve_native_s0.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "purpose": "d31b_m318_sieve_native_s1",
+      "script": "work/deg10/continuation_20261031b/M3N18/d31b_m318_sieve_native_s1.m",
+      "log": "work/deg10/jobs/d31b_m318_sieve_native_s1.log",
+      "status": "work/deg10/jobs/d31b_m318_sieve_native_s1.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "purpose": "d31b_m318_sieve_genuine_A7",
+      "script": "work/deg10/continuation_20261031b/M3N18/d31b_m318_sieve_genuine_A7.py",
+      "log": "work/deg10/jobs/d31b_m318_sieve_genuine_A7.log",
+      "status": "work/deg10/jobs/d31b_m318_sieve_genuine_A7.status.json",
+      "actual_exit_code": 0
+    }
+  ]
+}

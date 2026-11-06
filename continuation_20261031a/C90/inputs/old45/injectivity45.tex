@@ -1,0 +1,52 @@
+\begin{lemma}\label{lem:nonic45-injective-two}
+Reduction at $2$ is injective on $J_1(45)(\mathbb Q)$.
+\end{lemma}
+\begin{proof}
+By \cite[Theorems~3.1 and 4.13, and Table~2]{DEHMZ}, the rational Jacobian has
+rank zero and $2$-primary torsion $C_4\times C_{32}$.
+The automorphism group of this $2$-group is a $2$-group: the unequal
+invariant exponents give a characteristic flag modulo $2$, on which
+automorphisms are upper unitriangular, and the kernel is a $2$-group.
+Thus $H=\{1,16,31\}$ acts trivially on this torsion by diamonds.
+Put $Y=X_1(45)/H$, and let $\pi:X_1(45)\to Y$ be the quotient map.
+
+Over $F=\mathbb Q(\zeta_3)$, the curve $Y$ is isomorphic to
+$X_1(3,15)$, taking the connected component with fixed Weil pairing
+$e_3(5Q,T)=\zeta_3$. Indeed quotient a pair $(E,P)$ of order $45$ by
+$\langle15P\rangle$. The image of $P$ has order $15$, and the dual
+kernel has a distinguished generator after fixing $\zeta_3$ and the
+generator $15P$ of the original kernel, using the isogeny pairing.
+The dual kernel is independent of the order-$3$ point in the image
+of $\langle P\rangle$: the dual isogeny sends that point to the
+nonzero point $15P$. Replacing $P$ by $16P$ leaves this structure
+unchanged. Conversely, the three lifts of the order-$15$ point through
+the dual isogeny form exactly this $H$-orbit. This identifies the
+quotient generically, hence identifies the smooth projective curves.
+
+All sixteen rational cusps of $X_1(3,15)_{\mathbb F_4}$ lift to
+$F$-rational cusps. An independent Tate-label enumeration verifies
+that the generator $7$ of $\operatorname{Gal}(\mathbb Q(\zeta_{15})/F)$
+and Frobenius $4$ have the same sixteen fixed geometric cusps;
+their other orbit lengths are respectively $4^4$ and $2^8$.
+Native finite class-group computations give
+\[
+ \operatorname{Cl}_{\mathrm{rat\ cusp}}(X_1(3,15)_{\mathbb F_4})
+       =[3,3,24,96,96],
+ \qquad J_1(3,15)(\mathbb F_7)=[3,3,3,24,480,480].
+\]
+Both have $2$-primary order $8192$.
+The first is a lower bound for the reduction of the $F$-rational
+cuspidal subgroup, by Manin--Drinfeld. The second bounds the full
+$F$-rational $2$-primary torsion from above, since $7$ splits in $F$
+and prime-to-$7$ torsion injects into good reduction.
+Consequently reduction at $2$ is injective on $J_Y(F)[2^\infty]$.
+Both computations have been rerun in the degree-nine directory with
+actual exit code $0$.
+
+For $t\in J_1(45)(\mathbb Q)[2^\infty]$ we have
+$\pi^*\pi_*t=\sum_{h\in H}ht=3t$, so $\pi_*$ is injective on this
+$2$-group. The quotient and the $F$-isomorphism extend to the good
+Neron models at $2$. If $t$ reduces to zero, so does $\pi_*t$, whence
+$\pi_*t=0$, then $3t=0$ and $t=0$.
+Odd-order torsion always injects under reduction at $2$, proving the lemma.
+\end{proof}

@@ -1,0 +1,128 @@
+\input{../continuation_20261031b/M3N33/finite_image.tex}
+\input{../continuation_20261031b/M3N33/relative_formal_fibre_F4.tex}
+
+\begin{proposition}\label{prop:decic-no333}
+An elliptic curve over a number field of degree $10$ has no subgroup
+isomorphic to $C_3\times C_{33}$.
+\end{proposition}
+\begin{proof}
+Put $F=\mathbb Q(\zeta_3)$ and $X=X_1(3,33)_F$.
+The Weil pairing gives $F\subset K$. A proposed level structure
+therefore gives an effective noncuspidal $F$-rational divisor $D$
+of degree $5$ on $X$. Write $h=\langle10\rangle$ and
+$\alpha=h_*-1$. The image $\alpha J_X(F)$ is finite by
+Lemma~\ref{lem:decic333-finite-image}.
+We use reduction at the prime above $2$, with residue field
+$k=\mathbb F_4$.
+
+The Frobenius polynomial and an independent exhaustive enumeration
+of elliptic curves give the noncuspidal closed-place counts
+\[
+                         0,\quad0,\quad0,\quad0,\quad264
+\]
+in degrees one through five. The closed cusps have signature
+$1^{40},5^8$. Thus $\overline D$ is either entirely cuspidal or
+one noncuspidal quintic place.
+
+We first exclude the cuspidal case. Put $R=\mathcal O_{F,2}$,
+completed at $2$. Cusps lift over unramified extensions of $R$;
+for a closed quintic cusp we take the trace of its five geometric
+lifts. These traces give an $R$-rational cuspidal lift $C$ of
+$\overline D$. Choose an $F$-rational Tate cusp $c_0$.
+The class $\alpha[D-5c_0]$ is torsion by finiteness of
+$\alpha J_X(F)$, and $[C-5c_0]$ is torsion by
+Manin--Drinfeld. Hence $\alpha[D-C]$ is torsion.
+This does not require finiteness of $J_X(F)$.
+
+The involution $h$ interchanges the cusps in $20$ rational pairs
+and four pairs of closed quintic cusps. Its quotient is \'etale
+near every cusp, with smooth local quotient over $R$.
+Write
+\[
+              \overline C=\overline C_0+\pi^*\overline E,
+              \qquad k_0=\deg\overline E,
+\]
+using maximal multiplicities on each pair, where
+$\pi:X\to X/\langle h\rangle$.
+For a rational cuspidal divisor of degree $5$, we have
+$k_0\in\{0,1,2\}$. A single quintic cusp has $k_0=0$.
+The space
+\[
+       U=(\mathcal C^2-1)(h^*-1)H^0(X_k,\Omega^1)
+\]
+has dimension $36$. Its restriction to every such
+$\overline C$ has rank $5-k_0$.
+The complete counts for rational cusp divisors are
+\[
+\begin{array}{c|rrr}
+k_0&0&1&2\\ \hline
+\text{number}&864008&213600&8400,
+\end{array}
+\]
+and each of the eight quintic cusps has restriction rank $5$.
+Lemma~\ref{lem:decic-relative-formal-F4} now implies $C_0\leq D$.
+Since $5$ is odd, $C_0$ is nonempty. This contradicts the
+noncuspidal support of $D$.
+
+Here the restriction matrices are obtained on the explicit
+Kummer presentation over $Y=X_1(33)_k$. If $Q_{33}$ is the
+universal point and $11Q_{33}$ is put in the form
+$(0,0)$ on
+\[
+                       y^2+A_1xy+A_3y=x^3,
+\]
+the additional $3$-level structure is given by
+\[
+                              r^3=A_1^3-27A_3.
+\]
+The resulting curve has genus $81$. The exact holomorphic basis,
+Cartier matrix and diamond pullback are retained. At all $24$
+base cusps we expand the coefficient functions, use the tame
+Kummer uniformizer, and obtain the jets at all $48$ closed
+source cusps. An independent Sage calculation reconstructs
+the function-field equations and these series, and repeats
+every restriction matrix and all $1086008+8$ ranks.
+The cusp permutation is also checked directly on the canonical
+first-jet spaces, which are pairwise distinct.
+
+It remains to exclude noncuspidal reduction. Forgetting the
+independent point of order $3$ maps the $264$ quintic places
+onto $88$ quintic places on $Y_k$, in twelve diamond orbits.
+The Jacobian $J_Y(\mathbb Q)$ is finite by
+\cite[Theorem~3.1]{DEHMZ}. For a degree-five divisor $M$ on
+$Y_F$, its trace $M+M^\sigma$ is a rational divisor of degree
+$10$, where $\sigma$ is the nontrivial automorphism of $F$.
+Put
+\[
+                  A_5=T_5-1-5\langle5\rangle.
+\]
+Eichler--Shimura and torsion injectivity at $5$ give
+$A_5J_Y(\mathbb Q)=0$. At a rational Tate cusp $c_0$,
+$T_5c_0=c_0+5\langle5\rangle c_0$ as divisors.
+Thus $A_5(M+M^\sigma)$ is principal.
+
+For the twelve possible reduction orbits, the exact
+Riemann--Roch tests for this divisor give dimension zero
+except at representatives $1$, $6$ and $10$.
+At each of these three representatives we also use the three
+$3$-isogenies whose kernel is not $\langle11Q_{33}\rangle$.
+The image of $Q_{33}$ still has order $33$, so each quotient
+gives another divisor $M$ on $Y_F$ to which the same argument
+applies. The nine resulting Riemann--Roch dimensions, in order,
+are
+\[
+                       (0,0,1,\;1,0,0,\;1,0,0).
+\]
+Each representative therefore has a zero-dimensional test,
+contradicting principality.
+
+The finite computations retain the residue norms of every
+pushforward and trace, including multiplicity two when the
+rational trace has one closed place as support.
+An independent enumeration checks all $72$ geometric
+$5$-kernels and the three selected $3$-kernels, with all $75$
+marked V\'elu maps. A second native calculation reconstructs
+the $80$ prime references from two-generator ideals, binds
+the source and all marked images, and repeats the twelve
+selected zero-dimensional Riemann--Roch tests.
+\end{proof}

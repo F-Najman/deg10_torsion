@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "level": 85,
+  "method": "Separate integer relation-kernel elimination and Gray enumeration; independent C++ full rank at every mixed leaf, without incremental basis reuse",
+  "rational": {
+    "relation_dimension": 13,
+    "all_nonzero_relations_checked": 8191,
+    "minimum_normalized_prefix_cost": 32,
+    "minimum_raw_prefix_cost": 32,
+    "all_pure_rational_rank10": true
+  },
+  "mixed_families": [
+    {
+      "family": "onequartic_plus_rat6",
+      "count": 2324784,
+      "all_full_rank": true
+    },
+    {
+      "family": "doublequartic_plus_rat2",
+      "count": 528,
+      "all_full_rank": true
+    },
+    {
+      "family": "twoquartics_1_plus_rat2",
+      "count": 528,
+      "all_full_rank": true
+    },
+    {
+      "family": "twoquartics_2_plus_rat2",
+      "count": 528,
+      "all_full_rank": true
+    },
+    {
+      "family": "twoquartics_3_plus_rat2",
+      "count": 528,
+      "all_full_rank": true
+    },
+    {
+      "family": "twoquartics_4_plus_rat2",
+      "count": 528,
+      "all_full_rank": true
+    },
+    {
+      "family": "twoquartics_5_plus_rat2",
+      "count": 528,
+      "all_full_rank": true
+    },
+    {
+      "family": "twoquartics_6_plus_rat2",
+      "count": 528,
+      "all_full_rank": true
+    },
+    {
+      "family": "twoquartics_7_plus_rat2",
+      "count": 528,
+      "all_full_rank": true
+    },
+    {
+      "family": "q8width5_plus_rat2",
+      "count": 528,
+      "all_full_rank": true
+    },
+    {
+      "family": "q8width1_plus_rat2",
+      "count": 528,
+      "all_full_rank": true
+    }
+  ],
+  "total_mixed_patterns": 2330064,
+  "source_blocks_sha256": "503de6de58a9591982e7ec2c6dda44da732889f811981c88e1cd96b86b5b7639",
+  "cpp_sha256": "9392b813f0e147bec8978c987268a7cd0b28c949482baeea28fd8a27e2cb7b22",
+  "seconds": 0.7161493301391602
+}

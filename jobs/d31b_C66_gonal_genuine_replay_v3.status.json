@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_C66_gonal_genuine_replay_v3",
+  "script": "computations/d31b_C66_gonal_genuine_replay_v3.py",
+  "script_sha256": "258cc27d958aab5dd71fdbbb542147ec53f9fe2fd4463f37937ec0014f513677",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_gonal_genuine_replay_v3.py"
+  ],
+  "pid": 3514707,
+  "owner_uid": 1001,
+  "start_time_unix": 1793435639.8404388,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31b_C66_gonal_genuine_replay_v3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.7698898315429688
+}

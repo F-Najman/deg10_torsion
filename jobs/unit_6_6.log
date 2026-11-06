@@ -1,0 +1,3 @@
+DECIC_UNIT_START 6 6 genus 1 relative_degree 5
+DECIC_UNIT_SUCCESS 6 6 degree 5 divisor [0, 1, 1, 1, -1, -1, -1, 1, 0, -1, -1, 1]
+DECIC_UNIT_SEARCH_COMPLETE

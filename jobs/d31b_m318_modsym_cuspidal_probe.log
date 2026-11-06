@@ -1,0 +1,7 @@
+M318_MODSYM_J ModAbVar 10 0.060
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_modsym_cuspidal_probe.m", line 1, column 188:
+>> t);C:=CuspidalSubgroup(J);print "M318_MODSYM_GEOMETRIC_CUSPIDAL_GROUP",Inva
+                         ^
+Runtime error in 'CuspidalSubgroup': Argument 1 must be a quotient of J_0(N).
+

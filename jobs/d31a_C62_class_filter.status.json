@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C62_class_filter",
+  "script": "computations/d31a_C62_class_filter.m",
+  "script_sha256": "da9a3611f79fd2df2c820764ff0d960b11d285025db3bf9c309fe31b145e1239",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C62_class_filter.m"
+  ],
+  "pid": 2791946,
+  "owner_uid": 1001,
+  "start_time_unix": 1793401470.008134,
+  "state": "EXITED",
+  "time_limit_seconds": 2400,
+  "log": "jobs/d31a_C62_class_filter.log",
+  "actual_exit_code": -15,
+  "termination_reason": null,
+  "elapsed_seconds": 644.9476895332336
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "prime": 5,
+      "kernel_count": 6,
+      "norms_partition_full_division_polynomial": true,
+      "Sage_isogenies_agree_with_exported_moduli": true,
+      "rows": [
+        {
+          "kernel_orbit_degree": 3,
+          "target_residue_degree": 18,
+          "norm_multiplicity": 1,
+          "exact_normalized_moduli_pair": true
+        },
+        {
+          "kernel_orbit_degree": 3,
+          "target_residue_degree": 18,
+          "norm_multiplicity": 1,
+          "exact_normalized_moduli_pair": true
+        }
+      ]
+    }
+  ]
+}

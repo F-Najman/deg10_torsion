@@ -1,0 +1,26 @@
+D31B_C56_SIEVE_RR_LOCAL_PASS 491 1 10 10 7 10 2.1932698963209987
+D31B_C56_SIEVE_RR_LOCAL_PASS 491 2 10 10 11 50 4.719331867061555
+D31B_C56_SIEVE_RR_LOCAL_PASS 491 3 10 10 10 10 7.244488914031535
+D31B_C56_SIEVE_RR_LOCAL_PASS 491 4 50 50 10 50 8.716562419198453
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C56/d31b_C56_sieve_rr_case491_v2.py", line 3, in <module>
+    exec(compile(open("work/deg10/continuation_20261031b/C56/d31b_C56_sieve_rr_common_v2.py").read(),"work/deg10/continuation_20261031b/C56/d31b_C56_sieve_rr_common_v2.py","exec"))
+  File "work/deg10/continuation_20261031b/C56/d31b_C56_sieve_rr_common_v2.py", line 115, in <module>
+    out={'status':'PASS','case':CID,'hecke':QELL,'base_curve_genus':25,'source_level':56,'pole_bound_degree':Adeg,'basis_dimensions':[N0,N1],'matrix_rows':NB,'matrix_columns':M.ncols(),'rank':M.rank(),'h0':0,'all_geometry_series_coefficients_128_independently_recomputed':True,'all_operator_signed_closed_source_groups_bound_to_actual_physical_levels':True,'all_basis_rational_functions_reexpanded_in_genuine_local_arcs':True,'all_sqrt_branches_bound_to_actual_56_level':True,'all_matrix_entries_and_residue_power_coordinates_match':True,'local_rows':reports,'input_hashes':{s:hashlib.sha256((D/(TAG+'_'+s+'.m')).read_bytes()).hexdigest()for s in['model_snapshot','operator_snapshot','basis','jet_tables','result']},'elapsed_seconds':time.monotonic()-START};(P/f'sieve_independent_RR_case{CID}_A{QELL}.json').write_text(json.dumps(out,indent=2)+'\n');print('D31B_C56_SIEVE_RR_COMPLETE',CID,QELL,M.nrows(),M.ncols(),M.rank(),0,time.monotonic()-START,flush=True)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Integer is not JSON serializable

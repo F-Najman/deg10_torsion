@@ -1,0 +1,9 @@
+Loading "work/deg10/continuation_20261031b/Y228_shared/fast_primitive_inverse.m"
+Loading "work/deg10/continuation_20261031b/Y228_shared/union_cases.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_Y228_parent_native.m", line 9, column 60:
+>>  assert eval Read(root cat Sprintf("model_v5_s%o.m",shard))eq md;rows:=eval
+                                                              ^
+Runtime error: Bad argument types
+Argument types given: MonStgElt, List
+

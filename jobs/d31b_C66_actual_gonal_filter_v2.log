@@ -1,0 +1,10 @@
+D31B_C66_UNITS [ 1, 2, 4, 5, 7, 8, 10, 13, 14, 16 ]
+Loading "work/deg10/continuation_20261031b/C66/inputs/F5_rr/input33.m"
+Loading "work/deg10/continuation_20261031b/C66/gonal_cusp_input.m"
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C66_actual_gonal_filter_v2.m", line 18, column 61:
+>> vectors:=[];for g in gs do DD:=PoleDivisor(g);vv:=[Valuation(DD,Support(B)[
+                                                               ^
+Runtime error in 'Valuation': Bad argument types
+Argument types given: OMDiv, PlcFunElt
+

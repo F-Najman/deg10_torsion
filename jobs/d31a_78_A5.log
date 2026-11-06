@@ -1,0 +1,14 @@
+Loading "work/deg10/continuation_20261031a/C78/inputs/pair_af_place_linear.m"
+D31A_C78_X139_NATIVE_MODEL_READY 17 33 5.790
+D31A_C78_X139_A5_CASE ci=1 degree=9 h0=1 time=44.610
+D31A_C78_X139_A5_CASE ci=2 degree=9 h0=0 time=84.990
+D31A_C78_X139_A5_CASE ci=3 degree=9 h0=0 time=128.950
+D31A_C78_X139_A5_CASE ci=4 degree=9 h0=0 time=170.510
+D31A_C78_X139_A5_CASE ci=5 degree=9 h0=0 time=211.240
+D31A_C78_X139_A5_CASE ci=6 degree=10 h0=0 time=253.630
+D31A_C78_X139_A5_CASE ci=7 degree=10 h0=0 time=296.170
+D31A_C78_X139_A5_CASE ci=8 degree=10 h0=0 time=335.980
+D31A_C78_X139_A5_CASE ci=9 degree=10 h0=0 time=379.630
+D31A_C78_X139_A5_CASE ci=10 degree=10 h0=1 time=422.500
+D31A_C78_X139_A5_COMPLETE 10 [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 1 ]
+422.530

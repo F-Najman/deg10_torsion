@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-26T11:31:07.591041+00:00",
+  "worker_pid": 1728143,
+  "worker_start_ticks": 182128498,
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "work/degree9/prime_orders/continued_20261026/P37/finite_delta4.m"
+  ],
+  "actual_cmdline": [],
+  "wall_seconds": 10.000819148030132,
+  "cpu_seconds": 0.0,
+  "state": "R",
+  "wall_cap_seconds": 3600,
+  "status": "COMPLETED",
+  "native_exit_code": 0,
+  "finished_utc": "2026-10-26T11:31:17.591862+00:00",
+  "termination_reason": null
+}

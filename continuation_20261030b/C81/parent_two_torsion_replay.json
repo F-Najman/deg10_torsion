@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "level": 81,
+  "integral_homology_rank": 380,
+  "rational_two_torsion_upper_bound_dimension": 0,
+  "evidence": [
+    {
+      "path": "continuation_20261030b/C81/inputs/replay_two_torsion_81.py",
+      "sha256": "41400609cbcca7d22635b8a2591fdd437dc90d7910c4565c5c20f7e9ddcae97c"
+    },
+    {
+      "path": "continuation_20261030b/C81/inputs/two_torsion_81_v2_matrices.m",
+      "sha256": "749e763cbf441f7bb28dc98548bc0ae6fee6fec1b3cc7bbee247f07a6327bc72"
+    }
+  ]
+}

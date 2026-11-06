@@ -1,0 +1,22 @@
+SetColumns(0);SetNthreads(1);SetQuitOnError(true);SetMemoryLimit(16*10^9);
+AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");Attach("work/deg10/continuation_20261030b/C87/deps/fast_hecke.m");Alarm(600);
+N:=87;
+assert N eq 87;m:=N eq 55 select 5 else 3;ell:=N div m;h:=(ell-1) div 2;tstart:=Cputime();
+CQ:=SmallModularCurve(ell);jraw:=jInvariant(CQ,ell);wraw:=DefiningPolynomials(AtkinLehnerInvolution(CQ,ell,ell));
+CC:=ChangeRing(CQ,GF(2));assert IsNonsingular(CC) and Genus(CC) eq 2;
+RC:=CoordinateRing(Ambient(CC));jn:=RC!Numerator(jraw);jd:=RC!Denominator(jraw);ww:=[RC!e:e in wraw];
+jell:=FunctionField(CC)!(jn/jd);jNell:=FunctionField(CC)!(Evaluate(jn,ww)/Evaluate(jd,ww));
+K,mK:=AlgorithmicFunctionField(FunctionField(CC));jK:=mK(jell);
+jdegree:=-&+[Valuation(jK,P)*Degree(P):P in Poles(jK)];assert jdegree eq ell+1;
+printf "DATABASE_ELL_MODEL N=%o ell=%o genus=%o good_reduction=true j_degree=%o time=%o\n",N,ell,Genus(K),jdegree,Cputime(tstart);
+R<v>:=PolynomialRing(K);f:=N eq 55 select v^6+jK*v+jK else v^4+v^3+1/jK;assert IsIrreducible(f);
+AF<t3>:=FunctionField(f);gg:=Genus(AF);assert gg eq 9;
+O:=MaximalOrderFinite(AF);OK:=MaximalOrderFinite(K);
+numY,denY:=IntegralSplit(K.1,OK);numJ,denJ:=IntegralSplit(jK,OK);
+IX:=AF!BaseField(K).1;IY:=AF!K!numY;multT:=N eq 55 select K!denJ else K!numJ;IT:=(AF!multT)*t3;
+integral_coordinates:=[O!IX,O!IY,O!IT];
+fx:=(K!BaseField(K).1)@@mK;fy:=(K!numY)@@mK;fJ:=multT@@mK;
+printf "X0_3ELL_MODEL N=%o genus=%o degree_over_X0ell=4 integral_coordinates_ready=true time=%o\n",N,gg,Cputime(tstart);
+
+cs:=Poles(AF!jK);sig:=Sort([<Degree(p),-Valuation(AF!jK,p)>:p in cs]);assert sig eq[<1,1>,<1,3>,<1,29>,<1,87>];assert Degree(AF!jK) eq 120;
+Write("work/deg10/continuation_20261030b/C87/base_cusp_geometry.m",Sprint([*Genus(K),Genus(AF),Degree(AF!jK),sig*]):Overwrite:=true);print "B87_MODULAR_CUSP_GEOMETRY_COMPLETE",sig,Cputime(tstart);quit;

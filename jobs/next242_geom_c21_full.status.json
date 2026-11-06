@@ -1,0 +1,19 @@
+{
+  "purpose": "next242_geom_c21_full",
+  "script": "computations/next242_geom_c21_full.m",
+  "script_sha256": "47e4bdd579e633f2ffc498d3ea7d2b8a6bd1c74e42178855acf6a69a6ea3bdcc",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/next242_geom_c21_full.m"
+  ],
+  "pid": 2388216,
+  "owner_uid": 1001,
+  "start_time_unix": 1793382388.066065,
+  "state": "EXITED",
+  "time_limit_seconds": 600,
+  "log": "jobs/next242_geom_c21_full.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 15.387844324111938
+}

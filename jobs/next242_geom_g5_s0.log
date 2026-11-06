@@ -1,0 +1,37 @@
+Loading "work/deg10/next_cases_20261030/C242/geometry/quotient5_filter_common_v\
+2.m"
+Loading "work/deg10/next_cases_20261030/C242/geometry/deps/portable_forward.m"
+Loading "work/deg10/next_cases_20261030/C242/geometry/quotient5_helpers.m"
+C242_D10_GENUS5_PROGRESS tested=50 total=1551 remaining=7 images=50 cpu=11.330
+C242_D10_GENUS5_PROGRESS tested=100 total=1551 remaining=19 images=100 cpu=24.500
+C242_D10_GENUS5_PROGRESS tested=150 total=1551 remaining=23 images=150 cpu=35.840
+C242_D10_GENUS5_PROGRESS tested=200 total=1551 remaining=27 images=200 cpu=45.990
+C242_D10_GENUS5_PROGRESS tested=250 total=1551 remaining=30 images=250 cpu=57.610
+C242_D10_GENUS5_PROGRESS tested=300 total=1551 remaining=35 images=300 cpu=70.010
+C242_D10_GENUS5_PROGRESS tested=350 total=1551 remaining=40 images=350 cpu=81.270
+C242_D10_GENUS5_PROGRESS tested=400 total=1551 remaining=44 images=400 cpu=92.390
+C242_D10_GENUS5_PROGRESS tested=450 total=1551 remaining=46 images=450 cpu=104.250
+C242_D10_GENUS5_PROGRESS tested=500 total=1551 remaining=48 images=500 cpu=117.600
+C242_D10_GENUS5_PROGRESS tested=550 total=1551 remaining=61 images=550 cpu=128.130
+C242_D10_GENUS5_PROGRESS tested=600 total=1551 remaining=64 images=600 cpu=139.640
+C242_D10_GENUS5_PROGRESS tested=650 total=1551 remaining=69 images=650 cpu=151.390
+C242_D10_GENUS5_PROGRESS tested=700 total=1551 remaining=82 images=700 cpu=161.200
+C242_D10_GENUS5_PROGRESS tested=750 total=1551 remaining=83 images=750 cpu=173.510
+C242_D10_GENUS5_PROGRESS tested=800 total=1551 remaining=89 images=800 cpu=185.350
+C242_D10_GENUS5_PROGRESS tested=850 total=1551 remaining=95 images=850 cpu=197.010
+C242_D10_GENUS5_PROGRESS tested=900 total=1551 remaining=105 images=869 cpu=201.390
+C242_D10_GENUS5_PROGRESS tested=950 total=1551 remaining=115 images=899 cpu=208.140
+C242_D10_GENUS5_PROGRESS tested=1000 total=1551 remaining=124 images=947 cpu=215.940
+C242_D10_GENUS5_PROGRESS tested=1050 total=1551 remaining=131 images=997 cpu=223.950
+C242_D10_GENUS5_PROGRESS tested=1100 total=1551 remaining=131 images=1047 cpu=236.020
+C242_D10_GENUS5_PROGRESS tested=1150 total=1551 remaining=136 images=1068 cpu=240.580
+C242_D10_GENUS5_PROGRESS tested=1200 total=1551 remaining=142 images=1068 cpu=240.580
+C242_D10_GENUS5_PROGRESS tested=1250 total=1551 remaining=166 images=1107 cpu=246.760
+C242_D10_GENUS5_PROGRESS tested=1300 total=1551 remaining=185 images=1158 cpu=255.030
+C242_D10_GENUS5_PROGRESS tested=1350 total=1551 remaining=201 images=1210 cpu=265.290
+C242_D10_GENUS5_PROGRESS tested=1400 total=1551 remaining=211 images=1249 cpu=275.230
+C242_D10_GENUS5_PROGRESS tested=1450 total=1551 remaining=220 images=1267 cpu=278.490
+C242_D10_GENUS5_PROGRESS tested=1500 total=1551 remaining=229 images=1300 cpu=284.560
+C242_D10_GENUS5_PROGRESS tested=1550 total=1551 remaining=237 images=1352 cpu=293.650
+C242_D10_GENUS5_PROGRESS tested=1551 total=1551 remaining=237 images=1353 cpu=293.900
+C242_D10_GENUS5_COMPLETE tested=1551 total=1551 remaining=237 images=1353 full_input=true cpu=293.930

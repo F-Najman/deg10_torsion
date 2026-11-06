@@ -1,0 +1,22 @@
+SetColumns(0);SetQuitOnError(true);SetNthreads(1);SetMemoryLimit(6*10^9);tt:=Cputime();AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");Attach("work/deg10/continuation_20261030c/C99/inputs/fast_hecke.m");load "work/deg10/continuation_20261030c/C99/inputs/pair_af_place_linear.m";
+root:="work/deg10/continuation_20261030c/C99/";dat:=eval Read(root cat "Y29_model.m");k:=GF(2);PK:=PolynomialRing(k);B<t>:=FunctionField(k);R<Z>:=PolynomialRing(B);
+function Rat(v)return B!(PK!v[1])/B!(PK!v[2]);end function;
+F<z>:=FunctionField(R![Rat(v):v in dat[1]]);assert Genus(F) eq 29;
+function FF(v)return F![Rat(w):w in v];end function;
+coords:=[F!B.1,F.1];OF:=MaximalOrderFinite(F);OI:=MaximalOrderInfinite(F);print "C99_Y29_NATIVE_READY",Degree(F),Genus(F),Cputime(tt);
+B0<s>:=FunctionField(k);R0<W>:=PolynomialRing(B0);
+function Rat0(v)return B0!(PK!v[1])/B0!(PK!v[2]);end function;
+F11<w>:=FunctionField(R0![Rat0(v):v in dat[3]]);assert Genus(F11) eq 1;
+jpair:=[F11![Rat0(v):v in row]:row in dat[4]];
+function Get(E,P)
+ assert Order(P) eq 99;K:=BaseRing(E);Q:=11*P;assert Order(Q) eq 9;b,c:=Explode(TateNormalForm_bc(E,Q));tv:=c^2/(b-c);S:=9*P;assert Order(S) eq 11;RX<X>:=PolynomialRing(K);ker:=&*[X-(i*S)[1]:i in[1..5]];assert Degree(ker) eq 5 and IsSquarefree(ker);EG,phi:=IsogenyFromKernel(E,ker);vals:=[jInvariant(E),jInvariant(EG)];p11:=C48PairAFPlaceLinear(jpair,vals);e:=Degree(p11);kr:=Parent(Evaluate(jpair[1],p11));found:=false;
+ for bits in [[1,0],[0,1],[1,1]] do gv:=&+[K!bits[i]*vals[i]:i in[1,2]];po:=MinimalPolynomial(gv,k);if Degree(po) eq e then found:=true;chosen:=bits;break;end if;end for;assert found;gf:=&+[F11!chosen[i]*jpair[i]:i in[1,2]];gr:=kr!Evaluate(gf,p11);assert MinimalPolynomial(gr,k) eq po;M:=Matrix(k,[Eltseq(gr^i,k):i in[0..e-1]]);co:=Eltseq(Solution(M,Vector(k,Eltseq(kr!Evaluate(F11!B0.1,p11),k))));xv:=&+[K!co[i]*gv^(i-1):i in[1..#co]];
+ pp:=C48PairAFPlaceLinear(coords,[tv,xv]);return pp,[tv,xv],vals;
+end function;
+function ER(v)return [[Integers()!c:c in Coefficients(Numerator(v))],[Integers()!c:c in Coefficients(Denominator(v))]];end function;
+function EF(v)return [ER(c):c in Eltseq(F!v)];end function;
+function PD(p)return [*Degree(p),Order(Ideal(p)) eq OF select 1 else 0,[EF(v):v in Basis(Ideal(p))]*];end function;
+src:=eval Read(root cat "source99.m");d,ky:=Explode(src[3][3]);pol:=[v[2]:v in src[1]|v[1] eq d][1];K<a>:=ext<k|PK!pol>;b:=Evaluate(PK!ky[1..d],a);c:=Evaluate(PK!ky[d+1..2*d],a);E:=EllipticCurve([K|1-c,-b,-b,0,0]);P:=E![0,0];assert Order(P) eq 99;
+ps,_,_:=Get(E,P);p2,_,_:=Get(E,2*P);p5,_,_:=Get(E,5*P);p10,_,_:=Get(E,10*P);assert &and[Degree(v) eq 10:v in[ps,p2,p5,p10]];D:=Divisor(ps)-Divisor(p2)+5*Divisor(p5)-5*Divisor(p10);trs:=[* *];fast:=MDIsogeniesFast(E,P,5);assert &+[v[3]:v in fast] eq 6;
+for row in fast do ET,PT,e:=Explode(row);pt,_,_:=Get(ET,PT);pt2,_,_:=Get(ET,2*PT);assert 10*e mod Degree(pt) eq 0 and 10*e mod Degree(pt2) eq 0;n:=10*e div Degree(pt);n2:=10*e div Degree(pt2);D+:=n2*Divisor(pt2)-n*Divisor(pt);Append(~trs,[*e,n,n2,PD(pt),PD(pt2)*]);print "C99_Y29_MARKED_HECKE_TARGET",e,Degree(pt),Degree(pt2),n,n2,Cputime(tt);end for;
+assert Degree(D) eq 0;h0:=Dimension(D);pss,es:=Support(D);pos:=&+[Integers()|Degree(pss[i])*Maximum(0,es[i]):i in[1..#pss]];out:=[*3,PD(ps),PD(p2),PD(p5),PD(p10),trs,[[*PD(pss[i]),es[i]*]:i in[1..#pss]],h0,pos*];Write(root cat "Y29_RR.m",Sprint(out):Overwrite:=true);print "C99_Y29_ALPHA_A5_RR_COMPLETE",3,h0,pos,Cputime(tt);quit;

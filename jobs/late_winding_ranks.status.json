@@ -1,0 +1,19 @@
+{
+  "purpose": "late_winding_ranks",
+  "script": "computations/late_winding_ranks.m",
+  "script_sha256": "115124151fe4b1152d0ba999ae3fdc27325b53d8dc86109a9844456ec0719d56",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late_winding_ranks.m"
+  ],
+  "pid": 940244,
+  "owner_uid": 1001,
+  "start_time_unix": 1793316285.864175,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/late_winding_ranks.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.41428446769714355
+}

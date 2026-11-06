@@ -1,0 +1,3 @@
+C99_PEER_Y29_MODEL_READY absolute_degree12=true genus29=true exact_constantsF2=true Kubert9_and_X011_identities=true time=26.440
+C99_PEER_Y29_DIVISOR_BOUND two_generators_roundtrips=true point_operator=alpha2A5 hecke_degree60=true signed_degree110=true checks=23 unique_support=11 time=27.260
+C99_PEER_Y29_NATIVE_COMPLETE h0=0 positive=110 negative=110 prime_checks=23 time=27.460

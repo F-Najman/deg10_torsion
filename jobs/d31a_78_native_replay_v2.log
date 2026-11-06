@@ -1,0 +1,11 @@
+D31A_C78_NATIVE_RR_CASE ci=1 degree=9 h0=1 time=5.950
+D31A_C78_NATIVE_RR_CASE ci=2 degree=9 h0=0 time=6.210
+D31A_C78_NATIVE_RR_CASE ci=3 degree=9 h0=0 time=6.500
+D31A_C78_NATIVE_RR_CASE ci=4 degree=9 h0=0 time=6.800
+D31A_C78_NATIVE_RR_CASE ci=5 degree=9 h0=0 time=7.070
+D31A_C78_NATIVE_RR_CASE ci=6 degree=10 h0=0 time=7.440
+D31A_C78_NATIVE_RR_CASE ci=7 degree=10 h0=0 time=7.740
+D31A_C78_NATIVE_RR_CASE ci=8 degree=10 h0=0 time=8.030
+D31A_C78_NATIVE_RR_CASE ci=9 degree=10 h0=0 time=8.460
+D31A_C78_NATIVE_RR_CASE ci=10 degree=10 h0=1 time=8.810
+D31A_C78_NATIVE_RR_COMPLETE tests=10 primechecks=49 time=8.840

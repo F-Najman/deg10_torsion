@@ -1,0 +1,17 @@
+DECIC315_DIAGONAL_CUSP_BLOCKS 7 20 [ 1, 1, 1, 1, 4, 1, 1, 4, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 1 ]
+3.420
+DECIC315_RECONSTRUCTION_RESIDUE 7 4 [ 5, 1, 6, 1, 2, 1 ]
+[ 2, 5, 5, 0, 5 ]
+3.540
+DECIC315_DIAGONAL_CUSP_BLOCKS 7 20 [ 1, 1, 1, 1, 4, 1, 1, 4, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 1 ]
+7.010
+DECIC315_RECONSTRUCTION_RESIDUE 7 2 [ 3, 6, 5, 0, 4, 1 ]
+[ 1, 5, 4, 1, 3 ]
+7.140
+DECIC315_DIAGONAL_CUSP_BLOCKS 13 20 [ 1, 1, 1, 1, 4, 1, 1, 4, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 1 ]
+9.760
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/reconstruct315_D5_residues.m", line 50, column 32:
+>>  tau:=-X`_Q[2]^2/X`_Q[1]^3;tv:=[Evaluate(tau,c):c in ss];qq:=[(Evaluate(X`_
+                                  ^
+Runtime error in sequence construction: No valid universe containing all elements

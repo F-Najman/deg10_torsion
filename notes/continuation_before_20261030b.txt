@@ -1,0 +1,69 @@
+30 October 2026 — Phi(10), after excluding C51, C69, C2 x C42 and C84
+
+CURRENT COUNTS: 68 exact full groups occur; 77 minimal subgroup obstructions
+are excluded; 32 remain unresolved (27 cyclic, 5 noncyclic). The frontier
+still has 109 groups. The classification is INCOMPLETE.
+Use candidates.json/txt and paper/remaining.tex for the current lists.
+
+C51 IS EXCLUDED. The complete finite A5 sieve excludes all nine noncuspidal
+orbits. The full-Jacobian Q2 formal-immersion criterion handles all 9656144
+cuspidal degree-ten divisors. Fresh native cusp jets and a uniquely determined
+Cartier intertwiner with an 8P kernel identify the two differential bases.
+The exact proof and evidence are in next_cases_20261030/cyclic_further/C51/.
+
+C2 x C42 AND C84 ARE EXCLUDED. A fresh source census covers all 60971
+normalized support patterns. The filters leave 4647, 752, 111, 108, 10,
+then one pattern. Nine final Hecke exclusions have independent kernel,
+Velu, norm and native ideal/RR checks. Three order-three stabilizer cases
+use the CM lemma that j=0 with C2 x C42 requires field degree at least12.
+The last support has noncuspidal degree6 and a degree4 cusp complement.
+An exact parity test forces cubic plus rational cusps. Both quadratic
+candidates on the genus17 quotient and all12 cusp types give24 patterns;
+all72 Kummer character spaces have dimensions [1,0,0]. Unique sections
+force an invariant degree4 cusp divisor for a free order-three action,
+which is impossible. Generator h has Frobenius phase2; the old model's
+generator is h^2 with phase4. The complete proof/evidence packet is
+next_cases_20261030/C242/geometry/. All556 manifest hashes were checked.
+
+C69 IS EXCLUDED. Noncuspidal closed points first occur in degree7; the
+counts through10 are 0,0,0,0,0,0,66,44,44,44. Every relevant small cusp
+orbit is globally intact. Entirely cuspidal reduction gives a degree20
+pencil, below gonality10725/512. Complete genus7 and genus13 Hecke tests
+exclude every other branch except one degree10 diamond orbit. The
+normalization of X1(23) x X0(3), a genus67 quotient, resolves this orbit.
+All four actual input/diamond/Hecke lifts have unique same-degree linear
+factors in a 1+3 quartic factorization. The two Hecke image degrees are
+10 and50, with orbit sizes1 and5 and norm weights1 and1. The correct
+T5-1-5<5> divisor has h0=0 in both primary and fresh native calculations.
+See next_cases_20261030/C69/resolution.tex and parent_final_checks.json.
+The small-cover file small_cover_verified_partial.json is historical
+stage evidence; its residual is resolved by the new genus67 test.
+
+Important serialization point: for a function field relative to a base
+of positive genus, Basis(Ideal(P)) omits coefficient ideals. The accepted
+C69 exports use TwoGenerators(P), exact ideal equality and serialization
+roundtrips. Fresh native RR replays verify the corrected exports. A known
+Sprint metadata tag is declared explicitly by the final reader; no numeric
+proof data were altered. Failed diagnostic scripts and their actual exits
+are preserved, and are not accepted as completed certificates.
+
+All four exclusions are in certified_results.json and the paper. The
+C49/C95/C111 and earlier noncyclic exclusions remain unchanged. Earlier
+handoff details are in continuation_before_C51_C242_C69.txt.
+
+Remaining cautions: C81's recorded Hecke method needs gonality greater
+than30; the verified bound236925/8192 is only about28.92. Do not assume
+cuspidal saturation for C3 x C18. Relative quintic work remains for
+C3 x C27, C3 x C33, C3 x C39 and C4 x C28. The remaining obstructions
+are proof tasks, not asserted occurrences or a full upper list.
+
+LIFECYCLE: All 717 recorded jobs have exited. No new automatic
+launcher or paused worker remains. The full genus133 C69 attempt and the
+first genus67 discovery stopped at their native alarms; two V9 quotient
+profiles were bounded timeouts. These were superseded by complete verified
+computations and must not be restarted automatically. Unrelated processes
+were preserved. Continue leaving two host CPU cores idle.
+
+FINAL AUDIT: 2555 evidence hashes checked;
+25 protected earlier-degree files unchanged. The 50-page paper compiles
+without errors or overfull boxes. See validation.json and lifecycle_final.json.

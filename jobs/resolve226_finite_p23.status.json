@@ -1,0 +1,19 @@
+{
+  "purpose": "resolve226_finite_p23",
+  "script": "computations/resolve226_finite_p23.m",
+  "script_sha256": "7e36d5d927a13c05b98a9f1b79ec13a84daa5735bb31be7f1cc91cb76f494748",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/resolve226_finite_p23.m"
+  ],
+  "pid": 1571675,
+  "owner_uid": 1001,
+  "start_time_unix": 1793347240.5127058,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/resolve226_finite_p23.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 8.677735328674316
+}

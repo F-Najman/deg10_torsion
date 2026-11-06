@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/continuation_20261031b/C56/d31b_C56_sieve_rr_case491.py", line 3, in <module>
+    exec(compile(open('work/deg10/continuation_20261031b/C56/d31b_C56_sieve_rr_common.py').read(),'work/deg10/continuation_20261031b/C56/d31b_C56_sieve_rr_common.py','exec'))
+  File "work/deg10/continuation_20261031b/C56/d31b_C56_sieve_rr_common.py", line 96, in <module>
+    while poly.degree()>=p0.degree()and poly%p0==0:poly//=p0;mult+=1
+                                        ~~~~^~~
+  File "sage/rings/polynomial/polynomial_element.pyx", line 3405, in sage.rings.polynomial.polynomial_element.Polynomial.__mod__ (build/cythonized/sage/rings/polynomial/polynomial_element.c:48225)
+  File "sage/structure/element.pyx", line 4767, in sage.structure.element.coerce_binop.new_method (build/cythonized/sage/structure/element.c:43588)
+  File "sage/structure/coerce.pyx", line 1434, in sage.structure.coerce.CoercionModel.canonical_coercion (build/cythonized/sage/structure/coerce.c:19703)
+TypeError: no common canonical parent for objects with parents: 'Univariate Polynomial Ring in t over Finite Field of size 3' and 'Univariate Polynomial Ring in x over Finite Field of size 3'

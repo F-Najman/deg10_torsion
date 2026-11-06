@@ -1,0 +1,19 @@
+{
+  "purpose": "d31b_C56_kummer_direct_case491_v3",
+  "script": "computations/d31b_C56_kummer_direct_case491_v3.m",
+  "script_sha256": "b0343dd35158c5cf200fa2fd7fe1a8856165884b585f1fa92ff3143c5b8c5c8d",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_C56_kummer_direct_case491_v3.m"
+  ],
+  "pid": 3653486,
+  "owner_uid": 1001,
+  "start_time_unix": 1793441663.267733,
+  "state": "EXITED",
+  "time_limit_seconds": 700,
+  "log": "jobs/d31b_C56_kummer_direct_case491_v3.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 49.53979444503784
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_replay_witness612.py", line 12, in <module>
+    pairing=P.weil_pairing(2*Q,6);assert pairing==K(z) and pairing.multiplicative_order()==6
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/sage/envs/sage/lib/python3.11/site-packages/sage/schemes/elliptic_curves/ell_point.py", line 2207, in weil_pairing
+    return ((-1)**n.test_bit(0))*(P._miller_(Q, n)/Q._miller_(P, n))
+                  ^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'test_bit'

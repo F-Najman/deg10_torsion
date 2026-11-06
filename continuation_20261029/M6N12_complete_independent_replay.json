@@ -1,0 +1,20 @@
+{
+  "curve": "X1(6,12) over Q(zeta6)",
+  "absolute_degree": 10,
+  "relative_degree": 5,
+  "source_divisors": 24576,
+  "doubled_cusp_classes": 3360,
+  "classes_after_complete_F13_sieve": 192,
+  "classes_excluded_by_a_forced_cusp_basepoint": 96,
+  "remaining_class_orbits": 1,
+  "remaining_class_orbit_size": 96,
+  "independently_recomputed_characteristic_polynomial_and_square_constraints": "PASS",
+  "unique_finite_noncuspidal_even_fiber_parameter": "90 + 15*z/2",
+  "independent_quintic_point_and_implicit_derivative": "PASS",
+  "closed_quintic_points_up_to_full_level_automorphisms": 1,
+  "full_torsion_group": [
+    6,
+    12
+  ],
+  "classification_case": "ONE SPORADIC OCCURRENCE; COMPLETE FOR CURVES CONTAINING C6 x C12"
+}

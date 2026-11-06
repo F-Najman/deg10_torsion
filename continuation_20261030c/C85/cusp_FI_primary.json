@@ -1,0 +1,104 @@
+{
+  "N": 85,
+  "complete": true,
+  "operator_dimension": 198,
+  "rational_prefix_rows": 165,
+  "rational_prefix_rank": 152,
+  "rational_relation_dimension": 13,
+  "minimum_rational_prefix_cost": 32,
+  "minimum_cost_witness": [
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0
+  ],
+  "rational_all_degree10_rank10": true,
+  "mixed_families": [
+    {
+      "label": "onequartic_plus_rat6",
+      "configurations": 2324784,
+      "failures": []
+    },
+    {
+      "label": "doublequartic_plus_rat2",
+      "configurations": 528,
+      "failures": []
+    },
+    {
+      "label": "twoquartics_1_plus_rat2",
+      "configurations": 528,
+      "failures": []
+    },
+    {
+      "label": "twoquartics_2_plus_rat2",
+      "configurations": 528,
+      "failures": []
+    },
+    {
+      "label": "twoquartics_3_plus_rat2",
+      "configurations": 528,
+      "failures": []
+    },
+    {
+      "label": "twoquartics_4_plus_rat2",
+      "configurations": 528,
+      "failures": []
+    },
+    {
+      "label": "twoquartics_5_plus_rat2",
+      "configurations": 528,
+      "failures": []
+    },
+    {
+      "label": "twoquartics_6_plus_rat2",
+      "configurations": 528,
+      "failures": []
+    },
+    {
+      "label": "twoquartics_7_plus_rat2",
+      "configurations": 528,
+      "failures": []
+    },
+    {
+      "label": "q8width5_plus_rat2",
+      "configurations": 528,
+      "failures": []
+    },
+    {
+      "label": "q8width1_plus_rat2",
+      "configurations": 528,
+      "failures": []
+    }
+  ],
+  "mixed_failures": [],
+  "all_tested_ranks10": true,
+  "seconds": 3.4253786467015743
+}

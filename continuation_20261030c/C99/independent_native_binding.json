@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "all_native_source_diamond_and_Hecke_prime_keys_match_independent_actual_marked_isogenies": true,
+  "cases": 4,
+  "native_positive_kernel_orbits": 16,
+  "geometric_cyclic5_kernels": 24,
+  "native_RR_h0": [
+    0,
+    0,
+    1,
+    0
+  ],
+  "residual_case_ids": [
+    3
+  ],
+  "norm_multiplicities_all_one": true,
+  "kernel_orbit_degrees_per_case": [
+    1,
+    1,
+    2,
+    2
+  ],
+  "target_degrees_per_case": [
+    10,
+    10,
+    20,
+    20
+  ],
+  "native_snapshot_sha256": "37abadda6ef472d9f790d2ec1b3c88e618e00aea6307b42f6802c77de49a75a3",
+  "genuine_audit_sha256": "7b8d9dd8ba40d3ad12f24c59a9e6dc3ae06a98d739ca2af396463f4573653eef"
+}

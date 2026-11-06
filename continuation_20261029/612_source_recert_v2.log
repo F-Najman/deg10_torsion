@@ -1,0 +1,9 @@
+{"purpose": "cont_source612_recert_v2_shard7", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 53.38125562667847}
+{"purpose": "cont_source612_recert_v2_shard4", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 54.15845847129822}
+{"purpose": "cont_source612_recert_v2_shard3", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 54.849538803100586}
+{"purpose": "cont_source612_recert_v2_shard6", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 55.61035466194153}
+{"purpose": "cont_source612_recert_v2_shard5", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 56.855445861816406}
+{"purpose": "cont_source612_recert_v2_shard0", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 56.911977767944336}
+{"purpose": "cont_source612_recert_v2_shard1", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 57.818323373794556}
+{"purpose": "cont_source612_recert_v2_shard2", "state": "EXITED", "actual_exit_code": 0, "elapsed_seconds": 58.06201195716858}
+DECIC612_SOURCE_RECERT_V2_FINISHED 8

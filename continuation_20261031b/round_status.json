@@ -1,0 +1,105 @@
+{
+  "original_task_groups": [
+    [
+      1,
+      48
+    ],
+    [
+      1,
+      54
+    ],
+    [
+      1,
+      56
+    ],
+    [
+      1,
+      60
+    ],
+    [
+      1,
+      66
+    ],
+    [
+      1,
+      74
+    ],
+    [
+      3,
+      18
+    ],
+    [
+      3,
+      27
+    ],
+    [
+      3,
+      33
+    ],
+    [
+      4,
+      28
+    ]
+  ],
+  "target_resolved_groups": 10,
+  "registered_new_exclusions": [
+    [
+      1,
+      48
+    ],
+    [
+      1,
+      54
+    ],
+    [
+      1,
+      56
+    ],
+    [
+      1,
+      60
+    ],
+    [
+      1,
+      66
+    ],
+    [
+      1,
+      74
+    ],
+    [
+      3,
+      27
+    ],
+    [
+      3,
+      33
+    ],
+    [
+      3,
+      36
+    ],
+    [
+      4,
+      28
+    ],
+    [
+      6,
+      18
+    ]
+  ],
+  "registered_new_occurrences": [
+    [
+      3,
+      18
+    ]
+  ],
+  "completed_count": 10,
+  "round_complete": true,
+  "classification_complete": true,
+  "known_full_groups": 69,
+  "frontier_size": 110,
+  "excluded": 110,
+  "remaining": 0,
+  "note": "The last original case occurs. Its complete low-degree classification excludes two newly exposed larger groups."
+}

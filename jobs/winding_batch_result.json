@@ -1,0 +1,42 @@
+[
+  {
+    "script": "computations/winding175.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding185.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding259.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding407.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding481.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding629.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding703.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding1073.m",
+    "supervisor_exit": 0
+  },
+  {
+    "script": "computations/winding1147.m",
+    "supervisor_exit": 1
+  },
+  {
+    "script": "computations/winding1369.m",
+    "supervisor_exit": 0
+  }
+]

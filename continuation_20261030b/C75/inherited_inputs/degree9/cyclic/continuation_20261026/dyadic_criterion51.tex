@@ -1,0 +1,73 @@
+% General criterion copied independently; no earlier-degree exclusion is imported.
+\subsection{A dyadic formal-immersion criterion}
+\begin{lemma}\label{lem:nonic51-dyadic-Hecke}
+Let $A/\Z_2$ be an abelian scheme, and let $T,\delta$ be
+endomorphisms satisfying $T_{\F_2}=F+\delta_{\F_2}V$.
+Then $T-\delta$ kills every point in $A(\Q_2)[2]$ reducing to zero.
+For an odd-level modular Jacobian, it therefore kills the torsion
+kernel of reduction.
+\end{lemma}
+\begin{proof}
+The schematic closure of a nonzero such point and zero in $A[2]$
+is finite flat of rank two with connected special fibre. By the
+rank-two case of Tate--Oort \cite{TO}, it is $\mu_2$.
+Indeed the parameters $a,c\in\Z_2$ satisfy $ac=2$, and connected
+special fibre forces $a\in2\Z_2$, so $c$ is a unit.
+For its inclusion $\iota:\mu_2\hookrightarrow A[2]$, naturality
+and $F_{\mu_2}=0$, $V_{\mu_2}=1$ give
+$(T-\delta)\overline\iota=0$.
+Reduction on $\operatorname{Hom}_{\Z_2}(\mu_2,A[2])$ is injective:
+by Cartier duality this is the assertion for maps from $A^\vee[2]$
+to the constant etale group $\Z/2\Z$. Such a map is determined by
+its open and closed fibres, which are determined by their special
+fibres over the henselian ring $\Z_2$.
+Thus $(T-\delta)\iota=0$.
+For the last assertion, Parent's reduction-kernel lemma, as used
+in \cite[Section~5]{DN}, gives exponent two, and Eichler--Shimura
+gives $T_2=F+\langle2\rangle V$.
+\end{proof}
+
+\begin{lemma}\label{lem:nonic51-quotient-Cartier}
+Let $Y/\Q$ be a modular curve with good reduction at $2$ and a
+rational cusp $c_0$. Suppose that its Jacobian $J$ has rank zero
+over $\Q$, that its cusp scheme is etale at $2$ with cyclotomic
+fields of definition, and that $T_2,\delta=\langle2\rangle$ descend
+to $J$ and satisfy Eichler--Shimura at $2$.
+Put $U=(\mathcal C-1)H^0(Y_{\F_2},\Omega^1)$, where $\mathcal C$
+is Cartier. If restriction from $U$ to every effective cuspidal
+divisor $\overline C$ of degree $d$ is surjective, then no
+noncuspidal rational effective divisor of degree $d$ on $Y$
+has entirely cuspidal reduction at $2$.
+\end{lemma}
+\begin{proof}
+Suppose $D$ is such a divisor. The unique cuspidal lift $C$ of
+$\overline D$ is fixed by Frobenius at $2$. It is defined over a
+decomposition field $L$ in a suitable cyclotomic field, with
+$L_\lambda=\Q_2$. The classes $[D-dc_0]$ and $[C-dc_0]$ are
+torsion, respectively by rank zero and Manin--Drinfeld.
+Thus $[D-C]$ is torsion and reduces to zero. Parent's lemma and
+Lemma~\ref{lem:nonic51-dyadic-Hecke} give
+$(T_2-\delta)[D-C]=0$.
+This uses rank over $\Q$ only, not rank over $L$.
+
+Consider $f:Y^{(d)}\to J$, $E\mapsto(T_2-\delta)[E-dc_0]$.
+In characteristic two its cotangent image is
+$\delta^*(\mathcal C-1)H^0(\Omega^1)=U$.
+Here Frobenius pulls back to zero, Verschiebung pulls back to
+Cartier, and the invertible operator $\delta$ commutes with Cartier.
+The stated restriction condition is exactly formal immersion at
+$\overline C$, including for nonreduced $\overline C$.
+The two $\Z_2$-sections $D,C$ have equal reductions and equal
+images under $f$, so formal immersion implies $D=C$, a contradiction.
+\end{proof}
+
+The restriction condition can be checked without power series.
+In a basis of $H^0(\Omega^1)$, compute the kernels
+$H^0(\Omega^1(-mP))$ for every cusp $P$ and every
+$m\leq d/\deg(P)$. Their annihilators give compatible restriction
+matrices. Concatenating the blocks at different cusps gives the
+restriction at $\sum m_P P$. Its rank on $U$ must be $d$.
+The certificates below export these kernels or the original-basis
+jets, the Cartier matrix, the basis of $U$, and every restriction
+matrix. Independent binary linear algebra checks both the
+projections and exhaustive weighted enumeration.

@@ -1,0 +1,109 @@
+30 October 2026 — Phi(10), after excluding C49, C95 and C111
+
+CURRENT COUNTS: 68 exact full groups occur; 73 minimal subgroup obstructions
+are excluded; 36 remain unresolved (30 cyclic, 6 noncyclic). The frontier
+still has 109 groups. The classification is INCOMPLETE.
+Use candidates.json/txt and paper/remaining.tex for the current lists.
+
+C95 AND C111 ARE EXCLUDED. Their proof is
+next_cases_20261030/dyadic_95111.tex, included in paper/main.tex.
+No elliptic curve over F_(2^f), f <= 10, has group order divisible by
+95 or 111. The Hasse/Waterhouse calculation is independently checked by
+exhaustive native twist enumeration and integer arithmetic recounting
+all 4122 elliptic curves. Every degree-ten reduction on these modular
+curves is therefore cuspidal. Complete Tate-label enumeration proves
+that every relevant finite cusp orbit is also an intact global orbit.
+Hence every cuspidal residue divisor has a rational cuspidal lift.
+
+Choose diamond 11 at level 95 and diamond 10 at level 111, both of
+order three. Complete winding calculations prove that their difference
+images have finite rational points, in dimensions 192 and 264. The
+rational torsion reduction kernel at two has exponent two. For a proposed
+noncuspidal divisor D and rational cuspidal lift C, this gives
+2hD + 2C ~ 2D + 2hC. Their common degree 40 is below the gonality bounds
+43875/1024 and 55575/1024. Equality of divisors gives hD = D. Cuspidal
+reduction implies negative j-valuation, so every point is non-CM. Free
+order-three orbits cannot have total degree ten.
+
+The general criterion is in cyclic_hecke/dyadic_cuspidal_criterion.tex.
+No formal immersion or full two-primary injectivity assertion is needed.
+Primary jobs and immutable hashes are pinned in
+next_cases_20261030/dyadic_95111_certificate.json. Independent Tate,
+character, genus, bound and modular Krylov checks are in cyclic_hecke/.
+The primary reference locations were verified; see reference_checks.json.
+
+C49 IS NOW EXCLUDED. Do not restart its retired computations.
+The proof is next_cases_20261030/cyclic_primepowers/resolution.tex,
+with the local lemma in next_cases_20261030/dyadic_formal_kernel.tex.
+Fresh enumeration gives 42 nonic places in two diamond orbits and 126
+decic places in six orbits. All eight A3 images are nonprincipal.
+Pure rational cuspidal reduction is excluded by rational torsion
+injectivity and gonality greater than ten.
+
+For mixed cuspidal reduction, all 2900895 Cartier restriction tests have
+rank ten. This includes 2203209 old-jet cases, 697680 seven-distinct-
+rational-cusp cases and six cases with one rational multiplicity seven.
+The Cartier matrix is cyclic of dimension 69. The actual diamond matrix
+is a polynomial in it, so its basis compatibility and missing rational
+cusp evaluators can be reconstructed exactly. The new base jet is aligned
+up to a diamond; all six cubic restriction subspaces are permuted, so
+checking all six suffices. A successful independent replay validates the
+entire reconstruction and all ranks.
+
+Three bounded exploratory jobs exited -15. Their full outputs are not
+completed certificates. Only the completed order-seven base jet and seven
+native rational-completion comparisons are reused, with exact scopes and
+fresh verification. The older matrix export also came from a failed job:
+all 69 actual differential pullbacks and matrix checks had completed
+before a later unrelated concatenation error. This prefix is separately
+pinned and independently validated. The final_certificate_summary.json
+records every actual exit and every accepted subcalculation explicitly.
+No C49 worker, supervisor, fallback, or launcher remains active.
+
+The local kernel lemma is self-contained. For formal torsion over Q2,
+[2] kills the point, and its first residue vector is fixed by dV.
+Therefore T2 - <2> sends it into the torsion-free second formal filtration.
+Its cotangent image on the FULL Jacobian is (Cartier - I)H0(Omega).
+This avoids a quotient cotangent exact sequence at two. Cubic cusps are
+lifted as complete local traces, so the divisor and torsion difference
+are Q2-rational; the residue field in the lemma is F2.
+
+C81 remains open: its old Hecke bound requires gonality greater than 30,
+whereas the verified lower bound is 236925/8192, approximately 28.92.
+
+C242/C84 IS PREPARED ONLY. next_cases_20261030/C242/ has pinned source
+data in degrees four through nine, a fresh Frobenius script, four decic
+census shards, two genus-four quotient filters, and a support merge.
+No jobs were launched. The predicted degree-ten noncuspidal count 983196
+is not freshly verified. Geometric gonality greater than eleven already
+excludes entirely cuspidal reduction. Prepared scripts are not proofs.
+
+C69 LOOKS PROMISING NEXT. Its degree-nine proof is
+work/degree9/cyclic/continuation_20261026/exclusion69.tex. It uses
+X0(69), of genus seven, and an unramified double cover of genus thirteen.
+The gonality bound 10725/512 > 20 already rules out entirely cuspidal
+decic reduction using 2[D-C] = 0. Noncuspidal support starts in degree
+seven, so only one place of degree seven through ten and a cusp
+complement of degree at most three can occur. These small cusp orbits
+are globally intact. The existing degree-seven, eight and nine Hecke
+calculations are degree-independent. The short new degree-ten base test completed: twenty curve classes give
+two degree-ten X0(69) places, and BOTH have principal T5 - 6 image.
+Thus the genus-thirteen cover test is genuinely still needed. Data and
+script are in next_cases_20261030/C69/ and computations/next69_degree10_base.m.
+No cover computation or automatic fallback was launched.
+
+The accepted C226/C52, C232/C64, C234/C68 and C236/C72 results remain
+unchanged. Their handoff is archived in continuation_before_C95_C111.txt.
+Do not restart retired fallback jobs. Do not assume cuspidal saturation
+for C3 x C18. Relative quintic work remains for C3 x C27,33,39 and C4 x C28.
+
+The degree-twenty launcher was paused temporarily while its useful
+workers continued. Its bounded guardian restored it after 900 seconds;
+see next_cases_20261030/priority_window.json. No other user's process was
+signaled. Continue leaving two host cores free. All new workers have exited. Run verify_project.py after any accepted
+evidence change. The integrated paper has 38 pages.
+
+Final audit: 1872 evidence hashes checked; all 602 recorded jobs
+exited; 25 protected earlier-degree files unchanged. The 38-page paper
+compiles without errors or overfull boxes. No degree-ten worker, supervisor
+or launcher remains active. See validation.json and lifecycle_final.json.

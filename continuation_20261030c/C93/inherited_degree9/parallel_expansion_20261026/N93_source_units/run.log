@@ -1,0 +1,7 @@
+
+In file "work/degree9/parallel_expansion_20261026/N93_source_units/geometry.m", line 5, column 46:
+>> g:=Dimension(CuspidalSubspace(ModularSymbolsH(N,[1],2,1)));
+                                                ^
+Runtime error in 'ModularSymbolsH': Bad argument types
+Argument types given: MonStgElt, SeqEnum[RngIntElt], RngIntElt, RngIntElt
+

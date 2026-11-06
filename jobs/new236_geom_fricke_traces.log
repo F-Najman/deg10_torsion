@@ -1,0 +1,19 @@
+{'Atkin_Lehner_divisor': 8, 'diamond_twist': 1, 'homology_trace': -10, 'is_involution': True, 'fixed_points_if_involution': 12, 'genus_quotient_if_involution': 18}
+{'Atkin_Lehner_divisor': 8, 'diamond_twist': 5, 'homology_trace': 2, 'is_involution': False, 'fixed_points_if_involution': None, 'genus_quotient_if_involution': None}
+{'Atkin_Lehner_divisor': 8, 'diamond_twist': 7, 'homology_trace': 2, 'is_involution': False, 'fixed_points_if_involution': None, 'genus_quotient_if_involution': None}
+{'Atkin_Lehner_divisor': 8, 'diamond_twist': 11, 'homology_trace': 2, 'is_involution': False, 'fixed_points_if_involution': None, 'genus_quotient_if_involution': None}
+{'Atkin_Lehner_divisor': 8, 'diamond_twist': 13, 'homology_trace': 2, 'is_involution': False, 'fixed_points_if_involution': None, 'genus_quotient_if_involution': None}
+{'Atkin_Lehner_divisor': 8, 'diamond_twist': 17, 'homology_trace': -10, 'is_involution': True, 'fixed_points_if_involution': 12, 'genus_quotient_if_involution': 18}
+{'Atkin_Lehner_divisor': 9, 'diamond_twist': 1, 'homology_trace': 2, 'is_involution': False, 'fixed_points_if_involution': None, 'genus_quotient_if_involution': None}
+{'Atkin_Lehner_divisor': 9, 'diamond_twist': 5, 'homology_trace': 2, 'is_involution': False, 'fixed_points_if_involution': None, 'genus_quotient_if_involution': None}
+{'Atkin_Lehner_divisor': 9, 'diamond_twist': 7, 'homology_trace': 2, 'is_involution': False, 'fixed_points_if_involution': None, 'genus_quotient_if_involution': None}
+{'Atkin_Lehner_divisor': 9, 'diamond_twist': 11, 'homology_trace': 2, 'is_involution': False, 'fixed_points_if_involution': None, 'genus_quotient_if_involution': None}
+{'Atkin_Lehner_divisor': 9, 'diamond_twist': 13, 'homology_trace': 2, 'is_involution': False, 'fixed_points_if_involution': None, 'genus_quotient_if_involution': None}
+{'Atkin_Lehner_divisor': 9, 'diamond_twist': 17, 'homology_trace': 2, 'is_involution': False, 'fixed_points_if_involution': None, 'genus_quotient_if_involution': None}
+{'Atkin_Lehner_divisor': 72, 'diamond_twist': 1, 'homology_trace': -2, 'is_involution': True, 'fixed_points_if_involution': 4, 'genus_quotient_if_involution': 20}
+{'Atkin_Lehner_divisor': 72, 'diamond_twist': 5, 'homology_trace': -2, 'is_involution': True, 'fixed_points_if_involution': 4, 'genus_quotient_if_involution': 20}
+{'Atkin_Lehner_divisor': 72, 'diamond_twist': 7, 'homology_trace': -2, 'is_involution': True, 'fixed_points_if_involution': 4, 'genus_quotient_if_involution': 20}
+{'Atkin_Lehner_divisor': 72, 'diamond_twist': 11, 'homology_trace': -2, 'is_involution': True, 'fixed_points_if_involution': 4, 'genus_quotient_if_involution': 20}
+{'Atkin_Lehner_divisor': 72, 'diamond_twist': 13, 'homology_trace': -2, 'is_involution': True, 'fixed_points_if_involution': 4, 'genus_quotient_if_involution': 20}
+{'Atkin_Lehner_divisor': 72, 'diamond_twist': 17, 'homology_trace': -2, 'is_involution': True, 'fixed_points_if_involution': 4, 'genus_quotient_if_involution': 20}
+C236_FRICKE_TRACE_PROBE_COMPLETE 1.5310101760551333

@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m333_analytic_jets_v2.m", line 25, column 91:
+>> ],[EC(a):a in Eltseq(c,k)],[[EC(a):a in row]:row in Rows(J)],[[EC(a):a in r
+                                      ^
+Runtime error in for: Iteration is not possible over this object

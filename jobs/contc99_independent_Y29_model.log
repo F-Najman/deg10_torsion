@@ -1,0 +1,5 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contc99_independent_Y29_model.m", line 3, column 99:
+>> angeRing(C11,k);Fc:=FunctionField(C);j0:=Fc!(Numerator(jr)/Denominator(jr))
+                                              ^
+Runtime error in '!': Illegal coercion

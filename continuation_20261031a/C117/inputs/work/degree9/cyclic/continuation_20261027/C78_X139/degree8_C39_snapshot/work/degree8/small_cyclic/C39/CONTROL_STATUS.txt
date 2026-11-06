@@ -1,0 +1,11 @@
+The original full genus33 ClassGroup(Proof=true) computation and its
+v1/v2 setup files are separate exploratory controls. They are not used
+in the completed quotient2-primary plus Hecke certificate. No completion
+is asserted for those controls. Their logs may still grow until the
+parent accepts the replacement and the owner retires the process.
+
+The backup directory also preserves failed and abandoned preflights.
+Only the explicitly listed frozen files in the certificate manifest
+are evidence for the final result. In particular the rejected native
+absolute C4 automorphism is not used; the completed source uses a fixed
+quartic generator with exact inverse maps to the Witt tower.

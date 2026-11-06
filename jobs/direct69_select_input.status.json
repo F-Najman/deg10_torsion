@@ -1,0 +1,19 @@
+{
+  "purpose": "direct69_select_input",
+  "script": "next_cases_20261030/C69/direct_full/direct69_select_input.m",
+  "script_sha256": "28fde33d1620890f006f3c97decf7a4dbb739c00ad2b51d428380dc4085f6cf3",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/next_cases_20261030/C69/direct_full/direct69_select_input.m"
+  ],
+  "pid": 2403783,
+  "owner_uid": 1001,
+  "start_time_unix": 1793383107.4154985,
+  "state": "EXITED",
+  "time_limit_seconds": 60,
+  "log": "jobs/direct69_select_input.log",
+  "actual_exit_code": 1,
+  "termination_reason": null,
+  "elapsed_seconds": 0.06381750106811523
+}

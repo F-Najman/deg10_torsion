@@ -1,0 +1,84 @@
+Independent mathematical audit of the octic level 46 exclusion.
+Date: 2026-10-22. Auditor: small_cyclic agent.
+
+Files read: cyclic_sieves/quotient_class_criterion.tex, exclusion46.tex,
+quotient_class_prefilter.m, class_rational_reduction.m,
+hecke_sieve_quotient.m, odd_prime_criterion.tex,
+N46_p3_single_completed.log, N46_p3_mixed_quotient.log,
+N46_combined_audit.json; shared/mdmagma/v2/modular_curves/X1.m.
+The associated audit46.json binds their exact SHA256 hashes.
+
+Conclusion: the new quotient lemma and its application at level 46
+are valid. No mathematical gap was found. The lower-level exact
+class-group computation was read, not independently rerun by this agent.
+
+1. The morphism is (E,P46) -> (E,2P46) on X1(23), over Q and over
+   Z[1/46]. In the actual shared runtime, DegeneracyMap(X,d,ls)
+   explicitly returns d*P, so the helper's argument N/Level(Y)=2
+   has the intended meaning. This morphism takes cusps to cusps.
+
+2. Pushforward of a closed source point P with image R has coefficient
+   [k(P):k(R)]=deg(P)/deg(R). The helper computes this exact integer,
+   multiplies its target degree-zero class by it, and also multiplies
+   by the original support multiplicity. In particular 2P for a
+   repeated quartic support is not accidentally treated as P.
+   The cache is keyed by target-level index and source place; this
+   retains source residue-degree information even when distinct
+   source points have the same image.
+
+3. For a rational effective source divisor D8, the degree-zero class
+   [pi_*D8-8c0] lies in J1(23)(Q). DEHMZ's cusp-generation theorem
+   (Theorem labelled thm:cusp_generate, and its rank-zero corollary
+   coro:almostallN in the local primary source) identifies this entire
+   rational group with the rational cuspidal subgroup. Its order is
+   408991 in Table labelled table:cuspidaltorsion. This is stronger
+   than simply knowing that cusps form some rational subgroup.
+   The helper builds precisely reductions of Q-cuspidal orbit traces;
+   its logged subgroup order is the full published order408991.
+   At odd good prime3, torsion specializes injectively, so this is
+   the full rational image needed in the quotient lemma.
+
+4. The log's Picard group [9406793,0] includes the free degree
+   summand. Degree-zero arguments and the quotient's [23,0] live
+   in its torsion part: 9406793=23*408991. Thus the proof's degree-zero
+   group C9406793 and quotient C23 are correct. No unwarranted
+   identification of the whole Picard group with its degree-zero
+   subgroup occurs in the helper.
+
+5. Proper pushforward commutes with specialization here. Every source
+   cuspidal complement pushes to an effective target cuspidal divisor
+   of the same degree. Enumerating ALL finite target cusp complements
+   therefore supplies a safe necessary condition, including possible
+   target complements with no characteristic-zero lift. No surjectivity
+   of cusp lifting is needed for this quotient-filter step.
+
+6. In support type[4,4] the entire degree8 has noncuspidal support,
+   so the complement is zero. Its pushed-forward class must lie in
+   the full rational image; a nonzero C23 quotient class excludes it.
+   There are275 tests: first support one of5 diamond representatives,
+   second support any of55 quartics. Repetition is included. This
+   is an overestimate of unordered pairs and still covers every pair.
+   A diamond induces the corresponding target diamond; rational
+   cuspidal classes and all cusp-complement sets are invariant under
+   this affine action. First-support diamond reduction is valid.
+
+7. The independently checked finite-place counts are
+   [0,0,0,55,44,55,264,781]. Thus the only nonempty support patterns
+   of degree<=8 are a single place4,5,6,7,8 or a pair[4,4]. There
+   are109 canonical single-place tests and275 pair tests. The exact
+   logs contain263 quotient rejections; the source's loop can count
+   any of the remaining12 as killed only after an actual nonprincipal
+   Hecke image. Its final zero-survivor summary therefore accounts
+   for all275. No computation error is reported in either bound log.
+
+8. The source cusp signature is1^22,11^2, with Q-orbit degrees
+   identical. In particular every cusp complement of degree<=4 is
+   Q-liftable. Hence the admitted odd Hecke primes annihilate these
+   complements as divisors, as required by the pre-existing Hecke
+   lemma. Rank zero and gonality>8, with odd unramified torsion
+   specialization, also exclude the entirely cuspidal branch.
+
+The proof's citation to DEHMZ Theorem3.1(2) is appropriate for rank
+zero. For the separate statement that rational cusps generate J23(Q),
+the cusp-generation theorem/corollary or Table4 may be cited as well;
+the local primary-source labels above locate the actual statements.

@@ -1,0 +1,96 @@
+30 October 2026 — Phi(10) continuation after resolving C2 x C26
+
+CURRENT COUNTS: 68 exact full groups occur; 64 minimal subgroup obstructions
+are excluded; 45 remain unresolved (36 cyclic, 9 noncyclic). The minimal
+frontier now has 109 groups. Phi(10) is INCOMPLETE.
+Use candidates.json/txt and paper/remaining.tex for current exact lists.
+
+C2 x C26 IS NOW COMPLETELY RESOLVED; DO NOT RESTART THE OLD RR SEARCHES.
+Both formerly residual divisor classes have h0=1 over Q. Their unique
+effective representatives are irreducible degree-ten noncuspidal points.
+Each curve has full torsion C2 x C26. Their j-invariants have different
+quintic minimal polynomials. There are exactly two Galois and level orbits.
+The explicit fields and curves are in C226_resolution_20261030/models_compact.json
+and exact_points_30.m (old 5+5 branch), exact_points_24.m (old pure10 branch).
+The first has a good unramified linear prime at 41 (a=23,b=6,c=25,#E=52).
+The second has one at 43 (a=39,b=21,c=11,#E=52). These bound full torsion.
+
+The final proof is C226_resolution_20261030/resolution.tex, included after
+the earlier two-class reduction in the main paper. It uses explicit curves,
+exact primitive-field and torsion checks, and precise reduction at 3.
+The degree-ten field polynomials have F3 factor degrees 5+5 and 10, and
+the level coordinates match the two saved Frobenius patterns exactly.
+Rank-zero torsion injectivity gives D_i~L_i; finite gonality 12 bounds h0
+by one. Thus the explicit witnesses settle effectivity and uniqueness
+without relying on a slow or incomplete characteristic-zero RR job.
+
+C52 IS EXCLUDED. The transfer lemma would give one of these two curves,
+and its inverse dual 2-isogeny would require a half of a dual kernel point.
+For each of the three kernels, this requires a square among the six root
+differences r_j-r_i of E[2]. None is a square. For the first curve all six
+have nonsquare residues at its prime (41,a=23). For the second, the two
+primes (43,a=39) and (43,a=16) cover all six differences. Exact finite
+Euler-symbol certificates are in independent_class_binding.json.
+
+PRIMARY SUCCESSFUL CERTIFICATES:
+- resolve226_complete_native: complete self-contained Magma verification of
+  both explicit models, full torsion, exact F3 pattern bindings and all
+  twelve nonsquare certificates. Completion marker required; exit 0.
+- resolve226_replay_witness30/24: independent Sage field, point, reduction
+  and torsion verification. Both PASS, exit 0.
+- resolve226_bind_classes: independent F3 embeddings and Frobenius keys;
+  distinct quintic j-polynomials and finite nonsquare certificates. PASS.
+- resolve226_coordinate_fields: exact Q-linear closure verifies Q(b,c)=K
+  of degree 10 for both points. PASS.
+The compact inputs and all primary outputs are pinned in certified_results.json.
+
+DISCOVERY COMPUTATIONS (PRESERVED, NOT REQUIRED TO REPLAY THE FINAL PROOF):
+Montes normalization of an integral degree-12 model removes the old slow
+normalization. Smaller equivalent cusp divisors have positive/negative
+degrees 12/2 and 14/4. Both positive spaces are pencils. Exhaustive cusp
+fiber search finds another cuspidal fiber for each. Four finite-field
+computations reconstruct their rational pencil functions exactly.
+Several exploratory wrappers reached their RR answers but failed when
+concatenating finite and infinite ideal factorizations with incompatible
+Magma universes. Successful separate ideal-extraction jobs recovered the
+points. Their independent final point certificates, rather than the failed
+wrappers, establish the final results. The old long fallback was retired
+once both witnesses and their class bindings were verified. See
+retired_duplicate.json and retired_obsolete_workers.json. No failed or
+terminated computation is accepted as a completed certificate.
+
+EARLIER RESULTS TO PRESERVE:
+- 67-group baseline, including the sporadic C3 x C15 and C6 x C12 cases;
+  these two cases are completely classified in the existing proof files.
+- The six exclusions C2 x C38, C2 x C40, C2 x C50, C76, C80, C100 remain
+  certified by continuation_20261029b/ and continuation_20261030.tex.
+  Pattern counts are 233->35->0, 781->288->118->0, and 137->3->0.
+- The 9+cusp C226 branch is excluded by the order-three stabilizer and
+  Q-gonality >=12. The j=0 twist factorization has degrees 6,6,72 over
+  Q(zeta3), excluding the relative degree-five point. Keep this argument.
+A complete prior handoff is archived as continuation_before_resolution.txt.
+
+REMAINING WORK:
+- C2 x C32,34,36,42 would imply cyclic exclusions C64,68,72,84.
+- C3 x C18: genus 10, rank zero, but a cuspidal index 27 remains in the
+  available Hecke bound. Do not assume full cuspidal generation or
+  transfer the averaging argument across a cubic cusp extension.
+- C3 x C27,33,39 and C4 x C28 need relative quintic analysis.
+- Remaining cyclic levels need stronger local/divisor or quotient arguments;
+  current global inequalities do not resolve C111 and C117.
+- X1(2,50) needed no source plane model for its completed exclusion.
+
+All degree-ten work stays in deg10. Earlier degree-6--9 files are protected
+by the original manifest. User-authorized degree-18 concurrency reductions
+and their successful replacement batches are recorded under
+continuation_20261029b/resource_handoff/; all three replacements exited 0.
+Leave two host CPU cores idle, preserve useful unrelated work, and terminate
+obsolete Magma jobs instead of pausing them. Review workers and launchers
+before finishing. Run candidates.py and verify_project.py after changes;
+validation.json and lifecycle_final.json record the final audits.
+
+FINAL AUDIT: validation.json passes with 1191 accepted evidence files,
+468 recorded jobs all exited, 25 protected earlier files unchanged.
+The updated PDF has 24 pages and compiles without errors or overfull boxes.
+lifecycle_final.json confirms no degree-ten workers or launchers remain;
+useful unrelated degree-19 and other users' Magma work was preserved.

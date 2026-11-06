@@ -1,0 +1,19 @@
+{
+  "purpose": "function_3_9",
+  "script": "computations/function_3_9.m",
+  "script_sha256": "a82caa412bbada4d393f2dbb7c30dfca861678287beec9b9f2dfb851988d8367",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/function_3_9.m"
+  ],
+  "pid": 5469,
+  "owner_uid": 1001,
+  "start_time_unix": 1793274465.3454452,
+  "state": "EXITED",
+  "time_limit_seconds": 180,
+  "log": "jobs/function_3_9.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 1.2153406143188477
+}

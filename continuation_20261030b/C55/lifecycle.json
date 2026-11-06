@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "finished_utc": "2026-10-30T19:31:04.096377+00:00",
+  "owned_jobs": [
+    {
+      "purpose": "contb55_census",
+      "owner_uid": 1001,
+      "pid": 2495552,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_census.m"
+      ],
+      "start_time_unix": 1793387428.3904052,
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "role": "accepted"
+    },
+    {
+      "purpose": "contb55_cusp_coupled",
+      "owner_uid": 1001,
+      "pid": 2496598,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_cusp_coupled.m"
+      ],
+      "start_time_unix": 1793387476.0971165,
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "role": "completed corroborating cusp calculation; not needed by final proof"
+    },
+    {
+      "purpose": "contb55_source_case1",
+      "owner_uid": 1001,
+      "pid": 2498256,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_source_case1.m"
+      ],
+      "start_time_unix": 1793387552.1679711,
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "role": "accepted"
+    },
+    {
+      "purpose": "contb55_source_case2",
+      "owner_uid": 1001,
+      "pid": 2498297,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_source_case2.m"
+      ],
+      "start_time_unix": 1793387553.0262907,
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "role": "accepted"
+    },
+    {
+      "purpose": "contb55_source_case3",
+      "owner_uid": 1001,
+      "pid": 2498292,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_source_case3.m"
+      ],
+      "start_time_unix": 1793387553.0161347,
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "role": "accepted"
+    },
+    {
+      "purpose": "contb55_source_case4",
+      "owner_uid": 1001,
+      "pid": 2498285,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_source_case4.m"
+      ],
+      "start_time_unix": 1793387552.9776328,
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "role": "accepted"
+    },
+    {
+      "purpose": "contb55_source_case5",
+      "owner_uid": 1001,
+      "pid": 2498305,
+      "command": [
+        "/usr/local/bin/magma",
+        "-b",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_source_case5.m"
+      ],
+      "start_time_unix": 1793387553.334565,
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "role": "accepted"
+    },
+    {
+      "purpose": "contb55_sage_finite",
+      "owner_uid": 1001,
+      "pid": 2508148,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_sage_finite.py"
+      ],
+      "start_time_unix": 1793388009.4039671,
+      "state": "EXITED",
+      "actual_exit_code": 1,
+      "termination_reason": null,
+      "role": "superseded Sage finite-field API trial; not a certificate"
+    },
+    {
+      "purpose": "contb55_sage_finite_v2",
+      "owner_uid": 1001,
+      "pid": 2508912,
+      "command": [
+        "/opt/sage/envs/sage/bin/python3",
+        "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/contb55_sage_finite_v2.py"
+      ],
+      "start_time_unix": 1793388043.6172462,
+      "state": "EXITED",
+      "actual_exit_code": 0,
+      "termination_reason": null,
+      "role": "accepted"
+    }
+  ],
+  "all_owned_jobs_exited": true,
+  "active_owned_processes": [],
+  "paused_owned_workers": 0,
+  "automatic_launchers": 0,
+  "parent_native_job": "contb55_parent_native",
+  "parent_native_state": "EXITED0"
+}

@@ -1,0 +1,9 @@
+{
+  "pid": 890847,
+  "owner_uid": 1001,
+  "start_ticks": 212120855,
+  "command": "/opt/magma-2.30-1/magma.exe -b /home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late240_cyclic.m ",
+  "reason": "Whole-target scan replaced by eight complete disjoint shards; exact group data and first full test agree. Partial scan is not a completed certificate.",
+  "signal": "SIGTERM",
+  "snapshot_completed_tests": 10
+}

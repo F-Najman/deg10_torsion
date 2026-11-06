@@ -1,0 +1,177 @@
+\subsection{The groups $C_2\times C_{36}$ and $C_{72}$}
+\label{subsec:decic236}
+
+Put $X=X_1(2,36)$. This curve has genus $41$ and good reduction
+at $5$. Its Jacobian has rank zero over $\mathbb Q$ by
+\cite[Theorem~3.1(3)]{DEHMZ}.
+We first exclude degree-$10$ divisors whose reduction has a
+noncuspidal component. We then exclude degree-$10$ pencils and
+use torsion reduction to deal with entirely cuspidal reduction.
+All effective divisors considered below may be reducible.
+
+\input{../C236_resolution_20261030/geometry/quotient9_rational_image_upper_reused.tex}
+
+\begin{lemma}\label{lem:decic236-finite-sieve}
+Let $D$ be an effective divisor of degree $10$ on $X$, defined
+over $\mathbb Q$, whose support is entirely noncuspidal.
+Suppose that its reduction at $5$ has a noncuspidal component.
+After applying a rational level automorphism, its reduction is
+$\overline N+\overline C$, where $\overline N$ is the degree-$8$
+point in Lemma~\ref{lem:236-degree10-oldN8} and $\overline C$
+is a cuspidal effective divisor of degree $2$.
+\end{lemma}
+\begin{proof}
+The exact noncuspidal closed-point counts over $\mathbb F_5$ in
+degrees one through ten are
+\[
+ (0,0,48,120,720,2904,10416,50334,218080,979512).
+\]
+The cusp signature is $1^{24},2^8,6^4$.
+The point counts agree with Newton identities for the independently
+computed Frobenius polynomial.
+The $24$ rational level automorphisms are
+\[
+ (P,Q)\longmapsto(P+18bQ,cP+aQ),\qquad
+ b,c\in\{0,1\},\quad a\in\{1,5,7,11,13,17\}.
+\]
+Their noncuspidal orbit counts in degrees three through ten are
+\[
+ (2,5,30,126,434,2115,9088,40874).
+\]
+
+Write the reduction as $N+C$, where $N$ is noncuspidal and
+$C$ is cuspidal. Since the smallest noncuspidal closed degree is
+$3$, the divisor $N$ has one, two, or three summands, including
+repetitions. We normalize one summand by the level group and
+retain every actual closed point for the remaining summands.
+This gives $135282$ support patterns and includes every possible
+$N$ with $3\leq\deg N\leq10$.
+
+First, we use two maps to $Y=X_1(2,18)$:
+\[
+ (E,P,Q)\longmapsto(E,P,2Q),\qquad
+ (E,P,Q)\longmapsto
+ (E/\langle18Q\rangle,\phi(P),\phi(Q)).
+\]
+The rational Jacobian of $Y$ is the cuspidal group
+$[2,42,126]$ by \cite[Proposition~4.16 and Table~3]{DEHMZ}.
+Its reduced image has index $12$ in
+$J_Y(\mathbb F_5)=[6,84,252]$.
+Every normalized finite cusp class lies in this image.
+Thus the two normalized pushforward classes of $N$ must lie in
+this subgroup. These conditions leave $1251$ patterns.
+
+Next, we use the genus-$9$ quotient and
+Lemma~\ref{lem:decic236-quotient-image}.
+Its image condition leaves $208$ patterns.
+Finally, we use four maps to $V=X_1(36)$.
+The first two retain $Q$ or $P+Q$.
+The other two retain the image of $Q$ after quotienting by
+$\langle P\rangle$ or $\langle P+18Q\rangle$.
+The quotient kernels are disjoint from $\langle Q\rangle$, so
+the resulting points have order $36$.
+
+By \cite[Theorem~4.13 and Table~2]{DEHMZ}, the rational
+Jacobian of $V$ is the cuspidal group $[12,252,7812]$.
+The proven finite Jacobian and reduced rational image are
+\[
+ G=[4,4,12,12,36,7812,7812],\qquad H=[12,252,7812],
+\]
+with $[G:H]=214272$.
+Let $q:G\to G/H$ be the quotient map, and fix a rational cusp
+$c_0$ on $V$. For $0\leq e\leq7$, let $\mathcal C_e$ be the
+set of classes $q([A-ec_0])$, where $A$ ranges over finite
+cuspidal effective divisors of degree $e$.
+Their exact cardinalities are
+\[
+ (\#\mathcal C_e)_{e=0}^7=(1,7,27,77,181,273,279,279).
+\]
+For each of the four maps $f$, the necessary condition is
+\[
+ -q\bigl([f_*N-(\deg N)c_0]\bigr)\in\mathcal C_{10-\deg N}.
+\]
+We include the norm multiplicity $d/e$ whenever a closed point of
+degree $d$ maps to one of degree $e$.
+
+These four tests leave precisely one pattern: the point
+$\overline N$ of degree $8$ in
+Lemma~\ref{lem:236-degree10-oldN8}, with a cuspidal complement
+of degree $2$. The field modulus and both coordinate vectors
+agree exactly with those in that lemma.
+
+Every class group is computed with proof.
+Independent finite-field arithmetic checks all projection values,
+residue degrees, and class sums.
+A second native calculation checks the finite and infinite ideal
+identities for all $57384$ genus-$7$ target images,
+all $1104$ genus-$9$ target images, and all $240$ final target
+images. Of these, respectively $16$, $82$, and $129$ lie directly
+in the proven factorbase; all others have exact exported
+Riemann--Roch identity witnesses.
+This proves the assertion.
+\end{proof}
+
+\input{../C236_resolution_20261030/geometry/oldN8_degree2_cusp_obstruction.tex}
+
+\input{../C236_resolution_20261030/cuspidal_boundary/proof.tex}
+
+\begin{proposition}\label{prop:decic236-excluded}
+There is no effective divisor of degree $10$ on $X_1(2,36)$,
+defined over $\mathbb Q$, whose support is entirely noncuspidal.
+Moreover, $X_1(2,36)$ has rational gonality at least $11$.
+Consequently neither $C_2\times C_{36}$ nor $C_{72}$ occurs as
+a torsion subgroup over a number field of degree $10$.
+\end{proposition}
+\begin{proof}
+Lemmas~\ref{lem:decic236-finite-sieve} and
+\ref{lem:236-degree10-oldN8} exclude every such divisor whose
+reduction has a noncuspidal component.
+
+By \cite[Table~1, the entry for $X_1(2,36)$ at $5$]{NV},
+\[
+ \operatorname{gon}_{\mathbb F_5}(X_{\mathbb F_5})\geq10.
+\]
+Suppose that $X$ has a rational pencil of degree at most $10$.
+The finite-field bound implies that its degree is $10$.
+Take a saturated integral lattice in its two-dimensional section
+space. Its reduction gives two independent sections of a
+line bundle of degree $10$.
+A common base divisor would give a morphism of smaller degree
+over $\mathbb F_5$, contradicting the same bound.
+Thus the reduced pencil is a degree-$10$ morphism.
+By Lemma~\ref{lem:decic236-cuspidal-pencil}, it has a rational
+fibre containing a noncuspidal point.
+Choose a rational parameter reducing to that fibre and avoiding
+the finitely many images of global cusps.
+The resulting rational effective divisor has degree $10$,
+entirely noncuspidal support, and a noncuspidal component in its
+reduction. This is impossible by the preceding paragraph.
+Hence the rational gonality is at least $11$.
+
+Now let $D$ be an effective rational divisor of degree $10$
+with entirely noncuspidal support and entirely cuspidal reduction.
+Lift its reduction to a cuspidal divisor $C$ over a finite
+unramified extension of $\mathbb Q_5$.
+Choose a rational cusp $c$ of $X$.
+The class $[D-10c]$ is torsion because $J_X(\mathbb Q)$ has
+rank zero, and $[C-10c]$ is torsion by Manin--Drinfeld.
+Thus $[D-C]$ is torsion and reduces to zero.
+Torsion reduction is injective over an unramified extension of
+$\mathbb Q_5$, so $D\sim C$.
+These are distinct effective divisors. It follows that
+$h^0(X,\mathcal O(D))\geq2$ after extending the base field,
+and hence also over $\mathbb Q$.
+This contradicts the rational gonality bound.
+
+A point of $X$ over a degree-$10$ field gives, by its trace, an
+effective rational divisor of degree $10$ with noncuspidal
+support. This excludes $C_2\times C_{36}$.
+Finally, suppose that $R\in E(K)$ has order $72$.
+Let $\phi:E\to E'=E/\langle36R\rangle$.
+The point $Q=\phi(R)$ has order $36$.
+The nonzero point $P$ in the kernel of the dual isogeny is
+$K$-rational and has order $2$.
+It differs from $18Q$, since the dual isogeny sends $18Q$ to
+$36R\ne0$.
+Thus $E'(K)$ contains $C_2\times C_{36}$, a contradiction.
+\end{proof}

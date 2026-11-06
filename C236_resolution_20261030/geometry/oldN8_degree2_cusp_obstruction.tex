@@ -1,0 +1,109 @@
+% Fragment for the degree-ten C_2 x C_36 exclusion. No irreducibility is assumed.
+\begin{lemma}\label{lem:236-degree10-oldN8}
+Let $X=X_1(2,36)$, and let $\overline N$ be the noncuspidal
+closed point of degree $8$ over $\mathbb F_5$ specified below.
+There is no effective divisor $D$ on $X$, defined over $\mathbb Q$,
+of degree $10$, whose support is entirely noncuspidal and whose
+reduction at $5$ is $\overline N+\overline C$, where
+$\overline C$ is a cuspidal effective divisor of degree $2$.
+\end{lemma}
+\begin{proof}
+Put $g(P,Q)=(P+18Q,P+Q)$.
+This automorphism has order $4$ and acts freely on the geometric
+cusps. The point $\overline N$ is invariant under $g$.
+Write $\pi:X\longrightarrow W=X/\langle g\rangle$.
+The curve $W$ has genus $11$, the map $\pi$ is unramified, and
+$\overline N=\pi^*q$, where $q$ has degree $2$ over $\mathbb F_5$.
+
+We first compute
+\begin{equation}\label{eq:236-degree10-cusp-section}
+ h^0\bigl(\overline N+\pi^*\pi_*\overline C\bigr)=1
+\end{equation}
+for every cuspidal effective divisor $\overline C$ of degree $2$.
+Here is a model of $W$ and the required calculation.
+Put $r=t^2-t+1$, $c=t(r-1)$, $b=rc$, and
+\[
+ E_9:\quad y^2+(1-c)xy-by=x^3-bx^2.
+\]
+Then $W$ is given by
+\[
+ 16(w^2+16)^3=j(E_9)w^4.
+\]
+After completing the square in $E_9$, write its equation as
+$y^2=x^3+a_2x^2+a_4x+a_6$.
+The cubic has a unique common root $\rho$ with
+\[
+ w^2(a_2+3x)^2-4(w^2+4)(a_4+2a_2x+3x^2).
+\]
+Put $\beta=a_4+2a_2\rho+3\rho^2$ and
+$f=16\beta^3(1+4/w)^2$.
+Over $\mathbb F_5$ the cover is $z^4=f$.
+Its divisor is $\operatorname{div}(f)=4D_0$, where $[D_0]$ has
+order $4$. Hence, for every divisor $A$ on $W$,
+\[
+ h^0_X(\pi^*A)=\sum_{j=0}^3h^0_W(A+jD_0).
+\]
+
+There are six rational cusps $c_1,\ldots,c_6$ of $W$ whose
+fibres split into four rational cusps of $X$.
+There are two quadratic cusps $u_1,u_2$ whose fibres split into
+four quadratic cusps. These account for all source cusps of
+degree at most $2$.
+The exact Riemann--Roch calculations give
+\[
+ \bigl(h^0(A+jD_0)\bigr)_{j=0}^3=(1,0,0,0)
+\]
+for the two divisors $A=q+u_i$ and the $21$ divisors
+$A=q+c_i+c_j$, where $1\leq i\leq j\leq6$.
+This proves \eqref{eq:236-degree10-cusp-section}.
+
+Suppose that $D$ exists. Work over a finite unramified extension
+of $\mathbb Q_5$ containing the cusps, and let $C$ be the cuspidal
+lift of $\overline C$. Put $L=[D-C]\in\operatorname{Pic}^8(X)$.
+The Jacobian $J_X(\mathbb Q)$ has rank zero. Together with
+Manin--Drinfeld, this implies that $gL-L$ is torsion.
+Its reduction is zero, since $\overline N$ is $g$-invariant.
+Torsion reduction is injective over an unramified extension of
+$\mathbb Q_5$, and hence $gL=L$.
+
+Put $\Omega=\pi^*\pi_*C=\sum_{j=0}^3g^jC$.
+The divisors
+\[
+ D+\Omega-C\quad\hbox{and}\quad gD+\Omega-gC
+\]
+are effective and linearly equivalent.
+Their common line bundle reduces to
+$\mathcal O(\overline N+\pi^*\pi_*\overline C)$.
+By \eqref{eq:236-degree10-cusp-section} and upper semicontinuity,
+its space of sections has dimension at most $1$.
+Thus the two divisors are equal.
+Since $D$ and $gD$ have no cuspidal components, comparison of
+cuspidal parts gives $C=gC$.
+Every geometric cusp orbit has length $4$, whereas $\deg C=2$.
+This is a contradiction.
+\end{proof}
+
+\noindent\emph{Identification and computational evidence.}
+For an exact specification of $\overline N$, let
+\[
+ k=\mathbb F_5[\alpha]/
+ (\alpha^8+\alpha^4+3\alpha^2+4\alpha+2).
+\]
+Write $B=\sum_{i=0}^7B_i\alpha^i$ and
+$C=\sum_{i=0}^7C_i\alpha^i$, with coefficient vectors
+\[
+ (B_i)=(0,0,0,0,2,3,0,4),\qquad
+ (C_i)=(2,1,0,4,0,2,1,2).
+\]
+The level structure
+$E:y^2=x^3+Cx^2+B(1-B-C)x$, $P=(0,0)$, $Q=(B,B)$
+represents $\overline N$. On it, $g$ agrees with the sixth
+power of the $5$-power Frobenius.
+The function-field calculation and all $23$ Riemann--Roch tests
+are in \texttt{new236\_geom\_cusp2\_numeric.m}; the exported data
+are in \texttt{geometry/cusp2\_numeric\_certificate.m}.
+An independent exact replay in Sage verifies the level structure,
+the Frobenius relation, the source-to-quotient invariants, the
+local Kummer splitting, and the free action on all $64$ geometric
+cusps; see \texttt{geometry/replay\_cusp2\_v2.py} and
+\texttt{geometry/cusp2\_independent\_replay.json}.

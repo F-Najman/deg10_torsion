@@ -1,0 +1,19 @@
+{
+  "purpose": "late226_native_replay_s0",
+  "script": "computations/late226_native_replay_s0.m",
+  "script_sha256": "847141972e605dffcaff963fccde83cded5c6b7ee1e84b3d60ccad6b16a691cd",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_native_replay_s0.m"
+  ],
+  "pid": 990725,
+  "owner_uid": 1001,
+  "start_time_unix": 1793318723.3360732,
+  "state": "EXITED",
+  "time_limit_seconds": 240,
+  "log": "jobs/late226_native_replay_s0.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 106.45896935462952
+}

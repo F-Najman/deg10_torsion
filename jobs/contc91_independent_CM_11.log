@@ -1,0 +1,28 @@
+Loading "work/deg10/computations/contc91_independent_CM_Hecke_v2.m"
+Loading "work/deg10/continuation_20261030c/C91_CM_control/inputs/records91_8.m"
+C91_CM_MARKED_HECKE_CASE 11 1 9 [ 3, 3, 3, 3 ]
+[ 24, 24, 24, 24 ]
+[ 1, 1, 1, 1 ]
+160 160 0.020
+C91_CM_MARKED_HECKE_CASE 11 1 81 [ 3, 3, 3, 3 ]
+[ 24, 24, 24, 24 ]
+[ 1, 1, 1, 1 ]
+160 160 0.020
+C91_CM_MARKED_HECKE_CASE 11 2 9 [ 3, 3, 3, 3 ]
+[ 24, 24, 24, 24 ]
+[ 1, 1, 1, 1 ]
+160 160 0.040
+C91_CM_MARKED_HECKE_CASE 11 2 81 [ 3, 3, 3, 3 ]
+[ 24, 24, 24, 24 ]
+[ 1, 1, 1, 1 ]
+160 160 0.040
+C91_CM_MARKED_HECKE_CASE 11 3 9 [ 3, 3, 3, 3 ]
+[ 24, 24, 24, 24 ]
+[ 1, 1, 1, 1 ]
+160 160 0.050
+C91_CM_MARKED_HECKE_CASE 11 3 81 [ 3, 3, 3, 3 ]
+[ 24, 24, 24, 24 ]
+[ 1, 1, 1, 1 ]
+160 160 0.060
+C91_CM_MARKED_HECKE_COMPLETE [ 11 ]
+6 0.060

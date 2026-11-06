@@ -1,0 +1,15 @@
+Loading "work/deg10/continuation_20261029b/C226/hecke_template.m"
+Loading "work/deg10/continuation_20261029b/deps/pair_af_place_linear.m"
+C226_HECKE_TEST 6 [ 1, 6, 5 ]
+1 17 true 62.170
+C226_HECKE_TEST 6 [ 1, 6, 5 ]
+1 23 true 110.130
+C226_HECKE_TEST 14 [ 1, 7, 6 ]
+1 17 false 175.660
+C226_HECKE_TEST 22 [ 1, 10, 41 ]
+1 17 false 291.510
+C226_HECKE_TEST 30 [ 2, 5, 1, 5, 19 ]
+1 17 true 389.880
+C226_HECKE_TEST 30 [ 2, 5, 1, 5, 19 ]
+1 23 true 467.960
+C226_HECKE_SHARD_COMPLETE 5 4 2 467.960

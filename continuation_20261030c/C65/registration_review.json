@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "group": [
+    1,
+    65
+  ],
+  "degree": 10,
+  "parent_mathematical_review": "PASS",
+  "frozen_manifest_sha256": "c1910c7b82ca158eedac4293dbd643e7bd02b2f53859f7a641c90023b0a13ccb",
+  "method": "Finite-image Hecke products on the full Jacobian; all7170048 global cusp restrictions and the split-cusp finite class filter; complete old degree6-9 tests and240 new marked canonical-multiplication obstructions with independent controls",
+  "independent_arithmetic_checks": "PASS",
+  "classification_complete": false
+}

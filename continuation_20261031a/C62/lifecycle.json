@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "all_case_jobs_exited": true,
+  "accepted_producers": [
+    "d31a_C62_class_resume_v2",
+    "d31a_C62_independent_replay",
+    "d31a_C62_inherited_replay",
+    "d31a_C62_global_nonic31",
+    "d31a_62_parent_class_replay"
+  ],
+  "all_case_statuses": [
+    {
+      "path": "work/deg10/jobs/d31a_C62_class_resume_v2.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_inherited_replay.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_smoothing_pilot.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_global_nonic31.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_class_filter.status.json",
+      "actual_exit_code": -15
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_independent_replay.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_class_resume.status.json",
+      "actual_exit_code": 1
+    },
+    {
+      "path": "work/deg10/jobs/d31a_C62_places10.status.json",
+      "actual_exit_code": 0
+    },
+    {
+      "path": "work/deg10/jobs/d31a_62_parent_class_replay.status.json",
+      "actual_exit_code": 0
+    }
+  ],
+  "failed_preflights_are_not_certificates": true
+}

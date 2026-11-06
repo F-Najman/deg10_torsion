@@ -1,0 +1,20 @@
+SetColumns(0);SetNthreads(1);SetQuitOnError(true);SetMemoryLimit(16*10^9);
+AttachSpec("work/deg10/shared/mdmagma/v2/mdmagma.spec");Attach("work/degree9/shared/fast_hecke.m");
+Alarm(600);tt:=Cputime();record:=eval Read("work/deg10/next_cases_20261030/C69/direct_full/selected_input.m");
+assert record[1] eq 69 and record[2] eq 10 and record[3] eq 2;R<z>:=PolynomialRing(GF(2));F<a>:=ext<GF(2)|R!record[5]>;
+fromvec:=func<v|&+[F!v[k]*a^(k-1):k in [1..#v]]>;
+E:=EllipticCurve([fromvec(v):v in record[6]]);PN:=E![fromvec(v):v in record[7]];
+assert Order(PN) eq 69 and #E eq 966 and Degree(F) eq 10 and MinimalPolynomial(jInvariant(E),GF(2)) eq R!record[8];
+X:=MDX1(69,GF(2));C:=Curve(X);assert Genus(C) eq 133;
+printf "DIRECT69_FULL_MODEL_READY genus=133 time=%o\n",Cputime(tt);
+P:=ModuliPoint(X,E,rec<recformat<P:PtEll>|P:=PN>);assert Degree(P) eq 10;
+EP:=EllipticCurve(X,P);PP:=LevelStructure(X,P)`P;assert Order(PP) eq 69 and MinimalPolynomial(jInvariant(EP),GF(2)) eq R!record[8];
+f:="work/deg10/next_cases_20261030/C69/direct_full/profile.json";out:=Open(f,"w");fprintf out,"{\"N\":69,\"genus\":133,\"base_case\":2,\"point_degree\":10,\"point_order\":69,\"profile_complete\":true,\"profile_cpu_seconds\":%o}\n",Cputime(tt);delete out;
+printf "DIRECT69_PROFILE_COMPLETE genus=133 degree=10 level_order=69 base_case=2 time=%o\n",Cputime(tt);
+// Only this successful profile enables the separately authorized RR stage.
+Alarm(1200);rt:=Cputime();DD:=Divisor(P);T:=HeckeOperatorFast(X,5,P);assert Degree(T) eq 60;
+DP:=DiamondOperator(X,5,P);assert Degree(DP) eq 10;B:=T-DD-5*Divisor(DP);assert Degree(B) eq 0;
+printf "DIRECT69_FULL_A5_DIVISOR_READY hecke_degree=60 input_degree=10 alpha_diamond=5 time=%o rr_time=%o\n",Cputime(tt),Cputime(rt);
+principal:=IsPrincipal(B);
+f:="work/deg10/next_cases_20261030/C69/direct_full/rr_result.json";out:=Open(f,"w");fprintf out,"{\"N\":69,\"genus\":133,\"base_case\":2,\"point_degree\":10,\"operator\":\"T5-1-5<5>\",\"principal\":%o,\"completed\":true,\"rr_cpu_seconds\":%o,\"total_cpu_seconds\":%o}\n",principal select "true" else "false",Cputime(rt),Cputime(tt);delete out;
+printf "DIRECT69_FULL_A5_RR_COMPLETE base_case=2 principal=%o degree=10 genus=133 rr_time=%o total_time=%o\n",principal,Cputime(rt),Cputime(tt);quit;

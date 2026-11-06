@@ -1,0 +1,19 @@
+{
+  "purpose": "late226_Q_direct_RR",
+  "script": "computations/late226_Q_direct_RR.m",
+  "script_sha256": "b9e244d56f1eca39a3d00780443818d97220e033117694960dc6a8933dfc0184",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/late226_Q_direct_RR.m"
+  ],
+  "pid": 989514,
+  "owner_uid": 1001,
+  "start_time_unix": 1793318665.6912737,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/late226_Q_direct_RR.log",
+  "actual_exit_code": -15,
+  "termination_reason": "time limit; computation is not a completed certificate",
+  "elapsed_seconds": 300.01594042778015
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/degree9/parallel_expansion_20261026/N93_source_units/verify_stage1_readonly_v2.py", line 48, in <module>
+    RX,RY=mat('UnitXRelations'),mat('UnitYRelations');assert len(RX)==161 and len(RY)==156 and all(len(v)==522 for v in RX+RY)
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

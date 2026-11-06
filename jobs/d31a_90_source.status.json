@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_90_source",
+  "script": "computations/d31a_90_source.m",
+  "script_sha256": "27fcf650463b6229c3e2a4c6d5ccc196ab60514c872edfeaa4f1102090858d28",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_90_source.m"
+  ],
+  "pid": 2806035,
+  "owner_uid": 1001,
+  "start_time_unix": 1793402125.0198207,
+  "state": "EXITED",
+  "time_limit_seconds": 300,
+  "log": "jobs/d31a_90_source.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 0.31432628631591797
+}

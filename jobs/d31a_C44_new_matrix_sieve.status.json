@@ -1,0 +1,19 @@
+{
+  "purpose": "d31a_C44_new_matrix_sieve",
+  "script": "computations/d31a_C44_new_matrix_sieve.m",
+  "script_sha256": "f71de6367d54b460993cbed7b806b9a2bb66cec8bcb96ac8d8c8c53f00bc19bd",
+  "command": [
+    "/usr/local/bin/magma",
+    "-b",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31a_C44_new_matrix_sieve.m"
+  ],
+  "pid": 2833609,
+  "owner_uid": 1001,
+  "start_time_unix": 1793403393.7800756,
+  "state": "EXITED",
+  "time_limit_seconds": 1200,
+  "log": "jobs/d31a_C44_new_matrix_sieve.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 31.416176080703735
+}

@@ -1,0 +1,6 @@
+
+In file "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/cont_image135_no2.m", line 8, column 46:
+>>  chimin:=MinimalBaseRingCharacter(chi);Append(~chiA,chimin);
+                                                ^
+Runtime error in 'Append': Cannot coerce element into the universe
+

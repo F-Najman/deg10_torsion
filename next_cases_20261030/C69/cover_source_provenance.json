@@ -1,0 +1,6 @@
+{
+  "source": "work/degree9/cyclic/continuation_20261026/N69_cover_good_D9.m",
+  "snapshot": "work/deg10/next_cases_20261030/C69/inputs/N69_cover_good_D9.m",
+  "sha256": "d196d44fbc9d11d1928c806eb32b8934a512ae3380b8c94e83eaf8eda121b0e7",
+  "adaptation": "Fresh full finite census for degrees7..10, exact kernels and level images, complete cover choices and all RR divisors exported; no degree9 exclusion transferred."
+}

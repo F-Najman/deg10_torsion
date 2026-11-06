@@ -1,0 +1,28 @@
+{
+  "group": [
+    4,
+    20
+  ],
+  "absolute_degree": 10,
+  "relative_degree": 5,
+  "genus": 25,
+  "native_NC_counts": [
+    0,
+    96,
+    320,
+    888,
+    11904
+  ],
+  "quintic_orbits_excluded": 124,
+  "mixed_patterns_checked": 832,
+  "quartic_residual_orbits": 2,
+  "quadratic_pair_residual_orbits": 2,
+  "free_involutions_verified": 4,
+  "gonality_F9_lower_bound": 7,
+  "gonality_degree3_complements": 5512,
+  "canonical_rank_tests_independently_replayed": 11156288,
+  "all_5512_projected_kernel_spaces_recomputed": "PASS",
+  "complete_Hecke_orbit_and_mixed_support_coverage": "PASS",
+  "stabilizer_and_fine_5_level_freeness": "PASS",
+  "classification_case": "EXCLUDED"
+}

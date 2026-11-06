@@ -1,0 +1,5 @@
+DATABASE_ELL_MODEL N=69 ell=23 genus=2 good_reduction=true j_degree=24 time=0.050
+X0_3ELL_MODEL N=69 genus=7 degree_over_X0ell=4 integral_coordinates_ready=true time=0.730
+NEXT69_D10_BASE_TEST 1 10 true 3.320
+NEXT69_D10_BASE_TEST 2 10 true 3.890
+NEXT69_D10_BASE_COMPLETE 20 2 2 3.900

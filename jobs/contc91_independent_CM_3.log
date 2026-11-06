@@ -1,0 +1,7 @@
+Loading "work/deg10/computations/contc91_independent_CM_Hecke.m"
+Loading "work/deg10/continuation_20261030c/C91_CM_control/inputs/records91_8.m"
+
+In file "work/deg10/computations/contc91_independent_CM_Hecke.m", line 6, column 146:
+>> seq(a,GF(2))))):a in v];return [*d,bits,[Integers()!a:a in Coefficients(po)
+                                      ^
+User error: Identifier 'bits' has not been declared or assigned

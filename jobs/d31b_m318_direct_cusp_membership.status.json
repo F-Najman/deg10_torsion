@@ -1,0 +1,18 @@
+{
+  "purpose": "d31b_m318_direct_cusp_membership",
+  "script": "computations/d31b_m318_direct_cusp_membership.py",
+  "script_sha256": "898f274dab726ca6a03b6aed70b988924bf49a22e469fab86f28f9aa81ab5b9e",
+  "command": [
+    "/opt/sage/envs/sage/bin/python3",
+    "/home/fnajman/Documents/Codex/2026-10-21/on-this-computer-there-are-files/work/deg10/computations/d31b_m318_direct_cusp_membership.py"
+  ],
+  "pid": 3715718,
+  "owner_uid": 1001,
+  "start_time_unix": 1793444374.1876311,
+  "state": "EXITED",
+  "time_limit_seconds": 120,
+  "log": "jobs/d31b_m318_direct_cusp_membership.log",
+  "actual_exit_code": 0,
+  "termination_reason": null,
+  "elapsed_seconds": 3.6216936111450195
+}

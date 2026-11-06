@@ -1,0 +1,9 @@
+Loading "work/deg10/continuation_20261031a/C90/inputs/pair_af_place_linear.m"
+D31A_C90_X145_NATIVE_MODEL_READY 23 41 21.570
+D31A_C90_X145_A7_CASE ci=1 degree=10 h0=1 time=32.780
+D31A_C90_X145_A7_CASE ci=2 degree=10 h0=0 time=44.510
+D31A_C90_X145_A7_CASE ci=3 degree=10 h0=0 time=60.400
+D31A_C90_X145_A7_CASE ci=4 degree=10 h0=0 time=77.080
+D31A_C90_X145_A7_CASE ci=5 degree=10 h0=0 time=88.280
+D31A_C90_X145_A7_COMPLETE_PART1 5 [ 1, 0, 0, 0, 0 ]
+88.310
