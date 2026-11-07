@@ -1,0 +1,12 @@
+Clean reruns (made for this repository, 6 November 2026) of the two Magma exports used in the proof of Proposition 9.3 (Z/49).
+They were run from the root of the original workspace (for the AttachSpec/load paths), with the output redirected to this folder.
+
+pp49_fast_cartier_export.m: the original run (jobs/pp49_fast_cartier_export.log) was stopped by its time limit of 600 s; this rerun completes (log: DECIC_C49_FAST_CARTIER_MIXED10_EXPORT_COMPLETE, 1073 s).
+  cmp with the stored file:
+    cmp: EOF on /home/fnajman/deg10/repo/next_cases_20261030/cyclic_primepowers/c49_fast_cartier_jets.m after byte 42616, line 37
+  i.e. the stored file (42616 bytes) is an initial segment of the complete output (53978 bytes): it contains the Cartier matrix, the image basis and the jets of the first cusps, including the seventh jet at c_0, which is what the proof uses.
+  prefix check: True
+
+cartier_transport_export.m: like the original degree-9 run, it stops with 'Runtime error in cat: Incompatible sequences' at line 24, after writing the Cartier matrix, the matrix of <2> and the image basis (line 23); the jets of line 24 onwards are not used.
+  cmp with the stored file inputs/degree9/cartier_transport_jets.m:
+    identical

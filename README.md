@@ -71,8 +71,10 @@ ledger, and `verify_project.py` checks the integrity of the whole record; both e
 ## Files not in the git repository
 
 * **Large files.** The 243 files of at least 2 MB (1.56 GB in total, mostly exported matrices, presentations of
-  Picard groups and checkpoints) are in the archive `deg10_torsion_large_files.tar.zst` attached to the release of
-  this repository. Unpack it at the repository root (`tar --zstd -xf deg10_torsion_large_files.tar.zst`). The list,
+  Picard groups and checkpoints) are in the archive `deg10_torsion_large_files.tar.zst` attached to the release
+  [large-files-2026-11](https://github.com/F-Najman/deg10_torsion/releases/tag/large-files-2026-11) of this
+  repository (211 MiB, SHA-256 `932c2ddd33ad3436c1ca73544207f591b0917487362efe8362baa6651da28633`). They are not needed
+  to read the proofs; about 30 of them are inputs of scripts linked in the paper. Unpack it at the repository root (`tar --zstd -xf deg10_torsion_large_files.tar.zst`). The list,
   with sizes and SHA-256 hashes, is `independent_checks/large_files_manifest.tsv`.
 * **Copies of papers.** The record contained copies of published papers and preprints (LaTeX sources, PDFs and
   text extracts) which the scripts used to look up statements. They are not redistributed here; they are listed in
@@ -172,7 +174,7 @@ scripts. The numbers are those of the version of the paper of November 2026.
 | Lemma 8.39 | `lem:sw-74-J` | `continuation_20261031b/C74/inputs/work/degree9/prime_orders/continued_20261026/deck/rational_two_diamond.m`, `continuation_20261031b/C74/inputs/work/degree9/prime_orders/continued_20261026/P37/rational_two_delta4.log`, `continuation_20261031b/C74/inputs/work/degree9/prime_orders/continued_20261026/prime_good_branches_64GB.m`, `computations/d31b_C74_formal_export_v4.m`, `continuation_20261031b/C74/inputs/work/degree9/prime_orders/continued_20261026/P37/good_branches_64GB.log`, `continuation_20261031b/C74/inputs/work/degree9/prime_orders/continued_20261026/P37/sextic_lifts_control_v2.m`, `continuation_20261031b/C74/inputs/work/degree9/prime_orders/continued_20261026/P37/finite_nc9_survivors.m` |
 | Lemma 8.41 | `lem:sw-74-ranks` | `computations/d31b_C74_formal_export_v4.m`, `computations/d31b_C74_prefix_rank_driver.py`, `computations/d31b_C74_prefix_ranks.cpp` |
 | Lemma 9.1 | `lem:fi-49-points` | `next_cases_20261030/cyclic_primepowers/pp49_finite_sieve.m` |
-| Lemma 9.2 | `lem:fi-49-cusps` | `next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_mixed9_export.m`, `next_cases_20261030/cyclic_primepowers/pp49_replay_old_jets_degree10.py`, `next_cases_20261030/cyclic_primepowers/pp49_fast_cartier_export.m`, `next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_transport_export.m`, `next_cases_20261030/cyclic_primepowers/pp49_native_matrix_replay.py` |
+| Lemma 9.2 | `lem:fi-49-cusps` | `next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_mixed9_export.m`, `next_cases_20261030/cyclic_primepowers/pp49_replay_old_jets_degree10.py`, `independent_checks/rerun_C49/pp49_fast_cartier_export.m`, `next_cases_20261030/cyclic_primepowers/inputs/degree9/cartier_transport_export.m`, `next_cases_20261030/cyclic_primepowers/pp49_native_matrix_replay.py` |
 | Lemma 9.4 | `lem:fi-51-points` | `next_cases_20261030/cyclic_further/C51/further51_finite_sieve.m` |
 | Lemma 9.5 | `lem:fi-51-cusps` | `next_cases_20261030/cyclic_further/C51/inputs/degree9/generic_cartier_completion_export.m`, `next_cases_20261030/cyclic_further/C51/further51_replay_old_jets.py`, `next_cases_20261030/cyclic_further/C51/further51_cusp_orbits.py`, `next_cases_20261030/cyclic_further/C51/further51_new_jets.m` |
 | Lemma 9.7 | `lem:fi-55-inj` | `continuation_20261030b/C55/inputs/N55_quotient_injectivity_D9_v2.m` |
@@ -224,7 +226,7 @@ scripts. The numbers are those of the version of the paper of November 2026.
 | Lemma 11.5 | `lem:spor-315-classes` | `computations/diagonal315_D5.m`, `computations/diagonal315_D5_exact.m`, `exclusions/315d5/M3N15_D4_exact_cusp_lifts.txt` |
 | Proposition 11.6 | `prop:3x15` | `computations/new315_witness.m`, `computations/simplify315.py` |
 | Lemma 11.9 | `lem:spor-318-jac` | `computations/d31b_m318_paired_p7.m`, `computations/d31b_m318_kernel_structure_v2.m`, `computations/d31b_m3n18_frob_preflight.m`, `computations/d31b_m318_paired_p13.m`, `computations/d31b_m318_p13_lean_s0.m` |
-| Lemma 11.11 | `lem:spor-318-classes` | `jobs/d31b_m318_short_cusp_divisors.log`, `continuation_20261031b/M3N18/endomorphism_gluing/short_cusp_divisors.m`, `computations/d31b_m318_relative_cubic_rank.m`, `computations/d31b_m318_relative_cubic_rank_p13.m`, `computations/d31b_m318_paired_three_relative_v2.py`, `computations/d31b_m318_final_Hecke7_v2_s0.m`, `computations/d31b_m318_quartic_phase_binding.m`, `computations/d31b_m318_tau_frame_p7.m`, `computations/d31b_m318_relative_quartic_12.m`, `computations/d31b_m318_relative_quartic_17.m`, `computations/d31b_m318_direct_cusp_membership.py` |
+| Lemma 11.11 | `lem:spor-318-classes` | `jobs/d31b_m318_short_cusp_divisors.log`, `continuation_20261031b/M3N18/endomorphism_gluing/short_cusp_divisors.m`, `computations/d31b_m318_relative_cubic_rank.m`, `computations/d31b_m318_relative_cubic_rank_p13.m`, `computations/d31b_m318_paired_three_relative_v2.py`, `independent_checks/recompute_318_classes.m`, `computations/d31b_m318_final_Hecke7_v2_s0.m`, `computations/d31b_m318_quartic_phase_binding.m`, `computations/d31b_m318_tau_frame_p7.m`, `computations/d31b_m318_relative_quartic_12.m`, `computations/d31b_m318_relative_quartic_17.m`, `computations/d31b_m318_direct_cusp_membership.py` |
 | Proposition 11.12 | `prop:3x18` | `computations/d31b_m318_global_point13900_v2.m`, `computations/d31b_m318_parent_nf_reductions.m`, `independent_checks/sporadic_check.m`, `computations/d31b_m318_global_RR_reductionfalse.m`, `computations/d31b_m318_tau_cusp_class_relation.py` |
 | Corollary 11.13 | `cor:3x36-6x18` | `independent_checks/aut_318_check.m`, `computations/late226_picard_setup.m` |
 | Lemma 11.15 | `lem:spor-226-j0` | `computations/late226_j0_twists_v2.m` |
@@ -290,7 +292,6 @@ exported data, or by a second method, grouped by the result they check (see Sect
 * Proposition 11.12 (`prop:3x18`): `continuation_20261031b/M3N18/d31b_m318_sieve_genuine_A7.py`, `computations/d31b_m318_parent_relative_p7.m`, `computations/d31b_m318_parent_native_shortclass13_v2.m`, `computations/d31b_m318_parent_global_basis_13900.m`, `continuation_20261031b/M3N18/d31b_m318_pointcheck_exact_v3.py`, `computations/d31b_m318_class_frame_audit.py`, `computations/d31b_m318_sage_geocusp_probe_v3.py`
 * Proposition 11.18 (`prop:2x26`): `computations/late226_replay_sieve.py`, `computations/late226_replay_tate.py`, `computations/late226_F5_RR.m`, `computations/late226_second_prime_v3.m`
 
-
 ## Independent checks made for this repository
 
 The folder `independent_checks/` contains checks made after the original computations, for the paper and this
@@ -306,6 +307,8 @@ repository, with code written independently of the original scripts. Each script
 | `sporadic_check.m` | the curves of Section 11: `TorsionSubgroup`, minimal polynomials of j (degree 5, not integral, distinct for the two pairs with Z/3 x Z/18 and with Z/2 x Z/26) | Props. 11.3, 11.6, 11.12, 11.18 |
 | `aut_318_check.m` | Aut(K_{3,18}) has order 2 and its non-trivial element moves zeta_3 | Remark 11.14 |
 | `cusp_degrees.py` | degrees of the closed cusps of X_1(2,28) over Q and modulo 3, of X_1(70) modulo 3 and of X_1(3,33) over F_4 | Lemmas 6.22, 8.37, proof of Prop. 6.20 |
+| `recompute_318_classes.m` | recomputes from the model of X_1(3,18) the classes of all non-cuspidal closed points of degree 2 and 3 at the primes above 7 and 13 and compares them with the stored data used for the types [2,2] and [2,3] | Lemma 11.11 |
+| `rerun_C49/` | clean reruns of the two exports used for Z/49, compared with the stored data (`COMPARE.txt`) | Prop. 9.3 |
 | `check_ledger_hashes.py` | the SHA-256 hashes of the ledger `certified_results.json` against the files present | -- |
 
 All of them agree with the original computations.

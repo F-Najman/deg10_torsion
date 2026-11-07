@@ -1,0 +1,31 @@
+SetColumns(0);SetQuitOnError(true);SetMemoryLimit(32*10^9);
+AttachSpec("work/degree9/shared/mdmagma/v2/mdmagma.spec");
+load "work/deg10/next_cases_20261030/cyclic_primepowers/deps/dt_expansions_local.m";
+tt:=Cputime();X:=MDX1(49,GF(2));FF:=FunctionField(Curve(X));AF,am:=AlgorithmicFunctionField(FF);
+assert Genus(AF) eq 69;
+b:=am(X`_coordinates[1]);c:=am(X`_coordinates[2]);
+j:=(1+c)^12/(b^3*(b+c*(c+1)^3));
+printf "DECIC_C49_FAST_CARTIER_MODEL genus=69 AF_degree=%o time=%o\n",Degree(AF),Cputime(tt);
+Om,om:=SpaceOfHolomorphicDifferentials(AF);B:=[om(v):v in Basis(Om)];assert #B eq 69;
+CM:=Matrix(GF(2),[Eltseq(Cartier(w)@@om):w in B]);U:=RowSpace(CM-IdentityMatrix(GF(2),69));assert Dimension(U) eq 68;
+cs:=Poles(j);assert Degree(j) eq 1176 and {*Degree(P):P in cs*} eq {*1^^21,3^^6,21*};
+rat:=[P:P in cs|Degree(P) eq 1];cub:=[P:P in cs|Degree(P) eq 3];
+cs:=rat cat cub;ds:=[Degree(P):P in cs];caps:=[1:i in [1..27]];caps[1]:=7;
+assert #cs eq 27;
+f:="/home/fnajman/deg10/repo/independent_checks/rerun_C49/c49_fast_cartier_jets.m";
+PrintFile(f,Sprintf("// Fresh common basis; degree10 first jets and one seventh jet.\nN:=49;D:=10;gx:=69;udim:=68;ds:=%o;caps:=%o;localjets:=AssociativeArray();basisjets:=AssociativeArray();",ds,caps):Overwrite:=true);
+PrintFile(f,Sprintf("CartierMatrix:=Matrix(GF(2),69,69,%o);ImageBasis:=Matrix(GF(2),68,69,%o);",Eltseq(CM),Eltseq(BasisMatrix(U))));
+printf "DECIC_C49_FAST_CARTIER_CUSPS chosen_rational=21 omitted_rational=0 cubic=6 Udim=68 time=%o\n",Cputime(tt);
+for i in [1..27] do
+ printf "DECIC_C49_FAST_CARTIER_JET_START i=%o degree=%o cap=%o time=%o\n",i,ds[i],caps[i],Cputime(tt);
+ es:=DifferentialExpansionMatrices(B,cs[i],caps[i]);assert #es eq caps[i];
+ assert &and[Nrows(M) eq 69 and Ncols(M) eq ds[i]:M in es];
+ A:=HorizontalJoin(es);PrintFile(f,Sprintf("basisjets[%o]:=Matrix(GF(2),69,%o,%o);",i,Ncols(A),Eltseq(A)));
+ for m in [1..caps[i]] do
+  J:=BasisMatrix(U)*Submatrix(A,1,1,69,m*ds[i]);assert Rank(J) eq m*ds[i];
+  PrintFile(f,Sprintf("localjets[<%o,%o>]:=Matrix(GF(2),68,%o,%o);",i,m,Ncols(J),Eltseq(J)));
+ end for;
+ printf "DECIC_C49_FAST_CARTIER_JET_DONE i=%o time=%o\n",i,Cputime(tt);
+end for;
+PrintFile(f,"print \"DECIC_C49_FAST_MIXED10_JET_DATA_READY\";");
+printf "DECIC_C49_FAST_CARTIER_MIXED10_EXPORT_COMPLETE all27cusps=true one_common_basis=true time=%o\n",Cputime(tt);quit;
