@@ -1,0 +1,9 @@
+Loading "continuation_20261031b/C74/inputs/work/degree9/prime_orders/continued_20261026/P37/input_records.m"
+STAB37 degree=6 index=1 orbit_length=3 fixed_by_<10>=true
+STAB37 degree=6 index=2 orbit_length=18 fixed_by_<10>=false
+STAB37 degree=7 index=1 orbit_length=18 fixed_by_<10>=false
+STAB37 degree=9 index=1 orbit_length=18 fixed_by_<10>=false
+STAB37 degree=9 index=2 orbit_length=18 fixed_by_<10>=false
+STAB37 degree=9 index=3 orbit_length=2 fixed_by_<10>=true
+STAB37 degree=9 index=4 orbit_length=1 fixed_by_<10>=true
+STAB37_DONE: orbit lengths 3,18 (degree 6), 18 (degree 7), 18,18,2,1 (degree 9), <10> fixes the orbits of length 3, 2, 1 (0.010 s)

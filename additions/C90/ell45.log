@@ -1,0 +1,13 @@
+Loading "continuation_20261031a/C90/inputs/pair_af_place_linear.m"
+C90_ELL45_MODEL genus 41 20.140
+C90_ELL45 orbit=1 orbit_length=6 deg(G)=10 ell(G)=1 time=21.740
+C90_ELL45 orbit=2 orbit_length=12 deg(G)=10 ell(G)=1 time=23.060
+C90_ELL45 orbit=3 orbit_length=12 deg(G)=10 ell(G)=1 time=24.390
+C90_ELL45 orbit=4 orbit_length=12 deg(G)=10 ell(G)=1 time=25.710
+C90_ELL45 orbit=5 orbit_length=12 deg(G)=10 ell(G)=1 time=27.050
+C90_ELL45 orbit=6 orbit_length=12 deg(G)=10 ell(G)=1 time=28.380
+C90_ELL45 orbit=7 orbit_length=12 deg(G)=10 ell(G)=1 time=29.710
+C90_ELL45 orbit=8 orbit_length=12 deg(G)=10 ell(G)=1 time=31.040
+C90_ELL45 orbit=9 orbit_length=12 deg(G)=10 ell(G)=1 time=32.310
+C90_ELL45 orbit=10 orbit_length=6 deg(G)=10 ell(G)=1 time=33.560
+C90_ELL45_COMPLETE orbits=10 points=108 all_ell_one=true time=33.600

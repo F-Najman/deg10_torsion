@@ -1,0 +1,11 @@
+SETUP 96 2 888 12 12.690
+genus 25 degree 1 places 24
+RR420 1 [2,2] pair [1,82] pairs 300 dimensions { 1 }
+17.430
+RR420 2 [2,2] pair [2,84] pairs 300 dimensions { 1 }
+21.910
+RR420 3 [4] orbit 4 pairs 300 dimensions { 1 }
+25.260
+RR420 4 [4] orbit 12 pairs 300 dimensions { 1 }
+28.580
+RR420_DONE all 1200 Riemann-Roch dimensions equal 1 28.590

@@ -1,0 +1,7 @@
+SQUARE13_ZETA6 4
+SQUARE13_CUSP_BLOCK_DEGREES [ 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1 ]
+SQUARE13_L_EFFECTIVE 2791 [ 0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0 ]
+degree 10
+SQUARE13_ELL 2791 2
+SQUARE13_SQUARE_NORM member=[ 1, 11 ] degrees=[ 2, 3 ] multiplicities=[ 2, 2 ] all_even=true all_cuspidal=false
+SQUARE13_COMPLETE class=2791 ell=2 members=14 square_norms=1 twice_noncuspidal=1 time=2.030

@@ -1,0 +1,9 @@
+TORS60 curve 1: E(M)_tors has invariants [ 2, 30 ]
+TORS60 curve 1: E/<T> for x(T) = -585*a^4 - 176*a^3 + 1878*a^2 - 1313*a - 837 has torsion invariants [ 30 ] over M
+TORS60 curve 1: E/<T> for x(T) = -w + 1/4*(-2564*a^4 - 768*a^3 + 8231*a^2 - 5766*a - 3657) has torsion invariants [ 30 ] over M
+TORS60 curve 1: E/<T> for x(T) = w has torsion invariants [ 30 ] over M
+TORS60 curve 2: E(M)_tors has invariants [ 2, 30 ]
+TORS60 curve 2: E/<T> for x(T) = 1/4*(112*a^4 + 64*a^3 - 359*a^2 + 147*a + 273) has torsion invariants [ 30 ] over M
+TORS60 curve 2: E/<T> for x(T) = -w - 60*a^4 + 112*a^3 - 34*a^2 - 68*a + 22 has torsion invariants [ 30 ] over M
+TORS60 curve 2: E/<T> for x(T) = w has torsion invariants [ 30 ] over M
+TORS60_DONE: the 6 curves 2-isogenous over M to E_30 or E_30' all have torsion Z/30Z over M (1.590 s)
